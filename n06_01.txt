@@ -1,0 +1,306 @@
+[msg MSG_0407_NPC004_01 [Школьник]]
+[s]Чтоооооо? Я не вижу своего имени...[n][w][e]
+##-[s]Whaaaaaat? I don't see my name...[n][w][e]-##
+[s]Что мне делать?.. Что мне делать?..[n][w][e]
+##-[s]What should I do...?[n]What should I do...?[n][w][e]-##
+
+[msg MSG_0407_NPC005_01 [Школьница]]
+[s]Ох, великолепно... У меня самый плохой учитель[n]на свете...[n][w][e]
+##-[s]Oh, great... I have the worst[n]teacher ever...[n][w][e]-##
+
+[msg MSG_0407_NPC007_01 [Школьник]]
+[s]Им нет необходимости публиковать имена[n]детей, которые будут в нашем классе...[n][w][e]
+##-[s]There's no need for them to post[n]the names of the kids who are[n]gonna be in our class...[n][w][e]-##
+[s]Я имею в виду, что мы все равно никогда их[n]больше не увидим после выпуска.[n][w][e]
+##-[s]I mean, we'll never see them again[n]after we graduate anyways.[n][w][e]-##
+
+[msg MSG_0407_NPC008_01 [Школьница]]
+[s]А? В Кабинете Преподавателя? Эм... Я думаю,[n]что так оно и есть.[n][w][e]
+##-[s]Huh? The Faculty Office?[n]Um... I think it's that way.[n][w][e]-##
+[s]Вообще-то, я здесь новичок, так что тебе,[n]наверное, стоит спросить кого-нибудь[n]другого.[n][w][e]
+##-[s]Actually, I'm new here,[n]so you should probably ask[n]someone else.[n][w][e]-##
+
+[msg NPC_SHOP_HELLO [Продавец]]
+[s]Всем привет! Добро пожаловать![n][w][e]
+##-[s]Hi there! Welcome![n][w][e]-##
+
+[msg NPC_SHOP_WAHT]
+[s]> Что ты будешь делать?[n][w][e]
+##-[s]>What will you do?[n][w][e]-##
+
+[sel NPC_SHOP_SEL top]
+[s]Покупайте Предметы[e]
+##-[s]Buy Items[e]-##
+[s]Поговорить[e]
+##-[s]Talk[e]-##
+[s]Ничего не делай[e]
+##-[s]Don't do anything[e]-##
+
+[msg msg_COMPANY_TALK000 [Продавец]]
+[s]Хм? Вас, кажется, интересует то, что у нас[n]есть на продажу... Вы, должно быть, новый[n]студент![n][w][e]
+##-[s]Hm? You seem interested in what[n]we've got on sale... You must[n]be a new student![n][w][e]-##
+[s]У меня не хватит хлеба на всех, так что,[n]если хочешь, приходи пораньше.[n][w][e]
+##-[s]I don't have enough bread for[n]everyone, so if you want some,[n]come early.[n][w][e]-##
+[s]У меня нет покупателей после окончания[n]школы, так что я не могу продать так много.[n][w][e]
+##-[s]I don't have any customers once[n]school's out, so I can't sell[n]that much.[n][w][e]-##
+
+[msg msg_COMPANY_TALK001 [Продавец]]
+[s]Каждый день я выпускаю несколько новых[n]вещей.[n][w][e]
+##-[s]Every day I put out a few[n]new things.[n][w][e]-##
+[s]Если бы я просто продавал одно и то же изо[n]дня в день, вам, ребята, это бы наскучило,[n]верно?[n][w][e]
+##-[s]If I just sold the same thing day[n]in, day out, you guys would get[n]bored of it, right?[n][w][e]-##
+
+[msg msg_COMPANY_TALK002 [Продавец]]
+[s]Вы слышали, что один из студентов упал в[n]обморок? С ней все в порядке?[n][w][e]
+##-[s]Did you hear that one of the[n]students fainted? Is she all[n]right?[n][w][e]-##
+[s]Хммм... Там происходит много странных[n]вещей. Осторожно.[n][w][e]
+##-[s]Hmmm... There's a lot of weird[n]stuff going on out there.[n]Watch out.[n][w][e]-##
+
+[msg msg_COMPANY_TALK003 [Продавец]]
+[s]Я думаю, что жара не беспокоит вас, ребята,[n]когда вы носите свою летнюю одежду.[n][w][e]
+##-[s]I guess the heat doesn't bother[n]you guys when you're wearing[n]your summer clothes.[n][w][e]-##
+[s]Как по мне... Здесь нет кондиционера, и[n]становится так жарко![n][w][e]
+##-[s]As for me... There's no air[n]conditioner in here, and it gets[n]so hot![n][w][e]-##
+
+[msg msg_COMPANY_TALK004 [Продавец]]
+[s]Уже почти летние каникулы.[n][w][e]
+##-[s]It's almost summer vacation.[n][w][e]-##
+[s]Магазин будет закрыт на время, так что...[n][w][e]
+##-[s]The shop will be closed for the[n]duration, so...[n][w][e]-##
+[s]Полагаю, это означает, что мне не платят.[n]Ох, этот месяц будет трудным...[n][w][e]
+##-[s]I guess that means I don't get paid.[n]Argh, this month is going to be[n]tight...[n][w][e]-##
+
+[msg msg_COMPANY_TALK005 [Продавец]]
+[s]В последнее время я часто вижу в новостях[n]этот Синдром апатии. Похоже, их стало[n]больше.[n][w][e]
+##-[s]I see that Apathy Syndrome stuff on[n]the news a lot these days. It seems[n]like there's more of them.[n][w][e]-##
+[s]Мне страшно... Вам, ребята, тоже следует[n]быть начеку.[n][w][e]
+##-[s]I'm scared... You guys should[n]watch out, too.[n][w][e]-##
+[s]Если это распространится слишком широко и[n]школа закроется, мне придется искать другую[n]работу...[n][w][e]
+##-[s]If it spreads too wide and the[n]school shuts down, I'd have to[n]look for another job...[n][w][e]-##
+
+[msg msg_COMPANY_TALK006 [Продавец]]
+[s]Я слышал, что Фестиваль культуры отменили.[n]Слишком плохой.[n][w][e]
+##-[s]I heard the Culture Festival was[n]canceled. Too bad.[n][w][e]-##
+[s]Мой дом промок во время этого тайфуна! Это[n]было огромной проблемой.[n][w][e]
+##-[s]My house got soaked in that[n]typhoon! It was a huge hassle.[n][w][e]-##
+
+[msg msg_COMPANY_TALK007 [Продавец]]
+[s]Грустно, когда умирает какой-нибудь[n]студент, каким бы он ни был.[n][w][e]
+##-[s]It's sad when any student dies,[n]no matter what they were like.[n][w][e]-##
+[s]Я чувствую себя так, словно потеряла одного[n]из своих собственных детей.[n][w][e]
+##-[s]I feel like I lost one of my own[n]children.[n][w][e]-##
+
+[msg msg_COMPANY_TALK007_G [Продавец]]
+[s]Я беспокоюсь о том студенте, который был в[n]коме.[n][w][e]
+##-[s]I'm worried about that student who's[n]been in a coma.[n][w][e]-##
+[s]Я слышал, что у него нет никаких шансов на[n]выздоровление, но я не думаю, что мы должны[n]сдаваться до конца.[n][w][e]
+##-[s]I heard he doesn't have any chance of[n]recovery, but I don't think we should[n]give up until the end.[n][w][e]-##
+
+[msg msg_COMPANY_TALK008 [Продавец]]
+[s]В последнее время на улице становится[n]прохладнее.[n][w][e]
+##-[s]It's cooling down outside lately.[n][w][e]-##
+[s]В школе нет обогревателя, поэтому зимой[n]здесь бывает очень холодно.[n][w][e]
+##-[s]There's no heater in the school,[n]so it gets freezing cold in[n]the winter.[n][w][e]-##
+
+[msg msg_COMPANY_TALK009 [Продавец]]
+[s]Выбирай все, что тебе нравится.[n][w][e]
+##-[s]Pick anything you like.[n][w][e]-##
+
+[msg msg_COMPANY_TALK010 [Продавец]]
+[s]Выбирай все, что тебе нравится.[n][w][e]
+##-[s]Pick anything you like.[n][w][e]-##
+
+[msg msg_COMPANY_TALK011 [Продавец]]
+[s]Выбирай все, что тебе нравится.[n][w][e]
+##-[s]Pick anything you like.[n][w][e]-##
+
+[msg msg_COMPANY_SELLTALK [Продавец]]
+[s]Какой из них вам бы понравился?  (Деньги: [clr 1][f 2 4 0][n]Иена[clr 0])[n][w][e]
+##-[s]Which one would you like?[n] (Money: [clr 1][f 2 4 0] Yen[clr 0])[n][w][e]-##
+
+[sel COMPANY_SELL_ITEM top]
+[s]Зевок-Б-Ушел (1000 иен)[e]
+##-[s]Yawn-B-Gone (1000 yen)[e]-##
+[s]Крабовый хлеб (80 иен)[e]
+##-[s]Crab Bread (80 yen)[e]-##
+[s]Жареный хлеб (80 иен)[e]
+##-[s]Fried Bread (80 yen)[e]-##
+[s]Хлеб Якисоба (100 иен)[e]
+##-[s]Yakisoba Bread (100 yen)[e]-##
+[s]Яблочный штрудель (100 иен)[e]
+##-[s]Apple Strudel (100 yen)[e]-##
+[s]Хлеб с дыней (100 иен)[e]
+##-[s]Melon Bread (100 yen)[e]-##
+[s]Сэндвич с котлетой (300 иен)[e]
+##-[s]Cutlet Sandwich (300 yen)[e]-##
+[s]Обложка книги (5000 иен)[e]
+##-[s]Book Cover (5000 yen)[e]-##
+[s]Конец[e]
+##-[s]End[e]-##
+
+[sel COMPANY_SELL_ITEM_SAT top]
+[s]Зевок-Б-Ушел (1000 иен)[e]
+##-[s]Yawn-B-Gone (1000 yen)[e]-##
+[s]Крабовый хлеб (80 иен)[e]
+##-[s]Crab Bread (80 yen)[e]-##
+[s]Жареный хлеб (80 иен)[e]
+##-[s]Fried Bread (80 yen)[e]-##
+[s]Хлеб Якисоба (100 иен)[e]
+##-[s]Yakisoba Bread (100 yen)[e]-##
+[s]Яблочный штрудель (100 иен)[e]
+##-[s]Apple Strudel (100 yen)[e]-##
+[s]Хлеб с дыней (100 иен)[e]
+##-[s]Melon Bread (100 yen)[e]-##
+[s]Сэндвич с котлетой (300 иен)[e]
+##-[s]Cutlet Sandwich (300 yen)[e]-##
+[s]Обложка книги (5000 иен)[e]
+##-[s]Book Cover (5000 yen)[e]-##
+[s]Униформа Айгиса (10000 иен)[e]
+##-[s]Aigis's Uniform (10000 yen)[e]-##
+[s]Следующий[e]
+##-[s]Next[e]-##
+[s]Конец[e]
+##-[s]End[e]-##
+
+[msg msg_COMPANY_BUY [Продавец]]
+[s]Вот, держи.[n][w][e]
+##-[s]Here you go.[n][w][e]-##
+[s][f 1 5] [n]> Купил [f 2 5 3 65535 0].[n][w][e]
+##-[s][f 1 5] [n]> Bought [f 2 5 3 65535 0].[n][w][e]-##
+
+[msg msg_COMPANY_NOMONEY [Продавец]]
+[s]Эй, у тебя недостаточно денег.[n][w][e]
+##-[s]Hey, you don't have enough money.[n][w][e]-##
+
+[msg msg_COMPANY_NOITEM [Продавец]]
+[s]Извините, у нас все распродано.[n][w][e]
+##-[s]Sorry, we're sold out.[n][w][e]-##
+[s]Я не могу выпустить так много сразу, потому[n]что они могут испортиться.  Итак, я продаю[n]всего несколько штук в день.[n][w][e]
+##-[s]I can't put that many out at once[n]because they might go bad.  So,[n]I'm selling just a few per day.[n][w][e]-##
+
+[msg msg_COMPANY_NOITEM_TUKAR [Продавец]]
+[s]Извините, у нас все распродано.[n][w][e]
+##-[s]Sorry, we're sold out.[n][w][e]-##
+[s]Я получаю [f 4 4 3 0 1522] каждую субботу, так что ждите до[n]тех пор.[n][w][e]
+##-[s]I get [f 4 4 3 0 1522] in every[n]Saturday, so wait until then.[n][w][e]-##
+
+[msg msg_COMPANY_ITEMMAX [Продавец]]
+[s]Ты больше не можешь держать в руках никаких[n]вещей.[n][w][e]
+##-[s]You can't hold any more things.[n][w][e]-##
+
+[msg MSG_4B_NPC009_01 [Школьник]]
+[s]Эй... Я думаю, что эта цыпочка смотрит на[n]меня...[n][w][e]
+##-[s]Hey... I think that chick's[n]checking me out...[n][w][e]-##
+[s]О да, чувак, она ОПРЕДЕЛЕННО меня[n]разглядывает...[n][w][e]
+##-[s]Oh yeah, man, she's DEFINITELY[n]checking me out...[n][w][e]-##
+
+[msg MSG_4B_NPC010_01 [Школьница]]
+[s]*вздох* Он ооочень горячий...[n][w][e]
+##-[s]*sigh* He's sooo hot...[n][w][e]-##
+[s]Эм, зачем я тебе это рассказываю?[n][w][e]
+##-[s]Um, why am I telling you this?[n][w][e]-##
+[s]Ну, неважно... Ты должна признать, что он[n]красавчик...[n][w][e]
+##-[s]Well, whatever... You have to admit,[n]he IS a hottie...[n][w][e]-##
+
+[msg MSG_4B_NPC010_01_G [Школьница]]
+[s]*вздох* Он ооочень горячий...[n][w][e]
+##-[s]*sigh* He's sooo hot...[n][w][e]-##
+[s]Тебе тоже так не кажется?[n][w][e]
+##-[s]Don't you think so, too?[n][w][e]-##
+[s]Чувак, он ооочень горячий...[n][w][e]
+##-[s]Man, he's sooo hot...[n][w][e]-##
+
+[msg MSG_KAIDAN_NPC000_01 [Школьница]]
+[s]Я никогда не ожидал, что что-то подобное[n]случится с кем-то из этой школы...[n][w][e]
+##-[s]I never expected anything like[n]this to happen to someone from[n]this school...[n][w][e]-##
+
+[msg MSG_KAIDAN_NPC000_02 [Школьница]]
+[s]Та девушка, которая упала в обморок, учится[n]в моем классе...[n][w][e]
+##-[s]That girl who collapsed is in my class...[n][w][e]-##
+[s]Я слышал, что она убегала из дома и[n]проводила всю ночь на улице.[n][w][e]
+##-[s]I heard she would run away from home[n]and spend the entire night outside.[n][w][e]-##
+[s]Наверное, поэтому она так и закончила...[n][w][e]
+##-[s]That's probably why she ended up[n]like that...[n][w][e]-##
+
+[msg MSG_KAIDAN_NPC001_01 [Школьница]]
+[s]Моя сестра тоже ходит сюда.[n][w][e]
+##-[s]My sister goes here, too.[n][w][e]-##
+[s]Хорошо, что она не из тех девушек, которые[n]гуляют всю ночь...[n][w][e]
+##-[s]It's a good thing she's not the kind[n]of girl who stays out all night...[n][w][e]-##
+
+[msg MSG_KAIDAN_NPC001_02 [Школьница]]
+[s]Один из учеников, который упал в обморок,[n]тоже был в классе моей сестры...[n][w][e]
+##-[s]One of the students who collapsed[n]was in my sister's class too...[n][w][e]-##
+[s]Я думаю, она тоже убегала из дома.[n][w][e]
+##-[s]I guess she was running away[n]from home as well.[n][w][e]-##
+[s]Я слышал, она всегда околачивалась вокруг[n]этих головорезов в том "месте"...[n][w][e]
+##-[s]I heard she always hung around[n]those thugs at that "place"...[n][w][e]-##
+[s]Должно быть, там что-то случилось.[n][w][e]
+##-[s]Something must've happened there.[n][w][e]-##
+
+[msg FIRST_SCHOOL_01 [Учитель]]
+[s][bup 48 161 65535 2]Хм. Дети в наши дни не знают, как проявлять[n]уважение к старшим. [n][w][e]
+##-[s][bup 48 161 65535 2]Hmph. Kids these days don't know how[n]to show respect for their elders. [n][w][e]-##
+[s]Мы их учителя. Мы прожили дольше, чем они.[n][w][e]
+##-[s]We're their teachers. We've lived[n]longer than them.[n][w][e]-##
+[s]Но Морияме и ее банде пришлось обрушить это[n]на меня в самом начале семестра...[n][w][e]
+##-[s]But Moriyama and her gang had to pull[n]that on me at the very beginning of[n]the term...[n][w][e]-##
+[s][f 4 7 0 0 0][f 1 5]Продавец[n]...Извините, сэр, но мне нужно идти. Пришло[n]время разместить мой заказ. [n][w][e]
+##-[s][f 4 7 0 0 0][f 1 5]Продавец[n]...I'm sorry, sir, but I have to go.[n]It's time to place my order. [n][w][e]-##
+[s][f 1 5]Учитель[n][bup 48 161 65535 2]Даже ТЫ прогоняешь меня? Какой-нибудь[n]способ начать учебный год...[n][w][e]
+##-[s][f 1 5]Apparent Teacher[n][bup 48 161 65535 2]Even YOU'RE shooing me away? Some way[n]to start the school year...[n][w][e]-##
+[s]Я не думаю, что мои нервы выдержат это.[n][w][e]
+##-[s]I don't think my nerves can take this.[n][w][e]-##
+[s][f 4 7 0 0 0][f 1 5]Продавец[n]Хорошо, я понял.[n][w][e]
+##-[s][f 4 7 0 0 0][f 1 5]Продавец[n]Alright, I get it.[n][w][e]-##
+[s]Ты хочешь, чтобы я заказал еще тех хлебцев[n]со сливками, которые тебе так нравятся,[n]верно?[n][w][e]
+##-[s]You want me to order more of those[n]cream-filled breads you like so much,[n]right?[n][w][e]-##
+[s]Ты мог бы просто спросить...[n][w][e]
+##-[s]You could have just asked...[n][w][e]-##
+
+[msg FIRST_SCHOOL_03 [ ]]
+[s]> Разговаривают два студента.[n][w][e]
+##-[s]> Two students are talking.[n][w][e]-##
+[s][f 1 5]Сердитая Девушка[n][bup 31 3 65535 3][bup 30 103 65535 1]Привет, Каз... Почему ты носишь свою[n]физкультурную форму?![n][w][e]
+##-[s][f 1 5]Angry Girl[n][bup 31 3 65535 3][bup 30 103 65535 1]Hey, Kaz... Why are you wearing[n]your P.E. uniform!?[n][w][e]-##
+[s]Школа только началась![n][w][e]
+##-[s]School just started![n][w][e]-##
+[s]Тебе действительно нужно найти место, где[n]можно переодеться в нормальную одежду![n][w][e]
+##-[s]You really oughtta find somewhere[n]to change into some normal clothes![n][w][e]-##
+[s][f 1 5]Парень в спортивном костюме[n]Эхх, я думаю...[n][w][e]
+##-[s][f 1 5]Track-Suited Guy[n]Ehh, I guess...[n][w][e]-##
+[s][bup 30 104 65535 1]Хорошо, хорошо, хорошо. Перестань так на[n]меня смотреть...[n][w][e]
+##-[s][bup 30 104 65535 1]Okay, okay, fine. Quit glaring at[n]me like that...[n][w][e]-##
+[s]Эй, где доска объявлений с вывешенными[n]классными комнатами...?[n][w][e]
+##-[s]Hey, where's the bulletin board[n]with the homerooms posted...?[n][w][e]-##
+[s][f 1 5]Сердитая Девушка[n]Это ПРЯМО ЗДЕСЬ! Ты в классе F, Каз.[n][w][e]
+##-[s][f 1 5]Angry Girl[n]It's RIGHT THERE![n]You're in Class F, Kaz.[n][w][e]-##
+[s]Я в другом классе, так что я не могу за[n]тобой присматривать... *вздох* Иногда я[n]беспокоюсь о тебе.[n][w][e]
+##-[s]I'm in a different homeroom, so I[n]can't keep an eye on you... *sigh*[n]I worry about you sometimes.[n][w][e]-##
+
+[msg FIRST_SCHOOL_03_02 [ ]]
+[s]> Разговаривают два студента.[n][w][e]
+##-[s]> Two students are talking.[n][w][e]-##
+[s][f 1 5]Сердитая Девушка[n][bup 31 3 65535 3][bup 30 104 65535 1]Не заставляй меня все время смотреть на[n]тебя...[n][w][e]
+##-[s][f 1 5]Angry Girl[n][bup 31 3 65535 3][bup 30 104 65535 1]Don't make me watch you all the time...[n][w][e]-##
+[s][f 1 5]Парень в спортивном костюме[n]Кто ты, моя мать?[n][w][e]
+##-[s][f 1 5]Track-Suited Guy[n]Who are you, my mother?[n][w][e]-##
+
+[msg FIRST_SCHOOL_04_MALE [Школьник]]
+[s][bup 22 1 65535 2]Хмм... О, вот оно. Класс F, а?..[n][w][e]
+##-[s][bup 22 1 65535 2]Hmm... Oh, there it is.[n]Class F, huh...?[n][w][e]-##
+[s]Наученный... Что?! Мисс Ториуми!?[n][w][e]
+##-[s]Taught by... What!? Ms. Toriumi!?[n][w][e]-##
+[s][bup 22 4 65535 2]Ого... Ну, она старше меня, но.....[n][w][e]
+##-[s][bup 22 4 65535 2]Aurgh... Well, she IS older than[n]me, but...[n][w][e]-##
+[s]Я надеялся на мисс Кано...[n][w][e]
+##-[s]I was hoping for Ms. Kanou...[n][w][e]-##
+
+[msg FIRST_SCHOOL_04_FEMALE [Девушка с умным взглядом]]
+[s][bup 29 1 65535 2]Оу... Мы учимся в разных классах.[n][w][e]
+##-[s][bup 29 1 65535 2]Aww... We're in different classes.[n][w][e]-##
+[s]Эх, неважно.[n][w][e]
+##-[s]Eh, whatever.[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
