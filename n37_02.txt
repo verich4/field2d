@@ -1,0 +1,416 @@
+[sel TALK_SEL top]
+[s]Добавьте в свою вечеринку[e]
+##-[s]Add to your party[e]-##
+[s]Удалить с вашей вечеринки[e]
+##-[s]Remove from your party[e]-##
+[s]Сделано[e]
+##-[s]Done[e]-##
+
+[sel BACK_UP_SEL top]
+[s]Спросите о цели[e]
+##-[s]Ask about the target[e]-##
+[s]Сделано[e]
+##-[s]Done[e]-##
+
+[sel PARTY_SEL top]
+[s]Юкари[e]
+##-[s]Yukari[e]-##
+[s]Айгис[e]
+##-[s]Aigis[e]-##
+[s]Мицуру[e]
+##-[s]Mitsuru[e]-##
+[s]Дзюнпэй[e]
+##-[s]Junpei[e]-##
+[s]Акихико[e]
+##-[s]Akihiko[e]-##
+[s]Кругозор[e]
+##-[s]Ken[e]-##
+[s]Синдзиро[e]
+##-[s]Shinjiro[e]-##
+[s]Коромару[e]
+##-[s]Koromaru[e]-##
+[s]Сделано[e]
+##-[s]Done[e]-##
+
+[msg YUKARI_PARTY_IN [Yukari]]
+[s][bup 2 204 0 0]Вот оно...[n][w][e]
+##-[s][bup 2 204 0 0]This is it...[n][w][e]-##
+
+[msg YUKARI_PARTY_IN_AFTER [Yukari]]
+[s][bup 2 204 0 0]Ладно, поехали.[n][w][e]
+##-[s][bup 2 204 0 0]Okay, let's go.[n][w][e]-##
+
+[msg YUKARI_PARTY_OUT [Yukari]]
+[s][bup 2 204 0 0]Это конец...[n][w][e]
+##-[s][bup 2 204 0 0]This is the end...[n][w][e]-##
+
+[msg YUKARI_PARTY_OUT_AFTER [Yukari]]
+[s][bup 2 204 0 0]Хорошо. Будь осторожен...[n][w][e]
+##-[s][bup 2 204 0 0]Okay. Be careful...[n][w][e]-##
+
+[msg YUKARI_PARTY_OVER [Yukari]]
+[s][bup 2 204 0 0]...Вечеринка уже переполнена.[n][w][e]
+##-[s][bup 2 204 0 0]...The party is already full.[n][w][e]-##
+
+[msg YUKARI_PARTY_CHANGE [Yukari]]
+[s][bup 2 204 0 0]С кем мне следует поменяться?[n][w][e]
+##-[s][bup 2 204 0 0]Who should I switch with?[n][w][e]-##
+
+[msg AEGIS_PARTY_IN [Aigis]]
+[s][bup 3 201 0 0]Если мы победим этого, все будет кончено.[n][w][e]
+##-[s][bup 3 201 0 0]If we defeat this one, it will all be over.[n][w][e]-##
+
+[msg AEGIS_PARTY_IN_AFTER [Aigis]]
+[s][bup 3 201 0 0]Роджер.[n][w][e]
+##-[s][bup 3 201 0 0]Roger.[n][w][e]-##
+
+[msg AEGIS_PARTY_OUT [Aigis]]
+[s][bup 3 201 0 0]Давайте продолжим.[n][w][e]
+##-[s][bup 3 201 0 0]Let us proceed.[n][w][e]-##
+
+[msg AEGIS_PARTY_OUT_AFTER [Aigis]]
+[s][bup 3 201 0 0]...Понял.[n][w][e]
+##-[s][bup 3 201 0 0]...Understood.[n][w][e]-##
+
+[msg AEGIS_PARTY_OVER [Aigis]]
+[s][bup 3 201 0 0]...На вечеринке нет места.[n][w][e]
+##-[s][bup 3 201 0 0]...There is no room in the party.[n][w][e]-##
+
+[msg AEGIS_PARTY_CHANGE [Aigis]]
+[s][bup 3 201 0 0]...Кого я должен заменить?[n][w][e]
+##-[s][bup 3 201 0 0]...Who should I replace?[n][w][e]-##
+
+[msg MITSURU_PARTY_IN [Mitsuru]]
+[s][bup 4 201 0 0]Вот оно, ха...[n][w][e]
+##-[s][bup 4 201 0 0]This is it, huh...[n][w][e]-##
+
+[msg MITSURU_PARTY_IN_AFTER [Mitsuru]]
+[s][bup 4 201 0 0]Очень хорошо.[n][w][e]
+##-[s][bup 4 201 0 0]Very well.[n][w][e]-##
+
+[msg MITSURU_PARTY_OUT [Mitsuru]]
+[s][bup 4 201 0 0]Это был долгий путь, чтобы добраться до[n]этой точки...[n][w][e]
+##-[s][bup 4 201 0 0]It was a long journey to get to[n]this point...[n][w][e]-##
+
+[msg MITSURU_PARTY_OUT_AFTER [Mitsuru]]
+[s][bup 4 204 0 0]...Будь осторожен.[n][w][e]
+##-[s][bup 4 204 0 0]...Be careful.[n][w][e]-##
+
+[msg MITSURU_PARTY_OVER [Mitsuru]]
+[s][bup 4 201 0 0]...Вечеринка уже переполнена.[n][w][e]
+##-[s][bup 4 201 0 0]...The party is already full.[n][w][e]-##
+
+[msg MITSURU_PARTY_CHANGE [Mitsuru]]
+[s][bup 4 201 0 0]Кого я должен заменить?[n][w][e]
+##-[s][bup 4 201 0 0]Who should I replace?[n][w][e]-##
+
+[msg JUNPEI_PARTY_IN [Junpei]]
+[s][bup 5 203 0 0]Вот оно. Давайте выйдем на улицу с треском![n][w][e]
+##-[s][bup 5 203 0 0]This is it. Let's go out with a bang![n][w][e]-##
+
+[msg JUNPEI_PARTY_IN_AFTER [Junpei]]
+[s][bup 5 203 0 0]Ладно, понял.[n][w][e]
+##-[s][bup 5 203 0 0]Okay, gotcha.[n][w][e]-##
+
+[msg JUNPEI_PARTY_OUT [Junpei]]
+[s][bup 5 203 0 0]Поехали![n][w][e]
+##-[s][bup 5 203 0 0]Let's go![n][w][e]-##
+
+[msg JUNPEI_PARTY_OUT_AFTER [Junpei]]
+[s][bup 5 203 0 0]Хорошо....Не умирай.[n][w][e]
+##-[s][bup 5 203 0 0]Alright. ...Don't die.[n][w][e]-##
+
+[msg JUNPEI_PARTY_OVER [Junpei]]
+[s][bup 5 203 0 0]...Вечеринка переполнена, чувак.[n][w][e]
+##-[s][bup 5 203 0 0]...The party's full, man.[n][w][e]-##
+
+[msg JUNPEI_PARTY_CHANGE [Junpei]]
+[s][bup 5 203 0 0]С кем мне следует поменяться?[n][w][e]
+##-[s][bup 5 203 0 0]Who should I switch with?[n][w][e]-##
+
+[msg HUKA_BACK_UP [Fuuka]]
+[s][bup 6 201 0 0]Это будет твой последний бой. Будь[n]осторожен...[n][w][e]
+##-[s][bup 6 201 0 0]This will be your last fight.[n]Be careful...[n][w][e]-##
+
+[msg HUKA_ANALYSIS [Fuuka]]
+[s][bup 6 201 0 0]Эта штука, парящая перед тобой, - последняя[n]Тень.[n][w][e]
+##-[s][bup 6 201 0 0]That thing floating in front of you is[n]the last Shadow.[n][w][e]-##
+[s]Но он еще не сдвинулся с места.[n][w][e]
+##-[s]But, it hasn't moved yet.[n][w][e]-##
+
+[msg SANADA_PARTY_IN [Akihiko]]
+[s][bup 7 203 0 0]Не сдерживайся...[n][w][e]
+##-[s][bup 7 203 0 0]Don't hold back...[n][w][e]-##
+
+[msg SANADA_PARTY_IN_AFTER [Akihiko]]
+[s][bup 7 203 0 0]Ладно, поехали.[n][w][e]
+##-[s][bup 7 203 0 0]Alright, let's go.[n][w][e]-##
+
+[msg SANADA_PARTY_OUT [Akihiko]]
+[s][bup 7 203 0 0]Вы готовы?[n][w][e]
+##-[s][bup 7 203 0 0]Are you ready?[n][w][e]-##
+
+[msg SANADA_PARTY_OUT_AFTER [Akihiko]]
+[s][bup 7 203 0 0]...Тч, хорошо.[n][w][e]
+##-[s][bup 7 203 0 0]...Tch, fine.[n][w][e]-##
+
+[msg SANADA_PARTY_OVER [Akihiko]]
+[s][bup 7 203 0 0]...Вечеринка переполнена.[n][w][e]
+##-[s][bup 7 203 0 0]...The party's full.[n][w][e]-##
+
+[msg SANADA_PARTY_CHANGE [Akihiko]]
+[s][bup 7 203 0 0]С кем мне следует поменяться?[n][w][e]
+##-[s][bup 7 203 0 0]Who should I switch with?[n][w][e]-##
+
+[msg AMADA_PARTY_IN [Ken]]
+[s][bup 8 204 0 0]Мы через многое прошли...[n][w][e]
+##-[s][bup 8 204 0 0]We've been through a lot...[n][w][e]-##
+
+[msg AMADA_PARTY_IN_AFTER [Ken]]
+[s][bup 8 204 0 0]Я одолею его, несмотря ни на что![n][w][e]
+##-[s][bup 8 204 0 0]I'll defeat it no matter what![n][w][e]-##
+
+[msg AMADA_PARTY_OUT [Ken]]
+[s][bup 8 204 0 0]Мы должны остановить это... иначе...[n][w][e]
+##-[s][bup 8 204 0 0]We have to stop it... or else...[n][w][e]-##
+
+[msg AMADA_PARTY_OUT_AFTER [Ken]]
+[s][bup 8 204 0 0]...Я понимаю.[n][w][e]
+##-[s][bup 8 204 0 0]...I understand.[n][w][e]-##
+
+[msg AMADA_PARTY_OVER [Ken]]
+[s][bup 8 204 0 0]...Вечеринка уже переполнена.[n][w][e]
+##-[s][bup 8 204 0 0]...The party's already full.[n][w][e]-##
+
+[msg AMADA_PARTY_CHANGE [Ken]]
+[s][bup 8 204 0 0]С кем мне следует поменяться?[n][w][e]
+##-[s][bup 8 204 0 0]Who should I switch with?[n][w][e]-##
+
+[msg KOROMARU_PARTY_IN [Koromaru]]
+[s][bup 10 203 0 0]Грррр...[n][w][e]
+##-[s][bup 10 203 0 0]Grrrr...[n][w][e]-##
+
+[msg KOROMARU_PARTY_IN_AFTER [Koromaru]]
+[s][bup 10 203 0 0]Гав![n][w][e]
+##-[s][bup 10 203 0 0]Woof![n][w][e]-##
+
+[msg KOROMARU_PARTY_OUT [Koromaru]]
+[s][bup 10 203 0 0]Гррррр...[n][w][e]
+##-[s][bup 10 203 0 0]Grrrrr...[n][w][e]-##
+
+[msg KOROMARU_PARTY_OUT_AFTER [Koromaru]]
+[s][bup 10 204 0 0]* хныкать*[n][w][e]
+##-[s][bup 10 204 0 0]*whimper*[n][w][e]-##
+
+[msg KOROMARU_PARTY_OVER [Koromaru]]
+[s][bup 10 203 0 0]Гав![n][w][e]
+##-[s][bup 10 203 0 0]Woof![n][w][e]-##
+
+[msg KOROMARU_PARTY_CHANGE [Koromaru]]
+[s][bup 10 203 0 0]Гав! Гав![n][w][e]
+##-[s][bup 10 203 0 0]Woof! Woof![n][w][e]-##
+
+[msg YUKARI_EQUIP_TRANSFER [Yukari]]
+[s][bup 2 204 0 0]О, спасибо.[n][w][e]
+##-[s][bup 2 204 0 0]Oh, thanks.[n][w][e]-##
+
+[msg AEGIS_EQUIP_TRANSFER [Aigis]]
+[s][bup 3 201 0 0]Спасибо.[n][w][e]
+##-[s][bup 3 201 0 0]Thank you.[n][w][e]-##
+
+[msg MITSURU_EQUIP_TRANSFER [Mitsuru]]
+[s][bup 4 201 0 0]Спасибо. Я ценю это.[n][w][e]
+##-[s][bup 4 201 0 0]Thank you. I appreciate it.[n][w][e]-##
+
+[msg JUNPEI_EQUIP_TRANSFER [Junpei]]
+[s][bup 5 201 0 0]Спасибо, чувак.[n][w][e]
+##-[s][bup 5 201 0 0]Thanks, dude.[n][w][e]-##
+
+[msg SANADA_EQUIP_TRANSFER [Akihiko]]
+[s][bup 7 201 0 0]Спасибо.[n][w][e]
+##-[s][bup 7 201 0 0]Thanks.[n][w][e]-##
+
+[msg AMADA_EQUIP_TRANSFER [Ken]]
+[s][bup 8 201 0 0]Ух ты, спасибо![n][w][e]
+##-[s][bup 8 201 0 0]Wow, thanks![n][w][e]-##
+
+[msg KOROMARU_EQUIP_TRANSFER [Koromaru]]
+[s][bup 10 201 0 0]Гав![n][w][e]
+##-[s][bup 10 201 0 0]Woof![n][w][e]-##
+[s][f 4 7 0 0 0]> Коромару кажется счастливым.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Koromaru seems happy.[n][f 1 4][e]-##
+
+[msg YUKARI_GRADE_UP [Yukari]]
+[s][bup 2 204 0 0]К твоему СВЕДЕНИЮ - я сменил свое[n]оборудование.[n][w][e]
+##-[s][bup 2 204 0 0]FYI--I changed my equipment.[n][w][e]-##
+
+[msg AEGIS_GRADE_UP [Aigis]]
+[s][bup 3 201 0 0]Я подумал, что вы хотели бы знать... Я[n]сменил свое снаряжение.[n][w][e]
+##-[s][bup 3 201 0 0]I thought you would like to know...[n]I have changed my equipment.[n][w][e]-##
+
+[msg MITSURU_GRADE_UP [Mitsuru]]
+[s][bup 4 201 0 0]К вашему сведению, я сменил свое[n]оборудование.[n][w][e]
+##-[s][bup 4 201 0 0]For your information, I have changed[n]my equipment.[n][w][e]-##
+
+[msg JUNPEI_GRADE_UP [Junpei]]
+[s][bup 5 201 0 0]Я только что сменил снаряжение, чувак.[n][w][e]
+##-[s][bup 5 201 0 0]I just changed my equipment, dude.[n][w][e]-##
+
+[msg SANADA_GRADE_UP [Akihiko]]
+[s][bup 7 201 0 0]Просто чтобы ты знал, я сменил свое[n]оборудование.[n][w][e]
+##-[s][bup 7 201 0 0]Just so you know, I changed my[n]equipment.[n][w][e]-##
+
+[msg AMADA_GRADE_UP [Ken]]
+[s][bup 8 201 0 0]Я сменил свое оборудование, хорошо?[n][w][e]
+##-[s][bup 8 201 0 0]I changed my equipment, okay?[n][w][e]-##
+
+[msg KOROMARU_GRADE_UP [Koromaru]]
+[s][bup 10 201 0 0]Гав![n][w][e]
+##-[s][bup 10 201 0 0]Woof![n][w][e]-##
+[s][f 4 7 0 0 0]> Оборудование Коромару, похоже, новое.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Koromaru's equipment seems to be new.[n][f 1 4][e]-##
+
+[msg YUKARI_EQUIP_REACTION [右宇 ゆЗり]]
+[s][bup 2 205 0 0]яЯ…ёжП! Пёй稀НЯв…?[n][w][e]
+##-[s][bup 2 205 0 0]яЯ…ёжПれ![n]Пんёй稀НろЯв…?[n][w][e]-##
+[s][bup 2 208 0 0]вЗ、リーダー秀й繍宴ЯшЛёБ…? …УГИёБё。[n][w][e]
+##-[s][bup 2 208 0 0]вЗ、リーダー秀й繍宴ЯшЛёБ…?[n]…УょГИёБёぁ。[n][w][e]-##
+[s][bup 2 204 0 0]щФ廻叡дЗж、兄寓卯ЧёБ…[n][w][e]
+##-[s][bup 2 204 0 0]щФ廻叡дЗж、兄寓卯ЧらんёБ…[n][w][e]-##
+
+[msg YUKARI_EQUIP_SP_REACTION [右宇 ゆЗり]]
+[s][bup 2 208 0 0]…вЗС。[n][w][e]
+##-[s][bup 2 208 0 0]…вЗС。[n][w][e]-##
+[s]П稀Яв、Щй元斎С…[n][w][e]
+##-[s]Пれ稀ろЯв、Щй元斎С…[n][w][e]-##
+[s][bup 2 203 0 0]リーダー秀й繍宴Ъи? カンペキ繍宴Ъи?[n][w][e]
+##-[s][bup 2 203 0 0]リーダー秀й繍宴Ъよи?[n]カンペキ繍宴Ъよи?[n][w][e]-##
+[s][bup 2 208 0 0]……。[n][w][e]
+##-[s][bup 2 208 0 0]……。[n][w][e]-##
+[s][bup 2 207 0 0]…ББ、稀Яв。 硯ж稀溢ёБУ…[n][w][e]
+##-[s][bup 2 207 0 0]…ББよ、稀るЯв。[n]硯ж稀る溢ёБУ…[n][w][e]-##
+
+[msg AEGIS_EQUIP_REACTION [アイギス]]
+[s][bup 3 201 0 0]Пк、技З…[n][w][e]
+##-[s][bup 3 201 0 0]Пれк、技З…[n][w][e]-##
+[s]兄寓拒侍児Г称дУв щдГ厩И子СдБГ拒гХи。[n][w][e]
+##-[s]兄寓拒侍を児Г称дУв[n]щдГ厩И子СれるдБГ拒гХи。[n][w][e]-##
+[s]ЫУж魚渇УБгщХ![n][w][e]
+##-[s]わЫУж魚渇УБгありщХ![n][w][e]-##
+
+[msg AEGIS_EQUIP_SP_REACTION [アイギス]]
+[s][bup 3 201 0 0]Пк…[n][w][e]
+##-[s][bup 3 201 0 0]Пれк…[n][w][e]-##
+[s][bup 3 202 0 0][f 4 2]Ск、 ПГБГ拒、Ж嫁ЙёгХи…[n][w][e]
+##-[s][bup 3 202 0 0][f 4 2]Сんк、[n]ПГБГ拒、Ж嫁ЙёんгХи…[n][w][e]-##
+[s]ЪЯвП、閏較宴ФюёБгХУ…[n][w][e]
+##-[s]ЪЯвПれ、閏較宴ФюёБгХУ…[n][w][e]-##
+[s]、БЕ、ЫУк樫韓徽БщЧ。 ИЫЛ政ЙщХ。[n][w][e]
+##-[s]あ、БЕ、わЫУк樫韓徽БщЧんよ。[n]ありИЫЛ政ЙщХ。[n][w][e]-##
+
+[msg MITSURU_EQUIP_REACTION [因姻 院陰]]
+[s][bup 4 207 0 0]…!![n][w][e]
+##-[s][bup 4 207 0 0]…!![n][w][e]-##
+[s]……。[n][w][e]
+##-[s]……。[n][w][e]-##
+[s]Б、ББС、稀НГФюёБЗ。 ПэщЫ閏БЪ。[n][w][e]
+##-[s]Б、ББС、稀НよГФюёБЗ。[n]ПれэщЫ閏БЪ。[n][w][e]-##
+
+[msg MITSURU_EQUIP_SP_REACTIO [因姻 院陰]]
+[s][bup 4 201 0 0]…ПИеГУЫ?[n][w][e]
+##-[s][bup 4 201 0 0]ん…ПれИеГУЫ?[n][w][e]-##
+[s][bup 4 207 0 0]…!? щ、щСЗ、於И稀йЗ!?[n][w][e]
+##-[s][bup 4 207 0 0]…!?[n]щ、щСЗ、於И稀るйЗ!?[n][w][e]-##
+[s]……。[n][w][e]
+##-[s]……。[n][w][e]-##
+[s]ц、鞄勧ж閏БжプラスёйЗ…? 、赫г、姥個奄ЗЧвэГЗё![n][w][e]
+##-[s]ц、鞄勧ж閏БжプラスёйЗ…?[n]あ、赫г、姥個を奄ЗЧвэらГЗらё![n][w][e]-##
+
+[msg JUNPEI_EQUIP_REACTION [異移 維緯]]
+[s][bup 5 205 0 0]ЖЖЯ…ЭЯд! イイФюиЕйコレ?[n][w][e]
+##-[s][bup 5 205 0 0]ЖЖЯ…ЭЯд![n]イイんФюиЕйコレ?[n][w][e]-##
+[s][bup 5 202 0 0]ЖЖЯ…ЭЯд! яЯф、オレсБсБ遠УЭюГ?[n][w][e]
+##-[s][bup 5 202 0 0]ЖЖЯ…ЭЯд![n]яЯф、オレсБсБ遠わУЭюГよ?[n][w][e]-##
+
+[msg JUNPEI_EQUIP_SP_REACTION [異移 維緯]]
+[s][bup 5 205 0 0]к? 椅パン…?[n][w][e]
+##-[s][bup 5 205 0 0]к?[n]椅パン…?[n][w][e]-##
+[s][bup 5 206 0 0]Е…パンイチг原艮ЯвПд!?[n][w][e]
+##-[s][bup 5 206 0 0]Е…パンイチг原艮ЯвПд!?[n][w][e]-##
+[s][bup 5 210 0 0]ёжЩй写兇ё射雁!?[n][w][e]
+##-[s][bup 5 210 0 0]ёжЩй写兇ё射雁!?[n][w][e]-##
+[s]яфЕ、яУЗиЕ…[n][w][e]
+##-[s]яфЕ、яるУЗиЕ…[n][w][e]-##
+
+[msg SANADA_EQUIP_REACTION [隠韻 胤蔭]]
+[s][bup 7 205 0 0]ПЯ、Пк…[n][w][e]
+##-[s][bup 7 205 0 0]ПЯ、Пれк…[n][w][e]-##
+[s][bup 7 208 0 0]フッ…ЩГЗ。 芥笈УвБワケЗ。[n][w][e]
+##-[s][bup 7 208 0 0]フッ…ЩГЗ。[n]芥を笈УвБるワケЗ。[n][w][e]-##
+[s][bup 7 201 0 0]巌彊ЪЯЫё。 瑛括йЫъж、芥к吉Ц稀宴Х…![n][w][e]
+##-[s][bup 7 201 0 0]巌彊ЪЯЫё。[n]瑛括йЫъж、芥к吉わЦ稀宴Хる…![n][w][e]-##
+
+[msg SANADA_EQUIP_SP_REACTION [隠韻 胤蔭]]
+[s][bup 7 205 0 0]…? ёШ呪稀ёЪ?[n][w][e]
+##-[s][bup 7 205 0 0]ん…?[n]ёШ呪稀ёんЪ?[n][w][e]-##
+[s][bup 7 210 0 0]щ、稀дБГё還ж徽。 ボクシングйスタイルд烏穏丸БУё。[n][w][e]
+##-[s][bup 7 210 0 0]щあ、稀ろдБГёら還ж徽わん。[n]ボクシングйスタイルд烏穏丸БУё。[n][w][e]-##
+[s]……。[n][w][e]
+##-[s]……。[n][w][e]-##
+[s][bup 7 202 0 0]…ёЪ? 芥И営ЗЖЗУё厩遠ЯЫЗ?[n][w][e]
+##-[s][bup 7 202 0 0]…ёんЪ?[n]芥И営ЗЖЗУё厩を遠ЯЫЗ?[n][w][e]-##
+
+[msg AMADA_EQUIP_REACTION [殴韻 王]]
+[s][bup 8 204 0 0]…コレёЗ、デザインИ ЖэЭюЯшЛёБгХЗ?[n][w][e]
+##-[s][bup 8 204 0 0]わ…コレёんЗ、デザインИ[n]ЖэЭюЯшЛёБгХЗ?[n][w][e]-##
+[s]Бя、リーダーй元斎ё稀НщХНе… 郁飲ЯшЛв、ЭЯдё…[n][w][e]
+##-[s]Бя、リーダーй元斎ёら稀НщХНе…[n]郁飲ЯшЛв、ЭょЯдёぁ…[n][w][e]-##
+
+[msg AMADA_EQUIP_SP_REACTION [殴韻 王]]
+[s][bup 8 202 0 0]、П技З"ФфБ"ЯвБГ…[n][w][e]
+##-[s][bup 8 202 0 0]ああ、Пれ技З"ФんфБ"ЯвБГ…[n][w][e]-##
+[s][bup 8 203 0 0]…!![n][w][e]
+##-[s][bup 8 203 0 0]…!![n][w][e]-##
+[s]Е…ёгХЗ、Пйガラ…? П稀гХЗ…?[n][w][e]
+##-[s]Е…ёんгХЗ、Пйガラ…?[n]Пれ稀るんгХЗ…?[n][w][e]-##
+[s][bup 8 204 0 0]ГВ…、英ЗщУЫ。 稀щХ? 夏、烏鰯гХЗ…[n][w][e]
+##-[s][bup 8 204 0 0]ГВ…わ、英ЗりщУЫ。[n]稀щХよ? 夏、烏鰯гХЗら…[n][w][e]-##
+
+[msg YUKARI_GRADE_UP_TRANSFER [Yukari]]
+[s][bup 2 204 0 0]Я верну то, что ты дал мне раньше.[n][w][e]
+##-[s][bup 2 204 0 0]I'll return the stuff you gave[n]me before.[n][w][e]-##
+
+[msg AEGIS_GRADE_UP_TRANSFER [Aigis]]
+[s][bup 3 201 0 0]Я верну то, что взял взаймы.[n][w][e]
+##-[s][bup 3 201 0 0]I will return what I had[n]borrowed.[n][w][e]-##
+
+[msg MITSURU_GRADE_UP_TRANSFE [Mitsuru]]
+[s][bup 4 201 0 0]Я верну оборудование, которое вы мне дали.[n][w][e]
+##-[s][bup 4 201 0 0]I'll return the equipment you[n]gave me.[n][w][e]-##
+
+[msg JUNPEI_GRADE_UP_TRANSFER [Junpei]]
+[s][bup 5 201 0 0]О да, у меня есть то, что ты мне одолжил.[n][w][e]
+##-[s][bup 5 201 0 0]Oh yeah, I've got that stuff[n]you loaned me.[n][w][e]-##
+
+[msg SANADA_GRADE_UP_TRANSFER [Akihiko]]
+[s][bup 7 201 0 0]Я верну оборудование, которое вы мне дали.[n][w][e]
+##-[s][bup 7 201 0 0]I'll return the equipment[n]you gave me.[n][w][e]-##
+
+[msg AMADA_GRADE_UP_TRANSFER [Ken]]
+[s][bup 8 201 0 0]Ты можешь забрать это обратно... Мне это[n]больше не нужно.[n][w][e]
+##-[s][bup 8 201 0 0]You can have this back... I don't[n]need it anymore.[n][w][e]-##
+
+[msg KOROMARU_GRADE_UP_TRANSF [Koromaru]]
+[s][bup 10 201 0 0]Арф![n][w][e]
+##-[s][bup 10 201 0 0]Arf![n][w][e]-##
+[s][f 4 7 0 0 0]> Коромару вернул снаряжение, которое было[n]на нем.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Koromaru has returned the[n]equipment that he was wearing.[n][f 1 4][e]-##
+
+[msg ITEM_TRANSFER_TO_PLAYER_]
+[s][f 4 7 0 0 0]> Получено.[n][w][e]
+##-[s][f 4 7 0 0 0]> Received .[n][w][e]-##
+
+[msg ITEM_TRANSFER_TO_PLAYER__2]
+[s][f 4 7 0 0 0]> Получено.    Полученный.[n][w][e]
+##-[s][f 4 7 0 0 0]> Received . [n]  Received .[n][w][e]-##
+

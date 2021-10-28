@@ -1,0 +1,4 @@
+[msg NPC_TEST]
+[s]тест[n][f 1 4][e]
+##-[s]TEST[n][f 1 4][e]-##
+

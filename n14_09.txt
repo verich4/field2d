@@ -1,0 +1,40 @@
+[msg MSG_1N_NPC000_01 [Male Student]]
+[s]Завтра мы посетим святыни... Честно говоря,[n]зачем беспокоиться?[n][w][e]
+##-[s]We're visiting shrines tomorrow...[n]Honestly, why bother?[n][w][e]-##
+[s]Я думаю, что вместо этого притворюсь[n]больным и отдохну здесь завтра.[n][w][e]
+##-[s]I think I'll fake sick and relax[n]in here tomorrow instead.[n][w][e]-##
+
+[msg MSG_1N_NPC000_01_G [Male Student]]
+[s]О, но разве ты не говорил, что тебе[n]нравятся святыни, [f 4 2]- чан?[n][w][e]
+##-[s]Oh, but didn't you say that you like[n]shrines, [f 4 2]-chan?[n][w][e]-##
+[s]А? Ты этого не сделал? Хмм... Я знаю, что[n]была девушка, которая так сказала...[n][w][e]
+##-[s]Huh? You didn't? Hmm... I know[n]there was a girl who said that...[n][w][e]-##
+[s]Я должен буду найти ее и отвести в[n]святилище.[n][w][e]
+##-[s]I'll have to find her and take her[n]to the shrine.[n][w][e]-##
+
+[msg MSG_2N_NPC000_01 [Male Student]]
+[s]Вчера в полночь я пыталась зайти в комнату[n]девочек, но учительница охраняла лестницу.[n][w][e]
+##-[s]I tried to go to the girls' room[n]at midnight yesterday, but the[n]teacher was guarding the stairs.[n][w][e]-##
+[s]Как я собираюсь подняться туда...?[n][w][e]
+##-[s]How am I going to get up there...?[n][w][e]-##
+
+[msg MSG_2N_NPC000_01_G [Male Student]]
+[s]Был ли учитель, охранявший комнаты девочек[n]прошлой ночью, тоже?[n][w][e]
+##-[s]Was there a teacher guarding the girls'[n]rooms last night, too?[n][w][e]-##
+[s]...Ну, я бы не удивился, если бы это было[n]так.[n][w][e]
+##-[s]...Well, I wouldn't be surprised[n]if she was.[n][w][e]-##
+[s]Если мисс Ториуми поймает меня, кто знает,[n]что она заставит меня сделать...[n][w][e]
+##-[s]If Ms. Toriumi catches me, who knows[n]what she'll make me do...[n][w][e]-##
+[s]Хм... Может быть, она отпустит меня, если я[n]принесу ей немного сладостей из магазина[n]внизу![n][w][e]
+##-[s]Huh... Maybe she'll let me go if I[n]get her some sweets from the shop[n]downstairs![n][w][e]-##
+[s]Чувак, я гений! Теперь вопрос в том, что[n]купить...[n][w][e]
+##-[s]Man, I'm a genius![n]Now the question is what to buy...[n][w][e]-##
+
+[msg MSG_3N_NPC000_01 [Male Student]]
+[s]Моя сумка захламлена внутри, так как я[n]просто бросила свою одежду наугад...[n][w][e]
+##-[s]My bag's cluttered inside, since[n]I just threw my clothes in at[n]random...[n][w][e]-##
+[s]Я лучше позабочусь о том, чтобы не оставить[n]после себя никакого нижнего белья. Люди[n]будут гадать, кто их оставил...[n][w][e]
+##-[s]I'd better take care not to leave[n]any undies behind. People will[n]wonder who left them...[n][w][e]-##
+[s]Особенно Экода! Я просто вижу, как он[n]спрашивает всех, когда мы собираемся на[n]вокзале.[n][w][e]
+##-[s]Especially Ekoda! I can just see[n]him asking everyone when we gather[n]at the station.[n][w][e]-##
+

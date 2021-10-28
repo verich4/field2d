@@ -1,0 +1,38 @@
+[msg DUNGE_HUUKA_START [Fuuka]]
+[s][bup 6 203 0 0]Тень впереди в данный момент не движется.[n][w][e]
+##-[s][bup 6 203 0 0]The Shadow up ahead is not moving at[n]the moment.[n][w][e]-##
+[s]Все будет кончено, если ты сможешь победить[n]это.[n][w][e]
+##-[s]It'll all be over if you can defeat it.[n][w][e]-##
+
+[msg DUNGE_HUUKA_STOP [Fuuka]]
+[s][bup 6 203 0 0]Слишком опасно сражаться с этой Тенью без[n]большой вечеринки![n][w][e]
+##-[s][bup 6 203 0 0]It's too dangerous to take on that[n]Shadow without a bigger party![n][w][e]-##
+
+[msg DUNGE_HUUKA_CONF [Fuuka]]
+[s][bup 6 203 0 0]Сейчас самое время...[n][w][e]
+##-[s][bup 6 203 0 0]Now's the time...[n][w][e]-##
+[s]Вы готовы?[n][w][e]
+##-[s]Are you ready?[n][w][e]-##
+
+[sel BATTLE_SEL top]
+[s]"Я готов".[e]
+##-[s]"I'm ready."[e]-##
+[s]"Еще нет".[e]
+##-[s]"Not yet."[e]-##
+
+[sel BATTLE_SEL_G top]
+[s]"Я готов!"[e]
+##-[s]"I'm ready!"[e]-##
+[s]"Одну минуту".[e]
+##-[s]"Just a minute."[e]-##
+
+[sel BRIDGE_SHOTCUTSEL top]
+[s]В тень[e]
+##-[s]To the Shadow[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg FLD_ORDER]
+[s]Куда ты хочешь пойти?[n][w][e]
+##-[s]Where do you want to go?[n][w][e]-##
+

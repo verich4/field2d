@@ -1,0 +1,358 @@
+[msg DAIMAP_TEST]
+[s]医マップ芽竃Ув蒲橿гЙщХ。 еПу厩ЙщХЗ?[n][w][e]
+##-[s]医マップを芽竃Ув蒲橿гЙщХ。[n]еПу厩ЙщХЗ?[n][w][e]-##
+
+[sel DAIMAP_SEL_TEST top]
+[s]衣叶椛葛釜[e]
+##-[s]衣叶椛葛釜[e]-##
+[s]ポロニアンモール[e]
+##-[s]ポロニアンモール[e]-##
+[s]鎌噛鴨影[e]
+##-[s]鎌噛鴨影[e]-##
+[s]営栢界叡[e]
+##-[s]営栢界叡[e]-##
+[s]葛臆学[e]
+##-[s]葛臆学[e]-##
+
+[sel INTO_SEL top]
+[s]Входить[e]
+##-[s]Enter[e]-##
+[s]Не входи[e]
+##-[s]Don't enter[e]-##
+
+[sel GAMBLER_SEL top]
+[s]Рок[e]
+##-[s]Rock[e]-##
+[s]Бумага[e]
+##-[s]Paper[e]-##
+[s]Ножницы[e]
+##-[s]Scissors[e]-##
+
+[sel DRINK_SEL top]
+[s]"Неплохо".[e]
+##-[s]"Not bad."[e]-##
+[s]"Все в порядке".[e]
+##-[s]"It's alright."[e]-##
+
+[sel DRINK_SEL_G top]
+[s]"Восхитительно!"[e]
+##-[s]"Delicious!"[e]-##
+[s]"Эх..."[e]
+##-[s]"Eh..."[e]-##
+
+[msg MAHJONG_ROOM]
+[s]> Сигаретный дым и нервное напряжение[n]наполняют воздух.[n][w][e]
+##-[s]> Cigarette smoke and a nervous[n]tension fill the air.[n][w][e]-##
+
+[msg MAHJONG_ROOM_INTO_OK]
+[s]> Наберетесь ли вы смелости войти?[n][w][e]
+##-[s]> Will you muster up the courage to[n]enter?[n][w][e]-##
+
+[msg GAMBLER_COMING]
+[s]> Двое мужчин уходят.[n][w][e]
+##-[s]> Two men are leaving.[n][w][e]-##
+
+[msg GAMBLER_SAY [Gambler]]
+[s]...Я потерял все это, чувак.[n][w][e]
+##-[s]...I lost it all, man.[n][w][e]-##
+[s]Давай, малыш, дай мне немного удачи...[n][w][e]
+##-[s]Come on, kid, gimme some luck...[n][w][e]-##
+[s]Нет, не говори ни слова! Готов...[n][w][e]
+##-[s]No, don't say a word! Ready...[n][w][e]-##
+[s]Камень-ножницы-бумага![n][w][e]
+##-[s]Rock-paper-scissors![n][w][e]-##
+
+[msg GAMBLER_LOSE [Gambler]]
+[s]Что...? Я проиграл?[n][w][e]
+##-[s]Wha...? I lost?[n][w][e]-##
+[s]...Я думаю, что моя удача иссякла.[n][w][e]
+##-[s]...I guess my luck has dried up.[n][w][e]-##
+[s]Спасибо, малыш.[n][w][e]
+##-[s]Thanks, kid.[n][w][e]-##
+[s]Ты заставил меня понять, что азартные игры[n]- безнадежное дело. Начиная с сегодняшнего[n]дня, я прекращаю холодную индейку.[n][w][e]
+##-[s]You made me realize that gambling's[n]a lost cause. Starting today, I'm[n]stopping cold turkey.[n][w][e]-##
+[s]Вот кое-что, чтобы сказать спасибо...[n][w][e]
+##-[s]Here's a little something to say[n]thanks...[n][w][e]-##
+[s]В любом случае, тебе не следует[n]околачиваться в таком месте, как это...[n][w][e]
+##-[s]Anyway, you shouldn't be hanging[n]around a place like this...[n][w][e]-##
+[s]А теперь проваливай![n][w][e]
+##-[s]Now, beat it![n][w][e]-##
+
+[msg GAMBLER_WIN [Gambler]]
+[s]Хм?[n][w][e]
+##-[s]Hm?[n][w][e]-##
+[s]Я выиграл... Я выиграл...![n][w][e]
+##-[s]I won... I won...![n][w][e]-##
+[s]У меня еще осталось немного удачи![n][w][e]
+##-[s]I still have some luck left![n][w][e]-##
+[s]Я собираюсь сделать еще одну ставку... Я[n]верну все, что потерял![n][w][e]
+##-[s]I'm gonna go place another bet...[n]I'll win back everything I lost![n][w][e]-##
+[s]...Проваливай, малыш...[n][w][e]
+##-[s]...Beat it, kid...[n][w][e]-##
+[s]Это место только для взрослых.[n][w][e]
+##-[s]This place is for adults only.[n][w][e]-##
+
+[msg GET_TILE]
+[s]> Получено [f 2 5 3 13 0].[n][w][e]
+##-[s]> Obtained [f 2 5 3 13 0].[n][w][e]-##
+
+[msg MAHJONG_ROOM_NG]
+[s]> Вы думаете о том, чтобы войти... Ваш[n]разум говорит "да", но ваше тело говорит[n]"нет".[n][w][e]
+##-[s]> You are thinking of entering...[n]Your mind says yes, but your body[n]says no.[n][w][e]-##
+
+[msg JUNPEI_STOP_ALLEY [Junpei]]
+[s][bup 5 1 65535 0]Чувак, если ты войдешь туда, то можешь[n]оказаться в полицейском участке в[n]наручниках![n][w][e]
+##-[s][bup 5 1 65535 0]Dude, if you go in there, you might[n]wind up at the police station in[n]handcuffs![n][w][e]-##
+[s]...Чувак, я бы никогда не спустился туда,[n]если бы мог этого избежать.[n][w][e]
+##-[s]...Man, I'd never go down there if I[n]could help it.[n][w][e]-##
+
+[msg SHOT_BAR]
+[s]> Там внизу темно.[n][w][e]
+##-[s]> It's dark down there.[n][w][e]-##
+
+[msg SHOT_BAR_IN_MAN]
+[s]> Вы слышите голоса снизу.[n][w][e]
+##-[s]> You hear voices from below.[n][w][e]-##
+
+[msg BARMANS_VOICE [Young Man's Voice]]
+[s]Тпру... Неплохо![n][w][e]
+##-[s]Whoa... Not bad![n][w][e]-##
+[s]Держу пари, это будет популярно![n][w][e]
+##-[s]I bet this'll be popular![n][w][e]-##
+
+[msg SHOT_BAR_INTO_OK]
+[s]> Не зайдете ли вы в бар внизу?[n][w][e]
+##-[s]> Will you enter the bar downstairs?[n][w][e]-##
+
+[msg BARMAN_HELLO [Bartender]]
+[s]Извините, мы еще не открылись...[n][w][e]
+##-[s]Sorry, we're not open yet...[n][w][e]-##
+[s]...Эй, разве ты еще не учишься в средней[n]школе?[n][w][e]
+##-[s]...Hey, aren't you still in high[n]school?[n][w][e]-##
+[s]Ты не должен быть здесь.[n][w][e]
+##-[s]You're not s'posed to be here.[n][w][e]-##
+
+[msg CHARM_ENOUGH [Bartender]]
+[s]...Хм? Ты выглядишь так, словно пару раз[n]побывал в этом квартале...[n][w][e]
+##-[s]...Hm? You look like you've been[n]around the block a time or two...[n][w][e]-##
+[s]Должно быть, это судьба. Можешь попробовать[n]этот новый коктейль, который я приготовил[n]на скорую руку?[n][w][e]
+##-[s]It must be fate. Can you try this new[n]cocktail I whipped up?[n][w][e]-##
+[s]О, не волнуйся... В нем нет алкоголя.[n][w][e]
+##-[s]Oh, don't worry... There's no alcohol[n]in it.[n][w][e]-##
+[s]...Это моя собственная маленькая стряпня.[n][w][e]
+##-[s]...It's my own little concoction.[n][w][e]-##
+[s]Я надеюсь расширить нашу клиентуру.[n][w][e]
+##-[s]I'm hoping to expand our clientele.[n][w][e]-##
+[s]Ваше здоровье.[n][w][e]
+##-[s]Cheers.[n][w][e]-##
+
+[msg DRINK_COCKTAIL]
+[s]> Ты выпил коктейль.[n][w][e]
+##-[s]> You drank the cocktail.[n][w][e]-##
+[s]> Это идеальный баланс между сладким и[n]кислым. У него освежающий аромат.[n][w][e]
+##-[s]> It's the perfect balance between[n]sweet and sour. It has a refreshing[n]flavor.[n][w][e]-##
+
+[msg BARMAN_DRINK_AFTER [Bartender]]
+[s]Итак, что ты думаешь? Хорошо, да?[n][w][e]
+##-[s]So, whaddya think? Good, huh?[n][w][e]-##
+
+[msg BARMAN_DRINK_AFTER_RE1 [Bartender]]
+[s]Верно? Я знал, что тебе это понравится.[n][w][e]
+##-[s]Right? I knew you'd like it.[n][w][e]-##
+
+[msg BARMAN_DRINK_AFTER_RE2 [Bartender]]
+[s]Хаха... Может быть, это не для детей.[n][w][e]
+##-[s]Haha... Maybe it's not for kids.[n][w][e]-##
+[s]Ну что ж.[n][w][e]
+##-[s]Oh, well.[n][w][e]-##
+
+[msg BARMAN_IMPRESSION_AFTER [Bartender]]
+[s]Вот что я тебе скажу... Я дам тебе бутылку[n]этого, за счет заведения.[n][w][e]
+##-[s]Tell ya what... I'll give ya a bottle[n]of it, on the house.[n][w][e]-##
+[s]Я собираюсь пойти домой и поймать несколько[n]Z. Возвращайся, когда станешь законным, и я[n]позволю тебе попробовать хорошие вещи![n][w][e]
+##-[s]I'm gonna go home and catch some Z's.[n]Come back when you're legal, and I'll[n]let you try the good stuff![n][w][e]-##
+
+[msg CHARM_NOT_ENOUGH [Bartender]]
+[s]Это место для взрослых. Детям вход[n]воспрещен! Потребовалось бы чертовски много[n]Обаяния, чтобы убедить меня в обратном![n][w][e]
+##-[s]This place is for adults. No kids[n]allowed! It'd take a helluva lot of[n]Charm to convince me otherwise![n][w][e]-##
+
+[msg GET_DRINK]
+[s]> Получено [f 2 5 3 13 0].[n][w][e]
+##-[s]> Obtained [f 2 5 3 13 0].[n][w][e]-##
+
+[msg CHARM_NOT_ENOUGH_OUT]
+[s]> Тебя выгнали.[n][w][e]
+##-[s]> You have been kicked out.[n][w][e]-##
+
+[msg DONOTUSE_MESSAGE]
+[s]Пйメッセージк謁гХ。 亥ёБГж。[n][w][e]
+##-[s]Пйメッセージк謁гХ。[n]亥わёБよГж。[n][w][e]-##
+
+[sel YESNO_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[sel MOVIE_SEL top]
+[s]Смотреть фильм[e]
+##-[s]Watch movie[e]-##
+[s]Не смотрите фильм[e]
+##-[s]Don't watch movie[e]-##
+
+[sel MOVIE_ARBEIT_SEL top]
+[s]Проверьте, что показывает [e]
+##-[s]Check what's showing [e]-##
+[s]Работать до вечера[e]
+##-[s]Work until evening[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel MOVIE_PRE_SEL top]
+[s]Проверьте, что показывает [e]
+##-[s]Check what's showing [e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg MOVIE_TEIKYU]
+[s]> Билеты распроданы.[n][w][e]
+##-[s]> Tickets are sold out.[n][w][e]-##
+
+[msg MOVIE_THEATER]
+[s]> Кинотеатр с Изображением Экрана...[n][w][e]
+##-[s]> Screen Shot Movie Theater...[n][w][e]-##
+
+[msg JIKANTUBUSI_TUTO]
+[s]Вы можете скоротать время в разных местах[n]города.[n][w][e]
+##-[s]You can pass time in the various places[n]around town.[n][w][e]-##
+[s]Многие магазины повысят ваше Обаяние,[n]Смелость или Академичность. Если они[n]достаточно высоки, вы можете познакомиться[n]с новыми людьми.[n][w][e]
+##-[s]Many shops will raise your Charm,[n]Courage, or Academics. If they are[n]high enough, you may meet new people.[n][w][e]-##
+
+[msg MOVIE_MENU [Menu]]
+[s]"Кинотеатр Screen Shot" представляет: [n]Оригинальная программа. Старшеклассники:[n]1500 иен[n][w][e]
+##-[s]"Screen Shot Movie Theater" presents: [n]An original program.[n]High school students: 1500 yen[n][w][e]-##
+
+[msg MOVIE_PROGRAM_CONTINUE]
+[s]> Билеты для старшеклассников стоят 1500[n]иен.[n][w][e]
+##-[s]> Tickets cost 1500 yen for high[n]school students.[n][w][e]-##
+
+[msg MOVIE_PROGRAM_01]
+[s]> Идет киномарафон.[n][w][e]
+##-[s]> A movie marathon is playing.[n][w][e]-##
+[s]> "Для тех из вас, кто хочет быть более[n]очаровательным, показываются два[n]французских фильма".[n][w][e]
+##-[s]> "For those of you who want to be[n]more charming, two French films are[n]being shown."[n][w][e]-##
+
+[msg MOVIE_PROGRAM_02]
+[s]> Идет киномарафон.[n][w][e]
+##-[s]> A movie marathon is playing.[n][w][e]-##
+[s]> "Для тех из вас, кто хочет быть более[n]смелым, показаны три героические истории".[n][w][e]
+##-[s]> "For those of you who want to be[n]more courageous, three heroic tales[n]are being shown."[n][w][e]-##
+
+[msg MOVIE_PROGRAM_03]
+[s]> Идет киномарафон.[n][w][e]
+##-[s]> A movie marathon is playing.[n][w][e]-##
+[s]> "Для тех из вас, кто хочет быть более[n]очаровательным, ознакомьтесь с этими[n]эпическими историями о любви".[n][w][e]
+##-[s]> "For those of you who want to be[n]more charming, check out these epic[n]tales of love."[n][w][e]-##
+
+[msg MOVIE_PROGRAM_04]
+[s]> Идет киномарафон.[n][w][e]
+##-[s]> A movie marathon is playing.[n][w][e]-##
+[s]> "Достаточно ли ты храбр, чтобы вынести[n]эти ужасные истории?"[n][w][e]
+##-[s]> "Are you brave enough to endure[n]these tales of terror?"[n][w][e]-##
+
+[msg MOVIE_PROGRAM_05]
+[s]> Идет киномарафон.[n][w][e]
+##-[s]> A movie marathon is playing.[n][w][e]-##
+[s]> "Накачайте свой мозг иностранными[n]фильмами без субтитров!"[n][w][e]
+##-[s]> "Pump up your brain with foreign[n]movies without subtitles!"[n][w][e]-##
+
+[msg MOVIE_PROGRAM_06]
+[s]> Идет киномарафон.[n][w][e]
+##-[s]> A movie marathon is playing.[n][w][e]-##
+[s]> "Изучайте историю, которую никто не знал,[n]- Настоящие документальные фильмы, старые и[n]новые".[n][w][e]
+##-[s]> "Study the history no one knew - [n]True documentaries, old and new."[n][w][e]-##
+
+[msg MOVIE_PROGRAM_07]
+[s]> Похоже, все распродано...[n][w][e]
+##-[s]> It seems to be sold out...[n][w][e]-##
+
+[msg YUUKI_MAX_NG]
+[s]> Ты уже очень смелый.[n][w][e]
+##-[s]> You are already very courageous.[n][w][e]-##
+
+[msg GAKURYOKU_MAX_NG]
+[s]> Вы уже достаточно умны.[n][w][e]
+##-[s]> You are already quite intelligent.[n][w][e]-##
+
+[msg MIRYOKU_MAX_NG]
+[s]> Ты уже очень обаятельна.[n][w][e]
+##-[s]> You are already very charming.[n][w][e]-##
+
+[msg MONEY_TARINAI]
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> У тебя недостаточно денег.[n][w][e]
+##-[s]> You don't have enough money.[n][w][e]-##
+
+[msg MOVIE_CONTINUE]
+[s]> ...[n][w][e]
+##-[s]> ...[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> .........[n][w][e]
+##-[s]> .........[n][w][e]-##
+
+[msg MOVIE_END_01]
+[s]> Вы выучили несколько романтических[n]однострочных фраз.[n][w][e]
+##-[s]> You have learned some romantic[n]one-liners.[n][w][e]-##
+
+[msg MOVIE_END_02]
+[s]> Ты узнал истинное значение[n]мужественности...[n][w][e]
+##-[s]> You learned the true meaning of[n]masculinity...[n][w][e]-##
+
+[msg MOVIE_END_03]
+[s]> Ты научилась быть кокетливой[n]очаровашкой...[n][w][e]
+##-[s]> You learned how to be a coquettish[n]charmer...[n][w][e]-##
+
+[msg MOVIE_END_04]
+[s]> Ты чуть не закричала, но сдержалась.[n][w][e]
+##-[s]> You almost screamed, but you held[n]it in.[n][w][e]-##
+
+[msg MOVIE_END_05]
+[s]> Вы погрузились в изучение иностранных[n]языков и обнаружили, что не уверены,[n]понимаете ли вы их или нет...[n][w][e]
+##-[s]> You immersed yourself in foreign[n]languages, and found yourself unsure[n]if you understood them or not...[n][w][e]-##
+
+[msg MOVIE_END_06]
+[s]> Сегодняшний день существует только[n]благодаря вчерашнему дню. Вам кажется, что[n]вы узнали что-то очень важное из этих[n]фильмов...[n][w][e]
+##-[s]> Today only exists because of yesterday.[n]You feel as if you learned something[n]very important from these films...[n][w][e]-##
+
+[msg RYOU_KAERU]
+[s]> Уже поздно.[n][w][e]
+##-[s]> It's getting late.[n][w][e]-##
+[s]> Вы решаете вернуться в общежитие.[n][w][e]
+##-[s]> You decide to go back to the dorm.[n][w][e]-##
+
+[sel STATION_SHOTCUTSEL top]
+[s]Окраина станции[e]
+##-[s]Station Outskirts[e]-##
+[s]Станция острова Порт Тацуми[e]
+##-[s]Tatsumi Port Island Station[e]-##
+[s]Карта города[e]
+##-[s]Town Map[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg FLD_ORDER]
+[s]Куда ты хочешь пойти?[n][w][e]
+##-[s]Where do you want to go?[n][w][e]-##
+
+[msg MOVIE_ARBEIT_TUTO]
+[s]Вы сможете повысить свои академические[n]показатели, Обаяние и храбрость здесь,[n]посмотрев фильмы.[n][w][e]
+##-[s]You will be able to raise your[n]Academics, Charm, and Courage stats[n]here by watching movies.[n][w][e]-##
+[s]Показываемые фильмы будут меняться каждый[n]день. Вы также можете работать здесь днем в[n]выходные дни после школы.[n][w][e]
+##-[s]The movies shown will change every day.[n]You can also work here during the day[n]on your days off from school.[n][w][e]-##
+
+[msg MOVIE_ARBEIT_03]
+[s]> Чем ты хочешь заняться сегодня...?[n][w][e]
+##-[s]> What do you want to do today...?[n][w][e]-##
+

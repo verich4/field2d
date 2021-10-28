@@ -1,0 +1,744 @@
+[msg JUNPEI_STOP_SAISEN [Junpei]]
+[s][bup 5 1 65535 0]Эй, я только что вспомнил, что это[n]святилище Бога Ученых...[n][w][e]
+##-[s][bup 5 1 65535 0]Hey, I just remembered this is a[n]shrine to the God of Academics...[n][w][e]-##
+[s]Можешь поспорить на свою задницу, я прошу[n]его выручать меня почти каждый день! Но мы[n]должны добраться до полицейского участка[n]прямо сейчас.[n][w][e]
+##-[s]You bet your ass I ask him to bail[n]me out almost every day! But we gotta[n]get to the police station right now.[n][w][e]-##
+
+[msg SHOGATU_STOP_SAISEN [Junpei]]
+[s][bup 5 4 65535 0]Давайте начнем, [f 4 2].[n][w][e]
+##-[s][bup 5 4 65535 0]Let's get going, [f 4 2].[n][w][e]-##
+
+[msg JUNPEI_STOP_OMIKUJI [Junpei]]
+[s][bup 5 1 65535 0]А? Состояние ваших отношений? Шай, как[n]будто у тебя были бы отношения с[n]кем-нибудь![n][w][e]
+##-[s][bup 5 1 65535 0]Huh? Your relationship fortune?[n]Shyeah, like you'd be in a[n]relationship with anybody![n][w][e]-##
+[s]В любом случае, оставь это на потом. Мы[n]должны добраться до полицейского участка![n][w][e]
+##-[s]Anyway, save it for later. We've[n]gotta get to the police station![n][w][e]-##
+
+[msg SHOGATU_STOP_OMIKUJI]
+[s]> Состояние отношений - 100 иен[n][w][e]
+##-[s]> Relationship fortune - 100 yen[n][w][e]-##
+[s]> ...Однако на сегодня у них закончились[n]билеты...[n][w][e]
+##-[s]> ...However, they're out of tickets[n]for today...[n][w][e]-##
+
+[msg HOLY_TREE]
+[s]> Это огромное дерево.[n][w][e]
+##-[s]> It's a huge tree.[n][w][e]-##
+
+[msg JUNPEI_STOP_INARI [Junpei]]
+[s][bup 5 2 65535 0]Черт возьми, они хорошо смотрятся![n][w][e]
+##-[s][bup 5 2 65535 0]Damn, these look good![n][w][e]-##
+[s][bup 5 9 65535 0]Я, конечно, не собираюсь их есть. Я знаю,[n]что лучше не связываться с[n]жертвоприношениями.[n][w][e]
+##-[s][bup 5 9 65535 0]I'm not gonna eat 'em, of course.[n]I know better than to mess with[n]sacrificial offerings.[n][w][e]-##
+
+[msg INARI_TUTO]
+[s]Когда вы возьметесь за руки и загадаете[n]желание перед маленьким святилищем, вы[n]можете отдать одну из своих карт навыков и[n]получить две взамен через пять дней.[n][w][e]
+##-[s]When you join hands and wish in[n]front of the small shrine, you[n]can give away one of your skill[n]cards and receive two in return[n]five days later.[n][w][e]-##
+
+[msg INARI_TUTO_CONT]
+[s]> Соедините свои руки?[n][w][e]
+##-[s]> Join your hands?[n][w][e]-##
+
+[sel INARI_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Вспомните, как это работает[e]
+##-[s]Recall how it works[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[msg MSG_INARI_CONT]
+[s]>...[n][w][e]
+##-[s]>...[n][w][e]-##
+[s]>......[n][w][e]
+##-[s]>......[n][w][e]-##
+[s]>.........[n][w][e]
+##-[s]>.........[n][w][e]-##
+[s]> Ты что-то почувствовал...[n][w][e]
+##-[s]> You sensed something...[n][w][e]-##
+[s][f 1 5]Таинственный Голос[n]Йип-йип![n][w][e]
+##-[s][f 1 5]Mysterious Voice[n]Yip yip![n][w][e]-##
+
+[msg MSG_INARI_CONT_2 [Mysterious Voice]]
+[s]Что?  Ты хочешь сказать, что тебе нужна[n]открытка?[n][w][e]
+##-[s]What? [n]Are you saying you want a card?[n][w][e]-##
+[s]Хорошо, я скопирую это для вас.  В наши дни[n]это одно из моих хобби. [n][w][e]
+##-[s]Alright, I'll copy it for you. [n]It's one of my hobbies these days. [n][w][e]-##
+[s]Я выберу хорошую из ваших карт навыков. [n][w][e]
+##-[s]I'll pick a good one from [n]within your skill cards. [n][w][e]-##
+[s]Если вам это не нравится, нажмите кнопку ×,[n]чтобы сказать мне, и я выберу другой[n]вариант.[n][w][e]
+##-[s]If you don't like it, press the[n]× button to tell me, and I'll choose[n]another one.[n][w][e]-##
+[s]Трудно выбрать один, если у вас их целая[n]куча, поэтому лучше использовать их, чтобы[n]носить с собой меньше.[n][w][e]
+##-[s]It's hard to choose one if you have a[n]bunch, so it's best to use them up so[n]you're carrying fewer of them around.[n][w][e]-##
+[s]Тогда пошли. [n][w][e]
+##-[s]Let's go, then. [n][w][e]-##
+
+[msg MSG_INARI_CARD_NONE [Mysterious Voice]]
+[s]...Эй, у тебя их нет.[n][w][e]
+##-[s]...Hey,  you don't have any.[n][w][e]-##
+[s]Я не могу скопировать для вас карты[n]навыков, если у вас их нет.[n][w][e]
+##-[s]I can't copy any skill cards [n]for you if you don't have any.[n][w][e]-##
+
+[msg MSG_INARI_CARD_CHOICE [Mysterious Voice]]
+[s]Как поживает твой [f 2 5 3 65535 0]?Хорошо?[n][w][e]
+##-[s]How's your [f 2 5 3 65535 0]?[n]Good?[n][w][e]-##
+
+[sel INARI_CARD_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg MSG_INARI_CARD_KAKUNIN [Mysterious Voice]]
+[s]Хорошо... Позвольте мне оставить его у себя[n]на пять дней. Я сделаю с него копию, а[n]затем верну ее вам вместе с копией.[n][w][e]
+##-[s]Well... Let me keep it for five days.[n]I'll make a copy of it, then give it[n]back to you along with the copy.[n][w][e]-##
+
+[sel INARI_CARD_SEL02 top]
+[s]Одолжи ему это [e]
+##-[s]Lend it to him [e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg MSG_INARI_CARD_AFTER [Mysterious Voice]]
+[s]*вздох* Интересно, смогу ли я это[n]сделать... Я не настолько уверен в себе.[n][w][e]
+##-[s]*sigh* I wonder if I'll be able to[n]do this... I'm not all that confident.[n][w][e]-##
+[s]Мне все равно, если ты подождешь немного,[n]чтобы забрать его. Просто не забывай об[n]этом.[n][w][e]
+##-[s]I don't care if you wait a while to[n]pick it up. Just don't forget about it.[n][w][e]-##
+
+[msg MSG_INARI_CARD_NG [Mysterious Voice]]
+[s]Я все еще не закончил.[n][w][e]
+##-[s]I'm still not done.[n][w][e]-##
+[s]Никому не нравятся напористые люди. ...Я[n]устал. * вздох*[n][w][e]
+##-[s]Nobody likes pushy people.[n]...I'm tired. *sigh*[n][w][e]-##
+
+[msg MSG_INARI_CARD_WATASU_1 [Mysterious Voice]]
+[s]Эй, эта копия, которую я делаю, получается[n]довольно хорошей.[n][w][e]
+##-[s]Hey, this copy I'm making is[n]turning out pretty good.[n][w][e]-##
+[s]Э-э-э... это было [f 2 5 3 65535 0] не так ли?[n][w][e]
+##-[s]Uhh... that was [f 2 5 3 65535 0],[n]wasn't it?[n][w][e]-##
+[s]Я верну тебе ту, которую одолжил, и вот еще[n]копия. Это уже два! Давай, забирай их.[n][w][e]
+##-[s]I'll give you back the one I borrowed,[n]and here's the copy, too. That makes[n]two! Go on, take 'em.[n][w][e]-##
+
+[msg MSG_INARI_CARD_WATASU_2]
+[s]> Получено два из [f 2 5 3 65535 0].[n][w][e]
+##-[s]> Received two of [f 2 5 3 65535 0].[n][w][e]-##
+
+[msg INARI_STAMINA_UP]
+[s]> ...Вы почувствовали, как у вас поднялось[n]настроение![n][w][e]
+##-[s]> ...You felt your spirits rise![n][w][e]-##
+[s]> [clr 2]Сегодня вы так легко не устанете![n][w][e]
+##-[s]> [clr 2]You won't get tired as easily today![n][w][e]-##
+
+[msg INARI_EXP_UP]
+[s]> ...Вы почувствовали, что ваша тактика боя[n]улучшилась![n][w][e]
+##-[s]> ...You felt your battle tactics[n]improve![n][w][e]-##
+[s]> [clr 2]Сумма заработанного сегодня опыта резко[n]возрастет![n][w][e]
+##-[s]> [clr 2]The amount of EXP earned today[n]will increase dramatically![n][w][e]-##
+
+[msg INARI_MONEY_UP]
+[s]> ...У вас есть яркий образ груды наличных[n]денег![n][w][e]
+##-[s]> ...You have a vivid image of[n]piles of cash![n][w][e]-##
+[s]> [clr 2]Деньги, заработанные за время[n]перемешивания сегодня, резко увеличатся![n][w][e]
+##-[s]> [clr 2]Money earned from Shuffle Time today[n]will increase dramatically![n][w][e]-##
+
+[msg INARI_DROPITEM_UP]
+[s]> ...Ты чувствуешь себя немного хитрее![n][w][e]
+##-[s]> ...You feel a little sneakier![n][w][e]-##
+[s]> [clr 2]Враги сегодня сбросят больше предметов,[n]чем обычно![n][w][e]
+##-[s]> [clr 2]Enemies will drop more items than[n]usual today![n][w][e]-##
+
+[msg INARI_GATTAI_JIKO_UP]
+[s]> ...Вы чувствуете, как вам в голову[n]приходит новая теория![n][w][e]
+##-[s]> ...You feel a new theory pop into[n]your head![n][w][e]-##
+[s]> [clr 2]Вероятность аварии термоядерного синтеза[n]сегодня будет больше, чем обычно![n][w][e]
+##-[s]> [clr 2]The chance of a fusion accident[n]will be greater than usual today![n][w][e]-##
+
+[msg INARI_YUKARI_UP]
+[s]> Лицо Юкари внезапно возникло в твоем[n]сознании...[n][w][e]
+##-[s]> Yukari's face suddenly entered[n]your mind...[n][w][e]-##
+[s]> [clr 2]Статус Юкари повысился![n][w][e]
+##-[s]> [clr 2]Yukari's status has increased![n][w][e]-##
+
+[msg INARI_JUNPEI_UP]
+[s]> Лицо Дзюнпэя внезапно возникло в твоем[n]сознании...[n][w][e]
+##-[s]> Junpei's face suddenly entered[n]your mind...[n][w][e]-##
+[s]> [clr 2]Статус Дзюнпэя повысился![n][w][e]
+##-[s]> [clr 2]Junpei's status has increased![n][w][e]-##
+
+[msg INARI_SANADA_UP]
+[s]> Лицо Акихико внезапно возникло в твоем[n]сознании...[n][w][e]
+##-[s]> Akihiko's face suddenly entered[n]your mind...[n][w][e]-##
+[s]> [clr 2]Статус Акихико повысился![n][w][e]
+##-[s]> [clr 2]Akihiko's status has increased![n][w][e]-##
+
+[msg INARI_MITURU_UP]
+[s]> Лицо Мицуру внезапно возникло в твоем[n]сознании...[n][w][e]
+##-[s]> Mitsuru's face suddenly entered[n]your mind...[n][w][e]-##
+[s]> [clr 2]Статус Мицуру повысился![n][w][e]
+##-[s]> [clr 2]Mitsuru's status has increased![n][w][e]-##
+
+[msg INARI_AEGIS__UP]
+[s]> Лицо Айгиса внезапно возникло в твоем[n]сознании...[n][w][e]
+##-[s]> Aigis' face suddenly entered[n]your mind...[n][w][e]-##
+[s]> [clr 2]Статус Айгиса повысился![n][w][e]
+##-[s]> [clr 2]Aigis' status has increased![n][w][e]-##
+
+[msg INARI_KOROMA_UP]
+[s]> Лицо Коромару внезапно возникло в твоем[n]сознании...[n][w][e]
+##-[s]> Koromaru's face suddenly entered[n]your mind...[n][w][e]-##
+[s]> [clr 2]Статус Коромару повысился![n][w][e]
+##-[s]> [clr 2]Koromaru's status has increased![n][w][e]-##
+
+[msg INARI_AMADA__UP]
+[s]> Лицо Кена внезапно возникло в твоем[n]сознании...[n][w][e]
+##-[s]> Ken's face suddenly entered[n]your mind...[n][w][e]-##
+[s]> [clr 2]Статус Кена повысился![n][w][e]
+##-[s]> [clr 2]Ken's status has increased![n][w][e]-##
+
+[msg INARI_ARAGAK_UP]
+[s]> Лицо Синдзиро внезапно возникло в твоем[n]сознании...[n][w][e]
+##-[s]> Shinjiro's face suddenly entered[n]your mind...[n][w][e]-##
+[s]> [clr 2]Статус Синдзиро повысился![n][w][e]
+##-[s]> [clr 2]Shinjiro's status has increased![n][w][e]-##
+
+[msg INARI_ITEMCHANGE_01]
+[s][f 4 5 0 1]> [f 4 4 3 0 0] x5 преобразован в [f 4 4 3 0 0]![n][w][e]
+##-[s][f 4 5 0 1]> [f 4 4 3 0 0] x5 converted[n]to [f 4 4 3 0 0]![n][w][e]-##
+
+[msg INARI_ITEMCHANGE_02]
+[s][f 4 5 0 5]> [f 4 4 3 0 0] x2 преобразуется в [f 4 4 3 0 0] х5![n][w][e]
+##-[s][f 4 5 0 5]> [f 4 4 3 0 0] x2 converted[n]to [f 4 4 3 0 0] x5![n][w][e]-##
+
+[msg INARI_ITEMCHANGE_03]
+[s][f 4 5 0 1]> [f 4 4 3 0 0] x2 преобразуется в [f 4 4 3 0 0]![n][w][e]
+##-[s][f 4 5 0 1]> [f 4 4 3 0 0] x2 converted[n]to [f 4 4 3 0 0]![n][w][e]-##
+
+[msg INARI_ITEMCHANGE_04]
+[s][f 4 5 0 1]> [f 4 4 3 0 0] x3 преобразовано в [f 4 4 3 0 0]![n][w][e]
+##-[s][f 4 5 0 1]> [f 4 4 3 0 0] x3 converted[n]to [f 4 4 3 0 0]![n][w][e]-##
+
+[msg INARI_ITEMCHANGE_05]
+[s][f 4 5 0 10]> [f 4 4 3 0 0] x20 преобразовано в [f 4 4 3 0 0] х10![n][w][e]
+##-[s][f 4 5 0 10]> [f 4 4 3 0 0] x20 converted[n]to [f 4 4 3 0 0] x10![n][w][e]-##
+
+[msg INARI_SHOJIMONEY_UP1]
+[s]> Ваш кошелек кажется тяжелее...[n][w][e]
+##-[s]> Your wallet feels heavier...[n][w][e]-##
+[s]> [clr 2]У тебя больше денег![n][w][e]
+##-[s]> [clr 2]You have more money![n][w][e]-##
+
+[msg INARI_SHOJIMONEY_UP2]
+[s]> Ваш кошелек кажется тяжелее...[n][w][e]
+##-[s]> Your wallet feels heavier...[n][w][e]-##
+[s]> [clr 2]Ваши деньги удвоились![n][w][e]
+##-[s]> [clr 2]Your money has doubled![n][w][e]-##
+
+[msg INARI_SHOJIMONEY_UP3]
+[s]> Ваш кошелек кажется тяжелее...[n][w][e]
+##-[s]> Your wallet feels heavier...[n][w][e]-##
+[s]> [clr 2]Ваши деньги утроились![n][w][e]
+##-[s]> [clr 2]Your money has tripled![n][w][e]-##
+
+[msg GOD_OF_HARVESTS]
+[s]> Это какие-то суши Инари.[n][w][e]
+##-[s]> It's some Inari Sushi.[n][w][e]-##
+
+[msg GET_SUSHI_1]
+[s]> Несмотря на ваше академическое[n]мастерство, вы не можете придумать[n]приемлемый способ его получения.[n][w][e]
+##-[s]> Despite your Academic prowess, you[n]are unable to think of an acceptable[n]way to obtain it.[n][w][e]-##
+
+[msg GET_SUSHI_2 [Old Lady's Voice]]
+[s]Эй![n][w][e]
+##-[s]Hey![n][w][e]-##
+[s]Ты там![n][w][e]
+##-[s]You there![n][w][e]-##
+
+[msg GET_SUSHI_2_G [Old Lady's Voice]]
+[s]Эй![n][w][e]
+##-[s]Hey![n][w][e]-##
+[s]Ты там![n][w][e]
+##-[s]You there![n][w][e]-##
+
+[msg GET_SUSHI_3 [Old Lady]]
+[s]Почему у тебя такое угрюмое выражение лица?[n][w][e]
+##-[s]Why do you have such a sullen look on[n]your face?[n][w][e]-##
+[s]Что-то случилось?[n][w][e]
+##-[s]Did something happen?[n][w][e]-##
+[s]Ребенок вашего возраста должен быть[n]беззаботным...[n][w][e]
+##-[s]A child your age should be carefree...[n][w][e]-##
+[s]Что вам нужно, так это хорошо поесть и[n]немного отдохнуть, и вы почувствуете себя[n]лучше![n][w][e]
+##-[s]What you need is a good meal and some[n]rest, and you'll feel better![n][w][e]-##
+[s]Вот, возьми это суши Инари...[n][w][e]
+##-[s]Here, have this Inari Sushi...[n][w][e]-##
+
+[msg GET_SUSHI]
+[s]> Получено [f 2 5 3 13 0].[n][w][e]
+##-[s]> Obtained [f 2 5 3 13 0].[n][w][e]-##
+
+[msg GET_SUSHI_4 [Old Lady]]
+[s]Вы должны быть оптимистом! Ваше поколение -[n]будущее Японии![n][w][e]
+##-[s]You have to be optimistic! Your[n]generation is Japan's future![n][w][e]-##
+[s]Что ж, удачи.[n][w][e]
+##-[s]Well, good luck.[n][w][e]-##
+[s]Взбодрись![n][w][e]
+##-[s]Cheer up![n][w][e]-##
+
+[msg DONT_GET_SUSHI]
+[s]> Ты не можешь просто украсть чужую еду.[n][w][e]
+##-[s]> You can't just steal someone else's[n]food.[n][w][e]-##
+[s]> Возможно, если бы ваши ученые были выше,[n]вы могли бы придумать другое решение.[n][w][e]
+##-[s]> Perhaps if your Academics were[n]higher, you could think of another[n]solution.[n][w][e]-##
+
+[msg WATER_TANK]
+[s]> Вода выглядит кристально чистой.[n][w][e]
+##-[s]> The water looks crystal clear.[n][w][e]-##
+
+[msg DAIMAP_TEST]
+[s]医マップ芽竃Ув蒲橿гЙщХ。 еПу厩ЙщХЗ?[n][w][e]
+##-[s]医マップを芽竃Ув蒲橿гЙщХ。[n]еПу厩ЙщХЗ?[n][w][e]-##
+
+[sel DAIMAP_SEL_TEST top]
+[s]衣叶椛葛釜[e]
+##-[s]衣叶椛葛釜[e]-##
+[s]ポロニアンモール[e]
+##-[s]ポロニアンモール[e]-##
+[s]ポートアイランド[e]
+##-[s]ポートアイランド[e]-##
+[s]鎌噛鴨影[e]
+##-[s]鎌噛鴨影[e]-##
+[s]葛臆学[e]
+##-[s]葛臆学[e]-##
+
+[sel TEMPLE_SHOTCUTSEL top]
+[s]Карта города[e]
+##-[s]Town Map[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg FLD_ORDER]
+[s]Куда ты хочешь пойти?[n][w][e]
+##-[s]Where do you want to go?[n][w][e]-##
+
+[msg DONOTUSE_MESSAGE]
+[s]Пйメッセージк謁гХ。 亥ёБГж。[n][w][e]
+##-[s]Пйメッセージк謁гХ。[n]亥わёБよГж。[n][w][e]-##
+
+[msg OMIKUJI_NOTYET]
+[s]> Шкатулка фортуны находится в ремонте.[n][w][e]
+##-[s]> The fortune box is under[n]repairs.[n][w][e]-##
+
+[msg SHOGATU_STOP_OMIKUJI_2]
+[s]> Состояние отношений - 100 иен[n][w][e]
+##-[s]> Relationship fortune - 100 yen[n][w][e]-##
+[s]> ...Однако на сегодня у них закончились[n]билеты...[n][w][e]
+##-[s]> ...However, they're out of tickets[n]for today...[n][w][e]-##
+
+[msg OMIKUJI_START]
+[s]> Состояние отношений - 100 иен[n][w][e]
+##-[s]> Relationship Fortune - 100 yen[n][w][e]-##
+
+[msg OMIKUJI_TUTO]
+[s]Представьте себе кого-то, с кем вы связаны[n]социальной связью, и ваши отношения станут[n]более близкими. Если ваша связь была[n]отменена, ее можно исправить. Время[n]пройдет, пока вы будете его читать.[n][w][e]
+##-[s]Picture someone you are tied to in a[n]Social Link, and your relationship[n]will become more intimate. If your[n]bond has been reversed, it may be[n]mended. Time will pass as you read it.[n][w][e]-##
+
+[msg OMIKUJI_TUTO_CONT]
+[s]> Не хотели бы вы нарисовать одну из них?[n][w][e]
+##-[s]> Would you like to draw one?[n][w][e]-##
+
+[sel OMIKUJI_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Вспомните, как это работает[e]
+##-[s]Recall how it works[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[msg OMIKUJI_MONEY_NG]
+[s]> У тебя нет 100 иен.[n][w][e]
+##-[s]> You don't have 100 yen.[n][w][e]-##
+
+[msg OMIKUJI_COMMU_CHOOSE]
+[s]> Какую социальную связь вы себе[n]представите?[n][w][e]
+##-[s]> Which Social Link will you imagine?[n][w][e]-##
+
+[sel OMIKUJI_COMMUSEL_1 top]
+[s]Одноклассница[e]
+##-[s]Female classmate[e]-##
+[s]Одноклассник мужского пола[e]
+##-[s]Male classmate[e]-##
+[s]Кто-то за пределами школы[e]
+##-[s]Someone outside of school[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel OMIKUJI_COMMUSEL_2 top]
+[s]Фуука Ямагиси[e]
+##-[s]Fuuka Yamagishi[e]-##
+[s]Менеджер команды Юко[e]
+##-[s]Team Manager Yuko[e]-##
+[s]Казначей Тихиро[e]
+##-[s]Treasurer Chihiro[e]-##
+[s]Юкари Такеба[e]
+##-[s]Yukari Takeba[e]-##
+[s]Мицуру Киридзе[e]
+##-[s]Mitsuru Kirijo[e]-##
+[s]Айгис[e]
+##-[s]Aigis[e]-##
+[s]Кто-то другой[e]
+##-[s]Someone else[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel OMIKUJI_COMMUSEL_5 top]
+[s]Одноклассник Кендзи[e]
+##-[s]Classmate Kenji[e]-##
+[s]Член студенческого совета Хидетоши[e]
+##-[s]Student Councillor Hidetoshi[e]-##
+[s]Капитан трека Кадзуси[e]
+##-[s]Track Captain Kazushi[e]-##
+[s]Капитан Кендо Кадзуси[e]
+##-[s]Kendo Captain Kazushi[e]-##
+[s]Капитан по плаванию Кадзуси[e]
+##-[s]Swim Captain Kazushi[e]-##
+[s]Фотограф Кейсуке[e]
+##-[s]Photographer Keisuke[e]-##
+[s]Художник Кейсуке[e]
+##-[s]Artist Keisuke[e]-##
+[s]Музыкант Кейсуке[e]
+##-[s]Musician Keisuke[e]-##
+[s]Студент по обмену Бебе[e]
+##-[s]Exchange Student Bebe[e]-##
+[s]Кто-то другой[e]
+##-[s]Someone else[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel OMIKUJI_COMMUSEL_8 top]
+[s]Книжный магазин Пожилая Пара[e]
+##-[s]Bookstore Old Couple[e]-##
+[s]Молодая Девушка Майко[e]
+##-[s]Young Girl Maiko[e]-##
+[s]Онлайн-Геймер Майя[e]
+##-[s]Online Gamer Maya[e]-##
+[s]Президент Танака[e]
+##-[s]President Tanaka[e]-##
+[s]Король Гурманов Нозоми[e]
+##-[s]Gourmet King Nozomi[e]-##
+[s]Старый монах Мутацу[e]
+##-[s]Old Monk Mutatsu[e]-##
+[s]Соперник Спортсмена Мамору[e]
+##-[s]Rival Athlete Mamoru[e]-##
+[s]Неизлечимо Больной Акинари[e]
+##-[s]Terminally Ill Akinari[e]-##
+[s]Кто-то другой[e]
+##-[s]Someone else[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel OMIKUJI_COMMUSEL_F top]
+[s]Друзья[e]
+##-[s]Friends[e]-##
+[s]Люди в школе[e]
+##-[s]People in school[e]-##
+[s]Люди вне школы[e]
+##-[s]People outside of school[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel OMIKUJI_COMMUSEL_1F top]
+[s]Дзюнпей Иори[e]
+##-[s]Junpei Iori[e]-##
+[s]Юкари Такеба[e]
+##-[s]Yukari Takeba[e]-##
+[s]Акихико Санада[e]
+##-[s]Akihiko Sanada[e]-##
+[s]Фуука Ямагиси[e]
+##-[s]Fuuka Yamagishi[e]-##
+[s]Коромару[e]
+##-[s]Koromaru[e]-##
+[s]Кен Амада[e]
+##-[s]Ken Amada[e]-##
+[s]Синдзиро Арагаки[e]
+##-[s]Shinjiro Aragaki[e]-##
+[s]Мицуру Киридзе[e]
+##-[s]Mitsuru Kirijo[e]-##
+[s]Айгис[e]
+##-[s]Aigis[e]-##
+[s]Кто-то другой[e]
+##-[s]Someone else[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel OMIKUJI_COMMUSEL_5F top]
+[s]Волейболист Рио[e]
+##-[s]Volleyball Player Rio[e]-##
+[s]Теннисист Рио[e]
+##-[s]Tennis Player Rio[e]-##
+[s]Член Комитета по здравоохранению Саори[e]
+##-[s]Health Committee Member Saori[e]-##
+[s]Член Библиотечного комитета Саори[e]
+##-[s]Library Committee Member Saori[e]-##
+[s]Член студенческого совета Хидетоши[e]
+##-[s]Student Councillor Hidetoshi[e]-##
+[s]Реджи Мочизуки [e]
+##-[s]Ryoji Mochizuki [e]-##
+[s]Студент по обмену Бебе[e]
+##-[s]Exchange Student Bebe[e]-##
+[s]Кто-то другой[e]
+##-[s]Someone else[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel OMIKUJI_COMMUSEL_8F top]
+[s]Книжный магазин Пожилая Пара[e]
+##-[s]Bookstore Old Couple[e]-##
+[s]Молодая Девушка Майко[e]
+##-[s]Young Girl Maiko[e]-##
+[s]Президент Танака[e]
+##-[s]President Tanaka[e]-##
+[s]Старый монах Мутацу[e]
+##-[s]Old Monk Mutatsu[e]-##
+[s]Неизлечимо Больной Акинари[e]
+##-[s]Terminally Ill Akinari[e]-##
+[s]Кто-то другой[e]
+##-[s]Someone else[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel OMIKUJI_COMMUSEL_8_2 top]
+[s]Книжный магазин Пожилая Пара[e]
+##-[s]Bookstore Old Couple[e]-##
+[s]Молодая Девушка Майко[e]
+##-[s]Young Girl Maiko[e]-##
+[s]Онлайн-Геймер Майя[e]
+##-[s]Online Gamer Maya[e]-##
+[s]Президент Танака[e]
+##-[s]President Tanaka[e]-##
+[s]Король Гурманов Нозоми[e]
+##-[s]Gourmet King Nozomi[e]-##
+[s]Старый монах Мутацу[e]
+##-[s]Old Monk Mutatsu[e]-##
+[s]Соперник Спортсмена Мамору[e]
+##-[s]Rival Athlete Mamoru[e]-##
+[s]Неизлечимо Больной Акинари[e]
+##-[s]Terminally Ill Akinari[e]-##
+[s]Кто-то другой[e]
+##-[s]Someone else[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg OMIKUJI_COM_NONE]
+[s]> У вас нет социальных связей, которые[n]можно было бы развить...[n][w][e]
+##-[s]> You have no Social Links that can[n]be developed...[n][w][e]-##
+
+[msg MSG_OMIKUJI_CONT]
+[s]> ...[n][w][e]
+##-[s]> ...[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> .........[n][w][e]
+##-[s]> .........[n][w][e]-##
+[s]> Вы слышите божественное послание...[n][w][e]
+##-[s]> You hear a divine message...[n][w][e]-##
+[s][f 1 5]Таинственный Голос[n]Благословения верующему...[n][w][e]
+##-[s][f 1 5]Mysterious Voice[n]Blessings to the believer...[n][w][e]-##
+
+[msg MSG_OMIKUJI_CONT_TOKUSHU]
+[s]> ...[n][w][e]
+##-[s]> ...[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> .........[n][w][e]
+##-[s]> .........[n][w][e]-##
+[s]> Вы слышите божественное послание...[n][w][e]
+##-[s]> You hear a divine message...[n][w][e]-##
+[s][f 1 5]Таинственный Голос[n]Хмм...[n][w][e]
+##-[s][f 1 5]Mysterious Voice[n]Hmm...[n][w][e]-##
+[s]Юная леди, кажется, хочет что-то сказать...[n][w][e]
+##-[s]The young lady seems to have something[n]to say...[n][w][e]-##
+[s]Ты должен ее выслушать.[n][w][e]
+##-[s]You should listen to her.[n][w][e]-##
+[s][f 1 5] [n]> ......[n][w][e]
+##-[s][f 1 5] [n]> ......[n][w][e]-##
+[s]> Мольбы к богам не помогли...[n][w][e]
+##-[s]> Pleading to the gods didn't help...[n][w][e]-##
+
+[msg MSG_OMIKUJI_CONT_TOKUSHU_2]
+[s]> ...[n][w][e]
+##-[s]> ...[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> .........[n][w][e]
+##-[s]> .........[n][w][e]-##
+[s]> Вы слышите божественное послание...[n][w][e]
+##-[s]> You hear a divine message...[n][w][e]-##
+[s][f 1 5]Таинственный Голос[n]Нет ничего более отвратительного, чем ссора[n]влюбленных...[n][w][e]
+##-[s][f 1 5]Mysterious Voice[n]There's nothing so odious as a[n]lovers' quarrel...[n][w][e]-##
+[s]Но вы должны решить это между собой, а не[n]просить божественной помощи.[n][w][e]
+##-[s]But you should work it out between[n]the two of you, rather than petitioning[n]for divine assistance.[n][w][e]-##
+[s][f 1 5] [n]> ......[n][w][e]
+##-[s][f 1 5] [n]> ......[n][w][e]-##
+[s]> Мольбы к богам не помогли...[n][w][e]
+##-[s]> Pleading to the gods didn't help...[n][w][e]-##
+
+[msg OMIKUJI_CONTINUE]
+[s]> Сегодняшняя удача такова...[n][w][e]
+##-[s]> Today's luck is...[n][w][e]-##
+
+[msg OMIKUJI_CHUKITI]
+[s]> Согласно предсказанию судьбы, "Вам[n]повезет".[n][w][e]
+##-[s]> According to the fortune, "You will[n]have fair luck."[n][w][e]-##
+[s]> "Деньги также могут быть в вашем[n]будущем".[n][w][e]
+##-[s]> "Money may also be in your future."[n][w][e]-##
+
+[msg OMIKUJI_CHUKITI_2]
+[s]> ......?[n][w][e]
+##-[s]> ......?[n][w][e]-##
+[s]> Вы только что нашли 1000 иен![n][w][e]
+##-[s]> You just found 1,000 yen![n][w][e]-##
+
+[msg OMIKUJI_SHOKITI]
+[s]> Согласно предсказанию судьбы, "Вам[n]немного повезет".[n][w][e]
+##-[s]> According to the fortune, "You will[n]have a little luck."[n][w][e]-##
+[s]> "Вам не сильно повезет или не повезет с[n]деньгами".[n][w][e]
+##-[s]> "You will not be significantly lucky[n]or unlucky with money."[n][w][e]-##
+
+[msg OMIKUJI_SHOKITI_2]
+[s]> ......?[n][w][e]
+##-[s]> ......?[n][w][e]-##
+[s]> Вы только что нашли 500 иен![n][w][e]
+##-[s]> You just found 500 yen![n][w][e]-##
+
+[msg OMIKUJI_KYO]
+[s]> Согласно предсказанию судьбы, "Вам не[n]повезет".[n][w][e]
+##-[s]> According to the fortune, "You will[n]have bad luck."[n][w][e]-##
+[s]> "Будь осторожен со своими деньгами".[n][w][e]
+##-[s]> "Be careful with your money."[n][w][e]-##
+
+[msg OMIKUJI_KYO_2]
+[s]> ......?[n][w][e]
+##-[s]> ......?[n][w][e]-##
+[s]> 1000 иен просто выпали из вашего кармана[n]и улетучились![n][w][e]
+##-[s]> 1,000 yen just fell out of your[n]pocket and blew away![n][w][e]-##
+
+[msg OMIKUJI_DAIKYO]
+[s]> Согласно предсказанию судьбы, "Вам будет[n]очень не повезло".[n][w][e]
+##-[s]> According to the fortune, "You will[n]have the very worst luck."[n][w][e]-##
+[s]> "Вы движетесь к финансовой катастрофе".[n][w][e]
+##-[s]> "You are headed towards financial[n]disaster."[n][w][e]-##
+[s]> "Ваше здоровье в серьезной опасности".[n][w][e]
+##-[s]> "Your health is in grave danger."[n][w][e]-##
+
+[msg OMIKUJI_DAIKYO_2]
+[s]> ......?[n][w][e]
+##-[s]> ......?[n][w][e]-##
+[s]> 5000 иен просто выпали из вашего кармана[n]и улетучились![n][w][e]
+##-[s]> 5,000 yen just fell out of your[n]pocket and blew away![n][w][e]-##
+
+[msg OMIKUJI_DAIKYO_3]
+[s]> По какой-то причине вы чувствуете[n]усталость.[n][w][e]
+##-[s]> For some reason, you feel tired.[n][w][e]-##
+
+[msg OMIKUJI_DAIKYO_3_CONT]
+[s]> Ваше состояние ухудшилось до "Усталости".[n][w][e]
+##-[s]> Your condition has worsened to[n]"Tired."[n][w][e]-##
+
+[msg OMIKUJI_KYO_NOMONEY]
+[s]> ......?[n][w][e]
+##-[s]> ......?[n][w][e]-##
+[s]> Вы только что поняли, что потеряли все[n]свои деньги![n][w][e]
+##-[s]> You just realized that you've lost[n]all your money![n][w][e]-##
+
+[msg OMIKUJI_DAIKITI]
+[s]> Согласно предсказанию судьбы, "Вам очень[n]повезет",[n][w][e]
+##-[s]> According to the fortune, "You will[n]have very good luck,"[n][w][e]-##
+[s]> "никаких финансовых забот",[n][w][e]
+##-[s]> "no financial worries,"[n][w][e]-##
+[s]> "и отличное здоровье".[n][w][e]
+##-[s]> "and great health."[n][w][e]-##
+[s]> Внутри что-то есть...[n][w][e]
+##-[s]> There's something inside...[n][w][e]-##
+[s]> Получено [f 4 4 3 0 1374].[n][w][e]
+##-[s]> Obtained [f 4 4 3 0 1374].[n][w][e]-##
+
+[msg OMIKUJI_DAIKITI_2]
+[s]> ......?[n][w][e]
+##-[s]> ......?[n][w][e]-##
+[s]> Вы только что нашли 10 000 иен![n][w][e]
+##-[s]> You just found 10,000 yen![n][w][e]-##
+
+[msg OMIKUJI_DAIKITI_3]
+[s]> Похоже, сегодня твой счастливый день![n][w][e]
+##-[s]> It seems like today's your lucky day![n][w][e]-##
+
+[msg OMIKUJI_DAIKITI_3_CONT]
+[s]> Ваше состояние улучшилось до[n]"Великолепного".[n][w][e]
+##-[s]> Your condition has improved to[n]"Great."[n][w][e]-##
+
+[msg OMIKUJI_INORU]
+[s]> Ты заработал целое состояние, надеясь[n]укрепить связь между вами![n][w][e]
+##-[s]> You drew a fortune, hoping to[n]deepen the bond between you![n][w][e]-##
+
+[msg OMIKUJI_CONT_NEW]
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s][f 5 13 0 10 0]> Вы чувствуете себя ближе к [f 2 4 7]...[n][w][e]
+##-[s][f 5 13 0 10 0]> You feel closer to [f 2 4 7]...[n][w][e]-##
+
+[msg SAISEN_TUTO]
+[s]Если вы оставите деньги в ящике для[n]пожертвований, ваши академические знания[n]увеличатся. Если вы находитесь в отличном[n]состоянии, прибавка будет еще выше. Время[n]пройдет.[n][w][e]
+##-[s]By leaving money in the offertory box,[n]your Academics will increase. If you're[n]in Great condition, the increase will[n]be even higher. Time will pass.[n][w][e]-##
+
+[msg MONEY_OFFERING_OK]
+[s]> Это коробка для пожертвований.[n][w][e]
+##-[s]> It's an offertory box.[n][w][e]-##
+
+[msg INTELLIGENCE_BASE_STOP]
+[s]> Похоже, это больше не идет вам на пользу.[n][w][e]
+##-[s]> This no longer seems to be to your[n]advantage.[n][w][e]-##
+
+[msg SAISEN_TUTO_CONT]
+[s]> Вы хотели бы оставить пожертвование?[n][w][e]
+##-[s]> Would you like to leave a donation?[n][w][e]-##
+
+[sel OFFERING_SEL top]
+[s]Вставьте 100 иен[e]
+##-[s]Insert 100 yen[e]-##
+[s]Вспомните, как это работает[e]
+##-[s]Recall how it works[e]-##
+[s]Ничего не делать[e]
+##-[s]Do nothing[e]-##
+
+[msg MONEY_OFFERING_GO]
+[s]> Вы оставили пожертвование.[n][w][e]
+##-[s]> You left a donation.[n][w][e]-##
+
+[msg MONEY_OFFERING_NG]
+[s]> У тебя недостаточно денег.[n][w][e]
+##-[s]> You don't have enough money.[n][w][e]-##
+
+[msg MONEY_OFFERING_OVER]
+[s]> Сегодня вы уже посетили святилище.[n][w][e]
+##-[s]> You've already visited the shrine[n]today.[n][w][e]-##
+
+[msg MONEY_OFFERING_CONT]
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> .........[n][w][e]
+##-[s]> .........[n][w][e]-##
+[s]> ............[n][w][e]
+##-[s]> ............[n][w][e]-##
+
+[msg INTELLIGENCE_BASE_UP]
+[s]> Ваши академические знания выросли![n][w][e]
+##-[s]> Your Academics have increased![n][w][e]-##
+
+[msg INTELLIGENCE_BASE_UP_ZEK]
+[s]> Вы в отличной форме, так что ваши[n]академические показатели значительно[n]возросли![n][w][e]
+##-[s]> You're in great condition, so your[n]Academics have increased dramatically![n][w][e]-##
+
+[msg mes_variable [Old Lady]]
+[s][f 2 4 0]гХ。[n][w][e]
+##-[s][f 2 4 0]гХ。[n][w][e]-##
+

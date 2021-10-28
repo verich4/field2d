@@ -1,0 +1,2028 @@
+[sel YES_NO_SEL top]
+[s]"да."[e]
+##-[s]"Yes."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+
+[sel TARTAROS_SEL top]
+[s]Поговорить[e]
+##-[s]Talk[e]-##
+[s]Проверьте статус каждого[e]
+##-[s]Check everyone's status[e]-##
+[s]Отправляйся в Тартар сегодня вечером[e]
+##-[s]Go to Tartarus tonight[e]-##
+[s]Сделано[e]
+##-[s]Done[e]-##
+
+[sel CONDITION_SEL top]
+[s]"Пожалуйста, скажи мне".[e]
+##-[s]"Please tell me."[e]-##
+[s]"Мне не нужно знать".[e]
+##-[s]"I don't need to know."[e]-##
+
+[sel CONDITION_SEL_G top]
+[s]"Пожалуйста, скажи мне".[e]
+##-[s]"Please tell me."[e]-##
+[s]"Мне не нужно знать".[e]
+##-[s]"I don't need to know."[e]-##
+
+[msg MITSURU_RECOVER_CONDITIO [Mitsuru]]
+[s][bup 4 1 65535 0]...Хм?[n][w][e]
+##-[s][bup 4 1 65535 0]...Hm?[n][w][e]-##
+[s]О боже, ты плохо выглядишь. Ты устал?[n][w][e]
+##-[s]Oh my, you don't look well.[n]Are you tired?[n][w][e]-##
+[s]Вам следует вернуться в свою комнату и[n]отдохнуть до конца дня.[n][w][e]
+##-[s]You should return to your room and rest[n]for the remainder of the day.[n][w][e]-##
+[s]Не давите на себя слишком сильно, если вы[n]плохо себя чувствуете.[n][w][e]
+##-[s]Don't push yourself too hard if you're[n]not feeling well.[n][w][e]-##
+
+[msg MITSURU_RECOVER_CONDITIO_2 [Mitsuru]]
+[s][bup 4 1 65535 0]...Хм?[n][w][e]
+##-[s][bup 4 1 65535 0]...Hm?[n][w][e]-##
+[s]О боже, ты плохо выглядишь. Ты устал?[n][w][e]
+##-[s]Oh my, you don't look well.[n]Are you tired?[n][w][e]-##
+[s]Вам следует вернуться в свою комнату и[n]отдохнуть до конца дня.[n][w][e]
+##-[s]You should return to your room and rest[n]for the remainder of the day.[n][w][e]-##
+[s]Не давите на себя слишком сильно, если вы[n]плохо себя чувствуете.[n][w][e]
+##-[s]Don't push yourself too hard if you're[n]not feeling well.[n][w][e]-##
+
+[msg HELP_RECOVER_CONDITION]
+[s]Вы поправитесь в течение нескольких дней,[n]если отдохнете и не отправитесь в Тартар.[n][w][e]
+##-[s]You will recover within a few days[n]if you rest and do not go to Tartarus.[n][w][e]-##
+[s]Осознайте свое состояние; если вы больны[n]или устали, вы не будете сражаться в полную[n]силу во время боя.[n][w][e]
+##-[s]Be aware of your condition; if you[n]are sick or tired, you will not fight[n]at full strength during battle.[n][w][e]-##
+
+[msg MITSURU_TARTAROS_OK_NORM [Mitsuru]]
+[s][bup 4 1 65535 0]...Да? Чем я могу вам помочь?[n][w][e]
+##-[s][bup 4 1 65535 0]...Yes? How can I help you?[n][w][e]-##
+
+[msg MITSURU_TARTAROS_OK_NORM_2 [Mitsuru]]
+[s][bup 4 1 65535 0]...Да? Чем я могу вам помочь?[n][w][e]
+##-[s][bup 4 1 65535 0]...Yes? How can I help you?[n][w][e]-##
+
+[msg MITSURU_TARTAROS_OK_BAD [Mitsuru]]
+[s][bup 4 1 65535 0]Ты неважно выглядишь. Ты хорошо себя[n]чувствуешь?[n][w][e]
+##-[s][bup 4 1 65535 0]You don't look well.[n]Are you feeling alright?[n][w][e]-##
+
+[msg MITSURU_TARTAROS_OK_BAD_ [Mitsuru]]
+[s][bup 4 1 65535 0]Ты неважно выглядишь. Ты хорошо себя[n]чувствуешь?[n][w][e]
+##-[s][bup 4 1 65535 0]You don't look well.[n]Are you feeling alright?[n][w][e]-##
+
+[msg MITSURU_2ND_COMMENT [Mitsuru]]
+[s][bup 4 1 65535 0]...Я понимаю. Есть что-нибудь еще?[n][w][e]
+##-[s][bup 4 1 65535 0]...I see. Is there anything else?[n][w][e]-##
+
+[msg MITSURU_2ND_COMMENT_HO [Mitsuru]]
+[s][bup 4 1 65535 0]...Я понимаю. Есть что-нибудь еще?[n][w][e]
+##-[s][bup 4 1 65535 0]...I see. Is there anything else?[n][w][e]-##
+
+[msg MITSURU_GO [Mitsuru]]
+[s][bup 4 1 65535 0]Очень хорошо. Мы встретимся в Тартаре около[n]полуночи. Не опаздывай.[n][w][e]
+##-[s][bup 4 1 65535 0]Very well. We'll meet at Tartarus[n]around midnight. Don't be late.[n][w][e]-##
+[s]Я дам знать остальным.[n][w][e]
+##-[s]I'll let the others know.[n][w][e]-##
+
+[msg MITSURU_GO_HO [Mitsuru]]
+[s][bup 4 1 65535 0]Очень хорошо. Мы встретимся в Тартаре около[n]полуночи. Не опаздывай.[n][w][e]
+##-[s][bup 4 1 65535 0]Very well. We'll meet at Tartarus[n]around midnight. Don't be late.[n][w][e]-##
+[s]Я дам знать остальным.[n][w][e]
+##-[s]I'll let the others know.[n][w][e]-##
+
+[msg MITSURU_BAD_CONDITION_NU [Mitsuru]]
+[s][bup 4 1 65535 0]Число участников, которые плохо себя[n]чувствуют, составляет [f 2 4 0].[n][w][e]
+##-[s][bup 4 1 65535 0]The number of members who aren't[n]feeling well is [f 2 4 0].[n][w][e]-##
+
+[msg MITSURU_BAD_CONDITION_NU_2 [Mitsuru]]
+[s][bup 4 1 65535 0]Число участников, которые плохо себя[n]чувствуют, составляет [f 2 4 0].[n][w][e]
+##-[s][bup 4 1 65535 0]The number of members who aren't[n]feeling well is [f 2 4 0].[n][w][e]-##
+
+[msg MITSURU_BAD_CONDITION_ZE [Mitsuru]]
+[s][bup 4 1 65535 0]Кажется, все здоровы...[n][w][e]
+##-[s][bup 4 1 65535 0]Everyone seems to be healthy...[n][w][e]-##
+
+[msg MITSURU_BAD_CONDITION_ZE_2 [Mitsuru]]
+[s][bup 4 1 65535 0]Кажется, все здоровы...[n][w][e]
+##-[s][bup 4 1 65535 0]Everyone seems to be healthy...[n][w][e]-##
+
+[msg MITSURU_CHECK_ALL_CONDIT [Mitsuru]]
+[s][bup 4 1 65535 0]Вы хотите знать статус каждого участника?[n][w][e]
+##-[s][bup 4 1 65535 0]Do you want to know the status of[n]each member?[n][w][e]-##
+
+[msg MITSURU_CHECK_ALL_CONDIT_2 [Mitsuru]]
+[s][bup 4 1 65535 0]Вы хотите знать статус каждого участника?[n][w][e]
+##-[s][bup 4 1 65535 0]Do you want to know the status of[n]each member?[n][w][e]-##
+
+[msg MITSURU_BURST_ADVICE [Mitsuru]]
+[s][bup 4 1 65535 0]Тартар, похоже, сегодня имеет нестабильное[n]образование.[n][w][e]
+##-[s][bup 4 1 65535 0]Tartarus seems to have an unstable[n]formation today.[n][w][e]-##
+[s]Может произойти больше несчастных случаев,[n]чем обычно.[n][w][e]
+##-[s]There may be more accidents than usual.[n][w][e]-##
+[s]Будьте начеку.[n][w][e]
+##-[s]Be on your guard.[n][w][e]-##
+
+[msg MITSURU_HEAL_REASONABLE [Mitsuru]]
+[s][bup 4 1 65535 0]Дешевле будет использовать часы для[n]восстановления сегодня.[n][w][e]
+##-[s][bup 4 1 65535 0]It will be cheaper to use the clock to[n]recover today.[n][w][e]-##
+[s]Пожалуйста, используйте это в своих[n]интересах.[n][w][e]
+##-[s]Please use this to your advantage.[n][w][e]-##
+
+[msg MITSURU_HEAL_REASONABLE_ [Mitsuru]]
+[s][bup 4 1 65535 0]Также будет дешевле использовать часы для[n]восстановления сегодня.[n][w][e]
+##-[s][bup 4 1 65535 0]It will also be cheaper to use the clock[n]to recover today.[n][w][e]-##
+[s]Пожалуйста, используйте это в своих[n]интересах.[n][w][e]
+##-[s]Please use this to your advantage.[n][w][e]-##
+
+[msg HUKA_TARTAROS_OK_NORMAL [Fuuka]]
+[s][bup 6 1 65535 0]Чем я могу вам помочь?[n][w][e]
+##-[s][bup 6 1 65535 0]How can I help you?[n][w][e]-##
+
+[msg HUKA_TARTAROS_OK_NORMAL_ [Fuuka]]
+[s][bup 6 1 65535 0]Чем я могу вам помочь?[n][w][e]
+##-[s][bup 6 1 65535 0]How can I help you?[n][w][e]-##
+
+[msg HUKA_TARTAROS_OK_BAD [Fuuka]]
+[s][bup 6 1 65535 0]Ты выглядишь больным. Ты в порядке?[n][w][e]
+##-[s][bup 6 1 65535 0]You look sick. Are you okay?[n][w][e]-##
+
+[msg HUKA_TARTAROS_OK_BAD_HO [Fuuka]]
+[s][bup 6 1 65535 0]Ты выглядишь больным. Ты в порядке?[n][w][e]
+##-[s][bup 6 1 65535 0]You look sick. Are you okay?[n][w][e]-##
+
+[msg HUKA_2ND_COMMENT [Fuuka]]
+[s][bup 6 1 65535 0]...Я могу вам еще чем-нибудь помочь?[n][w][e]
+##-[s][bup 6 1 65535 0]...Is there anything else[n]I can help you with?[n][w][e]-##
+
+[msg HUKA_2ND_COMMENT_HO [Fuuka]]
+[s][bup 6 1 65535 0]...Я могу вам еще чем-нибудь помочь?[n][w][e]
+##-[s][bup 6 1 65535 0]...Is there anything else[n]I can help you with?[n][w][e]-##
+
+[msg HUKA_GO [Fuuka]]
+[s][bup 6 1 65535 0]Хорошо. Я расскажу остальным.[n][w][e]
+##-[s][bup 6 1 65535 0]Okay. I'll tell the others.[n][w][e]-##
+[s]Мы будем ждать в Тартаре около полуночи.[n]Увидимся там.[n][w][e]
+##-[s]We'll be waiting at Tartarus around[n]midnight. See you there.[n][w][e]-##
+
+[msg HUKA_GO_HO [Fuuka]]
+[s][bup 6 1 65535 0]Хорошо. Я расскажу остальным.[n][w][e]
+##-[s][bup 6 1 65535 0]Okay. I'll tell the others.[n][w][e]-##
+[s]Мы будем ждать в Тартаре около полуночи.[n]Увидимся там.[n][w][e]
+##-[s]We'll be waiting at Tartarus around[n]midnight. See you there.[n][w][e]-##
+
+[msg HUKA_BAD_CONDITION_NUM [Fuuka]]
+[s][bup 6 1 65535 0][f 2 4 0] это количество участников, которые плохо[n]себя чувствуют...[n][w][e]
+##-[s][bup 6 1 65535 0][f 2 4 0] is the number of members[n]who don't feel good...[n][w][e]-##
+
+[msg HUKA_BAD_CONDITION_NUM_H [Fuuka]]
+[s][bup 6 1 65535 0][f 2 4 0] это количество участников, которые плохо[n]себя чувствуют...[n][w][e]
+##-[s][bup 6 1 65535 0][f 2 4 0] is the number of members[n]who don't feel good...[n][w][e]-##
+
+[msg HUKA_BAD_CONDITION_ZERO [Fuuka]]
+[s][bup 6 1 65535 0]Сегодня все в порядке![n][w][e]
+##-[s][bup 6 1 65535 0]Everyone's okay today![n][w][e]-##
+
+[msg HUKA_BAD_CONDITION_ZERO_ [Fuuka]]
+[s][bup 6 1 65535 0]Сегодня все в порядке![n][w][e]
+##-[s][bup 6 1 65535 0]Everyone's okay today![n][w][e]-##
+
+[msg HUKA_CHECK_ALL_CONDITION [Fuuka]]
+[s][bup 6 1 65535 0]Хотели бы вы знать, как дела у других?[n][w][e]
+##-[s][bup 6 1 65535 0]Would you like to know how[n]the others are doing?[n][w][e]-##
+
+[msg HUKA_CHECK_ALL_CONDITION_2 [Fuuka]]
+[s][bup 6 1 65535 0]Хотели бы вы знать, как дела у других?[n][w][e]
+##-[s][bup 6 1 65535 0]Would you like to know how[n]the others are doing?[n][w][e]-##
+
+[msg HUKA_BURST_ADVICE [Fuuka]]
+[s][bup 6 1 65535 0]Я думаю, что Тартар сегодня немного[n]нестабилен...[n][w][e]
+##-[s][bup 6 1 65535 0]I think that Tartarus is a little[n]unstable today...[n][w][e]-##
+[s]Из-за этого несчастные случаи могут[n]происходить чаще.[n][w][e]
+##-[s]Accidents might be more frequent[n]because of this.[n][w][e]-##
+[s]Берегись![n][w][e]
+##-[s]Watch out![n][w][e]-##
+
+[msg HUKA_HEAL_REASONABLE [Fuuka]]
+[s][bup 6 1 65535 0]Использование часов для восстановления[n]сегодня не будет стоить так дорого.[n][w][e]
+##-[s][bup 6 1 65535 0]Using the clock to recover won't cost[n]as much today.[n][w][e]-##
+[s][bup 6 2 65535 0]Это большая удача![n][w][e]
+##-[s][bup 6 2 65535 0]That's a stroke of luck![n][w][e]-##
+
+[msg HUKA_HEAL_REASONABLE_AND [Fuuka]]
+[s][bup 6 1 65535 0]О, сегодня тоже будет дешевле использовать[n]часы для восстановления.[n][w][e]
+##-[s][bup 6 1 65535 0]Oh, it'll be cheaper to use the clock[n]to recover today, too.[n][w][e]-##
+[s][bup 6 2 65535 0]Это большая удача![n][w][e]
+##-[s][bup 6 2 65535 0]That's a stroke of luck![n][w][e]-##
+
+[msg MSG0419_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Куда ты идешь?[n][w][e]
+##-[s][bup 2 1 65535 0]Where ya goin'?[n][w][e]-##
+[s]Мицуру-семпай внизу, и она не позволит тебе[n]уйти.[n][w][e]
+##-[s]Mitsuru-senpai is downstairs, and she[n]won't let you leave.[n][w][e]-##
+
+[msg MSG0425_SANADA_01 [Akihiko]]
+[s][bup 7 1 65535 0]Мицуру говорит, что тебе нужно оставаться[n]на месте, пока ты не выздоровеешь.[n][w][e]
+##-[s][bup 7 1 65535 0]Mitsuru says you need to stay put[n]until you've healed.[n][w][e]-##
+[s]Она довольно строгая.[n][w][e]
+##-[s]She's pretty strict.[n][w][e]-##
+
+[msg MSG0425_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Мицуру-семпай должен быть в комнате для[n]совещаний. Она сказала, что собирается[n]немного потренироваться.[n][w][e]
+##-[s][bup 2 1 65535 0]Mitsuru-senpai should be in the meeting[n]room. She said she was gonna do some[n]training.[n][w][e]-##
+[s]О, но если ты хочешь отправиться в Тартар,[n]она сказала, что все в порядке.[n][w][e]
+##-[s]Oh, but if you wanna go to Tartarus,[n]she said it was alright.[n][w][e]-##
+
+[msg MSG0425_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Я слишком молод, чтобы так уставать. Это[n]отстойно еще больше, когда ты устаешь в[n]бою...[n][w][e]
+##-[s][bup 5 1 65535 0]I'm too young to be this tired.[n]It sucks even more when you get[n]tired in battle...[n][w][e]-##
+[s]Когда вы устали, вы бьете не так сильно,[n]поэтому на то, чтобы победить врага, уходит[n]больше времени. Кроме того, тебя легче[n]ударить.[n][w][e]
+##-[s]When you're tired, you don't hit as[n]hard, so it takes longer to beat an[n]enemy. Plus, you get hit more easily.[n][w][e]-##
+[s][bup 5 10 65535 0]"Вы, юнцы, не знаете, что для вас хорошо...[n]В мое время мы знали, когда нужно[n]отдыхать!"[n][w][e]
+##-[s][bup 5 10 65535 0]"You youngin's don't know what's good[n]fer ya... Back in my day, we knew when[n]ta rest!"[n][w][e]-##
+[s][bup 2 8 65535 0][f 1 5]Юкари[n]Я понимаю вашу точку зрения, но что за[n]банальное подражание...?[n][w][e]
+##-[s][bup 2 8 65535 0][f 1 5]Yukari[n]I understand your point, but what's[n]with the corny impersonation...?[n][w][e]-##
+
+[msg MSG0504_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Разве вам иногда не хочется знать порядок[n]действий во время боя?[n][w][e]
+##-[s][bup 5 1 65535 0]Don't you sometimes wish you could know[n]the order of action during a battle?[n][w][e]-##
+[s]Что ж, к счастью для тебя, у меня есть[n]потрясающий способ выяснить это.[n][w][e]
+##-[s]Well, lucky for you, I have an awesome[n]way of finding this out.[n][w][e]-##
+
+[msg MSG0504_JUNPEI_02]
+[s]Нажмите кнопку R во время боя, чтобы[n]увидеть порядок хода как для ваших врагов,[n]так и для союзников.[n][w][e]
+##-[s]Press the R button during a battle[n]to see the turn order for both[n]your enemies and allies.[n][w][e]-##
+
+[msg MSG0504_JUNPEI_03 [Junpei]]
+[s][bup 5 1 65535 0]...Тч, ты уже знал?[n][w][e]
+##-[s][bup 5 1 65535 0]...Tch, you already knew?[n][w][e]-##
+[s][bup 2 1 65535 1][f 1 5]Юкари[n]Знание порядка действий - ключ к победе в[n]битве.[n][w][e]
+##-[s][bup 2 1 65535 1][f 1 5]Yukari[n]Knowing the order of action is key[n]to winning a battle.[n][w][e]-##
+[s][bup 7 1 65535 1][f 1 5]Акихико[n]Да, хороший пример - это когда обе стороны[n]истощены.[n][w][e]
+##-[s][bup 7 1 65535 1][f 1 5]Akihiko[n]Yeah, a good example is when both sides[n]are exhausted.[n][w][e]-##
+[s]Если у нас будет первая атака и мы можем[n]ожидать, что нанесем большой урон, тогда мы[n]должны перейти в наступление...[n][w][e]
+##-[s]If we have the first attack and can[n]expect to do a lot of damage, then[n]we should go on the offensive...[n][w][e]-##
+[s]Если нет, то разумнее не нападать, а просто[n]сосредоточиться на исцелении.[n][w][e]
+##-[s]If not, then it's smarter not to attack[n]and just focus on healing.[n][w][e]-##
+[s]Всегда думайте на два шага вперед при[n]планировании своей боевой стратегии, это[n]приведет к победе.[n][w][e]
+##-[s]Always thinking two steps ahead when[n]planning your battle strategy will lead[n]to victory.[n][w][e]-##
+
+[msg MSG0504_SANADA_01 [Akihiko]]
+[s][bup 7 1 65535 0]Мицуру? Она в конференц-зале, оттачивает[n]свои особые способности.[n][w][e]
+##-[s][bup 7 1 65535 0]Mitsuru? She's in the meeting room[n]sharpening her special abilities.[n][w][e]-##
+[s]Но, если ты хочешь отправиться в Тартар, ты[n]можешь пойти и сказать ей.[n][w][e]
+##-[s]But, if you want to go to Tartarus,[n]you can go and tell her.[n][w][e]-##
+
+[msg MSG0504_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]У разных видов оружия разное применение.[n][w][e]
+##-[s][bup 2 1 65535 0]Different weapons have different uses.[n][w][e]-##
+[s]Одноручный меч, который у вас есть, очень[n]сбалансирован с точки зрения скорости и[n]дальности.[n][w][e]
+##-[s]The one-handed sword you have is[n]very balanced in terms of speed[n]and range.[n][w][e]-##
+[s]Это стандартное оружие.[n][w][e]
+##-[s]It's a standard weapon.[n][w][e]-##
+
+[msg MSG0504_YUKARI_01_G [Yukari]]
+[s][bup 2 1 65535 0]У разных видов оружия разное применение.[n][w][e]
+##-[s][bup 2 1 65535 0]Different weapons have different uses.[n][w][e]-##
+[s]Нагината, которая у вас есть, очень[n]сбалансирована с точки зрения скорости и[n]дальности действия.[n][w][e]
+##-[s]The naginata you have is very balanced[n]in terms of speed and range.[n][w][e]-##
+[s]Это стандартное оружие.[n][w][e]
+##-[s]It's a standard weapon.[n][w][e]-##
+
+[msg MSG0516_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Я... я учился... и я просто пришел сюда[n]ненадолго отдохнуть.[n][w][e]
+##-[s][bup 5 1 65535 0]I-I was studying... and I just came[n]out here for a quick break.[n][w][e]-##
+[s]Ладно, может быть, это и неправда.[n][w][e]
+##-[s]Okay, so maybe that's not true.[n][w][e]-##
+[s]Сначала у меня все было хорошо, но потом я[n]обленился.[n][w][e]
+##-[s]I started out fine, but then I got lazy.[n][w][e]-##
+[s]Я не знаю, как все могут так много[n]учиться...[n][w][e]
+##-[s]I don't know how everyone can study[n]so much...[n][w][e]-##
+
+[msg MSG0516_SANADA_01 [Akihiko]]
+[s][bup 7 1 65535 0]Каждый раз, когда я прихожу сюда, чтобы[n]отдохнуть от учебы, я вижу Джунпея.[n][w][e]
+##-[s][bup 7 1 65535 0]Every time I come out here to take[n]a break from studying, I see Junpei.[n][w][e]-##
+[s]Это просто совпадение, или он такой большой[n]бездельник?[n][w][e]
+##-[s]Is that just coincidence, or is he[n]that big of a slacker?[n][w][e]-##
+
+[msg MSG0528_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Мы спасаем город, верно, Семпай?[n][w][e]
+##-[s][bup 5 1 65535 0]We're saving the city, right Senpai?[n][w][e]-##
+[s][bup 7 1 65535 1][f 1 5]Акихико[n]Конечно. Почему вы задаете такой очевидный[n]вопрос?[n][w][e]
+##-[s][bup 7 1 65535 1][f 1 5]Akihiko[n]Of course. Why would you ask such[n]an obvious question?[n][w][e]-##
+[s][bup 5 1 65535 0][f 1 5]Дзюнпэй[n]Ну, ты знаешь...[n][w][e]
+##-[s][bup 5 1 65535 0][f 1 5]Junpei[n]Well, y'know...[n][w][e]-##
+[s]Я просто подумал, что было бы неплохо[n]получить какую-нибудь благодарность...[n][w][e]
+##-[s]I was just thinking it might be nice[n]to get some kind of thank you...[n][w][e]-##
+[s]По крайней мере, от дам...[n][w][e]
+##-[s]From the ladies, at least...[n][w][e]-##
+
+[msg MSG0528_SANADA_01 [Akihiko]]
+[s][bup 7 1 65535 0]Ну, я бы не рассчитывал на чью-либо[n]признательность, поскольку никто не знает,[n]чем мы занимаемся.[n][w][e]
+##-[s][bup 7 1 65535 0]Well, I wouldn't count on getting any[n]appreciation from anyone, since no one[n]knows what we're doing.[n][w][e]-##
+[s]Я знаю, что это все усложняет.[n][w][e]
+##-[s]I know that makes things harder.[n][w][e]-##
+[s]Но, если мы не будем бороться, то еще[n]больше людей станут жертвами Теней, как[n]Потерянные.[n][w][e]
+##-[s]But, if we don't fight, then more people[n]will become victims of the Shadows, like[n]The Lost.[n][w][e]-##
+[s]Однако мы меняем ситуацию к лучшему. Мы[n]делаем город более мирным.[n][w][e]
+##-[s]We ARE making a difference, though.[n]We're making the city more peaceful.[n][w][e]-##
+[s]Просто помни об этом.[n][w][e]
+##-[s]Just remember that.[n][w][e]-##
+
+[msg MSG0530_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Юка-тан сходит с ума без всякой причины![n][w][e]
+##-[s][bup 5 1 65535 0]Yuka-tan's freakin' out, for no reason![n][w][e]-##
+[s]Все, что я ей сказал, это то, что кто-то[n]может быть в ее комнате... или под ее[n]кроватью... или в ее шкафу.[n][w][e]
+##-[s]All I said to her was that someone might[n]be in her room... or under her bed...[n]or in her closet.[n][w][e]-##
+[s]Я имею в виду, да ладно, это же не повод[n]так волноваться, верно?[n][w][e]
+##-[s]I mean, come on, that's nothing to get[n]all worked up about, right?[n][w][e]-##
+
+[sel MSG0530_JUNPEI_01_SEL top]
+[s]“правильно”.[e]
+##-[s]"Right."[e]-##
+[s]«Что? Ты напугал ее!"[e]
+##-[s]"What? You scared her!"[e]-##
+
+[sel MSG0530_JUNPEI_01_SEL_G top]
+[s]"Это не смешно..."[e]
+##-[s]"That's not funny..."[e]-##
+[s]"А как насчет того, что за занавеской...?"[e]
+##-[s]"What about behind the curtain...?"[e]-##
+
+[msg MSG0530_JUNPEI_02 [Junpei]]
+[s][bup 5 1 65535 0]Может быть, Юка-тан просто легко пугается.[n][w][e]
+##-[s][bup 5 1 65535 0]Maybe Yuka-tan's just easily scared.[n][w][e]-##
+
+[msg MSG0530_JUNPEI_02_G [Junpei]]
+[s][bup 5 1 65535 0]Почему нет? Ты легко пугаешься, как Юкари?[n][w][e]
+##-[s][bup 5 1 65535 0]Why not? Do you get scared easily[n]like Yukari?[n][w][e]-##
+[s]Я этого не ожидал... Но это довольно мило![n][w][e]
+##-[s]I didn't expect that...[n]But it's kinda cute![n][w][e]-##
+
+[msg MSG0530_JUNPEI_03 [Junpei]]
+[s][bup 5 1 65535 0]Да, я думаю, ты прав.[n][w][e]
+##-[s][bup 5 1 65535 0]Yeah, I guess you're right.[n][w][e]-##
+[s]Все, что она, вероятно, увидит, это одного[n]из этих здоровенных тараканов. ...Ну, я[n]думаю, это тоже было бы довольно страшно.[n][w][e]
+##-[s]All she'll probably see is one of those[n]big-ass cockroaches. ...Well, I guess[n]that would be pretty scary too.[n][w][e]-##
+
+[msg MSG0530_JUNPEI_03_G [Junpei]]
+[s][bup 5 1 65535 0]Ого, тебе тоже нравится рассказывать такие[n]истории?[n][w][e]
+##-[s][bup 5 1 65535 0]Whoa, do you like telling stories[n]like that, too?[n][w][e]-##
+[s]Просто не заходи слишком далеко, когда[n]рассказываешь их Юкари... Она взбесится![n][w][e]
+##-[s]Just don't go too far when telling 'em[n]to Yukari... She'll freak out![n][w][e]-##
+
+[msg MSG0530_YUKARI_01 [Yukari]]
+[s][bup 2 3 65535 0]О боже мой, Тупей! Я не могу так спать![n][w][e]
+##-[s][bup 2 3 65535 0]Oh my god, Stupei! I can't sleep like this![n][w][e]-##
+[s][bup 5 2 65535 1][f 1 5]Дзюнпэй[n]Я был бы счастлив переспать с тобой, если[n]это поможет...[n][w][e]
+##-[s][bup 5 2 65535 1][f 1 5]Junpei[n]I'd be happy to sleep with you,[n]if it helps...[n][w][e]-##
+[s][bup 2 3 65535 0][f 1 5]Юкари[n]* вздох*[n][w][e]
+##-[s][bup 2 3 65535 0][f 1 5]Yukari[n]*sigh*[n][w][e]-##
+[s]Может быть, мне стоит позвонить в полицию,[n]а еще лучше, Мицуру-семпаю...[n][w][e]
+##-[s]Maybe I should call the police,[n]or better yet, Mitsuru-senpai...[n][w][e]-##
+[s][bup 5 8 65535 1][f 1 5]Дзюнпэй[n]Пожалуйста... Что угодно, только не это![n][w][e]
+##-[s][bup 5 8 65535 1][f 1 5]Junpei[n]Please... Anything but that![n][w][e]-##
+
+[msg MSG0621_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Мицуру-семпая и Акихико-семпая сегодня[n]здесь нет, так что мы не можем отправиться[n]в Тартар.[n][w][e]
+##-[s][bup 6 1 65535 0]Mitsuru-senpai and Akihiko-senpai are[n]not here today, so we can't go to[n]Tartarus.[n][w][e]-##
+
+[msg MSG0621_YUKARI_01 [Yukari]]
+[s][bup 2 2 65535 0]Коромару такой преданный пес... И он тоже[n]симпатичный.[n][w][e]
+##-[s][bup 2 2 65535 0]Koromaru is such a loyal dog...[n]And he's cute, too.[n][w][e]-##
+[s][bup 5 2 65535 0][f 1 5]Дзюнпэй[n]Хотел бы я быть собакой, чтобы привлекать[n]внимание девушек...[n][w][e]
+##-[s][bup 5 2 65535 0][f 1 5]Junpei[n]I wish I was a dog, so I could get[n]girls' attention...[n][w][e]-##
+[s][bup 6 1 65535 0][f 1 5]Фуука[n]Тебе не кажется, что Акихико-семпай хорошо[n]смотрелся бы с собакой?[n][w][e]
+##-[s][bup 6 1 65535 0][f 1 5]Fuuka[n]Don't you think Akihiko-senpai would[n]look good with a dog?[n][w][e]-##
+[s]Ничего необычного, просто обычная игривая[n]собака...[n][w][e]
+##-[s]Not an unusual one, just an ordinary,[n]playful dog...[n][w][e]-##
+[s][bup 2 2 65535 0][f 1 5]Юкари[n]Да, это правда.[n][w][e]
+##-[s][bup 2 2 65535 0][f 1 5]Yukari[n]Yeah, that's true.[n][w][e]-##
+[s]Я видел, как они вместе бегали по пляжу...[n][w][e]
+##-[s]I could see them running on the beach[n]together...[n][w][e]-##
+
+[msg MSG0621_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Коромару действительно единственный в своем[n]роде, да...[n][w][e]
+##-[s][bup 5 1 65535 0]Koromaru is really one of a kind, huh...[n][w][e]-##
+[s][bup 6 1 65535 0][f 1 5]Фуука[n]Как ты думаешь, какая собака подошла бы[n]Мицуру-семпаю?[n][w][e]
+##-[s][bup 6 1 65535 0][f 1 5]Fuuka[n]What kind of dog do you think would be[n]good for Mitsuru-senpai?[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Хммм...[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]Hmmm...[n][w][e]-##
+[s]Я не могу видеть ее с собакой...[n][w][e]
+##-[s]I can't see her with a dog...[n][w][e]-##
+[s][bup 5 1 65535 0][f 1 5]Дзюнпэй[n]У нее, наверное, был бы доберман.[n][w][e]
+##-[s][bup 5 1 65535 0][f 1 5]Junpei[n]She'd probably have a doberman.[n][w][e]-##
+[s][bup 5 2 65535 0]И она кормила его филе-миньон...[n][w][e]
+##-[s][bup 5 2 65535 0]And she'd feed it filet mignon...[n][w][e]-##
+[s][bup 6 8 65535 0][f 1 5]Фуука[n]Дзюнпэй-кун... Я думаю, ты читаешь слишком[n]много манги...[n][w][e]
+##-[s][bup 6 8 65535 0][f 1 5]Fuuka[n]Junpei-kun... I think you've been reading[n]too much manga...[n][w][e]-##
+
+[msg MSG0628_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Мицуру-семпая и Акихико-семпая сегодня[n]здесь нет, так что мы не можем отправиться[n]в Тартар.[n][w][e]
+##-[s][bup 6 1 65535 0]Mitsuru-senpai and Akihiko-senpai are[n]not here today, so we can't go to[n]Tartarus.[n][w][e]-##
+
+[msg MSG0628_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Интересно, что там наверху?..[n][w][e]
+##-[s][bup 2 1 65535 0]I wonder what's at the top...[n][w][e]-##
+[s][bup 6 1 65535 0][f 1 5]Фуука[n]Если бы это был приключенческий роман, там,[n]вероятно, было бы какое-то сокровище...[n][w][e]
+##-[s][bup 6 1 65535 0][f 1 5]Fuuka[n]If this was an adventure novel,[n]there'd probably be some kind of[n]treasure...[n][w][e]-##
+[s][bup 5 2 65535 0][f 1 5]Дзюнпэй[n]Я знаю! Там гигантская пиньята! И когда ты[n]его сломаешь...[n][w][e]
+##-[s][bup 5 2 65535 0][f 1 5]Junpei[n]I know! There's a giant pinata![n]And when you break it...[n][w][e]-##
+[s]...высыпаются конфеты, и появляется[n]огромный баннер с надписью: "Поздравляю! Ты[n]победил Тартар!"[n][w][e]
+##-[s]...candy pours out, and a huge banner[n]appears, saying, "Congratulations![n]You've beaten Tartarus!"[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Должно быть, так оно и есть, Тупей.[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]That MUST be it, Stupei.[n][w][e]-##
+[s]Разве не было бы здорово, если бы там была[n]панель управления, которую мы могли бы[n]разбить и уничтожить все это место?[n][w][e]
+##-[s]Wouldn't it be nice if there was[n]a control panel we could smash and[n]destroy the whole place?[n][w][e]-##
+
+[msg MSG0628_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Гм. Мудрый Дзюнпэй выдвинул окончательную[n]гипотезу![n][w][e]
+##-[s][bup 5 2 65535 0]Ahem. Junpei the Wise has come up with[n]the ultimate hypothesis![n][w][e]-##
+[s][bup 5 3 65535 0]...В Тартаре нет вершины![n][w][e]
+##-[s][bup 5 3 65535 0]...There is no top to Tartarus![n][w][e]-##
+[s][bup 2 5 65535 0][f 1 5]Юкари[n]Ого, он наконец-то сорвался... Я думаю, что[n]срок годности его мозга истек.[n][w][e]
+##-[s][bup 2 5 65535 0][f 1 5]Yukari[n]Whoa, he's finally snapped... I guess[n]his brain has reached its expiration[n]date.[n][w][e]-##
+[s][bup 6 1 65535 0][f 1 5]Фуука[n]На самом деле, это интересная идея...[n][w][e]
+##-[s][bup 6 1 65535 0][f 1 5]Fuuka[n]Actually, that's an interesting idea...[n][w][e]-##
+[s]Но разве это не создаст для нас большую[n]проблему?[n][w][e]
+##-[s]But, wouldn't that create a big problem[n]for us?[n][w][e]-##
+[s][bup 5 5 65535 0][f 1 5]Дзюнпэй[n]Эм, д-да, наверное, так...[n][w][e]
+##-[s][bup 5 5 65535 0][f 1 5]Junpei[n]Uh, y-yeah, I guess so...[n][w][e]-##
+[s][bup 5 1 65535 0]Хм, может быть, я ошибался.[n][w][e]
+##-[s][bup 5 1 65535 0]Um, maybe I was wrong.[n][w][e]-##
+
+[msg MSG0705_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Даже несмотря на то, что мы становимся[n]сильнее...[n][w][e]
+##-[s][bup 5 1 65535 0]Even though we've been getting[n]stronger...[n][w][e]-##
+[s]...тени тоже становились все сильнее.[n][w][e]
+##-[s]...the Shadows have been getting[n]stronger too.[n][w][e]-##
+[s][bup 5 4 65535 0]Как долго мы сможем продолжать в том же[n]духе?[n][w][e]
+##-[s][bup 5 4 65535 0]How long can we keep this up?[n][w][e]-##
+[s]Что произойдет, если мы достигнем своего[n]предела, а затем полностью надерем себе[n]задницы? Чувак, это было бы отстойно.[n][w][e]
+##-[s]What happens if we reach our limit and[n]then totally get our asses kicked?[n]Man, that would suck.[n][w][e]-##
+
+[msg MSG0705_SANADA_01 [Akihiko]]
+[s][bup 7 1 65535 0]Достижение вашего предела означает, что вы[n]не можете стать сильнее...[n][w][e]
+##-[s][bup 7 1 65535 0]Reaching your limit means you can't get[n]any stronger...[n][w][e]-##
+[s]...и это относится только к тому, кто[n]является мастером.[n][w][e]
+##-[s]...and that only applies to someone[n]who's a master.[n][w][e]-##
+[s]Большинство людей используют это как[n]оправдание. Они говорят, что достигли[n]своего предела, но на самом деле они просто[n]сдались.[n][w][e]
+##-[s]Most people use it as an excuse. They[n]say they've reached their limit, but[n]in reality, they've just given up.[n][w][e]-##
+[s]Вы можете начать с того, что забудете о[n]достижении своего предела. Это первый шаг к[n]тому, чтобы стать сильнее.[n][w][e]
+##-[s]You can start by forgetting about[n]reaching your limit. That's the first[n]step to getting stronger.[n][w][e]-##
+
+[msg MSG0713_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Я в восторге от Якусимы, но это уже другая[n]история...[n][w][e]
+##-[s][bup 5 1 65535 0]I'm excited about Yakushima,[n]but that's another story...[n][w][e]-##
+[s]Прямо сейчас мне нужно сосредоточиться.[n][w][e]
+##-[s]Right now, I have to concentrate.[n][w][e]-##
+[s]Как тебе удается все время оставаться таким[n]спокойным?[n][w][e]
+##-[s]How do you stay so calm all the time?[n][w][e]-##
+[s]Кажется, что все, что ты делаешь, это[n]бродишь и разговариваешь с людьми.[n][w][e]
+##-[s]It seems like all you do is wander around[n]and talk to people.[n][w][e]-##
+
+[msg MSG0713_JUNPEI_01_G [Junpei]]
+[s][bup 5 1 65535 0]Я в восторге от Якусимы, но это уже другая[n]история...[n][w][e]
+##-[s][bup 5 1 65535 0]I'm excited about Yakushima,[n]but that's another story...[n][w][e]-##
+[s]*вздох* Я не могу сосредоточиться...[n][w][e]
+##-[s]*sigh* I can't concentrate...[n][w][e]-##
+[s]Мой мозг уже пересек океан и добрался до[n]Якусимы...[n][w][e]
+##-[s]My brain has already crossed the ocean[n]into Yakushima...[n][w][e]-##
+
+[msg MSG0719_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Мицуру-семпая и Акихико-семпая сегодня[n]здесь нет, так что мы не можем отправиться[n]в Тартар.[n][w][e]
+##-[s][bup 6 1 65535 0]Mitsuru-senpai and Akihiko-senpai are[n]not here today, so we can't go to[n]Tartarus.[n][w][e]-##
+[s]Кроме того, мы скоро уезжаем в Якусиму.[n][w][e]
+##-[s]Besides, we're leaving for Yakushima[n]soon.[n][w][e]-##
+[s][bup 6 4 65535 0]Это напомнило мне... Интересно, как дела у[n]Юкари-тян?..[n][w][e]
+##-[s][bup 6 4 65535 0]That reminds me... I wonder how[n]Yukari-chan is doing...[n][w][e]-##
+[s]Похоже, она не испытывала особого[n]энтузиазма по поводу покупки купальника.[n][w][e]
+##-[s]She didn't seem very enthusiastic about[n]buying a bathing suit.[n][w][e]-##
+
+[msg MSG0719_YUKARI_01 [Yukari]]
+[s][bup 2 4 65535 0]* вздох*[n][w][e]
+##-[s][bup 2 4 65535 0]*sigh*[n][w][e]-##
+[s][bup 2 1 65535 0]Ну, дело не в том, что мне не нравится[n]Якусима...[n][w][e]
+##-[s][bup 2 1 65535 0]Well, it's not that I don't like Yakushima...[n][w][e]-##
+[s]Обычно я люблю бывать на солнце и купаться[n]в океане...[n][w][e]
+##-[s]Usually, I love being out in the sun[n]and swimming in the ocean...[n][w][e]-##
+[s][bup 2 4 65535 0]...Просто на этот раз я не совсем готов к[n]этому.[n][w][e]
+##-[s][bup 2 4 65535 0]...I'm just not really up for it this time.[n][w][e]-##
+
+[msg MSG0719_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Чувак, я так готов к этому! Берегитесь,[n]дамы, я иду![n][w][e]
+##-[s][bup 5 2 65535 0]Dude, I'm so ready for this![n]Look out, ladies, here I come![n][w][e]-##
+[s][bup 6 8 65535 0][f 1 5]Фуука[n]*вздох* Это все, о чем ты думаешь,[n]Дзюнпэй-кун...?[n][w][e]
+##-[s][bup 6 8 65535 0][f 1 5]Fuuka[n]*sigh* Is that all you think about,[n]Junpei-kun...?[n][w][e]-##
+[s][bup 2 4 65535 0][f 1 5]Юкари[n]Ты точно знаешь, как оставить свои проблемы[n]позади...[n][w][e]
+##-[s][bup 2 4 65535 0][f 1 5]Yukari[n]You sure know how to leave your[n]troubles behind...[n][w][e]-##
+[s]Хотел бы я так же легко забыть о своих[n]тревогах, как это делаешь ты.[n][w][e]
+##-[s]I wish I could forget my worries as easily[n]as you do.[n][w][e]-##
+[s][bup 6 4 65535 0][f 1 5]Фуука[n]......[n][w][e]
+##-[s][bup 6 4 65535 0][f 1 5]Fuuka[n]......[n][w][e]-##
+[s][bup 5 1 65535 0][f 1 5]Дзюнпэй[n]Ты должен получать от жизни максимум![n][w][e]
+##-[s][bup 5 1 65535 0][f 1 5]Junpei[n]You gotta get the most outta life![n][w][e]-##
+[s][bup 2 4 65535 0][f 1 5]Юкари[n]Я знаю, что ты прав, но все же...[n][w][e]
+##-[s][bup 2 4 65535 0][f 1 5]Yukari[n]I know you're right, but still...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG0726_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Если эта страна развалится, что тогда[n]произойдет?..[n][w][e]
+##-[s][bup 6 1 65535 0]If this country falls apart, what will[n]happen then...?[n][w][e]-##
+[s]Будет ли Япония захвачена другой нацией,[n]или...[n][w][e]
+##-[s]Will Japan be taken over by another[n]nation, or...[n][w][e]-##
+[s]...Нет, я не должен так думать... Мы должны[n]оставаться позитивными, верно?[n][w][e]
+##-[s]...No, I shouldn't think like that...[n]We have to stay positive, right?[n][w][e]-##
+
+[msg MSG0726_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Я тут подумал...[n][w][e]
+##-[s][bup 2 1 65535 0]I've been thinking...[n][w][e]-##
+[s]Если число Погибших будет продолжать расти,[n]то не рухнет ли в конце концов страна?[n][w][e]
+##-[s]If the number of The Lost keeps[n]growing, then won't the country[n]eventually collapse?[n][w][e]-##
+[s]На наших плечах так много всего лежит. *[n]вздох*[n][w][e]
+##-[s]There's so much riding on our[n]shoulders. *sigh*[n][w][e]-##
+
+[msg MSG0726_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Черт, я никогда об этом не думал![n][w][e]
+##-[s][bup 5 1 65535 0]Damn, I never thought of that![n][w][e]-##
+[s]Если это произойдет, как я буду делать[n]покупки в круглосуточном магазине?[n][w][e]
+##-[s]If that happens, how will I shop at[n]the convenience store?[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]*вздох* Я думаю, что концепция слишком[n]велика для вашего мозга, чтобы ее понять.[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]*sigh* I guess the concept is too big[n]for your brain to comprehend.[n][w][e]-##
+[s]Ты идиот, ты это знаешь?[n][w][e]
+##-[s]You're an idiot, ya know that?[n][w][e]-##
+
+[msg MSG0726_AEGIS_01 [Aigis]]
+[s][bup 3 161 0 0]Я провел моделирование, чтобы предсказать[n]результат.[n][w][e]
+##-[s][bup 3 161 0 0]I have conducted a simulation to predict[n]the outcome.[n][w][e]-##
+[s]Прежде всего, Потерянные являются бременем[n]для общества, поскольку они истощают[n]ресурсы, но не могут ничего внести.[n][w][e]
+##-[s]First of all, The Lost are a strain on[n]society, since they drain resources[n]but are unable to contribute anything.[n][w][e]-##
+[s]Но это только начало.[n][w][e]
+##-[s]But, that is only the beginning.[n][w][e]-##
+[s]Эти люди также нуждаются в уходе, а это[n]значит, что многие люди бросят свою работу,[n]чтобы ухаживать за ними.[n][w][e]
+##-[s]These individuals also require care,[n]which means many people will quit[n]their jobs in order to attend to them.[n][w][e]-##
+[s]Все меньше и меньше людей будет работать,[n]поэтому производительность общества будет[n]падать.[n][w][e]
+##-[s]Fewer and fewer people will be working,[n]so society's productivity will plummet.[n][w][e]-##
+[s]В конце концов, эта страна больше не сможет[n]поддерживать себя, и в результате наступит[n]хаос.[n][w][e]
+##-[s]Eventually, this country will no longer[n]be able to sustain itself, and chaos will[n]result.[n][w][e]-##
+[s][f 4 7 0 0 0]> Она все еще далека от того, чтобы сойти[n]за человека...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> She is still far from passing[n]as human...[n][f 1 4][e]-##
+[s]> Похоже, в данный момент она не в[n]состоянии понять обычные чувства и[n]разговоры...[n][f 1 4][e]
+##-[s]> It seems she is unable to[n]understand ordinary feelings[n]and conversation at the moment...[n][f 1 4][e]-##
+[s]> Если бы она смогла это сделать, вы могли[n]бы создать с ней связь.[n][f 1 4][e]
+##-[s]> If she were able to do that,[n]you may be able to create a bond[n]with her.[n][f 1 4][e]-##
+
+[msg MSG0807_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Все кажутся совершенно измученными...[n][w][e]
+##-[s][bup 6 1 65535 0]Everyone seems thoroughly exhausted...[n][w][e]-##
+[s]Поскольку Мицуру-семпая и Акихико-семпая[n]здесь нет, давайте не будем сегодня[n]отправляться в Тартар.[n][w][e]
+##-[s]Since Mitsuru-senpai and Akihiko-senpai[n]are not here, let's not go to Tartarus[n]today.[n][w][e]-##
+
+[msg MSG0807_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Позвольте мне прояснить это... Если Темный[n]Час исчезнет, то наши Персонажи тоже[n]исчезнут?[n][w][e]
+##-[s][bup 2 1 65535 0]Let me get this straight...[n]If the Dark Hour disappears, then[n]our Personas will disappear too?[n][w][e]-##
+[s]Это в основном то, что говорили те люди из[n]Стреги, верно?..[n][w][e]
+##-[s]That's basically what those Strega[n]people were saying, right...?[n][w][e]-##
+
+[msg MSG0807_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, наши миссии всегда такие[n]утомительные.[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, our missions are always so tiring.[n][w][e]-##
+[s]Но прошлая ночь была еще хуже, с тех пор[n]как мы столкнулись с теми парнями из[n]Стреги.[n][w][e]
+##-[s]But, last night was even worse, since[n]we ran into those Strega guys.[n][w][e]-##
+[s][bup 5 3 65535 0]Блин, они меня действительно бесят.[n][w][e]
+##-[s][bup 5 3 65535 0]Man, they really piss me off.[n][w][e]-##
+
+[msg MSG0807_AEGIS_01 [Aigis]]
+[s][bup 3 161 0 0]Осталось четыре Тени. Давайте и в следующий[n]раз сделаем все возможное.[n][w][e]
+##-[s][bup 3 161 0 0]There are four Shadows remaining.[n]Let us do our best next time, too.[n][w][e]-##
+[s]Однако члены Стреги также, по-видимому,[n]являются нашими врагами.[n][w][e]
+##-[s]However, the members of Strega also[n]appear to be our enemies.[n][w][e]-##
+[s]Так что, пожалуйста, будьте осторожны.[n][w][e]
+##-[s]So, please be careful.[n][w][e]-##
+
+[msg MSG0809_FUUKA_01 [Aigis]]
+[s][bup 6 1 65535 0]Все ненавидят летнюю школу, но я думаю, что[n]это необходимо.[n][w][e]
+##-[s][bup 6 1 65535 0]Everyone hates summer school,[n]but I think it's necessary.[n][w][e]-##
+[s]После того, как мы победим остальных Теней,[n]мы снова станем обычными[n]старшеклассниками...[n][w][e]
+##-[s]After we defeat the rest of the Shadows,[n]we'll become ordinary high school[n]students again...[n][w][e]-##
+[s]И если мы сейчас отстанем в учебе, то позже[n]у нас будут большие проблемы.[n][w][e]
+##-[s]And if we fall behind in our studies now,[n]we'll be in big trouble later.[n][w][e]-##
+
+[msg MSG0809_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Летняя школа, да... Какая боль.[n][w][e]
+##-[s][bup 2 1 65535 0]Summer school, huh... What a pain.[n][w][e]-##
+[s][bup 5 4 65535 1][f 1 5]Дзюнпэй[n]Чертовски верно...[n][w][e]
+##-[s][bup 5 4 65535 1][f 1 5]Junpei[n]Damn right...[n][w][e]-##
+[s]Я завидую Коромару, потому что ему не нужно[n]учиться.[n][w][e]
+##-[s]I'm jealous of Koromaru, since he doesn't[n]have to do any studying.[n][w][e]-##
+
+[msg MSG0809_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Вот и все! У Мудрого Дзюнпэя есть еще одна[n]блестящая идея![n][w][e]
+##-[s][bup 5 2 65535 0]That's it! Junpei the Wise has another[n]brilliant idea![n][w][e]-##
+[s]Все, что мне нужно сделать, это стать[n]собакой! Тогда мне тоже не придется ходить[n]в летнюю школу![n][w][e]
+##-[s]All I have to do is become a dog![n]Then, I won't have to go to summer[n]school either![n][w][e]-##
+[s][bup 10 161 0 1][f 1 5]Коромару[n]Гав! Гав![n][w][e]
+##-[s][bup 10 161 0 1][f 1 5]Koromaru[n]Woof! Woof![n][w][e]-##
+[s]*тяжело дышать * *тяжело дышать*[n][w][e]
+##-[s]*pant* *pant*[n][w][e]-##
+[s][bup 6 1 65535 1][f 1 5]Фуука[n]Коро-тян пытается что-то сказать...[n][w][e]
+##-[s][bup 6 1 65535 1][f 1 5]Fuuka[n]Koro-chan is trying to say something...[n][w][e]-##
+[s][bup 5 2 65535 0][f 1 5]Дзюнпэй[n]Держу пари, он хвалит меня за то, что я[n]такая умная.[n][w][e]
+##-[s][bup 5 2 65535 0][f 1 5]Junpei[n]I bet he's complimenting me for being[n]so smart.[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Держу пари, он смеется над тобой, говорит,[n]какой ты глупый... Тупей![n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]I bet he's laughing at you, saying how[n]stupid you are... Stupei![n][w][e]-##
+
+[msg MSG0809_KOROMARU_01 [Koromaru]]
+[s][bup 10 161 0 0]Гав![n][w][e]
+##-[s][bup 10 161 0 0]Woof![n][w][e]-##
+
+[msg MSG0816_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Ни денег, ни девушки... Наверное, я не[n]пойду на фестиваль.[n][w][e]
+##-[s][bup 5 1 65535 0]No money, no girlfriend... I guess[n]I'm not going to the festival.[n][w][e]-##
+[s]Чувак, на улице чертовски жарко. Моя[n]комната похожа на сауну.[n][w][e]
+##-[s]Man, it's freakin' hot out. My room is[n]like a sauna.[n][w][e]-##
+
+[msg MSG0822_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Эй, мне было интересно...[n][w][e]
+##-[s][bup 2 1 65535 0]Hey, I was wondering...[n][w][e]-##
+[s]Как вы думаете, что будет с нами, если[n]Темный Час исчезнет?[n][w][e]
+##-[s]What do you think will happen to us if[n]the Dark Hour disappears?[n][w][e]-##
+
+[msg MSG0822_YUKARI_01_G [Yukari]]
+[s][bup 2 1 65535 0]Эй, мне было интересно...[n][w][e]
+##-[s][bup 2 1 65535 0]Hey, I was wondering...[n][w][e]-##
+[s]Как вы думаете, что будет с нами, если[n]Темный Час исчезнет?[n][w][e]
+##-[s]What do you think will happen to us if[n]the Dark Hour disappears?[n][w][e]-##
+
+[sel MSG0822_YUKARI_01_SEL top]
+[s]"Мы вернемся к нормальной жизни".[e]
+##-[s]"We'll go back to normal."[e]-##
+[s]"Я не могу думать об этом сейчас".[e]
+##-[s]"I can't think about that now."[e]-##
+
+[sel MSG0822_YUKARI_01_SEL_G top]
+[s]"Мы вернемся к нормальной жизни".[e]
+##-[s]"We'll go back to normal."[e]-##
+[s]"Я не могу думать об этом сейчас".[e]
+##-[s]"I can't think about that now."[e]-##
+
+[msg MSG0822_YUKARI_02 [Yukari]]
+[s][bup 2 1 65535 0]Да, я тоже так думаю.[n][w][e]
+##-[s][bup 2 1 65535 0]Yeah, that's what I think too.[n][w][e]-##
+[s]Эти парни из Стреги сказали, что наши[n]способности к Персонажу исчезнут без следа.[n][w][e]
+##-[s]Those Strega guys said our Persona[n]abilities will disappear without a trace.[n][w][e]-##
+[s]Так что мы, наверное, просто вернемся к[n]тому, чтобы быть обычными[n]старшеклассниками.[n][w][e]
+##-[s]So, we'll probably just go back to[n]being ordinary high school students.[n][w][e]-##
+
+[msg MSG0822_YUKARI_03 [Yukari]]
+[s][bup 2 1 65535 0]Итак, ты думаешь только о битвах, в которых[n]нам еще предстоит сражаться, да?[n][w][e]
+##-[s][bup 2 1 65535 0]So, you only think about the battles[n]we still have to fight, huh?[n][w][e]-##
+[s]Ты действительно сосредоточен.[n][w][e]
+##-[s]You're really focused.[n][w][e]-##
+
+[msg MSG0822_YUKARI_03_G [Yukari]]
+[s][bup 2 1 65535 0]Итак, ты думаешь только о битвах, в которых[n]нам еще предстоит сражаться, да?[n][w][e]
+##-[s][bup 2 1 65535 0]So, you only think about the battles[n]we still have to fight, huh?[n][w][e]-##
+[s]Ты действительно сосредоточен.[n][w][e]
+##-[s]You're really focused.[n][w][e]-##
+
+[msg MSG0822_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]В последнее время многие люди пишут о[n]Потерянных в своих блогах.[n][w][e]
+##-[s][bup 6 1 65535 0]A lot of people have been writing about[n]The Lost in their blogs lately.[n][w][e]-##
+[s]Осталось всего четыре Тени... Мы должны[n]победить их и остановить ущерб, который они[n]наносят обществу.[n][w][e]
+##-[s]There are only four Shadows left...[n]We have to defeat them and stop[n]the damage they're causing to society.[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Я читал некоторые из этих блогов...[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]I've read some of those blogs...[n][w][e]-##
+[s]Девушка написала о страданиях, которые она[n]испытала, когда была одной из Потерянных...[n][w][e]
+##-[s]A girl wrote about the suffering[n]she experienced when she was[n]one of The Lost...[n][w][e]-##
+[s]И какой-то парень опубликовал сообщение о[n]том, что его родители стали жертвами...[n][w][e]
+##-[s]And some guy posted a message about[n]his parents becoming victims...[n][w][e]-##
+[s]Это так печально...[n][w][e]
+##-[s]It's so sad...[n][w][e]-##
+
+[msg MSG0823_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Важно сосредоточиться на исследовании[n]Тартара и победе над Тенями...[n][w][e]
+##-[s][bup 6 1 65535 0]It's important to focus on exploring[n]Tartarus and defeating Shadows...[n][w][e]-##
+[s]...но выполнение домашней работы на летние[n]каникулы так же важно.[n][w][e]
+##-[s]...but doing our summer vacation[n]homework is just as important.[n][w][e]-##
+[s]На самом деле, это может быть более[n]приоритетным из-за нехватки времени...[n][w][e]
+##-[s]In fact, it may be more of a priority[n]because of the time constraint...[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Верно... Ты делал свою домашнюю работу,[n]Дзюнпэй?[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]That's right... Have YOU been doing[n]your homework, Junpei?[n][w][e]-##
+[s][bup 5 2 65535 0][f 1 5]Дзюнпэй[n]Конечно! За кого ты меня принимаешь?[n][w][e]
+##-[s][bup 5 2 65535 0][f 1 5]Junpei[n]Of course! Who do you think I am![n][w][e]-##
+[s]...Хорошо, ты меня понял! Я еще ничего из[n]этого не сделал![n][w][e]
+##-[s]...Alright, ya got me! I haven't done[n]any of it yet![n][w][e]-##
+[s][bup 2 4 65535 0][f 1 5]Юкари[n]......[n][w][e]
+##-[s][bup 2 4 65535 0][f 1 5]Yukari[n]......[n][w][e]-##
+[s][bup 5 5 65535 0][f 1 5]Дзюнпэй[n]Что? Не смотри на меня так![n][w][e]
+##-[s][bup 5 5 65535 0][f 1 5]Junpei[n]What? Don't look at me like that![n][w][e]-##
+
+[msg MSG0823_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Дзюнпэй сказал, что нет смысла делать[n]домашнее задание.[n][w][e]
+##-[s][bup 2 1 65535 0]Junpei said there's no point in doing[n]homework.[n][w][e]-##
+[s]Какой идиот. Он только делает себе хуже...[n][w][e]
+##-[s]What an idiot. He's only making things[n]worse for himself...[n][w][e]-##
+
+[msg MSG0823_JUNPEI_01 [Junpei]]
+[s][bup 5 3 65535 0]Домашнее задание ничтожно мало по сравнению[n]с Тартаром! Мы должны раскрыть наш скрытый[n]потенциал, чтобы победить злые Тени![n][w][e]
+##-[s][bup 5 3 65535 0]Homework is insignificant, compared to[n]Tartarus! We must unlock our hidden[n]potential to defeat the evil Shadows![n][w][e]-##
+[s]Да! У нас важная миссия!![n][w][e]
+##-[s]Yes! We have an important mission!![n][w][e]-##
+[s][bup 6 1 65535 1][f 1 5]Фуука[n]Я думаю, что домашнее задание - это тоже[n]важная миссия...[n][w][e]
+##-[s][bup 6 1 65535 1][f 1 5]Fuuka[n]I think homework is also an important[n]mission...[n][w][e]-##
+[s][bup 2 1 65535 3][f 1 5]Юкари[n]Да, и я уверен, что Семпай согласится.[n][w][e]
+##-[s][bup 2 1 65535 3][f 1 5]Yukari[n]Yeah, and I'm sure Senpai would agree.[n][w][e]-##
+[s][bup 5 5 65535 1][f 1 5]Дзюнпэй[n]...Хм.[n][w][e]
+##-[s][bup 5 5 65535 1][f 1 5]Junpei[n]...Hmph.[n][w][e]-##
+
+[msg MSG0825_AMADA_01 [Ken]]
+[s][bup 8 4 65535 0]Я всегда чувствовал, что мне нужно что-то[n]сделать...[n][w][e]
+##-[s][bup 8 4 65535 0]I always felt like there was something[n]I needed to do...[n][w][e]-##
+[s]Но я никогда не мог до конца понять, что[n]это было...[n][w][e]
+##-[s]But, I could never quite figure out[n]what it was...[n][w][e]-##
+[s]Теперь я знаю, и я готов это сделать...[n][w][e]
+##-[s]Now, I know, and I'm ready to do it...[n][w][e]-##
+[s]Мое решение принято.[n][w][e]
+##-[s]My mind is made up.[n][w][e]-##
+
+[msg MSG0828_FUUKA_01 [Fuuka]]
+[s][bup 6 2 65535 0]Дзюнпэй-кун и Кен-кун выглядят как братья.[n][w][e]
+##-[s][bup 6 2 65535 0]Junpei-kun and Ken-kun look like[n]brothers.[n][w][e]-##
+[s]Они составляют неплохую пару. Дзюнпэй-кун -[n]глупый старший брат, а Кен-кун - надежный[n]младший брат.[n][w][e]
+##-[s]They make quite a pair. Junpei-kun is[n]the silly older brother, and Ken-kun[n]is the reliable younger brother.[n][w][e]-##
+[s][bup 5 2 65535 0][f 1 5]Дзюнпэй[n]Да, Кен не мог и мечтать о более крутом[n]старшем брате, чем я![n][w][e]
+##-[s][bup 5 2 65535 0][f 1 5]Junpei[n]Yeah, Ken couldn't ask for a cooler[n]older bro than me![n][w][e]-##
+
+[msg MSG0828_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Почему Дзюнпэй так себя ведет?[n][w][e]
+##-[s][bup 2 1 65535 0]Why is Junpei acting like that?[n][w][e]-##
+[s]О, точно... Поскольку он не состоит ни в[n]каких клубах, это его первый шанс стать[n]семпаем.[n][w][e]
+##-[s]Oh, right... Since he's not in any clubs,[n]this is his first chance to be a senpai.[n][w][e]-##
+
+[msg MSG0828_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Идти в бой в его возрасте... ПАПАША Кена![n][w][e]
+##-[s][bup 5 2 65535 0]Going into battle at his age...[n]Ken's da MAN![n][w][e]-##
+[s]Если он останется со мной, я покажу ему,[n]как это делается! Он может называть меня[n]Джунпей-семпай.[n][w][e]
+##-[s]If he sticks with me, I'll show[n]him how it's done! He can call me[n]Junpei-senpai.[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Перестань вести себя как маленький[n]ребенок... Кен-кун более зрелый, чем ты.[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]Stop acting like a little kid...[n]Ken-kun's more mature than you are.[n][w][e]-##
+
+[msg MSG0828_AEGIS_01 [Aigis]]
+[s][bup 3 161 0 0]Копье - любимое оружие Амады-сан.[n][w][e]
+##-[s][bup 3 161 0 0]The spear is Amada-san's weapon[n]of choice.[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Правда?.. Это необычно...[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]Really...? That's unusual...[n][w][e]-##
+[s][bup 5 1 65535 0][f 1 5]Дзюнпэй[n]Да, с ним не так легко обращаться, как с[n]мечом...[n][w][e]
+##-[s][bup 5 1 65535 0][f 1 5]Junpei[n]Yeah, it's not as easy to handle as[n]a sword...[n][w][e]-##
+[s]Интересно, почему он выбрал именно это.[n][w][e]
+##-[s]I wonder why he chose that.[n][w][e]-##
+[s][bup 3 161 0 0][f 1 5]Айгис[n]Скорее всего, из-за его размера.[n][w][e]
+##-[s][bup 3 161 0 0][f 1 5]Aigis[n]Most likely because of his size.[n][w][e]-##
+[s]Копье уравновешивает недостаток, который он[n]может иметь против более высокого врага.[n][w][e]
+##-[s]A spear evens out the disadvantage[n]he might have against a taller enemy.[n][w][e]-##
+[s][bup 6 1 65535 0][f 1 5]Фуука[n]В этом есть смысл. Я не удивлен, что[n]Кен-кун подумал об этом.[n][w][e]
+##-[s][bup 6 1 65535 0][f 1 5]Fuuka[n]That makes sense. I'm not surprised[n]Ken-kun thought of that.[n][w][e]-##
+
+[msg MSG0902_MITURU_01 [Mitsuru]]
+[s][bup 4 1 65535 0]Я действительно рад, что ты вернулся,[n]Синдзиро.[n][w][e]
+##-[s][bup 4 1 65535 0]I truly am glad to have you back,[n]Shinjiro.[n][w][e]-##
+[s]Но я не могу не задаться вопросом, что[n]побудило вас снова взять в руки своего[n]Вызывателя...[n][w][e]
+##-[s]But, I can't help wondering what[n]motivated you to pick up your Evoker[n]once again...[n][w][e]-##
+[s]Должно быть, что-то глубоко повлияло на[n]вас.[n][w][e]
+##-[s]Something must have affected you[n]profoundly.[n][w][e]-##
+[s]Но я не буду спрашивать тебя сейчас.[n][w][e]
+##-[s]I won't ask you now, though.[n][w][e]-##
+[s][bup 9 161 0 0][f 1 5]Синдзиро[n]Я ценю это.[n][w][e]
+##-[s][bup 9 161 0 0][f 1 5]Shinjiro[n]I appreciate that.[n][w][e]-##
+[s]Может быть, когда-нибудь я буду в[n]настроении рассказать тебе...[n][w][e]
+##-[s]Maybe someday I'll be in the mood to[n]tell you...[n][w][e]-##
+[s][bup 4 1 65535 0][f 1 5]Мицуру[n]......[n][w][e]
+##-[s][bup 4 1 65535 0][f 1 5]Mitsuru[n]......[n][w][e]-##
+
+[msg MSG0902_SANADA_01 [Akihiko]]
+[s][bup 7 1 65535 0]Я ждал этого дня, Синдзи...[n][w][e]
+##-[s][bup 7 1 65535 0]I've been waiting for this day, Shinji...[n][w][e]-##
+[s][bup 7 9 65535 0]На самом деле, я готов к битве прямо[n]сейчас.[n][w][e]
+##-[s][bup 7 9 65535 0]I'm ready for battle right now, in fact.[n][w][e]-##
+[s][bup 9 161 0 0][f 1 5]Синдзиро[n]Тч. Ты такой же вспыльчивый, как всегда.[n][w][e]
+##-[s][bup 9 161 0 0][f 1 5]Shinjiro[n]Tch. You're as hot-headed as always.[n][w][e]-##
+
+[msg MSG0902_ARAGAKI_01 [Shinjiro]]
+[s][bup 9 161 0 0]Что ж, тебе лучше не отставать.[n][w][e]
+##-[s][bup 9 161 0 0]Well, you better not fall behind.[n][w][e]-##
+[s]Я собираюсь успокоиться на сегодня, но[n]начиная с завтрашнего дня, звони мне в[n]любое время.[n][w][e]
+##-[s]I'm gonna take it easy for today,[n]but starting tomorrow, call me[n]whenever.[n][w][e]-##
+
+[msg MSG0906_JUNPEI_01 [Junpei]]
+[s][bup 5 4 65535 0]......[n][w][e]
+##-[s][bup 5 4 65535 0]......[n][w][e]-##
+[s]Извини, чувак, я хочу сейчас побыть один.[n][w][e]
+##-[s]Sorry man, I wanna be alone right now.[n][w][e]-##
+
+[msg MSG0907_JUNPEI_01 [Junpei]]
+[s][bup 5 4 65535 0]......[n][w][e]
+##-[s][bup 5 4 65535 0]......[n][w][e]-##
+[s]Извини, чувак, я хочу сейчас побыть один.[n][w][e]
+##-[s]Sorry man, I wanna be alone right now.[n][w][e]-##
+
+[msg MSG0910_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Скажем так...[n][w][e]
+##-[s][bup 5 1 65535 0]Let's say...[n][w][e]-##
+[s]...кто-то говорит мне, что хочет умереть.[n]Поэтому я говорю этому человеку, что не[n]хочу, чтобы она умерла.[n][w][e]
+##-[s]...someone tells me they want to die.[n]So I tell this person I don't want her[n]to die.[n][w][e]-##
+[s]Как это звучит? Это неловко?[n][w][e]
+##-[s]How does that sound? Is it awkward?[n][w][e]-##
+
+[sel MSG0910_JUNPEI_01_SEL top]
+[s]"Нет, не совсем".[e]
+##-[s]"No, not really."[e]-##
+[s]"Да, вроде того".[e]
+##-[s]"Yeah, kinda."[e]-##
+
+[sel MSG0910_JUNPEI_01_SEL_G top]
+[s]"Нет, не совсем".[e]
+##-[s]"No, not really."[e]-##
+[s]"Да, вроде того".[e]
+##-[s]"Yeah, kinda."[e]-##
+
+[msg MSG0910_JUNPEI_02 [Junpei]]
+[s][bup 5 2 65535 0]О, это приятно слышать.[n][w][e]
+##-[s][bup 5 2 65535 0]Oh, that's good to hear.[n][w][e]-##
+
+[msg MSG0910_JUNPEI_03 [Junpei]]
+[s][bup 5 1 65535 0]Вы правы... Я всегда чувствую себя странно,[n]когда говорю ей это.[n][w][e]
+##-[s][bup 5 1 65535 0]You're right... I always feel weird[n]when I tell her that.[n][w][e]-##
+
+[msg MSG0913_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Я действительно рад, что Синдзиро-семпай[n]присоединился к нам...[n][w][e]
+##-[s][bup 6 1 65535 0]I'm really happy Shinjiro-senpai[n]joined us...[n][w][e]-##
+[s]Но мне нужно быть осторожным.[n][w][e]
+##-[s]But, I need to be careful.[n][w][e]-##
+[s]Если я буду слишком полагаться на его[n]мастерство, я никогда не смогу реализовать[n]свой истинный потенциал.[n][w][e]
+##-[s]If I rely too much on his skill, I'll never[n]realize my true potential.[n][w][e]-##
+[s][bup 5 1 65535 0][f 1 5]Дзюнпэй[n]Ух ты, ты потрясающая...[n][w][e]
+##-[s][bup 5 1 65535 0][f 1 5]Junpei[n]Wow, you're amazing...[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Вместо того чтобы так удивляться, может[n]быть, тебе стоит постараться быть больше[n]похожей на нее.[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]Instead of being so amazed, maybe[n]you should try to be more like her.[n][w][e]-##
+
+[msg MSG0913_YUKARI_01 [Yukari]]
+[s][bup 2 2 65535 0]Синдзиро-семпай довольно надежный, тебе не[n]кажется?[n][w][e]
+##-[s][bup 2 2 65535 0]Shinjiro-senpai is pretty dependable,[n]don't ya think?[n][w][e]-##
+[s]Он физически силен, но он также знает, как[n]сохранять хладнокровие.[n][w][e]
+##-[s]He's physically strong, but he also knows[n]how to keep his cool.[n][w][e]-##
+[s][bup 6 2 65535 1][f 1 5]Фуука[n]Да.[n][w][e]
+##-[s][bup 6 2 65535 1][f 1 5]Fuuka[n]Yeah.[n][w][e]-##
+[s]Он выглядит пугающе, но на самом деле он[n]больше похож на старшего брата.[n][w][e]
+##-[s]He looks scary, but in reality, he's[n]more like a big brother.[n][w][e]-##
+
+[msg MSG0913_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]С Синдзиро-саном здесь атмосфера намного[n]серьезнее...[n][w][e]
+##-[s][bup 5 1 65535 0]With Shinjiro-san here, the atmosphere[n]is so much more serious...[n][w][e]-##
+[s][bup 3 1 65535 1][f 1 5]Айгис[n]С Дзюнпей-сан здесь атмосфера намного более[n]детская...[n][w][e]
+##-[s][bup 3 1 65535 1][f 1 5]Aigis[n]With Junpei-san here, the atmosphere[n]is so much more childish...[n][w][e]-##
+[s][bup 5 2 65535 0][f 1 5]Дзюнпэй[n]Ой! Это больно, Ай-тян.[n][w][e]
+##-[s][bup 5 2 65535 0][f 1 5]Junpei[n]Ouch! That hurt, Ai-chan.[n][w][e]-##
+[s][bup 5 5 65535 0]У меня нет ответа на это.[n][w][e]
+##-[s][bup 5 5 65535 0]I have no comeback for that.[n][w][e]-##
+
+[msg MSG0913_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]С Синдзиро-саном в качестве нашего союзника[n]мы являемся более грозной силой.[n][w][e]
+##-[s][bup 3 1 65535 0]With Shinjiro-san as our ally,[n]we are a more formidable force.[n][w][e]-##
+[s]Это идеальное время для нас, чтобы[n]подняться на Тартар.[n][w][e]
+##-[s]This is the ideal time for us to[n]ascend Tartarus.[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Ага. Лучшая защита - это хорошее нападение.[n]Вот как ты выигрываешь...[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]Yep. The best defense is a good offense.[n]That's how you win...[n][w][e]-##
+
+[msg MSG0922_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Хм? Что будет с нами, если Темный Час[n]исчезнет?[n][w][e]
+##-[s][bup 6 1 65535 0]Hm? What will happen to us if[n]the Dark Hour disappears?[n][w][e]-##
+[s]Что ж, я думаю, мы потеряем наши[n]способности к Персонажу и вернемся к нашей[n]повседневной жизни...[n][w][e]
+##-[s]Well, I think we'll lose our Persona[n]abilities and return to our daily lives...[n][w][e]-##
+[s][bup 6 2 65535 0]Но мы уже не будем такими, какими были[n]раньше.[n][w][e]
+##-[s][bup 6 2 65535 0]But, we won't be the same as[n]we were before.[n][w][e]-##
+[s]Благодаря всему опыту, который мы[n]приобрели, сражаясь вместе, мы все будем[n]жить более богатой и полной жизнью.[n][w][e]
+##-[s]Thanks to all the experiences we gained[n]fighting together, we'll all live richer,[n]fuller lives.[n][w][e]-##
+
+[msg MSG0922_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Осталось только три Тени... Держу пари, они[n]будут крепкими орешками...[n][w][e]
+##-[s][bup 2 1 65535 0]Only three Shadows left...[n]I bet they're gonna be tough...[n][w][e]-##
+[s][bup 3 1 65535 0][f 1 5]Айгис[n]Возможно.[n][w][e]
+##-[s][bup 3 1 65535 0][f 1 5]Aigis[n]Perhaps.[n][w][e]-##
+[s]Мы должны тренироваться в Тартаре столько,[n]сколько сможем.[n][w][e]
+##-[s]We should train in Tartarus as much as[n]we can.[n][w][e]-##
+
+[msg MSG0922_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Я бы хотел, чтобы тайфун был на нашей[n]стороне...[n][w][e]
+##-[s][bup 5 2 65535 0]I wish the typhoon was on our side...[n][w][e]-##
+[s]Может быть, он мог бы отбросить рамэн в[n]Тень и убить его одним ударом![n][w][e]
+##-[s]Maybe it could blow a ramen stand into[n]a Shadow and kill it with one hit![n][w][e]-##
+[s]Разве это не было бы потрясающе!?[n][w][e]
+##-[s]Wouldn't that be awesome!?[n][w][e]-##
+[s][bup 3 1 3 1][f 1 5]Айгис[n]......[n][w][e]
+##-[s][bup 3 1 3 1][f 1 5]Aigis[n]......[n][w][e]-##
+[s][bup 2 4 65535 1][f 1 5]Юкари[n]......[n][w][e]
+##-[s][bup 2 4 65535 1][f 1 5]Yukari[n]......[n][w][e]-##
+[s][bup 6 8 65535 1][f 1 5]Фуука[n]......[n][w][e]
+##-[s][bup 6 8 65535 1][f 1 5]Fuuka[n]......[n][w][e]-##
+[s][bup 5 5 65535 0][f 1 5]Дзюнпэй[n]......[n][w][e]
+##-[s][bup 5 5 65535 0][f 1 5]Junpei[n]......[n][w][e]-##
+
+[msg MSG0922_AEGIS_01 [Aigis]]
+[s][bup 3 1 3 0]Мы захватили специалиста по поддержке[n]Стреги, Чидори.[n][w][e]
+##-[s][bup 3 1 3 0]We have captured Strega's support[n]specialist, Chidori.[n][w][e]-##
+[s]В следующей миссии весьма вероятно, что они[n]не смогут определить наше местоположение.[n][w][e]
+##-[s]Next mission, it is highly probable[n]that they will be unable to determine[n]our location.[n][w][e]-##
+[s][bup 2 1 65535 1][f 1 5]Юкари[n]Верно... Наличие такого человека имеет[n]большое значение.[n][w][e]
+##-[s][bup 2 1 65535 1][f 1 5]Yukari[n]Right... Having someone like that[n]makes a big difference.[n][w][e]-##
+[s]Трудно вмешиваться, если ты не знаешь, куда[n]идти.[n][w][e]
+##-[s]It's hard to interfere if you don't know[n]where to go.[n][w][e]-##
+[s][bup 6 1 65535 1][f 1 5]Фуука[n]Но будь осторожен, на всякий случай...[n][w][e]
+##-[s][bup 6 1 65535 1][f 1 5]Fuuka[n]But, be careful, just in case...[n][w][e]-##
+[s]Двое других кажутся опасными...[n][w][e]
+##-[s]The other two seem dangerous...[n][w][e]-##
+
+[msg MSG0927_FUUKA_01 [Fuuka]]
+[s][bup 6 4 65535 0]Кен-кун в последнее время кажется таким[n]подавленным...[n][w][e]
+##-[s][bup 6 4 65535 0]Ken-kun seems so depressed lately...[n][w][e]-##
+[s]Интересно, что случилось?..[n][w][e]
+##-[s]I wonder what's wrong...[n][w][e]-##
+[s][bup 2 4 65535 0][f 1 5]Юкари[n]Трудно сказать. Он похож на человека,[n]который всегда пытается разобраться во всем[n]самостоятельно.[n][w][e]
+##-[s][bup 2 4 65535 0][f 1 5]Yukari[n]It's hard to tell. He seems like someone[n]who always tries to figure things out on[n]his own.[n][w][e]-##
+[s]Но я был бы более чем готов помочь ему,[n]если что-то не так...[n][w][e]
+##-[s]But, I'd be more than willing to help him[n]if there's something wrong...[n][w][e]-##
+
+[msg MSG0927_YUKARI_01 [Yukari]]
+[s][bup 2 4 65535 0]Я знаю, что, должно быть, чувствует[n]Кен-кун...[n][w][e]
+##-[s][bup 2 4 65535 0]I know how Ken-kun must be feeling...[n][w][e]-##
+[s]Ваше окружение может оказать на вас большое[n]влияние...[n][w][e]
+##-[s]Your environment can have a big effect[n]on you...[n][w][e]-##
+[s][bup 6 4 65535 1][f 1 5]Фуука[n]Это правда.[n][w][e]
+##-[s][bup 6 4 65535 1][f 1 5]Fuuka[n]That's true.[n][w][e]-##
+
+[msg MSG0927_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Ты ведь знаешь, что говорят о загнанных в[n]угол животных, верно?[n][w][e]
+##-[s][bup 5 1 65535 0]You know what they say about cornered[n]animals, right?[n][w][e]-##
+[s]Они могут быть довольно страшными...[n][w][e]
+##-[s]They can be pretty scary...[n][w][e]-##
+[s]Ну, как ты думаешь, то же самое верно и для[n]Тени?[n][w][e]
+##-[s]Well, do you think the same thing is true[n]for a Shadow?[n][w][e]-##
+[s][bup 3 1 3 1][f 1 5]Айгис[n]Усиливается ли его сила?[n][w][e]
+##-[s][bup 3 1 3 1][f 1 5]Aigis[n]Is its strength amplified?[n][w][e]-##
+[s]Я не могу сказать наверняка, но мы должны[n]быть готовы к такой возможности.[n][w][e]
+##-[s]I cannot say for sure, but we should be[n]prepared for that possibility.[n][w][e]-##
+[s]Независимо от того, насколько мы сильны, мы[n]должны продолжать тренироваться.[n][w][e]
+##-[s]No matter how strong we are, we should[n]continue training.[n][w][e]-##
+
+[msg MSG0927_AEGIS_01 [Aigis]]
+[s][bup 3 1 3 0]Остаются три Тени.[n][w][e]
+##-[s][bup 3 1 3 0]Three Shadows remain.[n][w][e]-##
+[s][bup 6 1 65535 1][f 1 5]Фуука[n]Финальная битва не за горами...[n][w][e]
+##-[s][bup 6 1 65535 1][f 1 5]Fuuka[n]The final battle is not far off...[n][w][e]-##
+[s][bup 5 2 65535 3][f 1 5]Дзюнпэй[n]Чувак, почему они не могут просто прийти[n]все сразу? Тогда мы могли бы покончить с[n]этим.[n][w][e]
+##-[s][bup 5 2 65535 3][f 1 5]Junpei[n]Dude, why can't they just all come at[n]once? Then, we could get it over with.[n][w][e]-##
+[s][bup 2 1 65535 1][f 1 5]Юкари[n]Ух... Ты думаешь, что сможешь победить их,[n]если будешь сражаться со всеми сразу?[n][w][e]
+##-[s][bup 2 1 65535 1][f 1 5]Yukari[n]Uh... You think you can beat 'em if[n]you fight 'em all at once?[n][w][e]-##
+[s][bup 5 5 65535 3][f 1 5]Дзюнпэй[n]Ух...[n][w][e]
+##-[s][bup 5 5 65535 3][f 1 5]Junpei[n]Uhh...[n][w][e]-##
+[s][bup 5 2 65535 3]Это было бы невозможно![n][w][e]
+##-[s][bup 5 2 65535 3]That would be impossible![n][w][e]-##
+[s][bup 6 8 65535 1][f 1 5]Фуука[n]......[n][w][e]
+##-[s][bup 6 8 65535 1][f 1 5]Fuuka[n]......[n][w][e]-##
+
+[msg MSG1006_AMADA_01 [Ken]]
+[s][bup 8 4 65535 0]Я действительно сожалею о том, что[n]произошло...[n][w][e]
+##-[s][bup 8 4 65535 0]I'm really sorry about what happened...[n][w][e]-##
+[s]Ты мог бы сказать "нет", но ты позволил мне[n]вернуться...[n][w][e]
+##-[s]You could've said no, but you let me[n]come back...[n][w][e]-##
+[s]Я заглажу свою вину перед вами, ребята...[n]Синдзиро-сан тоже...[n][w][e]
+##-[s]I'll make it up to you guys...[n]Shinjiro-san too...[n][w][e]-##
+
+[msg MSG1011_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Я пытался учиться, чувак, но я просто не[n]могу этого сделать![n][w][e]
+##-[s][bup 5 1 65535 0]I tried to study, man, but I just[n]can't do it![n][w][e]-##
+[s]Я не могу смириться с тем, что случилось с[n]Синдзиро-сан...[n][w][e]
+##-[s]I can't get over what happened to[n]Shinjiro-san...[n][w][e]-##
+
+[msg MSG1011_JUNPEI_01_G [Junpei]]
+[s][bup 5 1 65535 0]Я пытался учиться, чувак, но я просто не[n]могу этого сделать![n][w][e]
+##-[s][bup 5 1 65535 0]I tried to study, man, but I just[n]can't do it![n][w][e]-##
+[s]Синдзиро-сан все еще в критическом[n]состоянии, не так ли?[n][w][e]
+##-[s]Shinjiro-san's still in critical[n]condition, isn't he?[n][w][e]-##
+[s]Я продолжаю думать об этом...[n][w][e]
+##-[s]I keep thinking about it...[n][w][e]-##
+
+[msg MSG1011_SANADA_01 [Akihiko]]
+[s][bup 7 1 65535 0]Каждый раз, когда я прихожу сюда, чтобы[n]отдохнуть от учебы, я вижу тебя здесь,[n]Дзюнпэй.[n][w][e]
+##-[s][bup 7 1 65535 0]Every time I come out here to take[n]a break from studying, I see you here,[n]Junpei.[n][w][e]-##
+[s]Только не говори мне, что ты был здесь все[n]это время...[n][w][e]
+##-[s]Don't tell me you've been out here[n]the whole time...[n][w][e]-##
+[s]Вы знаете, чтобы это называлось[n]"перерывом", вы на самом деле должны делать[n]что-то, от чего можно отдохнуть.[n][w][e]
+##-[s]You know, for it to be called a "break,"[n]you actually have to be doing something[n]to take a break from.[n][w][e]-##
+[s][bup 5 2 65535 0][f 1 5]Дзюнпэй[n]Эм... Просто так получилось, что мы делаем[n]перерывы в одно и то же время, Семпай.[n][w][e]
+##-[s][bup 5 2 65535 0][f 1 5]Junpei[n]Uh... We just happen to be taking our[n]breaks at the same time, Senpai.[n][w][e]-##
+
+[msg MSG1018_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Если Темный Час исчезнет...[n][w][e]
+##-[s][bup 2 1 65535 0]If the Dark Hour disappears...[n][w][e]-##
+[s]Я, вероятно, буду проводить больше времени[n]в Клубе стрельбы из лука.[n][w][e]
+##-[s]I'll probably spend more time with[n]the Archery Club.[n][w][e]-##
+[s]Из-за этого я не был так вовлечен в это[n]дело.[n][w][e]
+##-[s]Because of SEES, I haven't been[n]as involved.[n][w][e]-##
+
+[msg MSG1018_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Что касается меня, я просто собираюсь[n]ПОСПАТЬ, когда Темный Час исчезнет.[n][w][e]
+##-[s][bup 5 1 65535 0]Me, I'm just gonna SLEEP when[n]the Dark Hour disappears.[n][w][e]-##
+[s]Потому что ты знаешь, как утомительно[n]сражаться в Тартаре...[n][w][e]
+##-[s]Cuz you know how tiring it is[n]fighting in Tartarus...[n][w][e]-##
+[s]Я хочу для разнообразия спокойно[n]отдохнуть... Приятного, глубокого сна![n][w][e]
+##-[s]I wanna be able to rest peacefully[n]for a change... A nice, deep sleep![n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Звучит хорошо. Мне бы не помешало немного[n]прекрасного сна.[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]Sounds good. I could use some[n]beauty sleep.[n][w][e]-##
+[s][bup 3 1 65535 0][f 1 5]Айгис[n]При небольшом уходе мое тело выглядит как[n]новенькое.[n][w][e]
+##-[s][bup 3 1 65535 0][f 1 5]Aigis[n]With a little maintenance, my body[n]looks as good as new.[n][w][e]-##
+[s]Должно быть, трудно поддерживать здоровую[n]кожу...[n][w][e]
+##-[s]It must be difficult keeping one's skin[n]looking healthy...[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]*вздох* Спасибо, что напомнил мне.[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]*sigh* Thanks for reminding me.[n][w][e]-##
+
+[msg MSG1018_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Что делать после того, как Темный час[n]исчезнет... Я не могу ответить на этот[n]вопрос.[n][w][e]
+##-[s][bup 3 1 65535 0]What to do after the Dark Hour[n]disappears... I cannot answer[n]that question.[n][w][e]-##
+[s]Я был создан исключительно для устранения[n]Теней.[n][w][e]
+##-[s]I was built solely to eliminate Shadows.[n][w][e]-##
+[s]Как только эта миссия будет выполнена, у[n]меня не будет причин оставаться активным.[n][w][e]
+##-[s]Once that mission has been fulfilled,[n]there is no reason for me to remain[n]active.[n][w][e]-##
+[s]Что будет дальше, меня не касается.[n][w][e]
+##-[s]What happens next does not concern me.[n][w][e]-##
+[s][bup 5 5 65535 0][f 1 5]Дзюнпэй[n]Айгис...[n][w][e]
+##-[s][bup 5 5 65535 0][f 1 5]Junpei[n]Aigis...[n][w][e]-##
+[s][bup 2 4 65535 0][f 1 5]Юкари[n]Это было действительно удручающе...[n][w][e]
+##-[s][bup 2 4 65535 0][f 1 5]Yukari[n]That was really depressing...[n][w][e]-##
+
+[msg MSG1021_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Что я буду делать, когда Темный Час[n]исчезнет...? Хм... Я не знаю...[n][w][e]
+##-[s][bup 6 1 65535 0]What will I do when the Dark Hour[n]disappears...? Hmm... I don't know...[n][w][e]-##
+[s]Наверное, я постараюсь больше спать.[n][w][e]
+##-[s]I guess I'll try to sleep more.[n][w][e]-##
+[s]Я почти не сплю в те ночи, когда мы[n]отправляемся в Тартар.[n][w][e]
+##-[s]I don't get much sleep on the nights[n]we go to Tartarus.[n][w][e]-##
+[s][bup 10 161 0 0][f 1 5]Коромару[n]Арф![n][w][e]
+##-[s][bup 10 161 0 0][f 1 5]Koromaru[n]Arf![n][w][e]-##
+[s][bup 6 2 65535 0][f 1 5]Фуука[n]Ты тоже, Коро-тян?[n][w][e]
+##-[s][bup 6 2 65535 0][f 1 5]Fuuka[n]You either, Koro-chan?[n][w][e]-##
+[s][bup 8 1 65535 0][f 1 5]Кругозор[n]Но ты спишь весь день, Коромару.[n][w][e]
+##-[s][bup 8 1 65535 0][f 1 5]Ken[n]But, you sleep all day, Koromaru.[n][w][e]-##
+
+[msg MSG1021_AMADA_01 [Ken]]
+[s][bup 8 1 65535 0]Я не думаю, что сделаю что-то особенное,[n]если Темный Час исчезнет.[n][w][e]
+##-[s][bup 8 1 65535 0]I don't think I'll do anything special[n]if the Dark Hour disappears.[n][w][e]-##
+[s]Но я обязательно расскажу об этом своей[n]маме и Синдзиро-сану.[n][w][e]
+##-[s]I'll be sure to tell my mother and[n]Shinjiro-san about it, though.[n][w][e]-##
+[s]Хмм... Если это действительно произойдет...[n][w][e]
+##-[s]Hmm... If it does really happen...[n][w][e]-##
+[s][bup 8 2 65535 0]Я хочу посмотреть, каково это - быть[n]обычным учеником начальной школы.[n][w][e]
+##-[s][bup 8 2 65535 0]I want to see what it's like to be an[n]ordinary elementary school student.[n][w][e]-##
+
+[msg MSG1021_AMADA_01_G [Ken]]
+[s][bup 8 1 65535 0]Я не думаю, что сделаю что-то особенное,[n]если Темный Час исчезнет.[n][w][e]
+##-[s][bup 8 1 65535 0]I don't think I'll do anything special[n]if the Dark Hour disappears.[n][w][e]-##
+[s]Но я обязательно расскажу об этом своей[n]маме и Синдзиро-сану.[n][w][e]
+##-[s]I'll be sure to tell my mother and[n]Shinjiro-san about it, though.[n][w][e]-##
+[s]Хмм... Если это действительно произойдет...[n][w][e]
+##-[s]Hmm... If it does really happen...[n][w][e]-##
+[s][bup 8 2 65535 0]Я хочу посмотреть, каково это - быть[n]обычным учеником начальной школы.[n][w][e]
+##-[s][bup 8 2 65535 0]I want to see what it's like to be an[n]ordinary elementary school student.[n][w][e]-##
+
+[msg MSG1021_KOROMARU_01 [Koromaru]]
+[s][bup 10 161 0 0]* зевок*[n][w][e]
+##-[s][bup 10 161 0 0]*yawn*[n][w][e]-##
+[s][f 4 7 0 0 0]> Он выглядит сонным.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> He looks sleepy.[n][f 1 4][e]-##
+
+[msg MSG1025_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Это может показаться странным, но я просто[n]должен спросить...[n][w][e]
+##-[s][bup 5 1 65535 0]This might sound weird, but I just[n]gotta ask...[n][w][e]-##
+[s]Закончится ли мое время супергероя, когда[n]мы закончим сражаться?[n][w][e]
+##-[s]Will my time as a superhero end when[n]we're done fighting?[n][w][e]-##
+
+[sel MSG1025_JUNPEI_01_SEL top]
+[s]"Боюсь, что так".[e]
+##-[s]"I'm afraid so."[e]-##
+[s]"Ну и ну! Очевидно же!"[e]
+##-[s]"Well, duh! Obviously!"[e]-##
+
+[sel MSG1025_JUNPEI_01_SEL_G top]
+[s]"Боюсь, что так".[e]
+##-[s]"I'm afraid so."[e]-##
+[s]"Ну и ну! Очевидно же!"[e]
+##-[s]"Well, duh! Obviously!"[e]-##
+
+[msg MSG1025_JUNPEI_02 [Junpei]]
+[s][bup 5 1 65535 0]*вздох* Вот что я подумал...[n][w][e]
+##-[s][bup 5 1 65535 0]*sigh* That's what I thought...[n][w][e]-##
+
+[msg MSG1025_JUNPEI_03 [Junpei]]
+[s][bup 5 5 65535 0]Ух ты! Полегче, чувак! Не нужно быть таким[n]суровым![n][w][e]
+##-[s][bup 5 5 65535 0]Whoa! Easy, dude! No need to be[n]so harsh![n][w][e]-##
+
+[msg MSG1025_JUNPEI_04 [Junpei]]
+[s][bup 5 1 65535 0]Что ж, меня это вполне устраивает...[n][w][e]
+##-[s][bup 5 1 65535 0]Well, that's fine with me...[n][w][e]-##
+[s][bup 5 2 65535 0]Это не изменит моей связи с Чидори.[n][w][e]
+##-[s][bup 5 2 65535 0]It won't change the bond I have with[n]Chidori.[n][w][e]-##
+[s]Я просто буду наслаждаться тем, что я[n]супергерой, пока это длится![n][w][e]
+##-[s]I'll just enjoy being a superhero for[n]as long as it lasts![n][w][e]-##
+
+[msg MSG1025_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Так ты хочешь сказать, что мы как герои?[n][w][e]
+##-[s][bup 2 1 65535 0]So, you're saying we're like heroes?[n][w][e]-##
+[s][bup 5 2 65535 1][f 1 5]Дзюнпэй[n]Конечно! Мы спасаем весь город, не так ли?[n][w][e]
+##-[s][bup 5 2 65535 1][f 1 5]Junpei[n]Of course! We're saving the whole city,[n]aren't we?[n][w][e]-##
+[s]Плюс, если следующая миссия пройдет[n]успешно, мы будем непобедимы![n][w][e]
+##-[s]Plus, if the next mission goes well,[n]we'll be undefeated![n][w][e]-##
+[s]Теперь вы понимаете, к чему я клоню?[n][w][e]
+##-[s]Now, do you see my point?[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Хорошо...[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]Well...[n][w][e]-##
+[s]Я никогда не думал об этом с такой точки[n]зрения, но я понимаю вашу точку зрения...[n][w][e]
+##-[s]I never really thought of it that way,[n]but I see your point...[n][w][e]-##
+[s][bup 2 2 65535 0]Я думаю, нам лучше убедиться, что мы[n]выиграем следующую битву.[n][w][e]
+##-[s][bup 2 2 65535 0]I guess we better make sure we win[n]the next battle.[n][w][e]-##
+
+[msg MSG1106_JUNPEI_01 [Junpei]]
+[s][bup 5 4 65535 0]ё[f 4 2]? オレ映Зチドリж粥コトУЫЗ?[n][w][e]
+##-[s][bup 5 4 65535 0]ёあ[f 4 2]?[n]オレ映Зチドリж粥われるコトУЫЗ?[n][w][e]-##
+
+[sel MSG1106_JUNPEI_01_SEL top]
+[s]УвёБ[e]
+##-[s]УвёБ[e]-##
+[s]鋭ЗёБ[e]
+##-[s]鋭ЗらёБ[e]-##
+
+[msg MSG1106_JUNPEI_02 [Junpei]]
+[s][bup 5 4 65535 0]Ъё… Фю映гアイツ…[n][w][e]
+##-[s][bup 5 4 65535 0]Ъよёぁ…[n]Фюあ映гアイツ…[n][w][e]-##
+
+[msg MSG1106_JUNPEI_03 [Junpei]]
+[s][bup 5 4 65535 0]ЩГЪё… オマエж刈БЫЯв鰻ワケёБё…[n][w][e]
+##-[s][bup 5 4 65535 0]ЩГЪよё…[n]オマエж刈БЫЯв鰻るワケёБよё…[n][w][e]-##
+[s]泳Б、雲йк栄ЗЯЫコトжУвЛя。[n][w][e]
+##-[s]泳Б、雲йк栄ЗЯЫコトжУвЛれя。[n][w][e]-##
+
+[msg MSG1106_JUNPEI_CHIDORI_0 [Junpei]]
+[s][bup 5 4 65535 0]Эй, [f 4 2]...Я думаю, что теперь Чидори ненавидит[n]меня...[n][w][e]
+##-[s][bup 5 4 65535 0]Hey, [f 4 2]...[n]I think Chidori hates me now...[n][w][e]-##
+[s]Я не знаю, что делать, чувак...[n][w][e]
+##-[s]I don't know what to do, man...[n][w][e]-##
+
+[sel MSG1106_JUNPEI_CHIDORI_0_2 top]
+[s]"Иди к ней".[e]
+##-[s]"Go see her."[e]-##
+[s]"Просто сдавайся".[e]
+##-[s]"Just give up."[e]-##
+
+[sel MSG1106_JUNPEI_CHIDORI_0_3 top]
+[s]"Иди к ней".[e]
+##-[s]"Go see her."[e]-##
+[s]"Просто сдавайся".[e]
+##-[s]"Just give up."[e]-##
+
+[msg MSG1106_JUNPEI_CHIDORI_0_4 [Junpei]]
+[s][bup 5 1 65535 0]А?..[n][w][e]
+##-[s][bup 5 1 65535 0]Huh...?[n][w][e]-##
+[s]Д-да... ты прав. Может быть, у нее просто[n]был плохой день.[n][w][e]
+##-[s]Y-Yeah... you're right. Maybe she[n]was just havin' a bad day.[n][w][e]-##
+[s][f 4 7 0 0 0]> Дзюнпэй, кажется, немного успокоился.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Junpei seems a bit relieved.[n][f 1 4][e]-##
+
+[msg MSG1106_JUNPEI_CHIDORI_0_5 [Junpei]]
+[s][bup 5 4 65535 0]Теперь она, наверное, точно ненавидит[n]меня... Я не знаю, что я такого сделал...[n][w][e]
+##-[s][bup 5 4 65535 0]She probably hates me for sure now...[n]I don't know what it was I did...[n][w][e]-##
+
+[msg MSG1108_FUUKA_01 [Fuuka]]
+[s][bup 6 4 65535 0]Я помню, как Икутсуки-сан весь день[n]рассказывала самые ужасные анекдоты...[n][w][e]
+##-[s][bup 6 4 65535 0]I remember how Ikutsuki-san would tell[n]the most horrible jokes all day long...[n][w][e]-##
+[s]Но он просто притворялся... Это не было его[n]истинным "я".[n][w][e]
+##-[s]But, he was just pretending...[n]That wasn't his true self.[n][w][e]-##
+[s]Как ты думаешь, ему действительно нравилось[n]то время, которое мы все проводили[n]вместе...?[n][w][e]
+##-[s]Do you think he really enjoyed the times[n]we all spent together...?[n][w][e]-##
+[s][bup 3 1 65535 0][f 1 5]Айгис[n]Сейчас никто не может ответить на этот[n]вопрос...[n][w][e]
+##-[s][bup 3 1 65535 0][f 1 5]Aigis[n]No one can answer that now...[n][w][e]-##
+[s][bup 2 3 65535 0][f 1 5]Юкари[n]Кого это волнует? Все, что нам нужно знать,[n]это то, что он предал нас...[n][w][e]
+##-[s][bup 2 3 65535 0][f 1 5]Yukari[n]Who cares? All we need to know is that[n]he betrayed us...[n][w][e]-##
+[s]Я никогда не прощу ему того, что он[n]использовал моего отца...[n][w][e]
+##-[s]I'll never forgive him for using[n]my father...[n][w][e]-##
+[s][bup 6 4 65535 0][f 1 5]Фуука[n]......[n][w][e]
+##-[s][bup 6 4 65535 0][f 1 5]Fuuka[n]......[n][w][e]-##
+
+[msg MSG1108_YUKARI_01 [Yukari]]
+[s][bup 2 4 65535 0]Что мы будем делать...?[n][w][e]
+##-[s][bup 2 4 65535 0]What are we gonna do...?[n][w][e]-##
+[s]Ни Тартар, ни Темный Час не исчезли...[n][w][e]
+##-[s]Neither Tartarus nor the Dark Hour[n]disappeared...[n][w][e]-##
+[s]Только наша причина для борьбы исчезла...[n][w][e]
+##-[s]Only our reason for fighting is gone...[n][w][e]-##
+[s][bup 2 3 65535 0]Тьфу! Это выводит меня из себя! Будь ты[n]проклят, Икутсуки![n][w][e]
+##-[s][bup 2 3 65535 0]Argh! This is pissing me off![n]Damn you, Ikutsuki![n][w][e]-##
+[s][bup 6 4 65535 1][f 1 5]Фуука[n]Успокойся, Юкари-тян... Злость не поможет[n]ситуации.[n][w][e]
+##-[s][bup 6 4 65535 1][f 1 5]Fuuka[n]Calm down, Yukari-chan... Getting angry[n]won't help the situation.[n][w][e]-##
+[s][bup 3 1 65535 3][f 1 5]Айгис[n]Это правильно. Будет лучше, если мы сотрем[n]его из нашей памяти.[n][w][e]
+##-[s][bup 3 1 65535 3][f 1 5]Aigis[n]That is correct. It is best if we erase him[n]from our memories.[n][w][e]-##
+
+[msg MSG1108_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]С этого момента я буду называть его просто[n]"Икутсуки".[n][w][e]
+##-[s][bup 3 1 65535 0]I will refer to him simply as "Ikutsuki"[n]from now on.[n][w][e]-##
+[s]Икутсуки никогда ничего не упоминал о своем[n]заговоре, даже когда мы были одни.[n][w][e]
+##-[s]Ikutsuki never mentioned anything about[n]his plot, even when we were alone.[n][w][e]-##
+[s]Это означает, что он полностью скрыл свою[n]истинную природу. Это поистине[n]необыкновенный подвиг.[n][w][e]
+##-[s]Meaning, he completely hid his true nature.[n]It is truly an extraordinary feat.[n][w][e]-##
+[s]Это ясно показывает, насколько уникальным[n]было его психологическое состояние.[n][w][e]
+##-[s]This clearly illustrates how unique[n]his psychological state was.[n][w][e]-##
+[s][bup 6 4 65535 1][f 1 5]Фуука[n]Страшно даже думать об этом...[n][w][e]
+##-[s][bup 6 4 65535 1][f 1 5]Fuuka[n]It's scary just thinking about it...[n][w][e]-##
+[s][bup 2 4 65535 1][f 1 5]Юкари[n]И все это время мы ничего не подозревали...[n][w][e]
+##-[s][bup 2 4 65535 1][f 1 5]Yukari[n]And all this time, we never suspected[n]a thing...[n][w][e]-##
+[s]Тьфу... Меня от этого тошнит...[n][w][e]
+##-[s]Ugh... It makes me feel sick...[n][w][e]-##
+
+[msg MSG1115_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Акихико-сан тоже переживает трудные[n]времена...[n][w][e]
+##-[s][bup 5 1 65535 0]Akihiko-san is going through[n]a tough time, too...[n][w][e]-##
+[s]Это нехорошо, чувак. Что, если[n]старшеклассники решат бросить школу?[n][w][e]
+##-[s]This is not good, man. What if the seniors[n]decide to quit SEES?[n][w][e]-##
+[s]Я не знаю, сможем ли мы справиться с этим[n]без них, чувак.[n][w][e]
+##-[s]I don't know if we can handle it[n]without them, man.[n][w][e]-##
+[s][bup 8 1 65535 1][f 1 5]Кругозор[n]Дзюнпэй-сан! Не говори так![n][w][e]
+##-[s][bup 8 1 65535 1][f 1 5]Ken[n]Junpei-san! Don't say that![n][w][e]-##
+
+[msg MSG1115_SANADA_01 [Akihiko]]
+[s][bup 7 4 65535 0]Мицуру все еще не в себе, и я не знаю, что[n]нам делать...[n][w][e]
+##-[s][bup 7 4 65535 0]Mitsuru is still not herself, and[n]I don't know what we should do...[n][w][e]-##
+[s]Черт возьми! Как долго это будет[n]продолжаться?![n][w][e]
+##-[s]Dammit! How long is this gonna continue!?[n][w][e]-##
+
+[msg MSG1115_AMADA_01 [Ken]]
+[s][bup 8 4 65535 0]Мицуру-семпай и Акихико-семпай вели нас все[n]это время, и даже они не знают, что[n]делать...[n][w][e]
+##-[s][bup 8 4 65535 0]Mitsuru-senpai and Akihiko-senpai have[n]been leading us all this time, and even[n]they don't know what to do...[n][w][e]-##
+[s]* вздох*[n][w][e]
+##-[s]*sigh*[n][w][e]-##
+[s]Что же теперь будет?..[n][w][e]
+##-[s]What's going to happen...?[n][w][e]-##
+[s][bup 10 161 0 0][f 1 5]Коромару[n]Гав! Гав![n][w][e]
+##-[s][bup 10 161 0 0][f 1 5]Koromaru[n]Woof! Woof![n][w][e]-##
+[s][bup 8 2 65535 0][f 1 5]Кругозор[n]Ты, наверное, говоришь: "Не волнуйся",[n]верно, Коромару? Ты такой храбрый пес.[n][w][e]
+##-[s][bup 8 2 65535 0][f 1 5]Ken[n]You're probably saying, "Don't worry,"[n]right Koromaru? You're such a brave dog.[n][w][e]-##
+
+[msg MSG1115_KOROMARU_01 [Koromaru]]
+[s][bup 10 161 0 0]*тяжело дышать * *тяжело дышать*[n][w][e]
+##-[s][bup 10 161 0 0]*pant* *pant*[n][w][e]-##
+[s][f 4 7 0 0 0]> Он, кажется, готов ко всему.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> He seems ready for anything.[n][f 1 4][e]-##
+
+[msg MSG1116_FUUKA_01 [Fuuka]]
+[s][bup 6 4 65535 0]Я знаю, что это будет трудно, но мы все[n]должны стараться быть счастливыми.[n][w][e]
+##-[s][bup 6 4 65535 0]I know it's going to be hard, but[n]we should all try to be happy.[n][w][e]-##
+[s]Школьная поездка не будет веселой, если[n]всем будет грустно...[n][w][e]
+##-[s]The school trip won't be any fun[n]if everyone's sad...[n][w][e]-##
+[s]Я хочу оглянуться на эту поездку с теплыми[n]воспоминаниями...[n][w][e]
+##-[s]I want to look back on this trip with[n]fond memories...[n][w][e]-##
+[s][bup 2 4 65535 0][f 1 5]Юкари[n]Я понимаю, что ты чувствуешь...[n][w][e]
+##-[s][bup 2 4 65535 0][f 1 5]Yukari[n]I understand how you feel...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG1116_YUKARI_01 [Yukari]]
+[s][bup 2 4 65535 0]По крайней мере, поездка даст нам шанс[n]проветрить наши головы...[n][w][e]
+##-[s][bup 2 4 65535 0]At least a trip will give us a chance[n]to clear our heads...[n][w][e]-##
+[s]Но это не облегчит ситуацию...[n][w][e]
+##-[s]But, that won't make things any easier...[n][w][e]-##
+[s][bup 3 1 65535 0][f 1 5]Айгис[n]Но школьная поездка - редкое событие.[n][w][e]
+##-[s][bup 3 1 65535 0][f 1 5]Aigis[n]But, a school trip is a rare event.[n][w][e]-##
+[s]Было бы обидно пропустить это.[n][w][e]
+##-[s]It would be a shame to miss it.[n][w][e]-##
+[s][bup 2 4 65535 0][f 1 5]Юкари[n]Да, наверное.[n][w][e]
+##-[s][bup 2 4 65535 0][f 1 5]Yukari[n]Yeah, I guess.[n][w][e]-##
+
+[msg MSG1116_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Я понимаю, насколько важна школьная поездка[n]для всех...[n][w][e]
+##-[s][bup 3 1 65535 0]I understand how important a school trip[n]is for everyone...[n][w][e]-##
+[s]...но я не думаю, что это поможет нам[n]решить, что делать.[n][w][e]
+##-[s]...but I don't think it will help us decide[n]what to do.[n][w][e]-##
+[s][bup 3 4 65535 0]Это просто возможность немного[n]расслабиться.[n][w][e]
+##-[s][bup 3 4 65535 0]It's just a chance to relax for a while.[n][w][e]-##
+[s][bup 6 4 65535 1][f 1 5]Фуука[n]Это не обязательно так, Айгис...[n][w][e]
+##-[s][bup 6 4 65535 1][f 1 5]Fuuka[n]That's not necessarily true, Aigis...[n][w][e]-##
+[s][bup 2 4 65535 1][f 1 5]Юкари[n]* вздох*[n][w][e]
+##-[s][bup 2 4 65535 1][f 1 5]Yukari[n]*sigh*[n][w][e]-##
+[s]Интересно, когда ответ станет ясен...[n][w][e]
+##-[s]I wonder when the answer will become[n]clear...[n][w][e]-##
+
+[msg MSG1121_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Я не могу перестать думать о Реджи-сане. Я[n]боюсь, что могу перегреться.[n][w][e]
+##-[s][bup 3 1 65535 0]I can't stop thinking about Ryoji-san.[n]I am worried I may overheat.[n][w][e]-##
+[s]Я даже попросил Коромару-сан о помощи...[n][w][e]
+##-[s]I even asked Koromaru-san for help...[n][w][e]-##
+
+[msg MSG1121_KOROMARU_01 [Koromaru]]
+[s][bup 10 161 0 0]Гав?[n][w][e]
+##-[s][bup 10 161 0 0]Woof?[n][w][e]-##
+[s][f 4 7 0 0 0]> Коромару склонил голову набок.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Koromaru tilted his head.[n][f 1 4][e]-##
+[s][bup 3 1 65535 0][f 1 5]Айгис[n]Хм, понятно. Затем я продолжу свои[n]наблюдения.[n][w][e]
+##-[s][bup 3 1 65535 0][f 1 5]Aigis[n]Hmm, I see. Then, I shall continue[n]my observations.[n][w][e]-##
+
+[msg MSG1127_JUNPEI_01 [Junpei]]
+[s][bup 5 4 65535 0]Наверное, мне не стоит вести себя как[n]зануда из-за Чидори, а?[n][w][e]
+##-[s][bup 5 4 65535 0]I probably shouldn't act like such[n]a drag about Chidori, huh?[n][w][e]-##
+
+[sel MSG1127_JUNPEI_01_SEL top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"Ты ничего не можешь с этим поделать".[e]
+##-[s]"You can't help it."[e]-##
+
+[sel MSG1127_JUNPEI_01_SEL_G top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"Ты ничего не можешь с этим поделать".[e]
+##-[s]"You can't help it."[e]-##
+
+[msg MSG1127_JUNPEI_02 [Junpei]]
+[s][bup 5 4 65535 0]Я знаю... Я знаю...[n][w][e]
+##-[s][bup 5 4 65535 0]I know... I know...[n][w][e]-##
+[s]Я пытаюсь забыть об этом, но просто не[n]могу.[n][w][e]
+##-[s]I'm trying to forget about it,[n]but I just can't.[n][w][e]-##
+[s]Я не знаю, что делать...[n][w][e]
+##-[s]I don't know what to do...[n][w][e]-##
+
+[msg MSG1127_JUNPEI_03 [Junpei]]
+[s][bup 5 4 65535 0]Полегче там, приятель. Не нужно быть таким[n]чувствительным ко мне.[n][w][e]
+##-[s][bup 5 4 65535 0]Easy there, pal. No need to get all[n]sensitive on me.[n][w][e]-##
+[s]Но, спасибо... Я постараюсь избавиться от[n]этого страха.[n][w][e]
+##-[s]But, thanks... I'll try to get out of[n]this funk.[n][w][e]-##
+
+[msg MSG1129_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Реджи сейчас в моей комнате...[n][w][e]
+##-[s][bup 5 2 65535 0]Ryoji is in my room right now...[n][w][e]-##
+[s]...но он не собирается задерживаться[n]надолго, так что позвони мне, если[n]соберешься в Тартар.[n][w][e]
+##-[s]...but he's not gonna stay long, so[n]call me if you're goin' to Tartarus.[n][w][e]-##
+[s][bup 5 1 65535 0]Хм, что мне ему подарить?..[n][w][e]
+##-[s][bup 5 1 65535 0]Hmm, what should I get him...?[n][w][e]-##
+
+[msg MSG1129_JUNPEI_01_G [Junpei]]
+[s][bup 5 1 65535 0]О, сегодня я буду в своей комнате, но дай[n]мне знать, если собираешься в Тартар.[n][w][e]
+##-[s][bup 5 1 65535 0]Oh, I'll be in my room today, but let[n]me know if you're going to Tartarus.[n][w][e]-##
+[s]Хммм, какой из них мне следует купить?[n][w][e]
+##-[s]Hmmm, which one should I buy?[n][w][e]-##
+
+[msg MSG1130_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Реджи-сан опасен... Я в этом уверен.[n][w][e]
+##-[s][bup 3 1 65535 0]Ryoji-san is dangerous...[n]I'm certain of it.[n][w][e]-##
+[s]Сейчас все хорошо, но однажды это[n]изменится.[n][w][e]
+##-[s]Things are fine for now, but one day[n]that will change.[n][w][e]-##
+[s]Но, пожалуйста, не волнуйтесь. Я буду[n]рядом, чтобы защитить тебя.[n][w][e]
+##-[s]Please do not worry, though.[n]I will be there to protect you.[n][w][e]-##
+
+[msg MSG1130_AEGIS_01_G [Aigis]]
+[s][bup 3 1 65535 0]Реджи-сан опасен... Я в этом уверен.[n][w][e]
+##-[s][bup 3 1 65535 0]Ryoji-san is dangerous...[n]I'm certain of it.[n][w][e]-##
+[s]Теперь важно, насколько вы с ним близки...[n][w][e]
+##-[s]Now matter how close you are[n]with him...[n][w][e]-##
+[s]Возможно, сейчас с тобой все в порядке, но[n]однажды это изменится.[n][w][e]
+##-[s]You may be fine now, but that will[n]change one day.[n][w][e]-##
+[s]Но, пожалуйста, не волнуйтесь. Я буду[n]рядом, чтобы защитить тебя.[n][w][e]
+##-[s]Please do not worry, though.[n]I will be there to protect you.[n][w][e]-##
+
+[msg MSG1130_KOROMARU_01 [Koromaru]]
+[s][bup 10 164 0 0]Гав...[n][w][e]
+##-[s][bup 10 164 0 0]Woof...[n][w][e]-##
+[s][f 4 7 0 0 0]> Он выглядит обеспокоенным.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> He looks worried.[n][f 1 4][e]-##
+[s][bup 3 1 65535 0][f 1 5]Айгис[n]Со мной все будет в порядке, Коромару-сан.[n][w][e]
+##-[s][bup 3 1 65535 0][f 1 5]Aigis[n]I will be fine, Koromaru-san.[n][w][e]-##
+
+[msg MSG1206_YUKARI_01 [Yukari]]
+[s][bup 2 4 65535 0]Интересно, что сейчас делает Реджи-кун?..[n][w][e]
+##-[s][bup 2 4 65535 0]I wonder what Ryoji-kun is doing[n]right now...[n][w][e]-##
+[s]...Он казался самым расстроенным из-за[n]того, что мир подходит к концу.[n][w][e]
+##-[s]...He seemed the most upset about[n]the world coming to an end.[n][w][e]-##
+[s]Хотя беспокойство о нем ничего не[n]изменит...[n][w][e]
+##-[s]Worrying about him won't change[n]anything, though...[n][w][e]-##
+[s][bup 6 4 65535 1][f 1 5]Фуука[n]......[n][w][e]
+##-[s][bup 6 4 65535 1][f 1 5]Fuuka[n]......[n][w][e]-##
+[s][bup 4 1 65535 1][f 1 5]Мицуру[n]Верно. Он тоже не с нетерпением ждет Осени.[n][w][e]
+##-[s][bup 4 1 65535 1][f 1 5]Mitsuru[n]Right. He doesn't look forward to[n]the Fall, either.[n][w][e]-##
+[s]Я уверен, что он хочет того же, чего и[n]мы...[n][w][e]
+##-[s]I'm sure he wants the same thing we do...[n][w][e]-##
+
+[msg MSG1206_MITURU_01 [Mitsuru]]
+[s][bup 4 1 65535 0]Я только что получил отчет из лаборатории.[n]По-видимому, Айгис можно починить...[n][w][e]
+##-[s][bup 4 1 65535 0]I just got a report from the laboratory.[n]Apparently, Aigis can be repaired...[n][w][e]-##
+[s]...но они точно не знают, сколько времени[n]это займет.[n][w][e]
+##-[s]...but they don't know exactly how long[n]it will take.[n][w][e]-##
+[s][bup 6 4 65535 0][f 1 5]Фуука[n]Я понимаю...[n][w][e]
+##-[s][bup 6 4 65535 0][f 1 5]Fuuka[n]I see...[n][w][e]-##
+[s]Она была серьезно повреждена... Так что я[n]рад это слышать.[n][w][e]
+##-[s]She was seriously damaged...[n]So, I'm relieved to hear that.[n][w][e]-##
+[s][bup 2 2 65535 0][f 1 5]Юкари[n]Да... Я надеюсь, что она скоро сможет[n]вернуться.[n][w][e]
+##-[s][bup 2 2 65535 0][f 1 5]Yukari[n]Yeah... I hope she can come back soon.[n][w][e]-##
+
+[msg MSG1206_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Я думал о том, что сказал Стрега...[n][w][e]
+##-[s][bup 6 1 65535 0]I was thinking about what Strega said...[n][w][e]-##
+[s]Это немного напоминает мне то, о чем[n]говорил Реджи-кун...[n][w][e]
+##-[s]It reminds me a little of what Ryoji-kun[n]was talking about...[n][w][e]-##
+[s]Значит, они должны были что-то знать о[n]Падении...[n][w][e]
+##-[s]So, they must've known something[n]about the Fall...[n][w][e]-##
+[s][bup 2 3 65535 0][f 1 5]Юкари[n]Хотя это вызывает у меня плохое[n]предчувствие...[n][w][e]
+##-[s][bup 2 3 65535 0][f 1 5]Yukari[n]It gives me a bad feeling, though...[n][w][e]-##
+[s]Такое чувство, что над нами смеются...[n][w][e]
+##-[s]It feels like we're being laughed at...[n][w][e]-##
+[s][bup 4 1 65535 1][f 1 5]Мицуру[n]..Боюсь, мы ничего не можем с этим[n]поделать.[n][w][e]
+##-[s][bup 4 1 65535 1][f 1 5]Mitsuru[n]...I'm afraid there's nothing we can do[n]about that.[n][w][e]-##
+[s]Давай пока просто сосредоточимся на Никс.[n][w][e]
+##-[s]Let's just concentrate on Nyx for now.[n][w][e]-##
+
+[msg MSG1213_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]А? Почему я не учусь?[n][w][e]
+##-[s][bup 2 1 65535 0]Huh? Why am I not studying?[n][w][e]-##
+[s]Ты пытаешься испортить нам веселье?[n][w][e]
+##-[s]Are you trying to spoil our fun?[n][w][e]-##
+[s]Разве мы не можем просто расслабиться на[n]некоторое время?[n][w][e]
+##-[s]Can't we just relax for a while?[n][w][e]-##
+[s][bup 4 1 65535 1][f 1 5]Мицуру[n]Верно.[n][w][e]
+##-[s][bup 4 1 65535 1][f 1 5]Mitsuru[n]Right.[n][w][e]-##
+[s]На данный момент это не будет иметь[n]большого значения.[n][w][e]
+##-[s]It won't make much difference[n]at this point.[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]П-Подожди минутку... Ты хочешь сказать, что[n]это безнадежно?[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]W-Wait a minute... Are you saying[n]it's hopeless?[n][w][e]-##
+[s]Это не очень хорошо, Семпай.[n][w][e]
+##-[s]That's not very nice, Senpai.[n][w][e]-##
+
+[msg MSG1213_YUKARI_01_G [Yukari]]
+[s][bup 2 1 65535 0]А? Почему я не учусь?[n][w][e]
+##-[s][bup 2 1 65535 0]Huh? Why am I not studying?[n][w][e]-##
+[s]Ты пытаешься испортить нам веселье?[n][w][e]
+##-[s]Are you trying to spoil our fun?[n][w][e]-##
+[s]Разве мы не можем просто расслабиться на[n]некоторое время?[n][w][e]
+##-[s]Can't we just relax for a while?[n][w][e]-##
+[s][bup 4 1 65535 1][f 1 5]Мицуру[n]Верно.[n][w][e]
+##-[s][bup 4 1 65535 1][f 1 5]Mitsuru[n]Right.[n][w][e]-##
+[s]На данный момент это не будет иметь[n]большого значения.[n][w][e]
+##-[s]It won't make much difference[n]at this point.[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]П-Подожди минутку... Ты хочешь сказать, что[n]это безнадежно?[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]W-Wait a minute... Are you saying[n]it's hopeless?[n][w][e]-##
+[s]Это не очень хорошо, Семпай.[n][w][e]
+##-[s]That's not very nice, Senpai.[n][w][e]-##
+
+[msg MSG1213_MITURU_01 [Mitsuru]]
+[s][bup 4 2 65535 0]Всем время от времени нужен перерыв.[n][w][e]
+##-[s][bup 4 2 65535 0]Everyone needs a break once in a while.[n][w][e]-##
+[s]Не хотите ли присоединиться к нам?[n][w][e]
+##-[s]Would you like to join us?[n][w][e]-##
+[s][bup 2 3 65535 0][f 1 5]Юкари[n]Нет, нет, нет, Семпай! Только для женщин![n][w][e]
+##-[s][bup 2 3 65535 0][f 1 5]Yukari[n]No no no no, Senpai! Women only![n][w][e]-##
+[s][bup 8 1 65535 0][f 1 5]Кругозор[n]Эй, а как насчет меня и Коромару...?[n][w][e]
+##-[s][bup 8 1 65535 0][f 1 5]Ken[n]Hey, what about me and Koromaru...?[n][w][e]-##
+[s][bup 6 2 65535 0][f 1 5]Фуука[n]Все в порядке, мальчики и собаки не в счет.[n][w][e]
+##-[s][bup 6 2 65535 0][f 1 5]Fuuka[n]It's okay, boys and dogs don't count.[n][w][e]-##
+[s][bup 8 1 65535 0][f 1 5]Ребенок[n]Хм. Ты же знаешь, я не маленький ребенок...[n][w][e]
+##-[s][bup 8 1 65535 0][f 1 5]Kid[n]Hmph. I'm not a little kid, you know...[n][w][e]-##
+[s][bup 10 161 0 0][f 1 5]Коромару[n]*тяжело дышать * *тяжело дышать*[n][w][e]
+##-[s][bup 10 161 0 0][f 1 5]Koromaru[n]*pant* *pant*[n][w][e]-##
+[s][bup 4 2 65535 0][f 1 5]Мицуру[n]Извини, ты ее слышал. Решение уже принято.[n][w][e]
+##-[s][bup 4 2 65535 0][f 1 5]Mitsuru[n]Sorry, you heard her. The decision[n]has been made.[n][w][e]-##
+
+[msg MSG1213_MITURU_01_G [Mitsuru]]
+[s][bup 4 2 65535 0]Всем время от времени нужен перерыв.[n][w][e]
+##-[s][bup 4 2 65535 0]Everyone needs a break once in a while.[n][w][e]-##
+[s]Не хотите ли присоединиться к нам?[n][w][e]
+##-[s]Would you like to join us?[n][w][e]-##
+[s][bup 2 3 65535 0][f 1 5]Юкари[n]Да, давай же. Иногда бывает полезно[n]поболтать с девушкой.[n][w][e]
+##-[s][bup 2 3 65535 0][f 1 5]Yukari[n]Yeah, come on. Sometimes it's good[n]to have some girl talk.[n][w][e]-##
+[s][bup 8 1 65535 0][f 1 5]Кругозор[n]Эй, а как насчет меня и Коромару...?[n][w][e]
+##-[s][bup 8 1 65535 0][f 1 5]Ken[n]Hey, what about me and Koromaru...?[n][w][e]-##
+[s][bup 6 2 65535 0][f 1 5]Фуука[n]Все в порядке, мальчики и собаки не в счет.[n][w][e]
+##-[s][bup 6 2 65535 0][f 1 5]Fuuka[n]It's okay, boys and dogs don't count.[n][w][e]-##
+[s][bup 8 1 65535 0][f 1 5]Кругозор[n]Хм. Ты же знаешь, я не маленький ребенок...[n][w][e]
+##-[s][bup 8 1 65535 0][f 1 5]Ken[n]Hmph. I'm not a little kid, you know...[n][w][e]-##
+[s][bup 10 161 0 0][f 1 5]Коромару[n]*тяжело дышать * *тяжело дышать*[n][w][e]
+##-[s][bup 10 161 0 0][f 1 5]Koromaru[n]*pant* *pant*[n][w][e]-##
+[s][bup 4 2 65535 0][f 1 5]Мицуру[n]Извини, ты ее слышал. Решение уже принято.[n][w][e]
+##-[s][bup 4 2 65535 0][f 1 5]Mitsuru[n]Sorry, you heard her. The decision[n]has been made.[n][w][e]-##
+
+[msg MSG1213_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Я думаю, нам лучше учиться, просто на[n]всякий случай.[n][w][e]
+##-[s][bup 6 1 65535 0]I guess we better study just to be[n]on the safe side.[n][w][e]-##
+[s]На самом деле, я буду нервничать, если не[n]сделаю этого.[n][w][e]
+##-[s]In fact, I'll be nervous if I don't.[n][w][e]-##
+[s][bup 8 2 65535 0][f 1 5]Кругозор[n]Вау, Фуука-сан... Ты действительно[n]преданный ученик.[n][w][e]
+##-[s][bup 8 2 65535 0][f 1 5]Ken[n]Wow, Fuuka-san... You really are[n]a dedicated student.[n][w][e]-##
+[s][bup 2 1 65535 1][f 1 5]Юкари[n]Я знаю, что ты имеешь в виду... как бы мне[n]ни было неприятно это признавать.[n][w][e]
+##-[s][bup 2 1 65535 1][f 1 5]Yukari[n]I know what you mean... as much as[n]I hate to admit it.[n][w][e]-##
+[s][bup 4 2 65535 1][f 1 5]Мицуру[n]Это прекрасно. Наверное, это к лучшему.[n][w][e]
+##-[s][bup 4 2 65535 1][f 1 5]Mitsuru[n]That's fine. It's probably for the best.[n][w][e]-##
+[s]На самом деле, возвращение к своей обычной[n]жизни может помочь вам мыслить более ясно.[n][w][e]
+##-[s]In fact, getting back into your routine[n]might help you think more clearly.[n][w][e]-##
+
+[msg MSG1213_AMADA_01 [Ken]]
+[s][bup 8 1 65535 0]Но ты довольно редко бываешь здесь,[n]Мицуру-семпай...[n][w][e]
+##-[s][bup 8 1 65535 0]But, it's pretty rare for you to be here,[n]Mitsuru-senpai...[n][w][e]-##
+[s][bup 4 1 65535 1][f 1 5]Мицуру[n]Я не могу сказать, что это было просто[n]совпадение...[n][w][e]
+##-[s][bup 4 1 65535 1][f 1 5]Mitsuru[n]I can't say it was merely a coincidence...[n][w][e]-##
+[s]Я никогда раньше так не смеялся со всеми[n]вами...[n][w][e]
+##-[s]I've never laughed with you all[n]like this before...[n][w][e]-##
+[s][bup 4 2 65535 1]Я просто зашел, вот и все.[n][w][e]
+##-[s][bup 4 2 65535 1]I just stopped by, that's all.[n][w][e]-##
+[s][bup 2 2 65535 3][f 1 5]Юкари[n]Мы рады, что вы пришли... Верно, Фуука?[n][w][e]
+##-[s][bup 2 2 65535 3][f 1 5]Yukari[n]We're glad you came... Right, Fuuka?[n][w][e]-##
+[s][bup 6 2 65535 3][f 1 5]Фуука[n]Конечно. Пожалуйста, приходите почаще.[n][w][e]
+##-[s][bup 6 2 65535 3][f 1 5]Fuuka[n]Of course. Please come more often.[n][w][e]-##
+[s][bup 4 2 65535 1][f 1 5]Мицуру[n]Хорошо... М-Может быть, я так и сделаю...[n][w][e]
+##-[s][bup 4 2 65535 1][f 1 5]Mitsuru[n]Well... M-Maybe I will...[n][w][e]-##
+[s][bup 8 1 65535 3][f 1 5]Кругозор[n]...Ну, если вы спросите меня, то девичьи[n]разговоры вообще не имеют никакого смысла.[n][w][e]
+##-[s][bup 8 1 65535 3][f 1 5]Ken[n]...Well, if you ask me, girl talk[n]doesn't make any sense at all.[n][w][e]-##
+
+[msg MSG1213_KOROMARU_01 [Koromaru]]
+[s][bup 10 161 0 0]*тяжело дышать * *тяжело дышать*[n][w][e]
+##-[s][bup 10 161 0 0]*pant* *pant*[n][w][e]-##
+[s][f 4 7 0 0 0]> По какой-то причине он выглядит так,[n]будто улыбается.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> For some reason, he looks like[n]he's smiling.[n][f 1 4][e]-##
+
+[msg MSG1220_JUNPEI_01 [Junpei]]
+[s][bup 5 3 65535 0]Черт возьми, почему эти придурки из Стреги[n]не делают ход?[n][w][e]
+##-[s][bup 5 3 65535 0]Dammit, why don't those Strega[n]dumbasses make a move?[n][w][e]-##
+[s]Им лучше поторопиться, чтобы я мог их[n]раздавить.[n][w][e]
+##-[s]They better hurry up so I can crush 'em.[n][w][e]-##
+[s][bup 7 1 65535 1][f 1 5]Акихико[n]Я согласен.[n][w][e]
+##-[s][bup 7 1 65535 1][f 1 5]Akihiko[n]I agree.[n][w][e]-##
+[s]Я не прощу им того, что случилось с Синдзи[n]и Чидори.[n][w][e]
+##-[s]I won't forgive them for what happened[n]to Shinji and Chidori.[n][w][e]-##
+[s][bup 10 163 0 1][f 1 5]Коромару[n]Ооооо![n][w][e]
+##-[s][bup 10 163 0 1][f 1 5]Koromaru[n]Awoooo![n][w][e]-##
+[s][bup 5 2 65535 0][f 1 5]Дзюнпэй[n]Хех, он тоже с нами согласен.[n][w][e]
+##-[s][bup 5 2 65535 0][f 1 5]Junpei[n]Heh, he agrees with us too.[n][w][e]-##
+
+[msg MSG1220_SANADA_01 [Akihiko]]
+[s][bup 7 1 65535 0]Прошло много времени с тех пор, как исчез[n]Реджи... Интересно, что он делает?[n][w][e]
+##-[s][bup 7 1 65535 0]It's been a while since Ryoji[n]disappeared... I wonder what[n]he's doing.[n][w][e]-##
+[s]Может быть, он проклинает судьбу... Почему[n]он вообще заботится о жизни на Земле?[n][w][e]
+##-[s]Maybe he's cursing fate... Why does he[n]even care about life on Earth?[n][w][e]-##
+[s][bup 5 4 65535 3][f 1 5]Дзюнпэй[n]Я действительно не хочу об этом думать...[n][w][e]
+##-[s][bup 5 4 65535 3][f 1 5]Junpei[n]I don't really wanna think about it...[n][w][e]-##
+[s]Что бы мы ни делали, мы не можем остановить[n]это...[n][w][e]
+##-[s]No matter what we do, we can't stop it[n]from happening...[n][w][e]-##
+[s]Это просто несправедливо...[n][w][e]
+##-[s]It's just not fair...[n][w][e]-##
+[s][bup 10 164 0 1][f 1 5]Коромару[n]* хныкать*[n][w][e]
+##-[s][bup 10 164 0 1][f 1 5]Koromaru[n]*whimper*[n][w][e]-##
+[s][bup 7 4 65535 3][f 1 5]Акихико[n]Я бы тоже хотел просто забыть об этом.[n][w][e]
+##-[s][bup 7 4 65535 3][f 1 5]Akihiko[n]I wish I could just forget about it, too.[n][w][e]-##
+[s][bup 7 1 65535 3]Но этот день придет... К тому времени мы[n]должны определиться с нашим ответом.[n][w][e]
+##-[s][bup 7 1 65535 3]But, the day will come... We have to[n]decide our answer by then.[n][w][e]-##
+
+[msg MSG1220_KOROMARU_01 [Koromaru]]
+[s][bup 10 161 0 0]Гав![n][w][e]
+##-[s][bup 10 161 0 0]Woof![n][w][e]-##
+[s][f 4 7 0 0 0]> Он кажется еще храбрее, чем обычно.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> He seems even braver than usual.[n][f 1 4][e]-##
+
+[msg MSG0103_YUKARI_01 [Yukari]]
+[s][bup 2 4 65535 0]Все выходит из-под контроля...[n][w][e]
+##-[s][bup 2 4 65535 0]Things are getting out of hand...[n][w][e]-##
+[s]Раньше Потерянные были здесь и там, но[n]теперь это просто безумие.[n][w][e]
+##-[s]Before, The Lost were here and there,[n]but now it's just crazy.[n][w][e]-##
+[s][bup 3 1 65535 1][f 1 5]Айгис[n]Многие люди пострадали от Никс.[n][w][e]
+##-[s][bup 3 1 65535 1][f 1 5]Aigis[n]Many people have been affected by Nyx.[n][w][e]-##
+[s]Я боюсь, что в день возрождения Никс все[n]может стать еще хуже.[n][w][e]
+##-[s]I fear it may get even worse on[n]the day of Nyx's revival.[n][w][e]-##
+[s][bup 4 1 65535 1][f 1 5]Мицуру[n]Удивительно, что Никс может повлиять на[n]целый город...[n][w][e]
+##-[s][bup 4 1 65535 1][f 1 5]Mitsuru[n]It's astonishing that Nyx can affect[n]an entire city...[n][w][e]-##
+[s]Мы единственные, кто может что-то с этим[n]сделать. Мы должны бороться, несмотря ни на[n]что.[n][w][e]
+##-[s]We're the only ones who can do[n]something about it. We have to fight[n]no matter what.[n][w][e]-##
+
+[msg MSG0103_MITURU_01 [Mitsuru]]
+[s][bup 4 1 65535 0]Прошло уже три дня... Тяжесть была снята с[n]наших плеч, но...[n][w][e]
+##-[s][bup 4 1 65535 0]It's been three days now...[n]The weight has been lifted from[n]our shoulders, but...[n][w][e]-##
+[s][bup 2 4 65535 0][f 1 5]Юкари[n]Честно говоря, я действительно чувствую[n]некоторое сожаление...[n][w][e]
+##-[s][bup 2 4 65535 0][f 1 5]Yukari[n]To be honest, I do feel a little regret...[n][w][e]-##
+[s][bup 3 1 65535 0][f 1 5]Айгис[n]С этим ничего не поделаешь.[n][w][e]
+##-[s][bup 3 1 65535 0][f 1 5]Aigis[n]That can't be helped.[n][w][e]-##
+[s]Это человеческая природа - задаваться[n]вопросом о выборе, который не был выбран.[n][w][e]
+##-[s]It's human nature to wonder about[n]the choice that was not chosen.[n][w][e]-##
+[s][bup 4 1 65535 0][f 1 5]Мицуру[n]Это правда. Люди всегда спрашивают себя:[n]"Что, если...?"[n][w][e]
+##-[s][bup 4 1 65535 0][f 1 5]Mitsuru[n]That's true. People are always asking[n]themselves, "What if...?"[n][w][e]-##
+[s][bup 2 3 65535 0][f 1 5]Юкари[n]Но я не хочу ни о чем сожалеть...[n][w][e]
+##-[s][bup 2 3 65535 0][f 1 5]Yukari[n]But, I don't want to have regrets...[n][w][e]-##
+[s]...потому что это то, что я выбрал.[n][w][e]
+##-[s]...because this is what I chose.[n][w][e]-##
+
+[msg MSG0103_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Я буду стоять рядом с тобой до самого[n]конца.[n][w][e]
+##-[s][bup 3 1 65535 0]I will stand beside you until[n]the very end.[n][w][e]-##
+[s]Даже несмотря на то, что у меня есть только[n]один месяц, чтобы провести его с тобой...[n][w][e]
+##-[s]Even though I only have this one month[n]to spend with you...[n][w][e]-##
+[s]...Я ни о чем не пожалею.[n][w][e]
+##-[s]...I will have no regrets.[n][w][e]-##
+[s][bup 2 4 65535 3][f 1 5]Юкари[n]Не говори так, Айгис...[n][w][e]
+##-[s][bup 2 4 65535 3][f 1 5]Yukari[n]Don't talk like that, Aigis...[n][w][e]-##
+[s][bup 4 1 65535 1][f 1 5]Мицуру[n]Юкари... Шансы на то, что мы победим Никс,[n]невелики.[n][w][e]
+##-[s][bup 4 1 65535 1][f 1 5]Mitsuru[n]Yukari... The chances that we will beat[n]Nyx are slim.[n][w][e]-##
+[s][bup 3 1 65535 3][f 1 5]Айгис[n]Это может быть правдой... Но, есть такая[n]возможность.[n][w][e]
+##-[s][bup 3 1 65535 3][f 1 5]Aigis[n]That may be true... But, there is[n]a possibility.[n][w][e]-##
+[s]Мы должны потратить этот месяц на то, чтобы[n]увеличить наши шансы.[n][w][e]
+##-[s]We must spend this month increasing[n]our chances.[n][w][e]-##
+
+[msg MSG0108_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чертов Стрега... У нас нет времени играть в[n]прятки.[n][w][e]
+##-[s][bup 5 1 65535 0]Damn Strega... We don't have time[n]to play hide and seek.[n][w][e]-##
+[s]Нам лучше найти их, пока они не причинили[n]нам еще больше неприятностей.[n][w][e]
+##-[s]We better find them, before they make[n]more trouble for us.[n][w][e]-##
+[s]Почему бы нам не позволить Коромару[n]вынюхать их?[n][w][e]
+##-[s]Why don't we let Koromaru[n]sniff them out?[n][w][e]-##
+[s][bup 10 161 0 1][f 1 5]Коромару[n]Гав...?[n][w][e]
+##-[s][bup 10 161 0 1][f 1 5]Koromaru[n]Woof...?[n][w][e]-##
+[s][f 4 7 0 0 0]> Коромару склонил голову набок.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Koromaru tilted his head.[n][f 1 4][e]-##
+
+[msg MSG0108_KOROMARU_01 [Koromaru]]
+[s][bup 10 161 0 0]Гав![n][w][e]
+##-[s][bup 10 161 0 0]Woof![n][w][e]-##
+[s][f 4 7 0 0 0]> Похоже, он в хорошем настроении.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> He seems to be in a good mood.[n][f 1 4][e]-##
+
+[msg MSG0111_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Верить или не верить в культ - это личное[n]решение каждого...[n][w][e]
+##-[s][bup 6 1 65535 0]Believing or not believing in the cult[n]is a personal decision...[n][w][e]-##
+[s]Сам я никогда бы в это не поверил.[n][w][e]
+##-[s]Myself, I would never believe in it.[n][w][e]-##
+[s][bup 6 2 65535 0]Когда я думаю о своей дружбе с Нацуки-тян,[n]мне не нужно вступать в культ.[n][w][e]
+##-[s][bup 6 2 65535 0]When I think of my friendship with[n]Natsuki-chan, I have no need to join[n]the cult.[n][w][e]-##
+[s][bup 3 2 65535 0][f 1 5]Айгис[n]Узы дружбы...[n][w][e]
+##-[s][bup 3 2 65535 0][f 1 5]Aigis[n]The bond of friendship...[n][w][e]-##
+[s]Это звучит как сказка, но я верю, что это[n]то, к чему стремятся все люди.[n][w][e]
+##-[s]It sounds like a fairy tale, but I believe[n]it is what all humans seek.[n][w][e]-##
+[s][bup 2 1 65535 0][f 1 5]Юкари[n]Я согласен, самое главное - это связь,[n]которую разделяют два человека.[n][w][e]
+##-[s][bup 2 1 65535 0][f 1 5]Yukari[n]I agree, the most important thing is[n]the connection two people share.[n][w][e]-##
+[s][bup 5 1 65535 0][f 1 5]Дзюнпэй[n]Верно... Никто не может выжить в одиночку.[n][w][e]
+##-[s][bup 5 1 65535 0][f 1 5]Junpei[n]That's right... No one can survive alone.[n][w][e]-##
+
+[msg MSG0111_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Влияние культа распространилось по всему[n]городу и даже в нашу школу.[n][w][e]
+##-[s][bup 2 1 65535 0]The cult's influence has spread across[n]the city, and even into our school.[n][w][e]-##
+[s]Все говорят о том, как наступит конец[n]света, как будто это факт.[n][w][e]
+##-[s]Everyone is talking about how the world[n]is going to end, as if it's fact.[n][w][e]-##
+[s][bup 5 1 65535 3][f 1 5]Дзюнпэй[n]Боже, почему люди так слабы?[n][w][e]
+##-[s][bup 5 1 65535 3][f 1 5]Junpei[n]Man, why are people so weak?[n][w][e]-##
+[s][bup 6 1 65535 1][f 1 5]Фуука[n]Не все могут быть такими, как мы...[n][w][e]
+##-[s][bup 6 1 65535 1][f 1 5]Fuuka[n]Not everyone can be like us...[n][w][e]-##
+[s][bup 3 1 65535 3][f 1 5]Айгис[n]В отличие от роботов, все люди уникальны.[n][w][e]
+##-[s][bup 3 1 65535 3][f 1 5]Aigis[n]Unlike robots, humans are all unique.[n][w][e]-##
+[s]Некоторые люди никогда не сдаются, в то[n]время как другие подчиняются немедленно.[n][w][e]
+##-[s]Some people never give up, while[n]others submit immediately.[n][w][e]-##
+
+[msg MSG0111_JUNPEI_01 [Junpei]]
+[s][bup 5 3 65535 0]Кто этот придурок, возглавляющий этот[n]культ?[n][w][e]
+##-[s][bup 5 3 65535 0]Who's the dumbass in charge of that cult?[n][w][e]-##
+[s]Вот мы надрываем свои задницы, а они идут и[n]вытягивают это дерьмо.[n][w][e]
+##-[s]Here we are bustin' our asses,[n]and they go and pull this crap.[n][w][e]-##
+[s][bup 3 1 65535 1][f 1 5]Айгис[n]Вы не можете просто винить культ.[n][w][e]
+##-[s][bup 3 1 65535 1][f 1 5]Aigis[n]You can't just blame the cult.[n][w][e]-##
+[s]Культ существует только потому, что есть[n]люди, готовые в него верить.[n][w][e]
+##-[s]The cult exists only because there are[n]people willing to believe in it.[n][w][e]-##
+[s][bup 5 1 65535 0][f 1 5]Дзюнпэй[n]Я думаю, это правда...[n][w][e]
+##-[s][bup 5 1 65535 0][f 1 5]Junpei[n]I guess that's true...[n][w][e]-##
+[s]Что ж, мы должны что-то сделать...[n][w][e]
+##-[s]Well, we have to do something...[n][w][e]-##
+
+[msg MSG0111_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]О культе...[n][w][e]
+##-[s][bup 3 1 65535 0]About the cult...[n][w][e]-##
+[s]Интересно, сколько людей действительно в[n]это верят?[n][w][e]
+##-[s]I wonder how many people truly[n]believe in it.[n][w][e]-##
+[s]Похоже, большая часть общественности[n]открыто говорит, что приближается конец[n]света.[n][w][e]
+##-[s]It seems much of the public is openly[n]saying that the end of the world is[n]coming.[n][w][e]-##
+[s][bup 2 1 65535 3][f 1 5]Юкари[n]Да, даже люди, которых я знаю.[n][w][e]
+##-[s][bup 2 1 65535 3][f 1 5]Yukari[n]Yeah, even people I know.[n][w][e]-##
+[s]Большинство из них заинтересовались через[n]друзей.[n][w][e]
+##-[s]Most of them got interested through[n]friends.[n][w][e]-##
+[s][bup 5 1 65535 3][f 1 5]Дзюнпэй[n]Я тоже слышал, как на днях кое-кто[n]разговаривал.[n][w][e]
+##-[s][bup 5 1 65535 3][f 1 5]Junpei[n]I heard some people talking[n]the other day, too.[n][w][e]-##
+[s]Они говорили, что каждый день так скучен,[n]что конец света был бы не так уж плох...[n][w][e]
+##-[s]They were saying that every day is so[n]boring, the end of the world wouldn't[n]be so bad...[n][w][e]-##
+[s][bup 6 4 65535 1][f 1 5]Фуука[n]Другими словами, этот культ похож на[n]шопинг...[n][w][e]
+##-[s][bup 6 4 65535 1][f 1 5]Fuuka[n]In other words, this cult is kind of like[n]shopping...[n][w][e]-##
+[s]Это помогает людям заполнить пустоту,[n]которую они чувствуют внутри.[n][w][e]
+##-[s]It helps people fill the emptiness[n]they feel inside.[n][w][e]-##
+
+[msg MSG0117_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Акихико-семпай и Мицуру-семпай проходят[n]вступительный тест в колледж.[n][w][e]
+##-[s][bup 5 1 65535 0]Akihiko-senpai and Mitsuru-senpai are[n]taking the college admissions test.[n][w][e]-##
+[s]Чувак, это будем мы, прежде чем ты это[n]поймешь.[n][w][e]
+##-[s]Dude, that'll be us before you know it.[n][w][e]-##
+[s][bup 5 4 65535 0]Хотя я не жду этого с нетерпением.[n][w][e]
+##-[s][bup 5 4 65535 0]I'm not lookin' forward to it, though.[n][w][e]-##
+
+[msg MSG0117_JUNPEI_02 [Junpei]]
+[s][bup 5 1 65535 0]Сказать по правде, мысль о борьбе с Никс[n]пугает меня до чертиков.[n][w][e]
+##-[s][bup 5 1 65535 0]To tell ya the truth, the thought of[n]fighting Nyx scares the shit outta me.[n][w][e]-##
+[s][bup 5 2 65535 0]Но по какой-то причине, когда я смотрю на[n]рисунок Чидори, я чувствую себя более[n]смелым.[n][w][e]
+##-[s][bup 5 2 65535 0]But for some reason, when I look at[n]Chidori's drawing, I feel more[n]courageous.[n][w][e]-##
+[s]С тех пор как она пожертвовала собой, я[n]увидел жизнь совершенно по-новому... Я[n]никому не позволю это отнять.[n][w][e]
+##-[s]Ever since she sacrificed herself,[n]I've seen life in a whole new way...[n]I won't let anyone take that away.[n][w][e]-##
+[s][bup 8 2 65535 1][f 1 5]Кругозор[n]Ух ты, Дзюнпэй-сан... Я всегда думал о тебе[n]как о бездельнике...[n][w][e]
+##-[s][bup 8 2 65535 1][f 1 5]Ken[n]Wow, Junpei-san... I always thought[n]of you as a slacker...[n][w][e]-##
+[s]Но сейчас ты кажешься еще более[n]решительной, чем Санада-семпай.[n][w][e]
+##-[s]But now, you seem even more determined[n]than Sanada-senpai.[n][w][e]-##
+[s][bup 7 2 65535 3][f 1 5]Акихико[n]Эй, не рановато ли это говорить?[n][w][e]
+##-[s][bup 7 2 65535 3][f 1 5]Akihiko[n]Hey, isn't it a little early to be[n]saying that?[n][w][e]-##
+[s]Посмотрим, как долго это продлится...[n][w][e]
+##-[s]We'll see how long it lasts...[n][w][e]-##
+
+[msg MSG0117_SANADA_01 [Akihiko]]
+[s][bup 7 4 65535 0]Для меня и Синдзи нашей целью было[n]избавиться от Темного Часа.[n][w][e]
+##-[s][bup 7 4 65535 0]For me and Shinji, our goal was to get[n]rid of the Dark Hour.[n][w][e]-##
+[s]Но теперь он ушел, и все остальное зависит[n]от меня...[n][w][e]
+##-[s]But now he's gone, and the rest is up[n]to me...[n][w][e]-##
+[s][bup 7 1 65535 0]Несмотря ни на что, я положу этому конец.[n][w][e]
+##-[s][bup 7 1 65535 0]No matter what, I'm gonna put an end[n]to this.[n][w][e]-##
+[s][bup 8 1 65535 1][f 1 5]Кругозор[n]Да... ради Синдзиро-сан...[n][w][e]
+##-[s][bup 8 1 65535 1][f 1 5]Ken[n]Yes... for Shinjiro-san's sake...[n][w][e]-##
+[s][bup 5 3 65535 1][f 1 5]Дзюнпэй[n]Мы сможем это сделать, Акихико-семпай![n]Давайте соберем Никс вместе![n][w][e]
+##-[s][bup 5 3 65535 1][f 1 5]Junpei[n]We can do it, Akihiko-senpai![n]Let's get Nyx together![n][w][e]-##
+[s][bup 10 161 0 1][f 1 5]Коромару[n]Гав! Гав![n][w][e]
+##-[s][bup 10 161 0 1][f 1 5]Koromaru[n]Woof! Woof![n][w][e]-##
+[s][bup 7 2 65535 3][f 1 5]Акихико[n]Да...[n][w][e]
+##-[s][bup 7 2 65535 3][f 1 5]Akihiko[n]Yeah...[n][w][e]-##
+
+[msg MSG0117_SANADA_01_G [Akihiko]]
+[s][bup 7 4 65535 0]Для меня и Синдзи нашей целью было[n]избавиться от Темного Часа.[n][w][e]
+##-[s][bup 7 4 65535 0]For me and Shinji, our goal was to get[n]rid of the Dark Hour.[n][w][e]-##
+[s]Но теперь он вышел из боя, а остальное[n]зависит от меня...[n][w][e]
+##-[s]But now he's out of the fight, and the[n]rest is up to me...[n][w][e]-##
+[s][bup 7 1 65535 0]Несмотря ни на что, я положу этому конец.[n][w][e]
+##-[s][bup 7 1 65535 0]No matter what, I'm gonna put an end[n]to this.[n][w][e]-##
+[s][bup 8 1 65535 1][f 1 5]Кругозор[n]Да... ради Синдзиро-сан...[n][w][e]
+##-[s][bup 8 1 65535 1][f 1 5]Ken[n]Yes... for Shinjiro-san's sake...[n][w][e]-##
+[s][bup 5 3 65535 1][f 1 5]Дзюнпэй[n]Мы сможем это сделать, Акихико-семпай![n]Давайте соберем Никс вместе![n][w][e]
+##-[s][bup 5 3 65535 1][f 1 5]Junpei[n]We can do it, Akihiko-senpai![n]Let's get Nyx together![n][w][e]-##
+[s][bup 10 161 0 1][f 1 5]Коромару[n]Гав! Гав![n][w][e]
+##-[s][bup 10 161 0 1][f 1 5]Koromaru[n]Woof! Woof![n][w][e]-##
+[s][bup 7 2 65535 3][f 1 5]Акихико[n]Да...[n][w][e]
+##-[s][bup 7 2 65535 3][f 1 5]Akihiko[n]Yeah...[n][w][e]-##
+
+[msg MSG0117_AMADA_01 [Ken]]
+[s][bup 8 1 65535 0]Почему есть ДВА больших теста, которые вы[n]должны пройти, чтобы поступить в колледж?[n]Вступительный экзамен И национальный тест![n][w][e]
+##-[s][bup 8 1 65535 0]Why are there TWO big tests you[n]have to take to get into college? An[n]entrance exam AND the national test![n][w][e]-##
+[s]Это звучит жестко, но какой у нас есть[n]выбор...?[n][w][e]
+##-[s]It sounds tough, but what choice[n]do we have...?[n][w][e]-##
+
+[msg MSG0117_AMADA_02 [Ken]]
+[s][bup 8 1 65535 0]Темный Час отнял у меня так много вещей.[n][w][e]
+##-[s][bup 8 1 65535 0]The Dark Hour has taken so many things[n]away from me.[n][w][e]-##
+[s]Но вы, ребята, подарили мне самое лучшее из[n]всего - дружбу.[n][w][e]
+##-[s]But, you guys have given me the[n]greatest thing of all--friendship.[n][w][e]-##
+[s][bup 8 2 65535 0]Так что я не сдамся... Я позабочусь о том,[n]чтобы Темный Час исчез.[n][w][e]
+##-[s][bup 8 2 65535 0]So, I won't give up... I'll make sure[n]the Dark Hour disappears.[n][w][e]-##
+[s][bup 5 2 65535 0][f 1 5]Дзюнпэй[n]Ты это сказал, чувак! Я рассчитываю на[n]тебя![n][w][e]
+##-[s][bup 5 2 65535 0][f 1 5]Junpei[n]You said it, dude! I'm counting on you![n][w][e]-##
+[s][bup 7 2 65535 0][f 1 5]Акихико[n]Я уверен, что Синдзи тоже счастлив, так что[n]держись за это чувство...[n][w][e]
+##-[s][bup 7 2 65535 0][f 1 5]Akihiko[n]I'm sure Shinji is happy too, so hold on[n]to that feeling...[n][w][e]-##
+
+[msg MSG0117_AMADA_02_G [Ken]]
+[s][bup 8 1 65535 0]Темный Час отнял у меня так много вещей.[n][w][e]
+##-[s][bup 8 1 65535 0]The Dark Hour has taken so many things[n]away from me.[n][w][e]-##
+[s]Но вы, ребята, подарили мне самое лучшее из[n]всего - дружбу.[n][w][e]
+##-[s]But, you guys have given me the[n]greatest thing of all--friendship.[n][w][e]-##
+[s][bup 8 2 65535 0]Так что я не сдамся... Я позабочусь о том,[n]чтобы Темный Час исчез.[n][w][e]
+##-[s][bup 8 2 65535 0]So, I won't give up... I'll make sure[n]the Dark Hour disappears.[n][w][e]-##
+[s][bup 5 2 65535 0][f 1 5]Дзюнпэй[n]Ты это сказал, чувак! Я рассчитываю на[n]тебя![n][w][e]
+##-[s][bup 5 2 65535 0][f 1 5]Junpei[n]You said it, dude! I'm counting on you![n][w][e]-##
+[s][bup 7 2 65535 0][f 1 5]Акихико[n]Я уверен, что Синдзи тоже счастлив, так что[n]держись за это чувство...[n][w][e]
+##-[s][bup 7 2 65535 0][f 1 5]Akihiko[n]I'm sure Shinji is happy too, so hold on[n]to that feeling...[n][w][e]-##
+
+[msg MSG0117_KOROMARU_01 [Koromaru]]
+[s][bup 10 161 0 0]Гав! Гав![n][w][e]
+##-[s][bup 10 161 0 0]Woof! Woof![n][w][e]-##
+[s][f 4 7 0 0 0]> Он пристально смотрит на тебя.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> He's staring at you.[n][f 1 4][e]-##
+
+[msg RYOU_AMADA_SASOI [Ken]]
+[s][bup 8 1 65535 0]Хм... Сегодня последний день летних[n]каникул, верно?[n][w][e]
+##-[s][bup 8 1 65535 0]Um... Today's the last day of[n]summer vacation, right?[n][w][e]-##
+[s]Ну... раз так оно и есть...[n][w][e]
+##-[s]Well... since it is...[n][w][e]-##
+[s]...Мне было интересно, есть ли у тебя[n]какие-нибудь планы на сегодня.[n][w][e]
+##-[s]...I was wondering if you had any[n]plans today.[n][w][e]-##
+[s]Я... я просто хотел спросить. Нет причин...[n][w][e]
+##-[s]I-I just wanted to ask. No reason...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s][f 4 7 0 0 0]> Кен, кажется, хочет что-то сказать...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Ken seems like he wants to say[n]something...[n][f 1 4][e]-##
+
+[sel EIGA_AMADA_SASOI_SEL top]
+[s]Пригласи его в кино[e]
+##-[s]Invite him to the movies[e]-##
+[s]Храните молчание[e]
+##-[s]Remain silent[e]-##
+
+[msg RYOU_AMADA_SASOI_OK [Ken]]
+[s][bup 8 2 65535 0]С-Конечно![n][w][e]
+##-[s][bup 8 2 65535 0]S-Sure![n][w][e]-##
+
+[msg RYOU_AMADA_0825 [Ken]]
+[s][bup 8 4 65535 0]Я всегда думал, что должен что-то сделать.[n][w][e]
+##-[s][bup 8 4 65535 0]I always thought there was[n]something I had to do.[n][w][e]-##
+[s]Но я никогда не мог достичь этого, потому[n]что на моем пути было так много всего[n]другого.[n][w][e]
+##-[s]But I could never achieve it, because[n]there was so much else in the way.[n][w][e]-##
+[s]Но я уже принял решение... при следующем[n]удобном случае я это сделаю.[n][w][e]
+##-[s]But I've made up my mind... the next[n]chance I get, I'll do it.[n][w][e]-##
+[s]Мой разум ясен.[n][w][e]
+##-[s]My mind is clear.[n][w][e]-##
+[s][f 4 7 0 0 0]> У Кена серьезное выражение лица... Он не[n]в настроении идти в кино...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Ken has a serious expression...[n]He's not in the mood to go to[n]the movies...[n][f 1 4][e]-##
+
+[msg RYOU_AMADA_0829 [Ken]]
+[s][bup 8 1 65535 0]Теперь, когда я присоединился к SEES, я[n]вижу вас всех по-другому.[n][w][e]
+##-[s][bup 8 1 65535 0]Now that I've joined SEES, I see[n]you all differently.[n][w][e]-##
+[s]...Я сделаю все, что в моих силах, как[n]ПРОФЕССИОНАЛ. член.[n][w][e]
+##-[s]...I'll do my best as a SEES.[n]member.[n][w][e]-##
+[s][f 4 7 0 0 0]> У Кена серьезное выражение лица... Он не[n]в настроении идти в кино...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Ken has a serious expression...[n]He's not in the mood to go to[n]the movies...[n][f 1 4][e]-##
+
+[msg SCR_MSG_KOROMARU_MANNEN [Koromaru]]
+[s][bup 10 161 0 0]......[n][w][e]
+##-[s][bup 10 161 0 0]......[n][w][e]-##
+[s][f 4 7 0 0 0]> Ты замечаешь что-то под лапой Коромару...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> You spot something under[n]Koromaru's paw...[n][f 1 4][e]-##
+[s]> Не хотели бы вы забрать его?[n][f 1 4][e]
+##-[s]> Would you like to pick it up?[n][f 1 4][e]-##
+
+[sel KOROMARU_MANNEN_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[msg SCR_MSG_KOROMARU_MANNEN_ [Koromaru]]
+[s][bup 10 161 0 0]Арф! Арф![n][w][e]
+##-[s][bup 10 161 0 0]Arf! Arf![n][w][e]-##
+
+[msg SCR_MSG_KOROMARU_MANNEN__2 [Koromaru]]
+[s][bup 10 161 0 0]Арф![n][w][e]
+##-[s][bup 10 161 0 0]Arf![n][w][e]-##
+
+[msg SCR_MSG_KOROMARU_MANNEN__3]
+[s]> ...Это [clr 2]Красная Авторучка[clr 0].[n][w][e]
+##-[s]> ...It's a [clr 2]Red Fountain Pen[clr 0].[n][w][e]-##
+[s]> Получено [f 4 4 3 0 1564].[n][w][e]
+##-[s]> Obtained [f 4 4 3 0 1564].[n][w][e]-##
+
+[msg MSG_KORO_DEFAULT [Koromaru]]
+[s][bup 10 161 0 0]Арф![n][w][e]
+##-[s][bup 10 161 0 0]Arf![n][w][e]-##
+
+[msg KORO_SANPO]
+[s][f 4 7 0 0 0]> Коромару смотрит на тебя умоляющими[n]глазами...[n][w][e]
+##-[s][f 4 7 0 0 0]> Koromaru is looking at you with[n]pleading eyes...[n][w][e]-##
+[s]> Похоже, он хочет пойти прогуляться...[n][w][e]
+##-[s]> He seems to want to go for a walk...[n][w][e]-##
+
+[msg SANPO_TUTO]
+[s]Если вы еще не выходили ночью, вы можете[n]провести свой вечер, гуляя по Коромару.[n]Иногда к вам присоединяются ваши соседи по[n]общежитию.[n][w][e]
+##-[s]If you haven't already gone out at[n]night, you can spend your evening[n]walking Koromaru. Sometimes, your[n]dormmates will join you.[n][w][e]-##
+
+[sel KORO_SANPO_SEL top]
+[s]Выведи его на прогулку[e]
+##-[s]Take him for a walk[e]-##
+[s]Пусть это сделает кто-нибудь другой[e]
+##-[s]Let someone else do it[e]-##
+
+[msg KORO_SANPO_SASOI_YUKAR]
+[s]> Юкари может пойти с тобой сегодня[n]вечером.[n][w][e]
+##-[s]> Yukari can go with you tonight.[n][w][e]-##
+
+[msg KORO_SANPO_SASOI_FUUKA]
+[s]> Фуука может пойти с тобой сегодня[n]вечером.[n][w][e]
+##-[s]> Fuuka can go with you tonight.[n][w][e]-##
+
+[msg KORO_SANPO_SASOI_MITUR]
+[s]> Мицуру может пойти с тобой сегодня[n]вечером.[n][w][e]
+##-[s]> Mitsuru can go with you tonight.[n][w][e]-##
+
+[msg KORO_SANPO_SASOI_AEGIS]
+[s]> Айгис может пойти с тобой сегодня[n]вечером.[n][w][e]
+##-[s]> Aigis can go with you tonight.[n][w][e]-##
+
+[msg KORO_SANPO_SASOI_SANAD]
+[s]> Акихико может пойти с тобой сегодня[n]вечером.[n][w][e]
+##-[s]> Akihiko can go with you tonight.[n][w][e]-##
+
+[msg KORO_SANPO_SASOI_JUNPE]
+[s]> Дзюнпэй может пойти с тобой сегодня[n]вечером.[n][w][e]
+##-[s]> Junpei can go with you tonight.[n][w][e]-##
+
+[msg KORO_SANPO_SASOI_AMADA]
+[s]> Кен может пойти с тобой сегодня вечером.[n][w][e]
+##-[s]> Ken can go with you tonight.[n][w][e]-##
+
+[msg KORO_SANPO_SASOI_ARAGA]
+[s]> Синдзиро может пойти с тобой сегодня[n]вечером.[n][w][e]
+##-[s]> Shinjiro can go with you tonight.[n][w][e]-##
+
+[msg KORO_SANPO_SASOI_MINNA]
+[s]> Коромару умоляет сильнее, чем[n]когда-либо...[n][w][e]
+##-[s]> Koromaru is begging harder than[n]ever...[n][w][e]-##
+[s]> Не хотели бы вы пойти погулять со всеми?[n][w][e]
+##-[s]> Would you like to go for a walk[n]with everyone?[n][w][e]-##
+
+[sel KORO_SANPO_HUTARI_SEL top]
+[s]Идите вместе[e]
+##-[s]Go together[e]-##
+[s]Иди один[e]
+##-[s]Go alone[e]-##
+[s]Пусть это сделает кто-нибудь другой[e]
+##-[s]Let someone else do it[e]-##
+
+[msg KORO_SANPO_NO_1]
+[s][f 4 7 0 0 0]> Коромару что-то чует. ...Он не в[n]настроении для прогулки.[n][w][e]
+##-[s][f 4 7 0 0 0]> Koromaru smells something.[n]...He's not in the mood for a walk.[n][w][e]-##
+
+[msg KORO_SANPO_NO_2]
+[s][f 4 7 0 0 0]> Коромару зевает. ...Он не в настроении[n]для прогулки.[n][w][e]
+##-[s][f 4 7 0 0 0]> Koromaru is yawning.[n]...He's not in the mood for a walk.[n][w][e]-##
+
+[msg KORO_SANPO_NO_3]
+[s][f 4 7 0 0 0]> Коромару наклоняет голову.  ...Он не в[n]настроении для прогулки.[n][w][e]
+##-[s][f 4 7 0 0 0]> Koromaru is tilting his head. [n]...He's not in the mood for a walk.[n][w][e]-##
+
+[msg KORO_SANPO_NO_4]
+[s][f 4 7 0 0 0]> Коромару хнычет. ...Он не в настроении[n]для прогулки.[n][w][e]
+##-[s][f 4 7 0 0 0]> Koromaru is whimpering.[n]...He's not in the mood for a walk.[n][w][e]-##
+
+[msg KORO_SANPO_NO_5]
+[s][f 4 7 0 0 0]> Коромару вытянулся. ...Он не в настроении[n]для прогулки.[n][w][e]
+##-[s][f 4 7 0 0 0]> Koromaru is stretched out.[n]...He's not in the mood for a walk.[n][w][e]-##
+
+[msg KORO_SANPO_NEXTDAY]
+[s][f 4 7 0 0 0]> Коромару, кажется, доволен.[n][w][e]
+##-[s][f 4 7 0 0 0]> Koromaru seems satisfied.[n][w][e]-##
+[s]> [clr 2]Может быть, тебе стоит взять его завтра[n]на прогулку?..[n][w][e]
+##-[s]> [clr 2]Maybe you should take him for[n]a walk tomorrow...[n][w][e]-##
+
+[msg MITSURU_NOMEMBER_ALLOK [Mitsuru]]
+[s][bup 4 1 65535 0]Все могут пойти сегодня вечером.[n][w][e]
+##-[s][bup 4 1 65535 0]Everyone can go tonight.[n][w][e]-##
+
+[msg MITSURU_NOMEMBER_PRE [Mitsuru]]
+[s][bup 4 1 65535 0][f 2 4 8] участники уже имеют планы и не могут выйти[n]сегодня вечером.[n][w][e]
+##-[s][bup 4 1 65535 0][f 2 4 8] member(s) already have plans and[n]can't go out tonight.[n][w][e]-##
+
+[msg MITSURU_NOMEMBER_SUF [Mitsuru]]
+[s][bup 4 1 65535 0]Могу я вам еще чем-нибудь помочь?[n][w][e]
+##-[s][bup 4 1 65535 0]Can I help you with something else?[n][w][e]-##
+
+[msg HUKA_NOMEMBER_ALLOK [Fuuka]]
+[s][bup 6 1 65535 0]Все могут пойти сегодня вечером.[n][w][e]
+##-[s][bup 6 1 65535 0]Everyone can go tonight.[n][w][e]-##
+
+[msg HUKA_NOMEMBER_PRE [Fuuka]]
+[s][bup 6 1 65535 0]У этих людей уже есть планы, так что они не[n]могут пойти сегодня вечером:[n][w][e]
+##-[s][bup 6 1 65535 0]These people already have plans, so[n]they can't go tonight:[n][w][e]-##
+
+[msg HUKA_NOMEMBER_SUF [Fuuka]]
+[s][bup 6 1 65535 0]Есть что-нибудь еще?[n][w][e]
+##-[s][bup 6 1 65535 0]Is there anything else?[n][w][e]-##
+
+[msg HELP_NOMEMBER_1]
+[s][f 2 4 0] [n][w][e]
+##-[s][f 2 4 0] [n][w][e]-##
+
+[msg HELP_NOMEMBER_2]
+[s][f 2 4 0] [n][f 2 4 1] [n][w][e]
+##-[s][f 2 4 0] [n][f 2 4 1] [n][w][e]-##
+
+[msg HELP_NOMEMBER_3]
+[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][w][e]
+##-[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][w][e]-##
+
+[msg HELP_NOMEMBER_4]
+[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3][w][e]
+##-[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3][w][e]-##
+
+[msg HELP_NOMEMBER_5]
+[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3] [n][f 2 4 4][w][e]
+##-[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3] [n][f 2 4 4][w][e]-##
+
+[msg HELP_NOMEMBER_6]
+[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3] [n][f 2 4 4] [n][f 2 4 5] [n][w][e]
+##-[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3] [n][f 2 4 4] [n][f 2 4 5] [n][w][e]-##
+
+[msg HELP_NOMEMBER_7]
+[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3] [n][f 2 4 4] [n][f 2 4 5] [n][f 2 4 6][w][e]
+##-[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3] [n][f 2 4 4] [n][f 2 4 5] [n][f 2 4 6][w][e]-##
+
+[msg HELP_NOMEMBER_8]
+[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3] [n][f 2 4 4] [n][f 2 4 5] [n][f 2 4 6] [n][f 2 4 7][w][e]
+##-[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3] [n][f 2 4 4] [n][f 2 4 5] [n][f 2 4 6] [n][f 2 4 7][w][e]-##
+

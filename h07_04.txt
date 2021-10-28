@@ -1,0 +1,834 @@
+[sel YESNO_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[sel ROOM_SEL top]
+[s]Иди внутрь[e]
+##-[s]Go inside[e]-##
+[s]Не заходи внутрь[e]
+##-[s]Don't go in[e]-##
+
+[sel INTO_ROOM_SEL top]
+[s]Возвращаться[e]
+##-[s]Go back[e]-##
+[s]Не возвращайся назад[e]
+##-[s]Don't go back[e]-##
+
+[msg ROOM_EMPTY]
+[s]> Комната кажется пустой...[n][w][e]
+##-[s]> The room seems to be empty...[n][w][e]-##
+
+[msg GOINTO_MYROOM_OK]
+[s]> Ты сейчас вернешься в свою комнату?[n][w][e]
+##-[s]> Will you go back to your room now?[n][w][e]-##
+
+[msg GOINTO_MYROOM_SAVE_OK]
+[s]> Ты вернешься в свою комнату на сегодня?[n][w][e]
+##-[s]> Will you go back to your room[n]for today?[n][w][e]-##
+
+[msg GOINTO_MYROOM_SLEEP]
+[s]> Вы чувствуете усталость. Тебе нужно[n]немного отдохнуть...[n][w][e]
+##-[s]> You feel tired. You should get[n]some rest...[n][w][e]-##
+
+[msg GOINTO_MYROOM_LASTWEEK]
+[s]> Вы чувствуете себя очень усталым...[n][w][e]
+##-[s]> You feel very tired...[n][w][e]-##
+[s]> Тебе следует отдохнуть сегодня...[n][w][e]
+##-[s]> You should rest for today...[n][w][e]-##
+
+[msg STOP_INTO_MYROOM]
+[s]> Вам сказали прийти сегодня на 4-й этаж...[n][w][e]
+##-[s]> You were told to come to the[n]4th floor today...[n][w][e]-##
+
+[msg STOP_INTO_MYROOM_LAST_DA]
+[s]> Ты должен отправиться в Тартар...[n][w][e]
+##-[s]> You must go to Tartarus...[n][w][e]-##
+
+[msg MITSURUS_ROOM_LASTWEEK]
+[s]> На табличке написано "Мицуру".[n][w][e]
+##-[s]> The nameplate says "Mitsuru."[n][w][e]-##
+[s]> Кажется, внутри никого нет...[n][w][e]
+##-[s]> There seems to be no one inside...[n][w][e]-##
+
+[msg MITSURUS_ROOM]
+[s]> На табличке написано "Мицуру".[n][w][e]
+##-[s]> The nameplate says "Mitsuru."[n][w][e]-##
+[s]> Мицуру, похоже, нет в ее комнате...[n][w][e]
+##-[s]> Mitsuru doesn't seem to be in[n]her room...[n][w][e]-##
+
+[msg MITSURU_NOT_INTHEROOM]
+[s]> Мицуру, похоже, нет в ее комнате...[n][w][e]
+##-[s]> Mitsuru doesn't seem to be in[n]her room...[n][w][e]-##
+
+[msg MITURUS_ROOM_0711 [Mitsuru]]
+[s]Я причинил тебе неприятности... Мы не[n]должны видеть друг друга в течение[n]некоторого времени.[n][w][e]
+##-[s]I've caused trouble for you...[n]We shouldn't see each other for[n]some time.[n][w][e]-##
+[s]Возможно, тебе следует учиться. Сейчас я[n]собираюсь просмотреть свои заметки.[n][w][e]
+##-[s]Perhaps you should study. I'm about[n]to review my notes now.[n][w][e]-##
+[s]Учеба на самом деле помогает отвлечься от[n]мыслей.[n][w][e]
+##-[s]Studying actually helps to take[n]your mind off things.[n][w][e]-##
+
+[msg MITURUS_ROOM_0712 [Mitsuru]]
+[s]Я не хотел этого скрывать.[n][w][e]
+##-[s]I didn't mean to hide it.[n][w][e]-##
+[s]Я сказал вам то, что вам нужно было знать,[n]и опустил ненужные детали...[n][w][e]
+##-[s]I told you what you needed to[n]know, and omitted the unnecessary[n]details...[n][w][e]-##
+[s]Я должен прекратить это...[n][w][e]
+##-[s]I should stop this...[n][w][e]-##
+[s]Прячусь за этой дверью и утверждаю, что я[n]ничего не скрываю...[n][w][e]
+##-[s]Hiding behind this door, and claiming[n]I'm not hiding anything...[n][w][e]-##
+[s]Я был. Я это скрывал...[n][w][e]
+##-[s]I was. I was hiding it...[n][w][e]-##
+
+[msg MITURUS_ROOM_0713 [Mitsuru]]
+[s]Я уверен, что у вас много мыслей, но[n]сосредоточьтесь на предстоящих экзаменах.[n][w][e]
+##-[s]I'm sure you have a lot on your[n]mind, but concentrate on the exams[n]in front of you.[n][w][e]-##
+
+[msg MITURUS_ROOM_1110]
+[s]> Мицуру в своей комнате.[n][w][e]
+##-[s]> Mitsuru is in her room.[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> С ней все в порядке...?[n][w][e]
+##-[s]> Is she all right...?[n][w][e]-##
+
+[msg MITURUS_ROOM_1130]
+[s]> Мицуру, похоже, учится. Тебе не следует[n]ее беспокоить.[n][w][e]
+##-[s]> Mitsuru seems to be studying.[n]You shouldn't bother her.[n][w][e]-##
+
+[msg YUKARIS_ROOM]
+[s]> На табличке написано "Юкари".[n][w][e]
+##-[s]> The nameplate says "Yukari."[n][w][e]-##
+[s]> Юкари, похоже, нет в ее комнате...[n][w][e]
+##-[s]> Yukari doesn't seem to be in[n]her room...[n][w][e]-##
+
+[msg YUKARI_NOT_INTHEROOM]
+[s]> Юкари, похоже, нет в ее комнате...[n][w][e]
+##-[s]> Yukari doesn't seem to be in[n]her room...[n][w][e]-##
+
+[msg YUKARIS_ROOM_0505 [Yukari]]
+[s]О, прости.[n][w][e]
+##-[s]Oh, sorry.[n][w][e]-##
+[s]Я вообще не занимался в выходные, так что[n]сейчас я это делаю.[n][w][e]
+##-[s]I didn't study at all over the[n]weekend, so I'm getting it done[n]now.[n][w][e]-##
+[s]Может быть, в следующий раз?[n][w][e]
+##-[s]Maybe next time?[n][w][e]-##
+
+[msg YUKARIS_ROOM_0514_TO_051]
+[s]> Юкари, кажется, учится. Тебе не следует[n]ее беспокоить.[n][w][e]
+##-[s]> Yukari seems to be studying.[n]You shouldn't bother her.[n][w][e]-##
+
+[msg YUKARIS_ROOM_0711 [Yukari]]
+[s]Извините... Мне просто сейчас не хочется ни[n]с кем разговаривать...[n][w][e]
+##-[s]Sorry... I just don't feel like[n]talking to anyone right now...[n][w][e]-##
+[s]В любом случае... У меня есть домашнее[n]задание, так что...[n][w][e]
+##-[s]Anyway... I have homework, so...[n][w][e]-##
+
+[msg YUKARIS_ROOM_0712 [Yukari]]
+[s]Могу я задать вам вопрос?[n][w][e]
+##-[s]Can I ask you a question?[n][w][e]-##
+[s]Есть ли что-то, во что ты веришь, [f 4 2]- кун?[n][w][e]
+##-[s]Is there something you believe[n]in, [f 4 2]-kun?[n][w][e]-##
+[s]Что-то такое, даже когда все ужасно, и тебя[n]все предали...[n][w][e]
+##-[s]Something that, even when everything[n]is terrible, and you've been[n]betrayed by everyone...[n][w][e]-##
+[s]Есть ли что-то, во что ты все еще можешь[n]верить?[n][w][e]
+##-[s]Is there something you can still[n]believe in?[n][w][e]-##
+
+[msg YUKARIS_ROOM_0712_G [Yukari]]
+[s]Могу я задать вам вопрос?[n][w][e]
+##-[s]Can I ask you a question?[n][w][e]-##
+[s]Есть ли что-то, во что ты веришь, [f 4 2]?[n][w][e]
+##-[s]Is there something you believe[n]in, [f 4 2]?[n][w][e]-##
+[s]Что-то такое, даже когда все ужасно, и тебя[n]все предали...[n][w][e]
+##-[s]Something that, even when everything[n]is terrible, and you've been[n]betrayed by everyone...[n][w][e]-##
+[s]Есть ли что-то, во что ты все еще можешь[n]верить?[n][w][e]
+##-[s]Is there something you can still[n]believe in?[n][w][e]-##
+
+[sel YUKARIS_ROOM_0712_SEL top]
+[s]"конечно."[e]
+##-[s]"Of course."[e]-##
+[s]"Его нет".[e]
+##-[s]"There isn't."[e]-##
+[s]"Я не знаю".[e]
+##-[s]"I don't know."[e]-##
+
+[msg YUKARIS_ROOM_0712_RE_1 [Yukari]]
+[s]Ты очень сильный... Хотел бы я быть таким,[n]как ты.[n][w][e]
+##-[s]You're very strong... I wish[n]I was like you.[n][w][e]-##
+
+[msg YUKARIS_ROOM_0712_RE_2 [Yukari]]
+[s]Да... это трудно найти.[n][w][e]
+##-[s]Yeah... it's a hard thing to find.[n][w][e]-##
+
+[msg YUKARIS_ROOM_0712_RE_3 [Yukari]]
+[s]Ха-ха, извини...[n][w][e]
+##-[s]Haha, sorry...[n][w][e]-##
+[s]Ты никак не можешь ответить на такой[n]вопрос, да?[n][w][e]
+##-[s]There's no way you could answer[n]a question like that, huh?[n][w][e]-##
+
+[msg YUKARIS_ROOM_0713 [Yukari]]
+[s]Я извинился, но..... Я не уверен, что моя[n]точка зрения дошла до вас.[n][w][e]
+##-[s]I apologized, but... I'm not sure[n]my point got across.[n][w][e]-##
+[s]Похоже на то... Между нами эта стена.[n][w][e]
+##-[s]It seems like... There's this[n]wall between us.[n][w][e]-##
+[s]Есть ли во мне хоть какой-то смысл?.. Ну, а[n]теперь я пойду учиться...[n][w][e]
+##-[s]Am I making any sense...? Well, I'm[n]going to go study now...[n][w][e]-##
+
+[msg YUKARIS_ROOM_1105 [Yukari]]
+[s]Извините... Я хочу сейчас побыть одна...[n][w][e]
+##-[s]Sorry...[n]I want to be alone right now...[n][w][e]-##
+
+[msg HUKAS_ROOM_LASTWEEK]
+[s]> На табличке написано "Фуука".[n][w][e]
+##-[s]> The nameplate says "Fuuka."[n][w][e]-##
+[s]> Похоже, внутри никого нет...[n][w][e]
+##-[s]> There doesn't seem to be anyone[n]inside...[n][w][e]-##
+
+[msg HUKA_NOT_INTHEROOM]
+[s]> Фууки, похоже, нет в ее комнате...[n][w][e]
+##-[s]> Fuuka doesn't seem to be in[n]her room...[n][w][e]-##
+
+[msg FUUKA_ROOM_01]
+[s]> Фуука, похоже, учится. Тебе не следует ее[n]беспокоить.[n][w][e]
+##-[s]> Fuuka seems to be studying.[n]You shouldn't bother her.[n][w][e]-##
+
+[msg AEGIS_ROOM_LASTWEEK]
+[s]> На табличке написано "Айгис".[n][w][e]
+##-[s]> The nameplate says "Aigis."[n][w][e]-##
+[s]> Комната пуста...[n][w][e]
+##-[s]> The room is empty...[n][w][e]-##
+
+[msg AEGIS_NOT_INTHEROOM]
+[s]> Айгиса, похоже, нет в ее комнате...[n][w][e]
+##-[s]> Aigis doesn't seem to be in[n]her room...[n][w][e]-##
+
+[sel YESNO_SEL_2 top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[sel VENDOR_SEL top]
+[s]Туман Сиэло[e]
+##-[s]Cielo Mist[e]-##
+[s]СоБай[e]
+##-[s]SoBay[e]-##
+[s]Бешеный Бык[e]
+##-[s]Mad Bull[e]-##
+[s]Ничего не покупайте[e]
+##-[s]Don't buy anything[e]-##
+
+[sel TOILET_SEL top]
+[s]Иди в[e]
+##-[s]Go in[e]-##
+[s]Не заходи внутрь[e]
+##-[s]Don't go in[e]-##
+
+[sel BEDIN_SEL top]
+[s]Спать[e]
+##-[s]Sleep[e]-##
+[s]Не спи еще[e]
+##-[s]Don't sleep yet[e]-##
+
+[sel BEDIN2_SEL top]
+[s]Поспи немного[e]
+##-[s]Sleep for a while[e]-##
+[s]Не спи[e]
+##-[s]Don't sleep[e]-##
+
+[sel BEDIN3_SEL top]
+[s]Спи до темноты[e]
+##-[s]Sleep until dark[e]-##
+[s]Не спи[e]
+##-[s]Don't sleep[e]-##
+
+[sel DESK_SEL top]
+[s]Изучать[e]
+##-[s]Study[e]-##
+[s]Играйте в MMORPG[e]
+##-[s]Play the MMORPG[e]-##
+[s]Сделай что-нибудь еще[e]
+##-[s]Do something else[e]-##
+
+[sel DESK_SEL2 top]
+[s]Учиться до темноты[e]
+##-[s]Study until dark[e]-##
+[s]Играйте в MMORPG до темноты[e]
+##-[s]Play the MMORPG until dark[e]-##
+[s]Сделай что-нибудь еще[e]
+##-[s]Do something else[e]-##
+
+[sel DESK_STUDY_SEL top]
+[s]Проводите время за изучением[e]
+##-[s]Spend time studying[e]-##
+[s]Сделай что-нибудь еще[e]
+##-[s]Do something else[e]-##
+
+[sel DESK_STUDY_SEL2 top]
+[s]Учиться до темноты[e]
+##-[s]Study until dark[e]-##
+[s]Не учись[e]
+##-[s]Don't study[e]-##
+
+[sel DESK_COMMU_SEL top]
+[s]Изучать[e]
+##-[s]Study[e]-##
+[s]Играйте в MMORPG[e]
+##-[s]Play the MMORPG[e]-##
+[s]Проверьте рейтинг социальных ссылок[e]
+##-[s]Check Social Link rank[e]-##
+[s]Сделай что-нибудь еще[e]
+##-[s]Do something else[e]-##
+
+[sel DESK_COMMU_SEL2 top]
+[s]Учиться до темноты[e]
+##-[s]Study until dark[e]-##
+[s]Играйте в MMORPG до темноты[e]
+##-[s]Play the MMORPG until dark[e]-##
+[s]Проверьте рейтинг социальных ссылок[e]
+##-[s]Check Social Link rank[e]-##
+[s]Сделай что-нибудь еще[e]
+##-[s]Do something else[e]-##
+
+[sel GOOUT_SEL top]
+[s]Выйти[e]
+##-[s]Go out[e]-##
+[s]Не выходи на улицу[e]
+##-[s]Don't go out[e]-##
+
+[msg TOILET_MENS]
+[s]> Это мужской туалет.[n][w][e]
+##-[s]> It's the men's restroom.[n][w][e]-##
+
+[msg TOILET_OUT]
+[s]> Вы чувствуете себя отдохнувшим...[n][w][e]
+##-[s]> You feel refreshed...[n][w][e]-##
+
+[msg TOILET_NORMAL_TO_BEST]
+[s]> Ваше состояние стало"[clr 2]Отличный[clr 0]."[n][w][e]
+##-[s]> Your condition has become[n]"[clr 2]Great[clr 0]."[n][w][e]-##
+
+[msg TOILET_TIRED_TO_NORMAL]
+[s]> Ваше состояние стало"[clr 2]Хорошо[clr 0]."[n][w][e]
+##-[s]> Your condition has become[n]"[clr 2]Good[clr 0]."[n][w][e]-##
+
+[msg TOILET_COLD_TO_TIRED]
+[s]> Ваше состояние стало"[clr 2]Уставший[clr 0]."[n][w][e]
+##-[s]> Your condition has become[n]"[clr 2]Tired[clr 0]."[n][w][e]-##
+
+[msg TOILET_BEST]
+[s]> Ты прекрасно себя чувствуешь![n][w][e]
+##-[s]> You feel great![n][w][e]-##
+
+[msg TOILET_GOOD]
+[s]> Ты чувствуешь себя нормально.[n][w][e]
+##-[s]> You feel normal.[n][w][e]-##
+
+[msg TOILET_BAD]
+[s]> Ты не очень хорошо себя чувствуешь...[n][w][e]
+##-[s]> You don't feel so good...[n][w][e]-##
+
+[msg TOILET_WOMENS]
+[s]> Это женский туалет.[n][w][e]
+##-[s]> It's the women's restroom.[n][w][e]-##
+
+[msg TOILET_WOMENS_OUT]
+[s]> Ваши мысли блуждают, когда вы моете[n]руки...[n][w][e]
+##-[s]> Your mind wanders as you wash[n]your hands...[n][w][e]-##
+
+[msg TOIRE_TESTKIKAN]
+[s]> Вы помните, что у вас скоро экзамены.[n][w][e]
+##-[s]> You recall that you have exams coming[n]up soon.[n][w][e]-##
+[s]> Похоже, что Мицуру вознаградит тебя, если[n]ты хорошо справишься с ними...[n][w][e]
+##-[s]> It seems that Mitsuru will reward you[n]if you do well on them...[n][w][e]-##
+
+[msg TOIRE_TUUHAN]
+[s]> Вы помните, что есть телевизионная[n]программа покупок, которая показывается по[n]воскресеньям днем...[n][w][e]
+##-[s]> You recall that there's a TV shopping[n]program that shows on Sunday afternoons...[n][w][e]-##
+[s]> Какой продукт они могли бы предложить в[n]следующий раз...?[n][w][e]
+##-[s]> What product could they be offering[n]next...?[n][w][e]-##
+
+[msg TOIRE_UNDOUBU]
+[s]> Вы смутно припоминаете, что сегодня[n]собирается один из ваших клубов...[n][w][e]
+##-[s]> You vaguely recall that one of your[n]clubs meets today...[n][w][e]-##
+[s]> Что ты должен делать после школы...?[n][w][e]
+##-[s]> What should you do after school...?[n][w][e]-##
+
+[msg TOIRE_IINKAI]
+[s]> Вы смутно припоминаете, что сегодня[n]заседает ваш школьный комитет...[n][w][e]
+##-[s]> You vaguely recall that your school[n]committee meets today...[n][w][e]-##
+[s]> Что ты должен делать после школы...?[n][w][e]
+##-[s]> What should you do after school...?[n][w][e]-##
+
+[msg TOIRE_HIROU]
+[s]> Ваше тело чувствует усталость...[n][w][e]
+##-[s]> Your body feels tired...[n][w][e]-##
+[s]> Возможно, вы почувствуете себя лучше,[n]если ляжете спать пораньше или проведете[n]время в магазине, где сможете[n]расслабиться...[n][w][e]
+##-[s]> You might feel better if you go to[n]bed early or spend time in a store[n]where you can relax...[n][w][e]-##
+
+[msg TOIRE_GAKURYOKU]
+[s]> Вы чувствуете, что все еще могли бы быть[n]лучше в учебе...[n][w][e]
+##-[s]> You feel like you could still be[n]better academically...[n][w][e]-##
+[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши ученые не[n]достаточно высоки...[n][w][e]
+##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Academics are high enough...[n][w][e]-##
+[s]> Вы задаетесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
+##-[s]> You wonder if you should study more...[n][w][e]-##
+
+[msg TOIRE_MIRYOKU]
+[s]> Вы чувствуете, что все еще могли бы быть[n]более очаровательными, чем сейчас...[n][w][e]
+##-[s]> You feel like you could still be[n]more charming than you are now...[n][w][e]-##
+[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваше обаяние не[n]достаточно велико...[n][w][e]
+##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Charm is high enough...[n][w][e]-##
+[s]> Есть ли место, куда ты можешь пойти,[n]чтобы усилить свое очарование...?[n][w][e]
+##-[s]> Is there anywhere you can go to[n]increase your Charm...?[n][w][e]-##
+
+[msg TOIRE_YUUKI]
+[s]> Вы чувствуете, что все еще можете стать[n]более смелым...[n][w][e]
+##-[s]> You feel like you can still become[n]more courageous...[n][w][e]-##
+[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваша Смелость[n]недостаточно высока...[n][w][e]
+##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Courage is high enough...[n][w][e]-##
+[s]> Есть ли место, куда вы можете пойти,[n]чтобы повысить свою смелость...?[n][w][e]
+##-[s]> Is there anywhere you can go to[n]increase your Courage...?[n][w][e]-##
+
+[msg TOIRE_CARD]
+[s]> Вы помните, что оставили карточку навыка[n]в храме Наганаки...[n][w][e]
+##-[s]> You recall that you left a skill[n]card at Naganaki Shrine...[n][w][e]-##
+[s]> Когда он будет готов...?[n][w][e]
+##-[s]> When will it be ready...?[n][w][e]-##
+
+[msg TOIRE_ZEKKOU_DUNGEON]
+[s]> По какой-то причине вы, кажется, в[n]хорошем состоянии...[n][w][e]
+##-[s]> You seem to be in good condition[n]for some reason...[n][w][e]-##
+[s]> Вы чувствуете, что сможете сражаться[n]чудесно...[n][w][e]
+##-[s]> You feel that you'll be able to[n]fight wonderfully...[n][w][e]-##
+
+[msg TOIRE_IRAI]
+[s]> Вы задаетесь вопросом, есть ли какие-либо[n]просьбы, которые вы могли бы принять в[n]Бархатной комнате...[n][w][e]
+##-[s]> You wonder if there are any requests[n]you could accept in the Velvet Room...[n][w][e]-##
+
+[msg TOIRE_SISSOU]
+[s]> Вы помните, что в Тартаре кто-то заперт.[n][w][e]
+##-[s]> You recall that there's someone[n]trapped in Tartarus.[n][w][e]-##
+[s]> Вам нужно пойти и спасти их как можно[n]скорее...[n][w][e]
+##-[s]> You need to go rescue them as soon[n]as possible...[n][w][e]-##
+
+[msg TOIRE_NOMESSAGE]
+[s]> Что ты должен сделать сегодня...?[n][w][e]
+##-[s]> What should you do today...?[n][w][e]-##
+
+[msg VENDOR]
+[s]> Это торговый автомат.[n][w][e]
+##-[s]> It's a vending machine.[n][w][e]-##
+
+[msg VENDOR_BUY_OK]
+[s]> Купить что-нибудь выпить?[n][w][e]
+##-[s]> Buy something to drink?[n][w][e]-##
+
+[msg VENDOR_MONEY_IN]
+[s]> Вы вставили 120 иен.[n][w][e]
+##-[s]> You inserted 120 yen.[n][w][e]-##
+
+[msg VENDOR_BUY_END]
+[s]> Получено [f 2 5 3 13 0].[n][w][e]
+##-[s]> Obtained [f 2 5 3 13 0].[n][w][e]-##
+
+[msg VENDOR_NO_MONEY]
+[s]> У тебя недостаточно денег...[n][w][e]
+##-[s]> You don't have enough money...[n][w][e]-##
+
+[msg VENDOR_CANT_BUY]
+[s]> Ты больше не можешь сдерживаться[n][f 2 5 3 13 0].[n][w][e]
+##-[s]> You can't hold any more[n][f 2 5 3 13 0].[n][w][e]-##
+
+[msg BED_IN]
+[s]> Ты уже отдохнешь?[n][w][e]
+##-[s]> Will you rest already?[n][w][e]-##
+
+[msg BED_GOTO_SCHOOL]
+[s]> Пора идти в школу.[n][w][e]
+##-[s]> It's time to go to school.[n][w][e]-##
+
+[msg BED_IN_HOLIDAY]
+[s]> Поскольку сегодня выходной, не хотели бы[n]вы снова лечь спать?[n][w][e]
+##-[s]> Since it's a day off, would you[n]like to go back to sleep?[n][w][e]-##
+
+[msg BED_IN_HOLIDAY_YOTEI]
+[s]> У тебя что-то запланировано на[n]сегодняшний вечер.[n][w][e]
+##-[s]> You have something planned[n]tonight.[n][w][e]-##
+[s]> Ты будешь спать до тех пор?[n][w][e]
+##-[s]> Will you sleep until then?[n][w][e]-##
+
+[msg BED_IN_HOLIDAY_YOTEI2]
+[s]> Сегодня вечером у тебя очень важная[n]задача...[n][w][e]
+##-[s]> You have a very important task[n]tonight...[n][w][e]-##
+[s]> Ты будешь спать до тех пор?[n][w][e]
+##-[s]> Will you sleep until then?[n][w][e]-##
+
+[msg TUTORIAL_STUDY]
+[s]> Если вы будете учиться, ваша успеваемость[n]повысится.[n][w][e]
+##-[s]> If you study, your Academics[n]will increase.[n][w][e]-##
+[s]> Вы можете увеличить свои другие[n]характеристики, Обаяние и Смелость, делая[n]другие вещи.[n][w][e]
+##-[s]> You can increase your other stats,[n]Charm and Courage, by doing other[n]things.[n][w][e]-##
+
+[msg CHECK_DESK_FIRST]
+[s]Вы можете готовиться к занятиям за своим[n]рабочим столом. Как только вы закончите,[n]день закончится.[n][w][e]
+##-[s]You can study for your classes at[n]your desk. Once you're finished,[n]the day will end.[n][w][e]-##
+[s]Учеба повышает вашу успеваемость. С[n]высокими академическими знаниями вы,[n]возможно, сможете познакомиться с кем-то[n]новым.[n][w][e]
+##-[s]Studying increases your Academics.[n]With high Academics, you may be[n]able to meet someone new.[n][w][e]-##
+
+[msg NOT_STUDY]
+[s]> Стол выпрямлен.[n][w][e]
+##-[s]> The desk is straightened.[n][w][e]-##
+
+[msg GAKURYOKU_MAX_NG]
+[s]> Ты не думаешь, что можешь стать умнее,[n]чем ты есть...[n][w][e]
+##-[s]> You don't think you can get any[n]smarter than you are...[n][w][e]-##
+
+[msg CHECK_DESK]
+[s]> Чем ты будешь заниматься остаток дня?[n][w][e]
+##-[s]> What will you do for the rest of[n]the day?[n][w][e]-##
+
+[msg CHECK_DESK_YOTEI]
+[s]> У тебя что-то запланировано на[n]сегодняшний вечер.[n][w][e]
+##-[s]> You have something planned[n]tonight.[n][w][e]-##
+[s]> Ты будешь учиться до тех пор?[n][w][e]
+##-[s]> Will you study until then?[n][w][e]-##
+
+[msg CHECK_DESK_YOTEI2]
+[s]> Сегодня вечером у тебя очень важная[n]задача...[n][w][e]
+##-[s]> You have a very important task[n]tonight...[n][w][e]-##
+[s]> Ты будешь учиться до тех пор?[n][w][e]
+##-[s]> Will you study until then?[n][w][e]-##
+
+[msg NOT_WORK]
+[s]> Вам следует сделать небольшой перерыв.[n][w][e]
+##-[s]> You should take a short break.[n][w][e]-##
+
+[msg NET_COMMU_FIRST]
+[s]> Подключение к Интернету, похоже,[n]восстановлено.[n][w][e]
+##-[s]> The internet connection seems to[n]be back up.[n][w][e]-##
+[s]> Теперь вы можете играть в игру, которую[n]вам дал Дзюнпэй.[n][w][e]
+##-[s]> You can now play the game that[n]Junpei gave you.[n][w][e]-##
+
+[msg ZOKUSEI_KAKUNIN]
+[s]> [f 2 4 1] Рейтинг социальных ссылок [clr 2][f 2 4 4][clr 0].[n][w][e]
+##-[s]> [f 2 4 1] Social Link[n]rank [clr 2][f 2 4 4][clr 0].[n][w][e]-##
+[s]> Аркана - это [f 2 4 2].[n][f 2 4 3][w][e]
+##-[s]> The Arcana is [f 2 4 2].[n][f 2 4 3][w][e]-##
+[s]> Вы можете видеть силу[n][f 2 4 2] Личность...[n][w][e]
+##-[s]> You can see the powers of the[n][f 2 4 2] Persona...[n][w][e]-##
+
+[msg PER_KOE]
+[s][f 2 4 1], Уровень [f 2 4 0][n]  Доступные навыки:   [f 2 4 2][n]  [f 2 4 3][n]  [f 2 4 4][n][w][e]
+##-[s][f 2 4 1], Level [f 2 4 0][n] [n]Available skills:[n]  [f 2 4 2][n]  [f 2 4 3][n]  [f 2 4 4][n][w][e]-##
+
+[msg ZOKUSEI_NOTYET]
+[s]> Похоже, что дальнейшая сила скрыта...[n][w][e]
+##-[s]> It seems further power lies hidden...[n][w][e]-##
+
+[msg ZOKUSEI_NOMORE]
+[s]> Дополнительное питание недоступно.[n][w][e]
+##-[s]> No further power is available.[n][w][e]-##
+
+[msg MSG_DOUZOKUSEI [ ]]
+[s][f 4 7 0 0 0]> Так как у вас есть [f 2 4 2][n]Персона,"[clr 1][f 2 4 5][clr 0]", вы могли бы стать еще ближе...[n][w][e]
+##-[s][f 4 7 0 0 0]> Since you have the [f 2 4 2][n]Persona, "[clr 1][f 2 4 5][clr 0]", you might[n]be able to become even closer...[n][w][e]-##
+
+[msg NET_COMMU_SASOI]
+[s]> Клиент обмена сообщениями мигает.[n][w][e]
+##-[s]> The messaging client is flashing.[n][w][e]-##
+[s]> Похоже, "Майя" хочет поиграть с тобой в[n]Невинный грех онлайн.[n][w][e]
+##-[s]> It looks like "Maya" wants to play[n]Innocent Sin Online with you.[n][w][e]-##
+
+[msg NET_COMMU_SASOI_NASI]
+[s]> Майя может быть в сети в этот час...[n][w][e]
+##-[s]> Maya might be online at[n]this hour...[n][w][e]-##
+
+[msg NET_COMMU_START_01]
+[s][f 5 13 0 10 0]> Вы решили провести день, играя в[n]онлайн-игры.[n][w][e]
+##-[s][f 5 13 0 10 0]> You decide to spend the day playing[n]games online.[n][w][e]-##
+
+[msg TV_TUUHAN_TUTORIAL]
+[s]Шоу домашних покупок выходит в эфир каждое[n]воскресенье. Вы можете купить все, что[n]увидите по телевизору.[n][w][e]
+##-[s]The home shopping show airs every[n]Sunday. You can buy whatever you[n]see on TV.[n][w][e]-##
+
+[msg TV_GOTO_SCHOOL]
+[s]> Пора идти в школу.[n][w][e]
+##-[s]> It's time to go to school.[n][w][e]-##
+
+[msg TV_NONE]
+[s]> Там нет ничего хорошего.[n][w][e]
+##-[s]> There's nothing good on.[n][w][e]-##
+
+[msg TV_TUUHAN_KOKUTI]
+[s]> Ты включил телевизор.[n][w][e]
+##-[s]> You turned on the TV.[n][w][e]-##
+[s]> Из динамиков доносится раздражающе[n]запоминающаяся песня...[n][w][e]
+##-[s]> An irritatingly catchy song[n]comes from the speakers...[n][w][e]-##
+[s][f 1 5]Певцы[n]Вот идет Танакааааа По радиоволнам к тебе[n]ууууу[n][w][e]
+##-[s][f 1 5]Singers[n]Here comes Tanakaaaaa[n]Over the airwaves to youuuuu[n][w][e]-##
+[s][f 1 5] [n]> Очевидно, что выставка домашних покупок[n]вот-вот начнется.[n][w][e]
+##-[s][f 1 5] [n]> The home shopping show is[n]evidently about to start.[n][w][e]-##
+
+[msg TV_TUUHAN_SPECIAL]
+[s]> Сегодня понедельник, но, похоже, из-за[n]летних каникул идет специальная программа.[n][w][e]
+##-[s]> Today is Monday, but a special[n]program seems to be on because of[n]summer vacation.[n][w][e]-##
+
+[msg TV_MIRU]
+[s]> Вы решили посмотреть телевизор.[n][w][e]
+##-[s]> You decided to watch TV.[n][w][e]-##
+[s]> ......?[n][w][e]
+##-[s]> ......?[n][w][e]-##
+
+[msg TV_TUUHAN_JANUARY [TV Tanaka]]
+[s][bup 37 162 0 2]Сегодняшний пункт iiiiiiss...![n][w][e]
+##-[s][bup 37 162 0 2]Today's item iiiiiss...![n][w][e]-##
+[s]Без этого ты не будешь в безопасности![n]Четыре "Значка спасения" - по одному на[n]каждого члена семьи![n][w][e]
+##-[s]You won't be safe without this![n]Four "Salvation Badges"--one for[n]every member of the household![n][w][e]-##
+[s]Но подождите![n][w][e]
+##-[s]But wait![n][w][e]-##
+[s]Мы также предоставим набор из четырех[n]"Рюкзаков, защищенных от стихийных[n]бедствий"! Итак, сколько бы вы заплатили?[n][w][e]
+##-[s]We'll also provide a set of four[n]"Disaster-Proof Backpacks"! Now,[n]how much would you pay?[n][w][e]-##
+[s]Вы можете быть удивлены, узнав, что это[n]всего 29 800 иен! Ждите апокалипсиса без[n]забот![n][w][e]
+##-[s]You may be surprised to learn that[n]it's only 29,800 yen! Await the[n]apocalypse with no worries![n][w][e]-##
+[s]Ох... Что это такое? Я слышу печальные[n]голоса! Я слышу, как телефоны разрываются[n]от звонков![n][w][e]
+##-[s]Ohh... What's this? I'm hearing[n]sad voices! I'm hearing the phones[n]ringing off the hook![n][w][e]-##
+[s]Мы уже полностью распроданы! Сто процентов![n]Извините, ребята, но когда он исчезнет, он[n]исчезнет![n][w][e]
+##-[s]We're already completely sold out![n]One hundred percent! Sorry folks,[n]but when it's gone, it's gone![n][w][e]-##
+[s]Увидимся в следующее воскресенье, в то же[n]время, на том же канале![n][w][e]
+##-[s]We'll see you next Sunday,[n]same time, same channel![n][w][e]-##
+[s][f 4 7 37 10 2][f 1 5] [n]> Начинает играть ужасно запоминающаяся[n]песня...[n][w][e]
+##-[s][f 4 7 37 10 2][f 1 5] [n]> The hideously catchy song[n]begins to play...[n][w][e]-##
+[s][f 1 5]Певцы[n]Вот идет Танакааааа По радиоволнам к тебе[n]ууууу[n][w][e]
+##-[s][f 1 5]Singers[n]Here comes Tanakaaaaa[n]Over the airwaves to youuuuu[n][w][e]-##
+[s][f 1 5] [n]> Программа покупок закончена...[n][w][e]
+##-[s][f 1 5] [n]> The shopping program is over...[n][w][e]-##
+[s]> Ты выключил телевизор.[n][w][e]
+##-[s]> You turned off the TV.[n][w][e]-##
+
+[msg TV_TUUHAN_KAISI [Presenter]]
+[s][bup 37 162 0 2]Всем привет! Добро пожаловать на выставку[n]домашних покупок "Удивительные товары[n]Танаки"![n][w][e]
+##-[s][bup 37 162 0 2]Hello, everyone! Welcome to[n]the home shopping show,[n]"Tanaka's Amazing Commodities"![n][w][e]-##
+[s][f 1 5]Певцы[n][f 4 7 37 10 2]Исполнитель ваших желаний![n][w][e]
+##-[s][f 1 5]Singers[n][f 4 7 37 10 2]Granter of your desires![n][w][e]-##
+[s][bup 37 162 0 2][f 1 5]ТВ Танака[n]Я ваш ведущий, Танака, с живой презентацией[n]моих Удивительных товаров![n][w][e]
+##-[s][bup 37 162 0 2][f 1 5]TV Tanaka[n]I'm your host, Tanaka, with a[n]live presentation of my Amazing[n]Commodities![n][w][e]-##
+[s]Мы покажем вам отличные товары по[n]непревзойденным ценам! О, ты не сможешь[n]прикоснуться к этому циферблату![n][w][e]
+##-[s]We'll show you great items at[n]unbeatable prices! Ooh, you won't[n]be able to touch that dial![n][w][e]-##
+
+[msg TV_TUUHAN_SYOUKAI [TV Tanaka]]
+[s][bup 37 162 0 2]Давайте представим наш предмет дня![n][w][e]
+##-[s][bup 37 162 0 2]Let's bring out our item of the day![n][w][e]-##
+[s]Это ииииис... [f 2 5 3 65535 14]![n][f 2 4 10][w][e]
+##-[s]It iiiiis... [f 2 5 3 65535 14]![n][f 2 4 10][w][e]-##
+[s]О боже мой! Я не могу поверить в его[n]чудесность![n][w][e]
+##-[s]Oh my goodness! I can't believe[n]its wonderfulness![n][w][e]-##
+[s]Но подождите, это еще не все![n][w][e]
+##-[s]But wait, there's more![n][w][e]-##
+[s]Мы бросим в [f 2 4 3] [f 2 5 3 65535 15][n]только для [f 2 4 8] иена![n][w][e]
+##-[s]We'll throw in [f 2 4 3] [f 2 5 3 65535 15][n]for only [f 2 4 8] yen![n][w][e]-##
+
+[msg TV_TUUHAN_TOIKAKE]
+[s]> Похоже, они продают[n][f 2 5 3 65535 14] набор для[n][f 2 4 8] иена.[n][w][e]
+##-[s]> It seems they're selling a[n][f 2 5 3 65535 14] set for[n][f 2 4 8] yen.[n][w][e]-##
+[s]> У вас есть [f 2 4 20] иена. Будете ли вы покупать[n]его для [f 2 4 8] иена?[n][w][e]
+##-[s]> You have [f 2 4 20] yen.[n]Will you purchase it for [f 2 4 8] yen?[n][w][e]-##
+
+[msg TV_TUUHAN_KOUNYU]
+[s]> Вы купили [f 2 5 3 65535 14][n]для [f 2 4 8] иена.[n][w][e]
+##-[s]> You bought [f 2 5 3 65535 14][n]for [f 2 4 8] yen.[n][w][e]-##
+
+[msg TV_TUUHAN_TARINAI]
+[s]> У тебя не было достаточно денег...[n][w][e]
+##-[s]> You didn't have enough money...[n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_NOMAL [TV Tanaka]]
+[s][bup 37 162 0 2]Вот и все на сегодня! У нас все будет[n]распродано! Извините, ребята![n][w][e]
+##-[s][bup 37 162 0 2]That's it for today! We're allll sold out![n]Sorry, folks![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_0503 [TV Tanaka]]
+[s][bup 37 162 0 2]В следующий раз мы привезем вам набор из[n]двух редких карточек, которые ваши дети[n]будут умирать от желания заполучить![n][w][e]
+##-[s][bup 37 162 0 2]Next time, we'll bring you a set of two[n]rare cards that your kids'll be dying[n]to own![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_0524 [TV Tanaka]]
+[s][bup 37 162 0 2]В следующий раз у нас будет предмет ручной[n]работы ремесленников, который обязательно[n]должен быть у любого из вас, косплееров![n][w][e]
+##-[s][bup 37 162 0 2]Next time, we'll have an item handcrafted[n]by artisans that's a must-have for any[n]of you cosplayers out there![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_0607 [TV Tanaka]]
+[s][bup 37 162 0 2]В следующий раз мы предложим что-нибудь для[n]дам вместе с драгоценными камнями, и все[n]это по низкой цене![n][w][e]
+##-[s][bup 37 162 0 2]Next time, we'll be offering something[n]for the ladies along with some gems,[n]all for a low price![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_0628 [TV Tanaka]]
+[s][bup 37 162 0 2]В следующий раз мы принесем вам что-нибудь[n]таинственное, найденное в святилище, вместе[n]с чудесным энергетическим напитком![n][w][e]
+##-[s][bup 37 162 0 2]Next time, we'll bring you something[n]mysterious found at a shrine, along[n]with a miraculous energy drink![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_0712 [TV Tanaka]]
+[s][bup 37 162 0 2]В следующий раз у нас будет стильная и[n]эффектная японская одежда, идеально[n]подходящая для этого сезона![n][w][e]
+##-[s][bup 37 162 0 2]Next time, we'll have some stylish and[n]dashing Japanese attire perfect for[n]the season![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_0823 [TV Tanaka]]
+[s][bup 37 162 0 2]В следующий раз у нас будет небольшое[n]количество напитков из секретного[n]источника, которые подарят вам незабываемые[n]впечатления раз в жизни![n][w][e]
+##-[s][bup 37 162 0 2]Next time, we'll have a small number of[n]drinks from a classified source that'll[n]give you a once-in-a-lifetime experience![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_1011 [TV Tanaka]]
+[s][bup 37 162 0 2]В следующий раз мы выпустим несколько[n]ценных драгоценных камней по очень[n]специальной цене! Вы не захотите пропустить[n]это![n][w][e]
+##-[s][bup 37 162 0 2]Next time, we'll be releasing some[n]valuable gems at a very special[n]price! You won't want to miss it![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_1108 [TV Tanaka]]
+[s][bup 37 162 0 2]В течение следующих двух недель мы будем[n]предлагать несколько редких открыток![n]Убедитесь, что вы готовы к сделкам![n][w][e]
+##-[s][bup 37 162 0 2]For the next two weeks, we'll be[n]offering some rare cards! Make[n]sure you're ready for bargains![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_1213 [TV Tanaka]]
+[s][bup 37 162 0 2]В следующий раз мы будем продавать[n]ограниченное количество супер-редких и[n]специальных карт![n][w][e]
+##-[s][bup 37 162 0 2]Next time, we'll be selling a limited[n]quantity of a super-rare and special[n]card![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO_1220 [TV Tanaka]]
+[s][bup 37 162 0 2]На нашем следующем шоу у нас будет большое[n]количество красивых драгоценных камней,[n]доступных в нашей распродаже в конце года![n][w][e]
+##-[s][bup 37 162 0 2]On our next show, we'll have a large[n]quantity of beautiful gems available in[n]our end-of-the-year blowout sale![n][w][e]-##
+
+[msg TV_TUUHAN_SYURYO [TV Tanaka]]
+[s][bup 37 162 0 2]Увидимся в следующее воскресенье, в то же[n]время, на том же канале![n][w][e]
+##-[s][bup 37 162 0 2]See you next Sunday, same time,[n]same channel![n][w][e]-##
+[s][f 4 7 37 10 2][f 1 5] [n]> Запоминающаяся песня начинается снова...[n][w][e]
+##-[s][f 4 7 37 10 2][f 1 5] [n]> The catchy song starts up again...[n][w][e]-##
+[s][f 1 5]Певцы[n]Вот идет Танакааааа По радиоволнам к тебе[n]ууууу[n][w][e]
+##-[s][f 1 5]Singers[n]Here comes Tanakaaaaa[n]Over the airwaves to youuuuu[n][w][e]-##
+[s][f 1 5] [n]> Программа покупок закончена...[n][w][e]
+##-[s][f 1 5] [n]> The shopping program is over...[n][w][e]-##
+[s]> Ты выключил телевизор.[n][w][e]
+##-[s]> You turned off the TV.[n][w][e]-##
+
+[msg TV_NEWS_1]
+[s]> Новости идут...[n][w][e]
+##-[s]> The news is on...[n][w][e]-##
+[s][f 1 5]Диктор новостей[n]...а теперь наша особая особенность.[n][w][e]
+##-[s][f 1 5]Newscaster[n]...and now, our special feature.[n][w][e]-##
+[s]Мы рассмотрим болезнь, которая пришла из[n]общества с высоким уровнем стресса.[n][w][e]
+##-[s]We'll be taking a look at the[n]disease that's come from a high-[n]stress society.[n][w][e]-##
+[s]Болезнь, называемая "Синдромом апатии",[n]особенно распространена среди студентов и[n]служащих.[n][w][e]
+##-[s]The sickness, called "Apathy[n]Syndrome," is especially high[n]among students and salarymen.[n][w][e]-##
+[s]Болезнь имеет тенденцию поражать без[n]предупреждения, поздно ночью.[n][w][e]
+##-[s]The disease tends to strike[n]without warning, late at night.[n][w][e]-##
+[s]Жертвы не могут добраться до своих школ или[n]офисов, и их семьи обеспокоены.[n][w][e]
+##-[s]The victims are unable to make it[n]to their schools or offices, and[n]their families are worried.[n][w][e]-##
+[s][f 1 5] [n]> Отчет продолжается...[n][w][e]
+##-[s][f 1 5] [n]> The report continues...[n][w][e]-##
+
+[msg TV_NEWS_2]
+[s]> Новости идут. [n][w][e]
+##-[s]> The news is on. [n][w][e]-##
+[s][f 1 5]Диктор новостей[n]...Наша следующая история посвящена[n]проблеме, возникшей недалеко от дома.[n][w][e]
+##-[s][f 1 5]Newscaster[n]...Our next story is on a problem[n]hitting close to home.[n][w][e]-##
+[s]Монорельс - знакомое зрелище, и каждый[n]когда-нибудь ездит на нем.[n][w][e]
+##-[s]The monorail is a familiar sight,[n]and everyone rides it sometime.[n][w][e]-##
+[s]Но в последнее время систему преследуют[n]таинственные проблемы.[n][w][e]
+##-[s]But lately, the system has been[n]plagued by mysterious troubles.[n][w][e]-##
+[s]Вагоны поезда миновали конечную станцию[n]системы, что вызвало бесконечную головную[n]боль у властей.[n][w][e]
+##-[s]The train cars were past the[n]system's terminus, causing no end[n]of headache for the authorities.[n][w][e]-##
+[s][f 1 5] [n]> Отчет продолжается...[n][w][e]
+##-[s][f 1 5] [n]> The report continues...[n][w][e]-##
+
+[msg STOP_GO_OUT_YUKARI [Yukari]]
+[s][bup 2 1 65535 0]Тебе нельзя выходить, так как уже прошел[n]комендантский час.[n][w][e]
+##-[s][bup 2 1 65535 0]You're not allowed to go out,[n]since it's past curfew.[n][w][e]-##
+
+[msg STOP_GO_OUT_MITSURU [Mitsuru]]
+[s][bup 4 1 65535 0]Мы не можем позволить вам выходить на улицу[n]после наступления темноты.[n][w][e]
+##-[s][bup 4 1 65535 0]We cannot allow you to go out[n]after dark.[n][w][e]-##
+[s]Извини, но правила есть правила.[n][w][e]
+##-[s]Sorry, but rules are rules.[n][w][e]-##
+
+[msg STOP_GO_OUT]
+[s]> Вам не разрешается выходить на улицу в[n]ночное время.[n][w][e]
+##-[s]> You aren't allowed to go outside[n]at nighttime.[n][w][e]-##
+
+[msg STOP_GO_OUT_MITSURU_0419 [Mitsuru]]
+[s][bup 4 1 65535 0]Ты закончила свою домашнюю работу?[n][w][e]
+##-[s][bup 4 1 65535 0]Have you finished your homework?[n][w][e]-##
+
+[msg STORM_COMING]
+[s]> На улице идет дождь...[n][w][e]
+##-[s]> It's raining outside...[n][w][e]-##
+
+[msg STORM_COMING_JUNPEI [Junpei]]
+[s][bup 5 1 65535 0]Эй! Как ты думаешь, куда ты направляешься?[n][w][e]
+##-[s][bup 5 1 65535 0]Hey! Where do you think you're[n]going?[n][w][e]-##
+[s]Забудь об этом! Ты простудишься, чувак.[n][w][e]
+##-[s]Forget about it! You're gonna[n]catch a cold, dude.[n][w][e]-##
+
+[msg STOP_GOOD_0303]
+[s]> Несмотря на то, что все, что ты делал,[n]это ходил в школу, ты чувствуешь себя[n]вялым...[n][w][e]
+##-[s]> Even though all you did was go to[n]school, you feel lethargic...[n][w][e]-##
+[s]> Тебе следует сегодня лечь спать пораньше.[n][w][e]
+##-[s]> You should go to sleep early tonight.[n][w][e]-##
+
+[msg STOP_BAD_0303]
+[s]> Похоже, остальные еще не вернулись.[n][w][e]
+##-[s]> It doesn't seem like the others have[n]returned yet.[n][w][e]-##
+[s]> Похоже, будет лучше, если ты воздержишься[n]от выхода сегодня вечером.[n][w][e]
+##-[s]> It seems it would be best if you[n]refrained from going out tonight.[n][w][e]-##
+
+[msg STOP_GOOD_0304]
+[s]> ...Вы чувствуете усталость.[n][w][e]
+##-[s]> ...You are feeling tired.[n][w][e]-##
+[s]> Тебе следует отдохнуть...[n][w][e]
+##-[s]> You should rest...[n][w][e]-##
+
+[msg STOP_BAD_0304]
+[s]> Завтра Выпускной день.[n][w][e]
+##-[s]> Tomorrow is Graduation Day.[n][w][e]-##
+[s]> Было бы лучше, если бы ты сегодня легла[n]спать пораньше.[n][w][e]
+##-[s]> It would be best if you went to bed[n]early today.[n][w][e]-##
+
+[msg GO_OUT_OK]
+[s]> Ты выйдешь на улицу до темноты?[n][w][e]
+##-[s]> Will you go out until dark?[n][w][e]-##
+
+[msg GO_OUT_OK_HELP]
+[s]Если вы выйдете на улицу, то, когда[n]вернетесь в общежитие, наступит ночь.[n][w][e]
+##-[s]If you go outside, when you come[n]back to the dorm, it will become[n]nighttime.[n][w][e]-##
+
+[msg STOP_INTO_MYROOM_2]
+[s]> Вам сказали прийти сегодня на 4-й этаж...[n][w][e]
+##-[s]> You were told to come to the[n]4th floor today...[n][w][e]-##
+
+[msg FIRST_DAY]
+[s]> Ты сегодня устал...[n][w][e]
+##-[s]> You are tired today...[n][w][e]-##
+[s]> Тебе следует лечь спать пораньше...[n][w][e]
+##-[s]> You should go to bed early...[n][w][e]-##
+
+[msg NIGHT_BED]
+[s]> Рано ложиться спать?[n][w][e]
+##-[s]> Go to bed early?[n][w][e]-##
+
+[sel DORMITORY_SHOTCUTSEL top]
+[s]1F, Гостиная[e]
+##-[s]1F, Lounge[e]-##
+[s]2F, Прихожая[e]
+##-[s]2F, Hallway[e]-##
+[s]3F, Прихожая[e]
+##-[s]3F, Hallway[e]-##
+[s]4F, Прихожая[e]
+##-[s]4F, Hallway[e]-##
+[s]Командная комната[e]
+##-[s]Command Room[e]-##
+[s]Твоя Комната[e]
+##-[s]Your Room[e]-##
+[s]Кровать[e]
+##-[s]Bed[e]-##
+[s]Карта города[e]
+##-[s]Town Map[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg FLD_ORDER]
+[s]Куда ты хочешь пойти?[n][w][e]
+##-[s]Where do you want to go?[n][w][e]-##
+
+[msg STOP_INTO_MYROOM_LAST_DA_2]
+[s]> Ты должен отправиться в Тартар...[n][w][e]
+##-[s]> You must go to Tartarus...[n][w][e]-##
+

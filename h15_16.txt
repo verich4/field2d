@@ -1,0 +1,76 @@
+[sel GO_SEL top]
+[s]Приступать[e]
+##-[s]Proceed[e]-##
+[s]Остаться[e]
+##-[s]Stay[e]-##
+
+[sel BATTLE_SEL top]
+[s]"Я готов".[e]
+##-[s]"I'm ready."[e]-##
+[s]"Еще нет".[e]
+##-[s]"Not yet."[e]-##
+
+[sel BATTLE_SEL_G top]
+[s]"Я готов!"[e]
+##-[s]"I'm ready!"[e]-##
+[s]"Одну минуту".[e]
+##-[s]"Just a minute."[e]-##
+
+[sel RETURN_SEL top]
+[s]Возвращать[e]
+##-[s]Return[e]-##
+[s]Остаться[e]
+##-[s]Stay[e]-##
+
+[msg VS_LEADER_BATTLE_OK [Fuuka]]
+[s][bup 6 203 0 0]Вы готовы?[n][w][e]
+##-[s][bup 6 203 0 0]Are you ready?[n][w][e]-##
+
+[msg ESCAPE_HUKA_LAST_FLORR [Fuuka]]
+[s][bup 6 204 0 0]Ты не хочешь пока вернуться ко входу?[n][w][e]
+##-[s][bup 6 204 0 0]Do you want to go back to the entrance[n]for now?[n][w][e]-##
+
+[msg UPSTAIR_MITSURU_DEAD_AND [Mitsuru]]
+[s]Один или несколько членов вашей партии в[n]настоящее время не могут продолжить.[n][w][e]
+##-[s]One or more of your party members are[n]currently unable to proceed.[n][w][e]-##
+[s]Ты пойдешь дальше без них?[n][w][e]
+##-[s]Will you go on without them?[n][w][e]-##
+
+[msg UPSTAIR_MITSURU_NOW_BATT [Mitsuru]]
+[s]Один или несколько членов вашей партии все[n]еще сражаются. Будете ли вы продолжать без[n]них?[n][w][e]
+##-[s]One or more of your party members are[n]still fighting. Will you proceed[n]without them?[n][w][e]-##
+
+[msg UPSTAIR_MITSURU_DEAD [Mitsuru]]
+[s]Один или несколько членов вашей партии[n]находятся без сознания. Будете ли вы[n]продолжать без них?[n][w][e]
+##-[s]One or more of your party members are[n]unconscious. Will you proceed without[n]them?[n][w][e]-##
+
+[msg UPSTAIR_MITSURU_LEAVE_ME [Mitsuru]]
+[s]Очень хорошо. Я прослежу, чтобы они[n]благополучно добрались до входа.[n][w][e]
+##-[s]Very well. I'll see that they make[n]it safely back to the entrance.[n][w][e]-##
+[s]Поскольку вы не в полной силе, будьте[n]исключительно осторожны.[n][w][e]
+##-[s]Since you are not at full strength,[n]be exceptionally cautious.[n][w][e]-##
+
+[msg UPSTAIR_HUKA_DEAD_AND_BA [Fuuka]]
+[s]Один или несколько членов вашей команды в[n]данный момент не могут продолжать работу...[n][w][e]
+##-[s]One or more of your team members[n]aren't able to go on at the moment...[n][w][e]-##
+[s]Будете ли вы продолжать без них?[n][w][e]
+##-[s]Will you continue without them?[n][w][e]-##
+
+[msg UPSTAIR_HUKA_NOW_BATTLE [Fuuka]]
+[s]Один или несколько членов вашей команды все[n]еще сражаются. Будете ли вы продолжать без[n]них?[n][w][e]
+##-[s]One or more of your team members are[n]still fighting. Will you continue[n]without them?[n][w][e]-##
+
+[msg UPSTAIR_HUKA_DEAD [Fuuka]]
+[s]Один или несколько членов вашей команды[n]находятся без сознания. Будете ли вы[n]продолжать без них?[n][w][e]
+##-[s]One or more of your team members are[n]unconscious. Will you continue[n]without them?[n][w][e]-##
+
+[msg UPSTAIR_HUKA_LEAVE_MEMBE [Fuuka]]
+[s]Ладно, удачи тебе![n][w][e]
+##-[s]Okay, good luck![n][w][e]-##
+[s]Я прослежу, чтобы они вернулись сюда в[n]целости и сохранности![n][w][e]
+##-[s]I'll make sure they get back here[n]safely![n][w][e]-##
+
+[msg DONOTUSE_MESSAGE]
+[s]Пйメッセージк謁гХ。 亥ёБГж。[n][w][e]
+##-[s]Пйメッセージк謁гХ。[n]亥わёБよГж。[n][w][e]-##
+

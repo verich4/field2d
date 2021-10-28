@@ -1,0 +1,28 @@
+[msg MSG_1N_NPC000_01 [Male Student]]
+[s]Я специально зарезервировал этот матрас.[n]Этот угол - самый лучший...[n][w][e]
+##-[s]I reserved this mattress specially.[n]This corner is the best one...[n][w][e]-##
+
+[msg MSG_1N_NPC001_01 [Male Student]]
+[s]Хммм? На мне моя юката прямо...?[n][w][e]
+##-[s]Hmmm? Do I have my yukata on[n]straight...?[n][w][e]-##
+[s]Это кажется неправильным...[n][w][e]
+##-[s]It doesn't seem right...[n][w][e]-##
+
+[msg MSG_1N_NPC002_01 [Male Student]]
+[s]Ого, я и не знал, что в Киото тоже[n]транслировали это шоу.[n][w][e]
+##-[s]Whoa, I didn't know they aired[n]this show in Kyoto, too.[n][w][e]-##
+[s]Дома он выходит в эфир по воскресеньям[n]днем... У меня такое чувство, будто я[n]смотрю другую программу.[n][w][e]
+##-[s]Back home, it airs on Sunday[n]afternoons... I feel like I'm[n]watching a different program.[n][w][e]-##
+
+[msg MSG_2N_NPC000_01 [Male Student]]
+[s]Когда я проснулся сегодня утром, все мое[n]лицо было в каракулях...[n][w][e]
+##-[s]There were doodles all over my face[n]when I woke up this morning...[n][w][e]-##
+[s]Чернилами на масляной основе! Это жалко![n][w][e]
+##-[s]In oil-based ink! This is pathetic![n][w][e]-##
+[s]Я отомщу, даже если мне придется не спать[n]всю ночь...[n][w][e]
+##-[s]I'll get my revenge if I have to[n]stay up all night...[n][w][e]-##
+
+[msg MSG_2N_NPC002_01 [Male Student]]
+[s]Ты заглянул в сувенирную лавку внизу? 6ХАРА[n]- довольно странное название для этого![n][w][e]
+##-[s]Did you check out the souvenir shop[n]downstairs? 6HARA is a pretty weird[n]name for it![n][w][e]-##
+

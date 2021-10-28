@@ -1,0 +1,302 @@
+[msg DAIMAP_TEST]
+[s]医マップ芽竃Ув蒲橿гЙщХ。 еПу厩ЙщХЗ?[n][w][e]
+##-[s]医マップを芽竃Ув蒲橿гЙщХ。[n]еПу厩ЙщХЗ?[n][w][e]-##
+
+[sel DAIMAP_SEL_TEST top]
+[s]衣叶椛葛釜[e]
+##-[s]衣叶椛葛釜[e]-##
+[s]ポロニアンモール[e]
+##-[s]ポロニアンモール[e]-##
+[s]ポートアイランド影[e]
+##-[s]ポートアイランド影[e]-##
+[s]営栢界叡[e]
+##-[s]営栢界叡[e]-##
+[s]葛臆学[e]
+##-[s]葛臆学[e]-##
+
+[sel BOSS_SEL top]
+[s]"Готов".[e]
+##-[s]"Ready."[e]-##
+[s]"Подожди".[e]
+##-[s]"Hold on."[e]-##
+
+[sel BOSS_SEL_G top]
+[s]"Готов!"[e]
+##-[s]"Ready!"[e]-##
+[s]"Подожди секунду".[e]
+##-[s]"Wait a sec."[e]-##
+
+[sel TAKOYAKI_SEL top]
+[s]Купить[e]
+##-[s]Buy[e]-##
+[s]Не покупайте[e]
+##-[s]Don't buy[e]-##
+
+[msg OUT_STOP [Mitsuru]]
+[s][bup 4 201 0 0]Нам лучше уйти до того, как закончится[n]Темный час.[n][w][e]
+##-[s][bup 4 201 0 0]We better go before the Dark Hour[n]ends.[n][w][e]-##
+[s]Наша цель находится перед станцией.[n]Поторопись и приготовься.[n][w][e]
+##-[s]Our target is in front of the station.[n]Hurry up and get ready.[n][w][e]-##
+
+[msg GOTO_STATION [Fuuka]]
+[s][bup 6 201 0 0]Вы готовы?[n][w][e]
+##-[s][bup 6 201 0 0]Are you ready?[n][w][e]-##
+
+[msg HUKA_LETS_GO [Fuuka]]
+[s][bup 6 201 0 0]Пожалуйста, будь осторожен.[n][w][e]
+##-[s][bup 6 201 0 0]Please be careful.[n][w][e]-##
+
+[msg STATION_STOP [Fuuka]]
+[s][bup 6 201 0 0]Вам нужно больше людей в вашей партии...[n]Это серьезно.[n][w][e]
+##-[s][bup 6 201 0 0]You need more people in your party...[n]This is serious.[n][w][e]-##
+
+[msg SHOP_STOP_YUKARI [Yukari]]
+[s][bup 2 201 0 0]Что ты делаешь?[n][w][e]
+##-[s][bup 2 201 0 0]What are you doing?[n][w][e]-##
+[s]Давайте начнем.[n][w][e]
+##-[s]Let's get going.[n][w][e]-##
+
+[msg SHOP_STOP_AEGIS [Aigis]]
+[s][bup 3 201 0 0]У нас нет времени, чтобы тратить его[n]впустую.[n][w][e]
+##-[s][bup 3 201 0 0]We do not have time to waste.[n][w][e]-##
+[s]Пожалуйста, закончите приготовления.[n][w][e]
+##-[s]Please finish making preparations.[n][w][e]-##
+
+[msg SHOP_STOP_JUNPEI [Junpei]]
+[s][bup 5 201 0 0]Чувак, поторопись![n][w][e]
+##-[s][bup 5 201 0 0]Dude, hurry up![n][w][e]-##
+
+[sel SHOP_SHOTCUTSEL top]
+[s]Станция Иватодай[e]
+##-[s]Iwatodai Station[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg FLD_ORDER]
+[s]Куда ты пойдешь?[n][w][e]
+##-[s]Where will you go?[n][w][e]-##
+
+[msg DONOTUSE_MESSAGE]
+[s]Пйメッセージк謁гХ。 亥ёБГж。[n][w][e]
+##-[s]Пйメッセージк謁гХ。[n]亥わёБよГж。[n][w][e]-##
+
+[sel YESNO_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[sel HURUHON_COMMU_SEL top]
+[s]Войдите в книжный магазин[e]
+##-[s]Enter the bookstore[e]-##
+[s]Проверьте рейтинг социальных ссылок[e]
+##-[s]Check Social Link rank[e]-##
+[s]Ничего не делать[e]
+##-[s]Do nothing[e]-##
+
+[msg JIKANTUBUSI_TUTO]
+[s]Вы можете скоротать время в различных[n]магазинах по всему городу.[n][w][e]
+##-[s]You can pass time in the various shops[n]around town.[n][w][e]-##
+[s]Многие магазины повысят ваше Обаяние,[n]Смелость или Академичность. Если они[n]достаточно высоки, вы можете познакомиться[n]с новыми людьми.[n][w][e]
+##-[s]Many shops will raise your Charm,[n]Courage, or Academics. If they are[n]high enough, you may meet new people.[n][w][e]-##
+
+[msg MONEY_TARINAI]
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> У тебя недостаточно денег.[n][w][e]
+##-[s]> You don't have enough money.[n][w][e]-##
+
+[msg RYOU_KAERU]
+[s]> Уже поздно.[n][w][e]
+##-[s]> It's getting late.[n][w][e]-##
+[s]> Вы решаете вернуться в общежитие.[n][w][e]
+##-[s]> You decide to go back to the dorm.[n][w][e]-##
+
+[msg YUUKI_MAX_NG]
+[s]> Вам не нужно увеличивать свою смелость.[n][w][e]
+##-[s]> You don't need to increase your[n]Courage.[n][w][e]-##
+
+[msg GAKURYOKU_MAX_NG]
+[s]> Вам не нужно повышать свой академический[n]уровень.[n][w][e]
+##-[s]> You don't need to increase your[n]Academics.[n][w][e]-##
+
+[msg MIRYOKU_MAX_NG]
+[s]> Тебе не нужно увеличивать свое обаяние.[n][w][e]
+##-[s]> You don't need to increase your[n]Charm.[n][w][e]-##
+
+[msg KANMI_SETUMEI]
+[s]> Кондитерский магазин...[n][w][e]
+##-[s]> Sweet Shop...[n][w][e]-##
+[s]> Сладкий аромат доносится из-за двери.[n][w][e]
+##-[s]> A sweet scent is drifting out the[n]door.[n][w][e]-##
+
+[msg BURGER_ANNOUNCE]
+[s]> Бургер с дикой уткой...[n][w][e]
+##-[s]> Wild-duck Burger...[n][w][e]-##
+
+[msg BURGER_HAIRU [Menu]]
+[s]"Таинственный бургер - 500 иен"[n][w][e]
+##-[s]"Mystery Burger - 500 yen"[n][w][e]-##
+[s]"Ингредиенты - это секрет!"[n][w][e]
+##-[s]"The ingredients are a secret!"[n][w][e]-##
+[s][f 1 5] [n]> Тебе нужно немного мужества, чтобы поесть[n]здесь.[n][w][e]
+##-[s][f 1 5] [n]> You need a little bit of Courage to[n]eat here.[n][w][e]-##
+
+[msg BURGER_HAIRU02]
+[s]> Ты останешься здесь, пока не стемнеет?[n][w][e]
+##-[s]> Will you stay here until it gets[n]dark?[n][w][e]-##
+
+[msg BURGER_TEIKYU]
+[s]> Сейчас здесь слишком многолюдно.[n][w][e]
+##-[s]> It's too crowded right now.[n][w][e]-##
+
+[msg BURGER_TUTO]
+[s]Вы можете повысить свою смелость здесь,[n]попробовав новый таинственный бургер.[n][w][e]
+##-[s]You can increase your Courage here by[n]trying the new mystery burger.[n][w][e]-##
+
+[msg WASHOKU_ANNOUNCE]
+[s]> Ресторан Вакацу...[n][w][e]
+##-[s]> Wakatsu Restaurant...[n][w][e]-##
+
+[msg WASHOKU_HAIRU [Menu]]
+[s]"Блюдо для вундеркиндов - 680 иен"[n][w][e]
+##-[s]"Prodigy Platter - 680 yen"[n][w][e]-##
+[s]"Становись умнее, пока перевариваешь!"[n][w][e]
+##-[s]"Get smarter while you digest!"[n][w][e]-##
+
+[msg WASHOKU_HAIRU02]
+[s]> Ты останешься здесь, пока не стемнеет?[n][w][e]
+##-[s]> Will you stay here until it gets[n]dark?[n][w][e]-##
+
+[msg WASHOKU_TEIKYU]
+[s]> Сейчас здесь слишком многолюдно.[n][w][e]
+##-[s]> It's too crowded right now.[n][w][e]-##
+
+[msg WASHOKU_TUTO]
+[s]Вы можете повысить свою успеваемость здесь,[n]съев блюдо с Вундеркиндами.[n][w][e]
+##-[s]You can increase your Academics here[n]by eating the Prodigy Platter.[n][w][e]-##
+
+[msg RAMEN_ANNOUNCE]
+[s]> Магазин рамэна "Хагакурэ"...[n][w][e]
+##-[s]> Ramen shop "Hagakure"...[n][w][e]-##
+
+[msg RAMEN_HAIRU [Menu]]
+[s]"Свинина - 900 иен"[n][w][e]
+##-[s]"Pork - 900 yen"[n][w][e]-##
+[s]"Коллаген сделает вашу кожу красивой!"[n][w][e]
+##-[s]"The collagen will make your skin[n]beautiful!"[n][w][e]-##
+
+[msg RAMEN_HAIRU02]
+[s]> Ты останешься здесь, пока не стемнеет?[n][w][e]
+##-[s]> Will you stay here until it gets[n]dark?[n][w][e]-##
+
+[msg RAMEN_TEIKYU]
+[s]> Сейчас здесь слишком многолюдно.[n][w][e]
+##-[s]> It's too crowded right now.[n][w][e]-##
+
+[msg RAMEN_TUTO]
+[s]Вы можете усилить свое очарование, съев[n]здесь рамен из свинины и соевого соуса.[n][w][e]
+##-[s]You can increase your Charm by eating[n]the pork and soy-sauce ramen here.[n][w][e]-##
+
+[msg MANGA_SETUMEI]
+[s]> Заказывайте Дальше...[n][w][e]
+##-[s]> Book On...[n][w][e]-##
+[s]> Манга сложена до потолка.[n][w][e]
+##-[s]> Manga are stacked up to the ceiling.[n][w][e]-##
+
+[msg GYUDON_SETUMEI]
+[s]> Магазин мясных миск...[n][w][e]
+##-[s]> Beef Bowl Shop...[n][w][e]-##
+[s]> Сейчас здесь слишком многолюдно.[n][w][e]
+##-[s]> It's too crowded right now.[n][w][e]-##
+
+[msg SCR_MSG_HURUHON_HAIRU]
+[s]> Книжные Черви Использовали Книги...[n][w][e]
+##-[s]> Bookworms Used Books...[n][w][e]-##
+
+[msg MSG_DOUZOKUSEI [ ]]
+[s][f 4 7 0 0 0]> Так как у вас есть [clr 1][f 2 4 2][clr 0][n]Персона"[f 2 4 5]"вы трое могли бы хорошо поладить.[n][w][e]
+##-[s][f 4 7 0 0 0]> Since you have the [clr 1][f 2 4 2][clr 0][n]Persona “[f 2 4 5]",[n]you three might get along well.[n][w][e]-##
+
+[msg SCR_MSG_HURUHON_02 [ ]]
+[s]> Не хотели бы вы провести некоторое время[n]после школы в книжном магазине?[n][w][e]
+##-[s]> Would you like to spend some time[n]after school at the bookstore?[n][w][e]-##
+
+[msg SCR_MSG_HURUHON_03 [ ]]
+[s]> Не хотели бы вы провести свой обед в[n]книжном магазине?[n][w][e]
+##-[s]> Would you like to spend your lunch[n]at the bookstore?[n][w][e]-##
+
+[msg SCR_MSG_HURUHON_SURU]
+[s][f 5 13 0 10 0]> Вы решаете провести некоторое время после[n]школы в книжном магазине.[n][w][e]
+##-[s][f 5 13 0 10 0]> You decide to spend some time after[n]school at the bookstore.[n][w][e]-##
+
+[msg SCR_MSG_HURUHON_SURU_02]
+[s][f 5 13 0 10 0]> Вы решаете пообедать в книжном магазине.[n][w][e]
+##-[s][f 5 13 0 10 0]> You decide to spend lunch at the[n]bookstore.[n][w][e]-##
+
+[msg SCR_MSG_HURUHON_NG]
+[s]> Книжные Черви Использовали Книги...[n][w][e]
+##-[s]> Bookworms Used Books...[n][w][e]-##
+[s]> Магазин сегодня закрыт.[n][w][e]
+##-[s]> The store is closed today.[n][w][e]-##
+
+[msg SCR_MSG_ENDING_NG]
+[s]> Книжные Черви Использовали Книги...[n][w][e]
+##-[s]> Bookworms Used Books...[n][w][e]-##
+[s]> Магазин сегодня закрыт.[n][w][e]
+##-[s]> The store is closed today.[n][w][e]-##
+
+[msg SCR_MSG_HURUHON_1ST_AFTE]
+[s]> Они упомянули дерево хурмы в средней[n]школе Геккукана.[n][w][e]
+##-[s]> They mentioned a persimmon tree at[n]Gekkoukan High School.[n][w][e]-##
+[s]> Вы решаете следить за этим.[n][w][e]
+##-[s]> You decide to keep an eye out for[n]it.[n][w][e]-##
+
+[msg SCR_MSG_HURUHON_1ST]
+[s]> Не хотите ли зайти внутрь?[n][w][e]
+##-[s]> Would you like to go inside?[n][w][e]-##
+
+[msg ZOKUSEI_KAKUNIN]
+[s]> [f 2 4 1] Социальная связь, ранг [clr 2][f 2 4 4][clr 0].[n][w][e]
+##-[s]> [f 2 4 1] Social Link,[n]rank [clr 2][f 2 4 4][clr 0].[n][w][e]-##
+[s]> Аркана - это [f 2 4 2].[n][f 2 4 3][w][e]
+##-[s]> The Arcana is [f 2 4 2].[n][f 2 4 3][w][e]-##
+[s]> Вы способны увидеть силу мудрости и[n]опыта, связанных с [f 2 4 2] Тайна...[n][w][e]
+##-[s]> You are able to see the power[n]of wisdom and expertise, associated[n]with the [f 2 4 2] Arcana...[n][w][e]-##
+
+[msg SCR_MSG_PER_KOE]
+[s] [f 2 4 1], Уровень [f 2 4 0][n]   Доступные навыки:   [f 2 4 2][n]  [f 2 4 3][n]  [f 2 4 4][n][w][e]
+##-[s] [f 2 4 1], Level [f 2 4 0][n] [n] Available skills:[n]  [f 2 4 2][n]  [f 2 4 3][n]  [f 2 4 4][n][w][e]-##
+
+[msg ZOKUSEI_NOTYET]
+[s]> Похоже, что дальнейшая сила скрыта...[n][w][e]
+##-[s]> It seems further power lies hidden...[n][w][e]-##
+
+[msg ZOKUSEI_NOMORE]
+[s]> Дополнительное питание недоступно.[n][w][e]
+##-[s]> No further power is available.[n][w][e]-##
+
+[msg HURUHON_SISSOU_SAFE]
+[s]> Старик в магазине, кажется, чувствует[n]себя хорошо...[n][w][e]
+##-[s]> The old man inside the store seems[n]to be doing well...[n][w][e]-##
+[s]> Ты рад, что смог спасти его...[n][w][e]
+##-[s]> You're glad that you were able to[n]rescue him...[n][w][e]-##
+
+[msg HURUHON_SISSOU_SAFE_NOCO]
+[s]> Старик энергично болтает со старухой[n]внутри магазина...[n][w][e]
+##-[s]> The old man is chatting energetically[n]with an old woman inside the store...[n][w][e]-##
+[s]> ...Похоже, этот старик был тем, кого ты[n]спас из Тартара...[n][w][e]
+##-[s]> ...It seems this old man was the[n]one you rescued from Tartarus...[n][w][e]-##
+[s]> Ты рад, что смог спасти его...[n][w][e]
+##-[s]> You're glad that you were able to[n]rescue him...[n][w][e]-##
+
+[msg HURUHON_SISSOU_NG]
+[s]> Книжные Черви Использовали Книги...[n][w][e]
+##-[s]> Bookworms Used Books...[n][w][e]-##
+[s]> Внутри магазина тихо...[n][w][e]
+##-[s]> The inside of the store is quiet...[n][w][e]-##
+
+[msg TEST_END_TOOLEVENT [テスト]]
+[s]>ツールイベント寄Яв感ж鰯。[n][w][e]
+##-[s]>ツールイベント寄わЯв感ж鰯る。[n][w][e]-##
+

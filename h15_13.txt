@@ -1,0 +1,34 @@
+[sel BATTLE_SEL top]
+[s]"Готов".[e]
+##-[s]"Ready."[e]-##
+[s]"Подожди".[e]
+##-[s]"Hold on."[e]-##
+
+[sel BATTLE_SEL_G top]
+[s]"Готов!"[e]
+##-[s]"Ready!"[e]-##
+[s]"Одну минуту".[e]
+##-[s]"Just a minute."[e]-##
+
+[sel RETURN_SEL top]
+[s]Возвращать[e]
+##-[s]Return[e]-##
+[s]Остаться[e]
+##-[s]Stay[e]-##
+
+[msg VS_LEADER_BATTLE_OK [Fuuka]]
+[s][bup 6 203 0 0]Вы готовы?[n][w][e]
+##-[s][bup 6 203 0 0]Are you ready?[n][w][e]-##
+
+[msg NOT_ENOUGH [Fuuka]]
+[s][bup 6 203 0 0]Опасно пробовать это с таким небольшим[n]количеством людей![n][w][e]
+##-[s][bup 6 203 0 0]It's dangerous to try it with so[n]few people![n][w][e]-##
+
+[msg ESCAPE_HUKA_LAST_FLORR [Fuuka]]
+[s][bup 6 204 0 0]Ты не хочешь пока вернуться ко входу?[n][w][e]
+##-[s][bup 6 204 0 0]Do you want to go back to the entrance[n]for now?[n][w][e]-##
+
+[msg DONOTUSE_MESSAGE]
+[s]Пйメッセージк謁гХ。 亥ёБГж。[n][w][e]
+##-[s]Пйメッセージк謁гХ。[n]亥わёБよГж。[n][w][e]-##
+

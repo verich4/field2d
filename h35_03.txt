@@ -1,0 +1,22 @@
+[msg DUNGE_HUUKA_B1FNOTFULL [Fuuka]]
+[s][bup 6 201 0 0]Слишком опасно идти без большой вечеринки![n][w][e]
+##-[s][bup 6 201 0 0]It's too dangerous to go without a[n]bigger party![n][w][e]-##
+
+[msg DUNGE_TOBIRA_HAZIKI]
+[s]> Похоже, ты в ловушке.[n][w][e]
+##-[s]> You seem to be trapped.[n][w][e]-##
+[s]> Двери слишком тяжелые, чтобы их можно[n]было открыть.[n][w][e]
+##-[s]> The doors are too heavy to open.[n][w][e]-##
+
+[sel UNDERGROUND_SHOTCUTSEL top]
+[s]Подземный[e]
+##-[s]Underground[e]-##
+[s]Металлические Двери[e]
+##-[s]Metal Doors[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg FLD_ORDER]
+[s]Куда ты хочешь пойти?[n][w][e]
+##-[s]Where do you want to go?[n][w][e]-##
+

@@ -1,0 +1,248 @@
+[msg MSG_7A_NPC000_01 [Male Student]]
+[s]Чувак, эта девчонка все время ходит за мной[n]по пятам.[n][w][e]
+##-[s]Dude, that girl keeps following[n]me around.[n][w][e]-##
+[s]Она на самом деле довольно симпатичная, да?[n][w][e]
+##-[s]She's actually pretty cute, huh?[n][w][e]-##
+
+[msg MSG_7A_NPC001_01 [Female Student]]
+[s]Фу! Ты это видел?![n][w][e]
+##-[s]Eww! Did you see that!?[n][w][e]-##
+[s]Вон тот парень только что поковырял в носу.[n][w][e]
+##-[s]That guy over there just picked[n]his nose.[n][w][e]-##
+[s]Валовой...[n][w][e]
+##-[s]Gross...[n][w][e]-##
+
+[msg MSG_12B_NPC000_01 [Male Student]]
+[s]О, боже...[n][w][e]
+##-[s]Oh, man...[n][w][e]-##
+[s]Первое, что я делаю, когда прихожу в школу,[n]- это ищу ее...[n][w][e]
+##-[s]The first thing I do when I get to[n]school is look for her...[n][w][e]-##
+[s]Потом, когда я наконец нахожу ее, у меня в[n]животе порхают бабочки...[n][w][e]
+##-[s]Then, when I finally find her,[n]I get butterflies in my stomach...[n][w][e]-##
+[s]Что мне делать?.. Что я должен сделать...?[n][w][e]
+##-[s]What should I do...?[n]What should I doooo...?[n][w][e]-##
+
+[msg MSG_12B_NPC001_01 [Female Student]]
+[s]Вон тот парень... Разве он не забавно себя[n]ведет?[n][w][e]
+##-[s]That guy there... Isn't he[n]acting funny?[n][w][e]-##
+
+[sel MSG_12B_NPC001_01_SEL top]
+[s]"Да, он такой".[e]
+##-[s]"Yeah, he is."[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[sel MSG_12B_NPC001_01_SEL_G top]
+[s]"Не просто смешно, но и странно".[e]
+##-[s]"Not just funny, but weird, too."[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[msg MSG_12B_NPC001_02 [Female Student]]
+[s]Да... Мне показалось, что он двигается[n]как-то странно...[n][w][e]
+##-[s]Yeah... I thought he was[n]moving kind of funny...[n][w][e]-##
+
+[msg MSG_12B_NPC001_02_G [Female Student]]
+[s]Что?! Тоже странно!? Теперь, когда вы[n]упомянули об этом...[n][w][e]
+##-[s]What!? Weird, too!?[n]Now that you mention it...[n][w][e]-##
+[s]Тьфу... Чем больше я на него смотрю, тем[n]жутче он становится...[n][w][e]
+##-[s]Ugh... The more I look at him, the[n]creepier he gets...[n][w][e]-##
+
+[msg MSG_12B_NPC001_03 [Female Student]]
+[s]Действительно? Ну, если вы спросите меня,[n]он ведет себя довольно странно...[n][w][e]
+##-[s]Really? Well, if you ask me,[n]he's being kinda strange...[n][w][e]-##
+
+[msg MSG_1A_NPC000_01 [Male Student]]
+[s]Тьфу! Я больше не могу этого выносить![n][w][e]
+##-[s]Argh! I can't take this anymore![n][w][e]-##
+[s]Я собираюсь пригласить ее на свидание![n][w][e]
+##-[s]I'm going to ask her out![n][w][e]-##
+[s]Не волнуйся, я знаю, что она скажет "да"! Я[n]имею в виду, она была той, кто следил за[n]мной с самого начала![n][w][e]
+##-[s]Don't worry, I know she'll say yes![n]I mean, she was the one following me[n]around in the first place![n][w][e]-##
+[s]Я собираюсь сделать ее своей![n][w][e]
+##-[s]I'm going to make her mine![n][w][e]-##
+
+[msg MSG_1A_NPC001_01 [Female Student]]
+[s]Ой-ой... Этот парень пялится на меня...[n][w][e]
+##-[s]Uh-oh... That guy's staring at me...[n][w][e]-##
+[s]Надеюсь, он не собирается приглашать меня[n]на свидание...[n][w][e]
+##-[s]I hope he's not going to ask me[n]out...[n][w][e]-##
+
+[msg MSG_1B_NPC000_01 [Male Student]]
+[s]Ну, я пригласил ее на свидание, чувак...[n][w][e]
+##-[s]Well, I asked her out, dude...[n][w][e]-##
+[s]...и она полностью отвергла меня! Она[n]сказала, что я ей не нравлюсь![n][w][e]
+##-[s]...and she totally rejected me![n]She said she didn't like me![n][w][e]-##
+[s]Черт возьми! Я не могу в это поверить...[n][w][e]
+##-[s]Dammit! I can't believe this...[n][w][e]-##
+[s]Это ОНА ходила за МНОЙ по пятам![n][w][e]
+##-[s]SHE was the one following ME around![n][w][e]-##
+[s]Тьфу... Я чувствую себя так, словно у меня[n]вырвали сердце из груди...[n][w][e]
+##-[s]Ugh... I feel like I got my heart[n]torn out of my chest...[n][w][e]-##
+
+[msg MSG_1B_NPC001_01 [Female Student]]
+[s]Тебе действительно нужно быть осторожной с[n]теми, с кем ты встречаешься в наши дни...[n][w][e]
+##-[s]You really have to be careful who[n]you date nowadays...[n][w][e]-##
+[s]Они говорят, что любовь слепа, но...[n][w][e]
+##-[s]They say love is blind, but...[n][w][e]-##
+[s]Я ни за что не смогла бы встречаться с[n]таким парнем.[n][w][e]
+##-[s]There's no way I could ever date[n]a guy like THAT.[n][w][e]-##
+
+[msg MSG_5A_NPC002_01 [Male Student]]
+[s]Все, кого я знаю, состоят в клубе, но...[n][w][e]
+##-[s]Everyone I know is in a club,[n]but...[n][w][e]-##
+[s]...Я просто не могу побеспокоиться о том,[n]чтобы присоединиться к одному из них.[n][w][e]
+##-[s]...I just can't be bothered to[n]join one.[n][w][e]-##
+[s]Все они говорят, что у меня будет много[n]друзей и все такое, но...[n][w][e]
+##-[s]They all say I'll make a lot of[n]friends and all that, but...[n][w][e]-##
+[s]...Я говорю все, что угодно. Я буду делать[n]то, что хочу.[n][w][e]
+##-[s]...I say whatever. I'm gonna do[n]what I wanna do.[n][w][e]-##
+
+[msg MSG_5A_NPC002_01_G [Male Student]]
+[s]Все, кого я знаю, состоят в клубе, но...[n][w][e]
+##-[s]Everyone I know is in a club,[n]but...[n][w][e]-##
+[s]...Я просто не могу побеспокоиться о том,[n]чтобы присоединиться к одному из них.[n][w][e]
+##-[s]...I just can't be bothered to[n]join one.[n][w][e]-##
+[s]Все они говорят, что у меня будет много[n]друзей и все такое, но...[n][w][e]
+##-[s]They all say I'll make a lot of[n]friends and all that, but...[n][w][e]-##
+[s]...Я говорю все, что угодно. Я буду делать[n]то, что хочу.[n][w][e]
+##-[s]...I say whatever. I'm gonna do[n]what I wanna do.[n][w][e]-##
+
+[msg MSG_6A_NPC002_01 [Male Student]]
+[s]Я не могу понять, почему люди сходят с ума[n]из-за этих историй о привидениях...[n][w][e]
+##-[s]I can't understand why people[n]are freaking out over those[n]ghost stories...[n][w][e]-##
+[s]Я имею в виду, бегать по школе с криками и[n]распространять слухи...[n][w][e]
+##-[s]I mean, running around school[n]screaming and spreading rumors...[n][w][e]-##
+[s]Им всем нужно просто повзрослеть.[n][w][e]
+##-[s]They all need to just grow up.[n][w][e]-##
+
+[msg MSG_6A_NPC002_01_G [Male Student]]
+[s]Я не могу понять, почему люди сходят с ума[n]из-за этих историй о привидениях...[n][w][e]
+##-[s]I can't understand why people[n]are freaking out over those[n]ghost stories...[n][w][e]-##
+[s]Я имею в виду, бегать по школе с криками и[n]распространять слухи...[n][w][e]
+##-[s]I mean, running around school[n]screaming and spreading rumors...[n][w][e]-##
+[s]Им всем нужно просто повзрослеть.[n][w][e]
+##-[s]They all need to just grow up.[n][w][e]-##
+
+[msg MSG_7B_NPC002_01 [Male Student]]
+[s]Уже почти летние каникулы...[n][w][e]
+##-[s]It's almost summer vacation...[n][w][e]-##
+[s]Я любил летние каникулы, когда был[n]ребенком...[n][w][e]
+##-[s]I used to love summer vacation when[n]I was a kid...[n][w][e]-##
+[s]Но теперь это все равно, что угодно. Я[n]просто больше не волнуюсь по этому поводу.[n][w][e]
+##-[s]But, now it's like, whatever.[n]I just don't get excited about it[n]anymore.[n][w][e]-##
+
+[msg MSG_9B_NPC002_01 [Male Student]]
+[s]Фестиваль культуры, чувак, Фестиваль[n]культуры...[n][w][e]
+##-[s]Culture Fest, dude, Culture Fest...[n][w][e]-##
+[s]Все просто обожают Фестиваль культуры![n][w][e]
+##-[s]Everyone just loooves Culture Fest![n][w][e]-##
+[s]Но только не я, чувак. Я думаю, что это[n]пустая трата времени.[n][w][e]
+##-[s]But, not me, dude. I think it's[n]a waste of time.[n][w][e]-##
+[s]На самом деле, я надеюсь, что будет тайфун,[n]так что им придется его отменить...[n][w][e]
+##-[s]In fact, I'm hoping there's a typhoon[n]so they'll have to cancel it...[n][w][e]-##
+[s]...Может быть, это немного чересчур, а?[n][w][e]
+##-[s]...Maybe that's a bit much, huh?[n][w][e]-##
+
+[msg MSG_10A_NPC002_01 [Male Student]]
+[s]Ч-Что?! Я не сделал ничего плохого![n][w][e]
+##-[s]Wh-What!? I haven't done anything[n]wrong![n][w][e]-##
+
+[msg MSG_10A_NPC002_01_G [Male Student]]
+[s]Ч-Что?! Я не сделал ничего плохого![n][w][e]
+##-[s]Wh-What!? I haven't done anything[n]wrong![n][w][e]-##
+
+[sel MSG_10A_NPC002_01_SEL top]
+[s]"О чем ты говоришь?"[e]
+##-[s]"What are you talking about?"[e]-##
+[s]"Я думаю, что нет".[e]
+##-[s]"I guess not."[e]-##
+[s]"Это все твоя вина".[e]
+##-[s]"It's all your fault."[e]-##
+
+[sel MSG_10A_NPC002_01_SEL_G top]
+[s]"О чем ты говоришь?"[e]
+##-[s]"What are you talking about?"[e]-##
+[s]"Я думаю, что нет".[e]
+##-[s]"I guess not."[e]-##
+[s]"Это был ТЫ!"[e]
+##-[s]"It was YOU!"[e]-##
+
+[msg MSG_10A_NPC002_02 [Male Student]]
+[s]А? Так ты здесь не из-за... этого?[n][w][e]
+##-[s]Huh? So you're not here[n]about... that?[n][w][e]-##
+[s]Фу... Не пугай меня так.[n][w][e]
+##-[s]Phew... Don't scare me that way.[n][w][e]-##
+
+[msg MSG_10A_NPC002_02_G [Male Student]]
+[s]А? Так ты здесь не из-за... этого?[n][w][e]
+##-[s]Huh? So you're not here[n]about... that?[n][w][e]-##
+[s]Фу... Не пугай меня так.[n][w][e]
+##-[s]Phew... Don't scare me that way.[n][w][e]-##
+
+[msg MSG_10A_NPC002_03 [Male Student]]
+[s]Да, именно так. Никто не должен знать.[n][w][e]
+##-[s]Yeah, that's right.[n]No one has to know.[n][w][e]-##
+
+[msg MSG_10A_NPC002_04 [Male Student]]
+[s]Д-Да... Я хотел, чтобы тайфун обрушился[n]сюда![n][w][e]
+##-[s]Y-Yeah... I wished for the typhoon[n]to hit here![n][w][e]-##
+[s]Я даже вешал кукол вуду вверх ногами, с[n]множеством иголок, воткнутых в их головы![n][w][e]
+##-[s]I even hung voodoo dolls upside[n]down, with lots of needles stuck[n]in their heads![n][w][e]-##
+[s]Но я не думал, что тайфун действительно[n]придет! Это был несчастный случай![n][w][e]
+##-[s]But I didn't think the typhoon would[n]really come! It was an accident![n][w][e]-##
+[s]Это не моя вина![n][w][e]
+##-[s]It's not my fault![n][w][e]-##
+
+[msg MSG_11B_NPC002_01 [Male Student]]
+[s]Чувак, Кириджо-сану приходится нелегко...[n][w][e]
+##-[s]Man, Kirijo-san has it rough...[n][w][e]-##
+[s]Сначала умирает ее отец...[n][w][e]
+##-[s]First, her dad dies...[n][w][e]-##
+[s]Затем она должна пойти на встречу,[n]посвященную будущему Группы Кириджо...[n][w][e]
+##-[s]Then, she has to go to[n]a meeting about the future[n]of the Kirijo Group...[n][w][e]-##
+[s]Хотел бы я быть таким же. ...Ах, кого я[n]пытаюсь обмануть? Мне нравится быть[n]ленивым.[n][w][e]
+##-[s]I wish I could be like that.[n]...Ah, who am I trying to kid?[n]I like being lazy.[n][w][e]-##
+
+[msg MSG_12A_NPC002_01 [Male Student]]
+[s]Чувак, в чем дело с Карьерным опытом?[n][w][e]
+##-[s]Dude, what's the deal with[n]Career Experience?[n][w][e]-##
+[s]Они заставляли меня таскать картонные[n]коробки весь день...[n][w][e]
+##-[s]They made me carry cardboard boxes[n]around all day...[n][w][e]-##
+[s]Мои руки, черт возьми, убивают меня.[n][w][e]
+##-[s]My arms are friggin' killing me.[n][w][e]-##
+
+[msg MSG_1B_NPC002_01 [Male Student]]
+[s]Ммм... Мне так скучно... Мне не хочется[n]ничего делать.[n][w][e]
+##-[s]Mmm... I'm so bored...[n]I don't feel like doing anything.[n][w][e]-##
+
+[sel MSG_1B_NPC002_01_SEL top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"Ни за что".[e]
+##-[s]"No way."[e]-##
+
+[sel MSG_1B_NPC002_01_SEL_G top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"Ни за что".[e]
+##-[s]"No way."[e]-##
+
+[msg MSG_1B_NPC002_02 [Male Student]]
+[s]Ты ведь понимаешь, что я имею в виду,[n]верно?[n][w][e]
+##-[s]You know what I mean, right?[n][w][e]-##
+[s]Как будто сейчас все это огромная трата[n]времени... Я думаю, что мир должен просто[n]закончиться.[n][w][e]
+##-[s]It's like everything is this huge[n]waste of time now... I think the[n]world should just end.[n][w][e]-##
+
+[msg MSG_1B_NPC002_03 [Male Student]]
+[s]Чувак, ты крепкий орешек... Как ты это[n]делаешь...?[n][w][e]
+##-[s]Man, you're tough...[n]How do you do it...?[n][w][e]-##
+
+[msg MSG_10A_NPC003_01 [Male Student]]
+[s]Я бы хотел, чтобы Фестиваль культуры не был[n]отменен...[n][w][e]
+##-[s]I wish Culture Fest hadn't been[n]cancelled...[n][w][e]-##
+[s]Для меня это был бы отличный шанс[n]познакомиться с девушками из другой[n]школы...[n][w][e]
+##-[s]It would've been a great chance[n]for me to meet some girls from[n]a different school...[n][w][e]-##
+[s]*вздох* Мне даже больше не хочется жить.[n][w][e]
+##-[s]*sigh* I don't even feel like[n]living anymore.[n][w][e]-##
+

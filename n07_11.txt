@@ -1,0 +1,4 @@
+[msg msg01]
+[s]Вы хотели бы поступить в среднюю школу[n]Риосейкан?[n][w][e]
+##-[s]Would you like to go to[n]Ryoseikan High School?[n][w][e]-##
+

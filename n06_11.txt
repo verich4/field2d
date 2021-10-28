@@ -1,0 +1,542 @@
+[msg SCR_MSG_PARAM_MIRYOKU1]
+[s]> Твое обаяние, кажется, возросло![n][w][e]
+##-[s]> Your Charm seems to have[n]increased![n][w][e]-##
+
+[msg SCR_MSG_PARAM_MIRYOKU2]
+[s]> Твое очарование ушло от"[f 2 4 0]"для"[f 2 4 1]"![n][w][e]
+##-[s]> Your Charm went from "[f 2 4 0]"[n]to "[f 2 4 1]"![n][w][e]-##
+
+[msg MSG_4A_NPC000_01 [Female Student]]
+[s]Здесь много классных комнат... Но ты это[n]знал.[n][w][e]
+##-[s]There are lots of classrooms here...[n]But you knew that.[n][w][e]-##
+
+[msg MSG_4B_NPC000_01 [Female Student]]
+[s]Кстати, табличка на двери в отдел[n]домоводства выглядит так, как будто она[n]была написана на другом языке.[n][w][e]
+##-[s]By the way, the sign on the door to[n]home economics looks like it was[n]written in another language.[n][w][e]-##
+[s]Это трудно читать... Это не похоже на[n]английский...[n][w][e]
+##-[s]It's hard to read... It doesn't[n]look like English...[n][w][e]-##
+[s]И если вы прислушаетесь повнимательнее, то[n]услышите внутри таинственные голоса...[n][w][e]
+##-[s]And if you listen close, you can[n]hear mysterious voices inside...[n][w][e]-##
+[s]Это один ужасно таинственный урок[n]домоводства, позвольте мне вам сказать.[n][w][e]
+##-[s]It's one awfully mysterious home[n]economics class, let me tell you.[n][w][e]-##
+
+[msg MSG_5A_NPC000_01 [Female Student]]
+[s]Есть учитель естествознания, который варит[n]свой кофе в пробирках...[n][w][e]
+##-[s]There's a science teacher who brews[n]his coffee in the test tubes...[n][w][e]-##
+[s]Не обращая внимания на вкус, разве он не[n]должен беспокоиться о побочных эффектах?[n][w][e]
+##-[s]Never mind the taste, shouldn't he[n]be worried about the side effects?[n][w][e]-##
+
+[msg MSG_5B_NPC000_01 [Female Student]]
+[s]Когда я думаю об искусстве, я думаю о[n]пейзажах, или натюрмортах, или о чем-то[n]подобном.[n][w][e]
+##-[s]When I think of art, I think of[n]landscapes, or still lifes, or[n]things like that.[n][w][e]-##
+[s]Но похоже, что большинство парней просто[n]думают о рисовании обнаженных фигур.[n][w][e]
+##-[s]But it seems like most of the guys[n]just think about nude figure[n]drawing.[n][w][e]-##
+[s]Эти идиоты...[n][w][e]
+##-[s]Those idiots...[n][w][e]-##
+
+[msg MSG_6A_NPC000_01 [Female Student]]
+[s]Когда я думаю о домоводстве, я думаю о[n]кулинарных экспериментах и тому подобном.[n][w][e]
+##-[s]When I think of home economics,[n]I think about cooking experiments,[n]and that kind of thing.[n][w][e]-##
+[s]Я слышал, что некоторые люди случайно[n]сжигают свои учебники, ставя их слишком[n]близко к плите.[n][w][e]
+##-[s]I hear that some people burn their[n]textbooks by accident by setting[n]them too close to the stove.[n][w][e]-##
+
+[msg MSG_6B_NPC000_01 [Female Student]]
+[s]Я слышал, что 17-го числа в Культурных[n]клубах откроются двери для новых членов.[n][w][e]
+##-[s]I heard that on the 17th, the[n]Culture Clubs are going to have[n]openings for new members.[n][w][e]-##
+[s]Есть три клуба: музыка, искусство и[n]фотография. Вы можете понаблюдать за любым[n]из них, прежде чем присоединиться.[n][w][e]
+##-[s]There's three clubs: music, art,[n]and photography. You can observe[n]any of them before joining.[n][w][e]-##
+[s]У них другое чувство, чем в спортивных[n]клубах, так что хорошенько подумайте,[n]прежде чем присоединиться к одному из них.[n][w][e]
+##-[s]They've got a different feel than[n]the sports clubs, so think hard[n]before joining one.[n][w][e]-##
+[s]Как я только что сказал, они начинают[n]вербовку 17-го числа.[n][w][e]
+##-[s]Like I just said, they start[n]recruiting on the 17th.[n][w][e]-##
+[s]До тех пор ты можешь умолять, сколько[n]хочешь, но они тебя не пустят.[n][w][e]
+##-[s]Until then, you can beg all you[n]want, but they won't let you in.[n][w][e]-##
+
+[msg MSG_6B_NPC000_01_G [Female Student]]
+[s]В этой школе есть три основных культурных[n]клуба: Искусство, Музыка и Фотография.[n][w][e]
+##-[s]This school has three main cultural[n]clubs: Art, Music, and Photography.[n][w][e]-##
+[s]Однако крайний срок для присоединения новых[n]членов к любому из них истек.[n][w][e]
+##-[s]However, the deadline for new members[n]to join any of them has passed.[n][w][e]-##
+[s]Если вы ищете клуб для вступления, как[n]насчет кулинарного клуба?[n][w][e]
+##-[s]If you're looking for a club to join,[n]how about the cooking club?[n][w][e]-##
+[s]Я слышал, что кулинарный клуб собирается[n]начать набор новых членов 17 числа этого[n]месяца.[n][w][e]
+##-[s]I heard the cooking club is going to[n]start recruiting new members on the[n]17th of this month.[n][w][e]-##
+[s]Фуука, студентка второго курса, является[n]членом этого клуба. Может быть, тебе стоит[n]поговорить с ней о вступлении.[n][w][e]
+##-[s]Fuuka, the second-year student, is a[n]member of that club. Maybe you should[n]talk to her about joining.[n][w][e]-##
+[s]У них другое чувство, чем в спортивных[n]клубах, так что хорошенько подумайте,[n]прежде чем присоединиться к одному из них.[n][w][e]
+##-[s]They've got a different feel than[n]the sports clubs, so think hard[n]before joining one.[n][w][e]-##
+
+[msg MSG_0617_NPC000_01 [Female Student]]
+[s]Похоже, что кампания по набору персонала в[n]Культурные клубы началась.[n][w][e]
+##-[s]The Culture Clubs' recruitment[n]drive seems to have started.[n][w][e]-##
+[s]Есть три клуба: музыка, искусство и[n]фотография. Вы можете понаблюдать за любым[n]из них, прежде чем присоединиться.[n][w][e]
+##-[s]There's three clubs: music, art,[n]and photography. You can observe[n]any of them before joining.[n][w][e]-##
+[s]У них другое чувство, чем в спортивных[n]клубах, так что хорошенько подумайте,[n]прежде чем присоединиться к одному из них.[n][w][e]
+##-[s]They've got a different feel than[n]the sports clubs, so think hard[n]before joining one.[n][w][e]-##
+
+[msg MSG_0617_NPC000_01_G [Female Student]]
+[s]Вступление в клуб - это хорошо, но это еще[n]не все.[n][w][e]
+##-[s]Joining a club is good, but[n]it's not everything.[n][w][e]-##
+[s]Работа в библиотеке, медицинском учреждении[n]или в студенческом совете может быть столь[n]же полезной.[n][w][e]
+##-[s]Working in the library, the health[n]office, or in the student council[n]can be just as fulfilling.[n][w][e]-##
+[s]Усердная работа на благо школы также хорошо[n]смотрится в ваших школьных записях![n][w][e]
+##-[s]Working hard for the school also[n]looks good on your school records![n][w][e]-##
+
+[msg MSG_7A_NPC000_01 [Female Student]]
+[s]Вы знаете, как вы используете спирт для[n]протирания для научных экспериментов?[n][w][e]
+##-[s]You know how you use rubbing[n]alcohol for science experiments?[n][w][e]-##
+[s]Ну, я слышал, что есть учитель, который[n]пьет его, говоря, что он так же хорош, как[n]обычный алкоголь...[n][w][e]
+##-[s]Well, I heard there's a teacher[n]who drinks it, saying it's as good[n]as regular alcohol...[n][w][e]-##
+[s]Но это не может быть хорошо для тебя! На[n]твоем месте я бы не стал этого делать.[n][w][e]
+##-[s]But that can't be good for you![n]I wouldn't try it if I were you.[n][w][e]-##
+[s][f 4 9 0 3 0 0 5]Поверьте мне, оно того не стоит.[n][w][e]
+##-[s][f 4 9 0 3 0 0 5]Believe me, it's not worth it.[n][w][e]-##
+
+[msg MSG_7B_NPC000_01 [Female Student]]
+[s]Когда я думаю о художниках, я думаю о тех[n]людях, которые щурятся и подносят карандаш[n]к своему предмету.[n][w][e]
+##-[s]When I think of artists, I think of[n]those people who squint and hold a[n]pencil up to their subject.[n][w][e]-##
+[s]Художники, которые это делают, особенно[n]парни, просто хотят выглядеть[n]соответственно...[n][w][e]
+##-[s]Artists who do that, especially the[n]guys, just want to look the part...[n][w][e]-##
+
+[msg MSG_9A_NPC000_01 [Female Student]]
+[s]Студенты мужского пола, похоже, никогда не[n]преуспевают в домоводстве.[n][w][e]
+##-[s]Male students never seem to be able[n]to do much in home economics.[n][w][e]-##
+[s]Однако у них будут проблемы, если они[n]когда-нибудь решат жить самостоятельно.[n][w][e]
+##-[s]They're going to have trouble if[n]they ever decide to live on their[n]own, though.[n][w][e]-##
+[s]Что касается меня, то если бы у меня[n]отвалилась пуговица или что-то в этом роде,[n]я бы смог пришить ее обратно за секунду![n][w][e]
+##-[s]As for me, if my button fell off[n]or something, I'd be able to sew[n]it back together in a second![n][w][e]-##
+
+[msg MSG_9B_NPC000_01 [Female Student]]
+[s]В учебниках музыки на обложках всегда[n]изображены лица великих музыкантов, но...[n][w][e]
+##-[s]The music textbooks always have the[n]faces of great musicians on the[n]covers, but...[n][w][e]-##
+[s]Внутри страницы заполнены каракулями от не[n]очень хороших студентов-музыкантов.[n][w][e]
+##-[s]On the inside, the pages are filled[n]with doodles from not-so-great[n]music students.[n][w][e]-##
+
+[msg MSG_10A_NPC000_01 [Female Student]]
+[s]Извините, что спрашиваю так внезапно, но[n]вам нравится химия?[n][w][e]
+##-[s]Sorry to ask this so suddenly,[n]but do you like chemistry?[n][w][e]-##
+
+[sel MSG_10A_NPC000_01S top]
+[s]"Да!"[e]
+##-[s]"Yeah!"[e]-##
+[s]"Все в порядке".[e]
+##-[s]"It's all right."[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[sel MSG_10A_NPC000_01S_G top]
+[s]"Да!"[e]
+##-[s]"Yeah!"[e]-##
+[s]"Все в порядке".[e]
+##-[s]"It's all right."[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[msg MSG_10A_NPC000_01A [Female Student]]
+[s]Химия - такой забавный предмет. Я с[n]нетерпением жду каждого эксперимента.[n][w][e]
+##-[s]Chemistry is such a fun subject.[n]I look forward to every experiment.[n][w][e]-##
+
+[msg MSG_10A_NPC000_01B [Female Student]]
+[s]Я понимаю...[n][w][e]
+##-[s]I see...[n][w][e]-##
+
+[msg MSG_10B_NPC000_01 [Female Student]]
+[s]Когда вы смешиваете серную кислоту с водой,[n]вы не должны наливать воду в кислоту.[n][w][e]
+##-[s]When you're mixing sulfuric acid[n]with water, you're not supposed to[n]pour the water into the acid.[n][w][e]-##
+[s]Все как раз наоборот. Вы должны понемногу[n]наливать кислоту в воду.[n][w][e]
+##-[s]It's the opposite. You're supposed[n]to pour the acid into the water,[n]little by little.[n][w][e]-##
+[s][f 4 9 0 3 0 0 5]Поверьте мне... Вот как это делается.[n][w][e]
+##-[s][f 4 9 0 3 0 0 5]Trust me... That's how it's done.[n][w][e]-##
+
+[msg MSG_11A_NPC000_01 [Female Student]]
+[s]Счастливый Генри Любит Пиво...[n][w][e]
+##-[s]Happy Henry Likes Beer...[n][w][e]-##
+
+[sel MSG_11A_NPC000_01S top]
+[s]"Но Не Смог Добыть Еду".[e]
+##-[s]"But Could Not Obtain Food."[e]-##
+[s]"Хм?"[e]
+##-[s]"Huh?"[e]-##
+
+[sel MSG_11A_NPC000_01S_G top]
+[s]"Это периодическая таблица?"[e]
+##-[s]"Is that the periodic table?"[e]-##
+[s]"Хм?"[e]
+##-[s]"Huh?"[e]-##
+
+[msg MSG_11A_NPC000_01A [Female Student]]
+[s]У каждого учителя есть своя личная[n]мнемоника для первых нескольких элементов[n]Периодической таблицы...[n][w][e]
+##-[s]Every teacher has his or her own[n]personal mnemonic for the first few[n]elements in the Periodic Table...[n][w][e]-##
+[s][f 4 9 0 9 0 0 5]Тот, которому нас учил наш учитель,[n]довольно непристойный, не так ли?[n][w][e]
+##-[s][f 4 9 0 9 0 0 5]The one our teacher taught us is[n]kind of raunchy, isn't it?[n][w][e]-##
+
+[msg MSG_11A_NPC000_01B [Female Student]]
+[s]Тебе следует еще немного позаниматься.[n][w][e]
+##-[s]You should study some more.[n][w][e]-##
+
+[msg MSG_11B_NPC000_01 [Female Student]]
+[s]На днях я увидел кое-что странное в[n]Интернете.[n][w][e]
+##-[s]The other day, I saw something weird[n]on the Internet.[n][w][e]-##
+[s]Это был школьный химический форум, на[n]котором говорилось, что они поставили[n]контейнер с водой посреди школы...[n][w][e]
+##-[s]It was a high school chemistry forum[n]that said they put a container of[n]water in the middle of the school...[n][w][e]-##
+[s]Они упали в 1 моль натрия, вызвав огромный[n]взрыв.[n][w][e]
+##-[s]They dropped in 1 mol of sodium,[n]causing a huge explosion.[n][w][e]-##
+[s]Жаль, что это не было снято на пленку...[n]Мне бы хотелось на это посмотреть.[n][w][e]
+##-[s]Too bad it wasn't filmed...[n]I would have liked to see it.[n][w][e]-##
+
+[msg MSG_12A_NPC000_01 [Female Student]]
+[s]Вы стираете свой лабораторный халат после[n]экспериментов?[n][w][e]
+##-[s]Do you wash your lab coat after[n]experiments?[n][w][e]-##
+
+[sel MSG_12A_NPC000_01S top]
+[s]"Всегда".[e]
+##-[s]"Always."[e]-##
+[s]"Нет..."[e]
+##-[s]"No..."[e]-##
+
+[sel MSG_12A_NPC000_01S_G top]
+[s]"Всегда".[e]
+##-[s]"Always."[e]-##
+[s]"Нет..."[e]
+##-[s]"No..."[e]-##
+
+[msg MSG_12A_NPC000_01A [Female Student]]
+[s]Ах, так ты любишь чистоту! Я думаю, что это[n]замечательная черта в мужчинах.[n][w][e]
+##-[s]Ah, so you like cleanliness![n]I think that's a wonderful trait[n]in men.[n][w][e]-##
+
+[msg MSG_12A_NPC000_01A_G [Female Student]]
+[s]Ах, так ты любишь чистоту! Я думаю, что это[n]замечательная черта в женщинах.[n][w][e]
+##-[s]Ah, so you like cleanliness![n]I think that's a wonderful trait[n]in women.[n][w][e]-##
+
+[msg MSG_12A_NPC000_01B [Female Student]]
+[s]Мой одноклассник тоже не мыл свой, и теперь[n]в нем дыра.[n][w][e]
+##-[s]My classmate didn't wash his either,[n]and now there's a hole in it.[n][w][e]-##
+[s]Вы должны быть осторожны с этим.[n][w][e]
+##-[s]You should be careful about that.[n][w][e]-##
+
+[msg MSG_12B_NPC000_01 [Female Student]]
+[s]Разве ты иногда не беспокоишься о пятнах,[n]которые оставляют студенты-искусствоведы?[n][w][e]
+##-[s]Don't you worry sometimes about the[n]stains the art students leave?[n][w][e]-##
+
+[sel MSG_12B_NPC000_01S top]
+[s]"Да, это отвратительно".[e]
+##-[s]"Yeah, it's gross."[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[sel MSG_12B_NPC000_01S_G top]
+[s]"Да, это отвратительно".[e]
+##-[s]"Yeah, it's gross."[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[msg MSG_12B_NPC000_01A [Female Student]]
+[s]Я знаю, что они работают с краской, но они[n]все равно должны убирать за собой.[n][w][e]
+##-[s]I know they work with paint,[n]but they should still clean up[n]after themselves.[n][w][e]-##
+[s]Каждый год предпринимаются огромные усилия[n]по очистке... Они могли бы сэкономить[n]время, если бы делали это каждый день.[n][w][e]
+##-[s]Every year, there's a huge clean-up[n]effort... They could save time if[n]they would do it every day.[n][w][e]-##
+
+[msg MSG_12B_NPC000_01B [Female Student]]
+[s]Правда?..[n][w][e]
+##-[s]Really...?[n][w][e]-##
+
+[msg MSG_1A_NPC000_01 [Female Student]]
+[s]Коридор перед Комнатой искусств все еще[n]немного грязный... Неужели здесь никогда не[n]убирают?[n][w][e]
+##-[s]The hallway in front of the Art Room[n]is still kinda dirty... Don't they[n]ever clean up around here?[n][w][e]-##
+[s]Сейчас все так, как сейчас, с плакатами по[n]всему городу...[n][w][e]
+##-[s]It's like that all over now, with[n]the posters all over town...[n][w][e]-##
+[s]Со всем этим, плюс эти страшные[n]фанатики-культисты, я больше не чувствую[n]себя в безопасности, гуляя по городу...[n][w][e]
+##-[s]With all that, plus those scary[n]cultist freaks, I don't feel safe[n]walking around town anymore...[n][w][e]-##
+
+[msg MSG_1B_NPC000_01 [Female Student]]
+[s]Я видел, как кто-то на днях развешивал эти[n]плакаты...[n][w][e]
+##-[s]I saw someone putting up those[n]posters the other day...[n][w][e]-##
+[s]Когда я думаю о людях, пытающихся[n]завербовать меня в секту, мне становится[n]страшно выходить в город...[n][w][e]
+##-[s]When I think about people trying to[n]recruit me into a cult, I get scared[n]to go into town...[n][w][e]-##
+
+[msg MSG_3A_NPC000_01 [Female Student]]
+[s]Интересно, какой химией мы будем заниматься[n]в старших классах?.. Я не могу дождаться![n][w][e]
+##-[s]I wonder what kind of chemistry[n]we'll be doing as seniors...[n]I can't wait![n][w][e]-##
+
+[msg MSG_5B_NPC001_01 [Male Student]]
+[s]Видишь вон ту цыпочку сзади?[n][w][e]
+##-[s]You see that chick back there?[n][w][e]-##
+[s]Я не знаю, что с ней делать... Так что я[n]просто оставлю ее в подвешенном состоянии.[n][w][e]
+##-[s]I don't know what to do with her...[n]So I'll just leave her hanging.[n][w][e]-##
+
+[msg MSG_5B_NPC002_01 [Female Student]]
+[s]Я знаю, что не могу продолжать, не[n]поговорив с ним, но.....[n][w][e]
+##-[s]I know I can't go on without[n]talking to him, but...[n][w][e]-##
+[s]Думаю, мне было бы достаточно просто[n]посмотреть на него издалека...[n][w][e]
+##-[s]I think I would be satisfied just[n]to stare at him from afar...[n][w][e]-##
+[s]*вздох* Что мне делать...?[n][w][e]
+##-[s]*sigh*[n]What should I do...?[n][w][e]-##
+
+[msg MSG_4A_NPC003_01 [Male Student]]
+[s]Что тебе надо? Сейчас я пользуюсь своим[n]мобильным.[n][w][e]
+##-[s]What do you want? I'm using my[n]cell now.[n][w][e]-##
+[s]Поговори со мной позже, хорошо?[n][w][e]
+##-[s]Talk to me later, okay?[n][w][e]-##
+
+[msg MSG_4B_NPC003_01 [Male Student]]
+[s]Чего ты хочешь? Что, ты никогда не видел[n]сотового телефона?[n][w][e]
+##-[s]Whaddya want? What, you've never[n]seen a cell phone?[n][w][e]-##
+
+[sel MSG_4B_NPC003_01_SEL top]
+[s]"Ты что, шутишь?"[e]
+##-[s]"Are you kidding?"[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[msg MSG_4B_NPC003_02 [Male Student]]
+[s]Я так и думал.[n][w][e]
+##-[s]I thought so.[n][w][e]-##
+
+[msg MSG_4B_NPC003_03 [Male Student]]
+[s]Я никогда раньше не видел никого, кто не[n]знал бы, что такое сотовый телефон.[n][w][e]
+##-[s]I've never seen anyone who didn't[n]know what a cell phone was before.[n][w][e]-##
+
+[msg MSG_4B_NPC003_04 [Male Student]]
+[s]Ну, я занят, так что, может быть, я смогу[n]объяснить это в следующий раз.[n][w][e]
+##-[s]Well, I'm busy, so maybe I can[n]explain it next time.[n][w][e]-##
+
+[msg MSG_5A_NPC003_01 [Male Student]]
+[s]Чувак, спамеры в наши дни раздражают меня[n]до чертиков.[n][w][e]
+##-[s]Man, the spammers these days annoy[n]the crap out of me.[n][w][e]-##
+[s]Какие бы придурки ни рассылали это барахло[n]всем подряд... Я надеюсь, что они отправят[n]их в тюрьму.[n][w][e]
+##-[s]Whatever assholes send this junk[n]to everyone... I hope they send[n]them to prison.[n][w][e]-##
+
+[msg MSG_5B_NPC003_01 [Male Student]]
+[s]Это может показаться странным, но...[n][w][e]
+##-[s]This might sound weird, but...[n][w][e]-##
+[s]Разве это не больно - отвечать на сообщения[n]от людей, которые тебе безразличны?[n][w][e]
+##-[s]Isn't it a pain to reply to messages[n]from people you don't care about?[n][w][e]-##
+
+[sel MSG_5B_NPC003_01_SEL top]
+[s]"Да, это боль".[e]
+##-[s]"Yeah, it's a pain."[e]-##
+[s]"Нет, не совсем".[e]
+##-[s]"Nah, not really."[e]-##
+
+[sel MSG_5B_NPC003_01_SEL_G top]
+[s]"Да, это боль".[e]
+##-[s]"Yeah, it's a pain."[e]-##
+[s]"Нет, не совсем".[e]
+##-[s]"Nah, not really."[e]-##
+
+[msg MSG_5B_NPC003_02 [Male Student]]
+[s]Я знаю, верно?[n][w][e]
+##-[s]I know, right?[n][w][e]-##
+
+[msg MSG_5B_NPC003_03 [Male Student]]
+[s]Блин, ты очень терпеливый.[n][w][e]
+##-[s]Sheesh, you're a patient one.[n][w][e]-##
+
+[msg MSG_5B_NPC003_03_G [Male Student]]
+[s]Блин, ты очень терпеливый.[n][w][e]
+##-[s]Sheesh, you're a patient one.[n][w][e]-##
+[s]Чувакам нравятся такие девушки.[n][w][e]
+##-[s]Dudes like girls like that.[n][w][e]-##
+
+[msg MSG_KAIDAN1_NPC003_01 [Male Student]]
+[s]Ах да, та девушка, которая потеряла[n]сознание? Я слышал, что она была одна.[n][w][e]
+##-[s]Oh yeah, that girl who passed out?[n]I heard she was by herself.[n][w][e]-##
+[s]Кажется загадочным, не так ли?[n][w][e]
+##-[s]Seems mysterious, doesn't it?[n][w][e]-##
+
+[sel MSG_KAIDAN1_NPC003_01_SE top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"Нет".[e]
+##-[s]"Nah."[e]-##
+
+[sel MSG_KAIDAN1_NPC003_01_SE_2 top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"Настоящая тайна... это человек".[e]
+##-[s]"The real mystery... is man."[e]-##
+
+[msg MSG_KAIDAN1_NPC003_02 [Male Student]]
+[s]Я знаю, верно?[n][w][e]
+##-[s]I know, right?[n][w][e]-##
+[s]На самом деле мне наплевать на других[n]людей, но когда дело доходит до таких[n]загадок, как эта, я становлюсь[n]взволнованным.[n][w][e]
+##-[s]I don't really care about other[n]people, but when it comes to[n]mysteries like this, I get pumped.[n][w][e]-##
+[s]Как будто я не могу успокоиться, пока не[n]докопаюсь до сути всего.[n][w][e]
+##-[s]Like I can't rest until I get to[n]the bottom of everything.[n][w][e]-##
+
+[msg MSG_KAIDAN1_NPC003_03 [Male Student]]
+[s]О, хорошо.[n][w][e]
+##-[s]Oh, okay.[n][w][e]-##
+
+[msg MSG_KAIDAN1_NPC003_03_G [Male Student]]
+[s]Что, черт возьми, это должно означать?[n][w][e]
+##-[s]What the heck is that supposed to mean?[n][w][e]-##
+[s]..В любом случае, мне придется обратить[n]внимание на этот инцидент.[n][w][e]
+##-[s]...Anyway, I'm going to have to pay[n]attention to this incident.[n][w][e]-##
+
+[msg MSG_KAIDAN2_NPC003_01 [Male Student]]
+[s]Три дня подряд у нас в школе ученики падали[n]в обморок. Это чертовски загадочно.[n][w][e]
+##-[s]Three days in a row, we've had[n]students at this school passing[n]out. It's a hell of a mystery.[n][w][e]-##
+[s]Мне не терпится узнать больше... Я должен[n]попытаться разобраться в этом.[n][w][e]
+##-[s]I'm itching to know more...[n]I should try looking into it.[n][w][e]-##
+
+[msg MSG_KAIDAN3_NPC003_01 [Male Student]]
+[s]Я думал, что смогу найти какую-нибудь[n]информацию, но я вообще ничего не нашел.[n][w][e]
+##-[s]I thought I could turn up some info,[n]but I didn't find anything at all.[n][w][e]-##
+[s]Все трое потеряли сознание, но они были в[n]разных классах и в разных классах.[n][w][e]
+##-[s]All three passed out, but they[n]were in different grades, and[n]different classes.[n][w][e]-##
+[s]И в разных клубах тоже.[n][w][e]
+##-[s]Different clubs, too.[n][w][e]-##
+[s]Так что мое расследование продвигается не[n]очень хорошо.[n][w][e]
+##-[s]So my investigation isn't going[n]very well.[n][w][e]-##
+[s]Отчасти потому, что все их друзья были[n]этими головорезами...[n][w][e]
+##-[s]Partly because all their friends[n]were those thugs...[n][w][e]-##
+[s]И я, очевидно, не хочу иметь с ними дело.[n][w][e]
+##-[s]And I obviously don't want to[n]deal with them.[n][w][e]-##
+
+[msg MSG_6A_NPC003_01 [Male Student]]
+[s]Мне уже надоедают текстовые сообщения.[n][w][e]
+##-[s]I'm getting bored of text messaging.[n][w][e]-##
+[s]Я думаю, что это хорошо - общаться со[n]столькими людьми, но очень скоро мне это[n]совершенно надоест.[n][w][e]
+##-[s]I guess it's good to be in touch[n]with so many people, but pretty soon[n]I'm gonna get totally bored of it.[n][w][e]-##
+[s]Как только вы потеряете интерес к такого[n]рода вещам, вы не сможете его вернуть.[n][w][e]
+##-[s]Once you lose interest in this kind[n]of thing, you can't get it back.[n][w][e]-##
+
+[msg MSG_6B_NPC003_01 [Male Student]]
+[s]Я подумываю о том, чтобы загрузить игры на[n]свой мобильный, но я не знаю...[n][w][e]
+##-[s]I'm thinking about downloading games[n]to my cell, but I don't know...[n][w][e]-##
+[s]Они говорят, что это дешево, но все[n]сходится.[n][w][e]
+##-[s]They say it's cheap, but it all[n]adds up.[n][w][e]-##
+[s]Есть какие-нибудь рекомендации?[n][w][e]
+##-[s]Got any recommendations?[n][w][e]-##
+
+[sel MSG_6B_NPC003_01_SEL top]
+[s]"Попробуй поиграть в головоломку".[e]
+##-[s]"Try a puzzle game."[e]-##
+[s]"Попробуй сыграть в карты".[e]
+##-[s]"Try a card game."[e]-##
+[s]"Попробуй РПГ".[e]
+##-[s]"Try an RPG."[e]-##
+[s]"Понятия не имею".[e]
+##-[s]"No idea."[e]-##
+
+[sel MSG_6B_NPC003_01_SEL_G top]
+[s]"Попробуй поиграть в головоломку".[e]
+##-[s]"Try a puzzle game."[e]-##
+[s]"Попробуй сыграть в карты".[e]
+##-[s]"Try a card game."[e]-##
+[s]"Попробуй РПГ".[e]
+##-[s]"Try an RPG."[e]-##
+[s]"Понятия не имею".[e]
+##-[s]"No idea."[e]-##
+
+[msg MSG_6B_NPC003_02 [Male Student]]
+[s]Хмм... Я буду иметь это в виду.[n][w][e]
+##-[s]Hmm... I'll keep that in mind.[n][w][e]-##
+
+[msg MSG_6B_NPC003_03 [Male Student]]
+[s]О... Ну, неважно.[n][w][e]
+##-[s]Oh... Well, whatever.[n][w][e]-##
+
+[msg MSG_7A_NPC003_01 [Male Student]]
+[s]Администратор сайта, который я сейчас[n]проверяю, пользуется большим уважением...[n][w][e]
+##-[s]The admin of the site I'm checking[n]out now is highly respected...[n][w][e]-##
+[s]Не знаю почему, но мне тоже на самом деле[n]все равно.[n][w][e]
+##-[s]I dunno why, but I don't really[n]care, either.[n][w][e]-##
+[s]Пока сам сайт классный, мне плевать, какой[n]администратор им управляет.[n][w][e]
+##-[s]As long as the site itself is cool,[n]I don't give a flip what kind of[n]admin runs it.[n][w][e]-##
+
+[msg MSG_7B_NPC003_01 [Male Student]]
+[s]Я слышал, что есть сайт мести, но...[n]URL-адрес совершенно секретный, верно?[n][w][e]
+##-[s]I heard there's a revenge website,[n]but... the URL is top secret, right?[n][w][e]-##
+[s]Я пытаюсь понять это, поэтому просматриваю[n]всю сеть на своем мобильном.[n][w][e]
+##-[s]I'm trying to figure it out, so I'm[n]looking all over the web on my cell.[n][w][e]-##
+[s]Есть местная BBS, которая, похоже, содержит[n]много информации на сайте.[n][w][e]
+##-[s]There's a local BBS that seems like[n]it has a lot of info on the site.[n][w][e]-##
+[s]Но это все мусорная информация...[n][w][e]
+##-[s]But it's all garbage info...[n][w][e]-##
+
+[msg MSG_9A_NPC003_01 [Male Student]]
+[s]Мой друг попросил у меня адрес сайта мести,[n]но... Я этого не знаю.[n][w][e]
+##-[s]My friend asked me for the URL of[n]the revenge website, but... I don't[n]know it.[n][w][e]-##
+[s]Но даже если бы я знал, зачем мне[n]рассказывать кому-то еще?[n][w][e]
+##-[s]But even if I did, why would I tell[n]anyone else?[n][w][e]-##
+[s]Я бы просто держал это при себе.[n][w][e]
+##-[s]I'd just keep it to myself.[n][w][e]-##
+
+[msg MSG_9B_NPC003_01 [Male Student]]
+[s]Я попробовал эту карточную игру для[n]мобильных телефонов, но не смог в нее[n]войти.[n][w][e]
+##-[s]I tried out that card game for cell[n]phones, but I couldn't get into it.[n][w][e]-##
+[s]Это было нетрудно понять, это было просто[n]слишком просто.[n][w][e]
+##-[s]It wasn't hard to understand, it[n]was just too simple.[n][w][e]-##
+[s]Ну что ж... Я попробую что-нибудь другое.[n][w][e]
+##-[s]Oh well... I'll try something else.[n][w][e]-##
+
+[msg MSG_10A_NPC003_01 [Male Student]]
+[s]Чего ты хочешь?[n][w][e]
+##-[s]Whaddya want?[n][w][e]-##
+[s]Я играю в стрелялку на своем мобильном, так[n]что проваливай.[n][w][e]
+##-[s]I'm playing a shooter on my[n]cell, so buzz off.[n][w][e]-##
+
+[msg MSG_10B_NPC003_01 [Male Student]]
+[s]Я попробовал этот шутер для мобильных[n]телефонов, но не смог в него попасть.[n][w][e]
+##-[s]I tried out that shooter for cell[n]phones, but I couldn't get into it.[n][w][e]-##
+[s]Было так трудно уворачиваться от пуль на[n]этом крошечном экране.[n][w][e]
+##-[s]It was so tough to dodge the[n]bullets on that tiny screen.[n][w][e]-##
+[s]Ну что ж... Я попробую что-нибудь другое.[n][w][e]
+##-[s]Oh well... I'll try something else.[n][w][e]-##
+
+[msg MSG_11A_NPC003_01 [Male Student]]
+[s]Чего ты хочешь?[n][w][e]
+##-[s]Whaddya want?[n][w][e]-##
+[s]Я играю в RPG на своем мобильном, так что[n]отвали.[n][w][e]
+##-[s]I'm playing an RPG on my cell,[n]so buzz off.[n][w][e]-##
+
+[msg MSG_11B_NPC003_01 [Male Student]]
+[s]Ролевые игры не так уж плохи на мобильных[n]телефонах...[n][w][e]
+##-[s]RPGs aren't that bad on cell[n]phones...[n][w][e]-##
+[s]Одна игра длится довольно долго, так что,[n]думаю, я поиграю в нее еще немного.[n][w][e]
+##-[s]One game lasts for a pretty long[n]time, so I guess I'll play it[n]a little while longer.[n][w][e]-##
+
+[msg MSG_12A_NPC003_01 [Male Student]]
+[s]Я просто играл в эту RPG на своем[n]мобильном, но, кажется, мне это наконец[n]надоело.[n][w][e]
+##-[s]I was just playing that RPG on[n]my cell, but I think I'm finally[n]getting bored of it.[n][w][e]-##
+[s]О, чувак, интересно, есть ли там еще[n]кто-нибудь?..[n][w][e]
+##-[s]Aw man, I wonder if there are any[n]more out there...[n][w][e]-##
+
+[msg MSG_12B_NPC003_01 [Male Student]]
+[s]Чего ты хочешь? Я занят своим мобильником.[n][w][e]
+##-[s]Whaddya want? I'm busy[n]with my cell.[n][w][e]-##
+[s]Этот сезон такой напряженный...[n][w][e]
+##-[s]This season is so busy...[n][w][e]-##
+[s]Может быть, в другой раз?[n][w][e]
+##-[s]Maybe some other time?[n][w][e]-##
+
+[msg MSG_1A_NPC003_01 [Male Student]]
+[s]Раньше я фотографировал всякий раз, когда[n]видел одного из этих людей с Синдромом[n]Апатии.[n][w][e]
+##-[s]Before, I'd take a picture whenever[n]I saw one of those Apathy Syndrome[n]people.[n][w][e]-##
+[s]Я разослал их всем в своем списке[n]контактов, сказав: "Я нашел парня с[n]синдромом апатии!"[n][w][e]
+##-[s]I sent them to everyone on my[n]contacts list, saying "I found[n]an Apathy Syndrome guy!"[n][w][e]-##
+[s]Но теперь они распространены, как кислород.[n]К этому довольно страшно привыкнуть.[n][w][e]
+##-[s]But now, they're common as oxygen.[n]It's a pretty scary thing to get[n]used to.[n][w][e]-##
+[s]Когда-нибудь это пройдет, или мы застрянем[n]с этим навсегда?[n][w][e]
+##-[s]Is it going to go away someday,[n]or are we stuck with it forever?[n][w][e]-##
+
+[msg MSG_1B_NPC003_01 [Male Student]]
+[s]О боже, это отстой... Мой друг увлекается[n]этими культовыми штучками.[n][w][e]
+##-[s]Oh man, this sucks... My friend[n]is into that cult stuff.[n][w][e]-##
+[s]Поэтому он продолжает отправлять мне эти[n]дурацкие сообщения![n][w][e]
+##-[s]So he keeps texting me these[n]stupid-ass messages![n][w][e]-##
+[s]Как этот, где просто написано "сама Никс"[n]снова и снова, от начала до конца.[n][w][e]
+##-[s]Like this one, where it just says[n]"Nyx-sama" over and over, from[n]beginning to end.[n][w][e]-##
+[s]Я должен выяснить, как блокировать его[n]сообщения...[n][w][e]
+##-[s]I've gotta figure out how to[n]block his messages...[n][w][e]-##
+
+[msg MSG_3A_NPC003_01 [Male Student]]
+[s]О, привет... Что случилось с теми людьми с[n]Синдромом апатии?[n][w][e]
+##-[s]Oh, hey... What happened to those[n]Apathy Syndrome people?[n][w][e]-##
+[s]Совсем недавно город был переполнен ими.[n][w][e]
+##-[s]Just a little while ago, the town[n]was thick with them.[n][w][e]-##
+[s]Эх, я занят перепиской, так что расскажи[n]мне позже.[n][w][e]
+##-[s]Eh, I'm busy text messaging, so[n]tell me later.[n][w][e]-##
+

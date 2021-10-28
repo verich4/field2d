@@ -1,0 +1,34 @@
+[msg MSG_1N_NPC000_01 [Female Student]]
+[s]Мы ничего не будем делать, кроме как[n]делиться девчачьими разговорами всю ночь![n]Нет ничего лучше этого![n][w][e]
+##-[s]We're gonna do nothing but share[n]girl talk all night! There's nothing[n]better than that![n][w][e]-##
+
+[msg MSG_1N_NPC001_01 [Female Student]]
+[s]Я люблю носить юкату. Это заставляет меня[n]чувствовать себя такой стильной и[n]традиционной![n][w][e]
+##-[s]I love wearing yukata. It makes me[n]feel so classy and traditional![n][w][e]-##
+[s]Это приводит меня в восторг.[n][w][e]
+##-[s]It's getting me all excited.[n][w][e]-##
+
+[msg MSG_1N_NPC002_01 [Female Student]]
+[s]Обычно я сплю в кровати. Спать на футоне -[n]это новый опыт для меня.[n][w][e]
+##-[s]I usually sleep in a bed. Sleeping in[n]a futon is a new experience for me.[n][w][e]-##
+[s]Но я, как правило, много двигаюсь по ночам.[n]Я боюсь, что в конце концов лягну девушку,[n]спящую рядом со мной...[n][w][e]
+##-[s]But I tend to move around a lot at[n]night. I'm worried that I'll end up[n]kicking the girl sleeping next to me...[n][w][e]-##
+
+[msg MSG_2N_NPC000_01 [Female Student]]
+[s]Вчера мы слишком поздно засиделись за[n]разговорами. Я так хочу спать сегодня...[n][w][e]
+##-[s]We were up too late last night talking.[n]I'm so sleepy today...[n][w][e]-##
+[s]Но у меня есть действительно хороший[n]компромат на некоторых людей, так что это[n]определенно того стоило.[n][w][e]
+##-[s]But, I got some really good dirt on[n]some people, so it was definitely[n]worth it.[n][w][e]-##
+
+[msg MSG_2N_NPC001_01 [Female Student]]
+[s]Я купила много сладостей из Киото, когда[n]нам разрешили гулять самостоятельно![n][w][e]
+##-[s]I bought a lot of Kyoto sweets when we[n]were allowed to walk around on our own![n][w][e]-##
+[s]Я хочу попробовать их, но если я съем их[n]сейчас, то стану совсем толстым... Что я[n]могу сделать?![n][w][e]
+##-[s]I want to try them, but if I eat them[n]now I'll get all chunky...[n]What can I do!?[n][w][e]-##
+
+[msg MSG_2N_NPC002_01 [Female Student]]
+[s]Мой друг сказал, что в этой гостинице[n]водятся привидения...[n][w][e]
+##-[s]My friend said that this inn was[n]haunted...[n][w][e]-##
+[s]Тем не менее, вы слышите истории о[n]привидениях, куда бы вы ни пошли. Это все[n]суеверия.[n][w][e]
+##-[s]Still, you hear ghost stories no matter[n]where you go. It's all superstition.[n][w][e]-##
+

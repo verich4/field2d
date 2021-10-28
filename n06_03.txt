@@ -1,0 +1,2562 @@
+[sel YES_NO_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[msg SCR_MSG_PARAM_MIRYOKU1]
+[s]> Вы чувствуете, что ваше очарование[n]возросло![n][w][e]
+##-[s]> You feel your Charm has increased![n][w][e]-##
+
+[msg SCR_MSG_PARAM_MIRYOKU2]
+[s]> Твое обаяние изменилось с"[f 2 4 0]"чтобы [f 2 4 1]"![n][w][e]
+##-[s]> Your Charm changed from[n]"[f 2 4 0]" to [f 2 4 1]"![n][w][e]-##
+
+[msg MSG_4A_NPC002_01 [Male Student]]
+[s]Я слышал, что, начиная с 24-го числа,[n]некоторые спортивные команды будут набирать[n]новых членов...[n][w][e]
+##-[s]I hear that, starting on the 24th,[n]some athletic teams will be recruiting[n]new members...[n][w][e]-##
+[s]...Хотя только Команда по легкой атлетике,[n]Команда по кендо и Команда по плаванию.[n]Остальные заполнены.[n][w][e]
+##-[s]...Just the Track Team, Kendo Team,[n]and Swim Team, though. The others[n]are full.[n][w][e]-##
+[s]Если вы заинтересованы в присоединении,[n]почему бы вам не пойти и не проверить это?[n][w][e]
+##-[s]If you're interested in joining,[n]why don't you go check it out?[n][w][e]-##
+[s]Спуститесь по лестнице направо, и в конце[n]концов вы его найдете.[n][w][e]
+##-[s]Go down the stairs to the right and[n]eventually you'll find it.[n][w][e]-##
+
+[msg MSG_4A_NPC002_01_G [Male Student]]
+[s]Я слышал, что, начиная с 24-го числа,[n]некоторые спортивные команды будут набирать[n]новых членов...[n][w][e]
+##-[s]I hear that, starting on the 24th,[n]some athletic teams will be recruiting[n]new members...[n][w][e]-##
+[s]...Хотя только Волейбольная команда и[n]Теннисная команда. Остальные заполнены.[n][w][e]
+##-[s]...Just the Volleyball Team and the[n]Tennis Team, though. The others[n]are full.[n][w][e]-##
+[s]Если вы заинтересованы в присоединении,[n]почему бы вам не пойти и не проверить это?[n][w][e]
+##-[s]If you're interested in joining,[n]why don't you go check it out?[n][w][e]-##
+[s]Спуститесь по лестнице направо, и в конце[n]концов вы его найдете.[n][w][e]
+##-[s]Go down the stairs to the right and[n]eventually you'll find it.[n][w][e]-##
+
+[msg MSG_4B_NPC002_01 [Male Student]]
+[s]Я слышал, что некоторые спортивные команды[n]набирают новых членов...[n][w][e]
+##-[s]I hear that some of the athletic teams[n]are recruiting new members...[n][w][e]-##
+[s]...Хотя только Команда по легкой атлетике,[n]Команда по кендо и Команда по плаванию.[n]Остальные заполнены.[n][w][e]
+##-[s]...Just the Track Team, Kendo Team,[n]and Swim Team, though. The others[n]are full.[n][w][e]-##
+[s]Если вы заинтересованы в присоединении,[n]почему бы вам не пойти и не проверить это?[n][w][e]
+##-[s]If you're interested in joining,[n]why don't you go check it out?[n][w][e]-##
+[s]Спуститесь по лестнице направо, и в конце[n]концов вы его найдете.[n][w][e]
+##-[s]Go down the stairs to the right and[n]eventually you'll find it.[n][w][e]-##
+
+[msg MSG_4B_NPC002_01_G [Male Student]]
+[s]Я слышал, что некоторые спортивные команды[n]набирают новых членов...[n][w][e]
+##-[s]I hear that some of the athletic teams[n]are recruiting new members...[n][w][e]-##
+[s]...Хотя только Волейбольная команда и[n]Теннисная команда. Остальные заполнены.[n][w][e]
+##-[s]...Just the Volleyball Team and the[n]Tennis Team, though. The others[n]are full.[n][w][e]-##
+[s]Если вы заинтересованы в присоединении,[n]почему бы вам не пойти и не проверить это?[n][w][e]
+##-[s]If you're interested in joining,[n]why don't you go check it out?[n][w][e]-##
+[s]Спуститесь по лестнице направо, и в конце[n]концов вы его найдете.[n][w][e]
+##-[s]Go down the stairs to the right and[n]eventually you'll find it.[n][w][e]-##
+
+[msg MSG_4A_NPC003_01 [Female Student]]
+[s]Вы склонны теряться в школе?[n][w][e]
+##-[s]Do you tend to get lost in school?[n][w][e]-##
+
+[msg MSG_4A_NPC003_02 [Female Student]]
+[s]Куда вы направляетесь?[n][w][e]
+##-[s]Where are you headed?[n][w][e]-##
+
+[sel MSG_4A_NPC003_02S top]
+[s]"Спортивный отдел".[e]
+##-[s]"The athletic department."[e]-##
+[s]"Художественный клуб, Музыкальный клуб и т.[n]Д."[e]
+##-[s]"Art Club, Music Club, etc."[e]-##
+[s]"Комната Студенческого совета".[e]
+##-[s]"The Student Council Room."[e]-##
+[s]"Офис Факультета".[e]
+##-[s]"The Faculty Office."[e]-##
+
+[msg MSG_4A_NPC003_02A [Female Student]]
+[s]Покиньте эту комнату и спуститесь по[n]лестнице направо.[n][w][e]
+##-[s]Leave this room and go down the stairs[n]to the right.[n][w][e]-##
+[s]Затем пройдите через двойные двери с правой[n]стороны и идите прямо.[n][w][e]
+##-[s]Then, go through the double doors on[n]your right-hand side and head straight.[n][w][e]-##
+
+[msg MSG_4A_NPC003_02B [Female Student]]
+[s]Покиньте эту комнату и спуститесь по[n]лестнице направо.[n][w][e]
+##-[s]Leave this room and go down the stairs[n]to the right.[n][w][e]-##
+[s]Комната искусств, Музыкальная комната и[n]Научная комната будут прямо там.[n][w][e]
+##-[s]The Art Room, Music Room, and[n]Science Room will be right there.[n][w][e]-##
+
+[msg MSG_4A_NPC003_02B_G [Female Student]]
+[s]Покиньте эту комнату и спуститесь по[n]лестнице направо.[n][w][e]
+##-[s]Leave this room and go down the stairs[n]to the right.[n][w][e]-##
+[s]Комната искусств, Музыкальная комната и[n]Научная комната будут прямо там.[n][w][e]
+##-[s]The Art Room, Music Room, and[n]Science Room will be right there.[n][w][e]-##
+[s]Крайний срок вступления новых членов в[n]культурные клубы уже истек...[n][w][e]
+##-[s]The deadline for new members to join [n]cultural clubs has already passed...[n][w][e]-##
+[s]Но, возможно, небольшие клубы скоро начнут[n]набирать новых членов.[n][w][e]
+##-[s]But maybe the smaller clubs will be[n]recruiting new members soon.[n][w][e]-##
+
+[msg MSG_4A_NPC003_02C [Female Student]]
+[s]Он расположен прямо через холл от этой[n]комнаты.[n][w][e]
+##-[s]It's located right across the hall[n]from this room.[n][w][e]-##
+
+[msg MSG_4A_NPC003_02D [Female Student]]
+[s]Покиньте эту комнату и спуститесь по[n]лестнице налево.[n][w][e]
+##-[s]Leave this room and go down the stairs[n]to the left.[n][w][e]-##
+[s]Стоя лицом к шкафу для обуви, идите[n]направо, чтобы войти в коридор, где[n]находится кабинет преподавателя.[n][w][e]
+##-[s]While facing the shoe cupboard,[n]go right to enter the hallway where[n]the faculty office is located.[n][w][e]-##
+
+[msg MSG_4A_NPC003_02LAST [Female Student]]
+[s]Вы знаете, ходят слухи, что кнопка □ удобна[n]для приближения к месту назначения.[n][w][e]
+##-[s]You know, rumor has it that the [n]□ button is convenient for getting[n]closer to your destination.[n][w][e]-##
+[s]Хотя я не знаю, где вы найдете эту кнопку[n]□...[n][w][e]
+##-[s]I don't know where you'd find that[n]□ button, though...[n][w][e]-##
+
+[msg MSG_4A_NPC006_01 [Male Student]]
+[s]Привет, новенький...[n][w][e]
+##-[s]Hey, new guy...[n][w][e]-##
+[s]Что ты думаешь о здешних девушках по[n]сравнению с твоей старой школой?[n][w][e]
+##-[s]Whaddya think of the girls here[n]compared to your old school?[n][w][e]-##
+
+[sel MSG_4A_NPC006_01S top]
+[s]"Здесь им лучше".[e]
+##-[s]"They're better here."[e]-##
+[s]"Они примерно одинаковые".[e]
+##-[s]"They're about the same."[e]-##
+[s]"Моя старая школа была лучше".[e]
+##-[s]"My old school was better."[e]-##
+
+[msg MSG_4A_NPC006_01A [Male Student]]
+[s]Я знал это. В нашей школе полно горячих[n]цыпочек.[n][w][e]
+##-[s]I knew it. Our school has tons of hot[n]chicks.[n][w][e]-##
+
+[msg MSG_4A_NPC006_01B [Male Student]]
+[s]Значит, в твоей старой школе тоже было[n]много горячих цыпочек?[n][w][e]
+##-[s]So, your old school had lots of hot[n]chicks too?[n][w][e]-##
+
+[msg MSG_4A_NPC006_01C [Male Student]]
+[s]Ты серьезно?! Возможно ли это вообще?![n][w][e]
+##-[s]Are you serious!? Is that even[n]possible!?[n][w][e]-##
+
+[msg MSG_4A_NPC006_01_G [Female Student]]
+[s]Ты тот самый студент-переводчик, о котором[n]все говорят, верно?[n][w][e]
+##-[s]You're the transfer student everyone's[n]talking about, right?[n][w][e]-##
+[s]Тот, кто переехал в общежитие, где живет[n]Акихико-семпай?[n][w][e]
+##-[s]The one who moved into the dorm where[n]Akihiko-senpai lives?[n][w][e]-##
+[s]Я всегда хотел поговорить с тобой.[n][w][e]
+##-[s]I've always wanted to talk to you.[n][w][e]-##
+
+[sel MSG_4A_NPC006_01S_G top]
+[s]“конечно”.[e]
+##-[s]"Sure."[e]-##
+[s]"Чего ты хочешь?"[e]
+##-[s]"What do you want?"[e]-##
+[s]"Нет, спасибо".[e]
+##-[s]"No thanks."[e]-##
+
+[msg MSG_4A_NPC006_01A_G [Female Student]]
+[s]Действительно? Здорово.[n][w][e]
+##-[s]Really? Great.[n][w][e]-##
+[s]Тогда не мог бы ты быть другом и рассказать[n]мне все об Акихико-семпае?[n][w][e]
+##-[s]Then could you be a pal and tell me[n]everything about Akihiko-senpai?[n][w][e]-##
+[s]Его любимые блюда, его тип девушки, то, как[n]он проводит свои выходные, и...[n][w][e]
+##-[s]His favorite foods, his type of girl,[n]how he spends his days off, and...[n][w][e]-##
+
+[msg MSG_4A_NPC006_01B_G [Female Student]]
+[s]Боже, ты не должен быть таким злым по этому[n]поводу.[n][w][e]
+##-[s]Geez, you don't have to be so mean[n]about it.[n][w][e]-##
+[s]Как бы то ни было, просто вылей грязь на[n]Акихико-семпая.[n][w][e]
+##-[s]Whatever, just spill the dirt on[n]Akihiko-senpai.[n][w][e]-##
+[s]Его любимые блюда, его тип девушки, то, как[n]он проводит свои выходные, и...[n][w][e]
+##-[s]His favorite foods, his type of girl,[n]how he spends his days off, and...[n][w][e]-##
+
+[msg MSG_4A_NPC006_01C_G [Female Student]]
+[s]Ууууу. Не говори таких вещей.[n][w][e]
+##-[s]Awwww. Don't say things like that.[n][w][e]-##
+[s]Тебе не нужно много мне рассказывать...[n]Достаточно всего лишь нескольких[n]подробностей об Акихико-семпае.[n][w][e]
+##-[s]You don't have to tell me much... Just[n]a few details about Akihiko-senpai[n]would do.[n][w][e]-##
+[s]Его любимые блюда, его тип девушки, то, как[n]он проводит свои выходные, и...[n][w][e]
+##-[s]His favorite foods, his type of girl,[n]how he spends his days off, and...[n][w][e]-##
+
+[msg MSG_4B_NPC006_01 [Male Student]]
+[s]Чувак, в этой школе есть несколько[n]действительно горячих цыпочек...[n][w][e]
+##-[s]Dude, there are some seriously hot[n]chicks at this school...[n][w][e]-##
+[s]К сожалению, это означает, что за них будет[n]жесткая конкуренция.[n][w][e]
+##-[s]Unfortunately, that means there will[n]be fierce competition for them.[n][w][e]-##
+[s]Тебе лучше сделать свой ход пораньше, если[n]хочешь попробовать.[n][w][e]
+##-[s]You better make your move early if you[n]want a shot at one.[n][w][e]-##
+
+[msg MSG_4B_NPC006_01_G [Female Student]]
+[s]*вздох* Акихико-семпай оооочень горячий.[n][w][e]
+##-[s]*sigh* Akihiko-senpai is soooo hot.[n][w][e]-##
+[s]Он супер сильный, и стойкий, и... О, мне[n]кажется, я влюблена![n][w][e]
+##-[s]He's super strong, and stoic, and...[n]Ooh, I think I'm in love![n][w][e]-##
+[s]Я бы хотела узнать его получше, но он[n]закрыт для всех девушек...[n][w][e]
+##-[s]I'd like to get to know him better,[n]but he's off-limits to all the girls...[n][w][e]-##
+
+[msg MSG_5A_NPC006_01 [Male Student]]
+[s]Эй, ты же знаешь, насколько популярна[n]Юкари, верно?[n][w][e]
+##-[s]Hey, you know how popular Yukari is,[n]right?[n][w][e]-##
+
+[sel MSG_5A_NPC006_01S top]
+[s]"Она популярна?"[e]
+##-[s]"She's popular?"[e]-##
+[s]"Я понятия не имел".[e]
+##-[s]"I had no idea."[e]-##
+
+[msg MSG_5A_NPC006_01A [Male Student]]
+[s]Чувак, как ты мог этого не знать?[n][w][e]
+##-[s]Dude, how could you not know that?[n][w][e]-##
+[s]Вы двое живете в одном общежитии![n][w][e]
+##-[s]You two live in the same dorm![n][w][e]-##
+[s]Если вы не используете это в своих[n]интересах, вы можете пожалеть об этом[n]позже.[n][w][e]
+##-[s]If you don't use that to your[n]advantage, you might regret it[n]later.[n][w][e]-##
+
+[msg MSG_5A_NPC006_01_G [Female Student]]
+[s]Эй, ты живешь в том же общежитии, что и[n]Акихико-семпай, не так ли?[n][w][e]
+##-[s]Hey, you live in the same dorm[n]as Akihiko-senpai, don't you?[n][w][e]-##
+[s]Значит ли это, что вы видитесь с ним по[n]вечерам в будние дни и в выходные?[n][w][e]
+##-[s]Does that mean you see him on weekday[n]nights and weekends?[n][w][e]-##
+
+[sel MSG_5A_NPC006_01S_G top]
+[s]"Ага".[e]
+##-[s]"Yep."[e]-##
+[s]"И что с того?"[e]
+##-[s]"So what?"[e]-##
+
+[msg MSG_5A_NPC006_01A_G [Female Student]]
+[s]Чувак, это так здорово.[n][w][e]
+##-[s]Man, that's so awesome.[n][w][e]-##
+[s]Я имею в виду, что в школе, приближаться к[n]Акихико-семпаю означает смертный приговор[n]от других его поклонников.[n][w][e]
+##-[s]I mean, at school, going anywhere near[n]Akihiko-senpai means a death sentence[n]from his other fans.[n][w][e]-##
+[s]Но в общежитии ты можешь говорить с ним[n]все, что захочешь. Это как-то[n]несправедливо.[n][w][e]
+##-[s]But in the dorms, you can talk to him[n]all you want. It's kind of unfair.[n][w][e]-##
+[s]О, извините! Не то чтобы я ревновал или[n]что-то в этом роде...[n][w][e]
+##-[s]Oh, sorry! It's not like I'm jealous[n]or anything...[n][w][e]-##
+
+[msg MSG_5B_NPC006_01 [Male Student]]
+[s]Ты, кажется, знаешь Мицуру-сан, но...[n][w][e]
+##-[s]You seem to know Mitsuru-san, but...[n][w][e]-##
+[s]...ты ведь не собираешься преследовать ее,[n]не так ли?[n][w][e]
+##-[s]...you're not going after her,[n]are you?[n][w][e]-##
+
+[sel MSG_5B_NPC006_01S top]
+[s]"Я уверен в этом".[e]
+##-[s]"I sure am."[e]-##
+[s]"Ни за что".[e]
+##-[s]"No way."[e]-##
+
+[msg MSG_5B_NPC006_01A [Male Student]]
+[s]Я не думаю, что это хорошая идея, так как[n]она живет в совершенно другом мире, чем все[n]мы.[n][w][e]
+##-[s]I don't think that's a good idea,[n]since she lives in a totally different[n]world than the rest of us.[n][w][e]-##
+[s]У меня такое чувство, что если парень[n]попытается выкинуть что-нибудь смешное, ее[n]телохранители свернут ему шею.[n][w][e]
+##-[s]I have a feeling that if a guy tries[n]something funny, her bodyguards will[n]break his neck.[n][w][e]-##
+
+[msg MSG_5B_NPC006_01B [Male Student]]
+[s]Вот что я подумал. Ты не можешь быть[n]настолько глупой.[n][w][e]
+##-[s]That's what I thought. You can't be[n]that stupid.[n][w][e]-##
+
+[msg MSG_5B_NPC006_01_G [Female Student]]
+[s]Похоже, ты довольно близок к[n]Акихико-семпаю.[n][w][e]
+##-[s]It seems like you're pretty close to[n]Akihiko-senpai.[n][w][e]-##
+[s]...Ты ведь не собираешься преследовать его,[n]не так ли?[n][w][e]
+##-[s]...You're not going after him,[n]are you?[n][w][e]-##
+
+[sel MSG_5B_NPC006_01S_G top]
+[s]"Я уверен в этом".[e]
+##-[s]"I sure am."[e]-##
+[s]"Ни за что".[e]
+##-[s]"No way."[e]-##
+
+[msg MSG_5B_NPC006_01A_G [Female Student]]
+[s]Ха-ха-ха, ты, должно быть, издеваешься надо[n]мной![n][w][e]
+##-[s]Hahaha, you've got to be kidding me![n][w][e]-##
+[s]Неважно, насколько вы с ним дружны,[n]Акихико-семпай принадлежит всем.[n][w][e]
+##-[s]No matter how friendly you are with him,[n]Akihiko-senpai belongs to everybody.[n][w][e]-##
+[s]Таковы правила, так что тебе следует[n]сдаться прямо сейчас.[n][w][e]
+##-[s]Those are the rules, so you should give[n]up now.[n][w][e]-##
+
+[msg MSG_5B_NPC006_01B_G [Female Student]]
+[s]Я знал это. В конце концов, Акихико-семпай[n]- собственность каждого.[n][w][e]
+##-[s]I knew it. Akihiko-senpai is everyone's[n]property, after all.[n][w][e]-##
+
+[msg MSG_KAIDAN_NPC006_01 [Male Student]]
+[s]Призраки могут быть жуткими, но они не[n]должны быть такими, верно?[n][w][e]
+##-[s]Ghosts can be creepy, but they don't[n]have to be, right?[n][w][e]-##
+[s]Если бы там был призрак, похожий на милую[n]девушку, я бы не возражал, чтобы он меня[n]преследовал.[n][w][e]
+##-[s]If there was a ghost that looked like[n]a cute girl, I wouldn't mind being[n]haunted by it.[n][w][e]-##
+[s]...До тех пор, пока она не поглотит мою[n]душу или что-то в этом роде.[n][w][e]
+##-[s]...As long as she doesn't devour my[n]soul or somethin'.[n][w][e]-##
+
+[msg MSG_KAIDAN_NPC006_01_G [Female Student]]
+[s]Надеюсь, я никогда не увижу призрака. Я бы[n]так испугалась...[n][w][e]
+##-[s]I hope I never see a ghost. I'd be so[n]freaked out...[n][w][e]-##
+[s]Но держу пари, Акихико-семпай не дрогнул бы[n]ни на мгновение![n][w][e]
+##-[s]But I bet Akihiko-senpai wouldn't flinch[n]for a moment![n][w][e]-##
+[s]Чувак, было бы здорово, если бы[n]Акихико-семпай мог быть со мной, чтобы[n]защитить меня...[n][w][e]
+##-[s]Man, it'd be awesome if Akihiko-senpai [n]could be with me to protect me...[n][w][e]-##
+
+[msg MSG_6A_NPC006_01 [Male Student]]
+[s]Ну, я проверил всех девушек...[n][w][e]
+##-[s]Well, I've checked out all the girls...[n][w][e]-##
+[s]...и, чувак, в этой школе есть несколько[n]красоток.[n][w][e]
+##-[s]...and, man, there are some hotties[n]at this school.[n][w][e]-##
+
+[msg MSG_6A_NPC006_01_G [Female Student]]
+[s]Ты знаешь, как Акихико-семпай всегда с[n]Мицуру-семпаем?[n][w][e]
+##-[s]You know how Akihiko-senpai is always[n]with Mitsuru-senpai?[n][w][e]-##
+[s]Даже поклонники Акихико-сэмпая не могут[n]противостоять Мицуру-сэмпаю.[n][w][e]
+##-[s]Even Akihiko-senpai's fans can't stand[n]up to Mitsuru-senpai.[n][w][e]-##
+[s]Она особенная. Это несправедливо, но мы[n]ничего не можем с этим поделать.[n][w][e]
+##-[s]She's special. It's not fair, but there's[n]nothing we can do about it.[n][w][e]-##
+[s]Хотя она - единственное исключение.[n][w][e]
+##-[s]She's the only exception, though.[n][w][e]-##
+[s]Ты и Юкари-сан - это совсем другая[n]история...[n][w][e]
+##-[s]You and Yukari-san are a different[n]story...[n][w][e]-##
+
+[msg MSG_6B_NPC006_01 [Male Student]]
+[s]Я видел девушку в готическом костюме лолиты[n]перед вокзалом...[n][w][e]
+##-[s]I saw a girl in gothic lolita getup[n]in front of the station...[n][w][e]-##
+[s]Чувак, она была такой милой, что мне[n]пришлось подойти и пригласить ее на[n]свидание![n][w][e]
+##-[s]Man, she was so cute, I had to go[n]up and ask her out![n][w][e]-##
+[s]Я сказал: "Эй, хочешь сходить в кино или[n]еще куда-нибудь?"[n][w][e]
+##-[s]I said, "Hey, wanna catch a movie[n]or somethin'?"[n][w][e]-##
+[s]Но она даже не пошевелилась, только дышала![n]Она даже не потрудилась посмотреть в мою[n]сторону...[n][w][e]
+##-[s]But she didn't even move, except for[n]breathing! She didn't even bother[n]looking my way...[n][w][e]-##
+[s]Мое эго все еще не восстановилось...[n][w][e]
+##-[s]My ego still hasn't recovered...[n][w][e]-##
+
+[msg MSG_6B_NPC006_01_G [Female Student]]
+[s]Акихико-семпай не просто хороший боксер, он[n]еще и умный.[n][w][e]
+##-[s]Akihiko-senpai isn't just a good boxer,[n]he's smart, too.[n][w][e]-##
+[s]Он ооочень идеален.[n][w][e]
+##-[s]He's sooo perfect.[n][w][e]-##
+[s]Если бы только не его чокнутые фанаты, я бы[n]догнал его через минуту.[n][w][e]
+##-[s]If only it weren't for his freaky fans,[n]I'd be after him in a minute.[n][w][e]-##
+[s]Я мог бы попытаться за их спиной, но если[n]бы они узнали, мне было бы очень больно...[n][w][e]
+##-[s]I could try behind their backs, but if[n]they found out, I'd be in a world[n]of pain...[n][w][e]-##
+
+[msg MSG_7A_NPC006_01 [Male Student]]
+[s]Ты слышал о той паре, которую они нашли[n]вместе?[n][w][e]
+##-[s]You hear about that couple they found[n]together?[n][w][e]-##
+[s]Часть меня рада, что это был не я...[n][w][e]
+##-[s]Part of me is glad it wasn't me...[n][w][e]-##
+[s]...а другая часть ревнует, так как у меня[n]никогда не было девушки.[n][w][e]
+##-[s]...and the other part is jealous, since[n]I've never had a girlfriend.[n][w][e]-##
+
+[msg MSG_7A_NPC006_01_G [Female Student]]
+[s]Ты знаешь, как все говорят об этой паре?[n][w][e]
+##-[s]You know how everyone's talking about[n]the couple?[n][w][e]-##
+[s]Такие странные вещи пугают меня, но я был[n]бы в порядке, если бы был с[n]Акихико-семпаем.[n][w][e]
+##-[s]Weird stuff like that freaks me out,[n]but I'd be fine if I was with[n]Akihiko-senpai.[n][w][e]-##
+[s]На самом деле, если бы я могла остаться с[n]ним наедине, я была бы только за.[n][w][e]
+##-[s]In fact, if I can be alone with him,[n]I'd be all for it.[n][w][e]-##
+
+[msg MSG_7B_NPC006_01 [Male Student]]
+[s]Чувак, на днях я искал цыпочек на вокзале и[n]не смог найти ни одной.[n][w][e]
+##-[s]Dude, I was scopin' for chicks[n]the other day at the station,[n]and I couldn't find any.[n][w][e]-##
+[s]Возможно ли, что это единственная школа с[n]горячими цыпочками?[n][w][e]
+##-[s]Is it possible that this is the only[n]school with hot chicks?[n][w][e]-##
+
+[msg MSG_7B_NPC006_01_G [Female Student]]
+[s]Я так расстроена, что не смогу увидеть[n]Акихико-семпая этим летом.[n][w][e]
+##-[s]I'm so depressed to think I won't be[n]able to see Akihiko-senpai over the[n]summer.[n][w][e]-##
+[s]Я завидую людям, живущим в общежитиях. Ты[n]увидишь Акихико-семпая, несмотря ни на что.[n][w][e]
+##-[s]I'm jealous of the people living in the[n]dorms. You get to see Akihiko-senpai[n]no matter what.[n][w][e]-##
+[s]Ты, Мицуру-семпай, Юкари-сан, Фуука-сан...[n][w][e]
+##-[s]You, Mitsuru-senpai, Yukari-san,[n]Fuuka-san...[n][w][e]-##
+[s]Мне все равно, кто это - не поменяется ли[n]кто-нибудь из вас со мной местами?[n][w][e]
+##-[s]I don't care who it is--won't one of[n]you switch places with me?[n][w][e]-##
+
+[msg MSG_9A_NPC006_01 [Male Student]]
+[s]Какого черта? Довольно редко такая красотка[n]переезжает сюда в это время года.[n][w][e]
+##-[s]What the heck? It's pretty rare for[n]a hottie like that to transfer in at[n]this time of the year.[n][w][e]-##
+
+[sel MSG_9A_NPC006_01S top]
+[s]"Хм?"[e]
+##-[s]"Huh?"[e]-##
+[s]"О ком ты говоришь?"[e]
+##-[s]"Who are you talking about?"[e]-##
+
+[msg MSG_9A_NPC006_01A [Male Student]]
+[s]Чувак, получи подсказку! Я говорю об[n]Айгисе![n][w][e]
+##-[s]Dude, get a clue! I'm talkin' about[n]Aigis![n][w][e]-##
+[s]Такая таинственная малышка... Я хочу знать[n]о ней все, начиная с ее размеров![n][w][e]
+##-[s]A mysterious babe like that...[n]I want to know everything about her,[n]starting with her measurements![n][w][e]-##
+
+[msg MSG_9A_NPC006_01_G [Female Student]]
+[s]Я думаю, что собираюсь тайно принести[n]Акихико-семпаю немного еды.[n][w][e]
+##-[s]I think I'm going to secretly bring[n]Akihiko-senpai some food.[n][w][e]-##
+[s]Я не должен этого делать, но мне плевать на[n]правила.[n][w][e]
+##-[s]I'm not supposed to, but I don't care[n]about the rules.[n][w][e]-##
+[s]Так... Ты знаешь, какая любимая еда[n]Акихико-семпая?[n][w][e]
+##-[s]So... Do you know what Akihiko-senpai's[n]favorite food is?[n][w][e]-##
+
+[sel MSG_9A_NPC006_01S_G top]
+[s]"Миски с говядиной".[e]
+##-[s]"Beef bowls."[e]-##
+[s]"Сладости".[e]
+##-[s]"Sweets."[e]-##
+[s]"Это секрет".[e]
+##-[s]"It's a secret."[e]-##
+
+[msg MSG_9A_NPC006_01A_G [Female Student]]
+[s]Вау, так он любит миски с говядиной? Эй,[n]да, ему понадобится выносливость.[n][w][e]
+##-[s]Wow, so he likes beef bowls?[n]Hey, yeah, he would need stamina.[n][w][e]-##
+[s]В любом случае, спасибо, что сказал мне.[n]Ваше сотрудничество очень много значит.[n][w][e]
+##-[s]Anyway, thanks for telling me.[n]Your cooperation means a lot.[n][w][e]-##
+[s]О, и не рассказывай об этом другим[n]девушкам.[n][w][e]
+##-[s]Oh, and don't tell the other girls[n]about this.[n][w][e]-##
+[s]И не копируй меня, принося ему еду тоже![n][w][e]
+##-[s]And don't copy me by bringing him[n]food, too![n][w][e]-##
+
+[msg MSG_9A_NPC006_01B_G [Female Student]]
+[s]Реааааалли? Он любит сладости? Не то, чего[n]я ожидал...[n][w][e]
+##-[s]Reaaaaally? He likes sweets?[n]Not what I expected...[n][w][e]-##
+[s]В любом случае, спасибо, что сказал мне.[n]Ваше сотрудничество очень много значит.[n][w][e]
+##-[s]Anyway, thanks for telling me.[n]Your cooperation means a lot.[n][w][e]-##
+[s]О, и не рассказывай об этом другим[n]девушкам.[n][w][e]
+##-[s]Oh, and don't tell the other girls[n]about this.[n][w][e]-##
+[s]И не копируй меня, принося ему еду тоже![n][w][e]
+##-[s]And don't copy me by bringing him[n]food, too![n][w][e]-##
+
+[msg MSG_9A_NPC006_01C_G [Female Student]]
+[s]Что? Ты меня бесишь![n][w][e]
+##-[s]What? You're pissing me off![n][w][e]-##
+[s]Не становись самоуверенным только потому,[n]что ты живешь в одном общежитии с ним![n][w][e]
+##-[s]Don't get cocky just because you live[n]in the same dorm as him![n][w][e]-##
+
+[msg MSG_9B_NPC006_01 [Male Student]]
+[s]До меня дошли слухи, что ты ездил в[n]загородный дом Мицуру-сан.[n][w][e]
+##-[s]I heard a rumor that you went to[n]Mitsuru-san's vacation home.[n][w][e]-##
+[s]Не только это, но и Юкари, Фуука и Айгис[n]тоже были там...[n][w][e]
+##-[s]Not only that, but Yukari, Fuuka, and[n]Aigis were there, too...[n][w][e]-##
+[s]И лучшая часть этого слуха заключается в[n]том, что якобы все они были в купальных[n]костюмах...!? Это правда?![n][w][e]
+##-[s]And the best part of this rumor is,[n]supposedly they were all wearing[n]bathing suits...!? Is that true!?[n][w][e]-##
+
+[sel MSG_9B_NPC006_01S top]
+[s]"Каждый кусочек этого".[e]
+##-[s]"Every bit of it."[e]-##
+[s]"Это всего лишь слухи".[e]
+##-[s]"It's just a rumor."[e]-##
+
+[msg MSG_9B_NPC006_01A [Male Student]]
+[s]Ни за что! Ты серьезно?!...Подожди, не[n]говори больше ничего. Я не могу этого[n]вынести![n][w][e]
+##-[s]No way! Are you serious!?[n]...Wait, don't say anymore.[n]I can't take it![n][w][e]-##
+[s]Почему?! Почему тебе так чертовски[n]повезло?![n][w][e]
+##-[s]Why!? Why are you so damn lucky!?[n][w][e]-##
+
+[msg MSG_9B_NPC006_01B [Male Student]]
+[s]Я так и думал. Это слишком хорошо, чтобы[n]быть правдой.[n][w][e]
+##-[s]I thought so. That's way too good[n]to be true.[n][w][e]-##
+
+[msg MSG_9B_NPC006_01_G [Female Student]]
+[s]Я слышал по слухам, что ты ездила в летний[n]дом Мицуру-семпая с Акихико-семпаем![n][w][e]
+##-[s]I heard from the grapevine that you went[n]to Mitsuru-senpai's summer home with[n]Akihiko-senpai![n][w][e]-##
+[s]Есть много вещей, которые я хотел бы тебе[n]сказать, но сначала я должен спросить...[n][w][e]
+##-[s]There are a lot of things I'd like to[n]say to you, but first, I have to ask...[n][w][e]-##
+[s]Вы его сфотографировали, верно?[n][w][e]
+##-[s]You took pictures of him, right?[n][w][e]-##
+
+[sel MSG_9B_NPC006_01S_G top]
+[s]"Конечно, я это сделал".[e]
+##-[s]"Sure I did."[e]-##
+[s]"Я забыл".[e]
+##-[s]"I forgot to."[e]-##
+
+[msg MSG_9B_NPC006_01A_G [Female Student]]
+[s]Да! Не могли бы вы сделать для меня[n]несколько отпечатков?[n][w][e]
+##-[s]Yess! Could you make some prints for me?[n][w][e]-##
+[s]...Эй, у тебя нет никаких фотографий! Не[n]лги! Тьфу...![n][w][e]
+##-[s]...Hey, you don't have any pictures![n]Don't lie! Argh...![n][w][e]-##
+
+[msg MSG_9B_NPC006_01B_G [Female Student]]
+[s]Ты поехала в отпуск с Акихико-семпаем И[n]держишь его при себе?[n][w][e]
+##-[s]You went on vacation with Akihiko-senpai,[n]AND you're keeping him to yourself?[n][w][e]-##
+[s]Невероятно. Это невероятно. О, ты меня[n]бесишь...[n][w][e]
+##-[s]Unbelievable. This is unbelievable.[n]Ooh, you piss me off...[n][w][e]-##
+
+[msg MSG_10A_NPC006_01 [Male Student]]
+[s]Чувак, почему Фестиваль культуры был[n]отменен...?[n][w][e]
+##-[s]Dude, why did the Culture Festival[n]hafta be canceled...?[n][w][e]-##
+[s]Для меня это была прекрасная возможность[n]приударить за свежим мясом...[n][w][e]
+##-[s]It was the perfect opportunity for me[n]to hit on some fresh meat...[n][w][e]-##
+[s]Теперь все мои потрясающие подборки пойдут[n]прахом.[n][w][e]
+##-[s]Now, all my awesome pick up lines will[n]go to waste.[n][w][e]-##
+
+[msg MSG_10A_NPC006_01_G [Female Student]]
+[s]Я так рада, что Фестиваль культуры отменен.[n][w][e]
+##-[s]I'm so glad the Culture Festival is[n]canceled.[n][w][e]-##
+[s]Я имею в виду, было бы так досадно, если бы[n]девушки из-за пределов Геккукана тоже[n]начали заискивать перед Акихико-семпаем.[n][w][e]
+##-[s]I mean, it would be so annoying if girls[n]from outside Gekkoukan started fawning[n]over Akihiko-senpai, too.[n][w][e]-##
+[s]Чем меньше соперников, тем лучше.[n][w][e]
+##-[s]The fewer rivals, the better.[n][w][e]-##
+
+[msg MSG_10A_NPC006_01_G2 [Female Student]]
+[s]Не слишком ли ты подружился с[n]Акихико-семпаем в эти дни?[n][w][e]
+##-[s]Aren't you getting a little too friendly[n]with Akihiko-senpai these days?[n][w][e]-##
+[s]Могло ли это быть... Вы двое...!?[n][w][e]
+##-[s]Could it be... Are you two...!?[n][w][e]-##
+[s]...Не обращай внимания. Это невозможно.[n][w][e]
+##-[s]...Never mind. That's impossible.[n][w][e]-##
+
+[msg MSG_10B_NPC006_01 [Male Student]]
+[s]Чувак, торговый центр отстой.[n][w][e]
+##-[s]Dude, the mall sucks.[n][w][e]-##
+[s]Я собираюсь вернуться на свое старое место,[n]чтобы попытаться подцепить цыпочек.[n][w][e]
+##-[s]I'm gonna go back to my old place to[n]try and pick up chicks.[n][w][e]-##
+
+[msg MSG_10B_NPC006_01_G [Female Student]]
+[s]Парень из другой школы приставал ко мне на[n]днях.[n][w][e]
+##-[s]A guy from another school was hitting[n]on me the other day.[n][w][e]-##
+[s]Он не был милым или что-то в этом роде.[n]Далеко не на уровне Акихико-семпая.[n][w][e]
+##-[s]He wasn't cute or anything. Nowhere[n]near Akihiko-senpai's level.[n][w][e]-##
+[s]На самом деле, не так много парней на[n]уровне Акихико-семпая.[n][w][e]
+##-[s]Actually, there aren't many guys [n]who are at Akihiko-senpai's level.[n][w][e]-##
+
+[msg MSG_10B_NPC006_01_G2 [Female Student]]
+[s]Похоже, в последнее время ты часто бываешь[n]с Акихико-семпаем. [n][w][e]
+##-[s]It seems like you're with Akihiko-senpai[n]a lot these days. [n][w][e]-##
+[s]Ты прекрасно знаешь, что он действительно[n]популярен среди здешних девушек, верно?[n][w][e]
+##-[s]You know full well that he's really[n]popular with the girls here, right?[n][w][e]-##
+[s]Будьте осторожны, чтобы вас не вызвали на[n]"встречу" с фанатами хардкора...[n][w][e]
+##-[s]Be careful not to get called into a[n]"meeting" with the hardcore fans...[n][w][e]-##
+
+[msg MSG_11A_NPC006_01 [Male Student]]
+[s]Чувак, я ходил в среднюю школу, чтобы[n]проверить первокурсников на следующий[n]год...[n][w][e]
+##-[s]Dude, I went to the middle school to[n]check out next year's freshmen...[n][w][e]-##
+[s]...и копы пришли за мной! Ты можешь в это[n]поверить?[n][w][e]
+##-[s]...and the cops came after me![n]Can you believe that?[n][w][e]-##
+[s]Я сбежал, но мне не удалось посмотреть,[n]были ли там какие-нибудь красотки.[n][w][e]
+##-[s]I got away, but I didn't get to see if[n]there were any hotties.[n][w][e]-##
+
+[msg MSG_11A_NPC006_01_G [Female Student]]
+[s]Тебе не кажется, что Акихико-семпай в наши[n]дни еще горячее?[n][w][e]
+##-[s]Don't you think Akihiko-senpai[n]is even hotter these days?[n][w][e]-##
+[s]Он всегда был милым, но сейчас в нем есть[n]что-то особенное.[n][w][e]
+##-[s]He was always cute, but he has this[n]certain air to him now.[n][w][e]-##
+[s]Он такой горячий!! Я бы хотела быть его[n]девушкой...[n][w][e]
+##-[s]He's so hot!! I wish I could be his[n]girlfriend...[n][w][e]-##
+
+[msg MSG_11A_NPC006_01_G2 [Female Student]]
+[s]У какой-то девчонки хватило наглости[n]сказать Акихико-семпаю, что он ей нравится.[n][w][e]
+##-[s]Some girl had the nerve to tell[n]Akihiko-senpai she liked him.[n][w][e]-##
+[s]Конечно, ей отказали. А то.[n][w][e]
+##-[s]Of course, she got rejected. Duh.[n][w][e]-##
+[s]Но причина, по которой он отверг ее,[n]заключалась в том, что "У меня уже есть[n]кто-то"...[n][w][e]
+##-[s]But the reason he gave for rejecting[n]her was, "I already have someone"...[n][w][e]-##
+[s]...Это просто удобное оправдание, верно?[n]Верно...?[n][w][e]
+##-[s]...That's just a convenient excuse,[n]right? Right...?[n][w][e]-##
+
+[msg MSG_11B_NPC006_01 [Male Student]]
+[s]Чувак! Этот новый студент-переводчик -[n]настоящий магнит для цыпочек![n][w][e]
+##-[s]Dude! That new transfer student is[n]a total chick magnet![n][w][e]-##
+[s]Просто потому, что он другой...[n][w][e]
+##-[s]Just because he's different...[n][w][e]-##
+[s]Блин, это так несправедливо...[n][w][e]
+##-[s]Man, it's so unfair...[n][w][e]-##
+
+[msg MSG_11B_NPC006_01_G [Female Student]]
+[s]В последнее время девочки, похоже, не могут[n]говорить ни о чем, кроме как о переводчице.[n]Честно говоря, мне на самом деле все равно.[n][w][e]
+##-[s]The girls can't seem to talk about[n]anything but the transfer student[n]lately. Honestly, I don't really care.[n][w][e]-##
+[s]Я всегда смотрел только на Акихико-семпая.[n][w][e]
+##-[s]I've only ever had eyes for[n]Akihiko-senpai.[n][w][e]-##
+
+[msg MSG_11B_NPC006_01_G2 [Female Student]]
+[s]У какой-то девчонки хватило наглости[n]сказать Акихико-семпаю, что он ей нравится.[n][w][e]
+##-[s]Some girl had the nerve to tell[n]Akihiko-senpai she liked him.[n][w][e]-##
+[s]Конечно, ей отказали. А то.[n][w][e]
+##-[s]Of course, she got rejected. Duh.[n][w][e]-##
+[s]Но причина, по которой он отверг ее,[n]заключалась в том, что "У меня уже есть[n]кто-то"...[n][w][e]
+##-[s]But the reason he gave for rejecting[n]her was, "I already have someone"...[n][w][e]-##
+[s]...Это просто удобное оправдание, верно?[n]Верно...?[n][w][e]
+##-[s]...That's just a convenient excuse,[n]right? Right...?[n][w][e]-##
+
+[msg MSG_12A_NPC006_01 [Male Student]]
+[s]Чувак, я с нетерпением ждал встречи с[n]некоторыми красотками в этой поездке.[n][w][e]
+##-[s]Dude, I was looking forward to meeting[n]some babes on that trip.[n][w][e]-##
+[s]Но, я думаю, этому не суждено было[n]случиться.[n][w][e]
+##-[s]But, I guess it wasn't meant to be.[n][w][e]-##
+[s]В любом случае, в нашей школе самые горячие[n]цыпочки.[n][w][e]
+##-[s]Our school has the hottest chicks,[n]anyway.[n][w][e]-##
+
+[msg MSG_12A_NPC006_01_G [Female Student]]
+[s]Поездка в Киото была такой веселой.[n][w][e]
+##-[s]The Kyoto trip was so much fun.[n][w][e]-##
+[s]Просто увидеть Акихико-семпая в юкате было[n]достаточно.[n][w][e]
+##-[s]Just getting to see Akihiko-senpai in[n]a yukata was enough.[n][w][e]-##
+[s]Он был намного сексуальнее, чем девушки в[n]своих юкатанах![n][w][e]
+##-[s]He was so much sexier than the girls[n]in their yukatas![n][w][e]-##
+[s]Мой друг сказал мне, что я одержим, но мне[n]все равно.[n][w][e]
+##-[s]My friend told me I'm obsessing,[n]but I don't care.[n][w][e]-##
+
+[msg MSG_12B_NPC006_01 [Male Student]]
+[s]Чувак, ты заметил? Во время Рождества люди[n]флиртуют как сумасшедшие...[n][w][e]
+##-[s]Dude, have you noticed? Around[n]Christmas time, people flirt like[n]crazy...[n][w][e]-##
+[s]И журналы полны сентиментальных картинок.[n]Разве это не перебор?[n][w][e]
+##-[s]And the magazines are filled with[n]sappy pictures. Isn't that overkill?[n][w][e]-##
+[s]Чувак, я бы хотел, чтобы в этом году Санта[n]привел мне подружку...[n][w][e]
+##-[s]Man, I wish this year Santa would[n]bring me a girlfriend...[n][w][e]-##
+
+[msg MSG_12B_NPC006_01_G [Female Student]]
+[s]Рождество так сильно меня угнетает.[n][w][e]
+##-[s]Christmas depresses me so much.[n][w][e]-##
+[s]Хотел бы я провести его с Акихико-семпаем.[n][w][e]
+##-[s]I wish I could spend it with[n]Akihiko-senpai.[n][w][e]-##
+[s]Но его поклонники только усиливают свою[n]бдительность по отношению к нему, следя за[n]тем, чтобы никто не пригласил его на[n]свидание.[n][w][e]
+##-[s]But his fans are only tightening their[n]guard on him, making sure no one asks[n]him out.[n][w][e]-##
+[s]Они такие надоедливые...[n][w][e]
+##-[s]They're so annoying...[n][w][e]-##
+
+[msg MSG_12B_NPC006_01_G2 [Female Student]]
+[s]Я так подавлена. Я услышал кое-что плохое[n]от своего друга.[n][w][e]
+##-[s]I'm so depressed. I heard something bad[n]from my friend.[n][w][e]-##
+[s]Она сказала, что видела Акихико-семпая,[n]который искал подарок для кого-то...[n][w][e]
+##-[s]She said she saw Akihiko-senpai[n]looking for a present for someone...[n][w][e]-##
+[s]На Рождество, во все времена! Может быть, у[n]него есть девушка!?[n][w][e]
+##-[s]At Christmas, of all times! Maybe he[n]has a girlfriend!?[n][w][e]-##
+[s]Но пока ничего не подтверждено... Наверное,[n]я просто делаю поспешные выводы.[n][w][e]
+##-[s]But nothing's been confirmed yet... I'm[n]m probably just jumping to conclusions.[n][w][e]-##
+
+[msg MSG_AfterChristmas_NPC00 [Male Student]]
+[s]Все те люди, которые переспали во время[n]Рождества, просто обманывают самих себя.[n][w][e]
+##-[s]All those people who hooked up during[n]Christmas are just fooling themselves.[n][w][e]-##
+[s]Их отношения не продлятся долго, чувак. Они[n]относятся друг к другу просто как к[n]аксессуару.[n][w][e]
+##-[s]Their relationships won't last, man.[n]They treat each other just like an[n]accessory.[n][w][e]-##
+[s]Чувак, я рад, что тогда ни с кем не[n]связался.[n][w][e]
+##-[s]Man, I'm glad I didn't hook up with[n]anyone around then.[n][w][e]-##
+
+[msg MSG_AfterChristmas_NPC00_2 [Female Student]]
+[s]*вздох* Мне не следовало выходить на улицу[n]одной во время Рождества.[n][w][e]
+##-[s]*sigh* I should never have walked[n]outside alone during Christmas.[n][w][e]-##
+[s]Куда бы вы ни посмотрели в городе, везде,[n]насколько хватает глаз, нет ничего, кроме[n]счастливых пар.[n][w][e]
+##-[s]Everywhere you look in the city, it's[n]nothing but happy couples as far as[n]the eye can see.[n][w][e]-##
+[s]Это действительно заставляет меня желать,[n]чтобы Акихико-семпай был рядом со мной...[n][w][e]
+##-[s]It really makes me wish Akihiko-senpai[n]was by my side...[n][w][e]-##
+
+[msg MSG_1A_NPC006_01 [Male Student]]
+[s]Чувак, меня снова пригласили в этот[n]культ...[n][w][e]
+##-[s]Dude, I was invited into that cult[n]thing again...[n][w][e]-##
+[s]Интересно, кто отвечает за этот беспорядок?[n][w][e]
+##-[s]I wonder who's in charge of that[n]mess?[n][w][e]-##
+[s]Держу пари, он притягивает цыпочек...[n][w][e]
+##-[s]I bet he's a chick magnet...[n][w][e]-##
+
+[msg MSG_1A_NPC006_01_G [Female Student]]
+[s]Что вообще люди делают в культах?[n][w][e]
+##-[s]What do people do in cults, anyway?[n][w][e]-##
+[s]Меня пригласили в один из них, когда я[n]гулял по городу. В зависимости от того, как[n]обстоят дела, я мог бы присоединиться.[n][w][e]
+##-[s]I got invited into one when I was[n]walking around town. Depending on[n]how it is, I might join.[n][w][e]-##
+[s]Например, если бы они могли гарантировать,[n]что я стану девушкой Акихико-семпая...[n][w][e]
+##-[s]Like for example, if they could[n]guarantee I'd get to be Akihiko-[n]senpai's girlfriend...[n][w][e]-##
+
+[msg MSG_1A_NPC006_01_G2 [Female Student]]
+[s]Что вообще люди делают в культах?[n][w][e]
+##-[s]What do people do in cults, anyway?[n][w][e]-##
+[s]Меня пригласили в один из них, когда я[n]гулял по городу. В зависимости от того, как[n]обстоят дела, я мог бы присоединиться.[n][w][e]
+##-[s]I got invited into one when I was[n]walking around town. Depending on[n]how it is, I might join.[n][w][e]-##
+[s]Например, если бы они могли гарантировать,[n]что я стану девушкой Акихико-семпая...[n][w][e]
+##-[s]Like for example, if they could[n]guarantee I'd get to be Akihiko-[n]senpai's girlfriend...[n][w][e]-##
+[s]...Хотя я сомневаюсь, что у ТЕБЯ есть[n]какая-то причина присоединиться. Ты[n]выглядишь довольно счастливой.[n][w][e]
+##-[s]...I doubt there's any reason for[n]YOU to join, though. You look[n]pretty happy.[n][w][e]-##
+
+[msg MSG_1B_NPC006_01 [Male Student]]
+[s]Я не знаю, о чем, черт возьми, я думал, но[n]я начал клеиться к этой цыпочке, у которой[n]Синдром Апатии.[n][w][e]
+##-[s]I don't know what the hell I was[n]thinking, but I started to hit on this[n]chick who has Apathy Syndrome.[n][w][e]-##
+[s]Она просто игнорировала меня, что бы я ни[n]говорил. Она продолжала повторять[n]"Никс-сама" снова и снова.[n][w][e]
+##-[s]She just ignored me, no matter what I[n]said. She kept repeating, "Nyx-sama,"[n]over and over.[n][w][e]-##
+[s]Этот парень, Никс, должно быть, перевернул[n]ее мир.[n][w][e]
+##-[s]This guy Nyx must've rocked her world.[n][w][e]-##
+
+[msg MSG_1B_NPC006_01_G [Female Student]]
+[s]Неужели этот "Никс-сама" настолько красив,[n]что он полностью очаровал бы вас?[n][w][e]
+##-[s]Is this "Nyx-sama" so handsome that he'd[n]completely captivate you?[n][w][e]-##
+[s]Он никак не может быть таким милым, как[n]Акихико-семпай, но мне определенно[n]интересно.[n][w][e]
+##-[s]There's no way he could be as cute as[n]Akihiko-senpai, but I'm definitely[n]interested.[n][w][e]-##
+[s]Я имею в виду, кажется почти невозможным[n]договориться с Акихико-семпаем... может[n]быть, я пойду за Никс-сама.[n][w][e]
+##-[s]I mean, it seems nearly impossible to[n]get with Akihiko-senpai... maybe I'll[n]go for Nyx-sama.[n][w][e]-##
+
+[msg MSG_3A_NPC006_01 [Male Student]]
+[s]Скоро выпускной. Но преследовать любого,[n]кто уходит, - пустая трата времени.[n][w][e]
+##-[s]Graduation is coming up. But, it's a[n]waste of time to pursue anyone who's[n]leaving.[n][w][e]-##
+[s]Следующий год тоже будет трудным, чувак![n]Эти горячие цыпочки недолго останутся[n]одинокими![n][w][e]
+##-[s]Next year will be tough too, man![n]Those hot chicks won't stay single[n]for long![n][w][e]-##
+[s]Вам лучше начать планировать прямо сейчас![n][w][e]
+##-[s]You better start planning now![n][w][e]-##
+
+[msg MSG_3A_NPC006_01_G [Female Student]]
+[s]... Акихико-семпай заканчивает школу...[n][w][e]
+##-[s]...Akihiko-senpai is graduating...[n][w][e]-##
+[s]Все его поклонники сейчас действительно[n]расстроены.[n][w][e]
+##-[s]All of his fans are really down[n]right now.[n][w][e]-##
+[s]Я всегда думал, что они раздражают, но я[n]согласен с ними, когда дело доходит до[n]этого.[n][w][e]
+##-[s]I always thought they were annoying,[n]but I agree with them when it comes[n]to this.[n][w][e]-##
+[s]Но неважно. Я собираюсь оставаться его[n]поклонницей, даже когда он будет учиться в[n]колледже.[n][w][e]
+##-[s]But whatever. I'm going to keep being[n]his fan even when he's in college.[n][w][e]-##
+
+[msg MSG_3A_NPC006_01_G2 [Female Student]]
+[s]О боже, послушай это... У Акихико-семпая[n]есть девушка![n][w][e]
+##-[s]Oh my gosh, listen to this...[n]Akihiko-senpai has a girlfriend![n][w][e]-##
+[s]Я не знаю, кто это, но я так[n]разочарована...[n][w][e]
+##-[s]I don't know who it is, but I'm so[n]disappointed...[n][w][e]-##
+[s]...Но если это делает его счастливым, я[n]должен болеть за него.[n][w][e]
+##-[s]...But if it makes him happy,[n]I have to root for him.[n][w][e]-##
+[s]Вы, кажется, с ним хорошие друзья, но вам[n]тоже нужно подбадривать его.[n][w][e]
+##-[s]You seem to be good friends with him, [n]but you need to cheer him on, too.[n][w][e]-##
+
+[msg MSG_4A_NPC007_01 [Male Student]]
+[s]Сидеть на диете - отстой.[n][w][e]
+##-[s]Being on a diet sucks.[n][w][e]-##
+[s]Может быть, ты не заметил, но я выгляжу[n]иначе, чем раньше.[n][w][e]
+##-[s]Maybe you didn't notice, but I look[n]different than I used to.[n][w][e]-##
+
+[msg MSG_4B_NPC007_01 [Male Student]]
+[s]Когда ты идешь в новую школу, тебе тоже[n]приходится беспокоиться о том, где ты[n]будешь сидеть.[n][w][e]
+##-[s]When you go to a new school, you have[n]to worry about where you'll sit, too.[n][w][e]-##
+[s]Было бы отстойно, если бы ты оказался в[n]первом ряду.[n][w][e]
+##-[s]It would suck if you ended up in the[n]front row.[n][w][e]-##
+
+[msg MSG_5A_NPC007_01 [Male Student]]
+[s]Это отстой - пытаться завести новых друзей,[n]когда ты переводишься...[n][w][e]
+##-[s]It sucks trying to make new friends[n]when you transfer...[n][w][e]-##
+[s]Вы должны помнить имена всех, и вы[n]действительно не можете отказаться от их[n]предложений.[n][w][e]
+##-[s]You have to remember everybody's name,[n]and you can't really say no to their[n]offers.[n][w][e]-##
+
+[msg MSG_5B_NPC007_01 [Male Student]]
+[s]Экзамены - отстой, не так ли?[n][w][e]
+##-[s]Exams suck, don't they?[n][w][e]-##
+[s]Вам нужно так много учиться, и ваш[n]результат будет опубликован...[n][w][e]
+##-[s]You have to study so much and your[n]score gets posted...[n][w][e]-##
+[s]А если ты поступишь плохо, все будут[n]смеяться над тобой.[n][w][e]
+##-[s]And if you do bad, everyone will laugh[n]at you.[n][w][e]-##
+
+[msg MSG_6A_NPC007_01 [Male Student]]
+[s]Слухи - отстой, чувак.[n][w][e]
+##-[s]Rumors suck, man.[n][w][e]-##
+[s]Эта история о девочке, которая упала в[n]обморок, уже разнеслась по всей школе.[n][w][e]
+##-[s]That one about the girl who collapsed[n]is already all over the school.[n][w][e]-##
+[s]Надеюсь, никто не распространяет обо мне[n]никаких слухов.[n][w][e]
+##-[s]I hope no one spreads any rumors about[n]me.[n][w][e]-##
+
+[msg MSG_6B_NPC007_01 [Male Student]]
+[s]Должно быть, быть хулиганом - полный[n]отстой...[n][w][e]
+##-[s]It must suck to be a bully...[n][w][e]-##
+[s]Ты должен притворяться милым, чтобы никто[n]ничего не заподозрил.[n][w][e]
+##-[s]You have to pretend to be nice so no[n]one gets suspicious.[n][w][e]-##
+[s]И если кто-то узнает, тебе придется быть с[n]ними еще любезнее.[n][w][e]
+##-[s]And if someone finds out, you'd have[n]to be even nicer to them.[n][w][e]-##
+
+[msg MSG_7A_NPC007_01 [Male Student]]
+[s]Должно быть, это отстойно - быть без[n]сознания...[n][w][e]
+##-[s]It must suck being unconscious...[n][w][e]-##
+[s]Я имею в виду, ты даже не знаешь,[n]проснешься ты или нет.[n][w][e]
+##-[s]I mean, you don't even know if you'll[n]wake up or not.[n][w][e]-##
+
+[msg MSG_7B_NPC007_01 [Male Student]]
+[s]Лето - отстой, чувак.[n][w][e]
+##-[s]Summer sucks, man.[n][w][e]-##
+[s]Я так сильно потею, что моя рубашка[n]промокает насквозь.[n][w][e]
+##-[s]I sweat so much my shirt gets drenched.[n][w][e]-##
+
+[msg MSG_9A_NPC007_01 [Male Student]]
+[s]Должно быть, это отстой - быть "новенькой".[n][w][e]
+##-[s]It must suck to be the "new girl."[n][w][e]-##
+[s]Все парни пристают к тебе и сразу же[n]оказывают на тебя давление.[n][w][e]
+##-[s]All the guys hit on you and pressure[n]you right away.[n][w][e]-##
+[s]Но, Айгис-сан, кажется, в порядке...[n][w][e]
+##-[s]But, Aigis-san seems fine...[n][w][e]-##
+
+[msg MSG_9A_NPC007_01_G [Male Student]]
+[s]Должно быть, это отстой - быть "новенькой".[n][w][e]
+##-[s]It must suck to be the "new girl."[n][w][e]-##
+[s]Все парни пристают к тебе и сразу же[n]оказывают на тебя давление.[n][w][e]
+##-[s]All the guys hit on you and pressure[n]you right away.[n][w][e]-##
+[s]Должно быть, тебе тоже было паршиво, когда[n]ты перевелся, как Айгис.[n][w][e]
+##-[s]It must have sucked for you too when[n]you transferred in, like Aigis.[n][w][e]-##
+
+[msg MSG_9B_NPC007_01 [Male Student]]
+[s]Фестиваль культуры - это отстой, тебе не[n]кажется?[n][w][e]
+##-[s]The Culture Festival kinda sucks,[n]don't you think?[n][w][e]-##
+[s]Я имею в виду, что всегда есть один[n]человек, который так увлечен и заставляет[n]всех остальных участвовать.[n][w][e]
+##-[s]I mean, there's always that one person[n]who's so gung ho, and makes everyone[n]else get involved.[n][w][e]-##
+[s]Кстати, этот человек - НЕ я.[n][w][e]
+##-[s]By the way, that person is NOT me.[n][w][e]-##
+
+[msg MSG_10A_NPC007_01 [Male Student]]
+[s]Это отстой, когда студент умирает...[n][w][e]
+##-[s]It sucks when a student passes away...[n][w][e]-##
+[s]Что бы ни случилось на самом деле, всегда[n]ходят слухи.[n][w][e]
+##-[s]No matter what really happened,[n]there's always rumors.[n][w][e]-##
+
+[msg MSG_10A_NPC007_01_G [Male Student]]
+[s]Это отстой, когда студент участвует в[n]расследовании.[n][w][e]
+##-[s]It sucks when a student gets involved in an investigation.[n][w][e]-##
+[s]Что бы ни случилось на самом деле, всегда[n]ходят слухи.[n][w][e]
+##-[s]No matter what really happened,[n]there's always rumors.[n][w][e]-##
+
+[msg MSG_10B_NPC007_01 [Male Student]]
+[s]Экзамены - отстой, чувак.[n][w][e]
+##-[s]Exams suck, man.[n][w][e]-##
+[s]Люди совершенно забыли об этом парне[n]Арагаки теперь, когда они учатся.[n][w][e]
+##-[s]People completely forgot about that[n]guy Aragaki now that they're studying.[n][w][e]-##
+[s]Или, может быть, они вообще никогда не[n]заботились о его смерти.[n][w][e]
+##-[s]Or, maybe they never cared about his[n]death in the first place.[n][w][e]-##
+
+[msg MSG_10B_NPC007_01_G [Male Student]]
+[s]Экзамены - отстой, чувак.[n][w][e]
+##-[s]Exams suck, man.[n][w][e]-##
+[s]Люди совершенно забыли об этом парне[n]Арагаки теперь, когда они учатся.[n][w][e]
+##-[s]People completely forgot about that[n]guy Aragaki now that they're studying.[n][w][e]-##
+[s]Или, может быть, они никогда не заботились[n]о его слухах в первую очередь.[n][w][e]
+##-[s]Or maybe they never cared about his[n]rumors in the first place.[n][w][e]-##
+
+[msg MSG_11A_NPC007_01 [Male Student]]
+[s]Должно быть, это отстойно - быть из такой[n]влиятельной семьи.[n][w][e]
+##-[s]It must suck being from such an[n]influential family.[n][w][e]-##
+[s]Держу пари, некоторые люди совсем не[n]грустят о том, что произошло... Они просто[n]хотят захватить власть.[n][w][e]
+##-[s]I bet some people aren't sad at all[n]about what happened... They just want[n]to make a grab for power.[n][w][e]-##
+[s]Кстати, вы знали, что группа Кириджо[n]построила эту школу?[n][w][e]
+##-[s]By the way, did you know the Kirijo[n]Group built this school?[n][w][e]-##
+[s]Я надеюсь, что ничего плохого не[n]случится...[n][w][e]
+##-[s]I hope nothing bad happens...[n][w][e]-##
+
+[msg MSG_11B_NPC007_01 [Male Student]]
+[s]Должно быть, отстойно переезжать сюда из[n]другой страны.[n][w][e]
+##-[s]It must suck to move here from another[n]country.[n][w][e]-##
+[s]Ты всегда в центре внимания.[n][w][e]
+##-[s]You're always the center of attention.[n][w][e]-##
+[s]Но, Реджи-кун, кажется, наслаждается этим.[n][w][e]
+##-[s]But, Ryoji-kun seems to be enjoying it.[n][w][e]-##
+
+[msg MSG_12A_NPC007_01 [Male Student]]
+[s]Так много всего произошло во время школьной[n]поездки...[n][w][e]
+##-[s]So many things happened during the[n]school trip...[n][w][e]-##
+[s]Люди сходили с ума и делали то, чего обычно[n]не делали.[n][w][e]
+##-[s]People got all crazy and did things[n]they wouldn't normally do.[n][w][e]-##
+[s]Например, подглядывать за девушками в[n]горячих источниках. Это был не ты, не так[n]ли?[n][w][e]
+##-[s]For example, peeking at girls in[n]the hot springs. That wasn't you,[n]was it?[n][w][e]-##
+
+[msg MSG_12A_NPC007_01_G [Male Student]]
+[s]Так много всего произошло во время школьной[n]поездки...[n][w][e]
+##-[s]So many things happened during the[n]school trip...[n][w][e]-##
+[s]Люди сходили с ума и делали то, чего обычно[n]не делают, например, подглядывали за[n]девушками в горячих источниках.[n][w][e]
+##-[s]People got all crazy and did things[n]they wouldn't normally do, like peeking[n]at girls in the hot springs.[n][w][e]-##
+[s]Конечно, парни глупы за то, что делают это,[n]но девушки страшны за то, что объединяются[n]против них...[n][w][e]
+##-[s]Of course, the dudes are stupid for[n]doing it, but the girls are scary for[n]ganging up on them...[n][w][e]-##
+
+[sel MSG_12A_NPC007_01S top]
+[s]"Что ты сказал?"[e]
+##-[s]"What did you say?"[e]-##
+[s]"Я не мог тебя слышать..."[e]
+##-[s]"I couldn't hear you..."[e]-##
+
+[sel MSG_12A_NPC007_01S_G top]
+[s]"Они это заслужили".[e]
+##-[s]"They deserved it."[e]-##
+[s]"Это непростительно!"[e]
+##-[s]"It's unforgivable!"[e]-##
+
+[msg MSG_12A_NPC007_01A [Male Student]]
+[s]Эй, расслабься... Я просто пошутил.[n][w][e]
+##-[s]H-Hey, lighten up... I was just joking.[n][w][e]-##
+
+[msg MSG_12A_NPC007_01A_G [Male Student]]
+[s]Ты тоже... Я бы никогда не хотел быть твоим[n]врагом...[n][w][e]
+##-[s]You, either... I'd never want to be[n]your enemy...[n][w][e]-##
+
+[msg MSG_12B_NPC007_01 [Male Student]]
+[s]Рождество - отстой, чувак.[n][w][e]
+##-[s]Christmas sucks, man.[n][w][e]-##
+[s]За всеми этими подарками бушует жестокая[n]война продаж.[n][w][e]
+##-[s]Behind all those presents, there's[n]a vicious sales war raging.[n][w][e]-##
+[s]Интересно, сколько людей совершают[n]самоубийства во время Рождества?[n][w][e]
+##-[s]I wonder how many people commit suicide[n]during Christmas.[n][w][e]-##
+
+[msg MSG_1A_NPC007_01 [Male Student]]
+[s]Новый год - отстой, чувак.[n][w][e]
+##-[s]New Year's Day sucks, man.[n][w][e]-##
+[s]Все ожидают, что вы примете решение...[n][w][e]
+##-[s]Everyone expects you to make a[n]resolution...[n][w][e]-##
+[s]...даже если ты никак не сможешь его[n]сохранить.[n][w][e]
+##-[s]...even though there's no way you'll[n]keep it.[n][w][e]-##
+
+[msg MSG_1B_NPC007_01 [Male Student]]
+[s]Выбор карьеры - отстой, чувак.[n][w][e]
+##-[s]Choosing a career sucks, man.[n][w][e]-##
+[s]...На этот раз я серьезно.[n][w][e]
+##-[s]...I'm serious this time.[n][w][e]-##
+[s]Черт, что мне делать...?[n][w][e]
+##-[s]Shit, what should I do...?[n][w][e]-##
+
+[msg MSG_3A_NPC007_01 [Male Student]]
+[s]Смена семестра - отстой, чувак.[n][w][e]
+##-[s]Changing semesters sucks, man.[n][w][e]-##
+[s]Это такая хлопотная задача - освоить новую[n]рутину.[n][w][e]
+##-[s]It's such a hassle to learn the new[n]routine.[n][w][e]-##
+
+[msg MSG_APR01_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, речь Мицуру-семпая этим утром была[n]сумасшедшей.[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, Mitsuru-senpai's speech this[n]morning was crazy.[n][w][e]-##
+[s]Я слышал, что на выборах никто не был даже[n]близок к ней.[n][w][e]
+##-[s]I heard no one was even close to her[n]in the election.[n][w][e]-##
+[s]Учитывая ее прошлое, я не знаю, почему они[n]беспокоились.[n][w][e]
+##-[s]Considering her background, I don't know[n]why they bothered.[n][w][e]-##
+[s]Давай посмотрим правде в глаза, мы все[n]просто обычные по сравнению с ней, чувак.[n][w][e]
+##-[s]Let's face it, we're all just plain[n]ordinary compared to her, man.[n][w][e]-##
+
+[msg MSG_APR02_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Это может показаться странным вопросом, но[n]как вы думаете, можно ли хорошо учиться в[n]Тартаре И в школе?[n][w][e]
+##-[s][bup 5 1 65535 0]This may sound like a weird question,[n]but do you think it's possible to do[n]well in Tartarus AND in school?[n][w][e]-##
+
+[sel MSG_APR02_JUNPEI_01S top]
+[s]"Я могу это сделать".[e]
+##-[s]"I can do it."[e]-##
+[s]"Я сомневаюсь в этом".[e]
+##-[s]"I doubt it."[e]-##
+[s]"Ты можешь это сделать?"[e]
+##-[s]"Can you do it?"[e]-##
+
+[sel MSG_APR02_JUNPEI_01S_G top]
+[s]"Конечно!"[e]
+##-[s]"Of course!"[e]-##
+[s]"Может быть, и нет..."[e]
+##-[s]"Maybe not..."[e]-##
+[s]"А как насчет тебя?"[e]
+##-[s]"What about you?"[e]-##
+
+[msg MSG_APR02_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Вау, ты довольно самоуверенна. Почему бы[n]тебе не доказать это...?[n][w][e]
+##-[s][bup 5 1 65535 0]Wow, you're pretty confident.[n]Why don't you prove it...?[n][w][e]-##
+
+[msg MSG_APR02_JUNPEI_01A_G [Junpei]]
+[s][bup 5 1 65535 0]Вау, ты довольно самоуверенна. Я должен[n]быть уверен, что не отстаю![n][w][e]
+##-[s][bup 5 1 65535 0]Wow, you're pretty confident. I gotta[n]make sure to keep up![n][w][e]-##
+
+[msg MSG_APR02_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Что ж, по крайней мере, в одном мы[n]согласны.[n][w][e]
+##-[s][bup 5 1 65535 0]Well, at least we agree on one thing.[n][w][e]-##
+
+[msg MSG_APR02_JUNPEI_01C [Junpei]]
+[s][bup 5 1 65535 0]Я!?[n][w][e]
+##-[s][bup 5 1 65535 0]Me!?[n][w][e]-##
+[s]Я думаю, ты знаешь ответ на этот вопрос...[n][w][e]
+##-[s]I think you know the answer to that...[n][w][e]-##
+
+[msg MSG_APR03_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Вы забывчивы?[n][w][e]
+##-[s][bup 5 1 65535 0]Are you forgetful?[n][w][e]-##
+
+[sel MSG_APR03_JUNPEI_01S top]
+[s]"Может быть".[e]
+##-[s]"Maybe."[e]-##
+[s]"Я так не думаю".[e]
+##-[s]"I don't think so."[e]-##
+
+[sel MSG_APR03_JUNPEI_01S_G top]
+[s]"Может быть".[e]
+##-[s]"Maybe."[e]-##
+[s]"Я так не думаю".[e]
+##-[s]"I don't think so."[e]-##
+
+[msg MSG_APR03_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Затем убедитесь, что вы не забыли[n]запастись.[n][w][e]
+##-[s][bup 5 1 65535 0]Then, make sure you don't forget to[n]stock up.[n][w][e]-##
+[s]Особенно от офицера Куросавы... Я слышал от[n]Акихико-сан, что у него ничего нельзя[n]купить ночью.[n][w][e]
+##-[s]Especially from Officer Kurosawa...[n]I heard from Akihiko-san that you[n]can't buy anything from him at night.[n][w][e]-##
+[s]Если ты хочешь пойти в школу, то иди сразу[n]после школы.[n][w][e]
+##-[s]If you wanna go on a school day,[n]then go right after school.[n][w][e]-##
+
+[msg MSG_APR03_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Тогда я не буду тебя пилить.[n][w][e]
+##-[s][bup 5 1 65535 0]Then, I won't nag you.[n][w][e]-##
+
+[msg MSG_MAY01_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Прощай, Золотая Неделя... Привет, школа...[n][w][e]
+##-[s][bup 5 1 65535 0]Goodbye, Golden Week...[n]Hello, school...[n][w][e]-##
+[s]Облом, да?[n][w][e]
+##-[s]Bummer, huh?[n][w][e]-##
+
+[sel MSG_MAY01_JUNPEI_01S top]
+[s]"Не совсем".[e]
+##-[s]"Not really."[e]-##
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+
+[sel MSG_MAY01_JUNPEI_01S_G top]
+[s]"Не совсем".[e]
+##-[s]"Not really."[e]-##
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+
+[msg MSG_MAY01_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Чувак, как ты можешь так легко[n]адаптироваться? Чувак, жизнь для тебя,[n]должно быть, кусок пирога.[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, how can you adapt so easily?[n]Man, life must be a piece of cake for[n]you.[n][w][e]-##
+
+[msg MSG_MAY01_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Интересно, сколько дней осталось до летних[n]каникул?..[n][w][e]
+##-[s][bup 5 1 65535 0]I wonder how many days it is until[n]summer vacation...[n][w][e]-##
+
+[msg MSG_MAY02_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, мне было интересно, в чем дело, но[n]потом я понял, что до экзаменов осталась[n]всего одна неделя.[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, I was wondering what was up,[n]but then I realized there's only one[n]week until exams.[n][w][e]-##
+[s]Вот почему все были такими тихими.[n][w][e]
+##-[s]That's why everyone's been so quiet.[n][w][e]-##
+
+[msg MSG_MAY03_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Черт, мне только что приснился сон о[n]монорельсе...[n][w][e]
+##-[s][bup 5 1 65535 0]Shit, I just had a dream about[n]the monorail...[n][w][e]-##
+[s]Мои экзамены были вывешены на всех окнах![n][w][e]
+##-[s]My exams were posted over all[n]the windows![n][w][e]-##
+[s][bup 5 9 65535 0]Все они были примерно на 40 % или 30 %...[n]На самом деле, эта часть сна реалистична.[n][w][e]
+##-[s][bup 5 9 65535 0]They were all like 40% or 30%...[n]Actually, that part of the dream is[n]realistic.[n][w][e]-##
+[s]Блин, я не могу избежать экзаменов даже во[n]сне.[n][w][e]
+##-[s]Man, I can't escape exams even in my[n]dreams.[n][w][e]-##
+
+[msg MSG_MAY04_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Ух, каково это - быть свободным!?[n][w][e]
+##-[s][bup 5 1 65535 0]Whew, how does it feel to be free!?[n][w][e]-##
+[s]Вот что важно в экзаменах! Только не эти[n]маленькие цифры, которые они ставят по[n]углам![n][w][e]
+##-[s]This is what matters about exams![n]Not those little numbers they put[n]in the corners![n][w][e]-##
+[s]Но, чувак, держу пари, я впаду в депрессию,[n]как только увижу свои результаты...[n][w][e]
+##-[s]But man, I bet I'll be depressed once[n]I see my scores...[n][w][e]-##
+
+[msg MSG_MAY05_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Значит, все это время в соседнем классе был[n]пользователь-Персонаж, да?[n][w][e]
+##-[s][bup 5 1 65535 0]So, all this time, there was a Persona-[n]user in the class next door, huh?[n][w][e]-##
+[s]Чувак, мы многое упустили...[n][w][e]
+##-[s]Dude, we've been missing out...[n][w][e]-##
+[s]Что, если она симпатичная?![n][w][e]
+##-[s]What if she's cute!?[n][w][e]-##
+
+[msg MSG_MAY06_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Мне жаль тех, кто не знает, когда нужно[n]остановиться![n][w][e]
+##-[s][bup 5 2 65535 0]I pity the foo' who don't know when[n]to quit![n][w][e]-##
+[s]Мистер Джей говорит бросить полотенце,[n]мальчик![n][w][e]
+##-[s]Mr. J says to throw in the towel,[n]boy![n][w][e]-##
+
+[msg MSG_MAY06_JUNPEI_01_G [Junpei]]
+[s][bup 5 2 65535 0]Мне жаль тех, кто не знает, когда нужно[n]остановиться![n][w][e]
+##-[s][bup 5 2 65535 0]I pity the foo' who don't know when[n]to quit![n][w][e]-##
+[s]Мистер Джей говорит бросить полотенце,[n]мальчик![n][w][e]
+##-[s]Mr. J says to throw in the towel,[n]boy![n][w][e]-##
+
+[sel MSG_MAY06_JUNPEI_01S top]
+[s]"Хорошо, хорошо".[e]
+##-[s]"Alright, alright."[e]-##
+[s]"Ни за что, идиот".[e]
+##-[s]"No way, you idiot."[e]-##
+[s]"......"[e]
+##-[s]"......"[e]-##
+
+[sel MSG_MAY06_JUNPEI_01S_G top]
+[s]"Хорошо, хорошо".[e]
+##-[s]"Alright, alright."[e]-##
+[s]"Ни за что, идиот".[e]
+##-[s]"No way, you idiot."[e]-##
+[s]"......"[e]
+##-[s]"......"[e]-##
+
+[msg MSG_MAY06_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Но если серьезно, все больше и больше людей[n]становятся жертвами... Я немного волнуюсь.[n][w][e]
+##-[s][bup 5 1 65535 0]But seriously, more and more people[n]are becoming victims... I'm a little[n]worried.[n][w][e]-##
+
+[msg MSG_MAY06_JUNPEI_01A_G [Junpei]]
+[s][bup 5 2 65535 0]Эй, вот ты где![n][w][e]
+##-[s][bup 5 2 65535 0]Hey, there you go![n][w][e]-##
+[s][bup 5 1 65535 0]Но если серьезно, все больше и больше людей[n]становятся жертвами... Я немного волнуюсь.[n][w][e]
+##-[s][bup 5 1 65535 0]But seriously, more and more people[n]are becoming victims... I'm a little[n]worried.[n][w][e]-##
+
+[msg MSG_MAY06_JUNPEI_01B [Junpei]]
+[s][bup 5 5 65535 0]Не называй меня идиотом, т-ты... идиот![n][w][e]
+##-[s][bup 5 5 65535 0]Don't call me an idiot, y-you... idiot![n][w][e]-##
+
+[msg MSG_MAY06_JUNPEI_01C [Junpei]]
+[s][bup 5 9 65535 0]Чувак, какого черта? Ты просто собираешься[n]игнорировать меня? ...Это не круто.[n][w][e]
+##-[s][bup 5 9 65535 0]Dude, what the hell? You're just gonna[n]ignore me? ...That's not cool.[n][w][e]-##
+
+[msg MSG_JUN01_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Что ж, я думаю, нам стоит немного[n]покопаться.[n][w][e]
+##-[s][bup 5 1 65535 0]Well, I guess we should do some[n]digging.[n][w][e]-##
+[s]Интересно, что скажут люди... В конце[n]концов, это история о привидениях.[n][w][e]
+##-[s]I wonder what people will say...[n]It's a ghost story, after all.[n][w][e]-##
+
+[msg MSG_JUN02_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Дууууде, Юка-тан слишком серьезно относится[n]к этому.[n][w][e]
+##-[s][bup 5 1 65535 0]Duuuude, Yuka-tan is taking this[n]WAY too seriously.[n][w][e]-##
+[s]Почему я открыл свой большой рот?[n][w][e]
+##-[s]Why did I open my big mouth?[n][w][e]-##
+
+[msg MSG_JUN03_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, я не могу тебе сказать... Это[n]сюрприз.[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, I can't tell you...[n]It's a surprise.[n][w][e]-##
+[s]Просто подожди до вечера![n][w][e]
+##-[s]Just wait until tonight![n][w][e]-##
+
+[msg MSG_JUN04_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Является ли учитель Экоды Фууки?[n][w][e]
+##-[s][bup 5 1 65535 0]Is Ekoda Fuuka's teacher?[n][w][e]-##
+[s]Я только что видел его, и, черт возьми, он[n]выглядит так, словно вот-вот наступит конец[n]света.[n][w][e]
+##-[s]I just saw him, and man, he looks like[n]the world is about to end.[n][w][e]-##
+[s]Что-то случилось?[n][w][e]
+##-[s]Did something happen?[n][w][e]-##
+
+[msg MSG_JUN05_JUNPEI_01 [Junpei]]
+[s][bup 5 10 65535 0]Ты в восторге теперь, когда Фуука[n]присоединился к команде?[n][w][e]
+##-[s][bup 5 10 65535 0]Are you psyched, now that Fuuka joined[n]the team?[n][w][e]-##
+
+[msg MSG_JUN05_JUNPEI_01_G [Junpei]]
+[s][bup 5 10 65535 0]С присоединением Фууки к команде у нас на[n]борту стало больше девушек.[n][w][e]
+##-[s][bup 5 10 65535 0]With Fuuka joining the team, we've got[n]more girls on board.[n][w][e]-##
+[s]Юкари, Фуука, [f 4 2], и Мицуру-семпай... Это рай![n][w][e]
+##-[s]Yukari, Fuuka, [f 4 2], and[n]Mitsuru-senpai... It's paradise![n][w][e]-##
+
+[sel MSG_JUN05_JUNPEI_01S top]
+[s]"Определенно".[e]
+##-[s]"Definitely."[e]-##
+[s]"Не совсем".[e]
+##-[s]"Not really."[e]-##
+
+[sel MSG_JUN05_JUNPEI_01S_G top]
+[s]"Э-это лицо..."[e]
+##-[s]"Th-That face..."[e]-##
+[s]"Я рад за тебя".[e]
+##-[s]"I'm happy for you."[e]-##
+
+[msg MSG_JUN05_JUNPEI_01A [Junpei]]
+[s][bup 5 10 65535 0]Да, чувак, я в полном восторге![n][w][e]
+##-[s][bup 5 10 65535 0]Yeah, man, I'm totally stoked![n][w][e]-##
+
+[msg MSG_JUN05_JUNPEI_01A_G [Junpei]]
+[s][bup 5 10 65535 0]Хахаха! Это просто лицо здорового,[n]энергичного подростка![n][w][e]
+##-[s][bup 5 10 65535 0]Hahaha! It's just the face of a healthy,[n]red-blooded teenager![n][w][e]-##
+
+[msg MSG_JUN05_JUNPEI_01B [Junpei]]
+[s][bup 5 9 65535 0]Чувак, почему ты должен из всего извлекать[n]удовольствие?[n][w][e]
+##-[s][bup 5 9 65535 0]Dude, why do you gotta take the fun[n]out of everything?[n][w][e]-##
+[s]У тебя будет тяжелая жизнь, если ты будешь[n]продолжать в том же духе.[n][w][e]
+##-[s]You're gonna have a tough life if you[n]keep this up.[n][w][e]-##
+
+[msg MSG_JUN05_JUNPEI_01B_G [Junpei]]
+[s][bup 5 9 65535 0]Я знаю! Это просто потрясающе! Это[n]величайшее, ха-ха![n][w][e]
+##-[s][bup 5 9 65535 0]I know! This totally rocks! It's the[n]greatest, haha![n][w][e]-##
+[s]Да... Я собираюсь продолжать надирать[n]задницы, так что тебе лучше быть[n]осторожнее![n][w][e]
+##-[s]Yeah... I'm going to keep kicking ass,[n]so you better watch out![n][w][e]-##
+
+[msg MSG_JUN06_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]У Фууки, кажется, все в порядке.[n][w][e]
+##-[s][bup 5 1 65535 0]Fuuka seems to be doin' alright.[n][w][e]-##
+[s]Я беспокоился, что некоторые люди могут[n]устроить ей неприятности, так как она[n]какое-то время отсутствовала.[n][w][e]
+##-[s]I was worried some people might give[n]her a hard time, since she was out[n]for a while.[n][w][e]-##
+[s]Я бы не позволил им уйти с этим, чувак.[n][w][e]
+##-[s]I wouldn't let them get away with that,[n]man.[n][w][e]-##
+
+[msg MSG_JUN07_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Осталось восемь, да? Что ж, можешь на меня[n]рассчитывать, чувак![n][w][e]
+##-[s][bup 5 2 65535 0]Eight left, huh? Well, you can count[n]on me, dude![n][w][e]-##
+[s]Я одолею каждого из них и спасу город![n][w][e]
+##-[s]I'll defeat every one of 'em and save[n]the city![n][w][e]-##
+
+[msg MSG_JUN08_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Я только что видел Акихико-сан... У него[n]было странное выражение лица...[n][w][e]
+##-[s][bup 5 1 65535 0]I just saw Akihiko-san...[n]He had a weird look on his face...[n][w][e]-##
+[s]Может быть, его обучение идет не так[n]хорошо? Пш... Да, верно.[n][w][e]
+##-[s]Maybe his training isn't going so well?[n]Psh... Yeah, right.[n][w][e]-##
+
+[msg MSG_JUL01_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Одна неделя до следующего полнолуния...[n][w][e]
+##-[s][bup 5 1 65535 0]One week until the next full moon...[n][w][e]-##
+[s]Когда я была маленькой, я привыкла считать[n]дни до важных событий.[n][w][e]
+##-[s]When I was little, I used to count[n]the days before important events.[n][w][e]-##
+[s]Ты тоже это сделал?[n][w][e]
+##-[s]Did you do that too?[n][w][e]-##
+
+[sel MSG_JUL01_JUNPEI_01S top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"Ни разу".[e]
+##-[s]"Not even once."[e]-##
+
+[sel MSG_JUL01_JUNPEI_01S_G top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"Ни разу".[e]
+##-[s]"Not even once."[e]-##
+
+[msg MSG_JUL01_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Итак, вы готовы к этому большому событию?[n]Это не то же самое, что когда мы были[n]детьми, не так ли?[n][w][e]
+##-[s][bup 5 1 65535 0]So, are you ready for this big event?[n]It's not the same as when we were kids,[n]is it?[n][w][e]-##
+
+[msg MSG_JUL01_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Чувак, ты, должно быть, был классным[n]парнем. Давай, давай выпустим немного пара.[n][w][e]
+##-[s][bup 5 1 65535 0]Man, you must've been one cool kid.[n]Come on, let's blow off some steam.[n][w][e]-##
+
+[msg MSG_JUL01_JUNPEI_01B_G [Junpei]]
+[s][bup 5 1 65535 0]Ух ты, такой энтузиазм.[n][w][e]
+##-[s][bup 5 1 65535 0]Wow, so enthusiastic.[n][w][e]-##
+[s]Ну, я думаю, что мальчики более[n]взволнованы, чем девочки, когда они[n]маленькие...[n][w][e]
+##-[s]Well, I guess the boys are more excited[n]than the girls when they're little...[n][w][e]-##
+
+[msg MSG_JUL02_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]До меня дошли слухи, что в последнее время[n]стало больше случаев синдрома апатии.[n][w][e]
+##-[s][bup 5 1 65535 0]I heard a rumor that there have been[n]more cases of Apathy Syndrome lately.[n][w][e]-##
+[s]Какая заноза в заднице.[n][w][e]
+##-[s]What a pain in the ass.[n][w][e]-##
+
+[msg MSG_JUL03_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Тебе не кажется, что ты немного волнуешься[n]перед полнолунием? Я не могу перестать[n]думать об этом...[n][w][e]
+##-[s][bup 5 1 65535 0]Don't you get kinda anxious before[n]a full moon? I can't stop thinking[n]about it...[n][w][e]-##
+[s]К счастью, это позволяет классу проходить[n]намного быстрее.[n][w][e]
+##-[s]Luckily, that makes class go by a lot[n]faster.[n][w][e]-##
+
+[msg MSG_JUL04_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]А? Чего ты хочешь?[n][w][e]
+##-[s][bup 5 1 65535 0]Huh? Whaddya want?[n][w][e]-##
+[s]Не приставай ко мне, если это не важно.[n]Сейчас я направляюсь домой.[n][w][e]
+##-[s]Don't bug me if it's not important.[n]I'm heading home now.[n][w][e]-##
+
+[msg MSG_JUL04_JUNPEI_01_G [Junpei]]
+[s][bup 5 1 65535 0]А? Чего ты хочешь?[n][w][e]
+##-[s][bup 5 1 65535 0]Huh? Whaddya want?[n][w][e]-##
+[s]Не приставай ко мне, если это не важно.[n]Сейчас я направляюсь домой.[n][w][e]
+##-[s]Don't bug me if it's not important.[n]I'm heading home now.[n][w][e]-##
+
+[msg MSG_JUL05_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]О, чувак... Как я должен готовиться к[n]экзаменам в такое время...?[n][w][e]
+##-[s][bup 5 1 65535 0]Aw, man... How am I supposed to study[n]for exams at a time like this...?[n][w][e]-##
+[s]Это отстой... Я никак не могу получить[n]хороший результат.[n][w][e]
+##-[s]This sucks... There's no way I can get[n]a good score.[n][w][e]-##
+
+[msg MSG_JUL06_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Со следующей недели начинаются летние[n]каникулы![n][w][e]
+##-[s][bup 5 1 65535 0]Starting next week, it's summer[n]vacation![n][w][e]-##
+[s]*вздох* Жаль, что наши результаты экзаменов[n]должны быть опубликованы...[n][w][e]
+##-[s]*sigh* Too bad our exam scores have[n]to be posted...[n][w][e]-##
+[s]Чувак, почему они не могут подождать, пока[n]мы не насладимся нашей свободой?[n][w][e]
+##-[s]Man, why can't they wait until[n]AFTER we've enjoyed our freedom?[n][w][e]-##
+
+[msg MSG_SEP01_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, как ты думаешь, это нормально, что[n]робот находится здесь? Не поймите меня[n]неправильно... Это сделает занятия[n]интереснее.[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, do you think it's okay for a robot[n]to be here? Don't get me wrong... It'll[n]make class more interesting.[n][w][e]-##
+[s]Но что мы будем делать, если кто-нибудь[n]узнает?[n][w][e]
+##-[s]But, what are we gonna do if someone[n]finds out?[n][w][e]-##
+[s]Чувак, я ничего об этом не знаю...[n][w][e]
+##-[s]Man, I don't know about this...[n][w][e]-##
+
+[msg MSG_SEP02_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Ты слушал, когда она говорила о Фестивале[n]культуры?[n][w][e]
+##-[s][bup 5 1 65535 0]Were you listening when she was[n]talkin' about the Culture Festival?[n][w][e]-##
+
+[sel MSG_SEP02_JUNPEI_01S top]
+[s]"Да, я слушал".[e]
+##-[s]"Yeah, I was listening."[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[sel MSG_SEP02_JUNPEI_01S_G top]
+[s]"Да, я слушал".[e]
+##-[s]"Yeah, I was listening."[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[msg MSG_SEP02_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Чувак, кафе - это тааак отстойно. Почему бы[n]нам не заняться чем-нибудь веселым?[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, a cafe is soooo lame.[n]Why don't we do something fun?[n][w][e]-##
+[s]Как в кафе тяжелого металла![n][w][e]
+##-[s]Like a heavy metal cafe![n][w][e]-##
+
+[msg MSG_SEP02_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Мы открываем кафе. КАФЕ, ради всего[n]святого![n][w][e]
+##-[s][bup 5 1 65535 0]We're running a cafe. A CAFE,[n]for heaven's sake![n][w][e]-##
+[s]Это так типично. Почему бы нам не заняться[n]чем-нибудь веселым?[n][w][e]
+##-[s]It's so typical. Why don't we do[n]something fun?[n][w][e]-##
+[s]Как в кафе тяжелого металла![n][w][e]
+##-[s]Like a heavy metal cafe![n][w][e]-##
+
+[msg MSG_SEP03_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Да, в чем дело?[n][w][e]
+##-[s][bup 5 1 65535 0]Yeah, what's up?[n][w][e]-##
+[s]Я еду в больницу навестить Чидори...[n][w][e]
+##-[s]I'm going to the hospital to see[n]Chidori...[n][w][e]-##
+[s]Никому лучше не пытаться остановить меня...[n][w][e]
+##-[s]No one better try and stop me...[n][w][e]-##
+[s]Если они это сделают, я буду в бешенстве![n][w][e]
+##-[s]If they do, I'll be pissed![n][w][e]-##
+
+[msg MSG_SEP04_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Интересно, что сейчас делает Чидори?..[n][w][e]
+##-[s][bup 5 1 65535 0]I wonder what Chidori's doing right[n]now...[n][w][e]-##
+[s]*вздох* Хотел бы я видеть ее почаще...[n][w][e]
+##-[s]*sigh* I wish I could see her more[n]often...[n][w][e]-##
+
+[msg MSG_SEP05_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Эй, фестиваль на этой неделе, не так ли?[n][w][e]
+##-[s][bup 5 1 65535 0]Hey, the festival is this week,[n]isn't it?[n][w][e]-##
+[s]Чувак, я был так занят мыслями о Чидори,[n]что совершенно забыл.[n][w][e]
+##-[s]Man, I've been so busy thinkin' about[n]Chidori that I completely forgot.[n][w][e]-##
+[s]Ладно, к черту это. У меня и так достаточно[n]забот, так что я собираюсь расслабиться.[n][w][e]
+##-[s]Well, screw that. I've got enough to[n]worry about, so I'm gonna slack off.[n][w][e]-##
+
+[msg MSG_SEP06_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Эй, я слышал, что Клуб стрельбы из лука[n]будет управлять кафе для прислуги на[n]фестивале.[n][w][e]
+##-[s][bup 5 1 65535 0]Hey, I heard the Archery Club will be[n]running a maid cafe at the festival.[n][w][e]-##
+[s]Интересно, будет ли Юка-тан в костюме?..[n][w][e]
+##-[s]I wonder if Yuka-tan will be in[n]costume...[n][w][e]-##
+[s]Хм, я сомневаюсь, что она согласится на[n]это...[n][w][e]
+##-[s]Hmm, I doubt she'd agree to that...[n][w][e]-##
+
+[msg MSG_SEP07_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Эй, как ты себя чувствуешь? Надеюсь, твоя[n]простуда не вернулась.[n][w][e]
+##-[s][bup 5 1 65535 0]Hey, how ya feelin'? I hope your cold[n]hasn't come back.[n][w][e]-##
+
+[sel MSG_SEP07_JUNPEI_01S top]
+[s]"Теперь я в порядке".[e]
+##-[s]"I'm fine now."[e]-##
+[s]"Я все еще плохо себя чувствую".[e]
+##-[s]"I still don't feel well."[e]-##
+
+[sel MSG_SEP07_JUNPEI_01S_G top]
+[s]"Я чувствую себя великолепно!"[e]
+##-[s]"I feel great!"[e]-##
+[s]"Я все еще хлюпаю носом..."[e]
+##-[s]"I'm still sniffly..."[e]-##
+
+[msg MSG_SEP07_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Вот это уже больше похоже на правду. Ты не[n]можешь болеть, потому что нам будет трудно[n]без тебя.[n][w][e]
+##-[s][bup 5 1 65535 0]That's more like it. You can't be sick,[n]cuz we'll have a hard time without you.[n][w][e]-##
+
+[msg MSG_SEP07_JUNPEI_01A_G [Junpei]]
+[s][bup 5 1 65535 0]Я рад это слышать. Просто не дави на себя.[n][w][e]
+##-[s][bup 5 1 65535 0]I'm glad to hear that. Just don't[n]push yourself.[n][w][e]-##
+
+[msg MSG_SEP07_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]ВСЕ ЕЩЕ? Давай, парень, лучше заботься о[n]своем здоровье.[n][w][e]
+##-[s][bup 5 1 65535 0]STILL? Come on, man, take better[n]care of your health.[n][w][e]-##
+
+[msg MSG_SEP07_JUNPEI_01B_G [Junpei]]
+[s][bup 5 1 65535 0]Эй, ты в порядке? Отдохни немного, пока[n]тебе не станет лучше, хорошо?[n][w][e]
+##-[s][bup 5 1 65535 0]Hey, are you alright? Get some rest[n]until you're all better, okay?[n][w][e]-##
+
+[msg MSG_SEP08_JUNPEI_01 [Junpei]]
+[s][bup 5 3 65535 0]Чувак, я не могу сосредоточиться! Все, о[n]чем я могу думать, - это Чидори![n][w][e]
+##-[s][bup 5 3 65535 0]Dude, I can't concentrate! All I can[n]think about is Chidori![n][w][e]-##
+[s][bup 5 1 65535 0]Ну что ж... Не то чтобы я с самого начала[n]так сильно концентрировался.[n][w][e]
+##-[s][bup 5 1 65535 0]Oh, well... It's not like I was[n]concentrating that much to begin[n]with.[n][w][e]-##
+
+[msg MSG_OCT01_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, я снова начинаю нервничать из-за[n]нашей следующей миссии...[n][w][e]
+##-[s][bup 5 1 65535 0]Man, I'm getting nervous about our next[n]mission again...[n][w][e]-##
+[s]Вот почему я продолжаю засыпать на уроках.[n][w][e]
+##-[s]That's why I keep falling asleep in[n]class.[n][w][e]-##
+
+[msg MSG_OCT02_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, я не хочу сегодня возвращаться в[n]общежитие...[n][w][e]
+##-[s][bup 5 1 65535 0]Man, I don't wanna go back to the[n]dorm today...[n][w][e]-##
+[s]* вздох*[n][w][e]
+##-[s]*sigh*[n][w][e]-##
+
+[msg MSG_OCT03_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Никто больше не говорит о Синдзиро-семпае,[n]теперь, когда у нас экзамены.[n][w][e]
+##-[s][bup 5 1 65535 0]No one is talking about Shinjiro-senpai[n]anymore, now that we have exams.[n][w][e]-##
+[s][bup 5 8 65535 0]Я думаю, люди просто беспокоятся о своих[n]собственных проблемах, да?[n][w][e]
+##-[s][bup 5 8 65535 0]I guess people just worry about their[n]own problems, huh?[n][w][e]-##
+[s]Это немного грустно, тебе не кажется?[n][w][e]
+##-[s]It's kinda sad, don't ya think?[n][w][e]-##
+
+[msg MSG_OCT03_JUNPEI_01_G [Junpei]]
+[s][bup 5 1 65535 0]Никто больше не говорит о Синдзиро-семпае,[n]теперь, когда у нас экзамены.[n][w][e]
+##-[s][bup 5 1 65535 0]No one is talking about Shinjiro-senpai[n]anymore, now that we have exams.[n][w][e]-##
+[s][bup 5 8 65535 0]Я думаю, люди просто беспокоятся о своих[n]собственных проблемах, да?[n][w][e]
+##-[s][bup 5 8 65535 0]I guess people just worry about their[n]own problems, huh?[n][w][e]-##
+[s]Это немного грустно, тебе не кажется?[n][w][e]
+##-[s]It's kinda sad, don't ya think?[n][w][e]-##
+
+[msg MSG_OCT04_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Эй, я только что услышал, что Нацуки[n]переводится.[n][w][e]
+##-[s][bup 5 1 65535 0]Hey, I just heard that Natsuki's[n]transferring.[n][w][e]-##
+[s]Знаешь, девушка, которая дружит с Фуукой?[n][w][e]
+##-[s]You know, the girl who's friends with[n]Fuuka?[n][w][e]-##
+[s]Но они не были друзьями очень долго.[n]...Вроде как отстой.[n][w][e]
+##-[s]But, they haven't been friends for[n]very long. ...Kinda sucks.[n][w][e]-##
+
+[msg MSG_OCT05_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Это была Юка-тан, которая только что вышла[n]из той комнаты?[n][w][e]
+##-[s][bup 5 1 65535 0]Was that Yuka-tan who just came out of[n]that room?[n][w][e]-##
+[s]Интересно, почему она там оказалась?..[n][w][e]
+##-[s]I wonder why she was in there...[n][w][e]-##
+[s]Похоже, у нее был плохой день.[n][w][e]
+##-[s]Seems like she's having a bad day.[n][w][e]-##
+
+[msg MSG_OCT06_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Просто стоя здесь, мы кажемся обычными[n]студентами, ха...[n][w][e]
+##-[s][bup 5 1 65535 0]Just standing here, we seem like[n]regular students, huh...[n][w][e]-##
+[s]Никто никогда не догадается, что мы[n]сражаемся с Тенями...[n][w][e]
+##-[s]No one would ever guess we fight[n]Shadows...[n][w][e]-##
+
+[msg MSG_OCT07_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Оглянись вокруг, чувак. Нас окружают[n]обычные студенты.[n][w][e]
+##-[s][bup 5 1 65535 0]Look around, man. We're surrounded by[n]ordinary students.[n][w][e]-##
+[s]Мы могли бы быть такими же, как они, в[n]следующем месяце, ха...[n][w][e]
+##-[s]We could be just like them next month,[n]huh...[n][w][e]-##
+
+[msg MSG_NOV01_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Завтра тот самый день...[n][w][e]
+##-[s][bup 5 1 65535 0]Tomorrow's the day...[n][w][e]-##
+[s]Я просто знаю, что не смогу сосредоточиться[n]на уроке...[n][w][e]
+##-[s]I just know I'm not gonna be able to[n]concentrate in class...[n][w][e]-##
+[s]Что насчет тебя?[n][w][e]
+##-[s]What about you?[n][w][e]-##
+
+[sel MSG_NOV01_JUNPEI_01S top]
+[s]"Я немного нервничаю".[e]
+##-[s]"I'm a little nervous."[e]-##
+[s]"Я не волнуюсь".[e]
+##-[s]"I'm not worried."[e]-##
+
+[sel MSG_NOV01_JUNPEI_01S_G top]
+[s]"Я немного нервничаю".[e]
+##-[s]"I'm a little nervous."[e]-##
+[s]"Я не волнуюсь".[e]
+##-[s]"I'm not worried."[e]-##
+
+[msg MSG_NOV01_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Нехорошо, чувак. Нам лучше найти способ[n]расслабиться.[n][w][e]
+##-[s][bup 5 1 65535 0]Not good, dude. We better find a way[n]to chill.[n][w][e]-##
+
+[msg MSG_NOV01_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Чувак, как ты можешь быть таким спокойным?![n][w][e]
+##-[s][bup 5 1 65535 0]Dude, how can you be so calm!?[n][w][e]-##
+[s]Что ж, я буду рассчитывать на тебя, парень.[n][w][e]
+##-[s]Well, I'll be counting on you, man.[n][w][e]-##
+
+[msg MSG_NOV01_JUNPEI_01B_G [Junpei]]
+[s][bup 5 1 65535 0]Чувак, как ты можешь быть таким спокойным?![n]Ты мужественнее меня![n][w][e]
+##-[s][bup 5 1 65535 0]Dude, how can you be so calm!?[n]You're manlier than I am![n][w][e]-##
+[s]Что ж, я буду рассчитывать на тебя, чувак.[n][w][e]
+##-[s]Well, I'll be counting on you, dude.[n][w][e]-##
+
+[msg MSG_NOV02_JUNPEI_01 [Junpei]]
+[s][bup 5 4 65535 0]Я ненавижу возвращаться в общежитие в такое[n]время...[n][w][e]
+##-[s][bup 5 4 65535 0]I hate going back to the dorm at a time[n]like this...[n][w][e]-##
+[s]*вздох* Интересно, что будет дальше...[n][w][e]
+##-[s]*sigh* I wonder what's gonna happen...[n][w][e]-##
+
+[msg MSG_NOV03_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Реджи кажется немного загадочным, не так[n]ли?[n][w][e]
+##-[s][bup 5 1 65535 0]Ryoji seems kinda mysterious,[n]doesn't he?[n][w][e]-##
+[s]Знаешь, я подумал то же самое о тебе, когда[n]увидел тебя в первый раз.[n][w][e]
+##-[s]Ya know, I thought the same thing[n]about you the first time I saw ya.[n][w][e]-##
+[s]Ты, Айгис, а теперь и Реджи. По какой-то[n]причине все, кто присоединяется к этому[n]классу, кажутся такими.[n][w][e]
+##-[s]You, Aigis, and now Ryoji. For some[n]reason, everyone who joins this class[n]seems that way.[n][w][e]-##
+
+[msg MSG_NOV04_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Иногда я начинаю ехать в больницу, даже не[n]осознавая этого...[n][w][e]
+##-[s][bup 5 1 65535 0]Sometimes, I start heading to the[n]hospital without even realizing it...[n][w][e]-##
+[s]Сегодня был один из таких дней.[n][w][e]
+##-[s]Today was one of those days.[n][w][e]-##
+[s][bup 5 9 65535 0]*вздох* Чидори... Почему она...?[n][w][e]
+##-[s][bup 5 9 65535 0]*sigh* Chidori... Why'd she...?[n][w][e]-##
+
+[msg MSG_NOV05_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Что ж, завтра тот самый день...[n][w][e]
+##-[s][bup 5 1 65535 0]Well, tomorrow's the day...[n][w][e]-##
+[s]В последнее время кажется, что все, о чем[n]мы говорим, так угнетает. Почему бы нам не[n]повеселиться?[n][w][e]
+##-[s]Lately, it seems like everything we[n]talk about is so depressing. Why don't[n]we have some fun?[n][w][e]-##
+[s]Ну же, что скажешь?[n][w][e]
+##-[s]Come on, whaddya say?[n][w][e]-##
+
+[sel MSG_NOV05_JUNPEI_01S top]
+[s]“конечно”.[e]
+##-[s]"Sure."[e]-##
+[s]"Я не в настроении".[e]
+##-[s]"I'm not in the mood."[e]-##
+
+[sel MSG_NOV05_JUNPEI_01S_G top]
+[s]"Да, давай немного повеселимся!"[e]
+##-[s]"Yeah, let's have some fun!"[e]-##
+[s]"Я не в настроении".[e]
+##-[s]"I'm in no mood."[e]-##
+
+[msg MSG_NOV05_JUNPEI_01A [Junpei]]
+[s][bup 5 2 65535 0]Да, детка. Вот в чем дух.[n][w][e]
+##-[s][bup 5 2 65535 0]Yeah, baby. That's the spirit.[n][w][e]-##
+
+[msg MSG_NOV05_JUNPEI_01A_G [Junpei]]
+[s][bup 5 2 65535 0]Вот это дух! Способ взять на себя[n]ответственность, лидер![n][w][e]
+##-[s][bup 5 2 65535 0]That's the spirit! Way to take charge,[n]leader![n][w][e]-##
+
+[msg MSG_NOV05_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Взбодрись, чувак. Просто следуйте своим[n]инстинктам![n][w][e]
+##-[s][bup 5 1 65535 0]Cheer up, dude. Just follow your[n]instincts![n][w][e]-##
+[s]Нам нужно оживить здесь все.[n][w][e]
+##-[s]We need to liven things up around[n]here.[n][w][e]-##
+
+[msg MSG_NOV05_JUNPEI_01B_G [Junpei]]
+[s][bup 5 1 65535 0]Эй, не отмахивайся от этого так небрежно![n]Мое сердце - оно щиплет![n][w][e]
+##-[s][bup 5 1 65535 0]Hey, don't dismiss it so casually![n]My heart--it stings![n][w][e]-##
+[s]Мы должны сохранять бодрость духа, ОСОБЕННО[n]в такие времена, как это![n][w][e]
+##-[s]We have to keep our spirits up,[n]ESPECIALLY in times like these![n][w][e]-##
+[s]Давайте просто следовать нашим инстинктам![n]Тогда я ЗНАЮ, что мы сможем повеселиться![n][w][e]
+##-[s]Let's just follow our instincts![n]Then I KNOW we'll be able to have fun![n][w][e]-##
+
+[msg MSG_NOV06_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, зачем мы должны были прийти сегодня[n]в школу?[n][w][e]
+##-[s][bup 5 1 65535 0]Man, why did we have to come[n]to school today?[n][w][e]-##
+
+[sel MSG_NOV06_JUNPEI_01S top]
+[s]"Да, я знаю".[e]
+##-[s]"Yeah, I know."[e]-##
+[s]"Перестань жаловаться".[e]
+##-[s]"Stop complaining."[e]-##
+
+[sel MSG_NOV06_JUNPEI_01S_G top]
+[s]"Почему бы и нет!"[e]
+##-[s]"Why not!"[e]-##
+[s]"Какой сегодня день?"[e]
+##-[s]"What day is it?"[e]-##
+
+[msg MSG_NOV06_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]У нас должен был быть выходной сегодня...[n][w][e]
+##-[s][bup 5 1 65535 0]We should've had today off...[n][w][e]-##
+
+[msg MSG_NOV06_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Но это на следующий день после Школьной[n]поездки![n][w][e]
+##-[s][bup 5 1 65535 0]But, it's the day after the School Trip![n][w][e]-##
+[s]Нам нужно время, чтобы распаковать наши[n]сумки и вещи. И я тоже все еще устал...[n][w][e]
+##-[s]We need time to unpack our bags and[n]stuff. And I'm still tired, too...[n][w][e]-##
+
+[msg MSG_DEC01_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Реджи сегодня отсутствует, чувак.[n][w][e]
+##-[s][bup 5 1 65535 0]Ryoji is absent today, man.[n][w][e]-##
+[s]Класс кажется таким тихим без него.[n][w][e]
+##-[s]Class seems so quiet without him.[n][w][e]-##
+[s]Я никогда не понимал, какая разница, что он[n]рядом.[n][w][e]
+##-[s]I never realized what a difference it[n]made having him around.[n][w][e]-##
+
+[msg MSG_DEC01_JUNPEI_01_G [Junpei]]
+[s][bup 5 1 65535 0]Разве тебе не следует пораньше пойти домой[n]и позаниматься? Я слышал, что на этот раз[n]математика действительно трудная.[n][w][e]
+##-[s][bup 5 1 65535 0]Shouldn't you go home early and study?[n]I heard math is really hard this time.[n][w][e]-##
+
+[msg MSG_DEC02_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, Айгис только сегодня вылетел за[n]дверь...[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, Aigis just flew out the door[n]today...[n][w][e]-##
+[s]Реджи тоже ушел.[n][w][e]
+##-[s]Ryoji's gone, too.[n][w][e]-##
+[s]Странно, да?..[n][w][e]
+##-[s]Weird, huh...?[n][w][e]-##
+
+[msg MSG_DEC02_JUNPEI_01_G [Junpei]]
+[s][bup 5 1 65535 0]Чувак, Айгис только сегодня вылетел за[n]дверь...[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, Aigis just flew out the door[n]today...[n][w][e]-##
+[s]Реджи тоже ушел.[n][w][e]
+##-[s]Ryoji's gone, too.[n][w][e]-##
+[s]Странно, да?..[n][w][e]
+##-[s]Weird, huh...?[n][w][e]-##
+
+[msg MSG_DEC03_JUNPEI_01 [Junpei]]
+[s][bup 5 9 65535 0]Чувак, у меня нехорошее предчувствие насчет[n]сегодняшнего дня...[n][w][e]
+##-[s][bup 5 9 65535 0]Man, I don't have a good feeling about[n]today...[n][w][e]-##
+[s]*вздох* Интересно, что будет дальше...[n][w][e]
+##-[s]*sigh* I wonder what's gonna happen...[n][w][e]-##
+
+[msg MSG_DEC04_JUNPEI_01 [Junpei]]
+[s][bup 5 9 65535 0]Сейчас я никак не могу сосредоточиться на[n]учебе, чувак.[n][w][e]
+##-[s][bup 5 9 65535 0]There's no way I can concentrate on[n]school now, man.[n][w][e]-##
+[s]*вздох* Поехали.[n][w][e]
+##-[s]*sigh* Let's get going.[n][w][e]-##
+
+[msg MSG_DEC05_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Реджи не ходил в школу...[n][w][e]
+##-[s][bup 5 1 65535 0]Ryoji hasn't been coming to school...[n][w][e]-##
+[s]Интересно, чем он занимался все это[n]время?..[n][w][e]
+##-[s]I wonder what he's been doing...[n][w][e]-##
+
+[msg MSG_DEC06_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, это безумие...[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, this is crazy...[n][w][e]-##
+[s]Как я должен думать об экзаменах, когда мир[n]подходит к концу?[n][w][e]
+##-[s]How am I supposed to think about exams[n]when the world's coming to an end?[n][w][e]-##
+
+[msg MSG_DEC07_JUNPEI_01 [Junpei]]
+[s][bup 5 8 65535 0]Чувак, вся моя энергия иссякла...[n][w][e]
+##-[s][bup 5 8 65535 0]Dude, all my energy is gone...[n][w][e]-##
+[s]Вызвать такси... Я не могу идти домой[n]пешком.[n][w][e]
+##-[s]Call a taxi... I can't walk home.[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s][bup 5 9 65535 0]Просто шучу. Я справлюсь.[n][w][e]
+##-[s][bup 5 9 65535 0]Just kidding. I'll manage.[n][w][e]-##
+
+[msg MSG_DEC08_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Это чушь собачья, чувак.[n][w][e]
+##-[s][bup 5 1 65535 0]This is bullshit, man.[n][w][e]-##
+[s]Кого волнуют результаты тестов, когда мир[n]подходит к концу...?[n][w][e]
+##-[s]Who cares about test results when[n]the world is coming to an end...?[n][w][e]-##
+[s]В любом случае, это удручающая новость.[n][w][e]
+##-[s]Either way, it's depressing news.[n][w][e]-##
+
+[msg MSG_DEC09_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Я ДОЛЖЕН наслаждаться зимними каникулами[n]после такого семестра...[n][w][e]
+##-[s][bup 5 1 65535 0]I SHOULD get to enjoy winter break,[n]after a semester like that...[n][w][e]-##
+[s]Но вместо этого нам нужно принять чертовски[n]невозможное решение.[n][w][e]
+##-[s]But instead, we've got a frickin'[n]impossible decision to make.[n][w][e]-##
+[s][bup 5 9 65535 0]Это отстой.[n][w][e]
+##-[s][bup 5 9 65535 0]This sucks.[n][w][e]-##
+
+[msg MSG_JAN01_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, ты можешь поверить, сколько людей[n]увлекается этим культом?[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, can you believe how many people[n]are into this cult thing?[n][w][e]-##
+[s]Все запутано, если вы спросите меня.[n][w][e]
+##-[s]It's messed up, if you ask me.[n][w][e]-##
+
+[msg MSG_JAN02_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Тебе не кажется, что трудно не пялиться на[n]людей, говорящих о культовых вещах?[n][w][e]
+##-[s][bup 5 1 65535 0]Don't you think it's hard not to stare[n]at people talking about cult stuff?[n][w][e]-##
+
+[sel MSG_JAN02_JUNPEI_01S top]
+[s]"Верно".[e]
+##-[s]"True."[e]-##
+[s]"Не совсем".[e]
+##-[s]"Not really."[e]-##
+
+[sel MSG_JAN02_JUNPEI_01S_G top]
+[s]"Верно".[e]
+##-[s]"True."[e]-##
+[s]"Не совсем".[e]
+##-[s]"Not really."[e]-##
+
+[msg MSG_JAN02_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Я стараюсь не делать этого, но ничего не[n]могу с собой поделать.[n][w][e]
+##-[s][bup 5 1 65535 0]I try not to, but I can't help it.[n][w][e]-##
+[s]Иногда я смотрю слишком долго, и они[n]начинают что-то подозревать.[n][w][e]
+##-[s]Sometimes I stare too long and they[n]start getting suspicious.[n][w][e]-##
+
+[msg MSG_JAN02_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Я знаю, я знаю... Лучше просто игнорировать[n]их.[n][w][e]
+##-[s][bup 5 1 65535 0]I know, I know... It's better to just[n]ignore them.[n][w][e]-##
+
+[msg MSG_JAN03_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Нам лучше все хорошенько обдумать...[n][w][e]
+##-[s][bup 5 1 65535 0]We better think this through...[n][w][e]-##
+[s]Блин, теперь я говорю как учитель.[n][w][e]
+##-[s]Man, now I sound like the teacher.[n][w][e]-##
+[s]Кто бы мог подумать, что ЭТО произойдет?[n][w][e]
+##-[s]Who would've thought THAT would[n]happen?[n][w][e]-##
+
+[msg MSG_JAN04_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, тебя не беспокоит это пустое место?[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, doesn't that empty seat bother[n]you?[n][w][e]-##
+[s]Каждый раз, когда я смотрю на нее, она[n]напоминает мне о нем.[n][w][e]
+##-[s]Every time I look at it, it reminds[n]me of him.[n][w][e]-##
+[s]Если бы Реджи вошел и сел как ни в чем не[n]бывало, как бы ты отреагировал?[n][w][e]
+##-[s]If Ryoji were to walk in and sit down[n]like nothing happened, how would you[n]react?[n][w][e]-##
+
+[sel MSG_JAN04_JUNPEI_01S top]
+[s]"Я был бы взволнован".[e]
+##-[s]"I'd be excited."[e]-##
+[s]"Этого не случится".[e]
+##-[s]"That's not gonna happen."[e]-##
+
+[sel MSG_JAN04_JUNPEI_01S_G top]
+[s]"Неплохо".[e]
+##-[s]"Not bad."[e]-##
+[s]"20 штрафных баллов за опоздание".[e]
+##-[s]"20 demerits for tardiness."[e]-##
+
+[msg MSG_JAN04_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Я тоже. Разве это не было бы мило?[n][w][e]
+##-[s][bup 5 1 65535 0]Me too. Wouldn't that be sweet?[n][w][e]-##
+
+[msg MSG_JAN04_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Да, я знаю.[n][w][e]
+##-[s][bup 5 1 65535 0]Yeah, I know.[n][w][e]-##
+[s]Но я не могу перестать думать об этом.[n][w][e]
+##-[s]But, I can't stop thinking about it.[n][w][e]-##
+
+[msg MSG_JAN04_JUNPEI_01B_G [Junpei]]
+[s][bup 5 1 65535 0]Ух ты, какой ты строгий! И недостатки в[n]довершение всего...![n][w][e]
+##-[s][bup 5 1 65535 0]Wow, you're strict! And demerits on[n]top of that...![n][w][e]-##
+[s]И все же я не могу перестать думать об[n]этом.[n][w][e]
+##-[s]Still, I can't stop thinking about it.[n][w][e]-##
+
+[msg MSG_JAN05_JUNPEI_01 [Junpei]]
+[s][bup 5 9 65535 0]Зачем вообще что-то делать, если скоро[n]наступит конец света!?[n][w][e]
+##-[s][bup 5 9 65535 0]Why bother doing anything at all,[n]since the world is gonna end!?[n][w][e]-##
+[s][bup 5 1 65535 0]...Вот что сказал мне один парень.[n][w][e]
+##-[s][bup 5 1 65535 0]...That's what some guy said to me.[n][w][e]-##
+
+[msg MSG_JAN06_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Когда я разговаривал с мисс Ториуми о своем[n]будущем, она рассмеялась, когда я сказал[n]ей, что у меня большие планы...[n][w][e]
+##-[s][bup 5 2 65535 0]When I was talking to Ms. Toriumi[n]about my future, she laughed when[n]I told her I had big plans...[n][w][e]-##
+[s]Но кого это волнует, верно? Мы выступаем[n]против Никс.[n][w][e]
+##-[s]But, who cares, right? We're goin' up[n]against Nyx.[n][w][e]-##
+[s]Нас съедят заживо, если мы не будем мыслить[n]масштабно.[n][w][e]
+##-[s]We'll be eaten alive if we don't think[n]big.[n][w][e]-##
+
+[msg MSG_JAN07_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Это может показаться странным в моих устах,[n]но школа не так уж плоха.[n][w][e]
+##-[s][bup 5 2 65535 0]This might sound weird coming from me,[n]but school isn't so bad.[n][w][e]-##
+[s]Вообще-то я с нетерпением жду, когда[n]приеду, как только все это закончится.[n][w][e]
+##-[s]I'm looking forward to coming,[n]actually, once this is all over.[n][w][e]-##
+
+[msg MSG_MAR01_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Чувак, она нас разглядывала...[n][w][e]
+##-[s][bup 5 1 65535 0]Dude, she was checking us out...[n][w][e]-##
+[s][bup 5 9 65535 0]Как я могла упустить кого-то такого милого?[n][w][e]
+##-[s][bup 5 9 65535 0]How could I have missed someone so[n]cute?[n][w][e]-##
+[s]Что я делал со своим временем?[n][w][e]
+##-[s]What have I been doing with my time?[n][w][e]-##
+
+[msg MSG_MAR02_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Эй, ты заметил? Этих уродов с Синдромом[n]Апатии больше нет рядом...[n][w][e]
+##-[s][bup 5 1 65535 0]Hey, have you noticed? Those freaks[n]with Apathy Syndrome aren't around[n]anymore...[n][w][e]-##
+[s]Совсем недавно они были повсюду.[n][w][e]
+##-[s]Just a little while ago, they were[n]everywhere.[n][w][e]-##
+[s]Странно, да?..[n][w][e]
+##-[s]Weird, huh...?[n][w][e]-##
+
+[msg MSG_MAR03_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Что ж, что бы ни говорили люди, в этом году[n]многое произошло...[n][w][e]
+##-[s][bup 5 1 65535 0]Well, no matter what people say,[n]a lot happened this year...[n][w][e]-##
+[s]Ничего не приходит в голову, но... Я знаю,[n]что мы сделали что-то грандиозное...[n][w][e]
+##-[s]Nothing is coming to mind, but...[n]I know we did something huge...[n][w][e]-##
+[s]Странный... Как я мог забыть что-то[n]настолько важное...?[n][w][e]
+##-[s]Weird... How could I forget something[n]so important...?[n][w][e]-##
+[s][bup 5 5 65535 0]О боже, у меня начинает болеть голова.[n][w][e]
+##-[s][bup 5 5 65535 0]Oh man, I'm getting a headache.[n][w][e]-##
+[s]Чувак, какого черта мы делали весь этот[n]год?[n][w][e]
+##-[s]Dude, what the hell did we do this[n]whole year?[n][w][e]-##
+
+[msg MSG_MAR04_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Эй, меня кое-что беспокоит...[n][w][e]
+##-[s][bup 5 1 65535 0]Hey, something's been bothering me...[n][w][e]-##
+[s]Кто раньше сидел на этом пустом месте?[n][w][e]
+##-[s]Who used to sit in that empty seat?[n][w][e]-##
+
+[sel MSG_MAR04_JUNPEI_01S top]
+[s]"Это было..."[e]
+##-[s]"That was..."[e]-##
+[s]"Я не помню".[e]
+##-[s]"I don't remember."[e]-##
+
+[sel MSG_MAR04_JUNPEI_01S_G top]
+[s]"Э-э-э..."[e]
+##-[s]"Uhhhhh..."[e]-##
+[s]"Я не помню".[e]
+##-[s]"I don't recall."[e]-##
+
+[msg MSG_MAR04_JUNPEI_01A [Junpei]]
+[s][bup 5 1 65535 0]Ты тоже не помнишь, да?[n][w][e]
+##-[s][bup 5 1 65535 0]You don't remember either, huh?[n][w][e]-##
+[s]Чувак, это сводит меня с ума.[n][w][e]
+##-[s]Dude, it's driving me nuts.[n][w][e]-##
+
+[msg MSG_MAR04_JUNPEI_01B [Junpei]]
+[s][bup 5 1 65535 0]Ты тоже, да? Кто это был?[n][w][e]
+##-[s][bup 5 1 65535 0]You too, huh? Who was it?[n][w][e]-##
+[s][bup 5 3 65535 0]Это сводит меня с ума.[n][w][e]
+##-[s][bup 5 3 65535 0]It's driving me nuts.[n][w][e]-##
+
+[msg MSG_MAR04_JUNPEI_01B_G [Junpei]]
+[s][bup 5 1 65535 0]...Ты не помнишь? Ты говоришь как политик,[n]выступающий в суде...[n][w][e]
+##-[s][bup 5 1 65535 0]...You don't recall? You sound like a[n]politician on the stand...[n][w][e]-##
+[s][bup 5 3 65535 0]Это сводит меня с ума.[n][w][e]
+##-[s][bup 5 3 65535 0]It's driving me nuts.[n][w][e]-##
+
+[msg MARCH_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]- Поужинаешь, чувак? Поехали в Хагакурэ![n][w][e]
+##-[s][bup 5 2 65535 0]'Sup, dude? Let's go to Hagakure![n][w][e]-##
+[s]У меня уже давно не было ничего особенного.[n][w][e]
+##-[s]I haven't had the special in a while.[n][w][e]-##
+
+[sel MARCH_JUNPEI_SEL top]
+[s]"Ты можешь меня заметить?"[e]
+##-[s]"Can you spot me?"[e]-##
+[s]"Нет, не сегодня".[e]
+##-[s]"Nah, not today."[e]-##
+
+[sel MARCH_JUNPEI_SEL_G top]
+[s]"Ура! Бесплатный ужин!"[e]
+##-[s]"Yay! Free dinner!"[e]-##
+[s]"Нет, не сегодня".[e]
+##-[s]"Nah, not today."[e]-##
+
+[msg MARCH_JUNPEI_02 [Junpei]]
+[s][bup 5 5 65535 0]Что...? Эй, у меня совсем нет денег! Я[n]всего лишь старшеклассник.[n][w][e]
+##-[s][bup 5 5 65535 0]Wha...? Hey, I don't have any money![n]I'm just a high school kid.[n][w][e]-##
+[s][bup 5 2 65535 0]Да ладно, мы же друзья, верно? Два[n]приятеля, мечтающие когда-нибудь стать[n]героями?[n][w][e]
+##-[s][bup 5 2 65535 0]C'mon, we're friends, right?[n]Two buddies with a dream of being[n]heroes someday?[n][w][e]-##
+[s]Да... это были хорошие времена.[n][w][e]
+##-[s]Yeah... those were good times.[n][w][e]-##
+
+[msg MARCH_JUNPEI_02_G [Junpei]]
+[s][bup 5 5 65535 0]Что...? Эй, у меня совсем нет денег! Я[n]всего лишь старшеклассник.[n][w][e]
+##-[s][bup 5 5 65535 0]Wha...? Hey, I don't have any money![n]I'm just a high school kid.[n][w][e]-##
+[s][bup 5 2 65535 0]Да ладно, мы же друзья, верно? Пара[n]бутонов, пробегающих вместе через нашу[n]прекрасную юность?[n][w][e]
+##-[s][bup 5 2 65535 0]C'mon, we're friends, right? A couple[n]of buds racing through our beautiful[n]adolescence together?[n][w][e]-##
+[s]Мы кричали на закате и гонялись за волнами![n][w][e]
+##-[s]We shouted at the sunset and chased[n]the waves![n][w][e]-##
+
+[msg MARCH_JUNPEI_03 [Junpei]]
+[s][bup 5 5 65535 0]Ой, не будь таким мокрым одеялом![n][w][e]
+##-[s][bup 5 5 65535 0]Aww, don't be such a wet blanket![n][w][e]-##
+[s][bup 5 2 65535 0]Да ладно, мы же друзья, верно? Два[n]приятеля, мечтающие когда-нибудь стать[n]героями?[n][w][e]
+##-[s][bup 5 2 65535 0]C'mon, we're friends, right?[n]Two buddies with a dream of being[n]heroes someday?[n][w][e]-##
+[s]Да... это были хорошие времена.[n][w][e]
+##-[s]Yeah... those were good times.[n][w][e]-##
+
+[msg MARCH_JUNPEI_03_G [Junpei]]
+[s][bup 5 5 65535 0]Ой, не будь таким мокрым одеялом![n][w][e]
+##-[s][bup 5 5 65535 0]Aww, don't be such a wet blanket![n][w][e]-##
+[s][bup 5 2 65535 0]Да ладно, мы же друзья, верно? Пара[n]бутонов, пробегающих вместе через нашу[n]прекрасную юность?[n][w][e]
+##-[s][bup 5 2 65535 0]C'mon, we're friends, right? A couple[n]of buds racing through our beautiful[n]adolescence together?[n][w][e]-##
+[s]Мы кричали на закате и гонялись за волнами![n][w][e]
+##-[s]We shouted at the sunset and chased[n]the waves![n][w][e]-##
+
+[msg MARCH_JUNPEI_04 [Junpei]]
+[s][bup 5 9 65535 0]...Ладно, забудь об этом пока. Знаешь что?[n][w][e]
+##-[s][bup 5 9 65535 0]...Well, forget that for now.[n]Guess what?[n][w][e]-##
+[s]Ториуми-сенсей снова позвала меня в свой[n]кабинет...[n][w][e]
+##-[s]Toriumi-sensei called me to her[n]office again...[n][w][e]-##
+[s]Она спросила меня, какие у меня планы на[n]будущее, начиная с апреля... Шай, как будто[n]у меня есть что-то![n][w][e]
+##-[s]She asked me what my plans were[n]from April onward... Shyeah, like[n]I have any![n][w][e]-##
+[s]Я ухмылялся, но за это получил чертовски[n]хорошую лекцию...[n][w][e]
+##-[s]I was grinning, but I got one hell[n]of a lecture for it...[n][w][e]-##
+[s]Почему она так чертовски серьезно относится[n]к этому?[n][w][e]
+##-[s]Why's she so damn serious about it?[n][w][e]-##
+[s]Кендзи сказал, что она больше не[n]успокаивается даже ради торта! Черт,[n]чувак...[n][w][e]
+##-[s]Kenji said she doesn't even calm[n]down for cake anymore! Damn, dude...[n][w][e]-##
+
+[msg MARCH_JUNPEI_05 [Junpei]]
+[s][bup 5 1 65535 0]О, привет, я слышал от Кендзи, что все[n]новые учителя, которые придут в апреле,[n]будут женщинами.[n][w][e]
+##-[s][bup 5 1 65535 0]Oh hey, I heard from Kenji that the[n]new teachers coming in April are[n]all women.[n][w][e]-##
+[s]Он был так взволнован, что на него было[n]больно смотреть.[n][w][e]
+##-[s]He was so excited, it hurt to look[n]at him.[n][w][e]-##
+[s]Не то чтобы меня это волновало... У меня[n]уже есть кое-кто...[n][w][e]
+##-[s]Not that I care... I already got[n]someone...[n][w][e]-##
+[s][bup 5 5 65535 0]Ждать...[n][w][e]
+##-[s][bup 5 5 65535 0]Wait...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]У меня ведь был кто-то, верно?..[n][w][e]
+##-[s]I did have someone, right...?[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Эй! Я не шучу. Зачем мне выдумывать что-то[n]настолько удручающее?![n][w][e]
+##-[s]H-Hey! I'm not kidding. Why would I[n]make up something that depressing!?[n][w][e]-##
+[s][bup 5 4 65535 0]Я просто... хотела сказать, что у меня...[n]раньше был кто-то важный...[n][w][e]
+##-[s][bup 5 4 65535 0]I just... wanted to say that I...[n]had someone important before...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Как я мог забыть что-то настолько важное?[n]То, что, я знаю, я не должен забывать...[n][w][e]
+##-[s]How could I forget something that[n]important? Something I know I'm[n]not supposed to forget...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Извини, парень... Я собираюсь отказаться от[n]рамена.[n][w][e]
+##-[s]Sorry man... I'm gonna pass on the[n]ramen.[n][w][e]-##
+
+[msg MARCH_JUNPEI_06 [Junpei]]
+[s][bup 5 4 65535 0]Там что-то есть... Я не могу вспомнить...[n][w][e]
+##-[s][bup 5 4 65535 0]There's something... I can't[n]remember...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах, я сдаюсь.[n][w][e]
+##-[s]Ah, I give up.[n][w][e]-##
+[s]Но я чувствую, что это то, что я[n]действительно должен запомнить...[n][w][e]
+##-[s]But I feel like it's something[n]I really gotta remember...[n][w][e]-##
+
+[msg MARCH_JUNPEI_MAX [Junpei]]
+[s][bup 5 2 65535 0]Эй, [f 4 2].[n][w][e]
+##-[s][bup 5 2 65535 0]Hey, [f 4 2].[n][w][e]-##
+
+[msg MSG_SEP01_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Пожалуйста, не бойтесь. Теперь мы с тобой[n]все время будем вместе,[n][f 4 2]- сан.[n][w][e]
+##-[s][bup 3 1 65535 0]Please do not fear. You and I will[n]be together all the time now,[n][f 4 2]-san.[n][w][e]-##
+[s][f 4 7 0 0 0]> Она все еще далека от того, чтобы сойти[n]за человека...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> She is still far from passing[n]as human...[n][f 1 4][e]-##
+[s]> Похоже, в данный момент она не в[n]состоянии понять обычные чувства и[n]разговоры...[n][f 1 4][e]
+##-[s]> It seems she is unable to[n]understand ordinary feelings[n]and conversation at the moment...[n][f 1 4][e]-##
+[s]> Если бы она смогла это сделать, вы могли[n]бы создать с ней связь.[n][f 1 4][e]
+##-[s]> If she were able to do that,[n]you may be able to create a bond[n]with her.[n][f 1 4][e]-##
+
+[msg MSG_SEP02_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Я осмотрел всю школу, но не обнаружил[n]никого, страдающего Синдромом Апатии.[n][w][e]
+##-[s][bup 3 1 65535 0]I have inspected the entire school,[n]but I did not locate anyone suffering[n]from Apathy Syndrome.[n][w][e]-##
+[s]Должен ли я сделать вывод, что они[n]отсутствуют?[n][w][e]
+##-[s]Should I conclude that they are[n]absent?[n][w][e]-##
+[s][f 4 7 0 0 0]> Она все еще далека от того, чтобы сойти[n]за человека...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> She is still far from passing[n]as human...[n][f 1 4][e]-##
+[s]> Похоже, в данный момент она не в[n]состоянии понять обычные чувства и[n]разговоры...[n][f 1 4][e]
+##-[s]> It seems she is unable to[n]understand ordinary feelings[n]and conversation at the moment...[n][f 1 4][e]-##
+[s]> Если бы она смогла это сделать, вы могли[n]бы создать с ней связь.[n][f 1 4][e]
+##-[s]> If she were able to do that,[n]you may be able to create a bond[n]with her.[n][f 1 4][e]-##
+
+[msg MSG_SEP03_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Дзюнпэй-сан бросил школу. Он отправился в[n]больницу.[n][w][e]
+##-[s][bup 3 1 65535 0]Junpei-san has left school. He went to[n]the hospital.[n][w][e]-##
+[s]В последнее время он, кажется, эмоционально[n]неуравновешен.[n][w][e]
+##-[s]Lately, he seems to be emotionally[n]unstable.[n][w][e]-##
+[s][f 4 7 0 0 0]> Она все еще далека от того, чтобы сойти[n]за человека...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> She is still far from passing[n]as human...[n][f 1 4][e]-##
+[s]> Похоже, в данный момент она не в[n]состоянии понять обычные чувства и[n]разговоры...[n][f 1 4][e]
+##-[s]> It seems she is unable to[n]understand ordinary feelings[n]and conversation at the moment...[n][f 1 4][e]-##
+[s]> Если бы она смогла это сделать, вы могли[n]бы создать с ней связь.[n][f 1 4][e]
+##-[s]> If she were able to do that,[n]you may be able to create a bond[n]with her.[n][f 1 4][e]-##
+
+[msg MSG_SEP04_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Дзюнпэй-сан отправился в больницу.[n][w][e]
+##-[s][bup 3 1 65535 0]Junpei-san went to the hospital.[n][w][e]-##
+[s]Казалось, ему не терпелось попасть туда.[n]Прошел ли допрос гладко?[n][w][e]
+##-[s]He seemed eager to get there.[n]Has the questioning been going[n]smoothly?[n][w][e]-##
+
+[sel MSG_SEP04_AEGIS_01S top]
+[s]"да."[e]
+##-[s]"Yes."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+[s]"Дзюнпэй делает успехи".[e]
+##-[s]"Junpei's making progress."[e]-##
+
+[sel MSG_SEP04_AEGIS_01S_G top]
+[s]"да."[e]
+##-[s]"Yes."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+[s]"Дзюнпэй делает успехи".[e]
+##-[s]"Junpei's making progress."[e]-##
+
+[msg MSG_SEP04_AEGIS_01A [Aigis]]
+[s][bup 3 1 65535 0]Я надеюсь на полезную информацию.[n][w][e]
+##-[s][bup 3 1 65535 0]I'm hoping for useful information.[n][w][e]-##
+
+[msg MSG_SEP04_AEGIS_01B [Aigis]]
+[s][bup 3 1 65535 0]Это прискорбно, но не неожиданно.[n][w][e]
+##-[s][bup 3 1 65535 0]That's unfortunate, but not unexpected.[n][w][e]-##
+
+[msg MSG_SEP04_AEGIS_01C [Aigis]]
+[s][bup 3 1 65535 0]Обнаруживаю ли я скрытый смысл?[n][w][e]
+##-[s][bup 3 1 65535 0]Do I detect an underlying meaning?[n][w][e]-##
+[s]Есть ли что-то между ней и Дзюнпей-сан, о[n]чем я не знаю? Я в замешательстве.[n][w][e]
+##-[s]Is there something between her and[n]Junpei-san that I am not aware of?[n]I am confused.[n][w][e]-##
+
+[msg MSG_SEP04_AEGIS_01D]
+[s][f 4 7 0 0 0]> Она все еще далека от того, чтобы сойти[n]за человека...[n][w][e]
+##-[s][f 4 7 0 0 0]> She is still far from passing[n]as human...[n][w][e]-##
+[s]> Похоже, в данный момент она не в[n]состоянии понять обычные чувства и[n]разговоры...[n][w][e]
+##-[s]> It seems she is unable to[n]understand ordinary feelings[n]and conversation at the moment...[n][w][e]-##
+[s]> Если бы она смогла это сделать, вы могли[n]бы создать с ней связь.[n][w][e]
+##-[s]> If she were able to do that,[n]you may be able to create a bond[n]with her.[n][w][e]-##
+
+[msg MSG_SEP05_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Похоже, все в восторге от предстоящего[n]фестиваля.[n][w][e]
+##-[s][bup 3 1 65535 0]Everyone seems excited about the[n]upcoming festival.[n][w][e]-##
+[s]Я никогда раньше не переживал такого[n]события. [n][w][e]
+##-[s]I have not experienced such an event[n]before. [n][w][e]-##
+[s][f 4 7 0 0 0]> Она все еще далека от того, чтобы сойти[n]за человека...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> She is still far from passing[n]as human...[n][f 1 4][e]-##
+[s]> Похоже, в данный момент она не в[n]состоянии понять обычные чувства и[n]разговоры...[n][f 1 4][e]
+##-[s]> It seems she is unable to[n]understand ordinary feelings[n]and conversation at the moment...[n][f 1 4][e]-##
+[s]> Если бы она смогла это сделать, вы могли[n]бы создать с ней связь.[n][f 1 4][e]
+##-[s]> If she were able to do that,[n]you may be able to create a bond[n]with her.[n][f 1 4][e]-##
+
+[msg MSG_SEP06_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Я слышал, что Юкари-сан будет работать в[n]кафе для прислуги во время фестиваля.[n][w][e]
+##-[s][bup 3 1 65535 0]I have heard that Yukari-san is going[n]to be working at a maid cafe during[n]the festival.[n][w][e]-##
+[s]Я не понимаю, почему...[n][w][e]
+##-[s]I do not understand why...[n][w][e]-##
+[s]...но студенты мужского пола, похоже, рады[n]видеть ее в новом наряде.[n][w][e]
+##-[s]...but the male students seem excited[n]to see her wear her new outfit.[n][w][e]-##
+[s][f 4 7 0 0 0]> Она все еще далека от того, чтобы сойти[n]за человека...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> She is still far from passing[n]as human...[n][f 1 4][e]-##
+[s]> Похоже, в данный момент она не в[n]состоянии понять обычные чувства и[n]разговоры...[n][f 1 4][e]
+##-[s]> It seems she is unable to[n]understand ordinary feelings[n]and conversation at the moment...[n][f 1 4][e]-##
+[s]> Если бы она смогла это сделать, вы могли[n]бы создать с ней связь.[n][f 1 4][e]
+##-[s]> If she were able to do that,[n]you may be able to create a bond[n]with her.[n][f 1 4][e]-##
+
+[msg MSG_SEP07_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Это был большой тайфун. Я ожидал, что школе[n]будет нанесен некоторый ущерб.[n][w][e]
+##-[s][bup 3 1 65535 0]That was a large typhoon. I expected[n]the school to have sustained some[n]damage.[n][w][e]-##
+[s]Однако я ошибся. Должно быть, он был[n]построен из довольно прочных материалов.[n][w][e]
+##-[s]However, I was mistaken. It must[n]have been built with quite durable[n]materials.[n][w][e]-##
+[s][f 4 7 0 0 0]> Она все еще далека от того, чтобы сойти[n]за человека...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> She is still far from passing[n]as human...[n][f 1 4][e]-##
+[s]> Похоже, в данный момент она не в[n]состоянии понять обычные чувства и[n]разговоры...[n][f 1 4][e]
+##-[s]> It seems she is unable to[n]understand ordinary feelings[n]and conversation at the moment...[n][f 1 4][e]-##
+[s]> Если бы она смогла это сделать, вы могли[n]бы создать с ней связь.[n][f 1 4][e]
+##-[s]> If she were able to do that,[n]you may be able to create a bond[n]with her.[n][f 1 4][e]-##
+
+[msg MSG_SEP08_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Могу я спросить вас кое о чем?[n][w][e]
+##-[s][bup 3 1 65535 0]May I ask you something?[n][w][e]-##
+[s]Как вы думаете, кто-нибудь подозревает, что[n]я робот?[n][w][e]
+##-[s]Do you think anyone suspects that I am[n]a robot?[n][w][e]-##
+
+[sel MSG_SEP08_AEGIS_01S top]
+[s]"Нет".[e]
+##-[s]"Nah."[e]-##
+[s]"Может быть".[e]
+##-[s]"Maybe."[e]-##
+
+[msg MSG_SEP08_AEGIS_01A [Aigis]]
+[s][bup 3 1 65535 0]Тогда никаких корректировок не требуется.[n][w][e]
+##-[s][bup 3 1 65535 0]Then, no adjustments are necessary.[n][w][e]-##
+
+[msg MSG_SEP08_AEGIS_01B [Aigis]]
+[s][bup 3 1 65535 0]Неужели мне не хватает человеческих манер?[n][w][e]
+##-[s][bup 3 1 65535 0]Do I lack human mannerisms?[n][w][e]-##
+[s]С этого момента я буду пытаться имитировать[n]различные особенности, чтобы избежать[n]обнаружения.[n][w][e]
+##-[s]From now on, I will attempt to mimic[n]various idiosyncrasies to avoid[n]detection.[n][w][e]-##
+
+[msg MSG_OCT01_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Скоро луна снова будет полной. Получили ли[n]вы соответствующие предметы и оборудование?[n][w][e]
+##-[s][bup 3 1 65535 0]Soon, the moon will be full again.[n]Have you obtained adequate items[n]and equipment?[n][w][e]-##
+[s]Если вы не готовы, вам следует отправиться[n]в торговый центр сразу после школы.[n][w][e]
+##-[s]If you are not prepared, you should go[n]to the mall immediately after school.[n][w][e]-##
+
+[msg MSG_OCT02_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]К сожалению, не многие студенты опечалены[n]смертью Синдзиро-сана.[n][w][e]
+##-[s][bup 3 1 65535 0]It is unfortunate, but not many students[n]are saddened by Shinjiro-san's death.[n][w][e]-##
+[s]По-видимому, человеческие отношения быстро[n]забываются, за исключением нашего случая.[n][w][e]
+##-[s]Apparently, human relationships are[n]quickly forgotten, except in our case.[n][w][e]-##
+
+[msg MSG_OCT02_AEGIS_01_G [Aigis]]
+[s][bup 3 1 65535 0]К сожалению, мало кто из студентов опечален[n]госпитализацией Синдзиро-сана.[n][w][e]
+##-[s][bup 3 1 65535 0]It is unfortunate, but few students[n]are saddened by Shinjiro-san's[n]hospitalization.[n][w][e]-##
+[s]По-видимому, человеческие отношения быстро[n]забываются, за исключением нашего случая.[n][w][e]
+##-[s]Apparently, human relationships are[n]quickly forgotten, except in our case.[n][w][e]-##
+
+[msg MSG_OCT03_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Для студентов разумно сосредоточиться на[n]своих экзаменах, а не на инциденте с[n]Синдзиро-саном.[n][w][e]
+##-[s][bup 3 1 65535 0]It is rational for students to[n]concentrate on their exams rather[n]than the incident with Shinjiro-san.[n][w][e]-##
+[s][bup 3 4 65535 0]Однако по какой-то неизвестной причине...[n][w][e]
+##-[s][bup 3 4 65535 0]However, for some unknown reason...[n][w][e]-##
+[s]Я сомневаюсь в ценности такого мышления.[n][w][e]
+##-[s]I question the value of thinking this[n]way.[n][w][e]-##
+
+[msg MSG_OCT04_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Фуука-сан сказал: "Я понял".[n][w][e]
+##-[s][bup 3 1 65535 0]Fuuka-san said, "I get it."[n][w][e]-##
+[s]Как насчет тебя, [f 4 2]- сан?[n][w][e]
+##-[s]How about you, [f 4 2]-san?[n][w][e]-##
+
+[sel MSG_OCT04_AEGIS_01S top]
+[s]"Я понимаю".[e]
+##-[s]"I get it."[e]-##
+[s]"Я этого не понимаю".[e]
+##-[s]"I don't get it."[e]-##
+
+[msg MSG_OCT04_AEGIS_01A [Aigis]]
+[s][bup 3 1 65535 0]Повезло тебе.[n][w][e]
+##-[s][bup 3 1 65535 0]Good for you.[n][w][e]-##
+
+[msg MSG_OCT04_AEGIS_01B [Aigis]]
+[s][bup 3 1 65535 0]Я тоже.[n][w][e]
+##-[s][bup 3 1 65535 0]Me neither.[n][w][e]-##
+
+[msg MSG_OCT05_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]......[n][w][e]
+##-[s][bup 3 1 65535 0]......[n][w][e]-##
+[s]Извини, я задумался.[n][w][e]
+##-[s]Sorry, I was thinking.[n][w][e]-##
+[s]Я размышлял о том, чему я мог бы научиться,[n]посещая школу.[n][w][e]
+##-[s]I was considering what I might learn[n]by attending school.[n][w][e]-##
+[s]Но это не имеет значения.[n][w][e]
+##-[s]But, that is irrelevant.[n][w][e]-##
+
+[msg MSG_OCT06_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Дзюнпэй-сан, кажется, много спит.[n][w][e]
+##-[s][bup 3 1 65535 0]Junpei-san seems to sleep a great deal.[n][w][e]-##
+[s]Он должен беречь энергию, чтобы быть[n]готовым к бою.[n][w][e]
+##-[s]He must be conserving energy so that[n]he is prepared for combat.[n][w][e]-##
+[s]Это довольно интересная тактика.[n][w][e]
+##-[s]It is quite an interesting tactic.[n][w][e]-##
+
+[msg MSG_OCT07_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]......[n][w][e]
+##-[s][bup 3 1 65535 0]......[n][w][e]-##
+[s]Извини, я задумался.[n][w][e]
+##-[s]Sorry, I was thinking.[n][w][e]-##
+[s]Мне было интересно, что будет со мной,[n]когда мы победим все Тени.[n][w][e]
+##-[s]I was wondering what will become of me[n]once we have defeated all the Shadows.[n][w][e]-##
+[s]Я надеюсь, что смогу продолжать посещать[n]школу.[n][w][e]
+##-[s]I hope I can continue to attend school.[n][w][e]-##
+
+[msg MSG_NOV01_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Завтра будет последняя битва. Вы готовы?[n][w][e]
+##-[s][bup 3 1 65535 0]Tomorrow will be the final battle.[n]Are you ready?[n][w][e]-##
+[s]Если нет, вам следует приобрести[n]необходимое оборудование после школы.[n][w][e]
+##-[s]If not, you should purchase the[n]necessary equipment after school.[n][w][e]-##
+[s]Пожалуйста, убедитесь, что вы хорошо[n]подготовлены.[n][w][e]
+##-[s]Please make sure you are well-prepared.[n][w][e]-##
+
+[msg MSG_NOV02_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]По какой-то причине я не мог[n]сосредоточиться на уроке.[n][w][e]
+##-[s][bup 3 1 65535 0]For some reason, I was unable to[n]concentrate on the lesson.[n][w][e]-##
+[s]Это очень на меня не похоже.[n][w][e]
+##-[s]That is very unlike me.[n][w][e]-##
+
+[msg MSG_NOV03_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Реджи-сан опасен.[n][w][e]
+##-[s][bup 3 1 65535 0]Ryoji-san is dangerous.[n][w][e]-##
+[s]Я повторно проанализировал его и не[n]обнаружил ничего необычного. Однако у меня[n]есть "плохое предчувствие" по поводу него.[n][w][e]
+##-[s]I have re-analyzed him and detect[n]nothing out of the ordinary. However,[n]I have a "bad feeling" about him.[n][w][e]-##
+
+[msg MSG_NOV04_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Манера, в которой эта школа проводит свои[n]экскурсии, необычна, не так ли?[n][w][e]
+##-[s][bup 3 1 65535 0]The manner in which this school[n]conducts its field trips is unusual,[n]is it not?[n][w][e]-##
+[s]Студенты первого курса обычно не[n]отправляются в путешествие, но по какой-то[n]причине старшекурсники тоже не отправились[n]в путешествие.[n][w][e]
+##-[s]First year students do not normally go[n]on a trip, but for some reason the[n]seniors have not gone on one either.[n][w][e]-##
+[s]Так что в этом году юниоры и[n]старшеклассники собираются вместе.[n][w][e]
+##-[s]So this year, the juniors and seniors[n]are going together.[n][w][e]-##
+
+[msg MSG_NOV05_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Большинство людей, которых я встречаю,[n]кажутся нервными.[n][w][e]
+##-[s][bup 3 1 65535 0]Most of the people I meet seem[n]nervous.[n][w][e]-##
+[s]Ты нервничаешь, [f 4 2]?[n][w][e]
+##-[s]Are you nervous, [f 4 2]?[n][w][e]-##
+
+[sel MSG_NOV05_AEGIS_01S top]
+[s]"конечно."[e]
+##-[s]"Of course."[e]-##
+[s]"Не совсем".[e]
+##-[s]"Not really."[e]-##
+[s]"Как насчет тебя?"[e]
+##-[s]"How 'bout you?"[e]-##
+
+[sel MSG_NOV05_AEGIS_01S_G top]
+[s]"конечно."[e]
+##-[s]"Of course."[e]-##
+[s]"Не совсем".[e]
+##-[s]"Not really."[e]-##
+[s]"Как насчет тебя?"[e]
+##-[s]"How 'bout you?"[e]-##
+
+[msg MSG_NOV05_AEGIS_01A [Aigis]]
+[s][bup 3 1 65535 0]Это хорошо. Значит, ты такой же, как все[n]остальные.[n][w][e]
+##-[s][bup 3 1 65535 0]That's good. You're just like everyone[n]else, then.[n][w][e]-##
+
+[msg MSG_NOV05_AEGIS_01B [Aigis]]
+[s][bup 3 1 65535 0]Ты кажешься спокойным. Возможно, вам[n]следует немного больше нервничать...[n][w][e]
+##-[s][bup 3 1 65535 0]You seem calm. Perhaps you should be[n]a little more nervous...[n][w][e]-##
+
+[msg MSG_NOV05_AEGIS_01C [Aigis]]
+[s][bup 3 1 65535 0]Я не знаю. Неужели я кажусь таким, какой я[n]есть?[n][w][e]
+##-[s][bup 3 1 65535 0]I don't know. Do I seem like I am?[n][w][e]-##
+
+[msg MSG_NOV06_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Принятие решения о своей карьере кажется[n]увлекательным процессом.[n][w][e]
+##-[s][bup 3 1 65535 0]Deciding on one's career seems to be[n]a fascinating process.[n][w][e]-##
+[s]Однако, поскольку я создан в первую очередь[n]для боя, для меня это бесполезно.[n][w][e]
+##-[s]However, since I am designed primarily[n]for battle, it is useless for me.[n][w][e]-##
+
+[msg MSG_NOV07_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Дзюнпэй-сан сегодня рано ушел домой.[n][w][e]
+##-[s][bup 3 1 65535 0]Junpei-san went home early today.[n][w][e]-##
+[s]Он шел довольно быстро. Возможно, он еще не[n]полностью оправился от случившегося.[n][w][e]
+##-[s]He was walking quite fast.[n]Perhaps he has not fully recovered[n]from the incident.[n][w][e]-##
+[s][bup 3 4 65535 0]Я обеспокоен...[n][w][e]
+##-[s][bup 3 4 65535 0]I am concerned...[n][w][e]-##
+
+[msg MSG_NOV08_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Я беспокоюсь о Реджи-сане, и это влияет на[n]мою концентрацию.[n][w][e]
+##-[s][bup 3 1 65535 0]I am worried about Ryoji-san, and it[n]is affecting my concentration.[n][w][e]-##
+[s]Это нехорошо.[n][w][e]
+##-[s]This is not good.[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_DEC01_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Реджи-сан тоже отсутствовал сегодня...[n]Интересно, что случилось?[n][w][e]
+##-[s][bup 3 1 65535 0]Ryoji-san was absent today as well...[n]I wonder what happened?[n][w][e]-##
+[s][bup 5 1 65535 0][f 1 5]Дзюнпэй[n]Он, наверное, болен или что-то в этом роде.[n]В последнее время было холодно.[n][w][e]
+##-[s][bup 5 1 65535 0][f 1 5]Junpei[n]He's prolly sick or somethin'.[n]It's been cold lately.[n][w][e]-##
+[s][bup 5 10 65535 0]Или, может быть, он встретил горячую[n]цыпочку по дороге в школу и решил пойти с[n]ней на свидание.[n][w][e]
+##-[s][bup 5 10 65535 0]Or, maybe he met a hot chick on[n]the way to school and decided to[n]go out with her.[n][w][e]-##
+[s]Этот парень делает такие вещи, даже не[n]задумываясь об этом.[n][w][e]
+##-[s]That guy does stuff like that without[n]even thinking about it.[n][w][e]-##
+[s][bup 3 1 65535 0][f 1 5]Айгис[n]......[n][w][e]
+##-[s][bup 3 1 65535 0][f 1 5]Aigis[n]......[n][w][e]-##
+
+[msg MSG_DEC01_AEGIS_01_G [Aigis]]
+[s][bup 3 1 65535 0]......[n][w][e]
+##-[s][bup 3 1 65535 0]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]О, мне очень жаль...[n][w][e]
+##-[s]Oh, I'm sorry...[n][w][e]-##
+[s]Что... со мной не так? Я даже не заметил,[n]что ты был там, [f 4 2]...[n][w][e]
+##-[s]What's... wrong with me? I didn't even[n]notice you were there, [f 4 2]...[n][w][e]-##
+[s][bup 3 4 65535 0]......[n][w][e]
+##-[s][bup 3 4 65535 0]......[n][w][e]-##
+
+[msg MSG_JAN01_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Прошло много времени с тех пор, как мы были[n]здесь в последний раз. Все выглядит так[n]по-другому...[n][w][e]
+##-[s][bup 3 1 65535 0]It's been a while since we were here.[n]Everything looks so different...[n][w][e]-##
+[s][bup 3 4 65535 0]Мне не нравится эта гнетущая атмосфера.[n][w][e]
+##-[s][bup 3 4 65535 0]I don't like this depressing[n]atmosphere.[n][w][e]-##
+
+[msg MSG_JAN02_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Не все вовлечены в культ.[n][w][e]
+##-[s][bup 3 1 65535 0]Not everyone is involved in the cult.[n][w][e]-##
+[s]Интересно, почему одни люди присоединяются,[n]а другие нет?[n][w][e]
+##-[s]I wonder why some people join and[n]others don't?[n][w][e]-##
+
+[msg MSG_JAN03_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Я помню, как Стрега использовал фразу[n]"братья и сестры", а также слово[n]"революция".[n][w][e]
+##-[s][bup 3 1 65535 0]I remember Strega using the phrase[n]"brothers and sisters" as well as[n]the word "revolution."[n][w][e]-##
+[s]Братья и сестры - это люди, от которых люди[n]зависят больше всего.[n][w][e]
+##-[s]Brothers and sisters are the[n]individuals people depend on most.[n][w][e]-##
+[s]Революция - это средство, с помощью[n]которого можно изменить мир.[n][w][e]
+##-[s]Revolution is a means by which one[n]can change the world.[n][w][e]-##
+[s]Я полагаю, что именно с такими словами[n]подростки стали мишенью.[n][w][e]
+##-[s]I believe it was with words like these[n]that teenagers were targeted.[n][w][e]-##
+
+[msg MSG_JAN04_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Я уверен, что люди все еще помнят[n]знаменитое предсказание о Короле Ужаса.[n][w][e]
+##-[s][bup 3 1 65535 0]I'm certain people still remember[n]the famous prediction about the King[n]of Terror.[n][w][e]-##
+[s]Интересно, чувствуют ли они то же самое по[n]поводу прихода Никс?..[n][w][e]
+##-[s]I wonder if they feel similarly about[n]the coming of Nyx...[n][w][e]-##
+[s]Считают ли они это просто предположением,[n]как то древнее пророчество, или они считают[n]Падение неизбежным?[n][w][e]
+##-[s]Do they consider it just speculation,[n]like that old prophecy, or do they see[n]the Fall as inevitable?[n][w][e]-##
+
+[sel MSG_JAN04_AEGIS_01S top]
+[s]"Предположения".[e]
+##-[s]"Speculation."[e]-##
+[s]"Неизбежно".[e]
+##-[s]"Inevitable."[e]-##
+
+[msg MSG_JAN04_AEGIS_01A [Aigis]]
+[s][bup 3 1 65535 0]Если это правда, то они, должно быть, не[n]так беспокоятся, как мы.[n][w][e]
+##-[s][bup 3 1 65535 0]If that's true, then they must not be[n]as worried as we are.[n][w][e]-##
+
+[msg MSG_JAN04_AEGIS_01B [Aigis]]
+[s][bup 3 1 65535 0]Тогда они, должно быть, в полном отчаянии.[n]...Мы должны что-то сделать.[n][w][e]
+##-[s][bup 3 1 65535 0]Then, they must be in utter despair.[n]...We must do something.[n][w][e]-##
+
+[msg MSG_JAN05_AEGIS_01 [Aigis]]
+[s][bup 3 4 65535 0]Когда я вижу это пустое место, оно[n]напоминает мне о Реджи-сане...[n][w][e]
+##-[s][bup 3 4 65535 0]When I see that empty seat, it reminds[n]me of Ryoji-san...[n][w][e]-##
+[s]Я указал на него и назвал опасным...[n][w][e]
+##-[s]I pointed at him and called him[n]dangerous...[n][w][e]-##
+[s]Но печаль и одиночество также были пойманы[n]в ловушку внутри него... Реджи-сан...[n][w][e]
+##-[s]But, sadness and loneliness were also[n]trapped inside him... Ryoji-san...[n][w][e]-##
+
+[msg MSG_JAN06_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Все ли выбрали карьеру?[n][w][e]
+##-[s][bup 3 1 65535 0]Has everyone chosen a career?[n][w][e]-##
+[s]Несмотря ни на что, у вас должна быть[n]надежда на будущее...[n][w][e]
+##-[s]No matter what, you must have hope[n]for the future...[n][w][e]-##
+[s][bup 3 2 65535 0]Вот в чем, я думаю, смысл жизни.[n][w][e]
+##-[s][bup 3 2 65535 0]That is what I think the meaning of[n]life is.[n][w][e]-##
+
+[msg MSG_JAN07_AEGIS_01 [Aigis]]
+[s][bup 3 1 65535 0]Мы всего лишь младшие. Еще слишком рано[n]прощаться с этой школой.[n][w][e]
+##-[s][bup 3 1 65535 0]We're only Juniors. It's too early to[n]say goodbye to this school.[n][w][e]-##
+[s]Мы продолжим идти сюда, верно,[n][f 4 2]- сан?[n][w][e]
+##-[s]We'll continue to go here, right,[n][f 4 2]-san?[n][w][e]-##
+
+[sel MSG_JAN07_AEGIS_01S top]
+[s]"да."[e]
+##-[s]"Yes."[e]-##
+[s]"Интересно..."[e]
+##-[s]"I wonder..."[e]-##
+
+[sel MSG_JAN07_AEGIS_01S_G top]
+[s]"да."[e]
+##-[s]"Yes."[e]-##
+[s]"Интересно..."[e]
+##-[s]"I wonder..."[e]-##
+
+[msg MSG_JAN07_AEGIS_01A [Aigis]]
+[s][bup 3 2 65535 0]Давайте оба сделаем все, что в наших силах.[n]Должен быть способ добиться победы.[n][w][e]
+##-[s][bup 3 2 65535 0]Let's both do our best. There must be[n]a way to achieve victory.[n][w][e]-##
+
+[msg MSG_JAN07_AEGIS_01B [Aigis]]
+[s][bup 3 2 65535 0]Не бойтесь. Давайте бороться вместе.[n][w][e]
+##-[s][bup 3 2 65535 0]Don't be afraid. Let's fight together.[n][w][e]-##
+
+[msg MSG_MAR01_AEGIS_01A [Aigis]]
+[s][bup 3 4 65535 0]......[n][w][e]
+##-[s][bup 3 4 65535 0]......[n][w][e]-##
+[s]> У Айгис печальное выражение лица, и она[n]странно спокойна.[n][f 1 4][e]
+##-[s]> Aigis has a sad look on her face[n]and is strangely quiet.[n][f 1 4][e]-##
+
+[msg MSG_MAR01_AEGIS_01B [Girl by the Gate]]
+[s][bup 3 4 65535 0]......[n][w][e]
+##-[s][bup 3 4 65535 0]......[n][w][e]-##
+[s]> У девушки грустное выражение лица, и она[n]странно спокойна.[n][f 1 4][e]
+##-[s]> The girl has a sad look on her face[n]and is strangely quiet.[n][f 1 4][e]-##
+
+[msg MSG_NOV01_RYOJI_01 [Ryoji]]
+[s][bup 13 162 0 0]Эй, ты, должно быть, [f 4 2]- кун, верно? Приятно[n]познакомиться.[n][w][e]
+##-[s][bup 13 162 0 0]Hey, you must be [f 4 2]-kun,[n]right? Nice to meet you.[n][w][e]-##
+[s]Вау, я никогда не думал, что в этой школе[n]будет так много симпатичных девочек. Я уже[n]пригласил многих из них на свидания.[n][w][e]
+##-[s]Wow, I never dreamed there would be so[n]many cute girls at this school. I've[n]already asked many of them out on dates.[n][w][e]-##
+
+[msg MSG_NOV01_RYOJI_01_G [Ryoji]]
+[s][bup 13 162 0 0]Эй, ты, должно быть, [f 4 2]- сан, верно? Приятно[n]познакомиться.[n][w][e]
+##-[s][bup 13 162 0 0]Hey, you must be [f 4 2]-san,[n]right? Nice to meet you.[n][w][e]-##
+[s]Кстати, если у вас будет свободное время,[n]не могли бы вы дать мне знать? Мы могли бы[n]пойти куда-нибудь.[n][w][e]
+##-[s]By the way, if you find yourself with[n]time on your hands, could you let me[n]know? We could go out.[n][w][e]-##
+[s]Я имею в виду, я ничего не знаю об этом[n]городе, так что было бы здорово, если бы ты[n]показал мне его.[n][w][e]
+##-[s]I mean, I don't know anything about[n]this city, so it'd be great if you[n]could show me around.[n][w][e]-##
+
+[msg MSG_NOV02_RYOJI_01 [Ryoji]]
+[s][bup 13 162 0 0]Скоро школьная поездка...[n][w][e]
+##-[s][bup 13 162 0 0]The school trip is coming up...[n][w][e]-##
+[s]Разве ты не взволнован?[n][w][e]
+##-[s]Aren't you excited?[n][w][e]-##
+
+[msg MSG_NOV02_RYOJI_01_G [Ryoji]]
+[s][bup 13 162 0 0]Скоро школьная поездка...[n][w][e]
+##-[s][bup 13 162 0 0]The school trip is coming up...[n][w][e]-##
+[s]Разве ты не взволнован?[n][w][e]
+##-[s]Aren't you excited?[n][w][e]-##
+
+[sel MSG_NOV02_RYOJI_01S top]
+[s]"Определенно".[e]
+##-[s]"Definitely."[e]-##
+[s]"Не совсем".[e]
+##-[s]"Not really."[e]-##
+
+[sel MSG_NOV02_RYOJI_01S_G top]
+[s]"Я так взволнован!"[e]
+##-[s]"I'm sooo excited!"[e]-##
+[s]"Не совсем".[e]
+##-[s]"Not really."[e]-##
+
+[msg MSG_NOV02_RYOJI_01A [Ryoji]]
+[s][bup 13 162 0 0]Я позабочусь о том, чтобы мы отлично[n]провели время, пока будем там...[n][w][e]
+##-[s][bup 13 162 0 0]I'll make sure we have a great time[n]while we're there...[n][w][e]-##
+
+[msg MSG_NOV02_RYOJI_01A_G [Ryoji]]
+[s][bup 13 162 0 0]Я позабочусь о том, чтобы мы отлично[n]провели время, пока будем там...[n][w][e]
+##-[s][bup 13 162 0 0]I'll make sure we have a great time[n]while we're there...[n][w][e]-##
+[s]Конечно, мы будем только вдвоем. Свидание в[n]Киото звучит фантастически.[n][w][e]
+##-[s]Of course, it'll be just the two of us.[n]A date in Kyoto sounds fantastic.[n][w][e]-##
+
+[msg MSG_NOV02_RYOJI_01B [Ryoji]]
+[s][bup 13 162 0 0]Да ладно тебе... Это будет весело.[n][w][e]
+##-[s][bup 13 162 0 0]Oh, come on... It'll be fun.[n][w][e]-##
+
+[msg MSG_NOV02_RYOJI_01B_G [Ryoji]]
+[s][bup 13 162 0 0]Да ладно тебе... Это будет весело.[n][w][e]
+##-[s][bup 13 162 0 0]Oh, come on... It'll be fun.[n][w][e]-##
+
+[msg MSG_NOV03_RYOJI_01 [Ryoji]]
+[s][bup 13 161 0 0]Хм, что я сделал не так...?[n][w][e]
+##-[s][bup 13 161 0 0]Hmm, what did I do wrong...?[n][w][e]-##
+[s]Разве это не в ее стиле?[n][w][e]
+##-[s]Is that not her style?[n][w][e]-##
+[s]Мицуру-сан кажется крепким орешком, который[n]трудно расколоть...[n][w][e]
+##-[s]Mitsuru-san seems like a tough nut[n]to crack...[n][w][e]-##
+
+[msg MSG_NOV04_RYOJI_01 [Ryoji]]
+[s][bup 13 162 0 0]Завтра мы отправляемся в наше[n]путешествие... Я не могу дождаться.[n][w][e]
+##-[s][bup 13 162 0 0]Tomorrow, we leave for our trip...[n]I can't wait.[n][w][e]-##
+
+[msg MSG_NOV05_RYOJI_01 [Ryoji]]
+[s][bup 13 161 0 0]Эта поездка была потрясающей... особенно[n]горячие источники...[n][w][e]
+##-[s][bup 13 161 0 0]That trip was a blast... especially[n]the hot springs...[n][w][e]-##
+[s][bup 13 162 0 0]...Ой, извините. Это должно было быть[n]секретом, не так ли?[n][w][e]
+##-[s][bup 13 162 0 0]...Oops, sorry. That was supposed to[n]be a secret, wasn't it?[n][w][e]-##
+[s]Но делиться секретами тоже весело.[n][w][e]
+##-[s]But sharing secrets is fun, too.[n][w][e]-##
+
+[msg MSG_NOV05_RYOJI_01_G [Ryoji]]
+[s][bup 13 161 0 0]Эта поездка была потрясающей... особенно[n]горячие источники...[n][w][e]
+##-[s][bup 13 161 0 0]That trip was a blast... especially[n]the hot springs...[n][w][e]-##
+[s][bup 13 162 0 0]Это была вершина... Настоящий праздник для[n]глаз.[n][w][e]
+##-[s][bup 13 162 0 0]It was the pinnacle... A real feast[n]for the eyes.[n][w][e]-##
+[s]...Ой, извините. Не обращай внимания на то,[n]что я только что сказал.[n][w][e]
+##-[s]...Oops, sorry. Pay no mind to what[n]I just said.[n][w][e]-##
+
+[msg MSG_NOV05_RYOJI_02_G [Ryoji]]
+[s][bup 13 161 0 0]Эта поездка была потрясающей... особенно[n]горячие источники...[n][w][e]
+##-[s][bup 13 161 0 0]That trip was a blast... especially[n]the hot springs...[n][w][e]-##
+[s][bup 13 162 0 0]Я действительно думал, что умру от этого[n]предложения, но даже тогда я ни о чем не[n]жалею.[n][w][e]
+##-[s][bup 13 162 0 0]I really thought I was going to die[n]from that sentence, but even then,[n]I have no regrets.[n][w][e]-##
+[s]...Эй, я шучу! Шучу! Я действительно[n]сожалею об этом... Извините.[n][w][e]
+##-[s]...Hey, I'm joking! Joking! I'm really[n]sorry about that... Sorry.[n][w][e]-##
+
+[msg MSG_NOV06_RYOJI_01 [Ryoji]]
+[s][bup 13 161 0 0]Что-то случилось с Дзюнпей-куном...? Он[n]кажется немного подавленным...[n][w][e]
+##-[s][bup 13 161 0 0]Did something happen to Junpei-kun...?[n]He seems kinda down...[n][w][e]-##
+[s][bup 13 164 0 0]Мне тяжело видеть его таким... Я надеюсь,[n]что он скоро почувствует себя лучше.[n][w][e]
+##-[s][bup 13 164 0 0]It's tough for me to see him like[n]that... I hope he feels better soon.[n][w][e]-##
+
+[msg MSG_NOV07_RYOJI_01 [Ryoji]]
+[s][bup 13 161 0 0]Похоже, Айгис-сан в последнее время[n]пристально смотрит на меня...[n][w][e]
+##-[s][bup 13 161 0 0]It seems like Aigis-san has been[n]staring at me lately...[n][w][e]-##
+[s][bup 13 162 0 0]Надеюсь, она не собирается снова ставить[n]меня в неловкое положение.[n][w][e]
+##-[s][bup 13 162 0 0]I hope she's not going to embarrass me[n]again.[n][w][e]-##
+
+[msg MSG_EXAM01_01_NPC016_01 [Female Student]]
+[s]О, ты, должно быть, тот новенький...[n]Позвольте мне дать вам несколько советов...[n][w][e]
+##-[s]Oh, you must be that new kid...[n]Let me give you some advice...[n][w][e]-##
+[s]Убедитесь, что вы усердно готовитесь к[n]экзаменам, так как будут некоторые[n]каверзные вопросы.[n][w][e]
+##-[s]Make sure you study hard for exams,[n]since there will be some tricky[n]questions.[n][w][e]-##
+
+[msg MSG_EXAM01_02_NPC016_01 [Female Student]]
+[s]Я слышал от некоторых людей, которые учатся[n]в библиотеке, что они не так легко устают.[n][w][e]
+##-[s]I heard from some people who study in[n]the library that they don't get tired[n]as easily.[n][w][e]-##
+[s]Дома больше отвлекающих факторов.[n][w][e]
+##-[s]At home, there are more distractions.[n][w][e]-##
+[s]В библиотеке действительно тихо, так что,[n]наверное, легче сосредоточиться.[n][w][e]
+##-[s]The library is really quiet, so it's[n]probably easier to concentrate.[n][w][e]-##
+[s]Может быть, тебе стоит попробовать.[n][w][e]
+##-[s]Maybe you should give it a try.[n][w][e]-##
+[s]Что касается меня, то моя концентрация[n]выше, чем у кого бы то ни было, поэтому я[n]не устаю, где бы я ни учился.[n][w][e]
+##-[s]As for me, my concentration is greater[n]than anyone's, so I don't get tired no[n]matter where I study.[n][w][e]-##
+
+[msg MSG_EXAM01_03_NPC016_01 [Female Student]]
+[s]Только время покажет...[n][w][e]
+##-[s]Only time will tell...[n][w][e]-##
+[s]Я не собираюсь беспокоиться о своем счете.[n][w][e]
+##-[s]I'm not gonna worry about my score.[n][w][e]-##
+
+[msg MSG_EXAM01_04_NPC016_01 [Female Student]]
+[s]Я не рад и не разочарован своим[n]результатом, так как он примерно средний.[n][w][e]
+##-[s]I'm neither happy nor disappointed[n]with my score, since it's about[n]average.[n][w][e]-##
+[s]Как дела, новичок?[n][w][e]
+##-[s]How'd you do, newbie?[n][w][e]-##
+
+[msg MSG_0629_NPC016_01 [Female Student]]
+[s]Вы слышали о двух недавних жертвах,[n]найденных без сознания?[n][w][e]
+##-[s]Did you hear about the two recent[n]victims found unconscious?[n][w][e]-##
+[s]Держу пари, отныне меньше людей будут[n]изменять своим близким.[n][w][e]
+##-[s]I bet fewer people will be cheating on[n]their significant others from now on.[n][w][e]-##
+[s]В конце концов, один из них был мужчиной, а[n]другая - женщиной.[n][w][e]
+##-[s]After all, one of them was a man and[n]the other a woman.[n][w][e]-##
+[s]Это довольно компрометирующие[n]обстоятельства, если вы спросите меня.[n][w][e]
+##-[s]Those are pretty incriminating[n]circumstances, if you ask me.[n][w][e]-##
+
+[msg MSG_EXAM02_01_NPC016_01 [Female Student]]
+[s]Знаешь, выпускные экзамены намного сложнее,[n]чем промежуточные...[n][w][e]
+##-[s]Finals are a lot harder than midterms,[n]you know...[n][w][e]-##
+[s]Но это не значит, что я буду учиться[n]усерднее.[n][w][e]
+##-[s]But, that doesn't mean I'll study[n]harder.[n][w][e]-##
+[s]Посмотрим. Иногда дополнительные усилия[n]окупаются.[n][w][e]
+##-[s]We'll see. Sometimes the extra effort[n]pays off.[n][w][e]-##
+
+[msg MSG_EXAM02_02_NPC016_01 [Female Student]]
+[s]Похоже, на этот раз средний балл[n]снизился... Я думаю, что это не так уж[n]плохо.[n][w][e]
+##-[s]It seems like the average score went[n]down this time... I guess that's not[n]a bad thing.[n][w][e]-##
+[s]Но, по правде говоря, я немного[n]разочарован, так как мог бы набрать[n]примерно на 20 очков больше.[n][w][e]
+##-[s]But, to tell you the truth, I'm a little[n]disappointed, since I could've scored[n]about 20 points higher.[n][w][e]-##
+[s]Мне придется усерднее учиться во время[n]каникул.[n][w][e]
+##-[s]I'll have to study harder during[n]vacation.[n][w][e]-##
+
+[msg MSG_EXAM03_01_NPC016_01 [Female Student]]
+[s]Первый семестр - это просто разминка. Игра[n]начинается по-настоящему во втором[n]семестре.[n][w][e]
+##-[s]The first semester is just a warm up.[n]The game starts for real during the[n]second semester.[n][w][e]-##
+[s]Вам лучше воспользоваться библиотекой или с[n]умом заниматься дома.[n][w][e]
+##-[s]You better use the library or study[n]wisely at home.[n][w][e]-##
+
+[msg MSG_EXAM03_02_NPC016_01 [Female Student]]
+[s]На этот раз я знаю, что справился довольно[n]хорошо. Я не могу дождаться результатов.[n][w][e]
+##-[s]This time, I know I did pretty good.[n]I can't wait for the results.[n][w][e]-##
+
+[msg MSG_EXAM03_03_NPC016_01 [Female Student]]
+[s]Я был доволен своим счетом. Все, что я[n]изучал во время летних каникул, окупилось.[n][w][e]
+##-[s]I was happy with my score. All that[n]studying I did during summer vacation[n]paid off.[n][w][e]-##
+
+[msg MSG_EXAM04_01_NPC016_01 [Female Student]]
+[s]Это испытание - всего лишь еще одна[n]маленькая гора на моем пути...[n][w][e]
+##-[s]This test is just another small[n]mountain on my path...[n][w][e]-##
+[s]Настоящая проблема - это вступительный[n]экзамен в колледж... Все остальное - просто[n]практика.[n][w][e]
+##-[s]The true challenge is the college[n]entrance exam... Everything else[n]is just practice.[n][w][e]-##
+[s]Я уверен, что мы оба будем учиться больше,[n]чем когда-либо могли себе представить для[n]этого теста.[n][w][e]
+##-[s]I'm sure we'll both study more than[n]we ever imagined for that test.[n][w][e]-##
+
+[msg MSG_EXAM04_02_NPC016_01 [Female Student]]
+[s]Это было тяжелое испытание. Я не уверен,[n]как мне это удалось.[n][w][e]
+##-[s]That was a hard test. I'm not sure how[n]I did.[n][w][e]-##
+[s]Думаю, мне придется подождать, пока будут[n]опубликованы результаты.[n][w][e]
+##-[s]I guess I'll have to wait for the[n]scores to be posted.[n][w][e]-##
+
+[msg MSG_EXAM04_03_NPC016_01 [Female Student]]
+[s]На самом деле я справился довольно хорошо. [n][w][e]
+##-[s]I actually did pretty well. [n][w][e]-##
+[s]Теперь мне не нужно впадать в депрессию во[n]время каникул.[n][w][e]
+##-[s]Now, I don't have to be depressed[n]during the holiday break.[n][w][e]-##
+[s]Как насчет... Хм... Ты выглядишь немного[n]бледной...[n][w][e]
+##-[s]How about y--Hm... You look kinda[n]pale...[n][w][e]-##
+[s]Н-ну, это еще не конец света. К тому же у[n]тебя есть еще один шанс...[n][w][e]
+##-[s]W-Well, it's not the end of the world.[n]Plus, you have another chance...[n][w][e]-##
+[s]Так что не унывай...[n][w][e]
+##-[s]So, cheer up...[n][w][e]-##
+
+[msg MSG_EXAM01_01_NPC017_01 [Male Student]]
+[s]Держу пари, промежуточные экзамены будут[n]легкими.[n][w][e]
+##-[s]I bet midterms will be easy.[n][w][e]-##
+[s]Но я буду учиться, просто на всякий случай.[n][w][e]
+##-[s]But, I'm gonna study just to be on[n]the safe side.[n][w][e]-##
+
+[msg MSG_EXAM01_02_NPC017_01 [Male Student]]
+[s]Если вы не можете сосредоточиться дома,[n]попробуйте сходить в библиотеку.[n][w][e]
+##-[s]If you can't concentrate at home,[n]try going to the library.[n][w][e]-##
+[s]Он находится прямо напротив офиса и открыт[n]большую часть времени.[n][w][e]
+##-[s]It's right across from the office,[n]and it's open most of the time.[n][w][e]-##
+
+[msg MSG_EXAM01_03_NPC017_01 [Male Student]]
+[s]Ну, я думаю, все прошло хорошо...[n][w][e]
+##-[s]Well, I guess it went okay...[n][w][e]-##
+[s]Давайте подождем, пока результаты будут[n]опубликованы.[n][w][e]
+##-[s]Let's wait for the scores to be[n]posted.[n][w][e]-##
+
+[msg MSG_EXAM01_04_NPC017_01 [Male Student]]
+[s]Как я и думал - мой результат был не так уж[n]плох. Я думаю, это хорошая отправная точка.[n][w][e]
+##-[s]Just like I thought--my score wasn't[n]too bad. I guess it's a good starting[n]point.[n][w][e]-##
+
+[msg MSG_EXAM02_01_NPC017_01 [Male Student]]
+[s]Снова почти время экзаменов.[n][w][e]
+##-[s]It's almost time for exams again.[n][w][e]-##
+[s]Но на этот раз все будет намного сложнее.[n][w][e]
+##-[s]But this time, it'll be a lot tougher.[n][w][e]-##
+[s]Тебе лучше пойти в библиотеку и[n]позаниматься, иначе тебе крышка.[n][w][e]
+##-[s]You better go to the library and study,[n]otherwise you'll be screwed.[n][w][e]-##
+
+[msg MSG_EXAM02_02_NPC017_01 [Male Student]]
+[s]Хм, кажется, я снова все сделал хорошо...[n]Но мне лучше немного позаниматься во время[n]летних каникул.[n][w][e]
+##-[s]Hmm, I guess I did okay again...[n]But, I better do some studying over[n]summer vacation.[n][w][e]-##
+
+[msg MSG_EXAM03_01_NPC017_01 [Male Student]]
+[s]Второй семестр будет тяжелым.[n][w][e]
+##-[s]Second semester is gonna be rough.[n][w][e]-##
+[s]Я уже нервничаю...[n][w][e]
+##-[s]I'm nervous already...[n][w][e]-##
+
+[msg MSG_EXAM03_02_NPC017_01 [Male Student]]
+[s]Это было легче, чем я ожидал, но я все[n]равно пропустил кое-что.[n][w][e]
+##-[s]It was easier than I expected,[n]but I still missed some.[n][w][e]-##
+[s]Так что, думаю, я мог бы сделать лучше.[n][w][e]
+##-[s]So, I guess I could've done better.[n][w][e]-##
+
+[msg MSG_EXAM03_03_NPC017_01 [Male Student]]
+[s]Фу, какое облегчение... Я не так уж плохо[n]справился...[n][w][e]
+##-[s]Phew, what a relief... I didn't do too[n]badly...[n][w][e]-##
+[s]Но мои оценки никогда не повысятся, если я[n]не буду относиться к вещам более[n]серьезно...[n][w][e]
+##-[s]But, my scores will never go up if I[n]don't take things more seriously...[n][w][e]-##
+[s]Я займусь учебой, как только вернусь домой.[n][w][e]
+##-[s]I'm gonna study as soon as I get home.[n][w][e]-##
+
+[msg MSG_EXAM04_01_NPC017_01 [Male Student]]
+[s]Вы знаете, что ваши результаты экзаменов[n]могут повлиять на ваши возможности[n]карьерного роста...[n][w][e]
+##-[s]Your exam scores can affect your[n]career opportunities, you know...[n][w][e]-##
+[s]О, боже... Теперь я чувствую тошноту в[n]животе...[n][w][e]
+##-[s]Oh, man... Now, I feel sick to my[n]stomach...[n][w][e]-##
+
+[msg MSG_EXAM04_02_NPC017_01 [Male Student]]
+[s]Хммм, как мне это объяснить...?[n][w][e]
+##-[s]Hmmm, how should I explain this...?[n][w][e]-##
+[s]Я чувствую себя так, словно взбираюсь на[n]гору без веревки...[n][w][e]
+##-[s]I feel like I'm climbing a mountain[n]without a rope...[n][w][e]-##
+[s]О боже, у меня болит живот...[n][w][e]
+##-[s]Oh man, my stomach hurts...[n][w][e]-##
+
+[msg MSG_EXAM04_03_NPC017_01 [Male Student]]
+[s]Вы видели результаты? Блин, я все[n]испортил...[n][w][e]
+##-[s]Did you see the scores?[n]Man, I blew it...[n][w][e]-##
+[s]Я был не последним в списке, но... это[n]определенно повлияет на мое будущее.[n][w][e]
+##-[s]I wasn't the last on the list, but...[n]it's definitely gonna affect my future.[n][w][e]-##
+[s]Тьфу... Все вокруг темнеет...[n][w][e]
+##-[s]Ugh... Everything is getting dark...[n][w][e]-##
+

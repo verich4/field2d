@@ -1,0 +1,282 @@
+[msg msg01]
+[s]Вы хотели бы поступить в среднюю школу[n]Риосейкан?[n][w][e]
+##-[s]Would you like to go to[n]Ryoseikan High School?[n][w][e]-##
+
+[msg MSG_KAGE_01_01 [Male Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_01_02 [Male Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах... Ух...[n][w][e]
+##-[s]Ah...[n]Uunh...[n][w][e]-##
+
+[msg MSG_KAGE_01_03 [Male Student]]
+[s]Ух... Ах...[n][w][e]
+##-[s]Uhh...[n]Ah...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ahh...[n][w][e]-##
+
+[msg MSG_KAGE_01_04 [Male Student]]
+[s]Ухааа... Аууу...[n][w][e]
+##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_01_05 [Male Student]]
+[s]Ух... Ухва... Ааа...[n][w][e]
+##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ah...[n][w][e]-##
+
+[msg MSG_KAGE_01_06 [Male Student]]
+[s]Ааа...[n][w][e]
+##-[s]Ahhh...[n][w][e]-##
+[s]Ууу... Ух...[n][w][e]
+##-[s]Uu...[n]Uhh...[n][w][e]-##
+
+[msg MSG_KAGE_01_07 [Male Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Уаааа...[n][w][e]
+##-[s]Uaaaah...[n][w][e]-##
+
+[msg MSG_KAGE_01_08 [Male Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ух... Ух-х-х...[n][w][e]
+##-[s]Uh...[n]Uhhhh...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_01_09 [Male Student]]
+[s]Ух... Э-э-э...[n][w][e]
+##-[s]Uh...[n]Uhhh...[n][w][e]-##
+[s]Э-э-э... Э-э-э.....[n][w][e]
+##-[s]Uhhhhhh...[n]Uh...[n][w][e]-##
+
+[msg MSG_KAGE_01_10 [Male Student]]
+[s]Уаааа... Ааа...[n][w][e]
+##-[s]Uaaah...[n]Ahh...[n][w][e]-##
+[s]...... Э-э-э...[n][w][e]
+##-[s]......[n]Uhhh...[n][w][e]-##
+
+[msg MSG_KAGE_02_01 [Female Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_02_02 [Female Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах... Ууух...[n][w][e]
+##-[s]Ah...[n]Uuuh...[n][w][e]-##
+
+[msg MSG_KAGE_02_03 [Female Student]]
+[s]Ух... Ах...[n][w][e]
+##-[s]Uhh...[n]Ah...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ahh...[n][w][e]-##
+
+[msg MSG_KAGE_02_04 [Female Student]]
+[s]Ухааа... Аууу...[n][w][e]
+##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_02_05 [Female Student]]
+[s]Ух... Ухва... Ааа...[n][w][e]
+##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ah...[n][w][e]-##
+
+[msg MSG_KAGE_02_06 [Female Student]]
+[s]Ааа...[n][w][e]
+##-[s]Ahhh...[n][w][e]-##
+[s]Ууу... Ух...[n][w][e]
+##-[s]Uuu...[n]Uhh...[n][w][e]-##
+
+[msg MSG_KAGE_02_07 [Female Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Уаааа...[n][w][e]
+##-[s]Uaaaah...[n][w][e]-##
+
+[msg MSG_KAGE_02_08 [Female Student]]
+[s]Уаааа...[n][w][e]
+##-[s]Uaaaah...[n][w][e]-##
+[s]Ух... Ух-х-х...[n][w][e]
+##-[s]Uh...[n]Uhhhh...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_02_09 [Female Student]]
+[s]Эм... Эм...[n][w][e]
+##-[s]Uh... Uh...[n][w][e]-##
+[s]Ух-х-х-х...[n][w][e]
+##-[s]Uhhhhhh...[n][w][e]-##
+
+[msg MSG_KAGE_02_10 [Female Student]]
+[s]Ах...[n][w][e]
+##-[s]Ahh...[n][w][e]-##
+[s]...... Э-э-э...[n][w][e]
+##-[s]......[n]Uhhh...[n][w][e]-##
+
+[msg MSG_KAGE_03_01 [Man]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_03_02 [Man]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]А... Ууу...[n][w][e]
+##-[s]Ah...[n]Uu...[n][w][e]-##
+
+[msg MSG_KAGE_03_03 [Man]]
+[s]Ух... Ах...[n][w][e]
+##-[s]Uhh...[n]Ah...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ahh...[n][w][e]-##
+
+[msg MSG_KAGE_03_04 [Man]]
+[s]Ухааа... Аууу...[n][w][e]
+##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_03_05 [Man]]
+[s]Ух... Ухва... Ааа...[n][w][e]
+##-[s]Uhh... Uhwa... Aah...[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ah...[n][w][e]-##
+
+[msg MSG_KAGE_03_06 [Man]]
+[s]Ааа...[n][w][e]
+##-[s]Ahhh...[n][w][e]-##
+[s]Ууу... Ух...[n][w][e]
+##-[s]Uu... Uhh...[n][w][e]-##
+
+[msg MSG_KAGE_03_07 [Man]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Уаааа...[n][w][e]
+##-[s]Uaaaah...[n][w][e]-##
+
+[msg MSG_KAGE_03_08 [Man]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ух...  Ух-х-х...[n][w][e]
+##-[s]Uh... [n]Uhhhh...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_03_09 [Man]]
+[s]Эм... Эм...[n][w][e]
+##-[s]Uh... Uh...[n][w][e]-##
+[s]Э-э-э... Э-э-э.....[n][w][e]
+##-[s]Uhhhhhh... Uh...[n][w][e]-##
+
+[msg MSG_KAGE_03_10 [Man]]
+[s]Уаааа... Ааа...[n][w][e]
+##-[s]Uaaah...[n]Ahh...[n][w][e]-##
+[s]...... Э-э-э...[n][w][e]
+##-[s]......[n]Uhhh...[n][w][e]-##
+
+[msg MSG_KAGE_04_01 [Woman]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_04_02 [Woman]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]А... Ууу...[n][w][e]
+##-[s]Ah...[n]Uu...[n][w][e]-##
+
+[msg MSG_KAGE_04_03 [Woman]]
+[s]Ух... Ах...[n][w][e]
+##-[s]Uhh...[n]Ah...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ahh...[n][w][e]-##
+
+[msg MSG_KAGE_04_04 [Woman]]
+[s]Ухааа... Аууу...[n][w][e]
+##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_04_05 [Woman]]
+[s]Ух... Ухва... Ааа...[n][w][e]
+##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
+[s]Ааааа...[n][w][e]
+##-[s]Ahhhh...[n][w][e]-##
+
+[msg MSG_KAGE_04_06 [Woman]]
+[s]Ааа...[n][w][e]
+##-[s]Ahhh...[n][w][e]-##
+[s]Ууу... Ух...[n][w][e]
+##-[s]Uu...[n]Uhh...[n][w][e]-##
+
+[msg MSG_KAGE_04_07 [Woman]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Уаааа...[n][w][e]
+##-[s]Uaaaah...[n][w][e]-##
+
+[msg MSG_KAGE_04_08 [Woman]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ух... Ух-х-х...[n][w][e]
+##-[s]Uh... Uhhhh...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_04_09 [Woman]]
+[s]Эм... Эм...[n][w][e]
+##-[s]Uh... Uh...[n][w][e]-##
+[s]Ух-х-х-х...[n][w][e]
+##-[s]Uhhhhhh...[n][w][e]-##
+
+[msg MSG_KAGE_04_10 [Woman]]
+[s]Уаааа... Ааа...[n][w][e]
+##-[s]Uaaah... Ahh...[n][w][e]-##
+[s]...... Э-э-э...[n][w][e]
+##-[s]......[n]Uhhh...[n][w][e]-##
+
+[msg MSG_KAGE_FIRST]
+[s]> Это один из Потерянных - жертва Синдрома[n]Апатии, который вызывает такой переполох.[n][w][e]
+##-[s]> It's one of The Lost--a victim of[n]the Apathy Syndrome that's causing[n]such a stir.[n][w][e]-##
+[s]> Вы не можете добиться от этого человека[n]осмысленного ответа.[n][w][e]
+##-[s]> You cannot get a meaningful[n]response out of this person.[n][w][e]-##
+

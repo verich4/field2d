@@ -1,0 +1,980 @@
+[msg SCR_MSG_PARAM_MIRYOKU1]
+[s]> Твое обаяние, кажется, возросло![n][w][e]
+##-[s]> Your Charm seems to have[n]increased![n][w][e]-##
+
+[msg SCR_MSG_PARAM_MIRYOKU2]
+[s]> Твое очарование ушло от"[f 2 4 0]"для"[f 2 4 1]"![n][w][e]
+##-[s]> Your Charm went from "[f 2 4 0]"[n]to "[f 2 4 1]"![n][w][e]-##
+
+[msg MSG_4A_NPC000_01 [Female Student]]
+[s]Мои родители всегда ворчат на меня, чтобы я[n]нравился, готовился к экзаменам и все[n]такое. Они такие надоедливые![n][w][e]
+##-[s]My parents always nag me to like,[n]study for exams and stuff.[n]They're so annoying![n][w][e]-##
+[s]Я только что стал младшим - я должен[n]веселиться![n][w][e]
+##-[s]I just became a junior--I'm[n]supposed to be having fun![n][w][e]-##
+[s]У них только что появились кое-какие[n]деньги, так что они очень строго относятся[n]к моему будущему и барахлу.[n][w][e]
+##-[s]They just came into some money, so[n]they're getting all strict about[n]my future and junk.[n][w][e]-##
+
+[msg MSG_4B_NPC000_01 [Female Student]]
+[s]Униформа такая скучная. Я бы хотел, чтобы[n]кто-нибудь сшил, например, повседневную[n]униформу.[n][w][e]
+##-[s]Uniforms are so boring. I wish[n]someone would make, like, casual[n]uniforms.[n][w][e]-##
+[s]Да, как будто это произойдет...[n][w][e]
+##-[s]Yeah, like that'll happen...[n][w][e]-##
+
+[msg MSG_5A_NPC000_01 [Female Student]]
+[s]Мои родители пристают ко мне, чтобы я[n]выбрал колледж.[n][w][e]
+##-[s]My parents are bugging me to choose[n]a college.[n][w][e]-##
+[s]Кто решает такие вещи на первом курсе? Я[n]только начал![n][w][e]
+##-[s]Who decides that stuff in their[n]junior year? I just started![n][w][e]-##
+[s]Они говорят, что лучший способ рассмешить[n]Бога - это составить план... Держу пари,[n]мои родители заставили его умереть со[n]смеху.[n][w][e]
+##-[s]They say the best way to make God[n]laugh is to make a plan... I bet my[n]parents have made him die laughing.[n][w][e]-##
+
+[msg MSG_5B_NPC000_01 [Female Student]]
+[s]Я скоро пойду за покупками. Это было давно.[n][w][e]
+##-[s]I'm going shopping soon.[n]It's been a while.[n][w][e]-##
+
+[sel MSG_5B_NPC000_01S top]
+[s]"Что ты покупаешь?"[e]
+##-[s]"What are you shopping for?"[e]-##
+[s]"Я понимаю".[e]
+##-[s]"I see."[e]-##
+
+[msg MSG_5B_NPC000_01A [Female Student]]
+[s]Мне нужна новая одежда. Летняя мода почти[n]наступила.[n][w][e]
+##-[s]I need new clothes. The summer[n]fashions are almost here.[n][w][e]-##
+
+[msg MSG_5B_NPC000_01A_G [Female Student]]
+[s]Мне нужна новая одежда. Летняя мода почти[n]наступила. Вы тоже должны проверить их,[n]чтобы быть готовыми.[n][w][e]
+##-[s]I need new clothes. The summer[n]fashions are almost here. You should[n]check them out too, to be prepared.[n][w][e]-##
+
+[msg MSG_5B_NPC000_01B [Female Student]]
+[s]Похоже, тебе это не очень интересно...[n][w][e]
+##-[s]You don't seem very interested...[n][w][e]-##
+
+[msg MSG_5B_NPC000_01B_G [Female Student]]
+[s]Похоже, тебе это не очень интересно...[n][w][e]
+##-[s]You don't seem very interested...[n][w][e]-##
+[s]Ты красивая! Вам следует уделять больше[n]внимания подобным вещам![n][w][e]
+##-[s]You're pretty! You should pay more[n]attention to stuff like this![n][w][e]-##
+
+[msg MSG_KAIDAN_NPC000_01 [Female Student]]
+[s]Все говорят о призраке и тому подобном...[n][w][e]
+##-[s]Everyone's talking about the ghost,[n]and that kind of stuff...[n][w][e]-##
+[s]Я ненавижу такие шутки.[n][w][e]
+##-[s]I hate those kinds of jokes.[n][w][e]-##
+[s]Например, как они говорят, что призрак[n]доберется до тебя, если ты останешься в[n]школе слишком долго...[n][w][e]
+##-[s]Like how they say the ghost will[n]get you if you stay at school[n]for too long...[n][w][e]-##
+[s]Эм, мне лучше идти! Увидимся![n][w][e]
+##-[s]Um, I better get going![n]See ya![n][w][e]-##
+
+[msg MSG_6A_NPC000_01 [Female Student]]
+[s]Эй, я видел эту девушку в прошлый раз,[n]перед вокзалом...[n][w][e]
+##-[s]Hey, I saw this girl last time, in[n]front of the station...[n][w][e]-##
+[s]На ней было белое платье с оборками! Это[n]было похоже на "белого гота"![n][w][e]
+##-[s]She was wearing a frilly white dress![n]It was like a "white goth"![n][w][e]-##
+[s]Разве не становится жарко носить такую[n]одежду...?[n][w][e]
+##-[s]Isn't it getting hot to be wearing[n]those kinds of clothes...?[n][w][e]-##
+[s]Она, должно быть, серьезно относится к[n]своему внешнему виду.[n][w][e]
+##-[s]She must be seriously devoted to[n]her look.[n][w][e]-##
+[s]Я бы ни за что не справился с этим в такую[n]погоду...[n][w][e]
+##-[s]There's no way I could pull that[n]off in this kind of weather...[n][w][e]-##
+
+[msg MSG_6B_NPC000_01 [Female Student]]
+[s]Я слышал от друга в Интернете об этом[n]причудливом сайте, который действительно[n]набирает обороты.[n][w][e]
+##-[s]I heard from a friend online about[n]this freaky site that's really[n]taking off.[n][w][e]-##
+[s]Она сказала, что это из-за мести или[n]чего-то в этом роде.[n][w][e]
+##-[s]She said it's about revenge or[n]something.[n][w][e]-##
+
+[msg MSG_7A_NPC000_01 [Female Student]]
+[s]Ну, есть сайт о мести, но...[n][w][e]
+##-[s]Well, there's that revenge website,[n]but...[n][w][e]-##
+[s]Для меня это звучит как просто слух.[n][w][e]
+##-[s]It sounds like just a rumor to me.[n][w][e]-##
+
+[msg MSG_7B_NPC000_01 [Female Student]]
+[s]Мои родители действуют мне на нервы всем[n]этим дерьмом типа "Тебе лучше учиться!".[n][w][e]
+##-[s]My parents get on my nerves with[n]all that "You better study!" crap.[n][w][e]-##
+[s]Я хочу поехать на летние каникулы, но не[n]знаю, разрешат ли мне.[n][w][e]
+##-[s]I wanna go out for summer vacation,[n]but I don't know if they'll let me.[n][w][e]-##
+[s]Это отстой...[n][w][e]
+##-[s]This sucks...[n][w][e]-##
+
+[msg MSG_9A_NPC000_01 [Female Student]]
+[s]Я точно знал это![n][w][e]
+##-[s]I totally knew it![n][w][e]-##
+[s]Мои родители были такими раздражающими,[n]говоря: "Иди учись! Иди учись!"[n][w][e]
+##-[s]My parents were so annoying, saying,[n]"Go study! Go study!"[n][w][e]-##
+[s]Я не смогла надеть свою замечательную новую[n]одежду во время летних каникул![n][w][e]
+##-[s]I wasn't able to wear my great new[n]clothes during summer break![n][w][e]-##
+[s]Небо было голубым... Море было голубым...[n]Почему мое сердце тоже должно было быть[n]синим?![n][w][e]
+##-[s]The sky was blue... The sea was[n]blue... Why did my heart have to[n]be blue, too!?[n][w][e]-##
+
+[msg MSG_9B_NPC000_01 [Female Student]]
+[s]Я тут подумал... Тебе не кажется, что Айгис[n]выглядит как-то по-другому?[n][w][e]
+##-[s]I've been thinking... Don't you[n]think Aigis seems different[n]somehow?[n][w][e]-##
+[s]Не поймите меня неправильно, я не говорю,[n]что она странная.[n][w][e]
+##-[s]Don't get me wrong, I'm not saying[n]she's a weirdo.[n][w][e]-##
+[s]Она похожа на... куклу. Когда я вижу ее, я[n]напоминаю манекен из магазина одежды.[n][w][e]
+##-[s]She seems like... a doll. When I[n]see her, I'm reminded of a clothing[n]store mannequin.[n][w][e]-##
+
+[sel MSG_9B_NPC000_01S top]
+[s]"Это твое воображение".[e]
+##-[s]"It's your imagination."[e]-##
+[s]"Ты не за горами..."[e]
+##-[s]"You're not far off..."[e]-##
+
+[sel MSG_9B_NPC000_01S_G top]
+[s]"Это твое воображение".[e]
+##-[s]"It's your imagination."[e]-##
+[s]"Ты не за горами..."[e]
+##-[s]"You're not far off..."[e]-##
+
+[msg MSG_9B_NPC000_01A [Female Student]]
+[s]Ха-ха, я так и думал.[n][w][e]
+##-[s]Haha, I thought as much.[n][w][e]-##
+
+[msg MSG_9B_NPC000_01B [Female Student]]
+[s]Хаха... Тебе не обязательно соглашаться со[n]мной. В конце концов, это, наверное, мое[n]воображение.[n][w][e]
+##-[s]Haha... You don't have to agree[n]with me. It's probably my[n]imagination, after all.[n][w][e]-##
+
+[msg MSG_9B_NPC000_01B_G [Female Student]]
+[s]Неужели она действительно может быть[n]куклой, одетой в одежду...?[n][w][e]
+##-[s]Could she really be a[n]doll wearing clothes...?[n][w][e]-##
+[s]Хаха... Тебе не обязательно соглашаться со[n]мной. В конце концов, это, наверное, мое[n]воображение.[n][w][e]
+##-[s]Haha... You don't have to agree[n]with me. It's probably my[n]imagination, after all.[n][w][e]-##
+
+[msg MSG_10A_NPC000_01 [Female Student]]
+[s]Отстой, что они отменили Фестиваль[n]культуры.[n][w][e]
+##-[s]It sucks that they cancelled the[n]Culture Festival.[n][w][e]-##
+[s]Я с нетерпением ждала возможности увидеть[n]модные вещи, такие как костюмы горничной и[n]прочее.[n][w][e]
+##-[s]I was looking forward to seeing the[n]out-there fashions, like the maid[n]costumes and stuff.[n][w][e]-##
+
+[msg MSG_10B_NPC000_01 [Female Student]]
+[s]Мои родители хотят, чтобы я поступил в один[n]из этих четырехлетних колледжей.[n][w][e]
+##-[s]My parents want me to go to one of[n]those four-year colleges.[n][w][e]-##
+[s]И после этого они думают, что я должен быть[n]адвокатом или кем-то умным в этом роде.[n][w][e]
+##-[s]And after that, they think I should[n]be a lawyer, or something smart like[n]that.[n][w][e]-##
+[s]*вздох* Это будет отстойно...[n][w][e]
+##-[s]*sigh*[n]This is gonna suck...[n][w][e]-##
+
+[msg MSG_11A_NPC000_01 [Female Student]]
+[s]Я сказал родителям, чем хочу заниматься.[n][w][e]
+##-[s]I told my parents what I wanted[n]to do.[n][w][e]-##
+[s]Я сказал, что хочу заняться чем-то,[n]связанным с модой, и для этого я иду в[n]школу.[n][w][e]
+##-[s]I said I wanted to do something[n]related to fashion, and I'm going[n]to school for that.[n][w][e]-##
+[s]Я знал, что они с этим не согласятся... Это[n]было видно по их лицам.[n][w][e]
+##-[s]I knew they wouldn't agree with[n]that... You could tell by their[n]faces.[n][w][e]-##
+
+[msg MSG_11B_NPC000_01 [Female Student]]
+[s]Реджи-кун кажется немного другим.[n][w][e]
+##-[s]Ryoji-kun seems a little different.[n][w][e]-##
+[s]У него экзотическое лицо... Ни один[n]японский парень никогда бы так не выглядел.[n][w][e]
+##-[s]He's got an exotic face...[n]No Japanese guy would ever look[n]like that.[n][w][e]-##
+[s]Я должна потусоваться с ним как-нибудь на[n]выходных и получить несколько советов по[n]моде.[n][w][e]
+##-[s]I should hang out with him some[n]weekend and get some fashion tips.[n][w][e]-##
+
+[msg MSG_12A_NPC000_01 [Female Student]]
+[s]Я НЕНАВИЖУ своих глупых родителей![n][w][e]
+##-[s]I HATE my stupid parents![n][w][e]-##
+[s]Они сказали, что у любого, кто не окончил[n]четырехлетний колледж, нет будущего![n][w][e]
+##-[s]They said anyone who doesn't[n]graduate from a four-year[n]college has no future![n][w][e]-##
+[s]Это дискриминация по отношению к[n]малообразованным![n][w][e]
+##-[s]That's discrimination against the[n]undereducated![n][w][e]-##
+
+[sel MSG_12A_NPC000_01S top]
+[s]"Верно..."[e]
+##-[s]"True..."[e]-##
+[s]"Ты не можешь избежать этого".[e]
+##-[s]"You can't escape it."[e]-##
+
+[sel MSG_12A_NPC000_01S_G top]
+[s]"Да, ты прав".[e]
+##-[s]"Yes, you're right."[e]-##
+[s]"Твои родители просто любят тебя".[e]
+##-[s]"Your parents just love you."[e]-##
+
+[msg MSG_12A_NPC000_01A [Female Student]]
+[s]Вы согласны, не так ли? На этот раз я не[n]собираюсь отступать перед ними.[n][w][e]
+##-[s]You agree, right? I'm not going[n]to back down to them this time.[n][w][e]-##
+
+[msg MSG_12A_NPC000_01B [Female Student]]
+[s]Неужели это действительно так?..[n][w][e]
+##-[s]Is that really so...?[n][w][e]-##
+
+[msg MSG_12A_NPC000_01B_G [Female Student]]
+[s]Правда?.. Я вообще ничего не могу[n]сказать...[n][w][e]
+##-[s]Really...?[n]I can't tell at all...[n][w][e]-##
+
+[msg MSG_12B_NPC000_01 [Female Student]]
+[s]Я люблю Рождество![n][w][e]
+##-[s]I love Christmas![n][w][e]-##
+[s]Весь город загорается огнями... Я так[n]волнуюсь![n][w][e]
+##-[s]The whole town lights up...[n]I get all excited![n][w][e]-##
+
+[msg MSG_AfterChristmas_NPC00 [Female Student]]
+[s]Теперь, когда Рождество закончилось, все[n]магазины закрываются, и все огни выключены.[n][w][e]
+##-[s]Now that Christmas is over, all the[n]stores are closing, and all the[n]lights have been taken down.[n][w][e]-##
+[s]Обычно после рождественских распродаж идет[n]война... Но это кажется странным.[n][w][e]
+##-[s]Usually, there's a post-Christmas[n]sale war... But it feels weird.[n][w][e]-##
+
+[msg MSG_1A_NPC000_01 [Female Student]]
+[s]Мои родители кажутся очень подавленными...[n][w][e]
+##-[s]My parents seem really depressed...[n][w][e]-##
+[s]Мы поспорили о моем будущем, и я думаю, что[n]сказал слишком много.[n][w][e]
+##-[s]We got in an argument about my[n]future, and I think I said too much.[n][w][e]-##
+[s]Я боюсь, что они встанут и присоединятся к[n]этому культу...[n][w][e]
+##-[s]I'm afraid they'll up and join that[n]cult thing...[n][w][e]-##
+
+[msg MSG_1B_NPC000_01 [Female Student]]
+[s]Это так неубедительно... Я ни на что не[n]могу решиться.[n][w][e]
+##-[s]This is so lame... I can't[n]decide on anything.[n][w][e]-##
+[s]У меня никогда не было столько проблем с[n]выбором одежды.[n][w][e]
+##-[s]I've never had so much trouble[n]picking outfits.[n][w][e]-##
+[s]О... Я думаю, что моя одежда и моя карьера[n]- это совершенно разные вещи, да? * вздох*[n][w][e]
+##-[s]Oh... I guess my clothes and my[n]career are totally different[n]things, huh? *sigh*[n][w][e]-##
+
+[msg MSG_3A_NPC000_01 [Female Student]]
+[s]Я решил поступить в четырехлетний колледж.[n]Я думаю, это правда, что тебе нужно хорошее[n]образование в жизни.[n][w][e]
+##-[s]I've decided to go to a four-year[n]college. I think it's true that[n]you need a good education in life.[n][w][e]-##
+[s]Но это не значит, что я сдался![n][w][e]
+##-[s]But that doesn't mean I've given up![n][w][e]-##
+[s]Я попаду в индустрию моды, даже если мне[n]придется работать неполный рабочий день или[n]что-то в этом роде![n][w][e]
+##-[s]I'll get into the fashion industry,[n]even if I have to take a part-time[n]job or something like that![n][w][e]-##
+
+[msg MSG_4A_NPC002_01 [Female Student]]
+[s]Школа только началась, а там уже был[n]ученик, который бросил учебу.[n][w][e]
+##-[s]School's barely started, and there's[n]already been a student who quit.[n][w][e]-##
+[s]Ей оставалось всего два года... Что она[n]будет делать, если даже не окончит среднюю[n]школу?[n][w][e]
+##-[s]She only had two years left...[n]What'll she do if she doesn't even[n]graduate from high school?[n][w][e]-##
+
+[msg MSG_4A_NPC003_01 [Female Student]]
+[s]Она сказала, что собирается бросить школу.[n][w][e]
+##-[s]She said she's going to quit being[n]a high-schooler.[n][w][e]-##
+[s]Что ж, это ее жизнь, а не моя.[n][w][e]
+##-[s]Well, it's her life, not mine.[n][w][e]-##
+
+[msg MSG_4B_NPC002_01 [Female Student]]
+[s]Я слышал, что тот студент, который бросил[n]школу, теперь все время сидит дома.[n][w][e]
+##-[s]I heard that student who quit school[n]stays at home all the time now.[n][w][e]-##
+[s]Если бы она, по крайней мере, сохранила[n]свое имя в школьном списке, она, возможно,[n]смогла бы окончить школу, но...[n][w][e]
+##-[s]If she'd at least kept her name in[n]the school roster, she might have[n]been able to graduate, but...[n][w][e]-##
+
+[msg MSG_4B_NPC003_01 [Female Student]]
+[s]Интересно, она стала замкнутой в этом году,[n]потому что ей пришлось через многое пройти[n]в первый год?[n][w][e]
+##-[s]I wonder if she's become a shut-in[n]this year because she had to go[n]through a lot as a first-year?[n][w][e]-##
+[s]Что ж, это ее жизнь. Мне все равно.[n][w][e]
+##-[s]Well, it's her life. I don't care.[n][w][e]-##
+
+[msg MSG_5A_NPC002_01 [Female Student]]
+[s]Я слышал, что Акихико-семпай был[n]госпитализирован...[n][w][e]
+##-[s]I heard Akihiko-senpai was[n]hospitalized...[n][w][e]-##
+[s]Он ввязался в драку? Если кто-то придет[n]сюда и скажет, что Акихико-семпай причинил[n]ему боль, его отстранят от работы?[n][w][e]
+##-[s]Did he get in a fight? If someone[n]comes here saying Akihiko-senpai[n]hurt him, would he be suspended?[n][w][e]-##
+
+[msg MSG_5A_NPC003_01 [Female Student]]
+[s]Акихико-семпай... Его раны, должно быть, от[n]драки, верно? Верно?[n][w][e]
+##-[s]Akihiko-senpai... His wounds must be[n]from a fight, right? Right?[n][w][e]-##
+[s]Хотел бы я это видеть! Я бы с удовольствием[n]посмотрел настоящий боксерский поединок![n][w][e]
+##-[s]I wish I could've seen it! I'd love[n]to watch a real boxing match![n][w][e]-##
+
+[msg MSG_5B_NPC002_01 [Female Student]]
+[s]Я слышал, что где-то здесь была проезжая[n]машина...[n][w][e]
+##-[s]I heard there was a drive-by[n]around here...[n][w][e]-##
+[s]Они говорят, что жертва не умерла, но все[n]равно это довольно страшно.[n][w][e]
+##-[s]They say the victim didn't die, but[n]it's still pretty scary.[n][w][e]-##
+
+[msg MSG_5B_NPC003_01 [Female Student]]
+[s]Вы слышали о похищенной девушке?[n][w][e]
+##-[s]Did you hear about the girl who[n]was kidnapped?[n][w][e]-##
+[s]Она просто гуляла средь бела дня, и они[n]схватили ее! Должно быть, она что-то[n]сделала...[n][w][e]
+##-[s]She was just walking in broad[n]daylight, and they got her![n]She must have done something...[n][w][e]-##
+
+[msg MSG_6A_NPC002_01 [Female Student]]
+[s]Я слышал, Акихико-семпая выписали из[n]больницы.[n][w][e]
+##-[s]I heard Akihiko-senpai's been[n]released from the hospital.[n][w][e]-##
+[s]В любом случае, мне интересно, как он[n]получил свои раны... Никто не знает.[n][w][e]
+##-[s]I wonder how he got his wounds,[n]anyway... No one knows.[n][w][e]-##
+
+[msg MSG_6A_NPC003_01 [Female Student]]
+[s]Ты думаешь, его раны были просто для того,[n]чтобы привлечь внимание?[n][w][e]
+##-[s]Do you think his wounds were just[n]to get attention?[n][w][e]-##
+[s]Нет... Этого не могло быть. Он и так все[n]время окружен девушками.[n][w][e]
+##-[s]Nah... It couldn't be.[n]He's already surrounded by[n]girls all the time.[n][w][e]-##
+
+[msg MSG_KAIDAN1_NPC002_01 [Female Student]]
+[s]Я слышал, что девочка упала в обморок в[n]классе Е.[n][w][e]
+##-[s]I heard a girl fainted in[n]classroom E.[n][w][e]-##
+[s]У нее был Синдром Апатии, верно? Я рад, что[n]она была не из моего класса...[n][w][e]
+##-[s]She had Apathy Syndrome, right?[n]I'm glad she wasn't from my class...[n][w][e]-##
+
+[msg MSG_KAIDAN1_NPC003_01 [Female Student]]
+[s]Должно быть, это из-за того, что она[n]засиживалась так поздно, верно? Она просто[n]упала в обморок у школьных ворот.[n][w][e]
+##-[s]It must have been because she'd stay[n]out so late, right? She just happened[n]to faint at the school gates.[n][w][e]-##
+[s]Синдром апатии настолько преувеличен. Держу[n]пари, она скоро проснется.[n][w][e]
+##-[s]Apathy Syndrome is so exaggerated.[n]I bet she'll wake up soon.[n][w][e]-##
+
+[msg MSG_KAIDAN2_NPC002_01 [Female Student]]
+[s]Они сказали, что девочка в классе С тоже[n]упала в обморок...[n][w][e]
+##-[s]They said a girl in classroom C[n]fainted too...[n][w][e]-##
+[s]Опять синдром апатии, верно? Фу... Я рад,[n]что это был не кто-то из моего класса...[n][w][e]
+##-[s]Apathy Syndrome again, right?[n]Phew... I'm glad it wasn't[n]someone in my class...[n][w][e]-##
+
+[msg MSG_KAIDAN2_NPC003_01 [Female Student]]
+[s]Я же говорил тебе! Она просто упала в[n]обморок перед воротами![n][w][e]
+##-[s]I told you! She just happened to[n]faint in front of the gate![n][w][e]-##
+[s]Синдром апатии настолько преувеличен! Они[n]поправятся, если вы дадите им немного[n]времени.[n][w][e]
+##-[s]Apathy Syndrome is so over-[n]exaggerated! They'll get better[n]if you give them some time.[n][w][e]-##
+
+[msg MSG_KAIDAN3_NPC002_01 [Female Student]]
+[s]Т-Ты знаешь, как сейчас популярны[n]страшилки?[n][w][e]
+##-[s]Y-You know how horror stories are[n]popular now?[n][w][e]-##
+[s]Я... я слишком боюсь их слушать...[n][w][e]
+##-[s]I-I'm too afraid to listen[n]to them...[n][w][e]-##
+
+[msg MSG_KAIDAN3_NPC002_02 [Female Student]]
+[s]С-Прекрати... Я не хочу ничего этого[n]слышать![n][w][e]
+##-[s]S-Stop... I don't want to hear any[n]of that stuff![n][w][e]-##
+
+[msg MSG_KAIDAN3_NPC003_01 [Female Student]]
+[s]...Если вы последний, кто остался в[n]школьных зданиях, вы услышите жуткое[n]объявление PA...[n][w][e]
+##-[s]...If you're the last one left in[n]the school buildings, you'll hear[n]a creepy PA announcement...[n][w][e]-##
+[s]Из динамиков доносится рыдающий бабушкин[n]голос...[n][w][e]
+##-[s]A sobbing grandmother's voice can[n]be heard from the speakers...[n][w][e]-##
+[s]И если вы не покинете школу в течение 42[n]секунд...[n][w][e]
+##-[s]And if you don't leave the school[n]within 42 seconds...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s][f 4 8 2 0]Они найдут твой труп, покрытый ярко-красной[n]кровью![n][w][e]
+##-[s][f 4 8 2 0]They'll find your corpse covered in[n]bright red blood![n][w][e]-##
+
+[msg MSG_KAIDAN3_NPC003_02 [Female Student]]
+[s]Эй... Если бы эта история была правдой...[n][w][e]
+##-[s]Hey... If that story were true...[n][w][e]-##
+[s]Разве кто-то не должен был бы умирать[n]каждый день? Я имею в виду, кто-то же[n]должен быть последним, кто остался, верно?[n][w][e]
+##-[s]Wouldn't someone have to die every[n]day? I mean, someone's got to be[n]the last one left, right?[n][w][e]-##
+
+[msg MSG_KAIDAN4_NPC002_01 [Female Student]]
+[s]В наказание за то, что я прогулял урок, они[n]заставляют меня убирать класс...[n][w][e]
+##-[s]As punishment for ditching class,[n]they're making me clean up the[n]classroom...[n][w][e]-##
+[s]Но никто не узнает, если я тоже откажусь от[n]наказания.[n][w][e]
+##-[s]But no one would know if I ditched[n]the punishment, too.[n][w][e]-##
+
+[msg MSG_6B_NPC002_01 [Female Student]]
+[s]Мой друг сказал, что парень, который исчез[n]из соседнего города...[n][w][e]
+##-[s]My friend said that the guy who[n]disappeared from the town nearby...[n][w][e]-##
+[s]Он может быть жертвой этого сайта мести![n][w][e]
+##-[s]He might be a victim of that[n]revenge website![n][w][e]-##
+
+[msg MSG_6B_NPC003_01 [Female Student]]
+[s]Сайт мести!?[n][w][e]
+##-[s]Revenge website!?[n][w][e]-##
+[s]Что это такое? Это страшно?[n][w][e]
+##-[s]What is that? Is it scary?[n][w][e]-##
+
+[msg MSG_6C_NPC002_01 [Female Student]]
+[s]Я слышал, что те люди, которые упали в[n]обморок, проснулись.[n][w][e]
+##-[s]I heard those people who fainted[n]woke up.[n][w][e]-##
+[s]Так... Я полагаю, это означает, что у них[n]не было Синдрома Апатии...?[n][w][e]
+##-[s]So... I guess that means they[n]didn't have Apathy Syndrome...?[n][w][e]-##
+
+[msg MSG_6C_NPC003_01 [Female Student]]
+[s]Помнишь, что я тебе говорил? Они просто[n]упали в обморок, потому что отсутствовали[n]всю ночь.[n][w][e]
+##-[s]Remember what I told you? They[n]just fainted because they were[n]out all night.[n][w][e]-##
+[s]Это не совсем Синдром Апатии.[n][w][e]
+##-[s]That's not exactly Apathy Syndrome.[n][w][e]-##
+
+[msg MSG_7A_NPC002_01 [Female Student]]
+[s]Я слышал, что некоторые ученики этой школы[n]впали в синдром апатии.[n][w][e]
+##-[s]I heard some students from this[n]school relapsed into Apathy[n]Syndrome.[n][w][e]-##
+[s]На этот раз вместе были только мужчины и[n]женщины... Это так странно. Надеюсь, у нас[n]все в порядке.[n][w][e]
+##-[s]This time, it was just males and[n]females who were together...[n]It's so weird. I hope we're okay.[n][w][e]-##
+
+[msg MSG_7A_NPC003_01 [Female Student]]
+[s]Но... Это не так уж странно, когда парень и[n]девушка падают в обморок вместе, не так ли?[n][w][e]
+##-[s]But... It's not that weird for a[n]guy and a girl to faint together,[n]is it?[n][w][e]-##
+[s]...Или это так? Это как... Они вместе упали[n]в обморок... Вау.[n][w][e]
+##-[s]...Or is it? It's like...[n]They fainted together... Wow.[n][w][e]-##
+
+[msg MSG_7B_NPC002_01 [Female Student]]
+[s]Синдром апатии только для пар, который[n]распространен повсюду... Я слышал, что это[n]дело рук призраков.[n][w][e]
+##-[s]The couples-only Apathy Syndrome[n]that's been going around...[n]I heard it was the work of ghosts.[n][w][e]-##
+[s]Говорят, что давным-давно пара совершила[n]двойное самоубийство...[n][w][e]
+##-[s]They say that a couple committed[n]double suicide a long time ago...[n][w][e]-##
+[s]...и теперь они заражают пары Синдромом[n]апатии.[n][w][e]
+##-[s]...and now they're infecting couples[n]with Apathy Syndrome.[n][w][e]-##
+
+[msg MSG_7B_NPC003_01 [Female Student]]
+[s]Я не знаю и не интересуюсь этой призрачной[n]чепухой, но я хотел бы спросить их, почему[n]они распространяют это.[n][w][e]
+##-[s]I don't know or care about that[n]ghost stuff, but I wish I could ask[n]them why they're spreading that.[n][w][e]-##
+[s]Я имею в виду, они мертвы! Они не должны[n]беспокоить живые пары.[n][w][e]
+##-[s]I mean, they're dead! They shouldn't[n]bother living couples.[n][w][e]-##
+
+[msg MSG_9A_NPC002_01 [Female Student]]
+[s]Я слышал от своего друга, что на Фестивале[n]культуры будут кафе и все такое.[n][w][e]
+##-[s]I heard from my friend that there[n]are going to be cafes and stuff at[n]the Culture Festival.[n][w][e]-##
+[s]Мой клуб не занимается подобными вещами...[n]Хотя это выглядит забавно.[n][w][e]
+##-[s]My club doesn't do that kinda[n]stuff... It looks fun, though.[n][w][e]-##
+
+[msg MSG_9A_NPC003_01 [Female Student]]
+[s]Но разве эти кафе не будут обычными,[n]скучными?[n][w][e]
+##-[s]But aren't those cafes going to be[n]the ordinary, boring kind?[n][w][e]-##
+[s]Это так скучно... В них должна быть[n]какая-то изюминка.[n][w][e]
+##-[s]That's so dull... They need to[n]have some kind of twist to them.[n][w][e]-##
+[s]*вздох* Я надеюсь, что кому-нибудь придет в[n]голову сумасшедшая идея...[n][w][e]
+##-[s]*sigh* I hope someone comes up with[n]a crazy idea...[n][w][e]-##
+
+[msg MSG_9B_NPC002_01 [Female Student]]
+[s]Я слышал, что надвигается тайфун.[n][w][e]
+##-[s]I heard there's a typhoon coming.[n][w][e]-##
+[s]Он большой, медленный... Это значит, что[n]будет большой ущерб, да? Это будет полный[n]отстой...[n][w][e]
+##-[s]It's a big, slow one... That means[n]there's going to be a lot of damage,[n]huh? This is going to suck...[n][w][e]-##
+
+[msg MSG_9B_NPC003_01 [Female Student]]
+[s]О, чувак, это самый страшный вид тайфуна.[n][w][e]
+##-[s]Aw, man, that's the worst kind[n]of typhoon.[n][w][e]-##
+[s]Если это случится, как ты думаешь, у нас[n]будет выходной в школе? Эй, теперь я не[n]могу дождаться, когда он доберется сюда![n][w][e]
+##-[s]If it comes, you think we'll get the[n]day off from school? Hey, now I[n]can't wait for it to get here![n][w][e]-##
+
+[msg MSG_10A_NPC002_01 [Female Student]]
+[s]Я слышал, что вместо того, чтобы отложить[n]Фестиваль культуры, они полностью отменили[n]его.[n][w][e]
+##-[s]I heard that instead of postponing[n]the Culture Festival, they cancelled[n]it entirely.[n][w][e]-##
+[s]Мой класс не собирался делать ничего[n]особенного, но... Я действительно хотел это[n]увидеть.[n][w][e]
+##-[s]My class wasn't going to do anything[n]special, but... I really wanted to[n]see it.[n][w][e]-##
+
+[msg MSG_10A_NPC003_01 [Female Student]]
+[s]Ни за что! Они отменили весь Фестиваль[n]культуры!?[n][w][e]
+##-[s]No way! They cancelled the entire[n]Culture Festival!?[n][w][e]-##
+[s]Во всем виноват тайфун! Дурацкий тайфун![n]Никто не хотел, чтобы ты приходил сюда![n][w][e]
+##-[s]This is all the typhoon's fault![n]Stupid typhoon! Nobody wanted you[n]to come here![n][w][e]-##
+
+[msg MSG_10B_NPC002_01 [Female Student]]
+[s]Я слышал о том парне Синдзиро, который умер[n]на днях.[n][w][e]
+##-[s]I heard about that Shinjiro guy who[n]died the other day.[n][w][e]-##
+[s]Ты ведь знаешь этот район, верно? Где[n]тусуются все головорезы? Я слышал, что они[n]все боялись Синдзиро.[n][w][e]
+##-[s]You know that area, right? Where all[n]the thugs hang out? I heard they[n]were all scared of Shinjiro.[n][w][e]-##
+[s]Я... мне интересно, насколько он был[n]плох...[n][w][e]
+##-[s]I-I wonder how bad he was...[n][w][e]-##
+
+[msg MSG_10B_NPC002_01_G [Female Student]]
+[s]Я слышал о том парне Синдзиро, который[n]пострадал на днях.[n][w][e]
+##-[s]I heard about that Shinjiro guy who[n]got hurt the other day.[n][w][e]-##
+[s]Ты ведь знаешь этот район, верно? Где[n]тусуются все головорезы? Я слышал, что они[n]все боялись Синдзиро.[n][w][e]
+##-[s]You know that area, right? Where all[n]the thugs hang out? I heard they[n]were all scared of Shinjiro.[n][w][e]-##
+[s]Я... мне интересно, насколько он был[n]плох...[n][w][e]
+##-[s]I-I wonder how bad he was...[n][w][e]-##
+
+[msg MSG_10B_NPC003_01 [Female Student]]
+[s]Синдзиро всегда околачивался там, верно?[n][w][e]
+##-[s]Shinjiro would always hang out around[n]there, right?[n][w][e]-##
+[s]Слишком плохо для него... Но я уверен, что[n]он тоже замышлял что-то нехорошее.[n][w][e]
+##-[s]Too bad for him... But I'm sure he[n]was up to no good, too.[n][w][e]-##
+
+[msg MSG_10B_NPC003_01_G [Female Student]]
+[s]Синдзиро всегда околачивался там, верно?[n][w][e]
+##-[s]Shinjiro would always hang out around[n]there, right?[n][w][e]-##
+[s]Слишком плохо для него... Но я уверен, что[n]он тоже замышлял что-то нехорошее.[n][w][e]
+##-[s]Too bad for him... But I'm sure he[n]was up to no good, too.[n][w][e]-##
+
+[msg MSG_11A_NPC002_01 [Female Student]]
+[s]Я слышал, что Нацуки-сан из класса Е[n]собирается перевестись...[n][w][e]
+##-[s]I heard that Natsuki-san from[n]classroom E is going to transfer[n]out...[n][w][e]-##
+[s]Ее отец болен, верно? Она не казалась[n]грустной или что-то в этом роде.[n][w][e]
+##-[s]Her father's sick, right? She didn't[n]seem sad or anything.[n][w][e]-##
+
+[msg MSG_11A_NPC003_01 [Female Student]]
+[s]Я не знал, что отец Нацуки был так болен,[n]что ей пришлось бы перевестись...[n][w][e]
+##-[s]I didn't know Natsuki's dad was so[n]sick that she'd have to transfer...[n][w][e]-##
+[s]Но мне показалось, что ее улыбка была[n]немного фальшивой, хотя она вела себя очень[n]энергично.[n][w][e]
+##-[s]But it did seem like her smile was[n]kinda fake, even though she acted[n]all energetic.[n][w][e]-##
+[s]Держу пари, у нее было много проблем.[n][w][e]
+##-[s]I bet she had a lot of problems.[n][w][e]-##
+
+[msg MSG_TAKEHARU_NPC002_01 [Female Student]]
+[s]Отец Мицуру-сан умер от своей болезни,[n]верно?[n][w][e]
+##-[s]Mitsuru-san's father died from his[n]illness, right?[n][w][e]-##
+[s]Если бы мой отец умер... я бы...[n][w][e]
+##-[s]If my dad died...[n]I'd...[n][w][e]-##
+
+[msg MSG_TAKEHARU_NPC003_01 [Female Student]]
+[s]Ее отец был великим человеком, но...[n][w][e]
+##-[s]Her father was a great person,[n]but...[n][w][e]-##
+[s]Не преувеличивает ли это? Президент просто[n]привлекает к себе немного внимания.[n][w][e]
+##-[s]Isn't this overexaggerating?[n]The president's just getting some[n]attention.[n][w][e]-##
+[s]Хотя мне ее вроде как жалко...[n][w][e]
+##-[s]Though I kind of feel sorry[n]for her...[n][w][e]-##
+
+[msg MSG_11B_NPC002_01 [Female Student]]
+[s]Родители Реджи-куна из класса F в отпуске[n]или что-то в этом роде.[n][w][e]
+##-[s]Ryoji-kun from classroom F's[n]parents are on vacation[n]or something.[n][w][e]-##
+[s]Он такой горячий... И такой богатый! Это не[n]в моей лиге...[n][w][e]
+##-[s]He's so hot... And so rich![n]Way out of my league...[n][w][e]-##
+
+[msg MSG_11B_NPC003_01 [Female Student]]
+[s]Реджи-кун класса F такой горячий! Ты[n]думаешь, он дразнит нас?[n][w][e]
+##-[s]Class F's Ryoji-kun is soooo[n]hot! You think he's teasing us?[n][w][e]-##
+[s]Я не хочу, чтобы он играл со мной...[n][w][e]
+##-[s]I don't want to get played[n]by him...[n][w][e]-##
+
+[msg MSG_12A_NPC002_01 [Female Student]]
+[s]Карьерный опыт на днях был ооочень[n]скучным... Одни и те же вещи, снова и[n]снова.[n][w][e]
+##-[s]Career Experience the other day was[n]sooo boring... Just the same stuff,[n]over and over again.[n][w][e]-##
+[s]Я должен был просто сбежать. Мне было бы[n]веселее сидеть в классе и ничего не[n]делать...[n][w][e]
+##-[s]I should have just ditched. I would[n]have had more fun sitting in class[n]and doing nothing...[n][w][e]-##
+
+[msg MSG_12A_NPC003_01 [Female Student]]
+[s]Карьерный Опыт... Это все для того, чтобы[n]самому увидеть, на что похожа настоящая[n]работа, верно?[n][w][e]
+##-[s]Career Experience... That's all[n]about, like, seeing for yourself[n]what a real job is like, right?[n][w][e]-##
+[s]Хотя я уже работаю неполный рабочий день...[n]Это секрет школы, но...[n][w][e]
+##-[s]I'm doing a part-time job already,[n]though... It's a secret to the[n]school, but...[n][w][e]-##
+[s]Я уже знаю все, что мне нужно знать, чтобы[n]войти в общество. Как они могут заставлять[n]нас работать бесплатно!?[n][w][e]
+##-[s]I already know everything I need to[n]know to enter society. How can they[n]make us work for free!?[n][w][e]-##
+
+[msg MSG_12B_NPC002_01 [Female Student]]
+[s]Каждый год, когда приближается Рождество,[n]ты видишь все больше пар, да?..[n][w][e]
+##-[s]Every year when Christmas gets[n]close, you see more couples,[n]huh...?[n][w][e]-##
+[s]Ну, я был таким же на прошлое Рождество,[n]так что я не из тех, кто любит болтать.[n][w][e]
+##-[s]Well, I was the same way last[n]Christmas, so I'm not really[n]one to talk.[n][w][e]-##
+
+[msg MSG_12B_NPC003_01 [Female Student]]
+[s]Да, не очень-то весело проводить Рождество[n]в одиночестве.[n][w][e]
+##-[s]Yeah, it's no fun to spend[n]Christmas alone.[n][w][e]-##
+[s]В журналах так много статей о таких вещах,[n]как "Самое романтичное место".[n][w][e]
+##-[s]The magazines have so many articles[n]about stuff like, "The most romantic[n]spot."[n][w][e]-##
+[s]Такие люди, как я, у которых нет парней,[n]будут сводить себя с ума, пытаясь их[n]завести.[n][w][e]
+##-[s]People like me who don't have[n]boyfriends are going to drive[n]themselves crazy trying to get one.[n][w][e]-##
+
+[msg MSG_1A_NPC002_01 [Female Student]]
+[s]Все, о чем я сейчас читаю в журналах, - это[n]культовые вещи.[n][w][e]
+##-[s]All I read about in the magazines[n]now is that cult stuff.[n][w][e]-##
+[s]Я думаю, что члены этих организаций[n]относятся к ним серьезно...[n][w][e]
+##-[s]I guess the members of those things[n]take them seriously...[n][w][e]-##
+[s]Это просто тревожно, видеть, как они[n]появляются повсюду.[n][w][e]
+##-[s]It's just disturbing, seeing them[n]popping up everywhere.[n][w][e]-##
+
+[msg MSG_1A_NPC003_01 [Female Student]]
+[s]Телевидение, интернет, везде... Все, о чем[n]я слышу, - это культ, культ, культ.[n][w][e]
+##-[s]TV, Internet, everywhere... All I[n]hear about is the cult, the cult,[n]the cult.[n][w][e]-##
+[s]Так что, эм... Что это за культ?[n][w][e]
+##-[s]So, uh... What cult is it?[n][w][e]-##
+
+[msg MSG_1B_NPC002_01 [Female Student]]
+[s]Друг моего друга весь в этих культовых[n]вещах.[n][w][e]
+##-[s]My friend's friend is all into that[n]cult stuff.[n][w][e]-##
+[s]Я слышал, он нарисовал какой-то символ в[n]своей комнате, и вся его семья жалуется.[n][w][e]
+##-[s]I heard he drew some kind of symbol[n]in his room, and his whole family[n]is complaining.[n][w][e]-##
+[s]Я... я не хочу, чтобы это случилось... С[n]моей семьей все в порядке, верно?..[n][w][e]
+##-[s]I-I don't want that to happen...[n]My family's okay, right...?[n][w][e]-##
+
+[msg MSG_1B_NPC003_01 [Female Student]]
+[s]Каждый раз, когда я выхожу, эти люди[n]продолжают подходить ко мне и говорить:[n]"Верьте в Никс-саму и будьте спасены!"[n][w][e]
+##-[s]Every time I'm out, those people[n]keep coming up to me and saying,[n]"Believe in Nyx-sama, and be saved!"[n][w][e]-##
+[s]Неужели я действительно выгляжу такой[n]жалкой только потому, что у меня нет парня?[n][w][e]
+##-[s]Do I really look that pitiful, just[n]because I don't have a boyfriend?[n][w][e]-##
+
+[msg MSG_3A_NPC002_01 [Female Student]]
+[s]3-й семестр почти закончился. После[n]окончания весенних каникул мы станем[n]выпускниками...[n][w][e]
+##-[s]3rd term is almost over. After[n]spring vacation ends, we'll be[n]seniors...[n][w][e]-##
+[s]После этого мы больше не можем лениться.[n][w][e]
+##-[s]After that, we can't be lazy[n]anymore.[n][w][e]-##
+[s]Я думаю, мы говорили об этом в прошлом[n]году, не так ли? 3-й семестр первого года[n]обучения...[n][w][e]
+##-[s]I think we were talking about[n]this last year, weren't we?[n]The first-year's 3rd term...[n][w][e]-##
+
+[msg MSG_3A_NPC003_01 [Female Student]]
+[s]Год проходит так быстро, не правда ли? Мы[n]уже почти выпускники...[n][w][e]
+##-[s]A year goes by so fast, doesn't it?[n]We're almost seniors already...[n][w][e]-##
+[s]Может быть, мне стоит начать учиться. Я[n]действительно хочу продолжить свое[n]образование, так что...[n][w][e]
+##-[s]Maybe I should start studying.[n]I actually want to go on with my[n]education, so...[n][w][e]-##
+[s]Разве я не говорил то же самое и в прошлом[n]году? Наверное, с тех пор я так и не[n]вырос...[n][w][e]
+##-[s]Wasn't I saying the same things[n]last year, too? I guess I haven't[n]grown since then...[n][w][e]-##
+
+[msg MSG_4A_NPC005_01 [Female Student]]
+[s]Когда тебя не было, были выборы президента[n]Студенческого совета.[n][w][e]
+##-[s]When you were absent, there was[n]an election for Student Council[n]President.[n][w][e]-##
+[s]Речь Мицуру-семпая была ооочень крутой! Я[n]голосовал за нее![n][w][e]
+##-[s]Mitsuru-senpai's speech was[n]sooo cool! I voted for her![n][w][e]-##
+[s]Все остальные выглядят такими маленькими по[n]сравнению с Мицуру-семпаем.[n][w][e]
+##-[s]Everyone else looks so small[n]compared to Mitsuru-senpai.[n][w][e]-##
+[s]*вздох* Мицуру-семпай...[n][w][e]
+##-[s]*sigh*[n]Mitsuru-senpai...[n][w][e]-##
+
+[msg MSG_4A_NPC005_01_G [Female Student]]
+[s]Когда тебя не было, были выборы президента[n]Студенческого совета.[n][w][e]
+##-[s]When you were absent, there was[n]an election for Student Council[n]President.[n][w][e]-##
+[s]Речь Мицуру-семпая была ооочень крутой! Я[n]голосовал за нее![n][w][e]
+##-[s]Mitsuru-senpai's speech was[n]sooo cool! I voted for her![n][w][e]-##
+[s]Все остальные выглядят такими маленькими по[n]сравнению с Мицуру-семпаем.[n][w][e]
+##-[s]Everyone else looks so small[n]compared to Mitsuru-senpai.[n][w][e]-##
+[s]*вздох* Мицуру-семпай...[n][w][e]
+##-[s]*sigh*[n]Mitsuru-senpai...[n][w][e]-##
+
+[msg MSG_4B_NPC005_01 [Female Student]]
+[s]Я слышал, тебя пригласили в Студенческий[n]совет. Так сказал Мицуру-семпай...[n][w][e]
+##-[s]I heard you were invited to the[n]Student Council. Mitsuru-senpai[n]said so...[n][w][e]-##
+[s]*вздох* Я так завидую тебе... Хотел бы я,[n]чтобы меня пригласили.[n][w][e]
+##-[s]*sigh*[n]I'm so jealous of you...[n]I wish I could get invited.[n][w][e]-##
+[s]Ты думаешь, я должен поговорить с ней или[n]что-то в этом роде?..[n][w][e]
+##-[s]You think I should talk to her or[n]something...?[n][w][e]-##
+
+[msg MSG_5A_NPC005_01 [Female Student]]
+[s]Вы участвуете в работе Студенческого[n]совета?[n][w][e]
+##-[s]Are you involved in the[n]Student Council?[n][w][e]-##
+
+[sel MSG_5A_NPC005_01S top]
+[s]"Да, это так".[e]
+##-[s]"Yes, I am."[e]-##
+[s]"Нет, я в этом не участвую".[e]
+##-[s]"No, I'm not in it."[e]-##
+
+[sel MSG_5A_NPC005_01S_G top]
+[s]"Да, это так!"[e]
+##-[s]"Yes, I am!"[e]-##
+[s]"Что такое студенческий совет?"[e]
+##-[s]"What's the student council?"[e]-##
+
+[msg MSG_5A_NPC005_01A [Female Student]]
+[s]*вздох* Я так завидую...[n][w][e]
+##-[s]*sigh*[n]I'm so jealous...[n][w][e]-##
+
+[msg MSG_5A_NPC005_01B [Female Student]]
+[s]А? Как ты мог упустить такую возможность!?[n][w][e]
+##-[s]Huh? How could you waste[n]such an opportunity!?[n][w][e]-##
+[s]Ты бы работал с Мицуру-семпаем! Почему бы[n]тебе не вступить в Студенческий совет?![n][w][e]
+##-[s]You'd get to work with Mitsuru-[n]senpai! Why wouldn't you join[n]the Student Council!?[n][w][e]-##
+
+[msg MSG_5A_NPC005_01B_G [Female Student]]
+[s]Ты не знаешь, что такое Студенческий[n]совет!? Мицуру-семпай - президент! Я не[n]могу поверить, что ты этого не знаешь![n][w][e]
+##-[s]You don't know what the Student Council[n]is!? Mitsuru-senpai's the president![n]I can't believe you don't know that![n][w][e]-##
+[s]Студенческий совет... Ты будешь работать[n]бок о бок с Мицуру-семпаем там! Там и в[n]моих снах...[n][w][e]
+##-[s]The student council... You get to work[n]side-by-side with Mitsuru-senpai there![n]There, and in my dreams...[n][w][e]-##
+[s]Быть так близко к Мицуру-семпаю... Ох...[n]Думая об этом, я чувствую слабость...[n][w][e]
+##-[s]To be so close to Mitsuru-senpai...[n]Oh... Thinking about it makes me[n]feel faint...[n][w][e]-##
+
+[msg MSG_5B_NPC005_01 [Female Student]]
+[s]На днях мне приснился сон о Мицуру-семпае.[n][w][e]
+##-[s]The other day, I had a dream about[n]Mitsuru-senpai.[n][w][e]-##
+[s]Она возила меня на своем мотоцикле, и мы[n]колесили по городу в полночь.[n][w][e]
+##-[s]She drove me around on her[n]motorcycle, and we cruised[n]around town at midnight.[n][w][e]-##
+[s]Это было так здорово! Как бы я хотел[n]прокатиться с ней вот так по-настоящему![n][w][e]
+##-[s]It was so cool! I wish I could[n]ride with her like that for real![n][w][e]-##
+[s]Я был бы счастлив, если бы меня просто[n]переехал Мицуру-семпай! Включи ее[n]раскаленные колеса![n][w][e]
+##-[s]I would be happy just to be run[n]over by Mitsuru-senpai! Bring on[n]her burning hot wheels![n][w][e]-##
+
+[msg MSG_KAIDAN_NPC005_01 [Female Student]]
+[s]Все говорят о призраках и прочем... Я[n]думаю, они все действительно напуганы.[n][w][e]
+##-[s]Everyone's talking about ghosts[n]and whatnot... I guess they're all[n]really scared.[n][w][e]-##
+[s]Но со мной все в порядке![n][w][e]
+##-[s]I'm fine, though![n][w][e]-##
+[s]Если бы призрак доставил мне неприятности,[n]Мицуру-семпай разрубил бы его пополам![n][w][e]
+##-[s]If a ghost gave me trouble,[n]Mitsuru-senpai would cut it[n]right in half![n][w][e]-##
+[s]Увидеть, как она сражается на мечах... Я не[n]знаю, смогу ли я это вынести![n][w][e]
+##-[s]To see her fight with a sword...[n]I don't know if I could take it![n][w][e]-##
+
+[msg MSG_6A_NPC005_01 [Female Student]]
+[s]Ты слышал?[n][w][e]
+##-[s]Did you hear?[n][w][e]-##
+
+[sel MSG_6A_NPC005_01S top]
+[s]"Да, я слышал".[e]
+##-[s]"Yeah, I heard."[e]-##
+[s]"Нет, я этого не делал".[e]
+##-[s]"No, I haven't."[e]-##
+[s]"Я не хочу знать".[e]
+##-[s]"I don't want to know."[e]-##
+
+[sel MSG_6A_NPC005_01S_G top]
+[s]"Да, я слышал!"[e]
+##-[s]"Yeah, I heard!"[e]-##
+[s]"Нет, я этого не делал".[e]
+##-[s]"No, I haven't."[e]-##
+[s]«Что? В чем дело?"[e]
+##-[s]"What? What is it?"[e]-##
+
+[msg MSG_6A_NPC005_01A [Female Student]]
+[s]Ах... Конечно, вы бы услышали.[n][w][e]
+##-[s]Ah... Of course you would[n]have heard.[n][w][e]-##
+[s]Любой мужчина, который надеется заполучить[n]Мицуру-семпай, должен быть таким же умным,[n]как она.[n][w][e]
+##-[s]Any man who hopes to get[n]Mitsuru-senpai would have to[n]be as intelligent as she is.[n][w][e]-##
+
+[msg MSG_6A_NPC005_01B [Female Student]]
+[s]Мицуру-семпай хотел бы мужчину, который[n]любит учиться.[n][w][e]
+##-[s]Mitsuru-senpai would want[n]a man who likes to study.[n][w][e]-##
+[s]Может быть, мне стоит больше учиться...[n][w][e]
+##-[s]Maybe I should study more...[n][w][e]-##
+[s]Если бы я стала самой умной в своем классе,[n]она могла бы принять меня, даже несмотря на[n]то, что я девочка...[n][w][e]
+##-[s]If I became the smartest in my[n]class, she might accept me, even[n]though I'm a girl...[n][w][e]-##
+
+[msg MSG_6A_NPC005_01B_G [Female Student]]
+[s]Мицуру-семпай хотел бы мужчину, который[n]любит учиться.[n][w][e]
+##-[s]Mitsuru-senpai would want[n]a man who likes to study.[n][w][e]-##
+[s]Если бы я стала самой умной в своем классе,[n]она могла бы принять меня, даже несмотря на[n]то, что я девочка...[n][w][e]
+##-[s]If I became the smartest in my[n]class, she might accept me, even[n]though I'm a girl...[n][w][e]-##
+[s]...Это тоже делает тебя моим соперником! Ты[n]никогда не победишь меня! Мицуру-семпай[n]мой, весь мой![n][w][e]
+##-[s]...That makes you my rival, too![n]You'll never beat me! Mitsuru-senpai[n]is mine, all mine![n][w][e]-##
+
+[msg MSG_6A_NPC005_01C [Female Student]]
+[s]Неважно![n][w][e]
+##-[s]Whatever![n][w][e]-##
+[s]У такого человека, как ты, нет абсолютно[n]никаких шансов сойтись с Мицуру-семпаем![n][w][e]
+##-[s]A man like you has absolutely no[n]chance of getting together with[n]Mitsuru-senpai![n][w][e]-##
+
+[msg MSG_6A_NPC005_01C_G [Female Student]]
+[s]Ты не знаешь? Тогда позволь мне сказать[n]тебе кое-что потрясающее![n][w][e]
+##-[s]You don't know? Let me tell you[n]something awesome, then![n][w][e]-##
+[s]Мицуру-семпай хотел бы мужчину, который[n]любит учиться.[n][w][e]
+##-[s]Mitsuru-senpai would want[n]a man who likes to study.[n][w][e]-##
+[s]Если бы я стала самой умной в своем классе,[n]она могла бы принять меня, даже несмотря на[n]то, что я девочка...[n][w][e]
+##-[s]If I became the smartest in my[n]class, she might accept me, even[n]though I'm a girl...[n][w][e]-##
+
+[msg MSG_6B_NPC005_01 [Female Student]]
+[s]Интересно, Мицуру-семпай свободно говорит[n]по-французски?..[n][w][e]
+##-[s]I wonder if Mitsuru-senpai is fluent[n]in French...[n][w][e]-##
+[s]Было бы так здорово, если бы она была[n]такой, с тем, как она выглядит и все[n]такое...[n][w][e]
+##-[s]It would be so cool if she is, with[n]the way she looks and all...[n][w][e]-##
+[s]От одной мысли об этом у меня мурашки бегут[n]по коже! Или, как сказал бы Мицуру-семпай,[n]"кресло де пуль".[n][w][e]
+##-[s]Just imagining it gives me[n]goose bumps! Or, as Mitsuru-senpai[n]would say, "la chair de poule."[n][w][e]-##
+
+[msg MSG_7A_NPC005_01 [Female Student]]
+[s]Я гулял на днях, и этот странный парень[n]подошел ко мне...[n][w][e]
+##-[s]I was walking around the other day,[n]and this weird guy walked up to me...[n][w][e]-##
+[s]Он не носил рубашку, и у него были странные[n]татуировки... Я попыталась отвести взгляд,[n]но...[n][w][e]
+##-[s]He didn't wear a shirt, and he had[n]weird tattoos... I tried to look[n]away, but...[n][w][e]-##
+[s]Я случайно посмотрела ему прямо в глаза![n][w][e]
+##-[s]I accidentally looked right into[n]his eyes![n][w][e]-##
+[s]Это были самые холодные глаза, которые я[n]когда-либо видел... а потом он улыбнулся[n]мне![n][w][e]
+##-[s]They were the coldest eyes I'd ever[n]seen... and then he smiled at me![n][w][e]-##
+[s]Боже, даже от одной мысли об этом у меня[n]мурашки бегут по спине...![n][w][e]
+##-[s]God, even thinking about it gives[n]me shivers all down my back...![n][w][e]-##
+[s]Если бы только это был Мицуру-семпай! Я бы[n]упала в обморок на месте![n][w][e]
+##-[s]If only it had been Mitsuru-senpai![n]I would have fainted on the spot![n][w][e]-##
+
+[msg MSG_7B_NPC005_01 [Female Student]]
+[s]Это будет называться...[n][w][e]
+##-[s]This will be called...[n][w][e]-##
+[s]Стратегия "Притворись, Что Я Просто Гулял,[n]И Когда Мицуру-семпай Выйдет, Я Подойду К[n]Ней Поближе"![n][w][e]
+##-[s]The "Pretend Like I Was Just Walking[n]And When Mitsuru-senpai Comes Out[n]I'll Get Close To Her" strategy![n][w][e]-##
+[s]Таков мой план... Но сейчас я вся на[n]нервах...[n][w][e]
+##-[s]That's my plan... But I'm all[n]nervous now...[n][w][e]-##
+[s]Я знаю, что слишком много думаю об этом...[n][w][e]
+##-[s]I know I'm overthinking this...[n][w][e]-##
+
+[msg MSG_9A_NPC005_01 [Female Student]]
+[s]Ты видел Мицуру-семпая в купальнике на[n]Якусиме!? Ты сделал какие-нибудь[n]фотографии?![n][w][e]
+##-[s]You saw Mitsuru-senpai in a bathing[n]suit at Yakushima!? Did you get any[n]pictures!?[n][w][e]-##
+
+[sel MSG_9A_NPC005_01S top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+
+[sel MSG_9A_NPC005_01S_G top]
+[s]"Я продам тебе один за 1000 иен".[e]
+##-[s]"I'll sell you one for 1000 yen."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+
+[msg MSG_9A_NPC005_01A [Female Student]]
+[s]Ну и где же они тогда?![n][w][e]
+##-[s]Well, where are they, then!?[n][w][e]-##
+[s]Не играй со мной, или я запишусь на сайт с[n]просьбой о мести![n][w][e]
+##-[s]Don't toy with me, or I'll sign up[n]for the revenge request website![n][w][e]-##
+
+[msg MSG_9A_NPC005_01A_G [Female Student]]
+[s]...1000 иен, каждая!? П-Прекрасно! Это[n]выгодная сделка за то, что они[n]действительно стоят![n][w][e]
+##-[s]...1000 yen, each!?[n]F-Fine! That's a bargain for[n]what they're truly worth![n][w][e]-##
+[s]Мне нужно по три экземпляра каждого! Один[n]для меня, один для моих записей и один,[n]чтобы показать другим людям... Отдай их[n]мне![n][w][e]
+##-[s]I need three copies of each! One for[n]me, one for my records, and one to show[n]other people... Hand 'em over![n][w][e]-##
+[s]Не играй со мной, или я запишусь на сайт с[n]просьбой о мести![n][w][e]
+##-[s]Don't toy with me, or I'll sign up[n]for the revenge request website![n][w][e]-##
+
+[msg MSG_9A_NPC005_01B [Female Student]]
+[s]О... Какая-то помощь тебе есть.[n][w][e]
+##-[s]Oh... Some help you are.[n][w][e]-##
+
+[msg MSG_9A_NPC005_01B_G [Female Student]]
+[s]О... Какая-то помощь тебе есть.[n][w][e]
+##-[s]Oh... Some help you are.[n][w][e]-##
+
+[msg MSG_9B_NPC005_01 [Female Student]]
+[s]Мне плевать на Фестиваль культуры, если я[n]не увижу там Мицуру-семпая.[n][w][e]
+##-[s]I don't care about the[n]Culture Festival if I can't[n]see Mitsuru-senpai there.[n][w][e]-##
+[s]Я надеялся, что она оденется как мужчина, а[n]потом потанцует со мной... Но я думаю, что[n]нет.[n][w][e]
+##-[s]I was hoping she'd dress as[n]a man, and then dance with me...[n]But I guess not.[n][w][e]-##
+[s]Для меня Фестиваль культуры закончился еще[n]до того, как начался.[n][w][e]
+##-[s]For me, the Culture Festival is[n]over before it began.[n][w][e]-##
+
+[msg MSG_10A_NPC005_01 [Female Student]]
+[s]Как дела со Школьным советом?[n][w][e]
+##-[s]How's it going with the[n]Student Council?[n][w][e]-##
+[s]Какие-нибудь особые моменты с[n]Мицуру-семпаем - я имею в виду, вы[n]участвуете в мероприятиях Студенческого[n]совета?[n][w][e]
+##-[s]Any special moments with Mitsuru-[n]senpai--I mean, do you participate[n]in the Student Council activities?[n][w][e]-##
+
+[sel MSG_10A_NPC005_01S top]
+[s]"Да, я знаю".[e]
+##-[s]"Yeah, I do."[e]-##
+[s]"Не так уж много..."[e]
+##-[s]"Not much..."[e]-##
+
+[sel MSG_10A_NPC005_01S_G top]
+[s]"Да, я знаю!"[e]
+##-[s]"Yeah, I do!"[e]-##
+[s]"Не так уж много..."[e]
+##-[s]"Not much..."[e]-##
+
+[msg MSG_10A_NPC005_01A [Female Student]]
+[s]Почему это не мог быть я?..[n][w][e]
+##-[s]Why couldn't it be me...?[n][w][e]-##
+
+[msg MSG_10A_NPC005_01A_G [Female Student]]
+[s]Почему это не мог быть я?..[n][w][e]
+##-[s]Why couldn't it be me...?[n][w][e]-##
+
+[msg MSG_10A_NPC005_01B [Female Student]]
+[s]А? Какая пустая трата времени![n][w][e]
+##-[s]Huh? What a waste![n][w][e]-##
+[s]Оооо! Как бы я хотел поменяться с тобой[n]местами![n][w][e]
+##-[s]Ohhh! I wish I could switch[n]with you![n][w][e]-##
+
+[msg MSG_10A_NPC005_01B_G [Female Student]]
+[s]А? Какая пустая трата времени![n][w][e]
+##-[s]Huh? What a waste![n][w][e]-##
+[s]Оооо! Как бы я хотел поменяться с тобой[n]местами![n][w][e]
+##-[s]Ohhh! I wish I could switch[n]with you![n][w][e]-##
+
+[msg MSG_10B_NPC005_01 [Female Student]]
+[s]Я тут подумал... Обычно, если кто-то где-то[n]пострадает, они приведут кого-то нового,[n]верно?[n][w][e]
+##-[s]I've been thinking... Normally, if[n]someone is hurt somewhere, they'll[n]bring in someone new, right?[n][w][e]-##
+[s]Это значит, что если кто-то в Школьном[n]совете пострадает, у меня может быть шанс[n]попасть туда...[n][w][e]
+##-[s]That means, if anyone in Student[n]Council is hurt, I might have[n]a chance to get in...[n][w][e]-##
+[s]Ч-Эй, что это за взгляд?! Ты ведешь себя[n]так, будто я преступник или что-то в этом[n]роде![n][w][e]
+##-[s]H-Hey, what's with that look!?[n]You act like I'm a criminal or[n]something![n][w][e]-##
+[s]Я не настолько плох! Я... я заполучу ее без[n]всякого обмана![n][w][e]
+##-[s]I'm not that bad! I-I'll get her[n]without any cheating![n][w][e]-##
+
+[msg MSG_11A_NPC005_01 [Female Student]]
+[s]Я слышал, что отец Мицуру-семпая[n]скончался... Должно быть, ей очень[n]тяжело...[n][w][e]
+##-[s]I heard Mitsuru-senpai's father[n]passed away... It must be very[n]tough on her...[n][w][e]-##
+[s]Я хотел бы помочь ей...[n][w][e]
+##-[s]I wish I could help her...[n][w][e]-##
+
+[msg MSG_11B_NPC005_01 [Female Student]]
+[s]Я ненавижу это! Я не хочу видеть[n]Мицуру-семпая таким подавленным![n][w][e]
+##-[s]I hate this! I don't want to see[n]Mitsuru-senpai so depressed![n][w][e]-##
+
+[msg MSG_11B_NPC005_02 [Female Student]]
+[s]Семпай! Если бы я мог что-нибудь сделать, я[n]бы сделал это немедленно![n][w][e]
+##-[s]Senpai! If there's anything I can[n]do, I'd do it at once![n][w][e]-##
+[s]Даже если я мало что могу сделать, я[n]приложу все усилия, чтобы поддержать тебя![n][w][e]
+##-[s]Even though I can't do much, I'll[n]put my all into supporting you![n][w][e]-##
+
+[msg MSG_11B_NPC005_03 [Female Student]]
+[s]...Вот что я хотел бы заставить себя[n]сказать ей в лицо...[n][w][e]
+##-[s]...That's what I wish I could bring[n]myself to say to her face...[n][w][e]-##
+
+[msg MSG_12A_NPC005_01 [Female Student]]
+[s]Мицуру-семпай немного приободрился, что[n]хорошо, но... Я все еще чувствую себя[n]неловко.[n][w][e]
+##-[s]Mitsuru-senpai has cheered up[n]a little, which is good, but...[n]I still feel awkward.[n][w][e]-##
+[s]Я ничем не мог ей помочь...[n][w][e]
+##-[s]I couldn't help her at all...[n][w][e]-##
+
+[msg MSG_12B_NPC005_01 [Female Student]]
+[s]Скоро Рождество, и ты знаешь, что это[n]значит - подарки![n][w][e]
+##-[s]It's almost Christmas, and you[n]know what that means--presents![n][w][e]-##
+[s]У меня есть отличная идея! Я собираюсь[n]сделать Мицуру-семпаю подарок![n][w][e]
+##-[s]I've got a great idea! I'm going to[n]give Mitsuru-senpai a gift![n][w][e]-##
+[s]Не могли бы вы сыграть Санту для меня и[n]передать ей мой подарок?[n][w][e]
+##-[s]Could you play Santa for me, and[n]give her my present?[n][w][e]-##
+
+[sel MSG_12B_NPC005_01S top]
+[s]"нет."[e]
+##-[s]"No."[e]-##
+[s]"Я отказываюсь".[e]
+##-[s]"I refuse."[e]-##
+[s]"Абсолютно нет".[e]
+##-[s]"Absolutely not."[e]-##
+
+[sel MSG_12B_NPC005_01S_G top]
+[s]"нет."[e]
+##-[s]"No."[e]-##
+[s]"Я отказываюсь".[e]
+##-[s]"I refuse."[e]-##
+[s]"Абсолютно нет".[e]
+##-[s]"Absolutely not."[e]-##
+
+[msg MSG_12B_NPC005_01A [Female Student]]
+[s]Боже, я просто пошутил... Тебе не нужно[n]выглядеть таким серьезным.[n][w][e]
+##-[s]Geez, I was just kidding...[n]You don't have to look so serious.[n][w][e]-##
+[s]Она могла бы избегать меня, если бы я это[n]сделал... Но это стоило бы того, чтобы[n]сделать ей подарок![n][w][e]
+##-[s]She might avoid me if I did[n]that... But it would be worth[n]it to give her a gift![n][w][e]-##
+
+[msg MSG_AfterChristmas_NPC00_2 [Female Student]]
+[s]Мой план под названием "Подари[n]Мицуру-семпаю подарок" не сработал.[n][w][e]
+##-[s]My plan called "Give Mitsuru-senpai[n]A Present" didn't work.[n][w][e]-##
+[s]Что имеет смысл, если вы подумаете об этом.[n][w][e]
+##-[s]Which makes sense, if you think[n]about it.[n][w][e]-##
+[s]Я имею в виду, Мицуру-семпай живет в[n]общежитии, верно? Охрана там, должно быть,[n]довольно строгая...[n][w][e]
+##-[s]I mean, Mitsuru-senpai lives in[n]a dorm, right? The security there[n]must be pretty tight...[n][w][e]-##
+[s]Я подошел к входной двери, но не смог[n]войти.[n][w][e]
+##-[s]I went up to the front door,[n]but I couldn't get in.[n][w][e]-##
+
+[msg MSG_1A_NPC005_01 [Female Student]]
+[s]Мицуру-семпай был в кимоно на Новый год!?[n]Ты сделал какие-нибудь фотографии?![n][w][e]
+##-[s]Mitsuru-senpai was in a kimono[n]over New Year's!? Did you get[n]any pictures!?[n][w][e]-##
+
+[sel MSG_1A_NPC005_01S top]
+[s]"Конечно..."[e]
+##-[s]"Sure..."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+
+[sel MSG_1A_NPC005_01S_G top]
+[s]"Я сделал, если у вас есть 1000 иен..."[e]
+##-[s]"I did, if you have 1000 yen..."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+
+[msg MSG_1A_NPC005_01A [Female Student]]
+[s]Ну и где же они тогда?! Не смей шутить о[n]чем-то подобном! Я тебя стукну, дурачок![n][w][e]
+##-[s]Well, where are they, then!?[n]Don't joke about something like[n]this! I'll knock you silly![n][w][e]-##
+
+[msg MSG_1A_NPC005_01A_G [Female Student]]
+[s]Ты... Ты коварная распутница! Все еще...[n]Мицуру-семпай...![n][w][e]
+##-[s]You... You scheming minx![n]Still... Mitsuru-senpai...![n][w][e]-##
+[s]У тебя их нет! Я подаю на вас в суд за[n]мошенничество и эмоциональные страдания![n][w][e]
+##-[s]You don't have them! I'm suing you[n]for fraud and emotional suffering![n][w][e]-##
+
+[msg MSG_1A_NPC005_01B [Female Student]]
+[s]О... Какая-то помощь тебе есть.[n][w][e]
+##-[s]Oh... Some help you are.[n][w][e]-##
+
+[msg MSG_1A_NPC005_01B_G [Female Student]]
+[s]О... Какая-то помощь тебе есть.[n][w][e]
+##-[s]Oh... Some help you are.[n][w][e]-##
+
+[msg MSG_1B_NPC005_01 [Female Student]]
+[s]О, нет... Мицуру-семпай скоро закончит[n]школу...[n][w][e]
+##-[s]Oh, no... Mitsuru-senpai will[n]graduate pretty soon...[n][w][e]-##
+[s]Все боятся, что может наступить конец[n]света, но это НАСТОЯЩАЯ проблема![n][w][e]
+##-[s]Everyone's scared that the world[n]might end, but this is a REAL[n]problem![n][w][e]-##
+[s]Как я могу жить дальше без нее...?[n][w][e]
+##-[s]How can I go on without her...?[n][w][e]-##
+
+[msg MSG_3A_NPC005_01 [Female Student]]
+[s]Ты помнишь те странные вещи, которые[n]произошли около месяца назад?[n][w][e]
+##-[s]You remember the weird stuff that[n]happened about a month ago?[n][w][e]-##
+[s]Было около полуночи, и все стояли снаружи.[n][w][e]
+##-[s]It was near midnight, and everyone[n]was standing outside.[n][w][e]-##
+[s]Я тоже был снаружи, но, по правде говоря, я[n]ничего об этом не помню.[n][w][e]
+##-[s]I was outside, too, but to tell you[n]the truth, I don't remember anything[n]about it.[n][w][e]-##
+[s]Я думаю, это потому, что я слишком[n]беспокоюсь о том, что Мицуру-семпай уедет в[n]другую страну...[n][w][e]
+##-[s]I think it's because I'm too worried[n]about Mitsuru-senpai moving away[n]to another country...[n][w][e]-##
+
+[msg MSG_KAIDAN1_NPC006_01 [Female Student]]
+[s]Я слышал, Фуука-сан снова упала в обморок,[n]и она взяла отгул в школе...[n][w][e]
+##-[s]I heard Fuuka-san fainted again, and[n]she's taking days off from school...[n][w][e]-##
+[s]Интересно, все ли с ней в порядке?.. Она не[n]выглядит очень сильной.[n][w][e]
+##-[s]I wonder if she's okay...[n]She doesn't look very strong.[n][w][e]-##
+
+[msg MSG_KAIDAN2_NPC006_01 [Female Student]]
+[s]Фуука-сан сегодня тоже отсутствует.[n][w][e]
+##-[s]Fuuka-san is absent today, too.[n][w][e]-##
+

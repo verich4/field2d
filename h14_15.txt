@@ -1,0 +1,86 @@
+[msg DONOTUSE_MESSAGE]
+[s]Пйメッセージк構гХ。 焔ёБГж。[n][w][e]
+##-[s]Пйメッセージк構гХ。[n]焔わёБよГж。[n][w][e]-##
+
+[msg GOINTO_OURROOM]
+[s]> Не хотели бы вы вернуться в свою комнату[n]и лечь спать?[n][w][e]
+##-[s]> Would you like to return to your room[n]and go to bed?[n][w][e]-##
+
+[msg GOINTO_ROOMHAZIKI]
+[s]> Вы решаете не ложиться спать еще[n]некоторое время.[n][w][e]
+##-[s]> You decide to stay up for a while[n]longer.[n][w][e]-##
+
+[msg GOTO_BATH]
+[s]> Хотели бы вы подготовиться к горячему[n]источнику?[n][w][e]
+##-[s]> Would you like to get ready for[n]the hot spring?[n][w][e]-##
+
+[sel INTO_ROOM_SEL top]
+[s]Возвращайся в свою комнату[e]
+##-[s]Return to your room[e]-##
+[s]Ещё нет[e]
+##-[s]Not yet[e]-##
+
+[msg VENDOR]
+[s]> Это торговый автомат.[n][w][e]
+##-[s]> It's a vending machine.[n][w][e]-##
+
+[sel VENDOR_SEL top]
+[s]Содовая с Дурианом[e]
+##-[s]Durian Soda[e]-##
+[s]Сок Джамбо[e]
+##-[s]Jumbo Juice[e]-##
+[s]V6[e]
+##-[s]V6[e]-##
+[s]Ничего не покупайте[e]
+##-[s]Don't buy anything[e]-##
+
+[msg VENDOR_BUY_OK]
+[s]> Не хотите ли купить чего-нибудь выпить?[n][w][e]
+##-[s]> Would you like to buy a drink?[n][w][e]-##
+
+[msg VENDOR_MONEY_IN]
+[s]> Вы внесли 120 иен.[n][w][e]
+##-[s]> You deposited 120 yen.[n][w][e]-##
+
+[msg VENDOR_BUY_END]
+[s]> Получено [f 2 5 3 13 0].[n][w][e]
+##-[s]> Obtained [f 2 5 3 13 0].[n][w][e]-##
+
+[msg VENDOR_NO_MONEY]
+[s]> У тебя недостаточно денег.[n][w][e]
+##-[s]> You don't have enough money.[n][w][e]-##
+
+[msg VENDOR_CANT_BUY]
+[s]> Вы больше не можете носить с собой этот[n]предмет.[n][w][e]
+##-[s]> You can't carry any more of that[n]item.[n][w][e]-##
+
+[msg DONOTUSE_MESSAGE_2]
+[s]Пйメッセージк構гХ。 焔ёБГж。[n][w][e]
+##-[s]Пйメッセージк構гХ。[n]焔わёБよГж。[n][w][e]-##
+
+[msg TABINOSIORI]
+[s]> Есть маршрут поездки.[n][w][e]
+##-[s]> There's a trip itinerary.[n][w][e]-##
+[s]> Хотели бы вы сэкономить?[n][w][e]
+##-[s]> Would you like to save?[n][w][e]-##
+
+[sel SAVE_SEL top]
+[s]Сохранить[e]
+##-[s]Save[e]-##
+[s]Не экономьте[e]
+##-[s]Don't save[e]-##
+
+[sel KYOTO_SHOTCUTSEL top]
+[s]1F Лобби[e]
+##-[s]1F Lobby[e]-##
+[s]Коридор 2F[e]
+##-[s]2F Hallway[e]-##
+[s]Коридор 3F[e]
+##-[s]3F Hallway[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg FLD_ORDER]
+[s]Куда ты хочешь пойти?[n][w][e]
+##-[s]Where do you want to go?[n][w][e]-##
+

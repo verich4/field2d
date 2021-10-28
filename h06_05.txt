@@ -1,0 +1,796 @@
+[msg FLOWER_BED]
+[s]> Цветы, кажется, вот-вот завянут.[n][w][e]
+##-[s]> The flowers seem like they're[n]about to wilt.[n][w][e]-##
+
+[msg FLOWER_BED_WATER]
+[s]> Цветы, похоже, давно не поливали.[n][w][e]
+##-[s]> The flowers don't seem to have[n]been watered for a while.[n][w][e]-##
+[s]> Не хотели бы вы их полить?[n][w][e]
+##-[s]> Would you like to water them?[n][w][e]-##
+
+[msg FLOWER_BED_WATER_DONE]
+[s]> Ты поливал цветы.[n][w][e]
+##-[s]> You watered the flowers.[n][w][e]-##
+[s]> Цветы кажутся... счастливый.[n][w][e]
+##-[s]> The flowers seem... happy.[n][w][e]-##
+[s]> Сейчас с ними все должно быть в порядке.[n][w][e]
+##-[s]> They should be fine for now.[n][w][e]-##
+
+[msg FLOWER_BED_WATER_AFTER]
+[s]> Цветы, кажется, отлично справляются.[n][w][e]
+##-[s]> The flowers seem to be doing[n]great.[n][w][e]-##
+
+[msg DONOTUSE_MESSAGE]
+[s]Пйメッセージк謁гХ。 亥ёБГж。[n][w][e]
+##-[s]Пйメッセージк謁гХ。[n]亥わёБよГж。[n][w][e]-##
+
+[sel YESNO_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[sel INTO_SEL top]
+[s]Входить[e]
+##-[s]Enter[e]-##
+[s]Не входи[e]
+##-[s]Don't enter[e]-##
+
+[sel BUKATU_NYUUBU_SEL top]
+[s]Присоединяйтесь к клубу[e]
+##-[s]Join the club[e]-##
+[s]Наблюдать[e]
+##-[s]Observe[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel SCHOOL_SHOTCUTSEL top]
+[s]1F, Главный Вестибюль[e]
+##-[s]1F, Main Lobby[e]-##
+[s]1F, Коридор Преподавательского кабинета[e]
+##-[s]1F, Faculty Office Hallway[e]-##
+[s]1F, Лабораторный Коридор[e]
+##-[s]1F, Laboratory Hallway[e]-##
+[s]1F, Коридор[e]
+##-[s]1F, Corridor[e]-##
+[s]1F, Коридор Спортзала[e]
+##-[s]1F, Gym Hallway[e]-##
+[s]2F, Коридор Классной комнаты[e]
+##-[s]2F, Classroom Hallway[e]-##
+[s]Класс[e]
+##-[s]Classroom[e]-##
+[s]Крыша[e]
+##-[s]Rooftop[e]-##
+[s]Входная дверь[e]
+##-[s]Entranceway[e]-##
+[s]Карта города[e]
+##-[s]Town Map[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg ZOKUSEI_KAKUNIN]
+[s]> [f 2 4 1] Рейтинг социальных ссылок [clr 2][f 2 4 4][clr 0].[n][w][e]
+##-[s]> [f 2 4 1] Social Link[n]rank [clr 2][f 2 4 4][clr 0].[n][w][e]-##
+[s]> Аркана - это [f 2 4 2].[n][f 2 4 3][w][e]
+##-[s]> The Arcana is [f 2 4 2].[n][f 2 4 3][w][e]-##
+[s]> Вы можете видеть силу[n][f 2 4 2] Личность...[n][w][e]
+##-[s]> You can see the powers of the[n][f 2 4 2] Persona...[n][w][e]-##
+
+[msg PER_KOE]
+[s][f 2 4 1], Уровень [f 2 4 0][n]  Доступные навыки:   [f 2 4 2][n]  [f 2 4 3][n]  [f 2 4 4][n][w][e]
+##-[s][f 2 4 1], Level [f 2 4 0][n] [n]Available skills:[n]  [f 2 4 2][n]  [f 2 4 3][n]  [f 2 4 4][n][w][e]-##
+
+[msg ZOKUSEI_NOTYET]
+[s]> Похоже, что дальнейшая сила скрыта...[n][w][e]
+##-[s]> It seems further power lies hidden...[n][w][e]-##
+
+[msg ZOKUSEI_NOMORE]
+[s]> Дополнительное питание недоступно.[n][w][e]
+##-[s]> No further power is available.[n][w][e]-##
+
+[msg MSG_DOUZOKUSEI [ ]]
+[s][f 4 7 0 0 0]> Так как у вас есть [f 2 4 2][n]Персона,"[clr 1][f 2 4 5][clr 0]", вы могли бы стать еще ближе...[n][w][e]
+##-[s][f 4 7 0 0 0]> Since you have the [f 2 4 2][n]Persona, "[clr 1][f 2 4 5][clr 0]", you might[n]be able to become even closer...[n][w][e]-##
+
+[msg FLD_ORDER]
+[s]Куда ты хочешь пойти?[n][w][e]
+##-[s]Where do you want to go?[n][w][e]-##
+
+[msg STOP_2F [Yukari]]
+[s][bup 2 201 0 0]Давай, поторопись! Прежде чем наступит[n]Темный Час![n][w][e]
+##-[s][bup 2 201 0 0]C'mon, hurry! Before the Dark Hour[n]comes![n][w][e]-##
+
+[msg STOP_2F_SANADA [Akihiko]]
+[s][bup 7 201 0 0]Темный час наступит, если мы не[n]поторопимся. Нельзя терять времени![n][w][e]
+##-[s][bup 7 201 0 0]The Dark Hour's going to come if we[n]don't hurry. There's no time to waste![n][w][e]-##
+
+[msg TOILET_MENS]
+[s]> Это мужской туалет.[n][w][e]
+##-[s]> It's the men's room.[n][w][e]-##
+
+[msg TOILET_OUT]
+[s]> Ты облегчился.[n][w][e]
+##-[s]> You relieved yourself.[n][w][e]-##
+
+[msg TOILET_MENS_STOP [Yukari]]
+[s][bup 2 203 0 0]Ты не можешь это удержать?![n][w][e]
+##-[s][bup 2 203 0 0]Can't you hold it!?[n][w][e]-##
+[s]...Прекрасно! Но поторопись, ладно?[n][w][e]
+##-[s]...Fine! But hurry up, okay!?[n][w][e]-##
+
+[msg TOILET_MENS_STOP_PART2 [Yukari]]
+[s][bup 2 203 0 0]А? Опять!?[n][w][e]
+##-[s][bup 2 203 0 0]Huh? Again!?[n][w][e]-##
+[s]...Ты делаешь это нарочно, не так ли?![n][w][e]
+##-[s]...You're doing this on purpose,[n]aren't you!?[n][w][e]-##
+
+[msg TOILET_MENS_STOP_SANADA [Akihiko]]
+[s][bup 7 203 0 0]Эй, куда ты идешь?! Нам нужно поторопиться[n]и пойти в офис факультета![n][w][e]
+##-[s][bup 7 203 0 0]Hey, where are you going!? We need to[n]hurry up and go to the Faculty Office![n][w][e]-##
+
+[msg TOILET_NORMAL_TO_BEST]
+[s]> Ваше состояние стало"[clr 2]Отличный[clr 0]."[n][w][e]
+##-[s]> Your condition has become[n]"[clr 2]Great[clr 0]."[n][w][e]-##
+
+[msg TOILET_TIRED_TO_NORMAL]
+[s]> Ваше состояние стало"[clr 2]Хорошо[clr 0]."[n][w][e]
+##-[s]> Your condition has become[n]"[clr 2]Good[clr 0]."[n][w][e]-##
+
+[msg TOILET_COLD_TO_TIRED]
+[s]> Ваше состояние стало"[clr 2]Уставший[clr 0]."[n][w][e]
+##-[s]> Your condition has become[n]"[clr 2]Tired[clr 0]."[n][w][e]-##
+
+[msg TOILET_BEST]
+[s]> Ваше тело в отличном состоянии.[n][w][e]
+##-[s]> Your body is in excellent condition.[n][w][e]-##
+
+[msg TOILET_GOOD]
+[s]> Ваше тело находится в среднем состоянии.[n][w][e]
+##-[s]> Your body is in average condition.[n][w][e]-##
+
+[msg TOILET_BAD]
+[s]> Ты не очень хорошо себя чувствуешь.[n][w][e]
+##-[s]> You are not feeling so well.[n][w][e]-##
+
+[msg TOILET_WOMENS]
+[s]> Это женская комната.[n][w][e]
+##-[s]> It's the women's room.[n][w][e]-##
+
+[msg TOILET_WOMENS_STOP [Yukari]]
+[s][bup 2 203 0 0]Эй! Куда, по-твоему, ты направляешься?![n][w][e]
+##-[s][bup 2 203 0 0]Hey! Where do you think you're going!?[n][w][e]-##
+
+[msg TOILET_WOMENS_OUT]
+[s]> Ваши мысли блуждают, когда вы моете[n]руки...[n][w][e]
+##-[s]> Your mind wanders as you wash[n]your hands...[n][w][e]-##
+
+[msg TOIRE_TESTKIKAN]
+[s]> Вы помните, что у вас скоро экзамены.[n][w][e]
+##-[s]> You recall that you have exams coming[n]up soon.[n][w][e]-##
+[s]> Похоже, что Мицуру вознаградит тебя, если[n]ты хорошо справишься с ними...[n][w][e]
+##-[s]> It seems that Mitsuru will reward you[n]if you do well on them...[n][w][e]-##
+
+[msg TOIRE_TUUHAN]
+[s]> Вы помните, что есть телевизионная[n]программа покупок, которая показывается по[n]воскресеньям днем...[n][w][e]
+##-[s]> You recall that there's a TV shopping[n]program that shows on Sunday afternoons...[n][w][e]-##
+[s]> Какой продукт они могли бы предложить в[n]следующий раз...?[n][w][e]
+##-[s]> What product could they be offering[n]next...?[n][w][e]-##
+
+[msg TOIRE_UNDOUBU]
+[s]> Вы смутно припоминаете, что сегодня[n]собирается один из ваших клубов...[n][w][e]
+##-[s]> You vaguely recall that one of your[n]clubs meets today...[n][w][e]-##
+[s]> Что ты должен делать после школы...?[n][w][e]
+##-[s]> What should you do after school...?[n][w][e]-##
+
+[msg TOIRE_IINKAI]
+[s]> Вы смутно припоминаете, что сегодня[n]заседает ваш школьный комитет...[n][w][e]
+##-[s]> You vaguely recall that your school[n]committee meets today...[n][w][e]-##
+[s]> Что ты должен делать после школы...?[n][w][e]
+##-[s]> What should you do after school...?[n][w][e]-##
+
+[msg TOIRE_HIROU]
+[s]> Ваше тело чувствует усталость...[n][w][e]
+##-[s]> Your body feels tired...[n][w][e]-##
+[s]> Возможно, вы почувствуете себя лучше,[n]если ляжете спать пораньше или проведете[n]время в магазине, где сможете[n]расслабиться...[n][w][e]
+##-[s]> You might feel better if you go to[n]bed early or spend time in a store[n]where you can relax...[n][w][e]-##
+
+[msg TOIRE_GAKURYOKU]
+[s]> Вы чувствуете, что все еще могли бы быть[n]лучше в учебе...[n][w][e]
+##-[s]> You feel like you could still be[n]better academically...[n][w][e]-##
+[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши ученые не[n]достаточно высоки...[n][w][e]
+##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Academics are high enough...[n][w][e]-##
+[s]> Вы задаетесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
+##-[s]> You wonder if you should study more...[n][w][e]-##
+
+[msg TOIRE_MIRYOKU]
+[s]> Вы чувствуете, что все еще могли бы быть[n]более очаровательными, чем сейчас...[n][w][e]
+##-[s]> You feel like you could still be[n]more charming than you are now...[n][w][e]-##
+[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваше обаяние не[n]достаточно велико...[n][w][e]
+##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Charm is high enough...[n][w][e]-##
+[s]> Есть ли место, куда ты можешь пойти,[n]чтобы усилить свое очарование...?[n][w][e]
+##-[s]> Is there anywhere you can go to[n]increase your Charm...?[n][w][e]-##
+
+[msg TOIRE_YUUKI]
+[s]> Вы чувствуете, что все еще можете стать[n]более смелым...[n][w][e]
+##-[s]> You feel like you can still become[n]more courageous...[n][w][e]-##
+[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваша Смелость[n]недостаточно высока...[n][w][e]
+##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Courage is high enough...[n][w][e]-##
+[s]> Есть ли место, куда вы можете пойти,[n]чтобы повысить свою смелость...?[n][w][e]
+##-[s]> Is there anywhere you can go to[n]increase your Courage...?[n][w][e]-##
+
+[msg TOIRE_CARD]
+[s]> Вы помните, что оставили карточку навыка[n]в храме Наганаки...[n][w][e]
+##-[s]> You recall that you left a skill[n]card at Naganaki Shrine...[n][w][e]-##
+[s]> Когда он будет готов...?[n][w][e]
+##-[s]> When will it be ready...?[n][w][e]-##
+
+[msg TOIRE_ZEKKOU_DUNGEON]
+[s]> Сегодня ты чувствуешь себя удивительно[n]хорошо...[n][w][e]
+##-[s]> You feel amazingly well today...[n][w][e]-##
+[s]> Вы чувствуете, что сможете сражаться[n]чудесно...[n][w][e]
+##-[s]> You feel that you'll be able to[n]fight wonderfully...[n][w][e]-##
+
+[msg TOIRE_IRAI]
+[s]> Вы задаетесь вопросом, есть ли какие-либо[n]просьбы, которые вы могли бы принять в[n]Бархатной комнате...[n][w][e]
+##-[s]> You wonder if there are any requests[n]you could accept in the Velvet Room...[n][w][e]-##
+
+[msg TOIRE_SISSOU]
+[s]> Вы помните, что в Тартаре кто-то заперт.[n][w][e]
+##-[s]> You recall that there's someone[n]trapped in Tartarus.[n][w][e]-##
+[s]> Вам нужно пойти и спасти их как можно[n]скорее...[n][w][e]
+##-[s]> You need to go rescue them as soon[n]as possible...[n][w][e]-##
+
+[msg TOIRE_NOMESSAGE]
+[s]> Что ты должен сделать сегодня...?[n][w][e]
+##-[s]> What should you do today...?[n][w][e]-##
+
+[msg TOIRE_OPERATION]
+[s]> Вам нужно поторопиться и пойти в офис[n]факультета...[n][w][e]
+##-[s]> You need to hurry and go to the[n]faculty office...[n][w][e]-##
+
+[msg SCR_MSG_SIKENMAE_NG]
+[s]> Она заперта. Вы задаетесь вопросом, не[n]из-за экзаменов ли это...[n][w][e]
+##-[s]> It's locked. You wonder if it's[n]because of exams...[n][w][e]-##
+
+[msg SCR_MSG_ENDING_NG]
+[s]> Она заперта.[n][w][e]
+##-[s]> It's locked.[n][w][e]-##
+
+[msg SCR_MSG_TAIIN_COMMU_NG]
+[s]> Сегодня здесь никого нет.[n][w][e]
+##-[s]> No one is here today.[n][w][e]-##
+
+[msg SCR_MSG_SEITOKAI_01]
+[s]> Это Комната Студенческого совета.[n][w][e]
+##-[s]> This is the Student Council Room.[n][w][e]-##
+
+[msg SCR_MSG_SEITOKAI_02]
+[s]> Не хотели бы вы провести некоторое время[n]после школы в Комнате Студенческого совета?[n][w][e]
+##-[s]> Would you like to spend some time[n]after school in the Student Council[n]Room?[n][w][e]-##
+
+[sel SEITOKAI_COMMU_SEL top]
+[s]Посещать Студенческий совет[e]
+##-[s]Attend Student Council[e]-##
+[s]Проверьте рейтинг социальных ссылок[e]
+##-[s]Check Social Link rank[e]-##
+[s]Ничего не делать[e]
+##-[s]Do nothing[e]-##
+
+[msg SCR_MSG_SEITOKAI_SURU]
+[s][f 5 13 0 10 0]> Вы решили провести некоторое время после[n]школы в Комнате Студенческого совета.[n][w][e]
+##-[s][f 5 13 0 10 0]> You have decided to spend some time[n]after school in the Student Council Room.[n][w][e]-##
+
+[msg SEITOKAI_KYOKA_ARI]
+[s]> У вас есть разрешение вступить в[n]Студенческий совет. Не хотите ли войти в[n]комнату и представиться?[n][w][e]
+##-[s]> You have permission to join Student[n]Council. Would you like to enter the[n]room and introduce yourself?[n][w][e]-##
+
+[msg SEITOKAI_KYOKA_NASI]
+[s]> Вы еще не являетесь членом Студенческого[n]совета.[n][w][e]
+##-[s]> You are not yet a member of[n]Student Council.[n][w][e]-##
+[s]> Вы должны поговорить с [clr 2]Г-жа Ториуми[clr 0] [n]присоединиться.[n][w][e]
+##-[s]> You must speak to [clr 2]Ms. Toriumi[clr 0] [n]to join.[n][w][e]-##
+
+[msg STUDENT_COUNCIL]
+[s]> Комната заперта.[n][w][e]
+##-[s]> The room is locked.[n][w][e]-##
+
+[msg STUDENT_COUNCIL_02]
+[s]> Вы войдете?[n][w][e]
+##-[s]> Will you enter?[n][w][e]-##
+
+[msg STUDENT_COUNCIL_03]
+[s]> Дверь заперта.[n][w][e]
+##-[s]> The door is locked.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Встречи:[n][clr 2]Понедельник[clr 0], [clr 2]Жениться[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
+##-[s]> There's a note that says, "Meetings:[n][clr 2]Mon[clr 0], [clr 2]Wed[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
+
+[msg SCR_MSG_DOUKOUKAI_01]
+[s]> Это Кабинет домоводства.[n][w][e]
+##-[s]> This is the Home Economics Room.[n][w][e]-##
+
+[msg SCR_MSG_DOUKOUKAI_02 [ ]]
+[s]> Сегодня состоится заседание клуба.[n][w][e]
+##-[s]> The club meets today.[n][w][e]-##
+[s]> Стоит ли тебе проводить время после школы[n]в клубе...?[n][w][e]
+##-[s]> Should you spend time after school[n]at the club...?[n][w][e]-##
+
+[msg SCR_MSG_KATEIKA_02 [ ]]
+[s]> Сегодня собирается кулинарный клуб.[n][w][e]
+##-[s]> The cooking club meets today.[n][w][e]-##
+[s]> Стоит ли тебе проводить время после школы[n]в кулинарном клубе...?[n][w][e]
+##-[s]> Should you spend time after school[n]at the cooking club...?[n][w][e]-##
+
+[sel DOUKOUKAI_COMMU_SEL top]
+[s]Войдите в комнату Home Ec[e]
+##-[s]Enter the Home Ec Room[e]-##
+[s]Проверьте рейтинг социальных ссылок[e]
+##-[s]Check Social Link rank[e]-##
+[s]Ничего не делать[e]
+##-[s]Do nothing[e]-##
+
+[sel KATEIKA_COMMU_SEL top]
+[s]Проведите время в кулинарном клубе[e]
+##-[s]Spend time at the cooking club[e]-##
+[s]Проверьте рейтинг социальных ссылок[e]
+##-[s]Check Social Link rank[e]-##
+[s]Ничего не делать[e]
+##-[s]Do nothing[e]-##
+
+[msg SCR_MSG_DOUKOUKAI_SURU]
+[s][f 5 13 0 10 0]> Вы решили провести некоторое время в[n]Кабинете домоводства.[n][w][e]
+##-[s][f 5 13 0 10 0]> You have decided to spend some time[n]in the Home Economics Room.[n][w][e]-##
+
+[msg SCR_MSG_KATEIKA_SURU]
+[s][f 5 13 0 10 0]> Вы решили провести некоторое время в[n]кулинарном клубе.[n][w][e]
+##-[s][f 5 13 0 10 0]> You have decided to spend some time[n]at the cooking club.[n][w][e]-##
+
+[msg SCR_MSG_DOUKOU_MADA [ ]]
+[s]> На двери записка.[n][w][e]
+##-[s]> There's a note on the door.[n][w][e]-##
+[s]> Похоже, это смесь японского и какого-то[n]другого языка.[n][w][e]
+##-[s]> It appears to be a mixture of[n]Japanese and some other language.[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> Для того, чтобы вы это поняли, вам нужно[n]улучшить свои академические знания.[n][w][e]
+##-[s]> In order for you to understand it,[n]you need to improve your Academics.[n][w][e]-##
+[s]> Вы должны быть по крайней мере [clr 2]Средний[clr 0].[n][w][e]
+##-[s]> You must be at least [clr 2]Average[clr 0].[n][w][e]-##
+
+[msg SCR_MSG_DOUKOU_KAIKIN [ ]]
+[s]> На двери записка.[n][w][e]
+##-[s]> There's a note on the door.[n][w][e]-##
+[s]> Учитывая ваши академические способности,[n]вы легко сможете перевести его.[n][w][e]
+##-[s]> Considering your academic ability,[n]you are easily able to translate it.[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> Там написано: "Присоединяйтесь к Клубу[n]моды! Встречи являются [clr 2]Вт[clr 0], [clr 2]Жениться[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
+##-[s]> It says: "Join Fashion Club![n]Meetings are [clr 2]Tues[clr 0], [clr 2]Wed[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
+
+[msg SCR_MSG_DOUKOU_KAIKIN_02 [ ]]
+[s]> Не хотели бы вы войти?[n][w][e]
+##-[s]> Would you like to enter?[n][w][e]-##
+
+[sel DOUKOU_KAIKIN_SEL top]
+[s]Входить[e]
+##-[s]Enter[e]-##
+[s]Не входи[e]
+##-[s]Don't enter[e]-##
+
+[msg SCR_MSG_KATEIKA_NG]
+[s]> На двери записка.[n][w][e]
+##-[s]> There's a note on the door.[n][w][e]-##
+[s]> Учитывая ваши академические способности,[n]вы легко сможете перевести его.[n][w][e]
+##-[s]> Considering your academic ability,[n]you are easily able to translate it.[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> Там написано: "Ты так и не пришел.[n]Извини, но я уже ухожу".[n][w][e]
+##-[s]> It says: "You never came. Sorry,[n]I am gone now."[n][w][e]-##
+
+[msg SCR_MSG_DOUKOU_KATUDOU_N [ ]]
+[s]> Там есть записка, в которой говорится:[n]"Собрания - это [clr 2]Вт[clr 0], [clr 2]Жениться[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
+##-[s]> There's a note that says, "Meetings[n]are [clr 2]Tues[clr 0], [clr 2]Wed[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
+
+[msg SCR_MSG_DOUKOUKAI_RVS]
+[s]> Там есть записка, в которой говорится:[n]"Встреча отменена из-за депрессии".[n][w][e]
+##-[s]> There's a note that says, "Meeting[n]canceled due to depression."[n][w][e]-##
+
+[msg SCR_MSG_DOUKOUKAI_MAX]
+[s]> Там есть записка, в которой говорится: "Я[n]отправляюсь в путешествие. Пожалуйста,[n]подожди меня!"[n][w][e]
+##-[s]> There's a note that says, "I am[n]taking a trip. Please wait for me!"[n][w][e]-##
+
+[msg SCR_MSG_TAIIKUKAI_02 [ ]]
+[s]> Хотели бы вы принять участие [f 5 3 0][n]тренируешься после школы?[n][w][e]
+##-[s]> Would you like to attend [f 5 3 0][n]practice after school?[n][w][e]-##
+
+[sel TAIIKUKAI_COMMU_SEL top]
+[s]Идти к [f 5 3 0] практика[e]
+##-[s]Go to [f 5 3 0] practice[e]-##
+[s]Проверьте рейтинг социальных ссылок[e]
+##-[s]Check Social Link rank[e]-##
+[s]Ничего не делать[e]
+##-[s]Do nothing[e]-##
+
+[msg SCR_MSG_TAIIKUKAI_SURU]
+[s][f 5 13 0 10 0]> Вы решили отправиться в [f 5 3 0][n]практика.[n][w][e]
+##-[s][f 5 13 0 10 0]> You have decided to go to [f 5 3 0][n]practice.[n][w][e]-##
+
+[msg SCR_MSG_TAIIKUKAI_NG [ ]]
+[s]> Там есть заметка, в которой говорится:[n]"Практики - это [clr 2]Понедельник[clr 0], [clr 2]Вт[clr 0], [clr 2]Чт[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
+##-[s]> There's a note that says, "Practices[n]are [clr 2]Mon[clr 0], [clr 2]Tues[clr 0], [clr 2]Thurs[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
+
+[msg SCR_MSG_TAIIKUKAI_NG_F [ ]]
+[s]> Там есть заметка, в которой говорится:[n]"Практики - это [clr 2]Понедельник[clr 0], [clr 2]Жениться[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
+##-[s]> There's a note that says, "Practices[n]are [clr 2]Mon[clr 0], [clr 2]Wed[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
+
+[msg SCR_MSG_GROUND_HAIRU]
+[s]> Эта дверь ведет наружу, на тренировочное[n]поле.[n][w][e]
+##-[s]> This door leads outside to the[n]practice field.[n][w][e]-##
+
+[msg SCR_MSG_GROUND_1ST]
+[s]> Эта дверь ведет наружу, туда, где[n]тренируется Легкоатлетическая команда.[n][w][e]
+##-[s]> This door leads outside to where[n]the Track Team is practicing.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Команда трека - набор новых участников![n]Никаких тормозов, пожалуйста!"[n][w][e]
+##-[s]> There's a note that says,[n]"Track Team - recruiting new members![n]No slowpokes, please!"[n][w][e]-##
+[s]> Хотели бы вы присоединиться?[n][w][e]
+##-[s]> Would you like to join?[n][w][e]-##
+
+[msg SCR_MSG_GROUND_KENGAKU]
+[s]> Эта дверь ведет наружу, туда, где[n]тренируется Легкоатлетическая команда.[n][w][e]
+##-[s]> This door leads outside to where[n]the Track Team is practicing.[n][w][e]-##
+[s]> Хотели бы вы понаблюдать?[n][w][e]
+##-[s]> Would you like to observe?[n][w][e]-##
+
+[msg SCR_MSG_GROUND_NYUUBU_NG]
+[s]> Эта дверь ведет наружу, туда, где[n]тренируется Легкоатлетическая команда.[n][w][e]
+##-[s]> This door leads outside to where[n]the Track Team is practicing.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Извините, но команда по легкой атлетике[n]больше не набирает новых участников".[n][w][e]
+##-[s]> There's a note that says, "Sorry,[n]but the Track Team is no longer[n]recruiting new members."[n][w][e]-##
+
+[msg SCR_MSG_TENNIS_HAIRU]
+[s]> Это дверь в поле.[n][w][e]
+##-[s]> It's the door to the field.[n][w][e]-##
+
+[msg SCR_MSG_TENNIS_1ST]
+[s]> Теннисный клуб для девочек, похоже,[n]использует поле для тренировок.[n][w][e]
+##-[s]> The girls' tennis club seems to be[n]using the field to practice.[n][w][e]-##
+[s]> Записка на двери гласит: "Теннисный клуб[n]для девочек ищет новых членов! Никакого[n]опыта не требуется!"[n][w][e]
+##-[s]> A note on the door reads,[n]"Girls' Tennis Club seeks new members![n]No experience necessary!"[n][w][e]-##
+[s]> Хотели бы вы присоединиться?[n][w][e]
+##-[s]> Would you like to join?[n][w][e]-##
+
+[msg SCR_MSG_TENNIS_KENGAKU]
+[s]> Теннисный клуб для девочек, похоже,[n]использует поле для тренировок.[n][w][e]
+##-[s]> The girls' tennis club seems to be[n]using the field to practice.[n][w][e]-##
+[s]> Хотели бы вы понаблюдать?[n][w][e]
+##-[s]> Would you like to observe?[n][w][e]-##
+
+[msg SCR_MSG_TENNIS_NYUUBU_NG]
+[s]> Теннисный клуб для девочек, похоже,[n]использует поле для тренировок.[n][w][e]
+##-[s]> The girls' tennis club seems to be[n]using the field to practice.[n][w][e]-##
+[s]> Записка на двери гласит: "Извините,[n]теннисный клуб для девочек больше не[n]набирает новых членов".[n][w][e]
+##-[s]> A note on the door reads,[n]"Sorry, the girls' tennis club is no[n]longer recruiting new members."[n][w][e]-##
+
+[msg SCR_MSG_TAIKUKAN_HAIRU]
+[s]> Это дверь в спортзал.[n][w][e]
+##-[s]> It's the door to the gym.[n][w][e]-##
+
+[msg SCR_MSG_TAIKUKAN_1ST]
+[s]> Команда по кендо, похоже, пользуется[n]тренажерным залом.[n][w][e]
+##-[s]> The Kendo Team seems to be using[n]the gym.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Команда кендо - набирает новых участников![n]Сражайся, как самурай!"[n][w][e]
+##-[s]> There's a note that says,[n]"Kendo Team - recruiting new members![n]Fight like a samurai!"[n][w][e]-##
+[s]> Хотели бы вы присоединиться?[n][w][e]
+##-[s]> Would you like to join?[n][w][e]-##
+
+[msg SCR_MSG_TAIKUKAN_KENGAKU]
+[s]> Команда по кендо, похоже, пользуется[n]тренажерным залом.[n][w][e]
+##-[s]> The Kendo Team seems to be using[n]the gym.[n][w][e]-##
+[s]> Хотели бы вы понаблюдать?[n][w][e]
+##-[s]> Would you like to observe?[n][w][e]-##
+
+[msg SCR_MSG_TAIKUKAN_NYUUBU_]
+[s]> Команда по кендо, похоже, пользуется[n]тренажерным залом.[n][w][e]
+##-[s]> The Kendo Team seems to be using[n]the gym.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Извините, но команда по кендо больше не[n]набирает новых участников".[n][w][e]
+##-[s]> There's a note that says, "Sorry,[n]but the Kendo Team is no longer[n]recruiting new members."[n][w][e]-##
+
+[msg SCR_MSG_VOLLEY_HAIRU]
+[s]> Это дверь в спортзал.[n][w][e]
+##-[s]> It's the door to the gym.[n][w][e]-##
+
+[msg SCR_MSG_VOLLEY_1ST]
+[s]> Волейбольный клуб для девочек, похоже,[n]пользуется тренажерным залом.[n][w][e]
+##-[s]> The girls' volleyball club seems[n]to be using the gym.[n][w][e]-##
+[s]> Записка на двери гласит: "Женский[n]волейбол теперь ищет новых участников![n]Добро пожаловать новичкам! Заходи!"[n][w][e]
+##-[s]> A note on the door reads,[n]"Girls' volleyball is now seeking new[n]members! Newbies welcome! Come on in!"[n][w][e]-##
+[s]> Хотели бы вы присоединиться?[n][w][e]
+##-[s]> Would you like to join?[n][w][e]-##
+
+[msg SCR_MSG_VOLLEY_KENGAKU]
+[s]> Волейбольный клуб для девочек, похоже,[n]пользуется тренажерным залом.[n][w][e]
+##-[s]> The girls' volleyball club seems[n]to be using the gym.[n][w][e]-##
+[s]> Хотели бы вы понаблюдать?[n][w][e]
+##-[s]> Would you like to observe?[n][w][e]-##
+
+[msg SCR_MSG_VOLLEY_NYUUBU_NG]
+[s]> Волейбольный клуб для девочек, похоже,[n]пользуется тренажерным залом.[n][w][e]
+##-[s]> The girls' volleyball club seems[n]to be using the gym.[n][w][e]-##
+[s]> Записка на двери гласит: "Женский[n]волейбольный клуб больше не принимает на[n]работу. Прости!"[n][w][e]
+##-[s]> A note on the door reads,[n]"The girls' volleyball club is no longer[n]recruiting. Sorry!"[n][w][e]-##
+
+[msg SCR_MSG_POOL_HAIRU]
+[s]> Дверь ведет в бассейн.[n][w][e]
+##-[s]> The door leads to the swimming pool.[n][w][e]-##
+
+[msg SCR_MSG_POOL_1ST]
+[s]> Команда по плаванию, похоже, пользуется[n]бассейном.[n][w][e]
+##-[s]> The Swim Team seems to be using[n]the pool.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Команда по плаванию - набор новых членов![n]Ты умеешь плавать, как дельфин?"[n][w][e]
+##-[s]> There's a note that says,[n]"Swim Team - recruiting new members![n]Can you swim like a dolphin?"[n][w][e]-##
+[s]> Хотели бы вы присоединиться?[n][w][e]
+##-[s]> Would you like to join?[n][w][e]-##
+
+[msg SCR_MSG_POOL_KENGAKU]
+[s]> Команда по плаванию, похоже, пользуется[n]бассейном.[n][w][e]
+##-[s]> The Swim Team seems to be using[n]the pool.[n][w][e]-##
+[s]> Хотели бы вы понаблюдать?[n][w][e]
+##-[s]> Would you like to observe?[n][w][e]-##
+
+[msg SCR_MSG_POOL_NYUUBU_NG]
+[s]> Команда по плаванию, похоже, пользуется[n]бассейном.[n][w][e]
+##-[s]> The Swim Team seems to be using[n]the pool.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Извините, но команда по плаванию больше не[n]набирает новых членов".[n][w][e]
+##-[s]> There's a note that says, "Sorry,[n]but the Swim Team is no longer[n]recruiting new members."[n][w][e]-##
+
+[msg SCR_MSG_POOL_NYUUBU_NG_G]
+[s]> Команда по плаванию, похоже, пользуется[n]бассейном.[n][w][e]
+##-[s]> The Swim Team seems to be using[n]the pool.[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> Похоже, что в этой школе есть только[n]мужская команда по плаванию...[n][w][e]
+##-[s]> It seems that this school only has[n]a men's swim team...[n][w][e]-##
+
+[msg SCR_MSG_KAKINOKI_MADA [ ]]
+[s]> Здесь растет небольшое дерево.[n][w][e]
+##-[s]> A small tree is growing here.[n][w][e]-##
+[s]> Вам интересно, что это за дерево.[n][w][e]
+##-[s]> You wonder what kind of tree it is.[n][w][e]-##
+
+[msg SCR_MSG_KAKINOKI_KIITA [ ]]
+[s]> Здесь растет небольшое дерево.[n][w][e]
+##-[s]> A small tree is growing here.[n][w][e]-##
+[s]> Должно быть, это дерево хурмы, о котором[n]говорила пожилая пара в книжном магазине.[n][w][e]
+##-[s]> It must be the persimmon tree that[n]the old couple at the bookstore was[n]talking about.[n][w][e]-##
+
+[msg SCR_MSG_KAKINOKI_GET [ ]]
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> Вы нашли лист на земле.[n][w][e]
+##-[s]> You found a leaf on the ground.[n][w][e]-##
+[s]> Получено [f 4 4 3 0 1565].[n][w][e]
+##-[s]> Obtained [f 4 4 3 0 1565].[n][w][e]-##
+
+[msg SCR_MSG_KAKINOKI_AFTER [ ]]
+[s]> Здесь растет небольшое дерево.[n][w][e]
+##-[s]> A small tree is growing here.[n][w][e]-##
+[s]> Похоже, это имеет особое значение для[n]пожилой пары в книжном магазине.[n][w][e]
+##-[s]> It seems to have special meaning for[n]the old couple at the bookstore.[n][w][e]-##
+
+[msg SCR_MSG_ANSITU_HAIRU]
+[s]> Эта комната предназначена для Фотоклуба.[n][w][e]
+##-[s]> This room is for the Photography[n]Club.[n][w][e]-##
+
+[msg SCR_MSG_ANSITU_1ST]
+[s]> Похоже, это темная комната для Фотоклуба.[n][w][e]
+##-[s]> It seems to be the dark room for[n]the Photography Club.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Фотоклуб - добро пожаловать новым членам![n]Представь себя здесь!"[n][w][e]
+##-[s]> There's a note that says,[n]"Photography Club - new members[n]welcome! Picture yourself here!"[n][w][e]-##
+[s]> Хотели бы вы присоединиться?[n][w][e]
+##-[s]> Would you like to join?[n][w][e]-##
+
+[msg SCR_MSG_ANSITU_KENGAKU]
+[s]> Похоже, это темная комната для Фотоклуба.[n][w][e]
+##-[s]> It seems to be the dark room for[n]the Photography Club.[n][w][e]-##
+[s]> Не хотели бы вы понаблюдать за клубом?[n][w][e]
+##-[s]> Would you like to observe the club?[n][w][e]-##
+
+[msg SCR_MSG_ANSITU_NYUUBU_NG]
+[s]> Похоже, это темная комната для Фотоклуба.[n][w][e]
+##-[s]> It seems to be the dark room for[n]the Photography Club.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Извините, но Фотоклуб больше не принимает[n]новых членов".[n][w][e]
+##-[s]> There's a note that says, "Sorry,[n]but the Photography Club is no longer[n]accepting new members."[n][w][e]-##
+
+[msg SCR_MSG_BUNKABU_02 [ ]]
+[s]> Хотели бы вы принять участие[n][f 5 3 1]?[n][w][e]
+##-[s]> Would you like to attend[n][f 5 3 1]?[n][w][e]-##
+
+[sel BUNKABU_COMMU_SEL top]
+[s]Посещать [f 5 3 1][e]
+##-[s]Attend [f 5 3 1][e]-##
+[s]Проверьте рейтинг социальных ссылок[e]
+##-[s]Check Social Link rank[e]-##
+[s]Ничего не делать[e]
+##-[s]Do nothing[e]-##
+
+[msg SCR_MSG_BUNKABU_SURU]
+[s][f 5 13 0 10 0]> Вы решили провести некоторое время после[n]школы в [f 5 3 1] Клуб.[n][w][e]
+##-[s][f 5 13 0 10 0]> You have decided to spend some time[n]after school at [f 5 3 1] Club.[n][w][e]-##
+
+[msg SCR_MSG_BUNKABU_NG [ ]]
+[s]> Там есть записка, в которой говорится:[n]"Встречи:[n][clr 2]Вт[clr 0], [clr 2]Жениться[clr 0], [clr 2]Чт[clr 0]."[n][w][e]
+##-[s]> There's a note that says, "Meetings:[n][clr 2]Tues[clr 0], [clr 2]Wed[clr 0], [clr 2]Thur[clr 0]."[n][w][e]-##
+
+[msg SCR_MSG_KANGEN_HAIRU]
+[s]> Это музыкальная комната.[n][w][e]
+##-[s]> It's the music room.[n][w][e]-##
+
+[msg SCR_MSG_KANGEN_1ST]
+[s]> Похоже, это комната, где собирается[n]Музыкальный клуб.[n][w][e]
+##-[s]> It seems to be the room where the[n]Music Club meets.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Музыкальный клуб - приветствую новых[n]участников! Классическая музыка - наша[n]сильная сторона!"[n][w][e]
+##-[s]> There's a note that says,[n]"Music Club - new members welcome![n]Classical music is our forte!"[n][w][e]-##
+[s]> Хотели бы вы присоединиться?[n][w][e]
+##-[s]> Would you like to join?[n][w][e]-##
+
+[msg SCR_MSG_KANGEN_KENGAKU]
+[s]> Похоже, это комната, где собирается[n]Музыкальный клуб.[n][w][e]
+##-[s]> It seems to be the room where the[n]Music Club meets.[n][w][e]-##
+[s]> Не хотели бы вы понаблюдать за клубом?[n][w][e]
+##-[s]> Would you like to observe the club?[n][w][e]-##
+
+[msg SCR_MSG_KANGEN_NYUUBU_NG]
+[s]> Похоже, это комната, где собирается[n]Музыкальный клуб.[n][w][e]
+##-[s]> It seems to be the room where the[n]Music Club meets.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Извините, но Музыкальный клуб больше не[n]принимает новых участников".[n][w][e]
+##-[s]> There's a note that says, "Sorry,[n]but the Music Club is no longer[n]accepting new members."[n][w][e]-##
+
+[msg SCR_MSG_BIJUTU_HAIRU]
+[s]> Это художественная комната.[n][w][e]
+##-[s]> It's the art room.[n][w][e]-##
+
+[msg SCR_MSG_BIJITU_1ST]
+[s]> Похоже, это комната, где собирается[n]Художественный клуб.[n][w][e]
+##-[s]> It seems to be the room where the[n]Art Club meets.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Арт-клуб - добро пожаловать новым членам![n]Раскрасьте мир красками!"[n][w][e]
+##-[s]> There's a note that says,[n]"Art Club - new members welcome![n]Paint the world with color!"[n][w][e]-##
+[s]> Хотели бы вы присоединиться?[n][w][e]
+##-[s]> Would you like to join?[n][w][e]-##
+
+[msg SCR_MSG_BIJUTU_KENGAKU]
+[s]> Похоже, это комната, где собирается[n]Художественный клуб.[n][w][e]
+##-[s]> It seems to be the room where the[n]Art Club meets.[n][w][e]-##
+[s]> Не хотели бы вы понаблюдать за клубом?[n][w][e]
+##-[s]> Would you like to observe the club?[n][w][e]-##
+
+[msg SCR_MSG_BIJUTU_NYUUBU_NG]
+[s]> Похоже, это комната, где собирается[n]Художественный клуб.[n][w][e]
+##-[s]> It seems to be the room where the[n]Art Club meets.[n][w][e]-##
+[s]> Там есть записка, в которой говорится:[n]"Извините, но Художественный клуб больше не[n]принимает новых членов".[n][w][e]
+##-[s]> There's a note that says, "Sorry,[n]but the Art Club is no longer[n]accepting new members."[n][w][e]-##
+
+[msg SCR_MSG_SHOKUIN_NG [ ]]
+[s]> Это офис факультета.[n][w][e]
+##-[s]> It's the Faculty Office.[n][w][e]-##
+[s]> Было бы неразумно входить без веской[n]причины.[n][w][e]
+##-[s]> It wouldn't be wise to enter without[n]a good reason.[n][w][e]-##
+
+[msg SCR_MSG_MARCH_NETCOMMU [ ]]
+[s]> Это офис факультета.[n][w][e]
+##-[s]> It's the Faculty Office.[n][w][e]-##
+[s]> ...Вы можете услышать голос мисс Ториуми[n]изнутри.[n][w][e]
+##-[s]> ...You can hear Ms. Toriumi's[n]voice from within.[n][w][e]-##
+[s]> Зайти внутрь?[n][w][e]
+##-[s]> Go inside?[n][w][e]-##
+
+[sel MARCH_NETCOMMU_SEL top]
+[s]Входить[e]
+##-[s]Enter[e]-##
+[s]Не входи[e]
+##-[s]Don't enter[e]-##
+
+[msg SCR_MSG_TOSHOSITU_HAIRU]
+[s]> Это библиотека.[n][w][e]
+##-[s]> It's the library.[n][w][e]-##
+
+[msg SCR_MSG_TOSHOSITU_HAIRU0]
+[s]> Вы хотели бы учиться здесь?[n][w][e]
+##-[s]> Would you like to study here?[n][w][e]-##
+
+[sel TOSHO_JISHUU_SEL top]
+[s]Учись, прежде чем идти домой[e]
+##-[s]Study before going home[e]-##
+[s]Не берите в голову[e]
+##-[s]Never mind[e]-##
+
+[msg PARAM_MAX_NG]
+[s]> Ваши ученые уже высоко оценены.[n][w][e]
+##-[s]> Your Academics are already ranked[n]highly.[n][w][e]-##
+
+[msg MARCH_TOSHO_MAX]
+[s]> Вы помните, как вы с Саори работали[n]вместе в качестве членов библиотечного[n]комитета здесь...[n][w][e]
+##-[s]> You remember how you and Saori worked[n]together as members of the library[n]committee here...[n][w][e]-##
+
+[msg MARCH_TOSHO_MAX_AFTER]
+[s]> Больше нет необходимости приходить[n]сюда...[n][w][e]
+##-[s]> There is no need to come here[n]anymore...[n][w][e]-##
+
+[msg TOSHO_COMMU_01]
+[s]> Члены библиотечного комитета встречаются[n]сегодня.[n][w][e]
+##-[s]> The library committee members meet[n]today.[n][w][e]-##
+
+[msg TOSHO_COMMU_02 [ ]]
+[s]> Должны ли вы выполнять свои обязанности в[n]качестве члена библиотечного комитета...?[n][w][e]
+##-[s]> Should you perform your duties as a[n]member of the library committee...?[n][w][e]-##
+
+[sel TOSHO_COMMU_SEL top]
+[s]Выполнять обязанности библиотечного[n]комитета[e]
+##-[s]Perform library committee duties[e]-##
+[s]Проверьте рейтинг социальных ссылок[e]
+##-[s]Check Social Link rank[e]-##
+[s]Не берите в голову[e]
+##-[s]Never mind[e]-##
+
+[msg TOSHO_COMMU_SURU]
+[s][f 5 13 0 10 0]> Вы решили помочь библиотечному комитету[n]сегодня после школы.[n][w][e]
+##-[s][f 5 13 0 10 0]> You decided to help the library[n]committee after school today.[n][w][e]-##
+
+[msg SCR_MSG_HOKEN [ ]]
+[s]> Это кабинет медсестры.[n][w][e]
+##-[s]> It's the nurse's office.[n][w][e]-##
+
+[msg SCR_MSG_HOKEN_NG [ ]]
+[s]> Вы уже приняли свое лекарство сегодня.[n][w][e]
+##-[s]> You've already taken your medicine[n]today.[n][w][e]-##
+
+[msg SCR_MSG_HOKEN_HOSHU_NG [ ]]
+[s]> У тебя уже был урок на сегодня...[n][w][e]
+##-[s]> You've already had your lesson[n]for today...[n][w][e]-##
+
+[msg SCR_MSG_HOKEN_HOSHU [ ]]
+[s]> Хотя вы чувствуете себя хорошо, вы могли[n]бы взять несколько уроков здоровья.[n][w][e]
+##-[s]> Though you're feeling fine,[n]you might be able to take some[n]health lessons.[n][w][e]-##
+
+[sel HOKEN_HOSHU_SEL top]
+[s]Иди на урок[e]
+##-[s]Go in for a lesson[e]-##
+[s]Заходите без всякой причины[e]
+##-[s]Go in for no reason[e]-##
+[s]Ничего не делать[e]
+##-[s]Do nothing[e]-##
+
+[msg MARCH_HOKEN_MAX]
+[s]> Вы помните, как вы с Саори работали[n]вместе в качестве членов здешнего школьного[n]комитета по охране здоровья...[n][w][e]
+##-[s]> You remember how you and Saori worked[n]together as members of the school health[n]committee here...[n][w][e]-##
+
+[msg MARCH_HOKEN_MAX_AFTER]
+[s]> Больше нет необходимости приходить[n]сюда...[n][w][e]
+##-[s]> There is no need to come here[n]anymore...[n][w][e]-##
+
+[msg HOKEN_COMMU_01]
+[s]> Сегодня состоится заседание комитета по[n]здравоохранению.[n][w][e]
+##-[s]> The health committee meets today.[n][w][e]-##
+
+[msg HOKEN_COMMU_02 [ ]]
+[s]> Должны ли вы выполнять свои обязанности в[n]качестве члена комитета по[n]здравоохранению...?[n][w][e]
+##-[s]> Should you perform your duties as a[n]member of the health committee...?[n][w][e]-##
+
+[sel HOKEN_COMMU_SEL top]
+[s]Выполнять обязанности комитета по[n]здравоохранению[e]
+##-[s]Perform health committee duties[e]-##
+[s]Проверьте рейтинг социальных ссылок[e]
+##-[s]Check Social Link rank[e]-##
+[s]Не берите в голову[e]
+##-[s]Never mind[e]-##
+
+[msg HOKEN_COMMU_SURU]
+[s][f 5 13 0 10 0]> Вы решили помочь комитету по[n]здравоохранению сегодня после школы.[n][w][e]
+##-[s][f 5 13 0 10 0]> You decided to help the health[n]committee after school today.[n][w][e]-##
+
+[msg HOKEN_HIROU]
+[s]> Ты сегодня неважно себя чувствуешь.[n][w][e]
+##-[s]> You aren't feeling well today.[n][w][e]-##
+
+[msg shortcut_test]
+[s]В настоящее время вы находитесь в районе[n][f 2 4 0].[n][w][e]
+##-[s]You are currently in area[n][f 2 4 0].[n][w][e]-##
+

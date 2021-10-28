@@ -1,0 +1,378 @@
+[sel BATTLE_OK top]
+[s]Открой дверь[e]
+##-[s]Open the door[e]-##
+[s]Не открывай дверь[e]
+##-[s]Don't open the door[e]-##
+
+[sel YESNO_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[msg MARGARET_FIRST [Margaret]]
+[s]> Здесь много дверей...[n][f 1 4][e]
+##-[s]> There are many doors...[n][f 1 4][e]-##
+[s]> ......?[n][f 1 4][e]
+##-[s]> ......?[n][f 1 4][e]-##
+[s]> Там кто-то стоит...[n][f 1 4][e]
+##-[s]> Someone is standing there...[n][f 1 4][e]-##
+[s][f 1 5]Таинственная Женщина[n][bup 75 161 0 0]Хорошо, что ты пришел. Я Маргарет. [n][w][e]
+##-[s][f 1 5]Mysterious Woman[n][bup 75 161 0 0]It was good of you to come.[n]I am Margaret. [n][w][e]-##
+[s][f 1 5]Маргарет[n]Я тот, кто правит властью...  Это описание[n]поможет вам понять?[n][w][e]
+##-[s][f 1 5]Margaret[n]I am one who rules over power... [n]Will that description help you[n]understand?[n][w][e]-##
+[s]Я много слышал о тебе. Я подумал, что[n]пришло время увидеть тебя своими глазами.[n][w][e]
+##-[s]I've heard a lot about you. I thought[n]it was time I saw you with my own eyes.[n][w][e]-##
+[s]Это Зал Поиска Видения. Это[n][clr 2]мир внутри тебя[clr 0] это я приготовил.[n][w][e]
+##-[s]This is the Vision Quest Hall. It's a[n][clr 2]world inside of you[clr 0] that I have prepared.[n][w][e]-##
+
+[sel MARGARET_FIRST_SEL top]
+[s]"Мир внутри меня...?"[e]
+##-[s]"A world within me...?"[e]-##
+[s]"Что ты имеешь в виду?"[e]
+##-[s]"What do you mean?"[e]-##
+
+[msg MARGARET_FIRST_02 [Margaret]]
+[s][bup 75 161 0 0]Я подготовил для вас здесь различные[n]конкурсы, [clr 2]каждый в соответствии с вашими[n]воспоминаниями[clr 0].[n][w][e]
+##-[s][bup 75 161 0 0]I have prepared various contests for[n]you here, [clr 2]each one in accordance with[n]your memories[clr 0].[n][w][e]-##
+[s]Ты помнишь гигантские Тени, с которыми ты[n]сражался до сих пор?[n][w][e]
+##-[s]Do you remember the giant Shadows you've[n]fought so far?[n][w][e]-##
+[s]Здесь вы сможете снова сразиться с ними,[n]как и в первый раз...[n][w][e]
+##-[s]Here, you will be able to fight them[n]again, just as you did the first time...[n][w][e]-##
+
+[sel MARGARET_FIRST_03_SEL top]
+[s]"Точно так же, как тогда?"[e]
+##-[s]"Just like then?"[e]-##
+[s]"Что ты имеешь в виду?"[e]
+##-[s]"What do you mean?"[e]-##
+
+[msg MARGARET_FIRST_04 [Margaret]]
+[s][bup 75 161 0 0]...Я только что сказал тебе. Они были[n]сделаны из твоих воспоминаний.[n][w][e]
+##-[s][bup 75 161 0 0]...I just told you. These were made[n]from your memories.[n][w][e]-##
+[s]Я думаю, вы поймете быстрее, если откроете[n]первую дверь, а не будете стоять здесь и[n]задавать вопросы.[n][w][e]
+##-[s]I think you'll understand faster if you[n]open the first door rather than stand[n]here asking questions.[n][w][e]-##
+
+[sel MARGARET_FIRST_05_SEL top]
+[s]"...Хорошо".[e]
+##-[s]"...Okay."[e]-##
+[s]"Зачем ты это сделал?"[e]
+##-[s]"Why did you do this?"[e]-##
+
+[msg MARGARET_FIRST_06 [Margaret]]
+[s][bup 75 161 0 0]Думай об этом как о моем вызове тебе.[n][w][e]
+##-[s][bup 75 161 0 0]Think of it as my challenge to you.[n][w][e]-##
+[s]У вас есть свобода выбора, отвечать или нет[n]на "вопросы", поставленные здесь.[n][w][e]
+##-[s]You have the freedom to choose whether[n]or not you answer the "questions"[n]posed here.[n][w][e]-##
+[s]Некоторые из них довольно сложны... Я не[n]буду думать о тебе хуже из-за того, что ты[n]отступил.[n][w][e]
+##-[s]Some are quite difficult... I won't[n]think less of you for retreating.[n][w][e]-##
+[s]А теперь открой двери по своей собственной[n]воле.[n][w][e]
+##-[s]Now, open the doors of your own will.[n][w][e]-##
+[s]И после того, как вы найдете ответ на[n]каждый вопрос... Но это было бы[n]красноречиво.[n][w][e]
+##-[s]And after you find an answer to each[n]question... But that would be telling.[n][w][e]-##
+
+[msg MARGARET_FIRST_HELP]
+[s]В этом зале много тестов, подготовленных[n]Маргарет. На все "вопросы" вы получите[n]ответы, победив врага.[n][w][e]
+##-[s]In this hall are many tests prepared by[n]Margaret. All "questions" will be[n]answered by defeating the enemy.[n][w][e]-##
+[s]Как только вы ответите на вопрос, вы можете[n]потребовать вознаграждение. Что ждет,[n]победив их всех...? Приготовьтесь![n][w][e]
+##-[s]Once you answer a question, you may[n]claim a reward. What awaits by defeating[n]all of them...? Prepare yourself![n][w][e]-##
+
+[msg MARGARET_LAST_DOOR [Margaret]]
+[s][bup 75 161 0 0]Я так долго этого ждал...[n][w][e]
+##-[s][bup 75 161 0 0]I've been waiting for this...[n][w][e]-##
+[s]Ты человек, достойный меня.[n][w][e]
+##-[s]You are a human worthy of me.[n][w][e]-##
+[s]А теперь пойдем. Давай немного[n]повеселимся...[n][w][e]
+##-[s]Now, come. Let's have some fun...[n][w][e]-##
+[s][f 4 7 0 0 0]> Появилась последняя дверь...[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> The last door appeared...[n][f 1 4][e]-##
+
+[msg MARGARET_WIN [Margaret]]
+[s][bup 75 161 0 0]......[n][w][e]
+##-[s][bup 75 161 0 0]......[n][w][e]-##
+[s]Спасибо...[n][w][e]
+##-[s]Thank you...[n][w][e]-##
+[s]Мне уже очень, очень давно не было так[n]весело. Ты сделала меня счастливой[n]женщиной.[n][w][e]
+##-[s]I haven't had that much fun in a long,[n]long time. You've made me a happy woman.[n][w][e]-##
+[s]Я дам тебе это, чтобы символизировать, как[n]соприкоснулись наши силы. [n][w][e]
+##-[s]I'll give you this, to symbolize how[n]both of our powers touched. [n][w][e]-##
+[s][f 4 7 0 0 0]> Получено [f 4 4 3 0 1624].[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Received [f 4 4 3 0 1624].[n][f 1 4][e]-##
+[s][bup 75 161 0 0]Мне пора идти, но я оставлю Зал Поиска[n]Видений открытым.[n][w][e]
+##-[s][bup 75 161 0 0]I must go now, but I'll leave the[n]Vision Quest Hall open.[n][w][e]-##
+[s]Я продолжу наблюдать за вашими битвами из[n]другого места...[n][w][e]
+##-[s]I'll continue to watch your battles[n]from elsewhere...[n][w][e]-##
+[s]Оставаться сильным... [f 4 2].[n][w][e]
+##-[s]Stay strong... [f 4 2].[n][w][e]-##
+
+[msg DOOR_OPEN]
+[s]> Открыть дверь?[n][w][e]
+##-[s]> Open the door?[n][w][e]-##
+
+[msg WHATS_DOOR]
+[s]> Для чего эта дверь?..[n][w][e]
+##-[s]> What is this door for...?[n][w][e]-##
+
+[msg DOOR_REOPEN]
+[s]> Вы уже выиграли битву за этой дверью.[n][w][e]
+##-[s]> You have already won the battle[n]behind this door.[n][w][e]-##
+[s]> Снова открыть дверь?[n][w][e]
+##-[s]> Open the door again?[n][w][e]-##
+
+[msg NOT_SATISFY_ORDER]
+[s]> Вы не выполнили условия, поэтому дверь не[n]откроется...[n][w][e]
+##-[s]> You have not fulfilled the conditions,[n]so the door will not open...[n][w][e]-##
+
+[msg DOOR_PRIESTESS_HELP]
+[s]Зал гигантской Тени, "II: Жрица"[n][w][e]
+##-[s]Hall of the giant Shadow,[n]"II: Priestess"[n][w][e]-##
+[s]Условия вечеринки:  [f 4 3][n] Дзюнпэй Иори Юкари Такэба [n][w][e]
+##-[s]Party conditions:[n] [f 4 3][n] Junpei Iori[n] Yukari Takeba [n][w][e]-##
+
+[msg DOOR_PRIESTESS]
+[s]> Вы можете услышать что-то из-за двери с[n]нарисованной на ней маской Жрицы...[n][w][e]
+##-[s]> You can hear something from inside[n]the door with the Priestess mask[n]drawn on it...[n][w][e]-##
+
+[msg DOOR_EMPEROREMPRESS_HELP]
+[s]Зал гигантских теней, "III: Императрица" и[n]"IV: Император"[n][w][e]
+##-[s]Hall of the giant Shadows,[n]"III: Empress" and "IV: Emperor"[n][w][e]-##
+[s]Условия вечеринки:  [f 4 3][n] Дзюнпэй Иори Акихико Санада[n][w][e]
+##-[s]Party conditions:[n] [f 4 3][n] Junpei Iori[n] Akihiko Sanada[n][w][e]-##
+
+[msg DOOR_EMPEROREMPRESS]
+[s]> Вы можете услышать что-то из-за двери с[n]нарисованными на ней масками императрицы и[n]Императора...[n][w][e]
+##-[s]> You can hear something from inside[n]the door with the Empress and Emperor[n]masks drawn on it...[n][w][e]-##
+
+[msg DOOR_HIEROPHANT_HELP]
+[s]Зал гигантской Тени, "V: Иерофант"[n][w][e]
+##-[s]Hall of the giant Shadow,[n]"V: Hierophant"[n][w][e]-##
+[s]Условия вечеринки:   [f 4 3], Юкари Такеба и двое[n]других из Дзюнпей Иори, Акихико Санада и[n]Мицуру Киридзе.[n][w][e]
+##-[s]Party conditions: [n] [f 4 3], Yukari Takeba,[n] and two others from Junpei Iori,[n] Akihiko Sanada, and Mitsuru Kirijo.[n][w][e]-##
+
+[msg DOOR_HIEROPHANT]
+[s]> Вы можете услышать что-то из-за двери с[n]нарисованной на ней маской Иерофанта...[n][w][e]
+##-[s]> You can hear something from inside[n]the door with the Hierophant mask[n]drawn on it...[n][w][e]-##
+
+[msg DOOR_LOVERS_HELP]
+[s]Зал гигантской Тени, "VI: Влюбленные"[n][w][e]
+##-[s]Hall of the giant Shadow,[n]"VI: Lovers"[n][w][e]-##
+[s]Условия вечеринки:   [f 4 3], Юкари Такеба и двое[n]других из Дзюнпей Иори, Акихико Санада и[n]Мицуру Киридзе.[n][w][e]
+##-[s]Party conditions: [n] [f 4 3], Yukari Takeba,[n] and two others from Junpei Iori,[n] Akihiko Sanada, and Mitsuru Kirijo.[n][w][e]-##
+
+[msg DOOR_LOVERS]
+[s]> Вы можете услышать что-то из-за двери с[n]нарисованной на ней маской влюбленных...[n][w][e]
+##-[s]> You can hear something from inside[n]the door with the Lovers mask[n]drawn on it...[n][w][e]-##
+
+[msg DOOR_CHARIOTJUSTICE_HELP]
+[s]Зал гигантских теней, "VII: Колесница" и[n]"VIII: Правосудие"[n][w][e]
+##-[s]Hall of the giant Shadows,[n]"VII: Chariot" and "VIII: Justice"[n][w][e]-##
+[s]Условия вечеринки:   [f 4 3] и трое из следующих:[n]Юкари Такеба, Дзюнпэй Иори, Мицуру Киридзе,[n]Акихико Санада и Айгис.[n][w][e]
+##-[s]Party conditions: [n] [f 4 3] and three of the[n] following: Yukari Takeba, Junpei Iori,[n] Mitsuru Kirijo, Akihiko Sanada,[n] and Aigis.[n][w][e]-##
+
+[msg DOOR_CHARIOTJUSTICE]
+[s]> Вы можете услышать что-то из-за двери с[n]нарисованными на ней Колесницей и масками[n]Правосудия...[n][w][e]
+##-[s]> You can hear something from inside[n]the door with the Chariot and Justice[n]masks drawn on it...[n][w][e]-##
+
+[msg DOOR_HERMIT_HELP]
+[s]Зал гигантской Тени, "IX: Отшельник"[n][w][e]
+##-[s]Hall of the giant Shadow,[n]"IX: Hermit"[n][w][e]-##
+[s]Условия для членов партии:  Любые четверо,[n]кроме Дзюнпэя Иори.[n][w][e]
+##-[s]Party member conditions:[n] Any four other than Junpei Iori.[n][w][e]-##
+
+[msg DOOR_HERMIT_ATTENTION [Margaret]]
+[s][bup 75 161 0 0]Ах, эта дверь...[n][w][e]
+##-[s][bup 75 161 0 0]Ah, that door...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]За этой дверью вы найдете свои воспоминания[n]о том дне.[n][w][e]
+##-[s]Beyond that door, you'll find your[n]memories of that day.[n][w][e]-##
+[s]Скорее всего, вы встретите своего друга,[n]которого сейчас с вами нет...[n][w][e]
+##-[s]You'll likely encounter your friend,[n]who's not with you at present...[n][w][e]-##
+
+[msg DOOR_HERMIT]
+[s]> Вы можете услышать что-то из-за двери с[n]нарисованной на ней маской Отшельника...[n][w][e]
+##-[s]> You can hear something from inside[n]the door with the Hermit mask[n]drawn on it...[n][w][e]-##
+
+[msg DOOR_FORTUNESTRENGTH_HEL]
+[s]Зал гигантских теней, "X: Удача" и "XI:[n]Сила"[n][w][e]
+##-[s]Hall of the giant Shadows,[n]"X: Fortune" and "XI: Strength"[n][w][e]-##
+[s]Условия для членов партии:  Любые четверо,[n]кроме Синдзиро Арагаки и Кена Амады.[n][w][e]
+##-[s]Party member conditions:[n] Any four other than Shinjiro Aragaki[n] and Ken Amada.[n][w][e]-##
+
+[msg DOOR_FORTUNESTRENGTH]
+[s]> Вы можете услышать что-то из-за двери с[n]нарисованными на ней масками Удачи и[n]Силы...[n][w][e]
+##-[s]> You can hear something from inside[n]the door with the Fortune and Strength[n]masks drawn on it...[n][w][e]-##
+
+[msg DOOR_HANGEDMAN_HELP]
+[s]Зал гигантской тени, "XII: Повешенный"[n][w][e]
+##-[s]Hall of the giant Shadow,[n]"XII: Hanged Man"[n][w][e]-##
+[s]Условия вечеринки:   Любые четыре, кроме[n]Синдзиро Арагаки.[n][w][e]
+##-[s]Party conditions: [n] Any four excluding Shinjiro Aragaki.[n][w][e]-##
+
+[msg DOOR_HANGEDMAN]
+[s]> Вы можете услышать что-то из-за двери с[n]нарисованной на ней маской Повешенного...[n][w][e]
+##-[s]> You can hear something from inside[n]the door with the Hanged Man mask[n]drawn on it...[n][w][e]-##
+
+[msg DOOR_5PARA_POW]
+[s]> Вы можете услышать что-то из-за плотно[n]закрытой двери...[n][w][e]
+##-[s]> You can hear something from within[n]the tightly shut door...[n][w][e]-##
+
+[msg DOOR_5PARA_MAG]
+[s]> Вы можете услышать что-то из-за[n]величественной двери...[n][w][e]
+##-[s]> You can hear something from within[n]the stately door...[n][w][e]-##
+
+[msg DOOR_5PARA_VIT]
+[s]> Вы можете услышать что-то из-за толстой[n]двери...[n][w][e]
+##-[s]> You can hear something from within[n]the thick door...[n][w][e]-##
+
+[msg DOOR_5PARA_AGI]
+[s]> Вы можете услышать что-то из-за[n]полупрозрачной двери...[n][w][e]
+##-[s]> You can hear something from within[n]the translucent door...[n][w][e]-##
+
+[msg DOOR_5PARA_LUC]
+[s]> Вы можете услышать что-то из-за[n]непритязательной двери...[n][w][e]
+##-[s]> You can hear something from within[n]the unassuming door...[n][w][e]-##
+
+[msg DOOR_5PARA_POW_HELP]
+[s]Зал тематической битвы за власть.[n][w][e]
+##-[s]Hall of the themed battle of Power.[n][w][e]-##
+[s]Вы отправитесь в бой с скорректированной[n]вашей обычной статистикой. После битвы эти[n]характеристики вернутся в нормальное[n]состояние.  [n][w][e]
+##-[s]You will go into battle with your normal[n]stats adjusted. After the battle, these[n]stats will return to normal.[n] [n][w][e]-##
+
+[msg DOOR_5PARA_MAG_HELP]
+[s]Зал тематической битвы магии.[n][w][e]
+##-[s]Hall of the themed battle of Magic.[n][w][e]-##
+[s]Вы отправитесь в бой с скорректированной[n]вашей обычной статистикой. После битвы эти[n]характеристики вернутся в нормальное[n]состояние. Игра не закончится, если вы[n]проиграете.[n][w][e]
+##-[s]You will go into battle with your normal[n]stats adjusted. After the battle, these[n]stats will return to normal. The game[n]will not end if you lose.[n][w][e]-##
+
+[msg DOOR_5PARA_VIT_HELP]
+[s]Зал тематической битвы жизненных сил.[n][w][e]
+##-[s]Hall of the themed battle of Vitality.[n][w][e]-##
+[s]Вы отправитесь в бой с скорректированной[n]вашей обычной статистикой. После битвы эти[n]характеристики вернутся в нормальное[n]состояние. Игра не закончится, если вы[n]проиграете.[n][w][e]
+##-[s]You will go into battle with your normal[n]stats adjusted. After the battle, these[n]stats will return to normal. The game[n]will not end if you lose.[n][w][e]-##
+
+[msg DOOR_5PARA_AGI_HELP]
+[s]Зал тематической битвы на скорость.[n][w][e]
+##-[s]Hall of the themed battle of Speed.[n][w][e]-##
+[s]Вы отправитесь в бой с скорректированной[n]вашей обычной статистикой. После битвы эти[n]характеристики вернутся в нормальное[n]состояние. Игра не закончится, если вы[n]проиграете.[n][w][e]
+##-[s]You will go into battle with your normal[n]stats adjusted. After the battle, these[n]stats will return to normal. The game[n]will not end if you lose.[n][w][e]-##
+
+[msg DOOR_5PARA_LUC_HELP]
+[s]Зал тематической битвы удачи.[n][w][e]
+##-[s]Hall of the themed battle of Luck.[n][w][e]-##
+[s]Вы отправитесь в бой с скорректированной[n]вашей обычной статистикой. После битвы эти[n]характеристики вернутся в нормальное[n]состояние. Игра не закончится, если вы[n]проиграете.[n][w][e]
+##-[s]You will go into battle with your normal[n]stats adjusted. After the battle, these[n]stats will return to normal. The game[n]will not end if you lose.[n][w][e]-##
+
+[msg EX_ITEM_MSG]
+[s]> Получено [f 2 5 3 65535 0] x[f 2 4 1].[n][w][e]
+##-[s]> Obtained [f 2 5 3 65535 0] x[f 2 4 1].[n][w][e]-##
+
+[msg PARTY_FORM_FULL]
+[s]> Ваша вечеринка переполнена.[n][w][e]
+##-[s]> Your party is full.[n][w][e]-##
+
+[msg PARTY_FORM_WHATS]
+[s]> Что ты будешь делать?[n][w][e]
+##-[s]> What will you do?[n][w][e]-##
+
+[sel PARTY_FORM_SEL top]
+[s]Разбирать партию[e]
+##-[s]Disassemble party[e]-##
+[s]Участники биржи[e]
+##-[s]Exchange members[e]-##
+[s]Открытая дверь[e]
+##-[s]Open door[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel PARA_DOOR_SEL top]
+[s]Открытая дверь[e]
+##-[s]Open door[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel PARTY_FORM_MEMBERSEL top]
+[s]Добавить Дзюнпей Иори[e]
+##-[s]Add Junpei Iori[e]-##
+[s]Вычтите Дзюнпей Иори[e]
+##-[s]Subtract Junpei Iori[e]-##
+[s]Добавить Юкари Такебу[e]
+##-[s]Add Yukari Takeba[e]-##
+[s]Вычтите Юкари Такебу[e]
+##-[s]Subtract Yukari Takeba[e]-##
+[s]Добавить Акихико Санаду[e]
+##-[s]Add Akihiko Sanada[e]-##
+[s]Вычтите Акихико Санаду[e]
+##-[s]Subtract Akihiko Sanada[e]-##
+[s]Добавить Мицуру Киридзе[e]
+##-[s]Add Mitsuru Kirijo[e]-##
+[s]Вычтите Мицуру Киридзе[e]
+##-[s]Subtract Mitsuru Kirijo[e]-##
+[s]Добавить Aigis [e]
+##-[s]Add Aigis [e]-##
+[s]Вычтите Aigis[e]
+##-[s]Subtract Aigis[e]-##
+[s]Добавить Кена Амаду[e]
+##-[s]Add Ken Amada[e]-##
+[s]Вычтите Кена Амаду[e]
+##-[s]Subtract Ken Amada[e]-##
+[s]Добавить Синдзиро Арагаки [e]
+##-[s]Add Shinjiro Aragaki [e]-##
+[s]Вычтите Синдзиро Арагаки[e]
+##-[s]Subtract Shinjiro Aragaki[e]-##
+[s]Добавить Коромару [e]
+##-[s]Add Koromaru [e]-##
+[s]Вычесть Коромару[e]
+##-[s]Subtract Koromaru[e]-##
+[s]Следующий[e]
+##-[s]Next[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg DEBUG_MODE_01]
+[s]> Что ты будешь делать?[n][w][e]
+##-[s]> What will you do?[n][w][e]-##
+
+[sel DEBUG_MODE_SEL_01 top]
+[s]Установить флаги[e]
+##-[s]Set flags[e]-##
+[s]Участники биржи[e]
+##-[s]Exchange members[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel DEBUG_MODE_SEL_02 top]
+[s]Победа над Жрицей[e]
+##-[s]Win against Priestess[e]-##
+[s]Побеждайте всех и перезаряжайтесь[e]
+##-[s]Win against all and reload[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[sel DEBUG_MODE_SEL_03 top]
+[s]Вычтите все[e]
+##-[s]Subtract all[e]-##
+[s]Добавить Джунпей[e]
+##-[s]Add Junpei[e]-##
+[s]Добавить Юкари[e]
+##-[s]Add Yukari[e]-##
+[s]Добавить Акихико[e]
+##-[s]Add Akihiko[e]-##
+[s]Добавить Мицуру[e]
+##-[s]Add Mitsuru[e]-##
+[s]Добавить Aigis[e]
+##-[s]Add Aigis[e]-##
+[s]Добавить Амаду[e]
+##-[s]Add Amada[e]-##
+[s]Добавить Арагаки[e]
+##-[s]Add Aragaki[e]-##
+[s]Добавить Коромару[e]
+##-[s]Add Koromaru[e]-##
+[s]Следующий[e]
+##-[s]Next[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg DONOTUSE_MESSAGE]
+[s]Пйメッセージк謁гХ。 亥ёБГж。[n][w][e]
+##-[s]Пйメッセージк謁гХ。[n]亥わёБよГж。[n][w][e]-##
+

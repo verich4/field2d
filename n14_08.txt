@@ -1,0 +1,10 @@
+[msg MSG_1N_NPC000_01 [Male Student]]
+[s]Я не могу спать с подушкой, которая не[n]моя...[n][w][e]
+##-[s]I can't sleep with a pillow that[n]isn't mine...[n][w][e]-##
+
+[msg MSG_2N_NPC000_01 [Male Student]]
+[s]Я беспокоился о том, что не смогу заснуть,[n]но прошлой ночью я спал как убитый![n][w][e]
+##-[s]I was worried about not being able[n]to sleep, but I slept like a log[n]last night![n][w][e]-##
+[s]Это одна прекрасная гостиница! Их подушки[n]мирового класса![n][w][e]
+##-[s]This is one fine inn! Their[n]cushions are world-class![n][w][e]-##
+

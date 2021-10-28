@@ -1,0 +1,2314 @@
+[sel YESNO_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[msg SCR_MSG_PARAM_MIRYOKU1]
+[s]> Твое обаяние, кажется, возросло![n][w][e]
+##-[s]> Your Charm seems to have[n]increased![n][w][e]-##
+
+[msg SCR_MSG_PARAM_MIRYOKU2]
+[s]> Твое очарование ушло от"[f 2 4 0]"для"[f 2 4 1]"![n][w][e]
+##-[s]> Your Charm went from "[f 2 4 0]"[n]to "[f 2 4 1]"![n][w][e]-##
+
+[msg MSG_FST_NPC000_01 [Woman]]
+[s]Хмм... Я чувствую вокруг тебя странную[n]ауру...[n][w][e]
+##-[s]Hmm... I feel a strange aura[n]around you...[n][w][e]-##
+[s]В моем сознании я вижу видения... Прошлое,[n]настоящее и будущее людей...[n][w][e]
+##-[s]In my mind, I see visions...[n]People's past, present, and[n]future...[n][w][e]-##
+[s]Для большинства людей я вижу ясно и далеко[n]вперед...[n][w][e]
+##-[s]For most people, I see clearly,[n]and far ahead...[n][w][e]-##
+[s]Но ты другой... Ваше будущее наполнено как[n]ослепительным светом, так и застойной[n]тенью...[n][w][e]
+##-[s]But you are different... Your future[n]is filled with both blinding light[n]and stagnant shadow...[n][w][e]-##
+[s]Я вижу лишь небольшую часть... То, что[n]лежит за этим, окутано тайной...[n][w][e]
+##-[s]I can see but a small portion...[n]What lies beyond that is shrouded[n]in mystery...[n][w][e]-##
+[s]Какая странная судьба у тебя...[n][w][e]
+##-[s]What a peculiar fate you carry...[n][w][e]-##
+[s]Итак, молодой человек... Носитель света и[n]тени...[n][w][e]
+##-[s]Now, young man... Bearer of[n]light and shadow...[n][w][e]-##
+[s]Если вы хотите узнать больше о ближайшем[n]будущем... приходите и поговорите со[n]мной...[n][w][e]
+##-[s]If you wish to know more about[n]the near future... come and talk[n]to me...[n][w][e]-##
+[s]Я поделюсь с вами своими ограниченными[n]видениями...[n][w][e]
+##-[s]I will share my limited visions[n]with you...[n][w][e]-##
+[s]А теперь расскажи мне... Хотели бы вы[n]узнать свою судьбу?[n][w][e]
+##-[s]Now, tell me... Would you like to[n]know your fortune?[n][w][e]-##
+
+[msg MSG_FST_NPC000_01_G [Woman]]
+[s]Хмм... Я чувствую вокруг тебя странную[n]ауру...[n][w][e]
+##-[s]Hmm... I feel a strange aura[n]around you...[n][w][e]-##
+[s]В моем сознании я вижу видения... Прошлое,[n]настоящее и будущее людей...[n][w][e]
+##-[s]In my mind, I see visions...[n]People's past, present, and[n]future...[n][w][e]-##
+[s]Для большинства людей я вижу ясно и далеко[n]вперед...[n][w][e]
+##-[s]For most people, I see clearly,[n]and far ahead...[n][w][e]-##
+[s]Но ты другой... Ваше будущее наполнено как[n]ослепительным светом, так и застойной[n]тенью...[n][w][e]
+##-[s]But you are different... Your future[n]is filled with both blinding light[n]and stagnant shadow...[n][w][e]-##
+[s]Я вижу лишь небольшую часть... То, что[n]лежит за этим, окутано тайной...[n][w][e]
+##-[s]I can see but a small portion...[n]What lies beyond that is shrouded[n]in mystery...[n][w][e]-##
+[s]Какая странная судьба у тебя...[n][w][e]
+##-[s]What a peculiar fate you carry...[n][w][e]-##
+[s]Итак, юная леди... Носитель света и тени...[n][w][e]
+##-[s]Now, young lady... Bearer of[n]light and shadow...[n][w][e]-##
+[s]Если вы хотите узнать больше о ближайшем[n]будущем... приходите и поговорите со[n]мной...[n][w][e]
+##-[s]If you wish to know more about[n]the near future... come and talk[n]to me...[n][w][e]-##
+[s]Я поделюсь с вами своими ограниченными[n]видениями...[n][w][e]
+##-[s]I will share my limited visions[n]with you...[n][w][e]-##
+[s]А теперь расскажи мне... Хотели бы вы[n]узнать свою судьбу?[n][w][e]
+##-[s]Now, tell me... Would you like to[n]know your fortune?[n][w][e]-##
+
+[msg MSG_2ND_NPC000_01 [Woman]]
+[s]Хотели бы вы узнать свою судьбу?[n][w][e]
+##-[s]Would you like to know your fortune?[n][w][e]-##
+
+[sel MSG_SEL_NPC000_01 top]
+[s]"Да, пожалуйста".[e]
+##-[s]"Yes, please."[e]-##
+[s]"Нет, спасибо".[e]
+##-[s]"No thanks."[e]-##
+
+[sel MSG_SEL_NPC000_01_G top]
+[s]"Да, пожалуйста!"[e]
+##-[s]"Yes, please!"[e]-##
+[s]"Нет, спасибо..."[e]
+##-[s]"No thank you..."[e]-##
+
+[msg MSG_YES_NPC000_01 [Woman]]
+[s]Очень хорошо...[n][w][e]
+##-[s]Very well...[n][w][e]-##
+
+[msg MSG_YES_NPC000_02 [Woman]]
+[s]Тогда прощай... Пусть ваше будущее будет[n]светлым...[n][w][e]
+##-[s]Farewell, then... May your future[n]be bright...[n][w][e]-##
+
+[msg MSG_NO_NPC000_01 [Woman]]
+[s]Возвращайся в любое время...[n][w][e]
+##-[s]Come back any time...[n][w][e]-##
+
+[msg MSG_5A_NPC000_01 [Woman]]
+[s]Вы нажали на спусковой крючок судьбы...[n][w][e]
+##-[s]You have pulled fate's trigger...[n][w][e]-##
+[s]Пуля проходит сквозь многих, направляясь[n]прямо к своей цели...[n][w][e]
+##-[s]The bullet passes through many,[n]heading directly to its target...[n][w][e]-##
+[s]Однако какая это может быть цель, мне[n]неизвестно...[n][w][e]
+##-[s]What target that may be, however,[n]is unknown to me...[n][w][e]-##
+[s]Вы должны выяснить это сами...[n][w][e]
+##-[s]You must find that out for[n]yourself...[n][w][e]-##
+
+[msg MSG_5B_NPC000_01 [Woman]]
+[s]Длинный рельс под пустым небом... На нем[n]стоит молодежь в смятении...[n][w][e]
+##-[s]A long rail under the empty sky...[n]On it stands youth in disarray...[n][w][e]-##
+[s]Вы, кажется, живете бурной жизнью...[n][w][e]
+##-[s]You seem to live a tumultuous life...[n][w][e]-##
+[s]Что вы видите в конце рельса...?[n][w][e]
+##-[s]What do you see at the end of[n]the rail...?[n][w][e]-##
+
+[msg MSG_6A_NPC000_01 [Woman]]
+[s]Я чувствую еще одну перемену...[n][w][e]
+##-[s]I feel another change...[n][w][e]-##
+[s]Сильный ветер дует по всему миру, поднимая[n]в воздух лепестки голубого цветка...[n][w][e]
+##-[s]A strong wind blows across the[n]world, sending a blue flower's[n]petals into the air...[n][w][e]-##
+[s]Как вы истолкуете этот ветер...?[n][w][e]
+##-[s]How will you interpret this[n]wind...?[n][w][e]-##
+[s]Как слабый и слабый ветерок, или храбрый и[n]могучий порыв...?[n][w][e]
+##-[s]As a weak and frail breeze, or[n]a brave and mighty gust...?[n][w][e]-##
+
+[msg MSG_6B_NPC000_01 [Woman]]
+[s]Похоже, у тебя появился еще один друг...[n][w][e]
+##-[s]It seems you have made another[n]friend...[n][w][e]-##
+[s]Ночной роман, невидимый для всех... Связь,[n]заключенная во тьме, где прячутся тени...[n][w][e]
+##-[s]A late-night affair, unseen by[n]all... A bond made in the darkness,[n]where the shadows lurk...[n][w][e]-##
+[s]Результат этой связи слишком далек, чтобы[n]его можно было увидеть...[n][w][e]
+##-[s]The result of this bond is too[n]distant to be seen...[n][w][e]-##
+[s]Единственный способ узнать, чем это[n]закончится, - это увидеть все своими[n]глазами...[n][w][e]
+##-[s]The only way to know how it will[n]end is to see for yourself...[n][w][e]-##
+
+[msg MSG_7A_NPC000_01 [Woman]]
+[s]Тени внутри теней... Множество теней ползет[n]среди огромной тени...[n][w][e]
+##-[s]Shadows within shadows... Many[n]shadows crawl amidst the immense[n]shadow...[n][w][e]-##
+[s]Двенадцать теней, пирующих в сердце[n]человека... Чудовищный, но достойный...[n][w][e]
+##-[s]Twelve shadows, feasting upon the[n]heart of man... Monstrous, yet[n]dignified...[n][w][e]-##
+[s]Они собираются вокруг тебя...[n]Остерегаться...[n][w][e]
+##-[s]They gather around you... Beware...[n][w][e]-##
+
+[msg MSG_7B_NPC000_01 [Woman]]
+[s]Пистолеты, разбросанные в колышущейся[n]тени... Руки тянутся, чтобы схватить их...[n][w][e]
+##-[s]Guns scattered in the billowing[n]shadow... Arms reach in to grasp[n]them...[n][w][e]-##
+[s]Их дула были направлены на разные тени; их[n]спусковые крючки нажимались в разных[n]случаях...[n][w][e]
+##-[s]Their muzzles pointed at different[n]shadows; their triggers pulled on[n]different occasions...[n][w][e]-##
+[s]Куда ты направляешь свой пистолет? Что[n]произойдет в результате его стрельбы...?[n][w][e]
+##-[s]Where do you point your gun?[n]What will occur as a result of[n]its firing...?[n][w][e]-##
+[s]Можете ли вы собрать все оружие, которое[n]было разбросано...?[n][w][e]
+##-[s]Can you collect all the guns that[n]have been scattered...?[n][w][e]-##
+
+[msg MSG_8A_NPC000_01 [Woman]]
+[s]Я вижу девушку...[n][w][e]
+##-[s]I see a girl...[n][w][e]-##
+[s]Она стоит между светом и тьмой, жизнью и[n]симулякром...[n][w][e]
+##-[s]She stands between light and dark,[n]life and simulacrum...[n][w][e]-##
+[s]Она колеблется... Как будто не зная, на[n]чьей она стороне...[n][w][e]
+##-[s]She falters... As if not knowing[n]on which side she belongs...[n][w][e]-##
+[s]Хм...? Она пытается тебе что-то сказать...[n][w][e]
+##-[s]Hm...? She is trying to tell you[n]something...[n][w][e]-##
+[s]Ты слышишь ее слова...?[n][w][e]
+##-[s]Can you hear her words...?[n][w][e]-##
+
+[msg MSG_8B_NPC000_01 [Woman]]
+[s]Три клинка приближаются к тебе, разрывая[n]тень на части... Храбрый вой противостоит[n]им...[n][w][e]
+##-[s]Three blades close in on you,[n]tearing the shadow apart...[n]A brave howl confronts them...[n][w][e]-##
+[s]Кажется, что вокруг тебя снова что-то[n]шевелится...[n][w][e]
+##-[s]Things seem to be stirring around[n]you once again...[n][w][e]-##
+[s]Есть еще кое-что...[n][w][e]
+##-[s]There is more...[n][w][e]-##
+[s]В глубине бездны другой клинок пристально[n]наблюдает за тобой...[n][w][e]
+##-[s]In the depths of the abyss, another[n]blade watches you closely...[n][w][e]-##
+
+[msg MSG_9A_NPC000_01 [Woman]]
+[s]Темное прошлое, погружающееся в глубокую[n]тень...[n][w][e]
+##-[s]A dark past, sinking into the[n]deep shadow...[n][w][e]-##
+[s]Она охватывает вовлеченных людей и[n]захватывает их...[n][w][e]
+##-[s]It enfolds the people who are[n]involved, and captures them...[n][w][e]-##
+[s]Кто те, кто попал в ловушку...?[n][w][e]
+##-[s]Who are the ones that are[n]trapped...?[n][w][e]-##
+[s]Как бы я ни старался их разглядеть, мое[n]зрение затуманивается, и все становится[n]неясным...[n][w][e]
+##-[s]Hard though I try to see them,[n]my vision blurs, and everything[n]becomes obscure...[n][w][e]-##
+[s]Ты видишь...?[n][w][e]
+##-[s]Can you see...?[n][w][e]-##
+
+[msg MSG_9B_NPC000_01 [Woman]]
+[s]За окном расстилается золотое небо...[n]Девушка, держащая белый мир в своих тонких[n]руках...[n][w][e]
+##-[s]The golden sky spreads outside the[n]window... A girl, holding a world[n]of white in her slender arms...[n][w][e]-##
+[s]Мальчик борется, пытаясь найти смысл в себе[n]и в девочке...[n][w][e]
+##-[s]A boy struggles, searching to find[n]meaning in himself and the girl...[n][w][e]-##
+[s]Но заключение еще не написано... Это[n]доверено девушке и ее белому миру...[n][w][e]
+##-[s]But the conclusion has not yet been[n]written... It is entrusted to the[n]girl and her white world...[n][w][e]-##
+[s]Вы должны твердо стоять на ногах и[n]наблюдать за развитием событий...[n][w][e]
+##-[s]You must stand firmly, and watch[n]things unfold...[n][w][e]-##
+
+[msg MSG_10A_NPC000_01 [Woman]]
+[s]После бури наступает не затишье, а[n]очередное испытание...[n][w][e]
+##-[s]After the storm comes not calm,[n]but another trial...[n][w][e]-##
+[s]Однако не отчаивайтесь...[n][w][e]
+##-[s]Do not despair, however...[n][w][e]-##
+[s]Я чувствую сильные силы на вашей стороне,[n]даже больше, чем раньше...[n][w][e]
+##-[s]I sense strong forces at your side,[n]even more so than before...[n][w][e]-##
+[s]Будьте смелы и противостоите этим[n]трудностям с непоколебимой решимостью...[n][w][e]
+##-[s]Be brave, and confront this hardship[n]with unshakeable resolve...[n][w][e]-##
+
+[msg MSG_10B_NPC000_01 [Woman]]
+[s]Свет исчез... Тень становится темнее...[n][w][e]
+##-[s]A light has disappeared...[n]The shadow grows darker...[n][w][e]-##
+[s]Но воля утраченного света продолжает жить в[n]сильном, новом свете...[n][w][e]
+##-[s]But the lost light's will lives on[n]in a strong, new light...[n][w][e]-##
+[s]Вы достигли поворотного момента... Свет[n]начал бросать вызов тени...[n][w][e]
+##-[s]You have reached a turning point...[n]The light has begun to challenge[n]the shadow...[n][w][e]-##
+[s]Твое время придет... скоро...[n][w][e]
+##-[s]Your time is coming... soon...[n][w][e]-##
+
+[msg MSG_10B_NPC000_01_G [Woman]]
+[s]Свет тускнеет... Тень становится темнее...[n][w][e]
+##-[s]A light dims... The shadow grows[n]darker...[n][w][e]-##
+[s]Но приглушенный свет будет жить в сильном,[n]новом свете...[n][w][e]
+##-[s]But the dimmed light will live on in[n]a strong, new light...[n][w][e]-##
+[s]Вы достигли поворотного момента... Свет[n]начал бросать вызов тени...[n][w][e]
+##-[s]You have reached a turning point...[n]The light has begun to challenge[n]the shadow...[n][w][e]-##
+[s]Твое время придет... скоро...[n][w][e]
+##-[s]Your time is coming... soon...[n][w][e]-##
+
+[msg MSG_11A_NPC000_01 [Woman]]
+[s]Сильный ветер дует по всему миру, поднимая[n]в воздух лепестки голубого цветка...[n][w][e]
+##-[s]A strong wind blows across the[n]world, sending a blue flower's[n]petals into the air...[n][w][e]-##
+[s]Цветок открыл для себя мир, завел друзей,[n]которых нужно защищать, и стал другим[n]светом...[n][w][e]
+##-[s]The flower discovered the world,[n]made friends to protect, and has[n]become another light...[n][w][e]-##
+[s]Огни собираются вокруг тебя... Будьте[n]готовы...[n][w][e]
+##-[s]The lights are gathering around[n]you... Be prepared...[n][w][e]-##
+
+[msg MSG_11S_NPC000_01 [Woman]]
+[s]Мост, освещенный полной луной... Песни[n]победы эхом разносятся в воздухе, когда[n]тень побеждена...[n][w][e]
+##-[s]A bridge lit by the full moon...[n]Songs of victory echo in the air,[n]as the shadow is overcome...[n][w][e]-##
+[s]Иди... Сейчас самое время для[n]празднования...[n][w][e]
+##-[s]Go... Now is the time for[n]celebration...[n][w][e]-##
+
+[msg MSG_11B_NPC000_01 [Woman]]
+[s]Под толстым полумесяцем луны... Слабый свет[n]в полой башне...[n][w][e]
+##-[s]Under the fat crescent moon...[n]A feeble light at the hollow[n]tower...[n][w][e]-##
+[s]Раздается выстрел, разбивающий мое зрение[n]на тысячу осколков...[n][w][e]
+##-[s]A gunshot rings out, shattering[n]my vision into a thousand pieces...[n][w][e]-##
+[s]Я прошу прощения... Я больше ничего не[n]вижу...[n][w][e]
+##-[s]I am sorry... I can see[n]no further...[n][w][e]-##
+[s]Но я могу сказать вот что... Тень все еще[n]остается...[n][w][e]
+##-[s]But I can say this... The shadow[n]yet remains...[n][w][e]-##
+
+[msg MSG_11R_NPC000_01 [Woman]]
+[s]О...? Это новый друг?..[n][w][e]
+##-[s]Oh...? Is this a new friend...?[n][w][e]-##
+[s]Как загадочно... Никто не может заглянуть в[n]его сущность...[n][w][e]
+##-[s]How mystifying... No one can see[n]into his essence...[n][w][e]-##
+[s]Никого, кроме одной девушки...[n][w][e]
+##-[s]No one, save for one girl...[n][w][e]-##
+
+[msg MSG_12A_NPC000_01 [Woman]]
+[s]Ответ и секрет жизни передаются от одной[n]жизни к другой...[n][w][e]
+##-[s]The answer and the secret to life[n]are passed on, one life to the[n]next...[n][w][e]-##
+[s]Теперь два огонька пробиваются сквозь[n]тень...[n][w][e]
+##-[s]Two lights now pierce through[n]the shadow...[n][w][e]-##
+[s]Час приближается... Как у тебя дела?..[n][w][e]
+##-[s]The hour draws near...[n]How do you fare...?[n][w][e]-##
+
+[msg MSG_12B_NPC000_01 [Woman]]
+[s]Девушка падает под полной луной... Мальчик[n]идет среди теней; и сам мальчик - тень...[n][w][e]
+##-[s]A girl falls under the full moon...[n]A boy walks amidst shadow; and the[n]boy himself is shadow...[n][w][e]-##
+[s]Ребенок, который носит в себе тени...[n][w][e]
+##-[s]A child who bears shadows within...[n][w][e]-##
+[s]Огромная тень приближается... Его глубина[n]непостижима; его протяженность[n]безгранична...[n][w][e]
+##-[s]The immense shadow approaches...[n]Its depth unfathomable; its extent[n]without limit...[n][w][e]-##
+[s]Это приходит, чтобы положить конец всему...[n]Тьма, скрытая сияющими небесами...[n][w][e]
+##-[s]It comes to end all things...[n]The darkness hidden by the[n]shining heavens...[n][w][e]-##
+[s]Как вы будете противостоять такой[n]судьбе...?[n][w][e]
+##-[s]How will you stand against such[n]a fate...?[n][w][e]-##
+
+[msg MSG_1A_NPC000_01 [Woman]]
+[s]Вы нажали на спусковой крючок судьбы...[n][w][e]
+##-[s]You have pulled the trigger[n]of fate...[n][w][e]-##
+[s]Теперь я это вижу... Целью была тень[n]надвигающейся гибели...[n][w][e]
+##-[s]I see it now... The target was the[n]shadow of impending doom...[n][w][e]-##
+[s]Теперь ваша цель ясна...[n][w][e]
+##-[s]Your goal is now clear...[n][w][e]-##
+[s]Поддерживайте свое пламя жизни в огне до[n]конца...[n][w][e]
+##-[s]Keep your flame of life ablaze[n]until the end...[n][w][e]-##
+
+[msg MSG_1B_NPC000_01 [Woman]]
+[s]Я ничего не вижу...[n][w][e]
+##-[s]I see nothing...[n][w][e]-##
+[s]Нет... То, что я вижу, - это ничто... Это[n]пустота...[n][w][e]
+##-[s]No... What I see is nothingness...[n]It is the void...[n][w][e]-##
+[s]Но не падайте духом... Пустота - это не[n]обязательно конец...[n][w][e]
+##-[s]But do not lose heart...[n]Emptiness is not necessarily[n]the end...[n][w][e]-##
+[s]Пустота бесконечна... Как и вселенная...[n][w][e]
+##-[s]The void is infinite... As is the[n]universe...[n][w][e]-##
+[s]Знаменует ли это конец всего сущего или[n]начало...[n][w][e]
+##-[s]Whether this marks an end to all[n]things, or a beginning...[n][w][e]-##
+[s]Все в ваших руках...[n][w][e]
+##-[s]It is in your hands...[n][w][e]-##
+
+[msg MSG_3A_NPC000_01 [Woman]]
+[s]Хмм... Я ничего в тебе не вижу...[n][w][e]
+##-[s]Hmm... I see nothing in you...[n][w][e]-##
+[s]Похоже, тебе больше не нужно предсказывать[n]судьбу...[n][w][e]
+##-[s]It seems you no longer need your[n]fortune told...[n][w][e]-##
+[s]Все потенциалы находятся внутри вас... Вы[n]можете пойти куда угодно, стать кем[n]угодно...[n][w][e]
+##-[s]All potentials are within you...[n]You can go anywhere, become[n]anything...[n][w][e]-##
+[s]Вселенная находится внутри вас... И вы[n]находитесь внутри вселенной...[n][w][e]
+##-[s]The universe is within you...[n]And you are within the universe...[n][w][e]-##
+[s]Вы и вселенная - одно и то же... Таково мое[n]убеждение...[n][w][e]
+##-[s]You and the universe are one and[n]the same... That is my belief...[n][w][e]-##
+
+[msg MSG_3A_NPC000_02 [Woman]]
+[s]Тень вот-вот окутает тебя...[n][w][e]
+##-[s]The shadow is about to enfold you...[n][w][e]-##
+[s]Но не бойтесь... Это спокойный сон...[n][w][e]
+##-[s]But do not be afraid...[n]It is a tranquil sleep...[n][w][e]-##
+[s]Холодный и суровый, но в то же время теплый[n]и добрый... Спокойный сон без сновидений...[n][w][e]
+##-[s]Cold and stern, yet warm and kind...[n]A quiet, dreamless sleep...[n][w][e]-##
+[s]Закройте глаза и расслабьтесь...[n][w][e]
+##-[s]Close your eyes, and be at ease...[n][w][e]-##
+
+[msg MSG_5A_NPC001_01 [Woman]]
+[s]Вы верите в предсказания судьбы?[n][w][e]
+##-[s]Do you believe in fortune-telling?[n][w][e]-##
+
+[sel MSG_5A_NPC001_01_SEL top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+[s]"..."[e]
+##-[s]"..."[e]-##
+
+[sel MSG_5A_NPC001_01_SEL_G top]
+[s]"Да!"[e]
+##-[s]"Yeah!"[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+[s]"...Я не уверен".[e]
+##-[s]"...I'm not sure."[e]-##
+
+[msg MSG_5A_NPC001_02 [Woman]]
+[s]Так ты тоже так думаешь?[n][w][e]
+##-[s]So you do too?[n][w][e]-##
+[s]Я не хочу сказать, что это сбывается все[n]время, но иногда...[n][w][e]
+##-[s]I don't mean to say it comes true[n]all the time, but sometimes...[n][w][e]-##
+
+[msg MSG_5A_NPC001_03 [Woman]]
+[s]Хмм...[n][w][e]
+##-[s]Hmm...[n][w][e]-##
+
+[msg MSG_5A_NPC001_04 [Woman]]
+[s]Тебе следует отнестись к этому более[n]серьезно.[n][w][e]
+##-[s]You should take it more seriously.[n][w][e]-##
+[s]Я не хочу сказать, что это сбывается все[n]время, но иногда...[n][w][e]
+##-[s]I don't mean to say it comes true[n]all the time, but sometimes...[n][w][e]-##
+
+[msg MSG_5B_NPC001_01 [Woman]]
+[s]Да, именно так. В этом клубе есть гадалка.[n][w][e]
+##-[s]Yeah, that's right. There's[n]a fortune-teller in this club.[n][w][e]-##
+[s]Все называют ее "Ден Мама" или "Мама",[n]но...[n][w][e]
+##-[s]Everyone calls her "Den Mother"[n]or "Mama," but...[n][w][e]-##
+[s]Я слышал, что если она предсказывает тебе[n]судьбу, второго мнения не дождешься. То,[n]что она тебе скажет, сбудется.[n][w][e]
+##-[s]I heard if she tells your fortune,[n]there's no getting a second opinion.[n]What she tells you will come true.[n][w][e]-##
+[s]Почему бы тебе не навестить ее?[n][w][e]
+##-[s]Why don't you visit her?[n][w][e]-##
+
+[msg MSG_6A_NPC001_01 [Woman]]
+[s]Ты знаешь эту гадалку? Ту, которую они[n]называют "Ден Мама" или "Мама"?[n][w][e]
+##-[s]You know that fortune-teller?[n]The one they call "Den Mother"[n]or "Mama"?[n][w][e]-##
+[s]У нее очень странное присутствие... Как[n]будто она в другом мире.[n][w][e]
+##-[s]She's got a very weird presence...[n]It's like she's in another world.[n][w][e]-##
+[s]Я хочу, чтобы она предсказала мне судьбу,[n]но у меня не хватает смелости поговорить с[n]ней...[n][w][e]
+##-[s]I want her to tell my fortune, but[n]I don't have the courage to talk[n]to her...[n][w][e]-##
+
+[msg MSG_6B_NPC001_01 [Woman]]
+[s]Я попросила маму предсказать мне судьбу, но[n]то, что они говорят, правда... Ее судьба не[n]такая, как у других.[n][w][e]
+##-[s]I had Mama tell my fortune, but[n]it's true what they say... Her[n]fortunes aren't like the others.[n][w][e]-##
+[s]Все, что выходило у нее изо рта, было таким[n]абстрактным...[n][w][e]
+##-[s]Everything that came out of her[n]mouth was so abstract...[n][w][e]-##
+[s]Она никогда не говорила ничего вроде "Будь[n]осторожен с этим" или "Это принесет удачу".[n][w][e]
+##-[s]She never said anything like,[n]"Be careful of this," or "This[n]will bring good fortune."[n][w][e]-##
+
+[msg MSG_7A_NPC001_01 [Woman]]
+[s]На самом деле у меня нет друзей... Но я[n]пытаюсь что-то сделать.[n][w][e]
+##-[s]I don't really have any friends...[n]But I'm trying to make some.[n][w][e]-##
+[s]Поэтому я спросила маму, как мне[n]познакомиться с большим количеством людей.[n][w][e]
+##-[s]So I asked Mama how I could meet[n]more people.[n][w][e]-##
+[s]Ее ответ все еще был довольно абстрактным,[n]но, по крайней мере, это был ответ![n][w][e]
+##-[s]Her answer was still pretty[n]abstract, but at least it was[n]an answer![n][w][e]-##
+[s]Я попробую сделать это в следующий раз.[n][w][e]
+##-[s]I'll try doing it next time.[n][w][e]-##
+
+[msg MSG_7B_NPC001_01 [Woman]]
+[s]Эй, послушай это![n][w][e]
+##-[s]Hey, listen to this![n][w][e]-##
+[s]Я сделала то, что сказала мне мама, и у[n]меня появился настоящий друг![n][w][e]
+##-[s]I did what Mama told me, and[n]I made a real friend![n][w][e]-##
+[s]Это так здорово![n][w][e]
+##-[s]This is so great![n][w][e]-##
+[s]Может быть, мне следует предсказать судьбу[n]в следующий раз, когда я попаду в беду...[n][w][e]
+##-[s]Maybe I should have my fortune[n]told next time I'm in trouble...[n][w][e]-##
+
+[msg MSG_8A_NPC001_01 [Woman]]
+[s]Я потеряла кольцо в своей комнате, и другая[n]гадалка не смогла его найти.[n][w][e]
+##-[s]I lost a ring in my room, and[n]the other fortune-teller couldn't[n]find it.[n][w][e]-##
+[s]Но когда я спросила маму, она с первой[n]попытки сказала мне, где это было![n][w][e]
+##-[s]But when I asked Mama, she told[n]me where it was on the first try![n][w][e]-##
+[s]Это похоже на сон...[n][w][e]
+##-[s]It's like a dream...[n][w][e]-##
+
+[msg MSG_8B_NPC001_01 [Woman]]
+[s]Я видела этот наряд в отделе одежды,[n]который выпускается в двух цветах.[n][w][e]
+##-[s]I saw this outfit at the clothing[n]department that comes in two colors.[n][w][e]-##
+[s]Они оба выглядели великолепно...[n][w][e]
+##-[s]They both looked great...[n][w][e]-##
+[s]Но я знаю, что цвета могут повлиять на вашу[n]удачу, поэтому я не мог решить.[n][w][e]
+##-[s]But I know that colors can affect[n]your luck, so I couldn't decide.[n][w][e]-##
+[s]Я здесь, чтобы спросить маму, какой цвет[n]мне следует купить.[n][w][e]
+##-[s]I'm here to ask Mama which color[n]I should buy.[n][w][e]-##
+
+[msg MSG_9A_NPC001_01 [Woman]]
+[s]Тот друг, которого я встретила после того,[n]как мама предсказала мне судьбу... Кажется,[n]я не могу приблизиться к ней.[n][w][e]
+##-[s]That friend I met after Mama told[n]my fortune... I can't seem to get[n]closer to her.[n][w][e]-##
+[s]Я не понимаю. Может быть, мне стоит[n]спросить ее еще раз...[n][w][e]
+##-[s]I don't understand. Maybe I should[n]ask her again...[n][w][e]-##
+
+[msg MSG_9B_NPC001_01 [Woman]]
+[s]Ух ты, мамино гадание - это здорово![n][w][e]
+##-[s]Whoa, Mama's fortune-telling[n]is great![n][w][e]-##
+[s]Я сделал только то, что мне сказала мама. Я[n]узнал кое-что новое о своем друге...[n][w][e]
+##-[s]I did just what Mama told me to.[n]I found out something new about[n]my friend...[n][w][e]-##
+[s]И теперь мы ближе, чем когда-либо![n][w][e]
+##-[s]And now, we're closer than ever![n][w][e]-##
+[s]Невероятный... Я действительно уважаю эту[n]женщину.[n][w][e]
+##-[s]Incredible... I really look up to[n]that woman.[n][w][e]-##
+
+[msg MSG_10A_NPC001_01 [Woman]]
+[s]Я думаю, что в эти дни я слишком сильно[n]завишу от мамы.[n][w][e]
+##-[s]I think I'm depending on Mama too[n]much these days.[n][w][e]-##
+[s]Есть и другие люди, которые хотят, чтобы им[n]предсказали судьбу. Я не могу оставить ее[n]всю себе.[n][w][e]
+##-[s]There are other people who want to[n]have their fortunes told. I can't[n]hog her all to myself.[n][w][e]-##
+[s]Думаю, пока я буду придерживаться тех[n]состояний, которые вы получаете от[n]телевидения и журналов...[n][w][e]
+##-[s]I guess for now, I'll stick with[n]the fortunes you get from TV and[n]magazines...[n][w][e]-##
+[s]Но это никогда не сбывается.[n][w][e]
+##-[s]Those never come true, though.[n][w][e]-##
+
+[msg MSG_10B_NPC001_01 [Woman]]
+[s]Она слишком сильно волнуется...[n][w][e]
+##-[s]She worries too much...[n][w][e]-##
+[s]Я просто интересуюсь гаданием, вот и все.[n]Почему она должна так себя вести?[n][w][e]
+##-[s]I'm just interested in fortune-[n]telling, that's all. Why does[n]she have to act like that?[n][w][e]-##
+[s]Я просто пытаюсь заработать как можно[n]больше состояний...[n][w][e]
+##-[s]I'm just trying to get as many[n]fortunes as possible...[n][w][e]-##
+[s]Это просто разумное ежедневное[n]планирование, понимаешь?[n][w][e]
+##-[s]It's just sound daily planning,[n]you know?[n][w][e]-##
+
+[msg MSG_11A_NPC001_01 [Woman]]
+[s]Мой друг стал жертвой этого Синдрома[n]Апатии.[n][w][e]
+##-[s]My friend fell victim to that[n]Apathy Syndrome.[n][w][e]-##
+[s]Я спросила маму, не может ли она мне[n]помочь.[n][w][e]
+##-[s]I asked Mama if she could help me.[n][w][e]-##
+[s]Она сказала, что не может "видеть" ее,[n]поэтому сейчас ничего не может сделать...[n][w][e]
+##-[s]She said she can't "see" her, so[n]she can't do anything now...[n][w][e]-##
+
+[msg MSG_11B_NPC001_01 [Woman]]
+[s]На днях я вышел поесть, но забыл заранее[n]проверить свое состояние.[n][w][e]
+##-[s]I went out to eat the other day,[n]but I forgot to check my fortune[n]beforehand.[n][w][e]-##
+[s]Поэтому я не мог решить, что заказать. Я[n]начал потеть...[n][w][e]
+##-[s]So I couldn't decide what to order.[n]I started to sweat...[n][w][e]-##
+[s]Хорошо, что у них был журнал с колонкой[n]гаданий.[n][w][e]
+##-[s]Good thing they had a magazine[n]with a fortune-telling column.[n][w][e]-##
+
+[msg MSG_12A_NPC001_01 [Woman]]
+[s]Помнишь, я рассказывал тебе, как забыл[n]проверить свое состояние и начал потеть?[n][w][e]
+##-[s]Remember when I told you how[n]I forgot to check my fortune,[n]and started to sweat?[n][w][e]-##
+[s]Теперь я проверяю свою судьбу первым делом[n]утром, после того как проснусь.[n][w][e]
+##-[s]Now I check my fortune first thing[n]in the morning, after I wake up.[n][w][e]-##
+[s]Если я забуду это проверить... Я не могу[n]прожить целый день, не вспотев.[n][w][e]
+##-[s]If I forget to check it...[n]I can't get through the day[n]without sweating.[n][w][e]-##
+
+[msg MSG_12B_NPC001_01 [Woman]]
+[s]Теперь я полностью подсела на гадание.[n][w][e]
+##-[s]I'm totally hooked on fortune-[n]telling now.[n][w][e]-##
+[s]Я не могу задать маме каждый вопрос,[n]поэтому я смотрю телевизор и читаю журналы,[n]но...[n][w][e]
+##-[s]I can't bring every single question[n]to Mama, so I watch TV and read[n]magazines, but...[n][w][e]-##
+[s]Все, что я ношу, и все, что я ем, я решаю с[n]помощью своей судьбы.[n][w][e]
+##-[s]Everything I wear, and everything[n]I eat, I decide with my fortune.[n][w][e]-##
+[s]Все, что мне нужно сделать, это получить[n]как можно больше состояний![n][w][e]
+##-[s]All I have to do is get as many[n]fortunes as possible![n][w][e]-##
+
+[msg MSG_1A_NPC001_01 [Woman]]
+[s]Город становится странным... Но если ты[n]останешься здесь, с тобой все будет в[n]порядке.[n][w][e]
+##-[s]The town is becoming strange...[n]But if you stay here, you'll be[n]fine.[n][w][e]-##
+[s]Просто послушай, что говорит мама, и ничего[n]плохого не случится.[n][w][e]
+##-[s]Just listen to what Mama says, and[n]nothing bad can happen.[n][w][e]-##
+
+[msg MSG_SISSOUC_NPC001_01 [Woman]]
+[s]Город становится странным... Но если ты[n]останешься здесь, ты будешь[n][w][e]
+##-[s]The town is becoming strange...[n]But if you stay here, you'll be[n][w][e]-##
+[s]Просто послушай, что говорит мама, и ничего[n]плохого не случится.[n][w][e]
+##-[s]Just listen to what Mama says, and[n]nothing bad can happen.[n][w][e]-##
+
+[msg MSG_1B_NPC001_01 [Woman]]
+[s]- сказала мама...[n][w][e]
+##-[s]Mama said...[n][w][e]-##
+[s]Я потерял себя. Я стал просто марионеткой,[n]которая подчиняется приказам гадалок.[n][w][e]
+##-[s]I've lost myself. I've become just[n]a puppet who obeys the orders of[n]fortune-tellers.[n][w][e]-##
+[s]Она сказала, что больше не может видеть мою[n]судьбу...[n][w][e]
+##-[s]She said she can't see my fortune[n]anymore...[n][w][e]-##
+[s]Я всегда думал, что обращать внимание на[n]свое состояние - это разумный способ[n]жить...[n][w][e]
+##-[s]I always thought that paying[n]attention to your fortune was[n]the smart way to live...[n][w][e]-##
+[s]Неужели я действительно стал марионеткой?[n][w][e]
+##-[s]Have I really become a puppet?[n][w][e]-##
+[s]Что я должен делать...?[n][w][e]
+##-[s]What am I supposed to do...?[n][w][e]-##
+
+[msg MSG_3A_NPC001_01 [Woman]]
+[s]Я сокращаю количество гаданий.[n][w][e]
+##-[s]I'm cutting down on the[n]fortune-telling.[n][w][e]-##
+[s]Я всегда позволял своей судьбе определять,[n]что я делаю, и я думал, что гадание так[n]важно, но...[n][w][e]
+##-[s]I've always let my fortune determine[n]what I do, and I thought fortune-[n]telling was so important, but...[n][w][e]-##
+[s]Я стараюсь больше не быть такой. С этого[n]момента я буду слышать о своей судьбе[n]только для развлечения.[n][w][e]
+##-[s]I'm trying not to be like that[n]anymore. From now on, I'll only[n]hear my fortunes for fun.[n][w][e]-##
+[s]Я думаю, что это лучший способ относиться к[n]этим гаданиям.[n][w][e]
+##-[s]I think that's the best way to[n]treat that fortune-telling stuff.[n][w][e]-##
+
+[msg MSG_SISSOU3A_NPC001_01 [Woman]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_5A_NPC002_01 [Woman]]
+[s]Я знаю эту девушку с тех пор, как мы вместе[n]учились в начальной школе. Она обожает[n]гадания.[n][w][e]
+##-[s]I've known that girl since we were[n]in elementary school together.[n]She loves fortune-telling stuff.[n][w][e]-##
+[s]Она обычно вытаскивала эти странные[n]предметы из своей сумки...[n][w][e]
+##-[s]She used to pull out these weird[n]props from her bag...[n][w][e]-##
+[s]Она утверждала, что это ее талисманы на[n]счастье. * вздох*[n][w][e]
+##-[s]She claimed they were her lucky[n]charms. *sigh*[n][w][e]-##
+
+[msg MSG_5B_NPC002_01 [Woman]]
+[s]Я не знал, что она была гадалкой.[n][w][e]
+##-[s]I didn't know she was[n]a fortune-teller.[n][w][e]-##
+[s]Я думаю, она действительно выглядит[n]странно, сидя там совсем одна...[n][w][e]
+##-[s]I guess she does look weird, sitting[n]there all by herself...[n][w][e]-##
+[s]Гадалка, да?..[n][w][e]
+##-[s]A fortune-teller, huh...?[n][w][e]-##
+
+[msg MSG_6A_NPC002_01 [Woman]]
+[s]Эта девушка была застенчивой всю свою[n]жизнь.[n][w][e]
+##-[s]This girl's been shy all her life.[n][w][e]-##
+[s]Хотя я думаю, что эта гадалка действительно[n]выглядит устрашающе...[n][w][e]
+##-[s]Though I guess that fortune-teller[n]does look scary...[n][w][e]-##
+[s]У нее странная аура.[n][w][e]
+##-[s]She's got a weird aura.[n][w][e]-##
+
+[msg MSG_6B_NPC002_01 [Woman]]
+[s]Ее судьба абстрактна, но она не пытается[n]сбить вас с толку.[n][w][e]
+##-[s]Her fortunes are abstract, but she's[n]not trying to confuse you.[n][w][e]-##
+[s]Вы должны интерпретировать их и решать, как[n]действовать дальше.[n][w][e]
+##-[s]You're meant to interpret them, and[n]decide how to act from there.[n][w][e]-##
+
+[msg MSG_7A_NPC002_01 [Woman]]
+[s]Ну, обычно встреча с новыми друзьями - это[n]то, что просто происходит.[n][w][e]
+##-[s]Well, normally, meeting new friends[n]is something that just happens.[n][w][e]-##
+[s]В этом случае, я думаю, вы могли бы[n]положиться на гадание, но...[n][w][e]
+##-[s]In this case, I guess you might[n]rely on fortune-telling, but...[n][w][e]-##
+[s]Это не в моем стиле.[n][w][e]
+##-[s]It's not my style.[n][w][e]-##
+[s]Я бы предпочел искать друзей[n]самостоятельно.[n][w][e]
+##-[s]I'd rather look for friends on[n]my own.[n][w][e]-##
+
+[msg MSG_7B_NPC002_01 [Woman]]
+[s]Удивительно! Ее предсказание сбылось...[n][w][e]
+##-[s]Amazing! Her fortune came true...[n][w][e]-##
+[s]Хотя она, кажется, очень увлечена этим[n]моментом...[n][w][e]
+##-[s]She seems pretty caught up in the[n]moment, though...[n][w][e]-##
+[s]С ней все будет в порядке?[n][w][e]
+##-[s]Is she going to be all right?[n][w][e]-##
+
+[msg MSG_8A_NPC002_01 [Woman]]
+[s]Удивительный...[n][w][e]
+##-[s]Amazing...[n][w][e]-##
+[s]У меня тоже есть несколько вещей, которые я[n]хотел бы найти. Может быть, мне следует[n]спросить ее...[n][w][e]
+##-[s]I've got a few things I'd like to[n]find too. Maybe I should ask her...[n][w][e]-##
+
+[msg MSG_8B_NPC002_01 [Woman]]
+[s]Я знаю, что есть такая вещь, как счастливые[n]цвета...[n][w][e]
+##-[s]I know there's such a thing as[n]lucky colors...[n][w][e]-##
+[s]Но мы ведь говорим об одежде, верно?[n][w][e]
+##-[s]But we're talking about clothes,[n]right?[n][w][e]-##
+[s]Я думаю, что это нормально - просто выбрать[n]одежду, которая тебе больше нравится...[n][w][e]
+##-[s]I think it's okay to just choose[n]the clothes you like best...[n][w][e]-##
+
+[msg MSG_9A_NPC002_01 [Woman]]
+[s]Я думаю, все, что ей нужно, чтобы[n]сблизиться со своей подругой, - это лучшее[n]понимание.[n][w][e]
+##-[s]I think all she needs to get[n]closer to her friend is a better[n]understanding.[n][w][e]-##
+[s]Она говорит, что прекрасно все понимает,[n]но...[n][w][e]
+##-[s]She says she understands fine,[n]but...[n][w][e]-##
+[s]Я не уверен...[n][w][e]
+##-[s]I'm not sure...[n][w][e]-##
+
+[msg MSG_9B_NPC002_01 [Woman]]
+[s]Что-то новое о ее подруге, а?..[n][w][e]
+##-[s]Something new about her friend,[n]huh...?[n][w][e]-##
+[s]Разве ты не должен сам находить подобные[n]вещи?[n][w][e]
+##-[s]Aren't you supposed to find stuff[n]like that out on your own?[n][w][e]-##
+[s]У меня действительно плохое предчувствие по[n]этому поводу.[n][w][e]
+##-[s]I have a really bad feeling[n]about this.[n][w][e]-##
+
+[msg MSG_10A_NPC002_01 [Woman]]
+[s]Она немного увлекается этими гаданиями...[n][w][e]
+##-[s]She's a little too into this[n]fortune-telling stuff...[n][w][e]-##
+[s]Я не думаю, что это хорошо для нее.[n][w][e]
+##-[s]I don't think it's good for her.[n][w][e]-##
+
+[sel MSG_10A_NPC002_01_SEL top]
+[s]"Ты должен остановить ее".[e]
+##-[s]"You should stop her."[e]-##
+[s]"Просто посмотри, что произойдет".[e]
+##-[s]"Just see what happens."[e]-##
+[s]"Оставь ее в покое".[e]
+##-[s]"Leave her alone."[e]-##
+
+[sel MSG_10A_NPC002_01_SEL_G top]
+[s]"Ты должен остановить ее".[e]
+##-[s]"You should stop her."[e]-##
+[s]"Просто посмотри, что произойдет".[e]
+##-[s]"Just see what happens."[e]-##
+[s]"Оставь ее в покое".[e]
+##-[s]"Leave her alone."[e]-##
+
+[msg MSG_10A_NPC002_02 [Woman]]
+[s]Да... Я должен встретиться с ней лицом к[n]лицу, а?[n][w][e]
+##-[s]Yeah... I should confront her, huh?[n][w][e]-##
+
+[msg MSG_10A_NPC002_03 [Woman]]
+[s]Хмм...[n][w][e]
+##-[s]Hmm...[n][w][e]-##
+[s]Нет... Я должен поговорить с ней.[n][w][e]
+##-[s]No... I should talk to her.[n][w][e]-##
+
+[msg MSG_10A_NPC002_04 [Woman]]
+[s]Я не могу этого сделать...[n][w][e]
+##-[s]I can't do that...[n][w][e]-##
+[s]Да... я должен поговорить с ней.[n][w][e]
+##-[s]Yeah... I should talk to her.[n][w][e]-##
+
+[msg MSG_10B_NPC002_01 [Woman]]
+[s]Я сказал ей, что она становится одержимой[n]гаданием, но она, похоже, меня не слушает.[n][w][e]
+##-[s]I told her she's getting obsessed[n]with fortune-telling, but she[n]doesn't seem to listen to me.[n][w][e]-##
+[s]Я не откажусь от нее.[n][w][e]
+##-[s]I won't give up on her.[n][w][e]-##
+[s]Я ее подруга... Ей нужна моя помощь,[n]особенно в такие моменты, как этот.[n][w][e]
+##-[s]I'm her friend... She needs my help,[n]especially at times like this.[n][w][e]-##
+
+[msg MSG_11A_NPC002_01 [Woman]]
+[s]Похоже, сейчас самое время воспользоваться[n]гаданием...[n][w][e]
+##-[s]Now does seem like the time to use[n]fortune-telling...[n][w][e]-##
+[s]Но мне интересно, что она пыталась сказать.[n][w][e]
+##-[s]But I wonder what she was trying[n]to say.[n][w][e]-##
+[s]"Свет пронзит тень... А до тех пор,[n]наберись терпения..."[n][w][e]
+##-[s]"Light will pierce the shadow...[n]Until then, have patience..."[n][w][e]-##
+
+[msg MSG_11B_NPC002_01 [Woman]]
+[s]Эта чушь о том, что она не может заказать[n]еду без своего состояния... Она просто[n]шутит, да?[n][w][e]
+##-[s]That stuff about not being able to[n]order food without her fortune...[n]She's just kidding, right?[n][w][e]-##
+[s]О боже мой... Это нехорошо.[n][w][e]
+##-[s]Oh my God... That's not good.[n][w][e]-##
+
+[msg MSG_12A_NPC002_01 [Woman]]
+[s]Она не может прожить и дня без своего[n]состояния...? Это граничит с зависимостью.[n][w][e]
+##-[s]She can't go through the day without[n]her fortune...? This is bordering on[n]addiction.[n][w][e]-##
+[s]Что мне делать? Может, мне стоит спросить[n]маму?..[n][w][e]
+##-[s]What should I do? Maybe I should[n]ask Mama...[n][w][e]-##
+[s]Подождите, не было бы странно получить[n]совет гадалки о том, как избавиться от[n]пристрастия к гаданию?[n][w][e]
+##-[s]Wait, wouldn't it be weird to get[n]a fortune-teller's advice on shaking[n]an addiction to fortune-telling?[n][w][e]-##
+[s]Теперь я действительно заблудился...[n][w][e]
+##-[s]Now I'm really lost...[n][w][e]-##
+
+[msg MSG_12B_NPC002_01 [Woman]]
+[s]Это просто неправильно...[n][w][e]
+##-[s]This is just wrong...[n][w][e]-##
+[s]Но я ничего не могу с этим поделать.[n][w][e]
+##-[s]But I can't do anything about it.[n][w][e]-##
+[s]Я не могу помешать ей делать то, что она[n]считает правильным.[n][w][e]
+##-[s]I can't stop her from doing what[n]she thinks is right.[n][w][e]-##
+
+[msg MSG_1A_NPC002_01 [Woman]]
+[s]Они говорят, что если ты действительно[n]веришь, то ничего не может пойти не так,[n]но...[n][w][e]
+##-[s]They say if you truly believe,[n]nothing can go wrong, but...[n][w][e]-##
+[s]Разве не так думают и эти сектанты?[n][w][e]
+##-[s]Isn't that the way those cultists[n]think, too?[n][w][e]-##
+[s]Я думаю, что лучше решать все самому, а не[n]полагаться на гадалок.[n][w][e]
+##-[s]I think it's better to decide[n]things for yourself, and not rely[n]on fortune-tellers.[n][w][e]-##
+
+[msg MSG_SISSOU_NPC002_01 [Woman]]
+[s]...Эта девушка исчезла. Ее тоже не было[n]дома...[n][w][e]
+##-[s]...That girl disappeared. She hasn't[n]been home either...[n][w][e]-##
+[s]Я должен был приложить больше усилий, чтобы[n]остановить ее...[n][w][e]
+##-[s]I should've tried harder to stop her...[n][w][e]-##
+
+[msg MSG_1B_NPC002_01 [Woman]]
+[s]Марионетка, которая слушается гадалок,[n]да?..[n][w][e]
+##-[s]A puppet who obeys fortune-tellers,[n]huh...?[n][w][e]-##
+[s]По-моему, это довольно точное описание.[n][w][e]
+##-[s]That sounds like a pretty accurate[n]description to me.[n][w][e]-##
+[s]Надеюсь, она скоро проснется...[n][w][e]
+##-[s]I hope she wakes up soon...[n][w][e]-##
+
+[msg MSG_SISSOUC_NPC002_01 [Woman]]
+[s]Марионетка, которая слушается гадалок,[n]да?..[n][w][e]
+##-[s]A puppet who obeys fortune-tellers,[n]huh...?[n][w][e]-##
+[s]По-моему, это довольно точное описание.[n][w][e]
+##-[s]That sounds like a pretty accurate[n]description to me.[n][w][e]-##
+[s]Надеюсь, она скоро проснется...[n][w][e]
+##-[s]I hope she wakes up soon...[n][w][e]-##
+
+[msg MSG_3A_NPC002_01 [Woman]]
+[s]Мы были такими с самого детства.[n][w][e]
+##-[s]We've been like this ever since[n]we were kids.[n][w][e]-##
+[s]Она вытаскивала что-нибудь странное и[n]утверждала, что это ее счастливый талисман.[n][w][e]
+##-[s]She'd pull out something weird and[n]claim it was her lucky charm.[n][w][e]-##
+[s]Я думаю, она думала, что сможет получить от[n]этих состояний больше, чем они на самом[n]деле могли предложить.[n][w][e]
+##-[s]I guess she thought she could get[n]more from those fortunes than they[n]really had to offer.[n][w][e]-##
+
+[msg MSG_SISSOU3A_NPC002_01 [Woman]]
+[s]...Теперь у меня нет другого выбора, кроме[n]как остаться рядом с ней...[n][w][e]
+##-[s]...I have no other choice but to stay[n]by her side now...[n][w][e]-##
+
+[msg MSG_5B_NPC003_01 [Man]]
+[s]Эй, как дела?[n][w][e]
+##-[s]Hey, how's it going?[n][w][e]-##
+
+[sel MSG_5B_NPC003_01_SEL top]
+[s]"Классный".[e]
+##-[s]"Groovy."[e]-##
+[s]"Не заводной".[e]
+##-[s]"Not groovy."[e]-##
+
+[sel MSG_5B_NPC003_01_SEL_G top]
+[s]"Потрясающе!"[e]
+##-[s]"Rockin'!"[e]-##
+[s]"Не так уж и здорово..."[e]
+##-[s]"Not that great..."[e]-##
+
+[msg MSG_5B_NPC003_02 [Man]]
+[s]Я понимаю... Я завидую тебе.[n][w][e]
+##-[s]I see... I envy you.[n][w][e]-##
+
+[msg MSG_5B_NPC003_03 [Man]]
+[s]Честно говоря, я тоже. Кажется, я никак не[n]могу войти в колею...[n][w][e]
+##-[s]To be honest, me too. I can't[n]seem to get into a groove...[n][w][e]-##
+[s]Я думал, что смогу, если приеду сюда, но,[n]наверное, нет...[n][w][e]
+##-[s]I thought I could if I came here,[n]but I guess not...[n][w][e]-##
+
+[msg MSG_6B_NPC003_01 [Man]]
+[s]Эй, как дела?[n][w][e]
+##-[s]Hey, how's it going?[n][w][e]-##
+
+[sel MSG_6B_NPC003_01_SEL top]
+[s]"Классный".[e]
+##-[s]"Groovy."[e]-##
+[s]"Не заводной".[e]
+##-[s]"Not groovy."[e]-##
+
+[sel MSG_6B_NPC003_01_SEL_G top]
+[s]"Потрясающе!"[e]
+##-[s]"Rockin'!"[e]-##
+[s]"Не так уж и здорово..."[e]
+##-[s]"Not that great..."[e]-##
+
+[msg MSG_6B_NPC003_02 [Man]]
+[s]Да... Ты должен быть крутым, чтобы прийти в[n]такое место, да?[n][w][e]
+##-[s]Yeah... You've gotta be groovy[n]to come to a place like this, huh?[n][w][e]-##
+
+[msg MSG_6B_NPC003_03 [Man]]
+[s]Я не настолько крут... Может быть, это[n]потому, что я обычно не прихожу сюда...[n][w][e]
+##-[s]I ain't that groovy... Maybe it's[n]because I don't usually come here...[n][w][e]-##
+
+[msg MSG_7B_NPC003_01 [Man]]
+[s]Эй, как дела?[n][w][e]
+##-[s]Hey, how's it going?[n][w][e]-##
+
+[sel MSG_7B_NPC003_01_SEL top]
+[s]"Классный".[e]
+##-[s]"Groovy."[e]-##
+[s]"Не заводной".[e]
+##-[s]"Not groovy."[e]-##
+
+[sel MSG_7B_NPC003_01_SEL_G top]
+[s]"Потрясающе!"[e]
+##-[s]"Rockin'!"[e]-##
+[s]"Не так уж и здорово..."[e]
+##-[s]"Not that great..."[e]-##
+
+[msg MSG_7B_NPC003_02 [Man]]
+[s]Уже почти лето... Я расстроен, потому что[n]не могу войти в ритм...[n][w][e]
+##-[s]It's almost summer... I'm bummed[n]out, 'cause I can't get into the[n]groove...[n][w][e]-##
+
+[msg MSG_7B_NPC003_03 [Man]]
+[s]Кажется, я никак не могу войти в колею. Это[n]отвратительно, чувак.[n][w][e]
+##-[s]I can't seem to get into the groove.[n]It's heinous, man.[n][w][e]-##
+[s]Может быть, у меня этот Синдром Апатии...[n][w][e]
+##-[s]Maybe I've got that Apathy Syndrome[n]thing...[n][w][e]-##
+
+[msg MSG_8B_NPC003_01 [Man]]
+[s]Я не могу... сделай... паз... паз... паз...[n][w][e]
+##-[s]I can't... get the... groove...[n]groove... groove...[n][w][e]-##
+[s]Я... не могу... петь... получить... гро...[n][w][e]
+##-[s]I... can't... groove...[n]get... gro...[n][w][e]-##
+[s]Тьфу... Ааа...[n][w][e]
+##-[s]Ugh...[n]Auhh...[n][w][e]-##
+
+[msg MSG_9B_NPC003_01 [Man]]
+[s]Какое-то время я вообще не мог думать. Я[n]понятия не имел, что делаю.[n][w][e]
+##-[s]I couldn't think at all, for[n]a while. I had no idea what[n]I was doing.[n][w][e]-##
+[s]Затем, внезапно, в начале месяца, я был[n]полностью исцелен. Понятия не имею, как.[n][w][e]
+##-[s]Then, all of a sudden, at the[n]beginning of the month, I was[n]totally healed. No idea how.[n][w][e]-##
+[s]Но я все равно не мог по-настоящему войти в[n]курс дела здесь...[n][w][e]
+##-[s]But I couldn't really get into the[n]groove here, anyway...[n][w][e]-##
+
+[msg MSG_10B_NPC003_01 [Man]]
+[s]Эй, как дела?[n][w][e]
+##-[s]Hey, how's it going?[n][w][e]-##
+
+[sel MSG_10B_NPC003_01_SEL top]
+[s]"Классный".[e]
+##-[s]"Groovy."[e]-##
+[s]"Не заводной".[e]
+##-[s]"Not groovy."[e]-##
+
+[sel MSG_10B_NPC003_01_SEL_G top]
+[s]"Потрясающе!"[e]
+##-[s]"Rockin'!"[e]-##
+[s]"Не так уж и здорово..."[e]
+##-[s]"Not that great..."[e]-##
+
+[msg MSG_10B_NPC003_02 [Man]]
+[s]Уже осень... Мне лучше заняться своим[n]делом.[n][w][e]
+##-[s]It's autumn already... I'd better[n]get my groove on.[n][w][e]-##
+
+[msg MSG_10B_NPC003_03 [Man]]
+[s]Скоро зима. Это тяжелый сезон для людей,[n]которые не могут войти в ритм...[n][w][e]
+##-[s]Winter's coming up. It's a tough[n]season for people who can't get[n]into the groove...[n][w][e]-##
+[s]Я не могу войти в ритм, так что для меня[n]это тяжелое время...[n][w][e]
+##-[s]I can't get my groove on, so it's[n]a bummer of a time for me...[n][w][e]-##
+
+[msg MSG_11B_NPC003_01 [Man]]
+[s]Эй, как дела?[n][w][e]
+##-[s]Hey, how's it going?[n][w][e]-##
+
+[sel MSG_11B_NPC003_01_SEL top]
+[s]"Классный".[e]
+##-[s]"Groovy."[e]-##
+[s]"Не заводной".[e]
+##-[s]"Not groovy."[e]-##
+
+[sel MSG_11B_NPC003_01_SEL_G top]
+[s]"Потрясающе!"[e]
+##-[s]"Rockin'!"[e]-##
+[s]"Не так уж и здорово..."[e]
+##-[s]"Not that great..."[e]-##
+
+[msg MSG_11B_NPC003_02 [Man]]
+[s]Я так завидую тебе, чувак... Держу пари, у[n]тебя есть девушка.[n][w][e]
+##-[s]I'm so jealous of you, man...[n]I bet you've got a girlfriend.[n][w][e]-##
+[s]Ты прекрасно справишься на Рождество, если[n]у тебя кто-нибудь будет.[n][w][e]
+##-[s]You'll do fine over Christmas if[n]you've got somebody.[n][w][e]-##
+
+[msg MSG_11B_NPC003_02_G [Man]]
+[s]Я так завидую тебе, чувак... Держу пари, у[n]тебя есть парень.[n][w][e]
+##-[s]I'm so jealous of you, man...[n]I bet you've got a boyfriend.[n][w][e]-##
+[s]Ты прекрасно справишься на Рождество, если[n]у тебя кто-нибудь будет.[n][w][e]
+##-[s]You'll do fine over Christmas if[n]you've got somebody.[n][w][e]-##
+
+[msg MSG_11B_NPC003_03 [Man]]
+[s]Я понимаю... Я тоже не могу уловить[n]ниточку.[n][w][e]
+##-[s]I see... I can't catch a[n]groove either.[n][w][e]-##
+[s]Я думаю, это будет одинокое Рождество для[n]нас.[n][w][e]
+##-[s]I guess it'll be a lonely Christmas[n]for us.[n][w][e]-##
+[s]Как и каждый год...[n][w][e]
+##-[s]Just like every year...[n][w][e]-##
+
+[msg MSG_12B_NPC003_01 [Man]]
+[s]Все в рождественском настроении, но я этого[n]не чувствую.[n][w][e]
+##-[s]Everybody's in the Christmas spirit,[n]but I'm not feeling it.[n][w][e]-##
+[s]Но что вы можете сделать? Я просто буду[n]продолжать танцевать.[n][w][e]
+##-[s]But what can you do? I'm just gonna[n]keep dancing.[n][w][e]-##
+
+[msg MSG_12C_NPC003_01 [Man]]
+[s]Рождество? Да, это было здорово![n][w][e]
+##-[s]Christmas? Yeah, it was great![n][w][e]-##
+[s]Я купил остатки торта 25-го числа и просто[n]набил себе рот дома в темноте.[n][w][e]
+##-[s]I bought a leftover cake on the[n]25th, and I just stuffed myself[n]at home in the dark.[n][w][e]-##
+[s]Я даже не пользовался никакой посудой![n][w][e]
+##-[s]I didn't even use any utensils![n][w][e]-##
+[s]Какое-нибудь Рождество, а? Хахахаха...![n][w][e]
+##-[s]Some Christmas, huh? Hahahaha...![n][w][e]-##
+
+[msg MSG_1B_NPC003_01 [Man]]
+[s]Эй, как дела?[n][w][e]
+##-[s]Hey, how's it going?[n][w][e]-##
+
+[sel MSG_1B_NPC003_01_SEL top]
+[s]"Классный".[e]
+##-[s]"Groovy."[e]-##
+[s]"Не заводной".[e]
+##-[s]"Not groovy."[e]-##
+
+[sel MSG_1B_NPC003_01_SEL_G top]
+[s]"Потрясающе!"[e]
+##-[s]"Rockin'!"[e]-##
+[s]"Не так уж и здорово..."[e]
+##-[s]"Not that great..."[e]-##
+
+[msg MSG_1B_NPC003_02 [Man]]
+[s]Я понимаю... Но это только временно.[n][w][e]
+##-[s]I see... But that's just temporary.[n][w][e]-##
+[s]Это не может сравниться с Избавлением,[n]которое принесет Никс.[n][w][e]
+##-[s]It can't match the Deliverance that[n]Nyx is going to bring.[n][w][e]-##
+
+[msg MSG_1B_NPC003_03 [Man]]
+[s]Не волнуйся, твоя печаль только временная.[n][w][e]
+##-[s]Don't worry, your sadness is only[n]temporary.[n][w][e]-##
+[s]Избавление Никс спасет нас всех.[n][w][e]
+##-[s]Nyx's Deliverance will save us all.[n][w][e]-##
+
+[msg MSG_3A_NPC003_01 [Man]]
+[s]Эй, как дела?[n][w][e]
+##-[s]Hey, how's it going?[n][w][e]-##
+
+[sel MSG_3A_NPC003_01_SEL top]
+[s]"Классный".[e]
+##-[s]"Groovy."[e]-##
+[s]"Не заводной".[e]
+##-[s]"Not groovy."[e]-##
+
+[sel MSG_3A_NPC003_01_SEL_G top]
+[s]"Потрясающе!"[e]
+##-[s]"Rockin'!"[e]-##
+[s]"Не так уж и здорово..."[e]
+##-[s]"Not that great..."[e]-##
+
+[msg MSG_3A_NPC003_02 [Man]]
+[s]Я наконец-то начал возвращаться в прежнее[n]русло.[n][w][e]
+##-[s]I've finally started to get my[n]groove back.[n][w][e]-##
+[s]Я думаю, ты просто не можешь торопить[n]события.[n][w][e]
+##-[s]I guess you just can't rush[n]these things.[n][w][e]-##
+
+[msg MSG_3A_NPC003_03 [Man]]
+[s]Если вы слишком сильно горите желанием[n]петь, вы никогда этого не сделаете.[n][w][e]
+##-[s]If you're burning to groove too[n]badly, you'll never do it.[n][w][e]-##
+[s]Просто расслабься и позволь всему[n]происходить, понимаешь?[n][w][e]
+##-[s]Just mellow out and let things[n]happen, y'know?[n][w][e]-##
+
+[msg MSG_5B_NPC004_01 [Woman]]
+[s]Не стойте просто так! Все должны танцевать,[n]чтобы оставаться внутри![n][w][e]
+##-[s]Don't just stand there! Everyone[n]must be dancing to stay inside![n][w][e]-##
+[s]Танцы - отличное средство от стресса! Все[n]плохое просто тает![n][w][e]
+##-[s]Dancing is a great stress reliever![n]Everything bad just melts away![n][w][e]-##
+
+[msg MSG_6B_NPC004_01 [Woman]]
+[s]Я студент Геккукана, но... Помнишь те[n]слухи, которые ходили на днях?[n][w][e]
+##-[s]I'm a Gekkoukan student, but...[n]Remember those rumors that were[n]going around the other day?[n][w][e]-##
+[s]Я ненавижу слышать подобные слухи. А как[n]насчет тебя?[n][w][e]
+##-[s]I hate hearing rumors like that.[n]How about you?[n][w][e]-##
+
+[sel MSG_6B_NPC004_01_SEL top]
+[s]"Я не возражаю".[e]
+##-[s]"I don't mind."[e]-##
+[s]"Я не могу с этим справиться".[e]
+##-[s]"I can't handle it."[e]-##
+
+[sel MSG_6B_NPC004_01_SEL_G top]
+[s]"Я не возражаю".[e]
+##-[s]"I don't mind."[e]-##
+[s]"Я не могу с этим справиться".[e]
+##-[s]"I can't handle it."[e]-##
+
+[msg MSG_6B_NPC004_02 [Woman]]
+[s]О, неужели? Я ревную...[n][w][e]
+##-[s]Oh, really? I'm jealous...[n][w][e]-##
+
+[msg MSG_6B_NPC004_03 [Woman]]
+[s]Ты тоже? Я терпеть не могу слушать эти[n]разговоры...[n][w][e]
+##-[s]You too? I can't stand hearing those[n]conversations...[n][w][e]-##
+[s]Но когда я здесь, все в порядке. Мне ни о[n]чем не нужно беспокоиться.[n][w][e]
+##-[s]But when I'm here, it's all okay.[n]I don't have to worry about a thing.[n][w][e]-##
+
+[msg MSG_7B_NPC004_01 [Woman]]
+[s]Я бы не возражала встречаться с парнем,[n]который разгуливает топлесс.[n][w][e]
+##-[s]I wouldn't mind going out with a guy[n]who walks around topless.[n][w][e]-##
+[s]Пока он загорелый и подтянутый, как серфер![n][w][e]
+##-[s]As long as he's tanned and toned,[n]like a surfer![n][w][e]-##
+[s]Тот парень, которого я видел раньше... Он[n]был просто ненормальным.[n][w][e]
+##-[s]That guy I saw earlier... He was[n]just freaky.[n][w][e]-##
+[s]Длинные сальные волосы, бледная кожа, ни[n]мяса, ни мускулов, и разгуливает полуголый.[n][w][e]
+##-[s]Long, greasy hair, pale skin, no[n]meat or muscle, and parading around[n]half-naked.[n][w][e]-##
+[s]Он был ооочень жутким и отвратительным...[n][w][e]
+##-[s]He was sooo creepy and gross...[n][w][e]-##
+
+[msg MSG_8B_NPC004_01 [Woman]]
+[s]Это еще не выбило меня из колеи, но мне[n]становится немного страшно...[n][w][e]
+##-[s]It hasn't thrown off my groove yet,[n]but I'm getting kind of scared...[n][w][e]-##
+[s]Видишь вон того мужчину? Он такой...[n]странный.[n][w][e]
+##-[s]You see that man there?[n]He's so... weird.[n][w][e]-##
+[s]Я с самого начала знала, что он странный,[n]но ничего себе! Он действительно где-то[n]там.[n][w][e]
+##-[s]I knew he was weird from the start,[n]but wow! He's really out there.[n][w][e]-##
+[s]Смотри, держу пари, его довольно скоро[n]выгонят.[n][w][e]
+##-[s]Watch, I bet he'll get kicked out[n]pretty soon.[n][w][e]-##
+
+[msg MSG_9B_NPC004_01 [Woman]]
+[s]Этим летом я не могла подцепить ни одного[n]парня. Это отстой...[n][w][e]
+##-[s]I couldn't hook up with any boys[n]this summer. This sucks...[n][w][e]-##
+[s]У тебя появилась девушка?[n][w][e]
+##-[s]Did you get a girlfriend?[n][w][e]-##
+
+[msg MSG_9B_NPC004_01_G [Woman]]
+[s]Этим летом я не могла подцепить ни одного[n]парня. Это отстой...[n][w][e]
+##-[s]I couldn't hook up with any boys[n]this summer. This sucks...[n][w][e]-##
+[s]У тебя появился парень?[n][w][e]
+##-[s]Did you get a boyfriend?[n][w][e]-##
+
+[sel MSG_9B_NPC004_01_SEL top]
+[s]"Ага!"[e]
+##-[s]"Yep!"[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[sel MSG_9B_NPC004_01_SEL_G top]
+[s]"Ага!"[e]
+##-[s]"Yep!"[e]-##
+[s]"Нет".[e]
+##-[s]"Nope."[e]-##
+
+[msg MSG_9B_NPC004_02 [Woman]]
+[s]*вздох* Так ты собираешься оставить меня[n]здесь, да?..[n][w][e]
+##-[s]*sigh*[n]So you're going to leave me[n]here, huh...?[n][w][e]-##
+[s]Ну что ж, я пожелаю вам удачи, когда буду[n]танцевать![n][w][e]
+##-[s]Oh well, I'll wish you good luck[n]as I dance![n][w][e]-##
+
+[msg MSG_9B_NPC004_03 [Woman]]
+[s]О, пара одиночек! Хочешь потрясти своей[n]задницей здесь со мной сегодня вечером!?[n][w][e]
+##-[s]Ooh, a pair of loners! Wanna shake[n]your ass here with me tonight!?[n][w][e]-##
+
+[msg MSG_10B_NPC004_01 [Woman]]
+[s]Вы беспокоитесь о своих оценках на[n]экзамене?[n][w][e]
+##-[s]Do you worry about your exam scores?[n][w][e]-##
+
+[sel MSG_10B_NPC004_01_SEL top]
+[s]"А кто не знает?"[e]
+##-[s]"Who doesn't?"[e]-##
+[s]"Нет, я не..."[e]
+##-[s]"No, I don't..."[e]-##
+
+[sel MSG_10B_NPC004_01_SEL_G top]
+[s]"Конечно, я знаю".[e]
+##-[s]"Of course I do."[e]-##
+[s]"Вовсе нет".[e]
+##-[s]"Not at all."[e]-##
+
+[msg MSG_10B_NPC004_02 [Woman]]
+[s]Просто танцуй, и все будет хорошо! Как я![n][w][e]
+##-[s]Just dance, and you'll be fine![n]Like me![n][w][e]-##
+[s]Ну и что с того, что у вас низкие баллы? Ты[n]не умрешь! Не беспокойся об этом![n][w][e]
+##-[s]So what if your scores are low?[n]You won't die! Don't worry about it![n][w][e]-##
+
+[msg MSG_10B_NPC004_03 [Woman]]
+[s]Отлично! Вот какими должны быть мужчины![n][w][e]
+##-[s]Great! That's the way men are[n]supposed to be![n][w][e]-##
+
+[msg MSG_10B_NPC004_03_G [Woman]]
+[s]Ты на той же странице, что и я![n][w][e]
+##-[s]You're on the same page as me![n][w][e]-##
+[s]Так что ваши баллы низкие! Это тебя не[n]убьет! Не беспокойтесь об этом и просто[n]наслаждайтесь моментом![n][w][e]
+##-[s]So your scores are low! It's not gonna[n]kill you! Don't worry about it and[n]just enjoy the moment![n][w][e]-##
+
+[msg MSG_11B_NPC004_01 [Woman]]
+[s]Все эти новые пары в школе...[n][w][e]
+##-[s]All those new couples at school...[n][w][e]-##
+[s]Они смеются надо мной за то, что я одинок.[n][w][e]
+##-[s]They make fun of me for[n]being single.[n][w][e]-##
+[s]Единственное, что нужно делать, это[n]танцевать так, как будто завтра не[n]наступит! Как здорово быть одиноким![n][w][e]
+##-[s]The only thing to do is dance like[n]there's no tomorrow! It's groovy[n]being single![n][w][e]-##
+
+[msg MSG_12B_NPC004_01 [Woman]]
+[s]Я не из тех людей, которым нравится[n]проводить Рождество в одиночестве...[n][w][e]
+##-[s]I'm not one of those people who[n]likes spending Christmas by[n]myself...[n][w][e]-##
+[s]Но еще хуже спешить и пытаться переспать,[n]только на праздники.[n][w][e]
+##-[s]But it's worse to rush and try to[n]hook up, just for the holidays.[n][w][e]-##
+[s]Я бы предпочел танцевать, чем тратить свое[n]время подобным образом.[n][w][e]
+##-[s]I'd rather dance than waste my[n]time like that.[n][w][e]-##
+
+[msg MSG_12C_NPC004_01 [Woman]]
+[s]Разве этот город не странный? Все это[n]грязно и грязно.[n][w][e]
+##-[s]Isn't this town weird? It's all[n]dirty, and messy.[n][w][e]-##
+[s]Я действительно чувствителен к этому... Я[n]больше не могу сосредоточиться.[n][w][e]
+##-[s]I'm really sensitive to it...[n]I can't concentrate anymore.[n][w][e]-##
+[s]Это сбивает меня с ритма.[n][w][e]
+##-[s]It's messing up my rhythm.[n][w][e]-##
+
+[msg MSG_1B_NPC004_01 [Woman]]
+[s]Я не вступаю ни в какой культ. Эти люди[n]чертовски раздражают меня.[n][w][e]
+##-[s]I'm not joining any cult. Those[n]people annoy the hell out of me.[n][w][e]-##
+[s]Если мне придется обратиться в какую-нибудь[n]религию, дайте мне такую, где я смогу петь[n]и танцевать.[n][w][e]
+##-[s]If I have to convert to some[n]religion, give me one where[n]I can sing and dance.[n][w][e]-##
+[s]В любом случае, это, наверное, было бы[n]полезнее.[n][w][e]
+##-[s]It'd probably be healthier, anyway.[n][w][e]-##
+
+[msg MSG_3A_NPC004_01 [Woman]]
+[s]В этом сезоне произошло несколько печальных[n]событий...[n][w][e]
+##-[s]Some sad things have happened[n]this season...[n][w][e]-##
+[s]В такие времена, чтобы снова почувствовать[n]себя хорошо, нужно прийти сюда и[n]потанцевать.[n][w][e]
+##-[s]In times like that, the way to[n]feel good again is to come here[n]and dance.[n][w][e]-##
+[s]Да, в этом-то все и дело.[n][w][e]
+##-[s]Yeah, that's the stuff.[n][w][e]-##
+
+[msg MSG_5A_NPC005_01 [Man]]
+[s]В наши дни ничего не происходит... Я думаю,[n]что именно это и означает мир.[n][w][e]
+##-[s]Nothing's happening nowadays...[n]I guess that's what peace means.[n][w][e]-##
+[s]А как насчет тебя? Что-нибудь происходит в[n]твоей жизни?[n][w][e]
+##-[s]How about you? Anything happening[n]in your life?[n][w][e]-##
+
+[msg MSG_5A_NPC005_01_G [Man]]
+[s]В наши дни ничего не происходит... Я думаю,[n]что именно это и означает мир.[n][w][e]
+##-[s]Nothing's happening nowadays...[n]I guess that's what peace means.[n][w][e]-##
+[s]А как насчет тебя? Что-нибудь происходит в[n]твоей жизни?[n][w][e]
+##-[s]How about you? Anything happening[n]in your life?[n][w][e]-##
+
+[sel MSG_5A_NPC005_01_SEL top]
+[s]"Да..."[e]
+##-[s]"Yeah..."[e]-##
+[s]"Ничего".[e]
+##-[s]"Nothing."[e]-##
+
+[sel MSG_5A_NPC005_01_SEL_G top]
+[s]"Да..."[e]
+##-[s]"Yeah..."[e]-##
+[s]"Ничего".[e]
+##-[s]"Nothing."[e]-##
+
+[msg MSG_5A_NPC005_02 [Man]]
+[s]Я понимаю... Звучит жестко. Что ж, удачи в[n]чем бы то ни было![n][w][e]
+##-[s]I see... Sounds tough. Well, good[n]luck with whatever it is![n][w][e]-##
+
+[msg MSG_5A_NPC005_02_G [Man]]
+[s]Я понимаю... Звучит жестко. Что ж, удачи в[n]чем бы то ни было![n][w][e]
+##-[s]I see... Sounds tough. Well, good[n]luck with whatever it is![n][w][e]-##
+
+[msg MSG_5A_NPC005_03 [Man]]
+[s]Разве я не говорил этого? Видите, на самом[n]деле ничего не происходит...[n][w][e]
+##-[s]Didn't I say so? See, nothing[n]really is happening...[n][w][e]-##
+
+[msg MSG_5A_NPC005_03_G [Man]]
+[s]Разве я не говорил этого? Видите, на самом[n]деле ничего не происходит...[n][w][e]
+##-[s]Didn't I say so? See, nothing[n]really is happening...[n][w][e]-##
+
+[msg MSG_6A_NPC005_01 [Man]]
+[s]Я слышал, что там происходит куча всяких[n]вещей. Как насчет этого?[n][w][e]
+##-[s]I heard a buncha stuff is happening[n]out there. How about it?[n][w][e]-##
+[s]С тобой там что-нибудь происходит?[n][w][e]
+##-[s]Is anything happening out there[n]with you?[n][w][e]-##
+
+[msg MSG_6A_NPC005_01_G [Man]]
+[s]Я слышал, что там происходит куча всяких[n]вещей. Как насчет этого?[n][w][e]
+##-[s]I heard a buncha stuff is happening[n]out there. How about it?[n][w][e]-##
+[s]С тобой там что-нибудь происходит?[n][w][e]
+##-[s]Is anything happening out there[n]with you?[n][w][e]-##
+
+[sel MSG_6A_NPC005_01_SEL top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+
+[sel MSG_6A_NPC005_01_SEL_G top]
+[s]"да."[e]
+##-[s]"Yes."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+
+[msg MSG_6A_NPC005_02 [Man]]
+[s]О, круто. Ну, не здесь.[n][w][e]
+##-[s]Oh, cool. Well, not here.[n][w][e]-##
+
+[msg MSG_6A_NPC005_02_G [Man]]
+[s]О, круто. Ну, не здесь.[n][w][e]
+##-[s]Oh, cool. Well, not here.[n][w][e]-##
+
+[msg MSG_6A_NPC005_03 [Man]]
+[s]Я тоже, чувак.[n][w][e]
+##-[s]Me neither, man.[n][w][e]-##
+[s]Я все время слышу об этом, но никогда не[n]вижу этого. Неужели все это просто шутка?[n][w][e]
+##-[s]I keep hearing about this stuff,[n]but I never get to see it.[n]Is it all just a joke?[n][w][e]-##
+
+[msg MSG_6A_NPC005_03_G [Man]]
+[s]Я тоже.[n][w][e]
+##-[s]Me neither.[n][w][e]-##
+[s]Я все время слышу об этом, но никогда не[n]вижу этого. Неужели все это просто шутка?[n][w][e]
+##-[s]I keep hearing about this stuff,[n]but I never get to see it.[n]Is it all just a joke?[n][w][e]-##
+
+[msg MSG_7A_NPC005_01 [Man]]
+[s]Чувак, этот слух только начинается! На этот[n]раз я слышу, что речь идет о парах![n][w][e]
+##-[s]Dude, that rumor is just getting[n]started! This time I hear it's[n]about couples![n][w][e]-##
+[s]Виновником должен быть одинокий парень...[n]Он ревнует к парам, понимаешь?[n][w][e]
+##-[s]The culprit must be a single guy...[n]He's jealous of couples, see?[n][w][e]-##
+[s]Но, чувак, если бы у меня была такая[n]власть, я бы нашел себе женщину![n][w][e]
+##-[s]But man, if I had that kind of[n]power, I'd get myself a woman![n][w][e]-##
+
+[msg MSG_7A_NPC005_01_G [Man]]
+[s]Чувак, этот слух только начинается! На этот[n]раз я слышу, что речь идет о парах![n][w][e]
+##-[s]Dude, that rumor is just getting[n]started! This time I hear it's[n]about couples![n][w][e]-##
+[s]Виновником должен быть одинокий парень...[n]Он ревнует к парам, понимаешь?[n][w][e]
+##-[s]The culprit must be a single guy...[n]He's jealous of couples, see?[n][w][e]-##
+[s]Но, чувак, если бы у меня была такая[n]власть, я бы нашел себе женщину![n][w][e]
+##-[s]But man, if I had that kind of[n]power, I'd get myself a woman![n][w][e]-##
+
+[msg MSG_8A_NPC005_01 [Man]]
+[s]Я слышал, что почти пришло время летнего[n]фестиваля. Проклятье... Мне не с кем пойти.[n][w][e]
+##-[s]I heard it's almost time for the[n]summer festival. Dammit... I don't[n]have anyone to go with.[n][w][e]-##
+[s]Ну что ж... Я найду кого-нибудь.[n][w][e]
+##-[s]Oh well... I'll find someone.[n][w][e]-##
+
+[msg MSG_8A_NPC005_01_G [Man]]
+[s]Я слышал, что почти пришло время летнего[n]фестиваля. Проклятье... Мне не с кем пойти.[n][w][e]
+##-[s]I heard it's almost time for the[n]summer festival. Dammit... I don't[n]have anyone to go with.[n][w][e]-##
+[s]Ну что ж... Я найду кого-нибудь.[n][w][e]
+##-[s]Oh well... I'll find someone.[n][w][e]-##
+
+[msg MSG_8A_NPC005_02 [Man]]
+[s]Я слышал, что в Святилище проходит летний[n]фестиваль. Проклятье... Мне не с кем пойти.[n][w][e]
+##-[s]I heard there's a summer festival[n]going on at the Shrine. Dammit...[n]I don't have anyone to go with.[n][w][e]-##
+[s]Ну, я уверен, что в любом случае это было[n]бы не так уж весело.[n][w][e]
+##-[s]Well, I'm sure it wouldn't be that[n]much fun anyway.[n][w][e]-##
+
+[msg MSG_8A_NPC005_02_G [Man]]
+[s]Я слышал, что в Святилище проходит летний[n]фестиваль. Проклятье... Мне не с кем пойти.[n][w][e]
+##-[s]I heard there's a summer festival[n]going on at the Shrine. Dammit...[n]I don't have anyone to go with.[n][w][e]-##
+[s]Ну, я уверен, что в любом случае это было[n]бы не так уж весело.[n][w][e]
+##-[s]Well, I'm sure it wouldn't be that[n]much fun anyway.[n][w][e]-##
+
+[msg MSG_8A_NPC005_03 [Man]]
+[s]Ах да, там был тот летний фестиваль, да?[n]Проклятье... Мне не с кем было пойти.[n][w][e]
+##-[s]Oh yeah, there was that summer[n]festival, huh? Dammit... I didn't[n]have anyone to go with.[n][w][e]-##
+[s]Ну что ж. Наверное, это было не так уж[n]здорово.[n][w][e]
+##-[s]Oh well. It probably wasn't that[n]great.[n][w][e]-##
+
+[msg MSG_8A_NPC005_03_G [Man]]
+[s]Ах да, там был тот летний фестиваль, да?[n]Проклятье... Мне не с кем было пойти.[n][w][e]
+##-[s]Oh yeah, there was that summer[n]festival, huh? Dammit... I didn't[n]have anyone to go with.[n][w][e]-##
+[s]Ну что ж. Наверное, это было не так уж[n]здорово.[n][w][e]
+##-[s]Oh well. It probably wasn't that[n]great.[n][w][e]-##
+
+[msg MSG_9A_NPC005_01 [Man]]
+[s]Вы знали, что проводка здесь была в плохом[n]состоянии?[n][w][e]
+##-[s]Did you know the wiring here was[n]in bad shape?[n][w][e]-##
+[s]Мы едва проскальзывали мимо во время[n]больших событий.[n][w][e]
+##-[s]We just barely squeaked by during[n]big events.[n][w][e]-##
+[s]Самое странное, что сейчас он исправлен, но[n]никто никогда не звонил в[n]техобслуживание...[n][w][e]
+##-[s]The weird thing is, it's fixed[n]now, but nobody ever called[n]maintenance...[n][w][e]-##
+
+[msg MSG_9A_NPC005_01_G [Man]]
+[s]Вы знали, что проводка здесь была в плохом[n]состоянии?[n][w][e]
+##-[s]Did you know the wiring here was[n]in bad shape?[n][w][e]-##
+[s]Мы едва проскальзывали мимо во время[n]больших событий.[n][w][e]
+##-[s]We just barely squeaked by during[n]big events.[n][w][e]-##
+[s]Самое странное, что сейчас он исправлен, но[n]никто никогда не звонил в[n]техобслуживание...[n][w][e]
+##-[s]The weird thing is, it's fixed[n]now, but nobody ever called[n]maintenance...[n][w][e]-##
+
+[msg MSG_10A_NPC005_01 [Man]]
+[s]Я слышал, что студент Геккукана погиб в[n]драке на этом месте.[n][w][e]
+##-[s]I heard a Gekkoukan student died[n]in a fight at that spot.[n][w][e]-##
+[s]Я мог бы кому угодно сказать, что в этом[n]месте были проблемы! Клянусь, чувак![n][w][e]
+##-[s]I could have told anyone that place[n]was trouble! I swear, man![n][w][e]-##
+[s]Я знал, что в один прекрасный день там[n]должно было произойти что-то плохое![n][w][e]
+##-[s]I knew something bad had to happen[n]there one of these days![n][w][e]-##
+
+[msg MSG_10A_NPC005_01_G [Man]]
+[s]Я слышал, что студент из Геккукана на грани[n]смерти из-за драки на том месте.[n][w][e]
+##-[s]I heard a Gekkoukan student's on the[n]brink of death because of a fight at[n]that spot.[n][w][e]-##
+[s]Я мог бы кому угодно сказать, что в этом[n]месте были проблемы! Клянусь, чувак![n][w][e]
+##-[s]I could have told anyone that place[n]was trouble! I swear, man![n][w][e]-##
+[s]Я знал, что в один прекрасный день там[n]должно было произойти что-то плохое![n][w][e]
+##-[s]I knew something bad had to happen[n]there one of these days![n][w][e]-##
+
+[msg MSG_11A_NPC005_01 [Man]]
+[s]Председатель Геккукана упал с обсерватории[n]во время созерцания звезд, верно?[n][w][e]
+##-[s]Gekkoukan's chairman fell from the[n]observatory while stargazing, right?[n][w][e]-##
+[s]Не кажется ли вам что-то в этой картине[n]странным...?[n][w][e]
+##-[s]Doesn't something about that picture[n]strike you as odd...?[n][w][e]-##
+[s]Как ты думаешь?[n][w][e]
+##-[s]What do you think?[n][w][e]-##
+
+[msg MSG_11A_NPC005_01_G [Man]]
+[s]Председатель Геккукана упал с обсерватории[n]во время созерцания звезд, верно?[n][w][e]
+##-[s]Gekkoukan's chairman fell from the[n]observatory while stargazing, right?[n][w][e]-##
+[s]Не кажется ли вам что-то в этой картине[n]странным...?[n][w][e]
+##-[s]Doesn't something about that picture[n]strike you as odd...?[n][w][e]-##
+[s]Как ты думаешь?[n][w][e]
+##-[s]What do you think?[n][w][e]-##
+
+[sel MSG_11A_NPC005_01_SEL top]
+[s]"Я так не думаю".[e]
+##-[s]"I don't think so."[e]-##
+[s]"Может быть..."[e]
+##-[s]"Maybe..."[e]-##
+
+[sel MSG_11A_NPC005_01_SEL_G top]
+[s]"Я думаю, что это правда".[e]
+##-[s]"I think it's true."[e]-##
+[s]"Это действительно звучит подозрительно".[e]
+##-[s]"It does sound fishy."[e]-##
+
+[msg MSG_11A_NPC005_02 [Man]]
+[s]Ему нравились звезды, и теперь он стал[n]одним из них... Я просто не понимаю этого.[n][w][e]
+##-[s]He liked stars, and now he became[n]one... I just don't get it.[n][w][e]-##
+
+[msg MSG_11A_NPC005_02_G [Man]]
+[s]Ему нравились звезды, и теперь он стал[n]одним из них... Я просто не понимаю этого.[n][w][e]
+##-[s]He liked stars, and now he became[n]one... I just don't get it.[n][w][e]-##
+
+[msg MSG_11A_NPC005_03 [Man]]
+[s]Но если это ложь, то, должно быть, для[n]того, чтобы что-то скрыть, а?[n][w][e]
+##-[s]But if it's a lie, it must be to[n]cover something up, huh?[n][w][e]-##
+[s]Это безумие, чувак! Это прямо как в кино![n][w][e]
+##-[s]That's crazy, man! It's just like[n]a movie![n][w][e]-##
+
+[msg MSG_11A_NPC005_03_G [Man]]
+[s]Но если это ложь, то, должно быть, для[n]того, чтобы что-то скрыть, а?[n][w][e]
+##-[s]But if it's a lie, it must be to[n]cover something up, huh?[n][w][e]-##
+[s]Это безумие, чувак! Это прямо как в кино![n][w][e]
+##-[s]That's crazy, man! It's just like[n]a movie![n][w][e]-##
+
+[msg MSG_12A_NPC005_01 [Man]]
+[s]Чувак, посмотри на мою руку. Всякий раз,[n]когда я чувствую, что что-то "не так", у[n]меня мурашки бегут по коже...[n][w][e]
+##-[s]Dude, check out my arm. Whenever[n]I feel something "off," I get[n]goosebumps...[n][w][e]-##
+[s]Я получаю их, когда просто иду по улице.[n][w][e]
+##-[s]I get 'em when I'm just walking[n]down the street.[n][w][e]-##
+[s]Разве этот город не странный, чувак?[n][w][e]
+##-[s]Isn't this town weird, man?[n][w][e]-##
+
+[msg MSG_12A_NPC005_01_G [Man]]
+[s]Чувак, посмотри на мою руку. Всякий раз,[n]когда я чувствую, что что-то "не так", у[n]меня мурашки бегут по коже...[n][w][e]
+##-[s]Dude, check out my arm. Whenever[n]I feel something "off," I get[n]goosebumps...[n][w][e]-##
+[s]Я получаю их, когда просто иду по улице.[n][w][e]
+##-[s]I get 'em when I'm just walking[n]down the street.[n][w][e]-##
+[s]Разве этот город не странный, чувак?[n][w][e]
+##-[s]Isn't this town weird, man?[n][w][e]-##
+
+[msg MSG_1A_NPC005_01 [Man]]
+[s]Чувак, этот город такой грязный! Это не[n]шутка![n][w][e]
+##-[s]Dude, this town is filthy! No joke![n][w][e]-##
+[s]Особенно эти плакаты! Я все время вижу, как[n]эти чертовы культисты вешают их![n][w][e]
+##-[s]Especially those posters! I keep[n]seeing those damn cultists putting[n]them up![n][w][e]-##
+[s]Почему бы тебе не пойти потанцевать, чувак?[n]Ты почувствуешь себя немного лучше.[n][w][e]
+##-[s]Why don't you go dance, man? You'll[n]feel a little better.[n][w][e]-##
+
+[msg MSG_1A_NPC005_01_G [Man]]
+[s]Чувак, этот город такой грязный! Это не[n]шутка![n][w][e]
+##-[s]Dude, this town is filthy! No joke![n][w][e]-##
+[s]Особенно эти плакаты! Я все время вижу, как[n]эти чертовы культисты вешают их![n][w][e]
+##-[s]Especially those posters! I keep[n]seeing those damn cultists putting[n]them up![n][w][e]-##
+[s]Почему бы тебе не пойти потанцевать, чувак?[n]Ты почувствуешь себя немного лучше.[n][w][e]
+##-[s]Why don't you go dance, man? You'll[n]feel a little better.[n][w][e]-##
+
+[msg MSG_3A_NPC005_01 [Man]]
+[s]После того, как этот дурацкий культ исчез,[n]вообще ничего больше не происходит.[n][w][e]
+##-[s]After that stupid cult disappeared,[n]nothing at all happens anymore.[n][w][e]-##
+[s]Не то чтобы меня это волновало - Теперь я[n]могу танцевать все, что захочу![n][w][e]
+##-[s]Not that I care--Now I can dance[n]all I want![n][w][e]-##
+
+[msg MSG_3A_NPC005_01_G [Man]]
+[s]После того, как этот дурацкий культ исчез,[n]вообще ничего больше не происходит.[n][w][e]
+##-[s]After that stupid cult disappeared,[n]nothing at all happens anymore.[n][w][e]-##
+[s]Не то чтобы меня это волновало - Теперь я[n]могу танцевать все, что захочу![n][w][e]
+##-[s]Not that I care--Now I can dance[n]all I want![n][w][e]-##
+
+[msg MSG_5A_NPC006_01 [Woman]]
+[s]Хм? Могу я вам помочь? Не думаю, что видел[n]вас здесь раньше...[n][w][e]
+##-[s]Hm? Can I help you? I don't think[n]I've seen you here before...[n][w][e]-##
+
+[msg MSG_5A_NPC006_02 [Woman]]
+[s]Хммм? Эй, ты довольно симпатичный для[n]новичка.[n][w][e]
+##-[s]Hmmm? Hey, you're pretty cute[n]for a newcomer.[n][w][e]-##
+
+[msg MSG_5A_NPC006_03 [Woman]]
+[s]Хммм? Эй, ты довольно симпатичный для[n]новичка.[n][w][e]
+##-[s]Hmmm? Hey, you're pretty cute[n]for a newcomer.[n][w][e]-##
+[s]Этот клуб довольно милый, да? Я тоже иногда[n]прихожу сюда.[n][w][e]
+##-[s]This club is pretty nice, huh?[n]I come here sometimes, too.[n][w][e]-##
+
+[msg MSG_5A_NPC006_01_G [Man]]
+[s]Тебе что-нибудь нужно? О, ты ищешь[n]компанию?[n][w][e]
+##-[s]Do you need something? Oh, are you[n]looking for company?[n][w][e]-##
+[s]Извините, но вам придется взять номер. У[n]меня уже так много цыпочек ждет меня.[n][w][e]
+##-[s]Sorry, but you'll have to take a number.[n]I already have so many chickies waiting[n]for me.[n][w][e]-##
+[s]Просто подожди своей очереди до другого[n]дня, хорошо?[n][w][e]
+##-[s]Just wait your turn until another day,[n]okay?[n][w][e]-##
+
+[msg MSG_5A_NPC006_02_G [Man]]
+[s]Хмм... Ты в полном порядке.[n][w][e]
+##-[s]Hmm... You're pretty fine.[n][w][e]-##
+[s]К сожалению, у меня уже больше цыпочек, чем[n]я могу вынести.[n][w][e]
+##-[s]Unfortunately, I've got more chickies[n]than I can handle already.[n][w][e]-##
+[s]Если ты хочешь, чтобы я составил тебе[n]компанию, возвращайся, когда научишься[n]немного больше обаянию, детка.[n][w][e]
+##-[s]If you want me to keep you company, come[n]back when you've learned a little more[n]charm, baby.[n][w][e]-##
+
+[msg MSG_5A_NPC006_03_G [Man]]
+[s]Ах, я знал, что ты придешь в себя.[n][w][e]
+##-[s]Ah, I knew you'd come around.[n][w][e]-##
+[s]Я имею в виду, это судьба. Красивых людей[n]тянет друг к другу...[n][w][e]
+##-[s]I mean, it's destiny. Beautiful people[n]are drawn to each other...[n][w][e]-##
+[s]Во-первых, подарок для тебя, в честь нашей[n]встречи.[n][w][e]
+##-[s]First off, a present for you, in honor[n]of our meeting.[n][w][e]-##
+[s]> Этот человек дал тебе [f 2 5 3 65535 0]...[n][f 1 4][e]
+##-[s]> The man gave you [f 2 5 3 65535 0]...[n][f 1 4][e]-##
+[s]Тост за твою красоту...[n][w][e]
+##-[s]A toast to your beauty...[n][w][e]-##
+
+[msg MSG_5A_NPC006_03_G_2 [Man]]
+[s]Тост за твою красоту...[n][w][e]
+##-[s]A toast to your beauty...[n][w][e]-##
+
+[msg MSG_7A_NPC006_01 [Woman]]
+[s]А? Ты что, клеишься ко мне? Извините, но[n]мой ответ - нет.[n][w][e]
+##-[s]Huh? Are you hitting on me?[n]Sorry, the answer's no.[n][w][e]-##
+[s]Ты недостаточно обаятелен, чтобы отделаться[n]такой репликой.[n][w][e]
+##-[s]You're not charming enough to[n]get away with a line like that.[n][w][e]-##
+
+[msg MSG_7A_NPC006_02 [Woman]]
+[s]А? Ты что, клеишься ко мне? Извини, но...[n]нет.[n][w][e]
+##-[s]Huh? Are you hitting on me?[n]Sorry, but... no.[n][w][e]-##
+[s]Ты милый ребенок, но чего-то не хватает...[n][w][e]
+##-[s]You're a cute kid, but something's[n]missing...[n][w][e]-##
+[s]Если вы серьезно настроены вступить в[n]отношения, вам нужно приложить к этому[n]больше усилий.[n][w][e]
+##-[s]If you're serious about getting[n]into a relationship, you need to[n]put more effort into it.[n][w][e]-##
+
+[msg MSG_7A_NPC006_03 [Woman]]
+[s]А? Ты что, клеишься ко мне? Боюсь, мне[n]придется отказаться...[n][w][e]
+##-[s]Huh? Are you hitting on me?[n]I'm afraid I'll have to pass...[n][w][e]-##
+[s]У такого парня, как ты, должно быть, уже[n]есть девушка, и мне бы не хотелось вставать[n]у нее на пути![n][w][e]
+##-[s]A guy like you must already have[n]a girlfriend, and I'd hate to get[n]in her way![n][w][e]-##
+
+[msg MSG_7A_NPC006_01_G [Man]]
+[s]Боже мой, еще одна цыпочка, желающая моего[n]внимания...[n][w][e]
+##-[s]My my, another chickie wanting my[n]attention...[n][w][e]-##
+[s]..Извини, но если ты будешь смотреть на[n]меня этими щенячьими глазами, это не[n]поможет.[n][w][e]
+##-[s]...Sorry, but gazing at me with those[n]puppy-dog eyes won't help.[n][w][e]-##
+[s]Все, на что я соглашусь, - это абсолютная[n]красота... Меня интересуют только те, кто[n]достиг этой вершины.[n][w][e]
+##-[s]All I'll settle for is ultimate beauty...[n]I'm only interested in those who have[n]reached that peak.[n][w][e]-##
+
+[msg MSG_7A_NPC006_02_G [Man]]
+[s]У тебя такие красивые глаза... Они похожи[n]на драгоценные камни, разбросанные в ночном[n]небе.[n][w][e]
+##-[s]Your eyes are so beautiful... They're[n]like gems scattered in the night sky.[n][w][e]-##
+[s]Но что еще прекраснее твоих глаз, так это[n]мое отражение в них...[n][w][e]
+##-[s]But what's even more beautiful than[n]your eyes is my reflection in them...[n][w][e]-##
+[s]Туш к человеку, который сказал, что[n]"красота - это грех"...[n][w][e]
+##-[s]Touche to the person who said that[n]"beauty is a sin"...[n][w][e]-##
+
+[msg MSG_7A_NPC006_03_G [Man]]
+[s]С тех пор как я встретил тебя, я не могу[n]выбросить тебя из головы...[n][w][e]
+##-[s]Ever since met you, I haven't been[n]able to get you out of my head...[n][w][e]-##
+[s]Ничего подобного со мной раньше не[n]случалось. Ты наложил на меня какое-то[n]заклятие?[n][w][e]
+##-[s]Nothing like this has ever happened to[n]me before. Have you put me under some[n]sort of spell?[n][w][e]-##
+[s]Ах, это напомнило мне, что я приготовил для[n]тебя идеальный подарок. Здесь...[n][w][e]
+##-[s]Ah that reminds me, I prepared the[n]perfect gift for you. Here...[n][w][e]-##
+[s]> Этот человек дал тебе [f 2 5 3 65535 0]...[n][f 1 4][e]
+##-[s]> The man gave you [f 2 5 3 65535 0]...[n][f 1 4][e]-##
+[s]Прекрасный зверь в чистой шкуре... Все[n]мужчины жаждут такой неукротимой сладости.[n][w][e]
+##-[s]A beautiful beast wearing a skin of[n]purity... All men yearn for such[n]untamed lusciousness.[n][w][e]-##
+[s]Я хочу, чтобы вы стали леди, которая знает,[n]как менять свою тактику в зависимости от[n]времени суток.[n][w][e]
+##-[s]I want you to become a lady who knows[n]how to change her tactics according[n]to the time of day.[n][w][e]-##
+
+[msg MSG_7A_NPC006_03_G_2 [Man]]
+[s]Я бы не возражал, если бы за мной охотился[n]такой прекрасный зверь, как ты...[n][w][e]
+##-[s]I wouldn't mind being hunted by a[n]beautiful beast like you...[n][w][e]-##
+
+[msg MSG_9A_NPC006_01 [Woman]]
+[s]Что ты делаешь, стоишь там, как комок?[n][w][e]
+##-[s]What are you doing, standing there[n]like a lump?[n][w][e]-##
+[s]Ты очаровательна, как скала. Держу пари,[n]мир суров для таких, как ты, а?[n][w][e]
+##-[s]You're about as charming as a rock.[n]I bet the world is tough for someone[n]like you, huh?[n][w][e]-##
+[s]Попробуй быть немного более очаровательной.[n]Для тебя еще не слишком поздно...[n][w][e]
+##-[s]Try being a little more charming.[n]It's not too late for you yet...[n][w][e]-##
+
+[msg MSG_9A_NPC006_02 [Woman]]
+[s]Я всегда думала, что мужчины в этом клубе[n]не такие уж красивые, но...[n][w][e]
+##-[s]I always thought the men in this[n]club weren't that good-looking,[n]but...[n][w][e]-##
+[s]У тебя почти есть то, что нужно, чтобы быть[n]в моем вкусе.[n][w][e]
+##-[s]You've almost got what it takes to[n]be my type.[n][w][e]-##
+[s]Если вы приложите еще немного усилий, я[n]уверен, что вы сразу заметите разницу.[n][w][e]
+##-[s]If you make just a little more[n]effort, I'm sure you'll notice[n]the difference immediately.[n][w][e]-##
+
+[msg MSG_9A_NPC006_03 [Woman]]
+[s]Я всегда думала, что мужчины в этом клубе[n]не такие уж красивые, но...[n][w][e]
+##-[s]I always thought the men in this[n]club weren't that good-looking,[n]but...[n][w][e]-##
+[s]О... Хм, не обращай внимания...[n][w][e]
+##-[s]Oh... Um, never mind...[n][w][e]-##
+
+[msg MSG_9A_NPC006_01_G [Man]]
+[s]...Хм? О, мне очень жаль. Тебе что-то было[n]нужно?[n][w][e]
+##-[s]...Hm? Oh, I'm sorry. Did you need[n]something?[n][w][e]-##
+[s]Здесь так темно. Твое лицо было таким[n]тусклым, что я тебя не заметил.[n][w][e]
+##-[s]It's so dark in here. Your face was so[n]dim that I didn't notice you.[n][w][e]-##
+[s]Тебе нужно светиться немного больше.[n][w][e]
+##-[s]You need to glow a little more.[n][w][e]-##
+[s]С такой скоростью ваша красота будет[n]растрачена впустую в тени.[n][w][e]
+##-[s]At this rate, your beauty will be wasted[n]in the shadows.[n][w][e]-##
+
+[msg MSG_9A_NPC006_02_G [Man]]
+[s]...Всем привет. Разве это не прекрасная[n]ночь? Ты что, развлекаешься в одиночестве?[n][w][e]
+##-[s]...Hello there. Isn't it a beautiful[n]night? Are you out having fun on[n]your own?[n][w][e]-##
+[s]Но тебе нужно быть осторожным.[n][w][e]
+##-[s]You need to be careful, though.[n][w][e]-##
+[s]Вы никогда не знаете, какие плохие яблоки[n]там, готовые причинить вам неприятности...[n]* смешок*[n][w][e]
+##-[s]You never know what kind of bad apples[n]are out there, ready to cause trouble[n]for you... *chuckle*[n][w][e]-##
+
+[msg MSG_9A_NPC006_03_G [Man]]
+[s]А, привет всем. Я ждал, когда ты придешь в[n]себя.[n][w][e]
+##-[s]Ah, hello there. I've been waiting for[n]you to come around.[n][w][e]-##
+[s]Мне захотелось околдовать тебя сегодня[n]вечером...[n][w][e]
+##-[s]I felt like putting you under my spell[n]tonight...[n][w][e]-##
+[s]> Этот человек дал тебе [f 2 5 3 65535 0]...[n][f 1 4][e]
+##-[s]> The man gave you [f 2 5 3 65535 0]...[n][f 1 4][e]-##
+[s]Каблуки у них не такие высокие. Вы могли бы[n]назвать их тренировочными насосами.[n][w][e]
+##-[s]The heels on these aren't that high.[n]Training pumps, you might call them.[n][w][e]-##
+[s]Только девушки, которые приложат усилия,[n]превратятся из женщин в леди. Я с[n]нетерпением жду этого дня для тебя...[n][w][e]
+##-[s]Only girls who put in the effort will[n]graduate from women to ladies. I look[n]forward to that day for you...[n][w][e]-##
+
+[msg MSG_9A_NPC006_03_G_2 [Man]]
+[s]Эти туфли-лодочки, которые я выбрал для[n]тебя... Как они себя чувствуют?[n][w][e]
+##-[s]Those pumps I picked out for you...[n]How do they feel?[n][w][e]-##
+
+[msg MSG_11A_NPC006_01 [Woman]]
+[s]Теперь, когда наступила зима, держу пари,[n]люди думают о Рождестве.[n][w][e]
+##-[s]Now that it's winter, I bet people[n]are thinking of Christmas.[n][w][e]-##
+[s]В таком случае, у тебя, должно быть,[n]проблемы, да?[n][w][e]
+##-[s]In that case, you must be having[n]trouble, huh?[n][w][e]-##
+[s]Держу пари, ты хотел бы отменить[n]Рождество...[n][w][e]
+##-[s]I bet you wish you could cancel[n]Christmas...[n][w][e]-##
+
+[msg MSG_11A_NPC006_02 [Woman]]
+[s]Теперь, когда наступила зима, держу пари,[n]люди думают о Рождестве.[n][w][e]
+##-[s]Now that it's winter, I bet people[n]are thinking of Christmas.[n][w][e]-##
+[s]В таком случае... Ну, я не должен ничего[n]говорить.[n][w][e]
+##-[s]In that case... Well, I shouldn't[n]say anything.[n][w][e]-##
+[s]Либо ты получишь его, либо нет. Мои пальцы[n]будут скрещены за тебя.[n][w][e]
+##-[s]Either you get one or you don't.[n]My fingers will be crossed for you.[n][w][e]-##
+
+[msg MSG_11A_NPC006_03 [Woman]]
+[s]Теперь, когда наступила зима, держу пари,[n]люди думают о Рождестве.[n][w][e]
+##-[s]Now that it's winter, I bet people[n]are thinking of Christmas.[n][w][e]-##
+[s]Но держу пари, для тебя это не проблема.[n][w][e]
+##-[s]But I bet it's no sweat for you.[n][w][e]-##
+[s]Сколько у тебя назначено свиданий?[n][w][e]
+##-[s]How many dates have you got[n]lined up?[n][w][e]-##
+
+[msg MSG_11A_NPC006_01_G [Man]]
+[s]Когда наступает время Рождества, город[n]становится прекрасным благодаря множеству[n]огней.[n][w][e]
+##-[s]When Christmas time comes around, the[n]town grows beautiful with the panoply[n]of lights.[n][w][e]-##
+[s]Но настоящая цель такого большого освещения[n]- подчеркнуть мою красоту...[n][w][e]
+##-[s]But the real purpose of so much lighting[n]is to accenturate my beauty...[n][w][e]-##
+[s]Будьте осторожны, чтобы не позволить себе[n]потеряться в этих рождественских огнях.[n][w][e]
+##-[s]Be careful not to let yourself become[n]lost in those Christmas lights.[n][w][e]-##
+
+[msg MSG_11A_NPC006_02_G [Man]]
+[s]У вас будет нормальное Рождество, как у[n]обычных пар в городе?[n][w][e]
+##-[s]Are you going to have a normal Christmas[n]like the ordinary couples in town?[n][w][e]-##
+[s]Со своей стороны, я бы создал проблемы,[n]если бы гулял по городу.[n][w][e]
+##-[s]For my part, I'd cause trouble if I[n]walked around town.[n][w][e]-##
+[s]Почему, спросите вы?[n][w][e]
+##-[s]Why, you ask?[n][w][e]-##
+[s]Потому что моя красота затмевает[n]рождественские огни...[n][w][e]
+##-[s]Because my beauty outshines the[n]Christmas lights...[n][w][e]-##
+
+[msg MSG_11A_NPC006_03_G [Man]]
+[s]...Есть кое-что, что я хотел бы, чтобы ты[n]принял.[n][w][e]
+##-[s]...There's something I'd like you to[n]accept.[n][w][e]-##
+[s]> Этот человек дал тебе [f 2 5 3 65535 0]...[n][f 1 4][e]
+##-[s]> The man gave you [f 2 5 3 65535 0]...[n][f 1 4][e]-##
+[s]Из всех женщин самые красивые - это[n]женщины, которые сражаются...[n][w][e]
+##-[s]Of all women, the most beautiful are[n]ladies who fight...[n][w][e]-##
+[s]Это потому, что их не так легко достичь.[n][w][e]
+##-[s]That's because they're not so easily[n]attained.[n][w][e]-##
+[s]Да, вы могли бы сказать, что дамы похожи на[n]розы...[n][w][e]
+##-[s]Yes, you might say that ladies are like[n]roses...[n][w][e]-##
+[s]Я хочу украсть твое сердце, но ты никогда[n]не обращаешь на меня внимания...[n][w][e]
+##-[s]I want to steal your heart away, yet[n]you never take notice of me...[n][w][e]-##
+[s]Ты в пределах досягаемости, но я не могу[n]обладать тобой... Ах, какой кайф![n][w][e]
+##-[s]You're within reach, yet I cannot have[n]you... Ah, the thrill![n][w][e]-##
+
+[msg MSG_11A_NPC006_03_G_2 [Man]]
+[s]Какой бы красивой ни была роза, она не[n]более чем фоном для вашей красоты...[n][w][e]
+##-[s]No matter how beautiful a rose may be,[n]it is nothing more than a foil to your[n]beauty...[n][w][e]-##
+
+[msg MSG_1A_NPC006_01 [Woman]]
+[s]У парней, которые знают, что они[n]очаровательны, нет проблем в жизни.[n][w][e]
+##-[s]Guys who know they're charming[n]have no problem in life.[n][w][e]-##
+[s]Особенно в такие моменты, как этот...[n]Немного обаяния имеет большое значение.[n][w][e]
+##-[s]Especially at times like this...[n]A little charm goes a long way.[n][w][e]-##
+[s]Хотя ты... Я не знаю.[n][w][e]
+##-[s]You, though... I don't know.[n][w][e]-##
+[s]Я надеюсь, что у тебя есть что-то помимо[n]обаяния, вот и все, что я хочу сказать...[n][w][e]
+##-[s]I hope you've got something besides[n]charm, is all I'm saying...[n][w][e]-##
+
+[msg MSG_1A_NPC006_02 [Woman]]
+[s]У парней, которые знают, что они[n]очаровательны, нет проблем в жизни.[n][w][e]
+##-[s]Guys who know they're charming[n]have no problem in life.[n][w][e]-##
+[s]Особенно в такие моменты, как этот...[n]Немного обаяния имеет большое значение.[n][w][e]
+##-[s]Especially at times like this...[n]A little charm goes a long way.[n][w][e]-##
+[s]Хотя ты... Я не знаю.[n][w][e]
+##-[s]You, though... I don't know.[n][w][e]-##
+[s]Возможно, у тебя все будет хорошо.[n][w][e]
+##-[s]You might get by okay.[n][w][e]-##
+
+[msg MSG_1A_NPC006_03 [Woman]]
+[s]У парней, которые знают, что они[n]очаровательны, нет проблем в жизни.[n][w][e]
+##-[s]Guys who know they're charming[n]have no problem in life.[n][w][e]-##
+[s]Особенно в такие моменты, как этот...[n]Немного обаяния имеет большое значение.[n][w][e]
+##-[s]Especially at times like this...[n]A little charm goes a long way.[n][w][e]-##
+[s]Я уверен, вы понимаете, что я имею в виду.[n][w][e]
+##-[s]I'm sure you know what I mean.[n][w][e]-##
+[s]Я бы предпочел послушать тебя, чем этих[n]уродов-культистов...[n][w][e]
+##-[s]I'd much rather listen to you[n]than those cultist freaks...[n][w][e]-##
+
+[msg MSG_1A_NPC006_01_G [Man]]
+[s]Этот культ, похоже, набирает популярность,[n]но, насколько я вижу, в них нет никаких[n]чар.[n][w][e]
+##-[s]That cult seems to be gaining popularity,[n]but they hold no charms that I can see.[n][w][e]-##
+[s]Людей привлекает то, что очаровательно, но[n]они еще не знают истинной красоты.[n][w][e]
+##-[s]Humans are drawn to what is charming,[n]but they do not yet know true beauty.[n][w][e]-##
+[s]Мм? Что я подразумеваю под "истинной[n]красотой"? ...Ну, я сам, конечно.[n][w][e]
+##-[s]Mm? What do I mean by "true beauty"?[n]...Why, myself, of course.[n][w][e]-##
+[s]Ах, не слишком ли рано было рассказывать[n]тебе об истинной красоте...?[n][w][e]
+##-[s]Ah, was it a little too early to tell[n]you about true beauty...?[n][w][e]-##
+
+[msg MSG_1A_NPC006_02_G [Man]]
+[s]Этот культ, похоже, набирает популярность,[n]но, насколько я вижу, в них нет никаких[n]чар.[n][w][e]
+##-[s]That cult seems to be gaining popularity,[n]but they hold no charms that I can see.[n][w][e]-##
+[s]Людей привлекает то, что очаровательно, но[n]они еще не знают истинной красоты.[n][w][e]
+##-[s]Humans are drawn to what is charming,[n]but they do not yet know true beauty.[n][w][e]-##
+[s]Мм? Что я подразумеваю под "истинной[n]красотой"? ...Ну, я сам, конечно.[n][w][e]
+##-[s]Mm? What do I mean by "true beauty"?[n]...Why, myself, of course.[n][w][e]-##
+[s]Почему бы тебе не игнорировать этих глупых[n]культистов и не стать моим возлюбленным?[n][w][e]
+##-[s]Why don't you ignore those silly[n]cultists and become mon amour?[n][w][e]-##
+
+[msg MSG_1A_NPC006_03_G [Man]]
+[s]...Ах, моя Афродита! Не могли бы вы,[n]пожалуйста, принять это?[n][w][e]
+##-[s]...Ah, my Aphrodite! Won't you please[n]accept this?[n][w][e]-##
+[s]> Этот человек дал тебе [f 2 5 3 65535 0]...[n][f 1 4][e]
+##-[s]> The man gave you [f 2 5 3 65535 0]...[n][f 1 4][e]-##
+[s]Я уверена, что теперь ты способна носить[n]такие высокие каблуки...[n][w][e]
+##-[s]I'm sure you're capable of wearing such[n]high heels now...[n][w][e]-##
+[s]Скажите мне... Что я должен сделать, чтобы[n]ты стала моей?[n][w][e]
+##-[s]Tell me... What do I have to do to make[n]you mine?[n][w][e]-##
+[s]Я всегда была желанной. Быть на другой[n]стороне - это так ново для меня...[n][w][e]
+##-[s]I've always been the desired one.[n]Being on the other side is so new[n]to me...[n][w][e]-##
+
+[msg MSG_1A_NPC006_03_G_2 [Man]]
+[s]Моя Афродита, которая продолжает меня[n]раздражать... Ты гораздо более грешен, чем[n]я.[n][w][e]
+##-[s]My Aphrodite that continues to vex me...[n]You're ever so much more sinful than I.[n][w][e]-##
+[s]Пожалуйста, надень эти каблуки и наступи[n]на... Нет, нет, я ничего не сказал.[n][w][e]
+##-[s]Please, wear those heels and step on--[n]...No no, I said nothing.[n][w][e]-##
+
+[msg MSG_3A_NPC006_01 [Woman]]
+[s]Шиш... В тебе все еще нет ни капли обаяния.[n][w][e]
+##-[s]Sheesh... You still don't have[n]an ounce of charm.[n][w][e]-##
+[s]Прошел уже год... Ты могла бы стать более[n]очаровательной, нет?[n][w][e]
+##-[s]It's been a year... You could have[n]made yourself more charming, no?[n][w][e]-##
+[s]Ну что ж...[n][w][e]
+##-[s]Oh well...[n][w][e]-##
+
+[msg MSG_3A_NPC006_02 [Woman]]
+[s]*вздох* Разве там нет какого-нибудь[n]Прекрасного принца...?[n][w][e]
+##-[s]*sigh*[n]Isn't there some Prince Charming[n]out there...?[n][w][e]-##
+[s]А? Вы?[n][w][e]
+##-[s]Huh? You?[n][w][e]-##
+[s]Извините, но я пас. Ты в некотором роде[n]очарователен, но ты еще не дошел до конца.[n][w][e]
+##-[s]Sorry, but I'll pass. You're kinda[n]charming, but you're not all the[n]way there yet.[n][w][e]-##
+
+[msg MSG_3A_NPC006_03 [Woman]]
+[s]Ваше очарование ослепительно! Вы, должно[n]быть, очень усердно работали над этим.[n][w][e]
+##-[s]Your charm is dazzling! You must've[n]worked really hard at it.[n][w][e]-##
+[s]Просто глядя в твои глаза, мне хочется[n]последовать за тобой на край света...[n][w][e]
+##-[s]Just looking into your eyes makes[n]me want to follow you to the ends[n]of the earth...[n][w][e]-##
+
+[msg MSG_3A_NPC006_01_G [Man]]
+[s]Боже мой, ты снова пришел, чтобы быть моим[n]возлюбленным?[n][w][e]
+##-[s]My, have you come around again to be[n]moun amour?[n][w][e]-##
+[s]...А? Нет? Я понимаю... Несчастный.[n][w][e]
+##-[s]...Eh? No? I see... Unfortunate.[n][w][e]-##
+[s]Впрочем, приходи в любое время, если[n]передумаешь.[n][w][e]
+##-[s]Come by anytime if you change your[n]mind, though.[n][w][e]-##
+[s]Ваше очарование может извлечь выгоду из[n]контакта с моей переполняющей красотой.[n][w][e]
+##-[s]Your charm may benefit from contact[n]with my overflowing beauty.[n][w][e]-##
+
+[msg MSG_3A_NPC006_02_G [Man]]
+[s]В прошлом году я искал свою Афродиту...[n][w][e]
+##-[s]I've searched for my Aphrodite this[n]past year...[n][w][e]-##
+[s]Но никто никогда не казался таким красивым,[n]как я.[n][w][e]
+##-[s]But no one as beautiful as I ever[n]appeared.[n][w][e]-##
+[s]...Ты не так уж плох, но тебе не хватает[n]чего-то неопределимого, чтобы превзойти мою[n]красоту.[n][w][e]
+##-[s]...You're not so bad, but you lack[n]something indefinable to overcome[n]my beauty.[n][w][e]-##
+
+[msg MSG_3A_NPC006_03_G [Man]]
+[s]...Привет тебе, моя Афродита. Можно мне на[n]минутку взять тебя за руку?[n][w][e]
+##-[s]...Hello there, my Aphrodite.[n]May I have your hand for a moment?[n][w][e]-##
+[s]> Получено [f 2 5 3 65535 0]![n][w][e]
+##-[s]> Obtained [f 2 5 3 65535 0]![n][w][e]-##
+[s]Хех, не нужно скромничать. Ты это заслужил.[n][w][e]
+##-[s]Heh, there's no need to be modest.[n]You've earned this.[n][w][e]-##
+[s]Это слеза, пролитая небесной девой из[n]зависти к твоей красоте...[n][w][e]
+##-[s]It's a tear shed by a heavenly maiden[n]in envy of your beauty...[n][w][e]-##
+
+[msg MSG_3A_NPC006_03_G_2 [Man]]
+[s]Теперь я очень хорошо понимаю, что[n]завоевать твое сердце будет нелегко...[n][w][e]
+##-[s]I understand very well now that it[n]won't be easy to win your heart...[n][w][e]-##
+[s]Но я наконец понял, что это к лучшему.[n][w][e]
+##-[s]But I've finally realized that that's[n]for the best.[n][w][e]-##
+[s]Разочарование от невозможности достичь[n]чего-то на моих глазах...[n][w][e]
+##-[s]The frustration of not being able to[n]attain something before my eyes...[n][w][e]-##
+[s]Это должно быть болезненно, но в этом есть[n]определенная сладость...[n][w][e]
+##-[s]It should be painful, but it has a[n]certain sweetness to it...[n][w][e]-##
+
+[msg SCR_MSG_BAR_001 [Bartender]]
+[s]Эй, что ты будешь... Э-э, не слишком ли ты[n]молод, чтобы быть здесь?[n][w][e]
+##-[s]Hey, what'll ya ha-- Uh, aren't you[n]a little too young to be in here?[n][w][e]-##
+[s]...Ну, я думаю, ты можешь остаться. Просто[n]не создавай никаких проблем, хорошо?[n][w][e]
+##-[s]...Well, I guess you can stay. Just[n]don't cause any trouble, alright?[n][w][e]-##
+
+[msg DRINK_START [Bartender]]
+[s]А? Хочешь выпить? Ты несовершеннолетняя, не[n]так ли?[n][w][e]
+##-[s]Huh? You want a drink? You're underage,[n]aren't you?[n][w][e]-##
+[s]...О, это для монаха наверху, да?[n][w][e]
+##-[s]...Oh, it's for the monk upstairs, huh?[n][w][e]-##
+[s]Я понимаю. В таком случае, как насчет того,[n]чтобы сначала оказать мне услугу?.. Не[n]могли бы вы обойти и принять у всех заказ?[n][w][e]
+##-[s]I see. In that case, how 'bout you do[n]me a favor first... Can you go around[n]and take everyone's order?[n][w][e]-##
+[s]Если ты это сделаешь, я принесу ему выпить[n]наверх.[n][w][e]
+##-[s]If you do that, I'll bring a drink[n]upstairs for him.[n][w][e]-##
+
+[msg DRINK_NOTYET [Bartender]]
+[s]Ты получил заказ от всех?[n][w][e]
+##-[s]Did you get everyone's order?[n][w][e]-##
+
+[msg DRINK_PERSON_1 [Bartender]]
+[s]Тогда чего же хочет девушка, стоящая у[n]столика в глубине зала?[n][w][e]
+##-[s]Then what does the girl standing by the[n]table in the back want?[n][w][e]-##
+
+[sel DRINK_PERSON_1_SEL top]
+[s]Яблочный мартини[e]
+##-[s]Apple martini[e]-##
+[s]Кровавая Мэри[e]
+##-[s]Bloody Mary[e]-##
+[s]Чай Улун[e]
+##-[s]Oolong tea[e]-##
+[s]Маргарита[e]
+##-[s]Margarita[e]-##
+
+[msg DRINK_KIITERU [Bartender]]
+[s]Хмм... Я понимаю.[n][w][e]
+##-[s]Hmm... I see.[n][w][e]-##
+
+[msg DRINK_PERSON_2 [Bartender]]
+[s]Тогда как насчет той девушки рядом с ней?[n][w][e]
+##-[s]Then how about that girl next[n]to her?[n][w][e]-##
+
+[sel DRINK_PERSON_2_SEL top]
+[s]Темное пиво[e]
+##-[s]Dark beer[e]-##
+[s]Кровавая Мэри[e]
+##-[s]Bloody Mary[e]-##
+[s]Отвертка[e]
+##-[s]Screwdriver[e]-##
+[s]Маргарита[e]
+##-[s]Margarita[e]-##
+
+[msg DRINK_PERSON_3 [Bartender]]
+[s]А девушка посреди зала?[n][w][e]
+##-[s]And the girl in the middle of the floor?[n][w][e]-##
+
+[msg DRINK_PERSON_3_G [Bartender]]
+[s]Тогда человек в центре зала?[n][w][e]
+##-[s]Then the person in the center of[n]the floor?[n][w][e]-##
+
+[sel DRINK_PERSON_3_SEL top]
+[s]Яблочный мартини[e]
+##-[s]Apple martini[e]-##
+[s]Отвертка[e]
+##-[s]Screwdriver[e]-##
+[s]Маргарита[e]
+##-[s]Margarita[e]-##
+[s]Чай Улун[e]
+##-[s]Oolong tea[e]-##
+
+[msg DRINK_PERSON_4 [Bartender]]
+[s]А как насчет того парня вон там...? Чего он[n]хочет?[n][w][e]
+##-[s]What about the guy over there...?[n]What does he want?[n][w][e]-##
+
+[sel DRINK_PERSON_4_SEL top]
+[s]Имбирный эль[e]
+##-[s]Ginger ale[e]-##
+[s]Отвертка[e]
+##-[s]Screwdriver[e]-##
+[s]Маргарита[e]
+##-[s]Margarita[e]-##
+[s]Чай Улун[e]
+##-[s]Oolong tea[e]-##
+
+[msg DRINK_ORDERSTOP [Bartender]]
+[s]Хорошо, я начну с напитков.[n][w][e]
+##-[s]Alright, I'll start on the drinks.[n][w][e]-##
+
+[msg DRINK_SEIKAI [Bartender]]
+[s]Эй, ты все правильно сделал по порядку.[n]Спасибо за вашу помощь.[n][w][e]
+##-[s]Hey, you got everyone's order right.[n]Thanks for your help.[n][w][e]-##
+[s]...Итак, чего же ты хотел?[n][w][e]
+##-[s]...So, what was it you wanted?[n][w][e]-##
+[s]Ах да, выпивка для того монаха наверху.[n]Держу пари, он снова хочет бренди.[n][w][e]
+##-[s]Oh yeah, a drink for that monk upstairs.[n]I bet he wants brandy again.[n][w][e]-##
+[s]Хорошо, я отнесу это ему.[n][w][e]
+##-[s]Okay, I'll take it to him.[n][w][e]-##
+
+[msg DRINK_MATIGAI [Bartender]]
+[s]Эй, ты напортачил с заказом![n][w][e]
+##-[s]Hey, ya screwed up the order![n][w][e]-##
+[s]Да ладно, я пытаюсь вести здесь бизнес...[n][w][e]
+##-[s]Come on, I'm tryin' to run a business[n]here...[n][w][e]-##
+[s]*вздох* Я знаю, что ты все еще ребенок, но[n]будь внимателен, ладно?[n][w][e]
+##-[s]*sigh* I know you're still a kid,[n]but pay attention, will ya?[n][w][e]-##
+[s]...А теперь иди и спроси их еще раз.[n][w][e]
+##-[s]...Now, go ask them again.[n][w][e]-##
+
+[msg DRINK_MATIGAI_G [Bartender]]
+[s]Эй, ты напортачил с заказом![n][w][e]
+##-[s]Hey, ya screwed up the order![n][w][e]-##
+[s]Да ладно, я пытаюсь вести здесь бизнес...[n][w][e]
+##-[s]Come on, I'm tryin' to run a business[n]here...[n][w][e]-##
+[s]Я тот, кто должен подавать жалобы, так что[n]постарайтесь быть более осторожным.[n][w][e]
+##-[s]I'm the one who has to field the[n]complaints, so try to be more careful.[n][w][e]-##
+[s]...А теперь иди и спроси их еще раз.[n][w][e]
+##-[s]...Now, go ask them again.[n][w][e]-##
+
+[msg DRINK_NOTYET_2 [Bartender]]
+[s]Эй, не задерживайся слишком долго![n][w][e]
+##-[s]Hey, don't take too long![n][w][e]-##
+
+[msg DRINK_NOTYET_2_G [Bartender]]
+[s]Давай, продолжай.[n][w][e]
+##-[s]C'mon, go on.[n][w][e]-##
+
+[msg BAR_002 [Bartender]]
+[s]Эй, что ты будешь... О, это ты.[n][w][e]
+##-[s]Hey, what'll ya ha-- Oh, it's you.[n][w][e]-##
+[s]Может быть, я найму тебя, если нам[n]понадобится дополнительная помощь.[n][w][e]
+##-[s]Maybe I'll hire you if we need an extra[n]hand.[n][w][e]-##
+
+[msg BAR_003 [Bartender]]
+[s]Эй, что ты будешь... О, это ты.[n][w][e]
+##-[s]Hey, what'll ya ha-- Oh, it's you.[n][w][e]-##
+[s]Этого монаха сегодня здесь нет. Обычно он[n]не приходит по понедельникам, вторникам и[n]средам.[n][w][e]
+##-[s]That monk's not here today. He doesn't[n]usually come on Mondays, Tuesdays and[n]Wednesdays.[n][w][e]-##
+[s]Он, должно быть, занят проведением[n]богослужений или чем-то в этом роде.[n][w][e]
+##-[s]He must be busy holding services or[n]something.[n][w][e]-##
+
+[msg COMMU_BAR_KYAKU_A [Woman]]
+[s]Хм, как я себя чувствую...?[n][w][e]
+##-[s]Hmm, what do I feel like...?[n][w][e]-##
+[s]Черт, я должен был проверить свой гороскоп[n]на сегодняшний счастливый напиток.[n][w][e]
+##-[s]Darn, I should've checked my horoscope[n]for today's lucky drink.[n][w][e]-##
+[s]Может быть, мне стоит заказать яблочный[n]мартини?..[n][w][e]
+##-[s]Maybe I should get an apple martini...[n][w][e]-##
+[s]Нет, слишком кисло. Чай Улун мог бы быть[n]хорошим...[n][w][e]
+##-[s]Nah, too sour. An Oolong tea might be[n]good...[n][w][e]-##
+[s]Подожди, это довольно скучно. Я буду[n]"Кровавую Мэри".[n][w][e]
+##-[s]Wait, that's kinda boring. I'll have[n]a Bloody Mary.[n][w][e]-##
+
+[msg COMMU_BAR_KYAKU_B [Woman]]
+[s]Ты выполняешь приказы?[n][w][e]
+##-[s]You're taking orders?[n][w][e]-##
+[s]Ладно, эм... Можно мне маргариту?[n][w][e]
+##-[s]Okay, um... Can I have a margarita?[n][w][e]-##
+
+[msg COMMU_BAR_KYAKU_C [Man]]
+[s]А? Чего ты хочешь?[n][w][e]
+##-[s]Huh? Whaddya want?[n][w][e]-##
+[s]О, ты выполняешь приказы... В таком случае,[n]принеси мне имбирный эль.[n][w][e]
+##-[s]Oh, you're taking orders... In that case,[n]bring me a ginger ale.[n][w][e]-##
+[s]Подожди, я передумал. Сделай из этого чай[n]Улун.[n][w][e]
+##-[s]Wait, I changed my mind. Make that an[n]Oolong tea.[n][w][e]-##
+
+[msg COMMU_BAR_KYAKU_C_G [Man]]
+[s]О, ты что, клеишься ко мне? Нет...?[n][w][e]
+##-[s]Ooh, are you hitting on me? No...?[n][w][e]-##
+[s]О, ты выполняешь приказы... В таком случае,[n]принеси мне имбирный эль.[n][w][e]
+##-[s]Oh, you're taking orders... In that case,[n]bring me a ginger ale.[n][w][e]-##
+[s]Подожди, я передумал. Сделай из этого чай[n]Улун.[n][w][e]
+##-[s]Wait, I changed my mind. Make that an[n]Oolong tea.[n][w][e]-##
+
+[msg COMMU_BAR_KYAKU_D [Woman]]
+[s]Ты пытаешься приударить за мной? ...О, ты[n]просто выполняешь приказы. * вздох*[n][w][e]
+##-[s]Are you trying to hit on me? ...Oh,[n]you're just taking orders. *sigh*[n][w][e]-##
+[s]...У меня будет отвертка.[n][w][e]
+##-[s]...I'll have a Screwdriver.[n][w][e]-##
+[s]Подожди, сделай это "маргаритой".[n][w][e]
+##-[s]Wait, make that a margarita.[n][w][e]-##
+[s]Эм, вычеркни это. Следуйте моему[n]первоначальному заказу.[n][w][e]
+##-[s]Um, scratch that. Go with my original[n]order.[n][w][e]-##
+
+[msg COMMU_BAR_KYAKU_D_G [Woman]]
+[s]А? Ты выполняешь приказы?[n][w][e]
+##-[s]Huh? You're taking orders?[n][w][e]-##
+[s]...У меня будет отвертка.[n][w][e]
+##-[s]...I'll have a Screwdriver.[n][w][e]-##
+[s]Подожди, сделай это "маргаритой".[n][w][e]
+##-[s]Wait, make that a margarita.[n][w][e]-##
+[s]Эм, вычеркни это. Следуйте моему[n]первоначальному заказу.[n][w][e]
+##-[s]Um, scratch that. Go with my original[n]order.[n][w][e]-##
+
+[msg COMMU_BAR_KYAKU_E [Man]]
+[s]Эй, как дела? ...Ты выполняешь приказы, да?[n][w][e]
+##-[s]Hey, how's it goin'? ...You're takin'[n]orders, huh?[n][w][e]-##
+[s]Я буду разливное пиво.[n][w][e]
+##-[s]I'll have a draft beer.[n][w][e]-##
+[s]Подожди, вообще-то, я думаю, что вместо[n]этого выпью маргариту.[n][w][e]
+##-[s]Wait, actually, I think I'll have a[n]margarita instead.[n][w][e]-##
+[s]Неважно, сделай это отверткой. Я буду пить,[n]пока не упаду![n][w][e]
+##-[s]Never mind, make that a Screwdriver.[n]I'll drink till I drop![n][w][e]-##
+
+[msg COMMU_BAR_KYAKU_F [Woman]]
+[s]А? Я тебя не слышу![n][w][e]
+##-[s]Huh? I can't hear you![n][w][e]-##
+[s]Хочу ли я чего-нибудь выпить? Хм...[n][w][e]
+##-[s]Do I want something to drink? Um...[n][w][e]-##
+[s]Я бы прямо сейчас мог пойти выпить чаю[n]Улун![n][w][e]
+##-[s]I could totally go for an Oolong tea[n]right now![n][w][e]-##
+[s]Нет, подожди! Отвертка![n][w][e]
+##-[s]No, wait! A Screwdriver![n][w][e]-##
+
+[msg VINCENT_01_01]
+[s]> Мужчина лет тридцати пьет в одиночестве.[n][w][e]
+##-[s]> A man in his thirties is drinking[n]by himself.[n][w][e]-##
+
+[msg VINCENT_01_02 [Man Drinking Alone]]
+[s]Хм...? Ищешь кого-нибудь, с кем можно[n]поболтать?[n][w][e]
+##-[s]Hm...? Lookin' for someone to chat with?[n][w][e]-##
+[s]Хорошо, расскажи мне... тебе когда-нибудь[n]снился сон, в котором ты падаешь?[n][w][e]
+##-[s]Alright, tell me... have you ever had[n]a dream where you're falling?[n][w][e]-##
+
+[sel VINCENT_01_02_SEL top]
+[s]"да."[e]
+##-[s]"Yes."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+[s]"Я не знаю".[e]
+##-[s]"I don't know."[e]-##
+
+[sel VINCENT_01_02_SEL_G top]
+[s]"да."[e]
+##-[s]"Yes."[e]-##
+[s]"нет.[e]
+##-[s]"No.[e]-##
+[s]"Я не знаю".[e]
+##-[s]"I don't know."[e]-##
+
+[msg VINCENT_01_03_01 [Man Drinking Alone]]
+[s]Действительно?[n][w][e]
+##-[s]Really?[n][w][e]-##
+[s]Интересно, правдивы ли слухи о том, что[n]если ты не проснешься до того, как[n]достигнешь дна, то умрешь.[n][w][e]
+##-[s]I wonder if it's true about the rumor[n]that if you don't wake up before you[n]hit bottom, you die.[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Забудь об этом, извини. Не стоило поднимать[n]эту тему.[n][w][e]
+##-[s]Forget it, sorry. Shouldn't have[n]brought it up.[n][w][e]-##
+
+[msg VINCENT_01_03_02 [Man Drinking Alone]]
+[s]...Хм. Ну, по правде говоря...[n][w][e]
+##-[s]...Hmm. Well, to tell the truth...[n][w][e]-##
+[s]До меня дошел слух, что если ты не[n]проснешься до того, как достигнешь дна, то[n]умрешь...[n][w][e]
+##-[s]I heard a rumor that if you don't wake[n]up before you hit bottom, you die...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Забудь об этом, извини. Не стоило поднимать[n]эту тему.[n][w][e]
+##-[s]Forget it, sorry. Shouldn't have[n]brought it up.[n][w][e]-##
+
+[msg VINCENT_01_03_03 [Man Drinking Alone]]
+[s]Ну, большинство снов ты забываешь, как[n]только просыпаешься. Дело в том, что...[n][w][e]
+##-[s]Well, most dreams you forget once you[n]wake up. The thing is...[n][w][e]-##
+[s]До меня дошел слух, что если ты не[n]проснешься до того, как достигнешь дна, то[n]умрешь...[n][w][e]
+##-[s]I heard a rumor that if you don't wake[n]up before you hit bottom, you die...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Забудь об этом, извини. Не стоило поднимать[n]эту тему.[n][w][e]
+##-[s]Forget it, sorry. Shouldn't have[n]brought it up.[n][w][e]-##
+
+[msg VINCENT_01_04 [Man Drinking Alone]]
+[s]В последнее время мне снятся самые странные[n]сны... Боже, что со мной не так...?[n][w][e]
+##-[s]I've been having the weirdest dreams[n]lately... Geez, what's wrong with me...?[n][w][e]-##
+
+[msg VINCENT_01_05 [Man Drinking Alone]]
+[s]Почему бы тебе не отправиться домой вместо[n]того, чтобы бродить по такому месту, как[n]это?[n][w][e]
+##-[s]Why don't you head on home instead of[n]wandering around a place like this?[n][w][e]-##
+[s]Ну, ты же ребенок... Я тоже всегда хотел[n]посмотреть, каким было это место, когда я[n]был в твоем возрасте. Хаха...[n][w][e]
+##-[s]Well, you're a kid... I always wanted[n]to see what this kind of place was like[n]when I was your age, too. Haha...[n][w][e]-##
+
+[msg VINCENT_02_01]
+[s]> Мужчина, которого вы видели раньше, снова[n]пьет в одиночестве...[n][w][e]
+##-[s]> The man you've seen before is drinking[n]alone again...[n][w][e]-##
+
+[msg VINCENT_02_02 [Man Drinking Alone]]
+[s]Хм... Как дела?[n][w][e]
+##-[s]Hm... What's up?[n][w][e]-##
+[s]Ах... Да, я помню тебя по прошлому.[n][w][e]
+##-[s]Ah... Yeah, I remember you from before.[n][w][e]-##
+
+[msg VINCENT_02_03 [Man Drinking Alone]]
+[s]Ты... учишься в средней школе, верно?[n][w][e]
+##-[s]You're... in high school, right?[n][w][e]-##
+[s]Я помню то время. Заставляет меня немного[n]завидовать тебе.[n][w][e]
+##-[s]I remember back then. Makes me a little[n]jealous of you.[n][w][e]-##
+[s]...Итак, ты с кем-нибудь встречаешься?[n][w][e]
+##-[s]...So, are you seeing anyone?[n][w][e]-##
+
+[sel VINCENT_02_03_SEL top]
+[s]"да."[e]
+##-[s]"Yes."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+[s]"Трудно сказать..."[e]
+##-[s]"Hard to say..."[e]-##
+
+[sel VINCENT_02_03_SEL_G top]
+[s]"да."[e]
+##-[s]"Yes."[e]-##
+[s]"нет."[e]
+##-[s]"No."[e]-##
+[s]"Трудно сказать..."[e]
+##-[s]"Hard to say..."[e]-##
+
+[msg VINCENT_02_04_01 [Man Drinking Alone]]
+[s]Хех, рад за тебя. В том возрасте все было[n]намного проще...[n][w][e]
+##-[s]Heh, good for you. Things were so much[n]simpler at that age...[n][w][e]-##
+[s]Как только ты станешь таким же старым, как[n]я, любовь потеряет часть своего блеска.[n]Романтикой становится все труднее[n]наслаждаться.[n][w][e]
+##-[s]Once you get to be as old as me, love[n]loses some of its luster. Romance gets[n]harder to enjoy.[n][w][e]-##
+[s]Так что наслаждайтесь этим, пока еще[n]можете... Ха-ха, это ведь не мое дело, не[n]так ли?[n][w][e]
+##-[s]So enjoy it while you still can...[n]Haha, this isn't any of my business,[n]is it?[n][w][e]-##
+
+[msg VINCENT_02_04_02 [Man Drinking Alone]]
+[s]Слишком плохой. Что ж, я уверен, ты найдешь[n]кого-нибудь. Ты все еще молода.[n][w][e]
+##-[s]Too bad. Well, I'm sure you'll find[n]someone. You're still young.[n][w][e]-##
+[s]В том возрасте все было намного проще...[n][w][e]
+##-[s]Things were so much simpler at[n]that age...[n][w][e]-##
+[s]Как только ты станешь таким же старым, как[n]я, любовь потеряет часть своего блеска.[n]Романтикой становится все труднее[n]наслаждаться.[n][w][e]
+##-[s]Once you get to be as old as me, love[n]loses some of its luster. Romance gets[n]harder to enjoy.[n][w][e]-##
+[s]Так что наслаждайтесь этим, пока еще[n]можете... Ха-ха, это ведь не мое дело, не[n]так ли?[n][w][e]
+##-[s]So enjoy it while you still can...[n]Haha, this isn't any of my business,[n]is it?[n][w][e]-##
+
+[msg VINCENT_02_04_03 [Man Drinking Alone]]
+[s]Ха! Переживаешь трудный период, да? Все в[n]порядке. Ты еще достаточно молод, чтобы[n]время от времени быть безответственным.[n][w][e]
+##-[s]Hah! Going through a rough patch, eh?[n]It's fine. You're still young enough[n]to be irresponsible now and then.[n][w][e]-##
+[s]В том возрасте все было намного проще...[n][w][e]
+##-[s]Things were so much simpler at[n]that age...[n][w][e]-##
+[s]Как только ты станешь таким же старым, как[n]я, любовь потеряет часть своего блеска.[n]Романтикой становится все труднее[n]наслаждаться.[n][w][e]
+##-[s]Once you get to be as old as me, love[n]loses some of its luster. Romance gets[n]harder to enjoy.[n][w][e]-##
+[s]Так что наслаждайтесь этим, пока еще[n]можете... Ха-ха, это ведь не мое дело, не[n]так ли?[n][w][e]
+##-[s]So enjoy it while you still can...[n]Haha, this isn't any of my business,[n]is it?[n][w][e]-##
+
+[msg VINCENT_02_05 [Man Drinking Alone]]
+[s]...Но серьезно, я тебе завидую.[n][w][e]
+##-[s]...But seriously, I envy you.[n][w][e]-##
+[s]Теперь я взрослая. Я не могу быть такой[n]беззаботной, как раньше.[n][w][e]
+##-[s]I'm an adult now. I can't be as carefree[n]as I used to.[n][w][e]-##
+[s]У меня есть девушка, и мы застряли друг с[n]другом, но мне конец, если все будет идти[n]так, как идет.[n][w][e]
+##-[s]I've got a girlfriend, and we're stuck[n]with each other, but I'm screwed if[n]things keep going the way they are.[n][w][e]-##
+[s]*вздох* Я не из тех, кто женится.[n][w][e]
+##-[s]*sigh* I'm not the marrying kind.[n][w][e]-##
+[s]Ты отказываешься от такой большой части[n]своей свободы, как только становишься[n]взрослым... Хех.[n][w][e]
+##-[s]You give up so much of your freedom[n]once you become an adult... Heh.[n][w][e]-##
+
+[msg VINCENT_02_06 [Man Drinking Alone]]
+[s]*вздох* Я не из тех, кто женится.[n][w][e]
+##-[s]*sigh* I'm not the marrying kind.[n][w][e]-##
+[s]Ты отказываешься от такой большой части[n]своей свободы, как только становишься[n]взрослым... Хех.[n][w][e]
+##-[s]You give up so much of your freedom[n]once you become an adult... Heh.[n][w][e]-##
+
+[msg VINCENT_03_01]
+[s]> Мужчина, которого вы видели раньше, снова[n]пьет в одиночестве...[n][w][e]
+##-[s]> The man you've seen before is drinking[n]alone again...[n][w][e]-##
+
+[msg VINCENT_03_02 [Man Drinking Alone]]
+[s]Хм...?[n][w][e]
+##-[s]Hm...?[n][w][e]-##
+[s]Привет, это ты. Кажется, мы часто[n]сталкиваемся друг с другом в последнее[n]время, да?[n][w][e]
+##-[s]Hey, it's you. We seem to run into each[n]other a lot lately, huh?[n][w][e]-##
+
+[msg VINCENT_03_03]
+[s]> Похоже, сегодня он в сильной депрессии...[n][w][e]
+##-[s]> He seems to be severely depressed[n]today...[n][w][e]-##
+
+[msg VINCENT_03_04 [Man Drinking Alone]]
+[s]...В последнее время я не выспался ни одной[n]спокойной ночи. Мне все время снится этот[n]странный сон...[n][w][e]
+##-[s]...I haven't had a single good night's[n]sleep lately. I keep having this weird[n]dream...[n][w][e]-##
+[s]*вздох* И я точно знаю, почему...[n][w][e]
+##-[s]*sigh* And I know exactly why...[n][w][e]-##
+[s]Это было просто под влиянием момента, но...[n][w][e]
+##-[s]It was just a spur-of-the-moment thing,[n]but...[n][w][e]-##
+[s]Я... Ну, я изменил своей девушке.[n][w][e]
+##-[s]I... Well, I cheated on my girl.[n][w][e]-##
+[s]Помнишь, тот, с которым я сказал, что[n]застрял? Она... возможно, беременна.[n][w][e]
+##-[s]You remember, the one I said I was[n]stuck with? She... might be pregnant.[n][w][e]-##
+[s]Я начинаю чувствовать себя виноватым из-за[n]всего этого. Ха-ха... Глупо, не так ли?[n][w][e]
+##-[s]I'm starting to feel guilty about the[n]whole thing. Haha... stupid, isn't it?[n][w][e]-##
+
+[msg VINCENT_03_05 [Man Drinking Alone]]
+[s]О том странном сне, который мне снился... Я[n]почти уверен, что знаю, в чем причина[n]этого.[n][w][e]
+##-[s]About that weird dream I've been having...[n]I'm pretty sure I know what's causing it.[n][w][e]-##
+[s]Это было просто под влиянием момента, но...[n][w][e]
+##-[s]It was just a spur-of-the-moment thing,[n]but...[n][w][e]-##
+[s]Я... Ну, я изменил своей девушке.[n][w][e]
+##-[s]I... Well, I cheated on my girl.[n][w][e]-##
+[s]Помнишь, тот, с которым я сказал, что[n]застрял? Она... возможно, беременна.[n][w][e]
+##-[s]You remember, the one I said I was[n]stuck with? She... might be pregnant.[n][w][e]-##
+[s]Я начинаю чувствовать себя виноватым из-за[n]всего этого. Ха-ха... Глупо, не так ли?[n][w][e]
+##-[s]I'm starting to feel guilty about the[n]whole thing. Haha... stupid, isn't it?[n][w][e]-##
+
+[msg VINCENT_03_06 [Man Drinking Alone]]
+[s]Эй...[n][w][e]
+##-[s]Hey...[n][w][e]-##
+[s]Вы думаете, что это непростительный грех -[n]обманывать кого-то? Или это просто[n]человеческая природа?[n][w][e]
+##-[s]Do you think it's an unforgiveable sin[n]to cheat on someone? Or is it just[n]human nature?[n][w][e]-##
+
+[sel VINCENT_03_07_SEL top]
+[s]"Я думаю, что это грех".[e]
+##-[s]"I think it's a sin."[e]-##
+[s]"Я думаю, что это естественно".[e]
+##-[s]"I think it's natural."[e]-##
+[s]"Я не знаю".[e]
+##-[s]"I don't know."[e]-##
+
+[sel VINCENT_03_07_SEL_G top]
+[s]"Я думаю, что это грех".[e]
+##-[s]"I think it's a sin."[e]-##
+[s]"Я думаю, что это естественно".[e]
+##-[s]"I think it's natural."[e]-##
+[s]"Я не знаю".[e]
+##-[s]"I don't know."[e]-##
+
+[msg VINCENT_03_08_01 [Man Drinking Alone]]
+[s]Вот что я подумал... Хаха.[n][w][e]
+##-[s]That's what I thought... Haha.[n][w][e]-##
+[s]Извините, что задал такой глупый вопрос.[n][w][e]
+##-[s]Sorry for asking such a stupid question.[n][w][e]-##
+
+[msg VINCENT_03_08_02 [Man Drinking Alone]]
+[s]Так что, ты пытаешься заставить меня[n]чувствовать себя лучше? Или... у тебя есть[n]хоть какое-то представление о том, через[n]что я прохожу?[n][w][e]
+##-[s]So, what, are you trying to make me[n]feel better? Or... do you have some[n]idea of what I'm going through?[n][w][e]-##
+[s]Может быть, ты думаешь, что знаешь. Разница[n]между нами, однако, в том, насколько тяжелы[n]последствия...[n][w][e]
+##-[s]Maybe you think you do. The difference[n]between us, though, is how heavy the[n]consequences are...[n][w][e]-##
+[s]Не заканчивай так, как я... Ладно?[n][w][e]
+##-[s]Don't end up like me... Okay?[n][w][e]-##
+
+[msg VINCENT_03_08_02G [Man Drinking Alone]]
+[s]Ух ты, не такого ответа я ожидал от[n]девушки.[n][w][e]
+##-[s]Wow, not the answer I was expecting[n]from a girl.[n][w][e]-##
+[s]Но последствия того, что парень моего[n]возраста изменяет своему партнеру, более[n]серьезны, чем для старшеклассника...[n][w][e]
+##-[s]But the consequences of a guy my age[n]cheating on his partner are more severe[n]than for a high schooler...[n][w][e]-##
+
+[msg VINCENT_03_08_03 [Man Drinking Alone]]
+[s]Я не удивлен... Хаха.[n][w][e]
+##-[s]I'm not surprised... Haha.[n][w][e]-##
+[s]В любом случае, это не то, о чем парень[n]моего возраста должен спрашивать[n]старшеклассника...[n][w][e]
+##-[s]It's not something a guy my age should[n]be asking a high schooler anyway...[n][w][e]-##
+
+[msg VINCENT_03_09 [Man Drinking Alone]]
+[s]Когда я был молод... Я думал, что моя жизнь[n]только начинается.[n][w][e]
+##-[s]When I was young... I thought my life[n]was just beginning.[n][w][e]-##
+[s]Но теперь мне за тридцать, и, казалось, у[n]меня никогда ничего не получалось.[n][w][e]
+##-[s]But now I'm past thirty, and nothing[n]ever seemed to have got going for me.[n][w][e]-##
+
+[msg VINCENT_03_10 [Man Drinking Alone]]
+[s]С каждым днем все больше одного и того же[n]предательства и исполнения моих нелепых[n]желаний...[n][w][e]
+##-[s]Every day is more of the same betrayal[n]and acting on my ridiculous desires...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Интересно, приснится ли мне сегодня снова[n]этот сон?..[n][w][e]
+##-[s]I wonder if I'm gonna have that dream[n]again tonight...[n][w][e]-##
+[s]Дерьмо! Я чувствую, что схожу с ума...[n][w][e]
+##-[s]Shit! I feel like I'm going insane...[n][w][e]-##
+
+[msg VINCENT_04_01]
+[s]> Мужчина, которого вы видели раньше, снова[n]пьет в одиночестве...[n][w][e]
+##-[s]> The man you've seen before is drinking[n]alone again...[n][w][e]-##
+
+[msg VINCENT_04_02 [Man Drinking Alone]]
+[s]Хм...? О, это ты... Мы снова встретились.[n][w][e]
+##-[s]Hm...? Oh, it's you... We meet again.[n][w][e]-##
+[s]Похоже, у меня нет другого выбора, кроме[n]как жениться сейчас.[n][w][e]
+##-[s]Looks like I've got no other choice[n]but to get married now.[n][w][e]-##
+[s]...Тест на беременность моей подруги был[n]положительным.[n][w][e]
+##-[s]...My girlfriend's pregnancy test was[n]positive.[n][w][e]-##
+
+[sel VINCENT_04_03_SEL top]
+[s]"Поздравляю".[e]
+##-[s]"Congratulations."[e]-##
+[s]"......"[e]
+##-[s]"......"[e]-##
+
+[sel VINCENT_04_03_SEL_G top]
+[s]"Поздравляю!"[e]
+##-[s]"Congratulations!"[e]-##
+[s]"......"[e]
+##-[s]"......"[e]-##
+
+[msg VINCENT_04_04_01 [Man Drinking Alone]]
+[s]...Хм? О-О, да.[n][w][e]
+##-[s]...Hm? O-Oh, yeah.[n][w][e]-##
+[s]Это то, что обычно говорят люди, а?..[n]Хаха...[n][w][e]
+##-[s]That's what people would normally say,[n]huh...? Haha...[n][w][e]-##
+[s]В любом случае...[n][w][e]
+##-[s]Anyway...[n][w][e]-##
+
+[msg VINCENT_04_04_02 [Man Drinking Alone]]
+[s]Неужели я кажусь менее чем взволнованным?[n][w][e]
+##-[s]Do I seem less than thrilled?[n][w][e]-##
+[s]Что ж, теперь уже слишком поздно...[n][w][e]
+##-[s]Well, it's too late now...[n][w][e]-##
+[s]В любом случае...[n][w][e]
+##-[s]Anyway...[n][w][e]-##
+
+[msg VINCENT_04_05]
+[s]> Мужчина смотрит на тебя.[n][w][e]
+##-[s]> The man looks over at you.[n][w][e]-##
+
+[msg VINCENT_04_06 [Man Drinking Alone]]
+[s][bup 78 163 0 0]...Эй, могу я спросить тебя кое о чем?[n][w][e]
+##-[s][bup 78 163 0 0]...Hey, can I ask you something?[n][w][e]-##
+[s]Я рассказывал тебе о странном сне, который[n]мне снился, верно?..[n][w][e]
+##-[s]I told you about the bizarre dream I've[n]been having, right...?[n][w][e]-##
+[s]Вы думаете... Мне продолжают сниться эти[n]кошмары, потому что я предал свою[n]девушку...?[n][w][e]
+##-[s]Do you think... I keep having those[n]nightmares because I betrayed my[n]girlfriend...?[n][w][e]-##
+
+[sel VINCENT_04_07_SEL top]
+[s]"Возможно".[e]
+##-[s]"Probably."[e]-##
+[s]"Я так не думаю".[e]
+##-[s]"I don't think so."[e]-##
+[s]"Понятия не имею".[e]
+##-[s]"No clue."[e]-##
+
+[sel VINCENT_04_07_SEL_G top]
+[s]"Я так думаю!"[e]
+##-[s]"I think so!"[e]-##
+[s]"Я так не думаю".[e]
+##-[s]"I don't think so."[e]-##
+[s]"Понятия не имею..."[e]
+##-[s]"No idea..."[e]-##
+
+[msg VINCENT_04_08_01 [Man Drinking Alone]]
+[s][bup 78 162 0 0]Хаха... Значит, ты тоже так думаешь.[n][w][e]
+##-[s][bup 78 162 0 0]Haha... So you think so, too.[n][w][e]-##
+[s][bup 78 163 0 0]Я сам навлек это на себя, да?[n][w][e]
+##-[s][bup 78 163 0 0]I brought this on myself, huh?[n][w][e]-##
+
+[msg VINCENT_04_08_02 [Man Drinking Alone]]
+[s][bup 78 162 0 0]Ха-ха, глупо думать, что между этим и моими[n]мечтами есть какая-то связь, не так ли?[n][w][e]
+##-[s][bup 78 162 0 0]Haha, it's stupid to think there'd be[n]some connection between that and my[n]dreams, isn't it?[n][w][e]-##
+[s]Поначалу я тоже так думал...[n][w][e]
+##-[s]That's what I thought too, at first...[n][w][e]-##
+[s][bup 78 163 0 0]Но я знаю, что это невероятно...[n][w][e]
+##-[s][bup 78 163 0 0]But I know it's unbelievable...[n][w][e]-##
+
+[msg VINCENT_04_08_03 [Man Drinking Alone]]
+[s][bup 78 162 0 0]Хаха... Да, я так и думал, что ты это[n]скажешь.[n][w][e]
+##-[s][bup 78 162 0 0]Haha... Yeah, I thought you'd say that.[n][w][e]-##
+[s][bup 78 161 0 0]Извините, что задаю вам такие странные[n]вопросы. Держу пари, ты думаешь, что я[n]сумасшедший.[n][w][e]
+##-[s][bup 78 161 0 0]Sorry to ask you such weird questions.[n]I bet you think I'm crazy.[n][w][e]-##
+[s]Но в последнее время со мной происходит[n]слишком много вещей, которые я не могу[n]объяснить...[n][w][e]
+##-[s]But there's been too many things[n]happening to me lately that I can't[n]explain...[n][w][e]-##
+
+[msg VINCENT_04_09 [Man Drinking Alone]]
+[s][bup 78 161 0 0]Этот слух о смерти, если ты не проснешься[n]до того, как достигнешь дна во сне...[n][w][e]
+##-[s][bup 78 161 0 0]That rumor about dying if you don't[n]wake up before hitting bottom in[n]a dream...[n][w][e]-##
+[s]Мне интересно, умру ли я в конце концов во[n]сне...[n][w][e]
+##-[s]I'm wondering if I'm gonna die in my[n]dreams eventually...[n][w][e]-##
+
+[msg VINCENT_04_10 [Man Drinking Alone]]
+[s][bup 78 161 0 0]...О, извините. Я продолжаю говорить[n]безумно звучащие вещи, не так ли?[n][w][e]
+##-[s][bup 78 161 0 0]...Oh, sorry. I keep saying crazy-[n]sounding stuff, don't I?[n][w][e]-##
+[s]Эй, запомни меня, хорошо?[n][w][e]
+##-[s]Hey, remember me, okay?[n][w][e]-##
+[s]Наверное, это последний раз, когда я смогу[n]так свободно пить...[n][w][e]
+##-[s]This is probably the last time I'll be[n]able to drink freely like this...[n][w][e]-##
+[s][bup 78 162 0 0]Если я когда-нибудь увижу тебя снова, я[n]расскажу тебе больше о своей истории.[n][w][e]
+##-[s][bup 78 162 0 0]If I ever see you again, I'll tell you[n]more of my story.[n][w][e]-##
+[s]...Конечно, это, вероятно, будет иметь[n][clr 2]ничего общего с твоими проблемами[clr 0].[n][w][e]
+##-[s]...Of course, it'll probably have[n][clr 2]nothing to do with your problems[clr 0].[n][w][e]-##
+[s][bup 78 161 0 0]...Чувак, я действительно на тебя[n]обрушился.[n][w][e]
+##-[s][bup 78 161 0 0]...Man, I really unloaded on you.[n][w][e]-##
+[s]Обычно именно взрослый должен выслушивать[n]проблемы старшеклассника...[n][w][e]
+##-[s]Normally, it's the adult who should[n]be listening to the high-schooler's[n]problems...[n][w][e]-##
+[s][bup 78 163 0 0]Я чувствую себя грязью...[n][w][e]
+##-[s][bup 78 163 0 0]I feel like dirt...[n][w][e]-##
+[s]...Будьте осторожны на обратном пути домой.[n]Там полно всяких чудаков.[n][w][e]
+##-[s]...Be careful on your way back home.[n]There's a lot of weirdos out there.[n][w][e]-##
+[s][bup 78 162 0 0]...Увидимся.[n][w][e]
+##-[s][bup 78 162 0 0]...See ya.[n][w][e]-##
+
+[msg VINCENT_04_11 [Man Drinking Alone]]
+[s][bup 78 161 0 0]Я действительно взвалил на тебя всю[n]ответственность.[n][w][e]
+##-[s][bup 78 161 0 0]I really unloaded on you.[n][w][e]-##
+[s]Обычно именно взрослый должен выслушивать[n]проблемы старшеклассника...[n][w][e]
+##-[s]Normally, it's the adult who should[n]be listening to the high-schooler's[n]problems...[n][w][e]-##
+[s][bup 78 163 0 0]Я чувствую себя грязью...[n][w][e]
+##-[s][bup 78 163 0 0]I feel like dirt...[n][w][e]-##
+[s]...Будьте осторожны на обратном пути домой.[n]Там полно всяких чудаков.[n][w][e]
+##-[s]...Be careful on your way back home.[n]There's a lot of weirdos out there.[n][w][e]-##
+[s][bup 78 162 0 0]...Увидимся.[n][w][e]
+##-[s][bup 78 162 0 0]...See ya.[n][w][e]-##
+

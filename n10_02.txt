@@ -1,0 +1,422 @@
+[msg MSG_000 [Weak Cat]]
+[s]...Мяу...[n][w][e]
+##-[s]...Mew...[n][w][e]-##
+
+[msg MSG_001]
+[s]> Он, кажется, очень слаб. Может быть, он[n]голоден...[n][w][e]
+##-[s]> He seems to be very weak.[n]Maybe he's hungry...[n][w][e]-##
+[s]> Отдай ему [f 4 4 3 0 1432]?[n][w][e]
+##-[s]> Give him [f 4 4 3 0 1432]?[n][w][e]-##
+
+[sel SEL_001 top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[msg MSG_DONT_HAVE]
+[s]> Он, кажется, очень слаб. Может быть, он[n]голоден...[n][w][e]
+##-[s]> He seems to be very weak.[n]Maybe he's hungry...[n][w][e]-##
+[s]> Вы хотите покормить его, но у вас нет[n]ничего, что он мог бы съесть...[n][w][e]
+##-[s]> You want to feed him, but you[n]don't have anything he might eat...[n][w][e]-##
+
+[msg MSG_002 [Weak Cat]]
+[s]...Мяу.[n][w][e]
+##-[s]...Mew.[n][w][e]-##
+[s]> Кот медленно начал есть.[n][f 1 4][e]
+##-[s]> The cat slowly started to eat.[n][f 1 4][e]-##
+
+[msg MSG_003 [Weak Cat]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Мяу... Мяууу...[n][w][e]
+##-[s]Meow... Meowww...[n][w][e]-##
+
+[msg MSG_003_2 [Contented Cat]]
+[s]Мяооооууууууууу!![n][w][e]
+##-[s]Meoooowwww!![n][w][e]-##
+
+[msg MSG_004_1]
+[s]> Кот громко мурлычет. Он кажется[n]счастливым.[n][w][e]
+##-[s]> The cat is purring loudly.[n]It seems happy.[n][w][e]-##
+[s]> Если вы вернетесь и покормите его еще[n]немного, он может стать здоровее...[n][w][e]
+##-[s]> If you come back and feed it[n]some more, it might get healthier...[n][w][e]-##
+
+[msg MSG_004_2]
+[s]> Кот громко мурлычет. Он кажется[n]счастливым.[n][w][e]
+##-[s]> The cat is purring loudly.[n]It seems happy.[n][w][e]-##
+[s]> Мурлыканье кажется громче, чем на днях.[n][w][e]
+##-[s]> The purring seems louder than[n]it did the other day.[n][w][e]-##
+[s]> Если вы вернетесь и покормите его еще[n]немного, он может стать здоровее...[n][w][e]
+##-[s]> If you come back and feed it[n]some more, it might get healthier...[n][w][e]-##
+
+[msg MSG_004_3]
+[s]> Кот громко мурлычет. Он кажется[n]счастливым.[n][w][e]
+##-[s]> The cat is purring loudly.[n]It seems happy.[n][w][e]-##
+[s]> Теперь его глаза более открыты.[n][w][e]
+##-[s]> His eyes are more open now.[n][w][e]-##
+[s]> Если вы вернетесь и покормите его еще[n]немного, он может стать здоровее...[n][w][e]
+##-[s]> If you come back and feed it[n]some more, it might get healthier...[n][w][e]-##
+
+[msg MSG_004_4 [Contented Cat]]
+[s]Мяуууууу![n][w][e]
+##-[s]Meooooww![n][w][e]-##
+[s]> Кот громко мурлычет. Он кажется[n]счастливым.[n][f 1 4][e]
+##-[s]> The cat is purring loudly.[n]It seems happy.[n][f 1 4][e]-##
+[s]> Кошка, похоже, восстановила всю свою[n]энергию, съев кошачий корм.[n][f 1 4][e]
+##-[s]> The cat seems to have regained all[n]its energy by eating the cat food.[n][f 1 4][e]-##
+[s]> Похоже, тебе больше не нужно будет[n]приходить и кормить его.[n][f 1 4][e]
+##-[s]> It seems you won't need to come[n]and feed it anymore.[n][f 1 4][e]-##
+
+[msg MSG_005 [Energetic Cat]]
+[s]Мяуууууууууу![n][w][e]
+##-[s]Meeoooooww![n][w][e]-##
+[s]> Ослабленная кошка съела весь кошачий корм[n]и восстановила свою прежнюю энергию.[n][f 1 4][e]
+##-[s]> The weakened cat has eaten all[n]the cat food, and has regained its[n]former energy.[n][f 1 4][e]-##
+[s]> Он тоже, кажется, вырос...[n][f 1 4][e]
+##-[s]> It also seems to have grown...[n][f 1 4][e]-##
+[s]> Похоже, тебе больше не нужно будет[n]приходить и кормить его.[n][f 1 4][e]
+##-[s]> It seems you won't need to come[n]and feed it anymore.[n][f 1 4][e]-##
+
+[msg MSG_4A_NPC001_01 [Punk]]
+[s]Кто вы такие, сладкие задницы?[n][w][e]
+##-[s]Who are you candy-asses?[n][w][e]-##
+
+[msg MSG_4A_NPC001_01_G [Punk]]
+[s]Что такая цыпочка, как ты, здесь делает?[n][w][e]
+##-[s]What's a chick like you doing here?[n][w][e]-##
+
+[msg MSG_4A_NPC002_01 [Punk]]
+[s]Вы, говнюки, лучше следите за собой. Если[n]мы будем видеть твое лицо здесь слишком[n]часто, кто-нибудь пострадает.[n][w][e]
+##-[s]You dipshits better watch yourselves.[n]If we see your face around here too[n]often, someone's gonna get hurt.[n][w][e]-##
+
+[msg MSG_4A_NPC002_01_G [Punk]]
+[s]Тебе лучше убраться отсюда, пока ты не[n]вляпался в какое-нибудь глубокое дерьмо.[n][w][e]
+##-[s]You better get outta here before you get[n]into some deep shit.[n][w][e]-##
+
+[msg MSG_4B_NPC001_01 [Punk]]
+[s]Синдром апатии? Ах да, тот жук, который[n]ходит в наши дни.[n][w][e]
+##-[s]Apathy Syndrome? Oh yeah, that bug[n]that's going around these days.[n][w][e]-##
+[s]У отца моего приятеля есть такая штука...[n][w][e]
+##-[s]My buddy's dad has that thing...[n][w][e]-##
+[s]Я не знаю, что сказать бедному сукиному[n]сыну.[n][w][e]
+##-[s]I dunno what to tell the poor son[n]of a bitch.[n][w][e]-##
+
+[msg MSG_4B_NPC002_01 [Punk]]
+[s]Когда у тебя такая апатия, ты как будто[n]слишком ленив, чтобы что-то делать, верно?[n][w][e]
+##-[s]When you have that apathy thing,[n]it's like you're too lazy to do[n]anything, right?[n][w][e]-##
+[s]Так что же с ними такое, что они не могут[n]обратиться к врачу?[n][w][e]
+##-[s]So what's the matter with them that[n]they can't see a doctor?[n][w][e]-##
+[s]Я имею в виду, я никогда не учился в[n]медицинской школе, но попробовать стоит.[n][w][e]
+##-[s]I mean, I ain't never been to med[n]school, but it's gotta be worth[n]a try.[n][w][e]-##
+
+[msg MSG_5A_NPC001_01 [Punk]]
+[s]Иногда тупицы Геккоу приходят сюда в форме.[n]Им лучше переодеться, пока им не надрали[n]задницы.[n][w][e]
+##-[s]Sometimes Gekkou dumbasses come here[n]in uniform. They better change clothes[n]before they get their asses kicked.[n][w][e]-##
+[s]Кто, черт возьми, носит форму в свои[n]выходные? Нам лучше без таких унылых[n]мешков, как этот.[n][w][e]
+##-[s]Who the hell wears a uniform on their[n]days off? We're better off without[n]sad-sacks like that.[n][w][e]-##
+
+[msg MSG_5A_NPC002_01 [Punk]]
+[s]Я думаю, что это нормально - приходить сюда[n]в своей форме, если это, например, после[n]школы или днем.[n][w][e]
+##-[s]I guess it's all right to come here[n]in your uniform, if it's like,[n]after school or during the day.[n][w][e]-##
+[s]Но ночью? Ты, должно быть, издеваешься надо[n]мной![n][w][e]
+##-[s]But at night? You've gotta be[n]shitting me![n][w][e]-##
+[s]Чувака собьют с ног за то, что он так[n]оделся.[n][w][e]
+##-[s]Dude's gonna get knocked flat for[n]dressing like that.[n][w][e]-##
+[s]Вы могли бы сказать, что это нарушение[n]нашего, как бы это сказать, дресс-кода.[n]Тебе тоже лучше быть начеку.[n][w][e]
+##-[s]Y'might say it's in violation of[n]our, whaddayacallit, dress code.[n]You better look out, too.[n][w][e]-##
+
+[msg MSG_5B_NPC001_01 [Punk]]
+[s]Я помню одного чувака, который отличался от[n]остальных...[n][w][e]
+##-[s]I remember this one dude who was[n]different from the rest...[n][w][e]-##
+[s]Он приходит сюда, но никогда ни с кем не[n]разговаривает. Он просто сидит в своем[n]маленьком уголке.[n][w][e]
+##-[s]He comes here, but he never talks to[n]anybody. He just sits in his little[n]corner.[n][w][e]-##
+[s]Интересно, что он задумал.[n][w][e]
+##-[s]I wonder what he's up to.[n][w][e]-##
+
+[msg MSG_5B_NPC002_01 [Punk]]
+[s]Я слышал, как люди говорили, что этот чувак[n]сильнее, чем кажется.[n][w][e]
+##-[s]I heard people sayin' that dude is[n]stronger than he looks.[n][w][e]-##
+[s]Он одиночка. Его одежда немного старая, но[n]он классный.[n][w][e]
+##-[s]He's a loner. His clothes are kinda[n]old, but he's cool.[n][w][e]-##
+
+[msg MSG_6A_NPC001_01 [Punk]]
+[s]Я слышал, что здесь произошло какое-то[n]дерьмо, наши парни против придурков Геккоу.[n][w][e]
+##-[s]I heard some shit went down here,[n]our guys against the Gekkou morons.[n][w][e]-##
+[s]Это был не ты... не так ли? Нет.[n][w][e]
+##-[s]That wasn't you... was it? Nah.[n][w][e]-##
+[s]Ты не выглядишь так, будто можешь так[n]сильно разозлить этих парней.[n][w][e]
+##-[s]You don't look like you could piss[n]those guys off that bad.[n][w][e]-##
+
+[msg MSG_6A_NPC001_01_G [Punk]]
+[s]Я слышал, что здесь произошло какое-то[n]дерьмо, наши парни против придурков Геккоу.[n][w][e]
+##-[s]I heard some shit went down here,[n]our guys against the Gekkou morons.[n][w][e]-##
+[s]Это был не ты... не так ли? Нет.[n][w][e]
+##-[s]That wasn't you... was it? Nah.[n][w][e]-##
+[s]Такая цыпочка, как ты, никогда бы не[n]сделала ничего настолько глупого.[n][w][e]
+##-[s]A chick like you would never do anything[n]that dumb.[n][w][e]-##
+
+[msg MSG_6A_NPC002_01 [Punk]]
+[s]Но человек... зачем каким-то конфетным[n]задницам Гекку приходить сюда?[n][w][e]
+##-[s]But man... why would some Gekkou[n]candy-asses come here?[n][w][e]-##
+[s]Студенты должны оставаться дома и делать[n]свою домашнюю работу или что-то еще.[n][w][e]
+##-[s]Students should stay at home and[n]do their homework, or whatever.[n][w][e]-##
+
+[msg MSG_6B_NPC001_01 [Punk]]
+[s]Мой приятель говорит, что эти трое чудаков[n]часто сюда приходят, но я их еще не видел.[n][w][e]
+##-[s]My buddy says these three weirdos[n]come here a lot, but I haven't seen[n]'em yet.[n][w][e]-##
+
+[msg MSG_6B_NPC002_01 [Punk]]
+[s]Мне было наплевать на них.[n][w][e]
+##-[s]I couldn't give a crap about 'em.[n][w][e]-##
+[s]Пока они не начнут никакого дерьма, они[n]будут спокойны со мной.[n][w][e]
+##-[s]Long as they don't start any shit,[n]they're cool with me.[n][w][e]-##
+
+[msg MSG_7A_NPC001_01 [Punk]]
+[s]Похоже, эти трое чудаков шныряли здесь[n]повсюду.[n][w][e]
+##-[s]Looks like those three weirdos[n]been snooping around here.[n][w][e]-##
+[s]Думаю, они пытаются услышать пикантные[n]вещи... вещи, о которых вы не узнаете в[n]обычной жизни.[n][w][e]
+##-[s]Guess they're trying to hear the[n]juicy stuff... the stuff you don't find[n]out about in normal life.[n][w][e]-##
+
+[msg MSG_7A_NPC002_01 [Punk]]
+[s]Единственная причина, по которой я здесь[n]тусуюсь, - это снимать дерьмо со своими[n]приятелями.[n][w][e]
+##-[s]The whole reason I hang out here is[n]to shoot the shit with my buds.[n][w][e]-##
+[s]Эти трое чудаков - единственные, кто[n]приходит сюда, чтобы чему-то научиться.[n][w][e]
+##-[s]Those three weirdos are the only ones[n]who come here to learn anything.[n][w][e]-##
+[s]Им нужно наладить свою жизнь...[n][w][e]
+##-[s]They need to get a life...[n][w][e]-##
+
+[msg MSG_7B_NPC001_01 [Punk]]
+[s]Я видел, как эти чудаки на днях[n]разговаривали с этим придурком Синдзиро...[n][w][e]
+##-[s]I saw those weirdos talking to that[n]asshole Shinjiro the other day...[n][w][e]-##
+[s]Они тесные или что-то в этом роде?[n][w][e]
+##-[s]They tight or something?[n][w][e]-##
+
+[msg MSG_7B_NPC002_01 [Punk]]
+[s]Я думал, что этот парень был полным[n]одиночкой... Значит, он знает этих чудаков?[n][w][e]
+##-[s]I thought that guy was a total loner...[n]So he knows those weirdos?[n][w][e]-##
+[s]Эх, как будто это имеет значение.[n][w][e]
+##-[s]Eh, like it matters.[n][w][e]-##
+[s]Мне насрать, кто с кем дружит.[n][w][e]
+##-[s]I don't give two shits who's friends[n]with who.[n][w][e]-##
+
+[msg MSG_8A_NPC001_01 [Punk]]
+[s]Ты должен проявлять хоть какое-то уважение,[n]когда разговариваешь с кем-то из моей[n]банды.[n][w][e]
+##-[s]You gotta show some respect when[n]you're talkin' to one of my gang.[n][w][e]-##
+[s]Но эти трое парней вели себя так, словно[n]это место принадлежало им.[n][w][e]
+##-[s]But those three guys were acting[n]like they owned the place.[n][w][e]-##
+[s]В чем их проблема...?[n][w][e]
+##-[s]What's their problem...?[n][w][e]-##
+
+[msg MSG_8A_NPC002_01 [Punk]]
+[s]Эти придурки просто используют нас для[n]сбора информации.[n][w][e]
+##-[s]Those assholes are just using us to[n]gather info.[n][w][e]-##
+[s]Они думают, что мы какой-то удобный[n]инструмент, который даст им сенсацию в[n]любое время, когда они попросят.[n][w][e]
+##-[s]They think we're some handy-dandy[n]tool that'll give 'em the scoop any[n]time they ask.[n][w][e]-##
+[s]С этими парнями что-то не так.[n][w][e]
+##-[s]There's something wrong with those[n]guys.[n][w][e]-##
+
+[msg MSG_8B_NPC001_01 [Punk]]
+[s]Чувак, эти трое просто не вписываются.[n][w][e]
+##-[s]Dude, those three just don't fit in.[n][w][e]-##
+[s]Я имею в виду, да, я бы не вписался, если[n]бы покинул это место. Какого черта еще я[n]был бы здесь?[n][w][e]
+##-[s]I mean, yeah, it's not like I'd fit[n]in if I left this place. The hell[n]else would I be here?[n][w][e]-##
+[s]Но чтобы парни были ЗДЕСЬ не на своем[n]месте? Черт, чувак... это полный бардак.[n][w][e]
+##-[s]But for guys to be out of place HERE?[n]Shit, dude... that's messed up.[n][w][e]-##
+
+[msg MSG_8B_NPC002_01 [Punk]]
+[s]Хмм...[n][w][e]
+##-[s]Hmm...[n][w][e]-##
+[s]Я даже представить себе не могу, чем они[n]занимаются весь день. Ты можешь?[n][w][e]
+##-[s]I can't even imagine what they do[n]with themselves all day. Can you?[n][w][e]-##
+[s]Особенно этот длинноволосый урод. Я думаю,[n]ему нравится, ему не нужно ничего, кроме[n]воздуха, чтобы выжить.[n][w][e]
+##-[s]Especially that long-haired freak.[n]I think he like, doesn't need[n]anything but air to survive.[n][w][e]-##
+
+[msg MSG_9A_NPC001_01 [Punk]]
+[s]Трио чокнутых сократилось до двух.[n][w][e]
+##-[s]The nutjob trio is down to two.[n][w][e]-##
+[s]Эта цыпочка - готическая лолита, да? Исчез,[n]не сказав ни слова.[n][w][e]
+##-[s]That gothic lolita chick, yeah?[n]Disappeared without a word.[n][w][e]-##
+
+[msg MSG_9A_NPC002_01 [Punk]]
+[s]Хотя сейчас их всего двое, они все равно[n]чокнутые.[n][w][e]
+##-[s]Even though there's just two of[n]'em now, they're still nuts.[n][w][e]-##
+[s]Особенно этот длинноволосый урод! Парень[n]меня чертовски бесит.[n][w][e]
+##-[s]Especially that long-haired freak![n]Guy pisses me the hell off.[n][w][e]-##
+
+[msg MSG_9B_NPC001_01 [Punk]]
+[s]Этот длинноволосый урод по самую задницу в[n]татуировках.[n][w][e]
+##-[s]That long-haired freak is up to his[n]ass in tats.[n][w][e]-##
+[s]Это не похоже на мое, просто одно-два[n]слова. Он держит их вверх и вниз по обеим[n]рукам.[n][w][e]
+##-[s]It's not like mine, just a word[n]or two. He's got 'em up and down[n]both arms.[n][w][e]-##
+[s]Я бы никогда не смог зайти так далеко,[n]чувак. По правде говоря, я не люблю иголки.[n][w][e]
+##-[s]I could never go that far, man.[n]Truth is, I don't like needles.[n][w][e]-##
+
+[msg MSG_9B_NPC002_01 [Punk]]
+[s]Я не в восторге от того, чтобы лезть под[n]иглу, чувак.[n][w][e]
+##-[s]I ain't crazy about going under[n]the needle, man.[n][w][e]-##
+[s]Но ты же знаешь, как это бывает... Я должен[n]его съесть, иначе я трус.[n][w][e]
+##-[s]But you know how it is... I gotta[n]have one, or else I'm chicken.[n][w][e]-##
+[s]Итак, что я сделал, я получил эту наклейку,[n]которая выглядит точно так же, как[n]татуировка.[n][w][e]
+##-[s]So what I did was, I got this sticker[n]that looks just like a tat.[n][w][e]-##
+[s]Скажешь кому-нибудь, и я надеру тебе[n]задницу, понял?[n][w][e]
+##-[s]You tell anyone and I'll beat your[n]ass, got it?[n][w][e]-##
+
+[msg MSG_10A_NPC001_01 [Punk]]
+[s]Один из тех парней из Геккоу... Да,[n]Синдзиро. Я слышал, что он попал в какой-то[n]несчастный случай и умер.[n][w][e]
+##-[s]One of those Gekkou dudes...[n]Yeah, Shinjiro. I heard he had some[n]kinda accident and died.[n][w][e]-##
+[s]Я слышал, что здесь тоже это случилось.[n][w][e]
+##-[s]I heard it happened here, too.[n][w][e]-##
+[s]Меня не очень волнует, что здесь[n]происходит, но...[n][w][e]
+##-[s]I don't care much what goes on[n]around here, but...[n][w][e]-##
+[s]Мысль о том, что это место, где он был[n]убит, действительно пугает меня.[n][w][e]
+##-[s]Thinking about this being the[n]place where he was killed[n]really creeps me out.[n][w][e]-##
+
+[msg MSG_10A_NPC001_01_G [Punk]]
+[s]Один из тех парней из Геккоу... Да,[n]Синдзиро. Я слышал, что он попал в какой-то[n]несчастный случай и чуть не умер.[n][w][e]
+##-[s]One of those Gekkou dudes...[n]Yeah, Shinjiro. I heard he had some[n]kinda accident and almost died.[n][w][e]-##
+[s]Я слышал, что здесь тоже это случилось.[n][w][e]
+##-[s]I heard it happened here, too.[n][w][e]-##
+[s]Меня не очень волнует, что здесь[n]происходит, но...[n][w][e]
+##-[s]I don't care much what goes on[n]around here, but...[n][w][e]-##
+[s]Когда я думаю о чуваке, влипающем в такое[n]серьезное дерьмо, как это... Это как-то[n]пугает меня.[n][w][e]
+##-[s]When I think about a dude getting into[n]serious shit like that... It kinda[n]creeps me out.[n][w][e]-##
+
+[msg MSG_10A_NPC002_01 [Punk]]
+[s]Йоу, это не имеет к нам никакого отношения.[n]Понял? Нас даже здесь не было.[n][w][e]
+##-[s]Yo, this had NOTHING to do with us.[n]Got it? We weren't even here.[n][w][e]-##
+[s]Я знаю, как это выглядит для таких парней,[n]как ты, снаружи...[n][w][e]
+##-[s]I know how it looks to guys like[n]you on the outside...[n][w][e]-##
+[s]Но мне наплевать на них, если они будут[n]держаться от нас подальше.[n][w][e]
+##-[s]But I don't give a shit about them[n]if they stay out of our faces.[n][w][e]-##
+
+[msg MSG_10B_NPC001_01 [Punk]]
+[s]Тот очкарик, у которого всегда с собой этот[n]атташе-кейс...[n][w][e]
+##-[s]That four-eyes who's always got that[n]attache case...[n][w][e]-##
+[s]Что, черт возьми, в этой штуке? Лучше бы[n]это не было опасно...[n][w][e]
+##-[s]What the hell's in that thing? It[n]better not be dangerous...[n][w][e]-##
+[s]Чувак, кого я обманываю? Он один из этих[n]троих... что еще это может быть?[n][w][e]
+##-[s]Man, who am I kidding? He's one of[n]those three... what else would it be?[n][w][e]-##
+
+[msg MSG_10B_NPC002_01 [Punk]]
+[s]Хм... Интересно, что у него в этом[n]чемодане?[n][w][e]
+##-[s]Huh... I wonder what's in that[n]case of his.[n][w][e]-##
+[s]Он выглядит как самый спокойный чувак из[n]них троих. Тебе так не кажется? Ты так не[n]думаешь?[n][w][e]
+##-[s]He looks like the calmest dude out[n]of the three of 'em. Don't you think?[n]Don't you think so?[n][w][e]-##
+[s]Может быть, он более нормальный, чем я о[n]нем думаю.[n][w][e]
+##-[s]Maybe he's more normal than I'm[n]giving him credit for.[n][w][e]-##
+[s]Да... в его случае, наверное, беспокоиться[n]не о чем.[n][w][e]
+##-[s]Yeah... there probably ain't anything[n]to worry about in his case.[n][w][e]-##
+
+[msg MSG_11A_NPC001_01 [Punk]]
+[s]Я больше не вижу этих двоих так часто.[n][w][e]
+##-[s]I don't see those two so much anymore.[n][w][e]-##
+[s]Слава Богу за это, чувак. Они раздражали[n]меня до чертиков.[n][w][e]
+##-[s]Thank God for that, man. They annoyed[n]the shit out of me.[n][w][e]-##
+
+[msg MSG_11A_NPC002_01 [Punk]]
+[s]Что случилось с этими парнями?[n][w][e]
+##-[s]What was up with those guys?[n][w][e]-##
+[s]Они приходят, ведут себя как кучка чудаков[n]и исчезают.[n][w][e]
+##-[s]They come in, act like a buncha[n]weirdos, and disappear.[n][w][e]-##
+[s]Я этого не понимаю.[n][w][e]
+##-[s]I don't get it.[n][w][e]-##
+
+[msg MSG_11B_NPC001_01 [Punk]]
+[s]Держу пари, что эти двое... или трое,[n]неважно... думал, что они были королевским[n]Дерьмом.[n][w][e]
+##-[s]I bet those two... or three,[n]whatever... thought they were[n]King Shit.[n][w][e]-##
+[s]То, как они расхаживали здесь с важным[n]видом, в этой перепачканной одежде...[n][w][e]
+##-[s]The way they strutted around here,[n]in those messed-up clothes...[n][w][e]-##
+[s]Они должны были так думать, иначе они[n]никогда не смогли бы делать то, что[n]делали...[n][w][e]
+##-[s]They had to think like that, or[n]they never woulda been able to do[n]the stuff they did...[n][w][e]-##
+
+[msg MSG_11B_NPC002_01 [Punk]]
+[s]Да, чувак, все дело в уверенности в себе.[n][w][e]
+##-[s]Yeah, dude, it's all about self-[n]confidence.[n][w][e]-##
+[s]Но нам больше не нужно о них беспокоиться.[n]Они давно ушли, чувак.[n][w][e]
+##-[s]But we don't gotta worry about them[n]anymore. They're long gone, dude.[n][w][e]-##
+
+[msg MSG_12A_NPC001_01 [Punk]]
+[s]Тебе не кажется, что в последнее время все[n]пошло наперекосяк, чувак?[n][w][e]
+##-[s]Don't you think stuff's been kinda[n]messed-up these days, dude?[n][w][e]-##
+[s]Как эта апатия... Это просто становится все[n]хуже и хуже.[n][w][e]
+##-[s]Like that apathy thing... It just[n]keeps getting worse and worse.[n][w][e]-##
+
+[msg MSG_12A_NPC002_01 [Punk]]
+[s]Да, я знаю, что он имеет в виду... В наши[n]дни ты никуда не можешь пойти, не увидев[n]этих странных листовок.[n][w][e]
+##-[s]Yeah, I know what he means... You[n]can't go anywhere these days without[n]seeing those weird flyers.[n][w][e]-##
+[s]Что случилось с этим дерьмом?[n][w][e]
+##-[s]What's up with that shit?[n][w][e]-##
+[s]Это не похоже ни на один знак конкурирующей[n]банды, который я знаю, но...[n][w][e]
+##-[s]It doesn't look like any rival gang[n]sign I know, but...[n][w][e]-##
+
+[msg MSG_12B_NPC001_01 [Punk]]
+[s]Мне насрать на новый год или что-то в этом[n]роде, чувак.[n][w][e]
+##-[s]I don't give a shit about the new[n]year or anything, man.[n][w][e]-##
+[s]Некоторые из этих парней поднимаются на[n]гору Фудзи по привычке, но...[n][w][e]
+##-[s]Some of those guys go up Mt. Fuji[n]out of habit, but...[n][w][e]-##
+[s]Я никогда этого не делал, и, черт возьми,[n]если когда-нибудь сделаю.[n][w][e]
+##-[s]I ain't never did that, and hell if[n]I ever will.[n][w][e]-##
+
+[msg MSG_12B_NPC002_01 [Punk]]
+[s]Некоторым парням нравится планировать все[n]это заранее... У меня даже календаря нет,[n]чувак.[n][w][e]
+##-[s]Some guys like to plan this stuff[n]in advance... I don't even own a[n]calendar, man.[n][w][e]-##
+[s]Когда мы хотим что-то сделать, мы это[n]делаем. Это наш праздник.[n][w][e]
+##-[s]When we wanna do something, we do it.[n]That's our holiday.[n][w][e]-##
+[s]Ты должен быть свободен, чувак.[n][w][e]
+##-[s]You gotta be free, dude.[n][w][e]-##
+
+[msg MSG_1A_NPC001_01 [Punk]]
+[s]Город выглядит как мусорная свалка, и я[n]слышал, что во всем виноваты эти культовые[n]чуваки.[n][w][e]
+##-[s]The town's been looking like a[n]garbage dump, and I heard it's all[n]those cult dudes' fault.[n][w][e]-##
+[s]Все это дерьмо с граффити... Я имею в виду,[n]мы тоже иногда это делаем, но...[n][w][e]
+##-[s]All that graffiti shit... I mean,[n]we do it too sometimes, but...[n][w][e]-##
+[s]Не так много! Они, должно быть, сошли с[n]ума.[n][w][e]
+##-[s]Not this much! They must be outta[n]their minds.[n][w][e]-##
+
+[msg MSG_1A_NPC002_01 [Punk]]
+[s]Это нормально, если они хотят сказать: "Те,[n]кто верит, будут спасены". Что угодно.[n][w][e]
+##-[s]It's fine if they want to say,[n]"Those who believe will be saved."[n]Whatever.[n][w][e]-##
+[s]Это меня раздражает, но, по крайней мере, я[n]понимаю, о чем они говорят.[n][w][e]
+##-[s]It bugs me, but at least I get[n]what they're saying.[n][w][e]-##
+[s]Но этот странный знак, который они[n]оставляют повсюду в этом чертовом месте,[n]совсем другой. В этом нет никакого смысла.[n][w][e]
+##-[s]But that weird sign they leave all[n]over the damn place is different.[n]It doesn't make any sense.[n][w][e]-##
+[s]Меня это пугает... Дерьмо...[n][w][e]
+##-[s]Creeps me out... Shit...[n][w][e]-##
+
+[msg MSG_1B_NPC001_01 [Punk]]
+[s]Чувак, ты видел этот журнал?! На нем лицо[n]этого урода![n][w][e]
+##-[s]Dude, did you see that magazine!?[n]It has that freak's face on it![n][w][e]-##
+[s]Знаешь, тот длинноволосый придурок, который[n]раньше приходил сюда![n][w][e]
+##-[s]You know, the long-haired asshole[n]who used to come around here![n][w][e]-##
+[s]ЭТО их чертов спаситель!?[n][w][e]
+##-[s]THAT'S their friggin' savior!?[n][w][e]-##
+[s]У этих парней нет чувства юмора... Это[n]худшая шутка, которую я когда-либо слышал.[n][w][e]
+##-[s]Those guys got no sense of humor...[n]This is the worst joke I ever heard.[n][w][e]-##
+
+[msg MSG_1B_NPC002_01 [Punk]]
+[s]Я так часто видел этого чувака, что просто[n]думал о нем как об "этом уродце"...[n][w][e]
+##-[s]I saw that dude so often, I just[n]thought of him as "that freak"...[n][w][e]-##
+[s]Но он в некотором роде спаситель?[n][w][e]
+##-[s]But he's some kinda savior?[n][w][e]-##
+[s]И за ним стоит целый культ!?[n][w][e]
+##-[s]And he's got a whole cult behind him!?[n][w][e]-##
+[s]Срань господня, чувак! В чем, черт возьми,[n]проблема каждого?[n][w][e]
+##-[s]Holy shit, dude! What the hell is[n]everyone's problem?[n][w][e]-##
+
+[msg MSG_3A_NPC001_01 [Punk]]
+[s]Ну и ну... Похоже, культ ушел в историю, и[n]этих троих чудаков отправили собирать[n]вещи...[n][w][e]
+##-[s]Well, well... Looks like the cult[n]is history, and those three weirdos[n]were sent packin'...[n][w][e]-##
+[s]Все вернулось в норму.[n][w][e]
+##-[s]Everything's back to normal.[n][w][e]-##
+[s]Мне безумно скучно, но это лучше, чем снова[n]проходить через все это дерьмо.[n][w][e]
+##-[s]I'm bored outta my skull, but it's[n]better than going through all that[n]shit again.[n][w][e]-##
+
+[msg MSG_3A_NPC002_01 [Punk]]
+[s]Чувак, ты помнишь что-нибудь, чем мы[n]занимались весь этот год?[n][w][e]
+##-[s]Dude, do you remember anything we[n]did this entire year?[n][w][e]-##
+[s]Я просто помню, как здесь было холодно...[n]Это оно.[n][w][e]
+##-[s]I just remember chilling here...[n]That's it.[n][w][e]-##
+[s]Чувак, мне неприятно это говорить, но.....[n]Какая пустая трата времени.[n][w][e]
+##-[s]Man, I hate to say this, but...[n]What a waste of time.[n][w][e]-##
+

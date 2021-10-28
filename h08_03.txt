@@ -1,0 +1,900 @@
+[msg TEST_ERROR [テスト]]
+[s]>エラー。[n][w][e]
+##-[s]>エラー。[n][w][e]-##
+[s]>…宮嘩竿И鬼赫гХ。[n][w][e]
+##-[s]>…宮嘩竿И鬼赫гХ。[n][w][e]-##
+
+[msg DONOTUSE_MESSAGE]
+[s]Пйメッセージк謁гХ。 亥ёБГж。[n][w][e]
+##-[s]Пйメッセージк謁гХ。[n]亥わёБよГж。[n][w][e]-##
+
+[sel YESNO_SEL top]
+[s]Да[e]
+##-[s]Yes[e]-##
+[s]Нет[e]
+##-[s]No[e]-##
+
+[sel ARBEIT_SEL top]
+[s]Работа неполный рабочий день[e]
+##-[s]Work part-time[e]-##
+[s]Не берите в голову[e]
+##-[s]Never mind[e]-##
+
+[sel ARBEIT_02_SEL top]
+[s]Работа неполный рабочий день[e]
+##-[s]Work part-time[e]-##
+[s]Войдите в качестве клиента[e]
+##-[s]Go in as a customer[e]-##
+[s]Не берите в голову[e]
+##-[s]Never mind[e]-##
+
+[msg JIKANTUBUSI_TUTO]
+[s]Вы можете провести время в различных[n]магазинах по всему городу.[n][w][e]
+##-[s]You can spend time in the various shops[n]around town.[n][w][e]-##
+[s]Многие магазины повысят ваше Обаяние,[n]Смелость или Академичность. Если они[n]достаточно высоки, вы можете познакомиться[n]с новыми людьми.[n][w][e]
+##-[s]Many shops will raise your Charm,[n]Courage, or Academics. If they are[n]high enough, you may meet new people.[n][w][e]-##
+
+[msg MONEY_TARINAI]
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> У тебя не было достаточно денег.[n][w][e]
+##-[s]> You didn't have enough money.[n][w][e]-##
+
+[msg RYOU_KAERU]
+[s]> На улице уже темнеет.[n][w][e]
+##-[s]> It's getting dark out.[n][w][e]-##
+[s]> Вы решаете вернуться в общежитие.[n][w][e]
+##-[s]> You decide to go back to the dorm.[n][w][e]-##
+
+[msg RYOU_KAERU_SINYA]
+[s]> Уже поздно.[n][w][e]
+##-[s]> It's getting late.[n][w][e]-##
+[s]> Вы решаете вернуться в общежитие.[n][w][e]
+##-[s]> You decide to go back to the dorm.[n][w][e]-##
+
+[msg CDSHOP_SETUMEI]
+[s]> Записи мощности...[n][w][e]
+##-[s]> Power Records...[n][w][e]-##
+[s]> В магазине продается разнообразная[n]музыка.[n][w][e]
+##-[s]> The store sells a variety of music.[n][w][e]-##
+
+[msg GAMEC_SETUMEI]
+[s]> Игровая паника...[n][w][e]
+##-[s]> Game Panic...[n][w][e]-##
+
+[msg GAMEC_MENU]
+[s]> Внутри находятся различные аркадные игры.[n][w][e]
+##-[s]> Various arcade games are inside.[n][w][e]-##
+
+[msg GAMEC_CHOICE]
+[s]> Прямо сейчас доступны следующие игры...[n][w][e]
+##-[s]> Right now, the games available[n]to play are...[n][w][e]-##
+
+[sel GAMEC_CHOICE_SEL01 top]
+[s]Печатный клуб - 1500 иен[e]
+##-[s]Print Club - 1,500 yen[e]-##
+[s]Боксерская груша - 2000 иен[e]
+##-[s]Punching Bag - 2,000 yen[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel GAMEC_CHOICE_SEL02 top]
+[s]Дом ужасов - 3000 иен[e]
+##-[s]Horror House - 3,000 yen[e]-##
+[s]Ловцы кротов - 2000 иен[e]
+##-[s]Mole Whackers - 2,000 yen[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel GAMEC_CHOICE_SEL03 top]
+[s]Игра-викторина - 3000 иен[e]
+##-[s]Quiz Game - 3,000 yen[e]-##
+[s]Счастливая удача - 2000 иен[e]
+##-[s]Lucky Fortune - 2,000 yen[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel GAMEC_CHOICE_SEL04 top]
+[s]Боксерская груша - 2000 иен[e]
+##-[s]Punching Bag - 2,000 yen[e]-##
+[s]Ловцы кротов - 2000 иен[e]
+##-[s]Mole Whackers - 2,000 yen[e]-##
+[s]Счастливая удача - 2000 иен[e]
+##-[s]Lucky Fortune - 2,000 yen[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[msg GAMEC_END_01]
+[s]> Вы проверили свое мастерство в мелочах[n]против игроков со всей Японии...[n][w][e]
+##-[s]> You tested your mastery of trivia[n]against players from all over Japan...[n][w][e]-##
+
+[msg GAKURYOKU_UP]
+[s]> Ваши академические знания выросли![n][w][e]
+##-[s]> Your Academics have increased![n][w][e]-##
+
+[msg PARAM_RANK_UP_GAKURYOKU]
+[s]> Ваши академики изменились с"[f 2 4 0]"для"[f 2 4 1]"![n][w][e]
+##-[s]> Your Academics changed from[n]"[f 2 4 0]" to "[f 2 4 1]"![n][w][e]-##
+
+[msg GAKURYOKU_MAX_NG]
+[s]> Похоже, ваши ученые могут и не подняться[n]выше.[n][w][e]
+##-[s]> It seems your Academics may not get[n]any higher.[n][w][e]-##
+[s]> Ты все еще хочешь поиграть в эту игру?[n][w][e]
+##-[s]> Do you still want to play the game?[n][w][e]-##
+
+[msg GAMEC_END_02]
+[s]> Вы показали машине, что вы можете[n]предложить.[n][w][e]
+##-[s]> You showed the machine what you[n]could dish out.[n][w][e]-##
+
+[msg TIKARA_UP]
+[s]> Сила вашей Персоны увеличилась![n][w][e]
+##-[s]> Your Persona's Strength has[n]increased![n][w][e]-##
+
+[msg PER_TIKARA_MAX_NG]
+[s]> Сила вашей Личности больше не может[n]увеличиваться...[n][w][e]
+##-[s]> Your Persona's Strength cannot[n]increase any more...[n][w][e]-##
+[s]> Ты все еще хочешь поиграть в эту игру?[n][w][e]
+##-[s]> Do you still want to play the game?[n][w][e]-##
+
+[msg GAMEC_END_03]
+[s]> Ты замочил столько коварных кротов,[n]сколько смог...[n][w][e]
+##-[s]> You whacked as many of the wily[n]moles as you could...[n][w][e]-##
+
+[msg SOKU_UP]
+[s]> Ловкость вашего Персонажа увеличилась![n][w][e]
+##-[s]> Your Persona's Agility has[n]increased![n][w][e]-##
+
+[msg PER_SOKU_MAX_NG]
+[s]> Скорость вашего Персонажа больше не может[n]увеличиваться...[n][w][e]
+##-[s]> Your Persona's Speed cannot increase[n]any more...[n][w][e]-##
+[s]> Ты все еще хочешь поиграть в эту игру?[n][w][e]
+##-[s]> Do you still want to play the game?[n][w][e]-##
+
+[msg GAMEC_END_04]
+[s]> Жуткое предсказание доктора Эдгара почти[n]сбылось...[n][w][e]
+##-[s]> Dr. Edgar's macabre fortune nearly[n]came true...[n][w][e]-##
+
+[msg MARYOKU_UP]
+[s]> Магия вашей Персоны возросла![n][w][e]
+##-[s]> Your Persona's Magic has[n]increased![n][w][e]-##
+
+[msg PER_MARYOKU_MAX_NG]
+[s]> Магия Вашей Персоны больше не может[n]увеличиваться...[n][w][e]
+##-[s]> Your Persona's Magic cannot increase[n]any more...[n][w][e]-##
+[s]> Ты все еще хочешь поиграть в эту игру?[n][w][e]
+##-[s]> Do you still want to play the game?[n][w][e]-##
+
+[msg GAMEC_END_05]
+[s]> Вы смотрели страшное видео в маленькой[n]закрытой кабинке...[n][w][e]
+##-[s]> You watched a scary video in the[n]small, enclosed booth...[n][w][e]-##
+[s]> Ты был один внутри, но почему-то[n]казалось, что с тобой был кто-то еще...[n][w][e]
+##-[s]> You were alone inside, but it[n]somehow felt like there was someone[n]else with you...[n][w][e]-##
+
+[msg YUUKI_MAX_NG]
+[s]> Похоже, ваша Храбрость не может стать[n]выше.[n][w][e]
+##-[s]> It seems your Courage may not get[n]any higher.[n][w][e]-##
+[s]> Ты все еще хочешь поиграть в эту игру?[n][w][e]
+##-[s]> Do you still want to play the game?[n][w][e]-##
+
+[msg GAMEC_END_06]
+[s]> Ваша фотография вышла фантастически![n][w][e]
+##-[s]> Your photo came out fantastically![n][w][e]-##
+[s]> Вы пробовали разные позы и графику...[n][w][e]
+##-[s]> You tried out different poses and[n]graphics...[n][w][e]-##
+
+[msg MIRYOKU_UP]
+[s]> Твое обаяние возросло.[n][w][e]
+##-[s]> Your Charm has increased.[n][w][e]-##
+
+[msg PARAM_RANK_UP_MIRYOKU]
+[s]> Твое обаяние изменилось с"[f 2 4 0]"для"[f 2 4 1]"![n][w][e]
+##-[s]> Your Charm changed from[n]"[f 2 4 0]" to "[f 2 4 1]"![n][w][e]-##
+
+[msg MIRYOKU_MAX_NG]
+[s]> Похоже, твое обаяние не может стать выше.[n][w][e]
+##-[s]> It seems your Charm may not get[n]any higher.[n][w][e]-##
+[s]> Ты все еще хочешь поиграть в эту игру?[n][w][e]
+##-[s]> Do you still want to play the game?[n][w][e]-##
+
+[msg PARAM_MAX_SUMI]
+[s]> Но, похоже, статистика не может быть[n]выше...[n][w][e]
+##-[s]> But it seems that statistic[n]can't go any higher...[n][w][e]-##
+
+[msg UFO_CATHER]
+[s]> Это игра в журавля.[n][w][e]
+##-[s]> It's a crane game.[n][w][e]-##
+[s]> Одним из призов является [f 4 4 3 0 1372].[n][w][e]
+##-[s]> One of the prizes is a [f 4 4 3 0 1372].[n][w][e]-##
+[s]> Игра стоит 200 иен. Не могли бы вы[n]попробовать?            (Деньги: [clr 1][f 2 4 1] иена[clr 0])[n][w][e]
+##-[s]> It costs 200 yen to play. Will you[n]give it a try?[n]           (Money: [clr 1][f 2 4 1] yen[clr 0])[n][w][e]-##
+
+[msg UFO_CATHER_02]
+[s]> Это игра в журавля.[n][w][e]
+##-[s]> It's a crane game.[n][w][e]-##
+[s]> Одним из призов является [f 4 4 3 0 1375].[n][w][e]
+##-[s]> One of the prizes is a [f 4 4 3 0 1375].[n][w][e]-##
+[s]> Игра стоит 200 иен. Не могли бы вы[n]попробовать?            (Деньги: [clr 1][f 2 4 1] иена[clr 0])[n][w][e]
+##-[s]> It costs 200 yen to play. Will you[n]give it a try?[n]           (Money: [clr 1][f 2 4 1] yen[clr 0])[n][w][e]-##
+
+[msg UFO_CATHER_CONTINUE]
+[s]> ...[n][w][e]
+##-[s]> ...[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> .........[n][w][e]
+##-[s]> .........[n][w][e]-##
+
+[msg UFO_CATHER_GET]
+[s]> Ты победил![n][w][e]
+##-[s]> You won![n][w][e]-##
+[s][f 4 5 1372 1]> Получено [f 4 4 3 0 1372]![n][w][e]
+##-[s][f 4 5 1372 1]> Obtained [f 4 4 3 0 1372]![n][w][e]-##
+
+[msg UFO_CATHER_GET_02]
+[s]> Ты победил![n][w][e]
+##-[s]> You won![n][w][e]-##
+[s][f 4 5 1375 1]> Получено [f 4 4 3 0 1375]![n][w][e]
+##-[s][f 4 5 1375 1]> Obtained [f 4 4 3 0 1375]![n][w][e]-##
+
+[msg UFO_CATHER_NG]
+[s]> Кран не хватал ничего, кроме воздуха.[n][w][e]
+##-[s]> The crane grabbed nothing but air.[n][w][e]-##
+
+[msg GAMEC_TUTO]
+[s]Игры, в которые вы можете играть здесь,[n]могут повысить вашу Успеваемость, Обаяние,[n]Смелость или одну из характеристик вашего[n]экипированного персонажа.[n][w][e]
+##-[s]The games you can play here can raise[n]your Academics, Charm, Courage, or one[n]of your equipped Persona's stats.[n][w][e]-##
+[s]Доступные игры будут меняться в каждый день[n]недели.[n][e]
+##-[s]The games available will change on each[n]day of the week.[n][e]-##
+
+[msg KARAOKE_ANNOUNCE]
+[s]> Мандрагора...[n][w][e]
+##-[s]> Mandragora...[n][w][e]-##
+
+[msg KARAOKE_MENU [Menu]]
+[s]"Соло в караоке - 800 иен"[n][w][e]
+##-[s]"Karaoke Solo - 800 yen"[n][w][e]-##
+[s]"Не стесняйся... Затяни его ремнем!"[n][w][e]
+##-[s]"Don't be shy... Belt it out!"[n][w][e]-##
+
+[msg KARAOKE_CONTINUE]
+[s]> ...[n][w][e]
+##-[s]> ...[n][w][e]-##
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> .........[n][w][e]
+##-[s]> .........[n][w][e]-##
+
+[msg KARAOKE_END]
+[s]> Ты пел часами и часами.[n][w][e]
+##-[s]> You sang for hours and hours.[n][w][e]-##
+
+[msg YUUKI_UP]
+[s]> Ваше мужество возросло.[n][w][e]
+##-[s]> Your Courage has increased.[n][w][e]-##
+
+[msg YUUKI_MAX_NG2]
+[s]> Похоже, ваша Храбрость не может стать[n]выше.[n][w][e]
+##-[s]> It seems your Courage may not get[n]any higher.[n][w][e]-##
+
+[msg PARAM_RANK_UP_YUUKI]
+[s]> Твое мужество изменилось с[n][f 2 4 0] к [f 2 4 1]![n][w][e]
+##-[s]> Your Courage has changed from[n][f 2 4 0] to [f 2 4 1]![n][w][e]-##
+
+[msg KARAOKE_NG]
+[s]> Работник кажется очень занятым.[n][w][e]
+##-[s]> The worker seems really busy.[n][w][e]-##
+[s][f 1 5]Работник[n]Мне ужасно жаль, но в данный момент мы[n]заняты.[n][w][e]
+##-[s][f 1 5]Worker[n]I'm terribly sorry, but we're full at[n]the moment.[n][w][e]-##
+[s]Выходные всегда такие, так что, возможно,[n]вы захотите попробовать в другое время.[n][w][e]
+##-[s]Weekends are always like this,[n]so you may want to try some other[n]time.[n][w][e]-##
+
+[msg KARAOKE_TUTO]
+[s]Пение караоке здесь в одиночку поможет вам[n]набраться смелости.[n][w][e]
+##-[s]Singing karaoke here by yourself[n]will help build up your Courage.[n][w][e]-##
+
+[msg WELCOME_VELVET_ROOM [Elizabeth]]
+[s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
+##-[s][bup 16 161 0 2]Welcome to the Velvet Room. How may I[n]help you today?[n][w][e]-##
+
+[msg WELCOME_VELVET_ROOM_FULL [Elizabeth]]
+[s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
+##-[s][bup 16 161 0 2]Welcome to the Velvet Room. How may I[n]help you today?[n][w][e]-##
+[s]Знаете ли вы, что сегодня ночью будет[n]светить полная луна?[n][w][e]
+##-[s]Are you aware that, tonight, the full[n]moon will glow?[n][w][e]-##
+
+[msg WELCOME_VELVET_ROOM_FULL_2 [Elizabeth]]
+[s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
+##-[s][bup 16 161 0 2]Welcome to the Velvet Room. How may I[n]help you today?[n][w][e]-##
+[s]Вы знаете, что луна становится полной...?[n][w][e]
+##-[s]Are you aware that the moon grows[n]full...?[n][w][e]-##
+
+[sel VELVET_SEL_1 top]
+[s]Сливающиеся Персонажи[e]
+##-[s]Fuse Personas[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel VELVET_SEL_2 top]
+[s]Сливающиеся Персонажи[e]
+##-[s]Fuse Personas[e]-##
+[s]Принять запрос[e]
+##-[s]Accept request[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel VELVET_SEL_3 top]
+[s]Сливающиеся Персонажи[e]
+##-[s]Fuse Personas[e]-##
+[s]Запросы на проверку/сборник[e]
+##-[s]Check requests/compendium[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel VELVET_SEL_4 top]
+[s]Сливающиеся Персонажи[e]
+##-[s]Fuse Personas[e]-##
+[s]Запросы на проверку/сборник[e]
+##-[s]Check requests/compendium[e]-##
+[s]Сходи на свидание с Элизабет[e]
+##-[s]Go on a date with Elizabeth[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel VELVET_SEL_5 top]
+[s]Сливающиеся Персонажи[e]
+##-[s]Fuse Personas[e]-##
+[s]Принять запрос[e]
+##-[s]Accept request[e]-##
+[s]Сходи на свидание с Элизабет[e]
+##-[s]Go on a date with Elizabeth[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[msg VELVET_ROOM [Elizabeth]]
+[s][bup 16 161 0 2]Чем я могу вам помочь?[n][w][e]
+##-[s][bup 16 161 0 2]How may I help you?[n][w][e]-##
+
+[msg GOODBAY_VELVET_ROOM [Elizabeth]]
+[s][bup 16 161 0 2]Я с нетерпением жду вашего следующего[n]визита.[n][w][e]
+##-[s][bup 16 161 0 2]I look forward to your next visit.[n][w][e]-##
+
+[msg ERI_DATE_START [Elizabeth]]
+[s][bup 16 161 0 2]Ах...[n][w][e]
+##-[s][bup 16 161 0 2]Ah...[n][w][e]-##
+[s]Я ждал тебя. Не пора ли нам в путь?[n][w][e]
+##-[s]I've been expecting you.[n]Shall we be on our way?[n][w][e]-##
+
+[msg GATTAI_TUTORIAL_01 [Igor]]
+[s][bup 15 161 0 2]А, вот и ты.[n][w][e]
+##-[s][bup 15 161 0 2]Ah, there you are.[n][w][e]-##
+[s]Добро пожаловать в Бархатную комнату.[n][w][e]
+##-[s]Welcome to the Velvet Room.[n][w][e]-##
+[s]Хорошо... Полагаю, мне пора объяснить, чем[n]я на самом деле здесь занимаюсь.[n][w][e]
+##-[s]Well... I suppose it's time for me to[n]explain what I really do here.[n][w][e]-##
+[s]Это моя работа - создавать новых[n]Персонажей.[n][w][e]
+##-[s]It is my job to create new Personas.[n][w][e]-##
+[s]Но для того, чтобы сделать это, я должен[n]соединить ваши карты Личности вместе...[n][w][e]
+##-[s]But in order to do so, I must fuse[n]your Persona cards together...[n][w][e]-##
+[s]Другими словами, я объединю их в единую[n]Личность.[n][w][e]
+##-[s]In other words, I shall merge them[n]into a single Persona.[n][w][e]-##
+[s]Количество Личностей, которых вы похоронили[n]внутри себя, составляет примерно 170...[n][w][e]
+##-[s]The number of Personas you have buried[n]within you is approximately 170...[n][w][e]-##
+[s]Мы никогда раньше не видели посетителя с[n]таким количеством возможностей...[n][w][e]
+##-[s]We've never seen a visitor with this[n]many possibilities before...[n][w][e]-##
+[s]Если вы установите [clr 2]Социальные связи[clr 0], вы[n]также можете создать еще более сильных[n]персонажей.[n][w][e]
+##-[s]If you establish [clr 2]Social Links[clr 0], you[n]may be able to create even stronger[n]Personas, too.[n][w][e]-##
+[s]Хе-хе-хе... Это должно оказаться очень[n]интересным.[n][w][e]
+##-[s]Heh heh heh... This should prove[n]veeery interesting.[n][w][e]-##
+[s]Итак, по мере накопления карточек,[n]пожалуйста, приносите их мне.[n][w][e]
+##-[s]So, as you accumulate cards, please[n]bring them to me.[n][w][e]-##
+[s]Если вы хотите узнать о слиянии персонажей[n]более подробно...[n][w][e]
+##-[s]If you wish to learn about fusing[n]Personas in more detail...[n][w][e]-##
+[s]Затем [clr 2]Поговорить[clr 0] ко мне, чтобы я мог дать[n]вам несколько советов.[n][w][e]
+##-[s]Then [clr 2]Talk[clr 0] to me so that I may give[n]you some hints.[n][w][e]-##
+
+[msg IRAI_KAIKIN_01 [Elizabeth]]
+[s][bup 16 161 0 2]Я искренне сожалею, что беспокою вас, но...[n][w][e]
+##-[s][bup 16 161 0 2]I am truly sorry to bother you, but...[n][w][e]-##
+[s]Я хочу попросить тебя о большом одолжении.[n][w][e]
+##-[s]I have a big favor to ask.[n][w][e]-##
+[s]Я искал кого-то с исключительной силой.[n][w][e]
+##-[s]I have been looking for someone with[n]exceptional strength.[n][w][e]-##
+[s]Если вы не возражаете, вы примете мои[n]просьбы?[n][w][e]
+##-[s]If you don't mind, will you accept my[n]requests?[n][w][e]-##
+[s]Некоторые из моих миссий потребуют, чтобы[n]вы [clr 2]проводи меня вокруг[clr 0], но...[n][w][e]
+##-[s]Some of my missions will require[n]you to [clr 2]escort me around[clr 0], but...[n][w][e]-##
+[s]Конечно, как только каждый запрос будет[n]выполнен, у меня будет для вас награда.[n][w][e]
+##-[s]Of course, once each request is[n]completed, I will have a reward for[n]you.[n][w][e]-##
+[s]Я с нетерпением жду вашего сотрудничества.[n][w][e]
+##-[s]I anxiously await your cooperation.[n][w][e]-##
+
+[msg IRAI_KAIKIN_02 [ ]]
+[s]> Теперь вы можете принимать просьбы[n]Элизабет![n][w][e]
+##-[s]> You are now able to accept[n]Elizabeth's requests![n][w][e]-##
+
+[msg ZENSHO_KAIKIN_01 [Elizabeth]]
+[s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Мне[n]нужно сказать тебе сегодня кое-что важное.[n][w][e]
+##-[s][bup 16 161 0 2]Welcome to the Velvet Room. I have[n]something important to tell you today.[n][w][e]-##
+[s]Меня попросили проинформировать вас о[n][clr 2]Компендиум персон[clr 0].[n][w][e]
+##-[s]I've been asked to inform you about[n]the [clr 2]Persona Compendium[clr 0].[n][w][e]-##
+[s]Вы можете зарегистрировать любого из своих[n]Персонажей в этой книге, и за определенную[n]плату вы можете отозвать их в любое время.[n][w][e]
+##-[s]You may register any of your Personas[n]in this book, and for a fee, you can[n]withdraw them at any time.[n][w][e]-##
+[s]Пожалуйста, поговорите со мной, чтобы[n]просмотреть сборник.[n][w][e]
+##-[s]Please speak with me to view the[n]compendium.[n][w][e]-##
+[s][f 1 5] [n][f 4 7 0 0 0]> Теперь вы можете использовать Сборник[n]персон![n][w][e]
+##-[s][f 1 5] [n][f 4 7 0 0 0]> You are now able to use[n]the Persona Compendium![n][w][e]-##
+
+[msg ZENSHO_KAIKIN_01_HARD [Elizabeth]]
+[s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Мне[n]нужно сказать тебе сегодня кое-что важное.[n][w][e]
+##-[s][bup 16 161 0 2]Welcome to the Velvet Room. I have[n]something important to tell you today.[n][w][e]-##
+[s]Меня попросили проинформировать вас о[n][clr 2]Компендиум персон[clr 0].[n][w][e]
+##-[s]I've been asked to inform you about[n]the [clr 2]Persona Compendium[clr 0].[n][w][e]-##
+[s]Вы можете зарегистрировать любого из своих[n]Персонажей в этой книге, и за определенную[n]плату вы можете отозвать их в любое время.[n][w][e]
+##-[s]You may register any of your Personas[n]in this book, and for a fee, you can[n]withdraw them at any time.[n][w][e]-##
+[s]Пожалуйста, поговорите со мной, чтобы[n]просмотреть сборник.[n][w][e]
+##-[s]Please speak with me to view the[n]compendium.[n][w][e]-##
+[s][f 1 5] [n][f 4 7 0 0 0]> Теперь вы можете использовать Сборник[n]персон![n][w][e]
+##-[s][f 1 5] [n][f 4 7 0 0 0]> You are now able to use[n]the Persona Compendium![n][w][e]-##
+[s][f 1 5]Элизабет[n][bup 16 161 0 2]...Похоже, вам нравится бросать вызов.[n][w][e]
+##-[s][f 1 5]Elizabeth[n][bup 16 161 0 2]...It seems you enjoy a challenge.[n][w][e]-##
+[s]Не волнуйся. Вы найдете мои гонорары за[n]снятие Персонажей очень разумными.[n][w][e]
+##-[s]Don't worry. You'll find my fees[n]for withdrawing Personas very[n]reasonable.[n][w][e]-##
+
+[msg IRAI_TUIKA [Elizabeth]]
+[s][bup 16 161 0 2]宇謂к煙УБ弧緯Р鉛餓УвЖщХ。[n][w][e]
+##-[s][bup 16 161 0 2]宇謂к煙УБ弧緯をР鉛餓УвЖりщХ。[n][w][e]-##
+
+[msg ALLCOMMU_MASTER_INFO [Igor]]
+[s][bup 15 161 0 2]Хм...?[n][w][e]
+##-[s][bup 15 161 0 2]Hm...?[n][w][e]-##
+[s]Ну и ну...[n][w][e]
+##-[s]Well, well...[n][w][e]-##
+[s]Кажется, что [clr 2]вы обнаружили каждую из[n]социальных связей[clr 0], и установил прочные[n]связи со всеми ними.[n][w][e]
+##-[s]It seems that [clr 2]you've discovered each[n]of the social links[clr 0], and formed[n]strong bonds with them all.[n][w][e]-##
+[s]Для того, чтобы так хорошо ладить со[n]столькими разными людьми... У тебя, должно[n]быть, было много лиц...[n][w][e]
+##-[s]In order to have gotten on so well,[n]with so many different people... You[n]must have worn many faces...[n][w][e]-##
+[s]Возможно, вы найдете это полезным, так как[n]вы, кажется, способны принять любое лицо...[n][w][e]
+##-[s]Perhaps you'll find this useful,[n]since you seem to be able to adopt[n]any sort of face...[n][w][e]-##
+[s]Такой шифр, как ты...[n][w][e]
+##-[s]A cipher like you...[n][w][e]-##
+[s]...должен иметь это.[n][w][e]
+##-[s]...should have this.[n][w][e]-##
+[s][f 1 5] [n][f 4 7 0 0 0]> Получено [f 4 4 3 0 1590].[n][w][e]
+##-[s][f 1 5] [n][f 4 7 0 0 0]> Obtained [f 4 4 3 0 1590].[n][w][e]-##
+[s][f 1 5]Игорь[n][bup 15 161 0 2]С его помощью вы сможете призывать... эта[n]Личность...[n][w][e]
+##-[s][f 1 5]Igor[n][bup 15 161 0 2]With it, you'll be able to summon...[n]that Persona...[n][w][e]-##
+[s]Мне интересно посмотреть, какой Образ[n]получится из этого... Я буду с нетерпением[n]ждать этого.[n][w][e]
+##-[s]I'm interested to see what kind of[n]Persona results from this... I'll be[n]looking forward to it.[n][w][e]-##
+
+[msg ERI_MAARA [Elizabeth]]
+[s][bup 16 161 0 2]О боже...[n][w][e]
+##-[s][bup 16 161 0 2]Oh, my...[n][w][e]-##
+[s]Ти-хи... Это очень по-мужски, это уж точно.[n][w][e]
+##-[s]Tee-hee... It's very manly, that[n]much is certain.[n][w][e]-##
+
+[msg BUKIGATTAI_INFO [Elizabeth]]
+[s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Мне[n]нужно сказать тебе сегодня кое-что важное.[n][w][e]
+##-[s][bup 16 161 0 2]Welcome to the Velvet Room. I have[n]something important to tell you today.[n][w][e]-##
+[s]Знакомы ли вы с [clr 2]Антикварный магазин[clr 0] в[n]торговом центре "Павловния"?[n][w][e]
+##-[s]Are you familiar with the [clr 2]Antique[n]Shop[clr 0] in Paulownia Mall?[n][w][e]-##
+[s]Они перевозят всевозможные вещи, как[n]древние сокровища, так и бесполезный хлам.[n][w][e]
+##-[s]They carry all sorts of things,[n]both ancient treasures and worthless[n]junk.[n][w][e]-##
+[s]Более того, я слышал, что владелец магазина[n]обладает интересной способностью...[n][w][e]
+##-[s]What's more, I've heard the shop's[n]owner has an interesting ability...[n][w][e]-##
+[s]Я слышал, что она может использовать[n]Персонажей для создания оружия...[n][w][e]
+##-[s]I heard she can use Personas to[n]create weapons...[n][w][e]-##
+[s]Она называет это... [clr 2]слияние оружия[clr 0].[n][w][e]
+##-[s]She calls it... [clr 2]weapon fusion[clr 0].[n][w][e]-##
+[s]Однако магазин, похоже, все еще закрыт... Я[n]с нетерпением жду его грандиозного[n]открытия.[n][w][e]
+##-[s]However, the shop seems to still[n]be closed... I look forward to its[n]grand reopening.[n][w][e]-##
+
+[msg ERI_MARGARET [Elizabeth]]
+[s][bup 16 161 0 2]Моя сестра, кажется, очень довольна...[n]Большое спасибо.[n][w][e]
+##-[s][bup 16 161 0 2]My sister seems to be very satisfied...[n]Thank you very much.[n][w][e]-##
+[s]Я уверен, что она, должно быть, причинила[n]вам много неприятностей, но, пожалуйста,[n]постарайтесь простить ее.[n][w][e]
+##-[s]I'm sure that she must have caused you[n]a great deal of trouble, but please[n]try to forgive her.[n][w][e]-##
+[s]...Тем не менее, похоже, что испытания,[n]которым подвергла тебя моя сестра, смогли[n]укрепить тебя.[n][w][e]
+##-[s]...Still, it seems that the ordeals my[n]sister presented you with have been[n]able to strengthen you.[n][w][e]-##
+[s]Я был бы рад, если бы вы могли быть[n]довольны переменами в себе.[n][w][e]
+##-[s]I'd be glad if you could be happy with[n]the changes in you.[n][w][e]-##
+
+[msg SISSOU_INFO_1ST [Elizabeth]]
+[s][bup 16 161 0 2]Прости, что звоню тебе. Сказать по[n]правде...[n][w][e]
+##-[s][bup 16 161 0 2]I'm sorry to call for you.[n]To tell the truth...[n][w][e]-##
+[s]Похоже, внутри Тартара, между 44 и 47[n]этажами, кто-то есть.[n][w][e]
+##-[s]There seems to be someone inside Tartarus,[n]between floors 44 and 47.[n][w][e]-##
+[s]Похоже, это кто-то без потенциала, кто[n]слышал голоса Теней...[n][w][e]
+##-[s]It seems to be someone without the[n]potential, who heard the voices of[n]the Shadows...[n][w][e]-##
+[s]Если их оставить в покое, они заблудятся в[n]вашем мире и могут умереть...[n][w][e]
+##-[s]If left alone, they will become Lost[n]in your world and may die...[n][w][e]-##
+[s]Пожалуйста, найдите их и верните.[n][w][e]
+##-[s]Please find them and return them.[n][w][e]-##
+
+[msg SISSOU_INFO [Elizabeth]]
+[s][bup 16 161 0 2]...Я чувствую кого-то.[n][w][e]
+##-[s][bup 16 161 0 2]...I sense someone.[n][w][e]-##
+[s]Кажется, внутри Тартара, между этажами,[n]кто-то есть [f 2 4 0] и [f 2 4 1].[n][w][e]
+##-[s]There seems to be someone inside Tartarus,[n]between floors [f 2 4 0] and [f 2 4 1].[n][w][e]-##
+[s]Для вас было бы лучше обыскать башню в[n]поисках их и найти их как можно скорее.[n][w][e]
+##-[s]It would be best for you to search the[n]tower for them and find them as soon[n]as you can.[n][w][e]-##
+
+[msg SISSOU_INFO_2 [Elizabeth]]
+[s][bup 16 161 0 2]...Я чувствую кого-то.[n][w][e]
+##-[s][bup 16 161 0 2]...I sense someone.[n][w][e]-##
+[s]Кажется, внутри Тартара, между этажами,[n]кто-то есть [f 2 4 0] и [f 2 4 1].[n][w][e]
+##-[s]There seems to be someone inside Tartarus,[n]between floors [f 2 4 0] and [f 2 4 1].[n][w][e]-##
+[s]...Нет, они, похоже, присутствуют и на[n]других этажах.[n][w][e]
+##-[s]...No, they seem to be present on other[n]floors as well.[n][w][e]-##
+[s]Для вас было бы лучше обыскать башню в[n]поисках их и найти их как можно скорее.[n][w][e]
+##-[s]It would be best for you to search the[n]tower for them and find them as soon[n]as you can.[n][w][e]-##
+
+[msg WELCOME_VEL_M_ROOM [Theo]]
+[s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
+##-[s][bup 55 161 0 2]Welcome to the Velvet Room.[n]How may I help you today?[n][w][e]-##
+
+[msg WELCOME_VEL_M_ROOM_FULL [Theo]]
+[s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
+##-[s][bup 55 161 0 2]Welcome to the Velvet Room.[n]How may I help you today?[n][w][e]-##
+[s]Луна сегодня действительно круглая. Это[n]действительно полная луна...[n][w][e]
+##-[s]The moon tonight is truly circular.[n]It is indeed a full moon...[n][w][e]-##
+
+[msg WELCOME_VEL_M_ROOM_FULL2 [Theo]]
+[s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
+##-[s][bup 55 161 0 2]Welcome to the Velvet Room.[n]How may I help you today?[n][w][e]-##
+[s]Луна медленно становится полной...[n][w][e]
+##-[s]The moon is slowly growing full...[n][w][e]-##
+
+[sel VEL_M_SEL_1 top]
+[s]Сливающиеся Персонажи[e]
+##-[s]Fuse Personas[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel VEL_M_SEL_2 top]
+[s]Сливающиеся Персонажи[e]
+##-[s]Fuse Personas[e]-##
+[s]Принять запрос[e]
+##-[s]Accept request[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel VEL_M_SEL_3 top]
+[s]Сливающиеся Персонажи[e]
+##-[s]Fuse Personas[e]-##
+[s]Запросы на проверку/сборник[e]
+##-[s]Check requests/compendium[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel VEL_M_SEL_4 top]
+[s]Сливающиеся Персонажи[e]
+##-[s]Fuse Personas[e]-##
+[s]Запросы на проверку/сборник[e]
+##-[s]Check requests/compendium[e]-##
+[s]Сходи на свидание с Тео[e]
+##-[s]Go on a date with Theo[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[sel VEL_M_SEL_5 top]
+[s]Сливающиеся Персонажи[e]
+##-[s]Fuse Personas[e]-##
+[s]Принять запрос[e]
+##-[s]Accept request[e]-##
+[s]Сходи на свидание с Тео[e]
+##-[s]Go on a date with Theo[e]-##
+[s]Покидать[e]
+##-[s]Leave[e]-##
+
+[msg VEL_M_ROOM [Theo]]
+[s][bup 55 161 0 2]Чем я могу вам помочь?[n][w][e]
+##-[s][bup 55 161 0 2]How may I help you?[n][w][e]-##
+
+[msg GOODBAY_VEL_M_ROOM [Theo]]
+[s][bup 55 161 0 2]Ну что ж... Я с нетерпением жду вашего[n]следующего визита.[n][w][e]
+##-[s][bup 55 161 0 2]Well then...[n]I look forward to your next visit.[n][w][e]-##
+
+[msg ERI_DATE_START_M [Theo]]
+[s][bup 55 161 0 2]Большое спасибо.[n][w][e]
+##-[s][bup 55 161 0 2]Thank you very much.[n][w][e]-##
+[s]Что ж, тогда, пожалуйста, показывайте[n]дорогу.[n][w][e]
+##-[s]Well then, please lead the way.[n][w][e]-##
+
+[msg IRAI_KAIKIN_01_M [Theo]]
+[s][bup 55 161 0 2]Мне жаль, что я звоню тебе в таком виде.[n][w][e]
+##-[s][bup 55 161 0 2]I'm sorry to call for you like this.[n][w][e]-##
+[s]По правде говоря... я хотел бы попросить[n]вас об одолжении.[n][w][e]
+##-[s]To tell the truth... there is a favor[n]I'd like to ask of you.[n][w][e]-##
+[s]Если вы не возражаете, не могли бы вы,[n]пожалуйста, принять мои просьбы?[n][w][e]
+##-[s]If you don't mind, would you please[n]accept my requests?[n][w][e]-##
+[s]Некоторые миссии будут особенными и[n]потребуют от вас [clr 2]проводи меня вокруг[clr 0], но...[n][w][e]
+##-[s]Some missions will be special and[n]require you to [clr 2]escort me around[clr 0], but...[n][w][e]-##
+[s]Конечно, по завершении запроса будет[n]назначено подходящее вознаграждение.[n][w][e]
+##-[s]Of course, there will be a suitable[n]reward upon completion of the request.[n][w][e]-##
+[s]Я хочу увидеть твою силу собственными[n]глазами...[n][w][e]
+##-[s]I wish to see your strength with my[n]own eyes...[n][w][e]-##
+[s]...Что ж, тогда я с нетерпением буду ждать[n]вашей помощи в этих вопросах.[n][w][e]
+##-[s]...Well then, I will anxiously await[n]your assistance in these matters.[n][w][e]-##
+
+[msg IRAI_KAIKIN_02_M [ ]]
+[s]> Теперь вы можете принимать запросы Тео![n][w][e]
+##-[s]> You are now able to accept[n]Theo's requests![n][w][e]-##
+
+[msg ZENSHO_KAIKIN_01_M [Theo]]
+[s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату. Мне[n]нужно сказать тебе сегодня кое-что важное.[n][w][e]
+##-[s][bup 55 161 0 2]Welcome to the Velvet Room.[n]I have something important to[n]tell you today.[n][w][e]-##
+[s]Мой учитель попросил меня сообщить вам о[n][clr 2]Компендиум персон[clr 0].[n][w][e]
+##-[s]My master has asked that I inform you[n]about the [clr 2]Persona Compendium[clr 0].[n][w][e]-##
+[s]Зарегистрировав Персонажей, вы можете[n]вызвать их позже, когда захотите.[n][w][e]
+##-[s]By registering Personas, you can summon[n]them later whenever you wish.[n][w][e]-##
+[s]Пожалуйста, поговорите со мной, если вы[n]хотите просмотреть Сборник.[n][w][e]
+##-[s]Please speak to me if you wish to view[n]the Compendium.[n][w][e]-##
+[s][f 1 5] [n][f 4 7 0 0 0]> Теперь вы можете использовать Сборник[n]персон![n][w][e]
+##-[s][f 1 5] [n][f 4 7 0 0 0]> You are now able to use[n]the Persona Compendium![n][w][e]-##
+
+[msg ZENSHO_KAIKIN_01_HARD_M [Theo]]
+[s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату. Мне[n]нужно сказать тебе сегодня кое-что важное.[n][w][e]
+##-[s][bup 55 161 0 2]Welcome to the Velvet Room. I have[n]something important to tell you today.[n][w][e]-##
+[s]Мой учитель попросил меня сообщить вам о[n][clr 2]Компендиум персон[clr 0].[n][w][e]
+##-[s]My master has asked that I inform you[n]about the [clr 2]Persona Compendium[clr 0].[n][w][e]-##
+[s]Зарегистрировав Персонажей, вы можете[n]вызвать их позже, когда захотите.[n][w][e]
+##-[s]By registering Personas, you can summon[n]them later whenever you wish.[n][w][e]-##
+[s]Пожалуйста, поговорите со мной, если вы[n]хотите просмотреть Сборник.[n][w][e]
+##-[s]Please speak to me if you wish to view[n]the Compendium.[n][w][e]-##
+[s][f 1 5] [n][f 4 7 0 0 0]>"ペルソナ我樺"И亥ЕГжёЯЫ![n][w][e]
+##-[s][f 1 5] [n][f 4 7 0 0 0]>"ペルソナ我樺"И亥ЕるよГжёЯЫ![n][w][e]-##
+[s][f 1 5]Тео[n][bup 55 161 0 2]...Кстати, вы, кажется, дама, которая любит[n]бросать вызов.[n][w][e]
+##-[s][f 1 5]Theo[n][bup 55 161 0 2]...By the way, you seem to be a lady[n]who enjoys a challenge.[n][w][e]-##
+[s]Соответственно, я сделал свои гонорары за[n]изъятие Персонажей из Сборника столь же[n]сложными.[n][w][e]
+##-[s]I have accordingly made my fees to[n]withdraw Personas from the Compendium[n]equally challenging.[n][w][e]-##
+
+[msg IRAI_TUIKA_M [Theo]]
+[s][bup 55 161 0 2]宇謂к煙УБ弧緯鉛餓УвЖщХ。[n][w][e]
+##-[s][bup 55 161 0 2]宇謂к煙УБ弧緯を鉛餓УвЖりщХ。[n][w][e]-##
+
+[msg ERI_MAARA_M [Theo]]
+[s][bup 55 161 0 2]......[n][w][e]
+##-[s][bup 55 161 0 2]......[n][w][e]-##
+[s]Ч-почему у тебя эта... штука...[n]оборудованный?[n][w][e]
+##-[s]Wh-Why do you have that...[n]thing... equipped?[n][w][e]-##
+[s]Это очень... неподобающе для леди.[n][w][e]
+##-[s]It's very... unladylike.[n][w][e]-##
+
+[msg ERI_MARGARET_M [Theo]]
+[s][bup 55 161 0 2]Моя сестра, кажется, очень расстроена...[n]Большое спасибо.[n][w][e]
+##-[s][bup 55 161 0 2]My sister seems to be very stasfied...[n]Thank you very much.[n][w][e]-##
+[s]Я не сомневаюсь, что вы причинили себе[n]много неприятностей, но я прошу вас,[n]пожалуйста, простить ее.[n][w][e]
+##-[s]I have no doubt that you caused you a[n]great deal of trouble, but I ask you[n]to please forgive her.[n][w][e]-##
+[s]...Тем не менее, похоже, что вы были[n]укреплены испытаниями, которые она[n]поставила перед вами.[n][w][e]
+##-[s]...Still, it would seem that you have[n]been strengthened by the ordeals she[n]set before you.[n][w][e]-##
+[s]Я был бы признателен, если бы вы проявили[n]мужество в своем росте.[n][w][e]
+##-[s]I would appreciate it if you would[n]take heart in your growth.[n][w][e]-##
+
+[msg BUKIGATTAI_INFO_M [Theo]]
+[s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату.[n]Сегодня я должен рассказать тебе кое-что[n]новое.[n][w][e]
+##-[s][bup 55 161 0 2]Welcome to the Velvet Room.[n]I have something new to tell you today.[n][w][e]-##
+[s]Знаете ли вы о [clr 2]Антикварный магазин[clr 0][n]в торговом центре "Павловния"?[n][w][e]
+##-[s]Are you aware of the [clr 2]Antique Shop[clr 0][n]at the Paulownia Mall?[n][w][e]-##
+[s]Они перевозят всевозможные вещи, как[n]древние сокровища, так и бесполезный хлам.[n][w][e]
+##-[s]They carry all sorts of things,[n]both ancient treasures and worthless[n]junk.[n][w][e]-##
+[s]Похоже, владелец магазина обладает[n]удивительными способностями.[n][w][e]
+##-[s]It seems the shop's owner has an[n]amazing ability.[n][w][e]-##
+[s]Из того, что я слышал, она может превращать[n]Персонажей в оружие...[n][w][e]
+##-[s]From what I've heard, she can change[n]Personas into weapons...[n][w][e]-##
+[s]Другими словами... это можно назвать[n][clr 2]слияние оружия[clr 0].[n][w][e]
+##-[s]In other words... it can be referred[n]to as [clr 2]weapon fusion[clr 0].[n][w][e]-##
+[s]Однако магазин, похоже, все еще закрыт...[n]Давайте подождем в ожидании его повторного[n]открытия.[n][w][e]
+##-[s]However, the shop seems to still be[n]closed... Let us wait in anticipation[n]for its reopening.[n][w][e]-##
+
+[msg SISSOU_INFO_1ST_M [Theo]]
+[s][bup 55 161 0 2]Пожалуйста, прости меня за то, что я так[n]тебе звоню. Есть кое-что, на что я должен[n]обратить ваше внимание...[n][w][e]
+##-[s][bup 55 161 0 2]Please forgive me for calling you like[n]this. There's something I must bring[n]to your attention...[n][w][e]-##
+[s]Похоже, внутри Тартара, между 44 и 47[n]этажами, кто-то есть.[n][w][e]
+##-[s]There seems to be someone inside Tartarus,[n]between floors 44 and 47.[n][w][e]-##
+[s]Похоже, это кто-то без потенциала, кто[n]слышал голоса Теней...[n][w][e]
+##-[s]It seems to be someone without the[n]potential, who heard the voices of[n]the Shadows...[n][w][e]-##
+[s]Если их оставить в покое, они заблудятся в[n]вашем мире и могут умереть...[n][w][e]
+##-[s]If left alone, they will become Lost[n]in your world and may die...[n][w][e]-##
+[s]Пожалуйста, найдите их и верните.[n][w][e]
+##-[s]Please find them and return them.[n][w][e]-##
+
+[msg SISSOU_INFO_M [Theo]]
+[s][bup 55 161 0 2]...Я чувствую кого-то.[n][w][e]
+##-[s][bup 55 161 0 2]...I sense someone.[n][w][e]-##
+[s]Кажется, внутри Тартара, между этажами,[n]кто-то есть [f 2 4 0] и [f 2 4 1].[n][w][e]
+##-[s]There seems to be someone inside Tartarus,[n]between floors [f 2 4 0] and [f 2 4 1].[n][w][e]-##
+[s]Для вас было бы лучше обыскать башню в[n]поисках их и найти их как можно скорее.[n][w][e]
+##-[s]It would be best for you to search the[n]tower for them and find them as soon[n]as you can.[n][w][e]-##
+
+[msg SISSOU_INFO_M_2 [Theo]]
+[s][bup 55 161 0 2]...Я чувствую кого-то.[n][w][e]
+##-[s][bup 55 161 0 2]...I sense someone.[n][w][e]-##
+[s]Кажется, внутри Тартара, между этажами,[n]кто-то есть [f 2 4 0] и [f 2 4 1].[n][w][e]
+##-[s]There seems to be someone inside Tartarus,[n]between floors [f 2 4 0] and [f 2 4 1].[n][w][e]-##
+[s]...Нет, они, похоже, присутствуют и на[n]других этажах.[n][w][e]
+##-[s]...No, they seem to be present on other[n]floors as well.[n][w][e]-##
+[s]Для вас было бы лучше обыскать башню в[n]поисках их и найти их как можно скорее.[n][w][e]
+##-[s]It would be best for you to search the[n]tower for them and find them as soon[n]as you can.[n][w][e]-##
+
+[msg SISSOU_INFO_HELP]
+[s]Будут времена, когда люди будут блуждать в[n]Тартаре. Если их не спасут к следующему[n]полнолунию, они погибнут.[n][w][e]
+##-[s]There will be times when people wander[n]into Tartarus. If they are not rescued[n]by the next full moon, they will be Lost.[n][w][e]-##
+[s]Информацию о пропавших без вести людях[n]можно увидеть на доске объявлений в[n]полицейском участке в торговом центре[n]Paulownia.[n][w][e]
+##-[s]Information about missing people can be[n]seen on the bulletin board at the police[n]box in Paulownia Mall.[n][w][e]-##
+[s]Если вы сможете спасти этих людей, офицер[n]Куросава вознаградит вас.[n][w][e]
+##-[s]If you can rescue these people,[n]Officer Kurosawa will reward you.[n][w][e]-##
+
+[msg COFFEE_ANNOUNCE]
+[s]> Кафе Шагала...[n][w][e]
+##-[s]> Chagall Cafe...[n][w][e]-##
+
+[msg COFFEE_MENU [Menu]]
+[s]"Кофе с феромонами - 500 иен"[n][w][e]
+##-[s]"Pheromone Coffee - 500 yen"[n][w][e]-##
+[s]"Очаровательный аромат, который включит[n]ваше очарование".[n][w][e]
+##-[s]"A charming flavor that will turn on[n]your charm."[n][w][e]-##
+
+[msg MIRYOKU_MAX_NG2]
+[s]> Похоже, твое обаяние не может стать выше.[n][w][e]
+##-[s]> It seems your Charm may not get any[n]higher.[n][w][e]-##
+[s]> Ты все еще будешь входить...?[n][w][e]
+##-[s]> Will you still enter...?[n][w][e]-##
+
+[msg MIRYOKU_MAX_NG3]
+[s]> Похоже, твое обаяние не может стать выше.[n][w][e]
+##-[s]> It seems your Charm may not get any[n]higher.[n][w][e]-##
+
+[msg HAIRU_YORU]
+[s]> Ты останешься здесь, пока не стемнеет?[n][w][e]
+##-[s]> Will you stay here until it gets[n]dark?[n][w][e]-##
+
+[msg HAIRU_SINYA]
+[s]> Ты останешься здесь до полуночи?[n][w][e]
+##-[s]> Will you stay here until midnight?[n][w][e]-##
+
+[msg COFFEE_HAIRU_YORU]
+[s]> Вы останетесь здесь в качестве клиента,[n]пока не стемнеет?[n][w][e]
+##-[s]> Will you stay here as a customer[n]until it gets dark?[n][w][e]-##
+
+[msg COFFEE_HAIRU_SINYA]
+[s]> Вы останетесь здесь в качестве клиента до[n]полуночи?[n][w][e]
+##-[s]> Will you stay here as a customer[n]until midnight?[n][w][e]-##
+
+[msg COFFEE_ARBEIT_NG]
+[s]> Похоже, вы можете работать здесь неполный[n]рабочий день только в понедельник, вторник[n]и среду.[n][w][e]
+##-[s]> It seems you can only work part-time[n]here on Monday, Tuesday, and Wednesday.[n][w][e]-##
+
+[msg COFFEE_TEIKYU]
+[s]> Сейчас здесь слишком многолюдно.[n][w][e]
+##-[s]> It's too crowded right now.[n][w][e]-##
+
+[msg COFFEE_ARBEIT_01]
+[s]> Похоже, вы можете работать здесь неполный[n]рабочий день по вечерам в понедельник,[n]вторник и среду.[n][w][e]
+##-[s]> It seems you can work part-time here on[n]Monday, Tuesday, and Wednesday nights.[n][w][e]-##
+
+[msg COFFEE_ARBEIT_02]
+[s]> Ты проведешь здесь ночь, работая неполный[n]рабочий день?[n][w][e]
+##-[s]> Will you spend the night working[n]part-time here?[n][w][e]-##
+
+[msg COFFEE_ARBEIT_TUTO]
+[s]Знаменитый кофе с феромонами может помочь[n]усилить ваше очарование.[n][w][e]
+##-[s]The famous Pheromone Coffee can help[n]increase your Charm.[n][w][e]-##
+[s]Кроме того, вы можете работать здесь[n]неполный рабочий день по вечерам в[n]понедельник, вторник и среду.[n][w][e]
+##-[s]Also, you can work part-time here on[n]Monday, Tuesday, and Wednesday nights.[n][w][e]-##
+
+[msg POLICEBOARD_STILL]
+[s]> Перед полицейской будкой есть доска[n]объявлений...[n][w][e]
+##-[s]> There is a bulletin board in front[n]of the police box...[n][w][e]-##
+[s]> Сейчас на нем ничего не опубликовано.[n][w][e]
+##-[s]> There's nothing posted on it[n]right now.[n][w][e]-##
+
+[msg POLICEBOARD_DEF]
+[s]> Это доска объявлений с подробной[n]информацией о пропавших людях.[n][w][e]
+##-[s]> It's the bulletin board with details[n]about the people who are missing.[n][w][e]-##
+
+[msg POLICEBOARD_NEW]
+[s]> ...На доске объявлений появился кто-то[n]новый![n][w][e]
+##-[s]> ...Someone new has been posted[n]on the bulletin board![n][w][e]-##
+
+[msg POLICEBOARD_FAILURE]
+[s]> В нем говорится, что пропавший человек[n]был найден с синдромом апатии. Похоже, вы[n]не спасли их вовремя...[n][w][e]
+##-[s]> It says that the person who was[n]missing was found with Apathy Syndrome.[n]It seems you didn't rescue them in time...[n][w][e]-##
+
+[msg POLICEBOARD_CONT]
+[s]> Есть пропавшие без вести люди, которых[n]еще не спасли.[n][w][e]
+##-[s]> There are missing people who haven't[n]been rescued yet.[n][w][e]-##
+
+[msg POLICEBOARD_NONE]
+[s]> Похоже, никто не пропал без вести...[n][w][e]
+##-[s]> It seems there is no one missing...[n][w][e]-##
+
+[sel POLICEBOARD_SEL top]
+[s]Посмотрите на пропавших в настоящее время[n]людей[e]
+##-[s]Look at currently missing people[e]-##
+[s]Посмотрите на прошлых пропавших людей[e]
+##-[s]Look at past missing people[e]-##
+[s]Отменить[e]
+##-[s]Cancel[e]-##
+
+[msg SISSOUTYU_NONE]
+[s]> В настоящее время пропавших без вести[n]нет.[n][w][e]
+##-[s]> There are currently no people missing.[n][w][e]-##
+
+[msg SISSOULIST_NONE]
+[s]> Пока никого не обнаружили.[n][w][e]
+##-[s]> No one has been discovered yet.[n][w][e]-##
+
+[msg POLICEBOARD_RES01]
+[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3] [n][f 2 4 4] [n][f 2 4 5] [n][w][e]
+##-[s][f 2 4 0] [n][f 2 4 1] [n][f 2 4 2] [n][f 2 4 3] [n][f 2 4 4] [n][f 2 4 5] [n][w][e]-##
+
+[msg SISSOU_ITEM [ ]]
+[s]> Получено [f 2 4 1] [f 2 5 3 13 0].[n][w][e]
+##-[s]> Obtained [f 2 4 1] [f 2 5 3 13 0].[n][w][e]-##
+
+[msg SISSOU_MONEY [ ]]
+[s]> Получено [f 2 4 0] иена.[n][w][e]
+##-[s]> Obtained [f 2 4 0] yen.[n][w][e]-##
+
+[msg SISSOU_MAIKO_MAX [Officer Kurosawa]]
+[s]Это напомнило мне... Кто-то, кто раньше жил[n]в этом городе, случайно вернулся в этот[n]район, но...[n][w][e]
+##-[s]That reminds me... Someone who used to[n]live in this town happened to be back[n]in the area, but...[n][w][e]-##
+
+[msg TEST_ERROR_2 [テスト]]
+[s]>エラー。[n][w][e]
+##-[s]>エラー。[n][w][e]-##
+[s]>…宮嘩竿И鬼赫гХ。[n][w][e]
+##-[s]>…宮嘩竿И鬼赫гХ。[n][w][e]-##
+
+[msg ACCE_ANNOUNCE]
+[s]> Магазин Исцеления, Будь Синим V...[n][w][e]
+##-[s]> Healing Shop, Be Blue V...[n][w][e]-##
+
+[msg ACCE_MENU [Menu]]
+[s]Наша специальная программа стоимостью 3000[n]иен отправит вас на небеса![n][w][e]
+##-[s]Our special 3,000-yen program will[n]send you to heaven![n][w][e]-##
+[s]Любой "Уставший" почувствует себя лучше, и[n]любой, с кем все в порядке, будет[n]чувствовать себя "Отлично"![n][w][e]
+##-[s]Anyone "Tired" will feel better, and[n]anyone all right will feel "Great"![n][w][e]-##
+
+[msg ACCE_ZEKKOUTYOU]
+[s]> Вы чувствуете себя "Великолепно" прямо[n]сейчас, так что вам это может и не[n]понадобиться...[n][w][e]
+##-[s]> You feel "Great" right now, so you[n]may not need this...[n][w][e]-##
+
+[msg ACCE_KAZE]
+[s]> В настоящее время у вас простуда...[n][w][e]
+##-[s]> You currently have a cold...[n][w][e]-##
+[s]> К сожалению, простуду здесь вылечить[n]невозможно...[n][w][e]
+##-[s]> Unfortunately, colds cannot be[n]cured here...[n][w][e]-##
+
+[msg ACCE_NG]
+[s]> Похоже, на сегодня они закрыты...[n][w][e]
+##-[s]> It seems they've closed for today...[n][w][e]-##
+
+[msg ACCE_NG_2]
+[s]> Там есть записка, в которой говорится:[n]"Сегодня мы закрыты из-за духовного[n]руководства".[n][w][e]
+##-[s]> There's a note that says, "We are[n]closed today due to a spiritual[n]guidance."[n][w][e]-##
+
+[msg ACCE_ARBEIT_01]
+[s]> Похоже, вы можете работать здесь неполный[n]рабочий день с понедельника по пятницу.[n][w][e]
+##-[s]> It seems you can work part-time here[n]Monday through Friday.[n][w][e]-##
+
+[msg ACCE_ARBEIT_02]
+[s]> Ты будешь проводить здесь свое время[n]после школы?[n][w][e]
+##-[s]> Will you spend your time after[n]school here?[n][w][e]-##
+
+[msg ACCE_ARBEIT_03]
+[s]> Ты проведешь здесь свой день?[n][w][e]
+##-[s]> Will you spend your afternoon here?[n][w][e]-##
+
+[msg ACCE_HAIRU_YORU]
+[s]> Похоже, вы можете работать здесь неполный[n]рабочий день только с понедельника по[n]пятницу.[n][w][e]
+##-[s]> It seems you can work part-time here[n]only from Monday through Friday.[n][w][e]-##
+[s]> Будете ли вы проводить здесь свое время в[n]качестве клиента, пока не стемнеет?[n][w][e]
+##-[s]> Will you spend your time here as a[n]customer until it gets dark?[n][w][e]-##
+
+[msg ACCE_ARBEIT_TUTO]
+[s]Ваше здоровье может быть улучшено здесь.[n][w][e]
+##-[s]Your health can be improved here.[n][w][e]-##
+[s]Кроме того, вы можете работать здесь[n]неполный рабочий день после школы или во[n]второй половине дня с понедельника по[n]пятницу.[n][w][e]
+##-[s]Also, you can work part-time here after[n]school or during the afternoon on[n]Monday through Friday.[n][w][e]-##
+

@@ -1,0 +1,1934 @@
+[sel TALK_SEL top]
+[s]Добавить в группу[e]
+##-[s]Add to party[e]-##
+[s]Проверить статус[e]
+##-[s]Check status[e]-##
+[s]Удалить с вечеринки[e]
+##-[s]Remove from party[e]-##
+[s]Сделано[e]
+##-[s]Done[e]-##
+
+[sel BACK_UP_SEL top]
+[s]Проверьте статус каждого[e]
+##-[s]Check everyone's status[e]-##
+[s]Направляйтесь к станции[e]
+##-[s]Head toward the station[e]-##
+[s]Подождите секунду[e]
+##-[s]Wait for a second[e]-##
+
+[sel BACK_UP_SEL_G top]
+[s]Проверьте статус каждого[e]
+##-[s]Check everyone's status[e]-##
+[s]Направляйтесь к станции[e]
+##-[s]Head toward the station[e]-##
+[s]Подождите секунду[e]
+##-[s]Wait for a second[e]-##
+
+[sel PARTY_SEL top]
+[s]Юкари[e]
+##-[s]Yukari[e]-##
+[s]Айгис[e]
+##-[s]Aigis[e]-##
+[s]Мицуру[e]
+##-[s]Mitsuru[e]-##
+[s]Дзюнпэй[e]
+##-[s]Junpei[e]-##
+[s]Акихико[e]
+##-[s]Akihiko[e]-##
+[s]Кругозор[e]
+##-[s]Ken[e]-##
+[s]Синдзиро[e]
+##-[s]Shinjiro[e]-##
+[s]Коромару[e]
+##-[s]Koromaru[e]-##
+[s]Сделано[e]
+##-[s]Done[e]-##
+
+[msg YUKARI_PARTY_IN [Yukari]]
+[s][bup 2 201 0 0]Куда делся Кен-кун?[n][w][e]
+##-[s][bup 2 201 0 0]Where did Ken-kun go?[n][w][e]-##
+
+[msg YUKARI_PARTY_IN_AFTER [Yukari]]
+[s][bup 2 201 0 0]Ладно, поехали.[n][w][e]
+##-[s][bup 2 201 0 0]Okay, let's go.[n][w][e]-##
+
+[msg YUKARI_PARTY_OUT [Yukari]]
+[s][bup 2 201 0 0]Давайте начнем![n][w][e]
+##-[s][bup 2 201 0 0]Let's get going![n][w][e]-##
+
+[msg YUKARI_PARTY_OUT_AFTER [Yukari]]
+[s][bup 2 201 0 0]Хорошо. Будь осторожен...[n][w][e]
+##-[s][bup 2 201 0 0]Okay. Be careful...[n][w][e]-##
+
+[msg YUKARI_PARTY_OVER [Yukari]]
+[s][bup 2 201 0 0]Там нет места...[n][w][e]
+##-[s][bup 2 201 0 0]There's no room...[n][w][e]-##
+
+[msg YUKARI_PARTY_CHANGE [Yukari]]
+[s][bup 2 201 0 0]С кем мне следует поменяться?[n][w][e]
+##-[s][bup 2 201 0 0]Who should I switch with?[n][w][e]-##
+
+[msg AEGIS_PARTY_IN [Aigis]]
+[s][bup 3 201 0 0]На этот раз их двое.[n][w][e]
+##-[s][bup 3 201 0 0]There are two of them this time.[n][w][e]-##
+[s]Мы должны подготовиться к трудной битве.[n][w][e]
+##-[s]We must prepare for a difficult battle.[n][w][e]-##
+
+[msg AEGIS_PARTY_IN_AFTER [Aigis]]
+[s][bup 3 201 0 0]Роджер.[n][w][e]
+##-[s][bup 3 201 0 0]Roger.[n][w][e]-##
+
+[msg AEGIS_PARTY_OUT [Aigis]]
+[s][bup 3 201 0 0]Давайте уйдем.[n][w][e]
+##-[s][bup 3 201 0 0]Let us be off.[n][w][e]-##
+
+[msg AEGIS_PARTY_OUT_AFTER [Aigis]]
+[s][bup 3 201 0 0]...Понял.[n][w][e]
+##-[s][bup 3 201 0 0]...Understood.[n][w][e]-##
+
+[msg AEGIS_PARTY_OVER [Aigis]]
+[s][bup 3 201 0 0]Для меня здесь нет места.[n][w][e]
+##-[s][bup 3 201 0 0]There is no room for me.[n][w][e]-##
+
+[msg AEGIS_PARTY_CHANGE [Aigis]]
+[s][bup 3 201 0 0]...С кем мне следует поменяться?[n][w][e]
+##-[s][bup 3 201 0 0]...With whom should I switch?[n][w][e]-##
+
+[msg MITSURU_PARTY_IN [Mitsuru]]
+[s][bup 4 201 0 0]Не беспокойтесь о людях, которые не могут[n]прийти.[n][w][e]
+##-[s][bup 4 201 0 0]Don't worry about the people who[n]can't come.[n][w][e]-##
+[s]Сосредоточьтесь на враге перед нами.[n][w][e]
+##-[s]Concentrate on the enemy in front of us.[n][w][e]-##
+
+[msg MITSURU_PARTY_IN_AFTER [Mitsuru]]
+[s][bup 4 201 0 0]Ладно, поехали.[n][w][e]
+##-[s][bup 4 201 0 0]All right, let's go.[n][w][e]-##
+
+[msg MITSURU_PARTY_OUT [Mitsuru]]
+[s][bup 4 201 0 0]Что ты делаешь?[n][w][e]
+##-[s][bup 4 201 0 0]What are you doing?[n][w][e]-##
+[s]Мы не можем ждать людей, которые, возможно,[n]не придут. Пойдем.[n][w][e]
+##-[s]We can't wait for people who might[n]not be coming. Let's go.[n][w][e]-##
+
+[msg MITSURU_PARTY_OUT_AFTER [Mitsuru]]
+[s][bup 4 201 0 0]Я понимаю... Будь осторожен.[n][w][e]
+##-[s][bup 4 201 0 0]I see... Be careful.[n][w][e]-##
+
+[msg MITSURU_PARTY_OVER [Mitsuru]]
+[s][bup 4 201 0 0]Вечеринка переполнена...[n][w][e]
+##-[s][bup 4 201 0 0]The party is full...[n][w][e]-##
+
+[msg MITSURU_PARTY_CHANGE [Mitsuru]]
+[s][bup 4 201 0 0]Кого я должен заменить?[n][w][e]
+##-[s][bup 4 201 0 0]Who should I replace?[n][w][e]-##
+
+[msg JUNPEI_PARTY_IN [Junpei]]
+[s][bup 5 201 0 0]Интересно, что задумали Кен и[n]Синдзиро-сан?..[n][w][e]
+##-[s][bup 5 201 0 0]I wonder what Ken and Shinjiro-san[n]are up to...[n][w][e]-##
+
+[msg JUNPEI_PARTY_IN_AFTER [Junpei]]
+[s][bup 5 201 0 0]Ладно, понял.[n][w][e]
+##-[s][bup 5 201 0 0]OK, gotcha.[n][w][e]-##
+
+[msg JUNPEI_PARTY_OUT [Junpei]]
+[s][bup 5 201 0 0]Давай начнем, чувак.[n][w][e]
+##-[s][bup 5 201 0 0]Let's get going, man.[n][w][e]-##
+
+[msg JUNPEI_PARTY_OUT_AFTER [Junpei]]
+[s][bup 5 201 0 0]...Хорошо.[n][w][e]
+##-[s][bup 5 201 0 0]...Fine.[n][w][e]-##
+
+[msg JUNPEI_PARTY_OVER [Junpei]]
+[s][bup 5 201 0 0]Чувак! Нет места для меня?[n][w][e]
+##-[s][bup 5 201 0 0]Dude! No space for me?[n][w][e]-##
+
+[msg JUNPEI_PARTY_CHANGE [Junpei]]
+[s][bup 5 201 0 0]С кем ты хочешь, чтобы я поменялся?[n][w][e]
+##-[s][bup 5 201 0 0]Who do you want me to switch with?[n][w][e]-##
+
+[msg HUKA_BACK_UP [Fuuka]]
+[s][bup 6 201 0 0]Вы готовы?[n][w][e]
+##-[s][bup 6 201 0 0]Are you ready?[n][w][e]-##
+
+[msg HUKA_MEMBER_INSUFFICIENC [Fuuka]]
+[s][bup 6 201 0 0]Тебе нужно больше людей, прежде чем уйти.[n]Возвращайся и организуй вечеринку.[n][w][e]
+##-[s][bup 6 201 0 0]You need more people before going.[n]Come back and set up a party.[n][w][e]-##
+
+[msg HUKA_LETS_GO [Fuuka]]
+[s][bup 6 201 0 0]Пожалуйста, будь осторожен...[n][w][e]
+##-[s][bup 6 201 0 0]Please be careful...[n][w][e]-##
+
+[msg SANADA_PARTY_IN [Akihiko]]
+[s][bup 7 201 0 0]Что случилось с Синдзи...?[n][w][e]
+##-[s][bup 7 201 0 0]What happened to Shinji...?[n][w][e]-##
+
+[msg SANADA_PARTY_IN_AFTER [Akihiko]]
+[s][bup 7 201 0 0]...Эх, ладно.[n][w][e]
+##-[s][bup 7 201 0 0]...Eh, all right.[n][w][e]-##
+
+[msg SANADA_PARTY_OUT [Akihiko]]
+[s][bup 7 201 0 0]Хм? Что случилось?[n][w][e]
+##-[s][bup 7 201 0 0]Hmm? What's wrong?[n][w][e]-##
+
+[msg SANADA_PARTY_OUT_AFTER [Akihiko]]
+[s][bup 7 201 0 0]...О, хорошо.[n][w][e]
+##-[s][bup 7 201 0 0]...Oh, all right.[n][w][e]-##
+
+[msg SANADA_PARTY_OVER [Akihiko]]
+[s][bup 7 201 0 0]...Ваша вечеринка переполнена.[n][w][e]
+##-[s][bup 7 201 0 0]...Your party's full.[n][w][e]-##
+
+[msg SANADA_PARTY_CHANGE [Akihiko]]
+[s][bup 7 201 0 0]С кем мне следует поменяться?[n][w][e]
+##-[s][bup 7 201 0 0]Who should I switch with?[n][w][e]-##
+
+[msg KOROMARU_PARTY_IN [Koromaru]]
+[s][bup 10 201 0 0]Арф![n][w][e]
+##-[s][bup 10 201 0 0]Arf![n][w][e]-##
+
+[msg KOROMARU_PARTY_IN_AFTER [Koromaru]]
+[s][bup 10 201 0 0]Арф! Арф![n][w][e]
+##-[s][bup 10 201 0 0]Arf! Arf![n][w][e]-##
+
+[msg KOROMARU_PARTY_OUT [Koromaru]]
+[s][bup 10 201 0 0]Арф![n][w][e]
+##-[s][bup 10 201 0 0]Arf![n][w][e]-##
+
+[msg KOROMARU_PARTY_OUT_AFTER [Koromaru]]
+[s][bup 10 204 0 0]* хныкать*[n][w][e]
+##-[s][bup 10 204 0 0]*whimper*[n][w][e]-##
+
+[msg KOROMARU_PARTY_OVER [Koromaru]]
+[s][bup 10 201 0 0]Гав![n][w][e]
+##-[s][bup 10 201 0 0]Woof![n][w][e]-##
+
+[msg KOROMARU_PARTY_CHANGE [Koromaru]]
+[s][bup 10 201 0 0]Арф! Арф![n][w][e]
+##-[s][bup 10 201 0 0]Arf! Arf![n][w][e]-##
+
+[msg YUKARI_EQUIP_TRANSFER [Yukari]]
+[s][bup 2 201 0 0]О, спасибо.[n][w][e]
+##-[s][bup 2 201 0 0]Oh, thanks.[n][w][e]-##
+
+[msg AEGIS_EQUIP_TRANSFER [Aigis]]
+[s][bup 3 201 0 0]Большое спасибо.[n][w][e]
+##-[s][bup 3 201 0 0]Thank you very much.[n][w][e]-##
+
+[msg MITSURU_EQUIP_TRANSFER [Mitsuru]]
+[s][bup 4 201 0 0]Для меня? Спасибо.[n][w][e]
+##-[s][bup 4 201 0 0]For me? Thanks.[n][w][e]-##
+
+[msg JUNPEI_EQUIP_TRANSFER [Junpei]]
+[s][bup 5 201 0 0]Чувак, это для меня? Спасибо![n][w][e]
+##-[s][bup 5 201 0 0]Dude, for me? Gracias![n][w][e]-##
+
+[msg SANADA_EQUIP_TRANSFER [Akihiko]]
+[s][bup 7 201 0 0]Хм... Для меня? Спасибо.[n][w][e]
+##-[s][bup 7 201 0 0]Hm... For me? Thanks.[n][w][e]-##
+
+[msg KOROMARU_EQUIP_TRANSFER [Koromaru]]
+[s][bup 10 201 0 0]Арф![n][w][e]
+##-[s][bup 10 201 0 0]Arf![n][w][e]-##
+[s][f 4 7 0 0 0]> Коромару кажется счастливым.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Koromaru seems happy.[n][f 1 4][e]-##
+
+[msg YUKARI_EQUIP_REACTION [Yukari]]
+[s][bup 2 205 0 0]Эй... Ты же знаешь, как неловко это носить,[n]верно?![n][w][e]
+##-[s][bup 2 205 0 0]Hey... You know how embarrassing this[n]is to wear, right!?[n][w][e]-##
+[s][bup 2 208 0 0]Разве ты не позволяешь всему этому "лидеру"[n]ударить тебе в голову...? Я становлюсь[n]немного подозрительным здесь...[n][w][e]
+##-[s][bup 2 208 0 0]Aren't you letting this whole "leader"[n]thing go to your head...? I'm getting[n]a little suspicious here...[n][w][e]-##
+[s][bup 2 204 0 0]Хорошо, что никто из моих друзей не может[n]видеть меня такой...[n][w][e]
+##-[s][bup 2 204 0 0]It's a good thing none of my friends[n]can see me like this...[n][w][e]-##
+
+[msg YUKARI_EQUIP_REACTION_G [Yukari]]
+[s][bup 2 205 0 0]Эй... Ты же знаешь, как неловко это носить,[n]верно?![n][w][e]
+##-[s][bup 2 205 0 0]Hey... You know how embarrassing this[n]is to wear, right!?[n][w][e]-##
+[s][bup 2 208 0 0]Я имею в виду... Если я должен, я должен. Я[n]понимаю, что это для того, чтобы помочь мне[n]в бою.[n][w][e]
+##-[s][bup 2 208 0 0]I mean... If I have to, I have to.[n]I understand that it's to help me[n]in a fight.[n][w][e]-##
+[s][bup 2 204 0 0]Но хорошо, что никто из моих друзей не[n]может видеть меня такой...[n][w][e]
+##-[s][bup 2 204 0 0]But it's a good thing none of my friends[n]can see me like this...[n][w][e]-##
+
+[msg YUKARI_EQUIP_SP_REACTION [Yukari]]
+[s][bup 2 208 0 0]...Чувак, насчет этой одежды?[n][w][e]
+##-[s][bup 2 208 0 0]...Dude, about these clothes?[n][w][e]-##
+[s][bup 2 203 0 0]Ты действительно позволил всей этой истории[n]с "лидером" ударить тебе в голову, ты это[n]знаешь?[n][w][e]
+##-[s][bup 2 203 0 0]You've really let this whole "leader"[n]thing go to your head, you know that?[n][w][e]-##
+[s][bup 2 208 0 0]......[n][w][e]
+##-[s][bup 2 208 0 0]......[n][w][e]-##
+[s][bup 2 207 0 0]...Хорошо, я сдаюсь. В любом случае у меня[n]никогда не будет другого шанса надеть[n]это...[n][w][e]
+##-[s][bup 2 207 0 0]...Fine, I give up. I'd never get[n]another chance to wear this anyways...[n][w][e]-##
+
+[msg YUKARI_EQUIP_SP_REACTION_2 [Yukari]]
+[s][bup 2 208 0 0]Проясни для меня одну вещь: это снаряжение[n]поможет мне в бою, верно?[n][w][e]
+##-[s][bup 2 208 0 0]Clear one thing up for me: this outfit[n]is going to help me in battle, right?[n][w][e]-##
+[s][bup 2 203 0 0]И ты же не говоришь мне носить его только[n]для того, чтобы позлить меня, верно?![n][w][e]
+##-[s][bup 2 203 0 0]And you're not telling me to wear it[n]just to mess with me, right!?[n][w][e]-##
+[s][bup 2 208 0 0]......[n][w][e]
+##-[s][bup 2 208 0 0]......[n][w][e]-##
+[s][bup 2 207 0 0]...Хорошо, я сдаюсь. В любом случае у меня[n]никогда не будет другого шанса надеть[n]это...[n][w][e]
+##-[s][bup 2 207 0 0]...Fine, I give up. I'd never get[n]another chance to wear this anyways...[n][w][e]-##
+
+[msg YUKARI_EQUIP_SANTA_REACT [Yukari]]
+[s][bup 2 208 0 0]...Я не знал, что это такая штука, которая[n]плавает на твоей лодке.[n][w][e]
+##-[s][bup 2 208 0 0]...I didn't know this is the kind of[n]thing that floats your boat.[n][w][e]-##
+[s][bup 2 203 0 0]Я имею в виду, это нормально. Я тоже думаю,[n]что это мило.[n][w][e]
+##-[s][bup 2 203 0 0]I mean, that's okay. I think it's[n]cute too.[n][w][e]-##
+[s][bup 2 208 0 0]Я не знаю, просто мне кажется, что ты[n]позволяешь всей этой фигне с "лидером"[n]лезть тебе в голову...[n][w][e]
+##-[s][bup 2 208 0 0]I dunno, it just seems kinda like you're[n]letting this whole "leader" thing go to[n]your head...[n][w][e]-##
+
+[msg YUKARI_EQUIP_SANTA_REACT_2 [Yukari]]
+[s][bup 2 208 0 0]Конечно, это милый наряд...[n][w][e]
+##-[s][bup 2 208 0 0]Sure, it's a cute outfit...[n][w][e]-##
+[s][bup 2 203 0 0]Но я не думала, что буду носить его в таком[n]месте, как это.[n][w][e]
+##-[s][bup 2 203 0 0]But I didn't think I'd be wearing it [n]in a place like this.[n][w][e]-##
+[s]...Что ж, иногда нужно веселиться.[n][w][e]
+##-[s]...Well, you gotta have fun sometimes.[n][w][e]-##
+
+[msg AEGIS_EQUIP_REACTION [Aigis]]
+[s][bup 3 201 0 0]Одежда, которую я сейчас ношу, "особенная".[n][w][e]
+##-[s][bup 3 201 0 0]The clothes I am currently wearing are[n]"special."[n][w][e]-##
+[s]Из того, что я могу сказать, только тем,[n]кто клянется в абсолютной верности,[n]разрешается носить их.[n][w][e]
+##-[s]From what I can tell, only those who[n]swear absolute loyalty are allowed to[n]wear them.[n][w][e]-##
+[s]Другими словами, они идеально подходят для[n]меня.[n][w][e]
+##-[s]In other words, they are perfect for me.[n][w][e]-##
+
+[msg AEGIS_EQUIP_SP_REACTION [Aigis]]
+[s][bup 3 201 0 0]Я не знал, что тебе нравится такая одежда,[n][f 4 2]- сан.[n][w][e]
+##-[s][bup 3 201 0 0]I didn't know that you liked clothes[n]like these, [f 4 2]-san.[n][w][e]-##
+[s][bup 3 202 0 0].[n][w][e]
+##-[s][bup 3 202 0 0].[n][w][e]-##
+[s]Я чувствую себя довольно странно,[n]отправляясь в бой без подходящей одежды.[n][w][e]
+##-[s]I feel rather strange going into battle[n]without wearing suitable clothing.[n][w][e]-##
+[s]О нет, я совсем не возражаю против этого. Я[n]весьма признателен.[n][w][e]
+##-[s]Oh, no, I do not mind it at all.[n]I am rather grateful.[n][w][e]-##
+
+[msg AEGIS_EQUIP_SANTA_REACTI [Aigis]]
+[s][bup 3 201 0 0]Этот костюм создан для того, чтобы дарить[n]надежды и мечты детям по всему миру.[n][w][e]
+##-[s][bup 3 201 0 0]This is a costume made to provide hopes[n]and dreams to children around the world.[n][w][e]-##
+[s]Тем не менее, предполагается, что он[n]эффективен и в осуществлении мечтаний[n]взрослых мужчин.[n][w][e]
+##-[s]However, it is supposedly effective in[n]fulfilling adult men's dreams as well.[n][w][e]-##
+[s]Мне тоже удается исполнять твои мечты, [f 4 2]-[n]сан?[n][w][e]
+##-[s]Am I succeeding in fulfilling your[n]dreams too, [f 4 2]-san?[n][w][e]-##
+
+[msg AEGIS_EQUIP_SANTA_REACTI_2 [Aigis]]
+[s][bup 3 201 0 0]Этот костюм создан для того, чтобы дарить[n]надежды и мечты детям по всему миру.[n][w][e]
+##-[s][bup 3 201 0 0]This is a costume made to provide hopes[n]and dreams to children around the world.[n][w][e]-##
+[s]Тем не менее, предполагается, что он[n]эффективен и в осуществлении мечтаний[n]взрослых мужчин.[n][w][e]
+##-[s]However, it is supposedly effective in[n]fulfilling adult men's dreams as well.[n][w][e]-##
+[s]Это делает его прекрасным боевым[n]снаряжением. Большое спасибо, [f 4 2]- сан.[n][w][e]
+##-[s]It makes for a wonderful combat outfit.[n]Thank you very much, [f 4 2]-san.[n][w][e]-##
+
+[msg MITSURU_EQUIP_REACTION [Mitsuru]]
+[s][bup 4 207 0 0]...Д-Тебе что-нибудь нужно?[n][w][e]
+##-[s][bup 4 207 0 0]...D-Do you need something?[n][w][e]-##
+[s]О... Нет, мне очень жаль. Просто я не[n]чувствую себя комфортно в этой одежде...[n][w][e]
+##-[s]Oh... No, I'm sorry. It's just that[n]I don't feel comfortable in these[n]clothes...[n][w][e]-##
+[s]...Перестань пялиться на меня![n][w][e]
+##-[s]...Stop staring at me![n][w][e]-##
+
+[msg MITSURU_EQUIP_REACTION_G [Mitsuru]]
+[s][bup 4 207 0 0]...Д-Тебе что-нибудь нужно?[n][w][e]
+##-[s][bup 4 207 0 0]...D-Do you need something?[n][w][e]-##
+[s]О... Нет, мне очень жаль. Просто я не[n]чувствую себя комфортно в этой одежде...[n][w][e]
+##-[s]Oh... No, I'm sorry. It's just that[n]I don't feel comfortable in these[n]clothes...[n][w][e]-##
+[s]Я позабочусь о себе во время боя, не[n]волнуйся.[n][w][e]
+##-[s]I'll look after myself during battle,[n]don't worry.[n][w][e]-##
+
+[msg MITSURU_EQUIP_SP_REACTIO [Mitsuru]]
+[s][bup 4 201 0 0]Э... Просто чтобы мне было все ясно...[n][w][e]
+##-[s][bup 4 201 0 0]Er... Just so I'm clear on this...[n][w][e]-##
+[s][bup 4 207 0 0]Насколько выгодно мне носить это во время[n]боя?[n][w][e]
+##-[s][bup 4 207 0 0]How advantageous is it for me to wear[n]this during battle?[n][w][e]-##
+[s]Если вы не объясните мне причину, которую я[n]могу понять, тогда эта одежда... э-э.....[n][w][e]
+##-[s]If you don't give me a reason I can[n]understand, then these clothes are,[n]er...[n][w][e]-##
+
+[msg MITSURU_EQUIP_SANTA_REAC [Mitsuru]]
+[s][bup 4 201 0 0]Я не уверен, что это лучший наряд для[n]боя...[n][w][e]
+##-[s][bup 4 201 0 0]I'm not sure that this is the best[n]outfit to wear into battle...[n][w][e]-##
+[s]Но, я полагаю, вы потратили время, чтобы[n]выбрать это для меня, так что я не буду[n]жаловаться.[n][w][e]
+##-[s]But, I suppose you took the time to[n]pick this out for me, so I won't[n]complain.[n][w][e]-##
+[s][bup 4 207 0 0]Тем не менее, разгуливать в этом[n]несколько... ну, неловко...[n][w][e]
+##-[s][bup 4 207 0 0]Still, parading around in this is[n]somewhat... well, embarrassing...[n][w][e]-##
+
+[msg MITSURU_EQUIP_SANTA_REAC_2 [Mitsuru]]
+[s][bup 4 201 0 0]Я не уверен, что это лучший наряд для[n]боя...[n][w][e]
+##-[s][bup 4 201 0 0]I'm not sure that this is the best[n]outfit to wear into battle...[n][w][e]-##
+[s]Но, я полагаю, вы потратили время, чтобы[n]выбрать это для меня, так что я не буду[n]жаловаться.[n][w][e]
+##-[s]But, I suppose you took the time to[n]pick this out for me, so I won't[n]complain.[n][w][e]-##
+[s][bup 4 207 0 0]Тем не менее, разгуливать в этом[n]несколько... ну, неловко...[n][w][e]
+##-[s][bup 4 207 0 0]Still, parading around in this is[n]somewhat... well, embarrassing...[n][w][e]-##
+
+[msg JUNPEI_EQUIP_REACTION [Junpei]]
+[s][bup 5 205 0 0]Как это на мне смотрится? Это часть моей[n]специальной коллекции![n][w][e]
+##-[s][bup 5 205 0 0]How's this look on me? It's part of[n]my special collection![n][w][e]-##
+[s][bup 5 202 0 0]Я чертовски хорошо в нем выгляжу, не так[n]ли?[n][w][e]
+##-[s][bup 5 202 0 0]I look damn good in it, don't I?[n][w][e]-##
+[s]Я буду зажигать в бою, так что не теряйте[n]надежды![n][w][e]
+##-[s]I'm gonna be rockin' this in battle,[n]so keep your expectations up![n][w][e]-##
+
+[msg JUNPEI_EQUIP_REACTION_G [Junpei]]
+[s][bup 5 205 0 0]Как это на мне смотрится? Это часть моей[n]специальной коллекции![n][w][e]
+##-[s][bup 5 205 0 0]How's this look on me? It's part of[n]my special collection![n][w][e]-##
+[s][bup 5 202 0 0]Я чертовски хорошо в нем выгляжу, не так[n]ли?[n][w][e]
+##-[s][bup 5 202 0 0]I look damn good in it, don't I?[n][w][e]-##
+[s]Не стесняйтесь влюбляться в меня в любое[n]время. Я не буду возражать![n][w][e]
+##-[s]Feel free to fall for me anytime.[n]I won't mind![n][w][e]-##
+
+[msg JUNPEI_EQUIP_SP_REACTION [Junpei]]
+[s][bup 5 205 0 0]Чувак, исследовать Тартар в купальнике -[n]это слишком дико![n][w][e]
+##-[s][bup 5 205 0 0]Dude, investigating Tartarus in a[n]swimsuit is too wild![n][w][e]-##
+[s][bup 5 206 0 0]Впрочем, я не жалуюсь. Я бы ни за что не[n]отказался от такого плана.[n][w][e]
+##-[s][bup 5 206 0 0]I ain't complainin', though. There's[n]no way I'd say no to a plan like that.[n][w][e]-##
+[s][bup 5 210 0 0]Так что будьте готовы к тому, что образ[n]Дзюнпэя Иори в одних шортах запечатлеется в[n]вашей памяти![n][w][e]
+##-[s][bup 5 210 0 0]So get ready to have the image of[n]Junpei Iori in nothin' but shorts[n]burned into your memory![n][w][e]-##
+
+[msg JUNPEI_EQUIP_SITUJI_REAC [Junpei]]
+[s][bup 5 205 0 0]Этот экстравагантный внешний вид и стильный[n]стиль...[n][w][e]
+##-[s][bup 5 205 0 0]This extravagant look and classy style...[n][w][e]-##
+[s]Держу пари, я выгляжу точь-в-точь как[n]английский джентльмен![n][w][e]
+##-[s]I bet I totally look just like an[n]English gentleman![n][w][e]-##
+[s]Я должен сделать так, чтобы сегодняшние[n]сражения выглядели хорошо![n][w][e]
+##-[s]I've gotta make today's battles[n]look good![n][w][e]-##
+
+[msg JUNPEI_EQUIP_HILEG_REACT [Junpei]]
+[s][bup 5 205 0 0]......[n][w][e]
+##-[s][bup 5 205 0 0]......[n][w][e]-##
+[s]> По какой-то причине он не смотрит на[n]тебя. Его лицо тоже кажется немного[n]красным.[n][w][e]
+##-[s]> For some reason, he won't look at you.[n]His face seems a little red, too.[n][w][e]-##
+
+[msg SANADA_EQUIP_REACTION [Akihiko]]
+[s][bup 7 205 0 0]У меня нет причин жаловаться на то, что вы[n]просите меня надеть.[n][w][e]
+##-[s][bup 7 205 0 0]I have no cause to complain about[n]anything you ask me to wear.[n][w][e]-##
+[s]Напротив, это идеальная ситуация для[n]тренировки моего ума.[n][w][e]
+##-[s]On the contrary, this is the perfect[n]situation to train my mind.[n][w][e]-##
+[s][bup 7 208 0 0]Если я смогу преодолеть это испытание, я[n]должен развить в себе железную волю...![n][w][e]
+##-[s][bup 7 208 0 0]If I can overcome this ordeal, I should[n]develop an iron will...![n][w][e]-##
+
+[msg SANADA_EQUIP_SP_REACTION [Akihiko]]
+[s][bup 7 205 0 0]Немного странно чувствовать себя здесь в[n]купальнике...[n][w][e]
+##-[s][bup 7 205 0 0]It feels a little strange, wearing a[n]swimsuit here...[n][w][e]-##
+[s]Впрочем, я не возражаю, так как это не[n]сильно отличается от того, что я ношу на[n]ринге.[n][w][e]
+##-[s]I don't mind, though, since it's not[n]that different from what I wear in[n]the ring.[n][w][e]-##
+[s]На самом деле это может быть лучше для[n]меня... Это позволяет мне передвигаться[n]более свободно.[n][w][e]
+##-[s]This might actually be better for me...[n]It lets me move around more freely.[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s][bup 7 202 0 0]...Что? Я сказал что-то странное?[n][w][e]
+##-[s][bup 7 202 0 0]...What? Did I say something weird?[n][w][e]-##
+
+[msg SANADA_EQUIP_SITUJI_REAC [Akihiko]]
+[s][bup 7 205 0 0]Они действительно хороши для боя? Им[n]кажется, что в них было бы немного трудно[n]передвигаться...[n][w][e]
+##-[s][bup 7 205 0 0]Are these really good for combat? They[n]feel like they'd be a little hard to[n]move around in...[n][w][e]-##
+[s]Но это не значит, что есть время[n]беспокоиться о своей внешности в бою.[n][w][e]
+##-[s]But it's not as though there's time to[n]worry about your looks in a fight.[n][w][e]-##
+[s]Например, если бы мой подмышечный шов[n]разорвался, когда я бросал правый крест.[n][w][e]
+##-[s]Like if my underarm seam happened to[n]rip when I was throwing a right cross.[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s][bup 7 202 0 0]Я имею в виду, это просто сценарий "что,[n]если"... Если это действительно произойдет,[n]я заранее приношу свои извинения.[n][w][e]
+##-[s][bup 7 202 0 0]I mean, that's just a what-if scenario...[n]If that really does happen, I apologize[n]in advance.[n][w][e]-##
+
+[msg SANADA_EQUIP_lover_REACT [Akihiko]]
+[s][bup 7 205 0 0]Ч-Что...!?[n][w][e]
+##-[s][bup 7 205 0 0]Wh-Wha--!?[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]О, эм... Извините. Это просто... это своего[n]рода провокационный наряд...[n][w][e]
+##-[s]Oh, um... Sorry. It's just... that's[n]kind of a provocative outfit...[n][w][e]-##
+[s]Я... я не думаю, что это выглядит совсем[n]плохо. ...На самом деле, мне это нравится.[n][w][e]
+##-[s]I-I don't think it looks bad at all.[n]...Actually, I like it.[n][w][e]-##
+
+[msg SANADA_EQUIP_HILEG_REACT [Akihiko]]
+[s][bup 5 205 0 0]......[n][w][e]
+##-[s][bup 5 205 0 0]......[n][w][e]-##
+[s]> По какой-то причине он не смотрит на[n]тебя. Его лицо тоже кажется немного[n]красным.[n][w][e]
+##-[s]> For some reason, he won't look at you.[n]His face seems a little red, too.[n][w][e]-##
+
+[msg SANADA_EQUIP_LOVER_HILEG [Akihiko]]
+[s][bup 5 205 0 0]Что...!?[n][w][e]
+##-[s][bup 5 205 0 0]Wha...!?[n][w][e]-##
+[s]Даже если вам нужно для битвы, не надевайте[n]такие вещи перед другими людьми![n][w][e]
+##-[s]Even if you need to for battle, don't[n]wear stuff like that in front of other[n]people![n][w][e]-##
+[s]> По какой-то причине он не смотрит на[n]тебя. Его лицо тоже кажется немного[n]красным.[n][w][e]
+##-[s]> For some reason, he won't look at you.[n]His face seems a little red, too.[n][w][e]-##
+
+[msg YUKARI_GRADE_UP [Yukari]]
+[s][bup 2 201 0 0]Эй, просто чтобы предупредить, я сменил[n]свое оборудование.[n][w][e]
+##-[s][bup 2 201 0 0]Hey, just as a heads up, I've[n]changed my equipment.[n][w][e]-##
+
+[msg AEGIS_GRADE_UP [Aigis]]
+[s][bup 3 201 0 0]Я изменил загрузку своего оборудования, для[n]протокола.[n][w][e]
+##-[s][bup 3 201 0 0]I have modified my equipment[n]loadout, for the record.[n][w][e]-##
+
+[msg MITSURU_GRADE_UP [Mitsuru]]
+[s][bup 4 201 0 0]Просто даю тебе знать... Я сменил свое[n]оборудование.[n][w][e]
+##-[s][bup 4 201 0 0]Just letting you know...[n]I've changed my equipment.[n][w][e]-##
+
+[msg JUNPEI_GRADE_UP [Junpei]]
+[s][bup 5 201 0 0]Йоу, у меня теперь другое оборудование,[n]чувак.[n][w][e]
+##-[s][bup 5 201 0 0]Yo, I've got different equipment[n]now, man.[n][w][e]-##
+
+[msg SANADA_GRADE_UP [Akihiko]]
+[s][bup 7 201 0 0]Эй, я немного поменял свое оборудование.[n][w][e]
+##-[s][bup 7 201 0 0]Hey, I've changed my equipment[n]around a little.[n][w][e]-##
+
+[msg KOROMARU_GRADE_UP [Koromaru]]
+[s][bup 10 201 0 0]Арф![n][w][e]
+##-[s][bup 10 201 0 0]Arf![n][w][e]-##
+[s][f 4 7 0 0 0]> Оборудование Коромару было изменено.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Koromaru's equipment has been[n]changed.[n][f 1 4][e]-##
+
+[msg YUKARI_GRADE_UP_TRANSFER [Yukari]]
+[s][bup 2 201 0 0]Я верну то, что ты дал мне раньше.[n][w][e]
+##-[s][bup 2 201 0 0]I'll return the stuff you gave[n]me before.[n][w][e]-##
+
+[msg AEGIS_GRADE_UP_TRANSFER [Aigis]]
+[s][bup 3 201 0 0]Я верну то, что взял взаймы.[n][w][e]
+##-[s][bup 3 201 0 0]I will return what I had[n]borrowed.[n][w][e]-##
+
+[msg MITSURU_GRADE_UP_TRANSFE [Mitsuru]]
+[s][bup 4 201 0 0]Я верну оборудование, которое вы мне дали.[n][w][e]
+##-[s][bup 4 201 0 0]I'll return the equipment you[n]gave me.[n][w][e]-##
+
+[msg JUNPEI_GRADE_UP_TRANSFER [Junpei]]
+[s][bup 5 201 0 0]О да, у меня есть то, что ты мне одолжил.[n][w][e]
+##-[s][bup 5 201 0 0]Oh yeah, I've got that stuff[n]you loaned me.[n][w][e]-##
+
+[msg SANADA_GRADE_UP_TRANSFER [Akihiko]]
+[s][bup 7 201 0 0]Я верну оборудование, которое вы мне дали.[n][w][e]
+##-[s][bup 7 201 0 0]I'll return the equipment[n]you gave me.[n][w][e]-##
+
+[msg KOROMARU_GRADE_UP_TRANSF [Koromaru]]
+[s][bup 10 201 0 0]Арф![n][w][e]
+##-[s][bup 10 201 0 0]Arf![n][w][e]-##
+[s][f 4 7 0 0 0]> Коромару вернул снаряжение, которое было[n]на нем.[n][f 1 4][e]
+##-[s][f 4 7 0 0 0]> Koromaru has returned the[n]equipment that he was wearing.[n][f 1 4][e]-##
+
+[msg ITEM_TRANSFER_TO_PLAYER_]
+[s][f 4 7 0 0 0]> Получено.[n][w][e]
+##-[s][f 4 7 0 0 0]> Received .[n][w][e]-##
+
+[msg ITEM_TRANSFER_TO_PLAYER__2]
+[s][f 4 7 0 0 0]> Получено.    Полученный.[n][w][e]
+##-[s][f 4 7 0 0 0]> Received . [n]  Received .[n][w][e]-##
+
+[msg MSG0426_JUNPEI_01 [Junpei]]
+[s][bup 5 2 65535 0]Эй, [f 4 2]! В чем дело?[n][w][e]
+##-[s][bup 5 2 65535 0]Hey, [f 4 2]! What's up?[n][w][e]-##
+
+[sel MSG0426_JUNPEI_01_SEL top]
+[s]"Просто бродил вокруг".[e]
+##-[s]"Just wandering around."[e]-##
+[s]"Ничего. В чем дело?"[e]
+##-[s]"Nothing. What's up?"[e]-##
+
+[sel MSG0426_JUNPEI_01_SEL_G top]
+[s]"Просто бродил вокруг".[e]
+##-[s]"Just wandering around."[e]-##
+[s]"Ничего. В чем дело?"[e]
+##-[s]"Nothing. What's up?"[e]-##
+
+[msg MSG0426_JUNPEI_02 [Junpei]]
+[s][bup 5 2 65535 0]О, хорошо. Ну, ты только что приехал в этот[n]город, так что...[n][w][e]
+##-[s][bup 5 2 65535 0]Oh, okay. Well, you just got to[n]this town, so...[n][w][e]-##
+[s]Бродить вокруг - это хорошо! Вы узнаете это[n]место получше.[n][w][e]
+##-[s]Wandering around is good! You'll[n]get to know the place better.[n][w][e]-##
+
+[msg MSG0426_JUNPEI_03 [Junpei]]
+[s][bup 5 2 65535 0]Я только что поел, чувак.[n][w][e]
+##-[s][bup 5 2 65535 0]I just ate, man.[n][w][e]-##
+[s]Все эти упражнения в Тартаре вызывают у[n]меня голод.[n][w][e]
+##-[s]All that exercise in Tartarus[n]makes me hungry.[n][w][e]-##
+
+[msg MSG0429_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Уже почти май, но все еще прохладно.[n][w][e]
+##-[s][bup 2 1 65535 0]It's almost May, but it's still[n]chilly.[n][w][e]-##
+[s]Убедитесь, что вы не простудитесь.[n][w][e]
+##-[s]Make sure you don't catch cold.[n][w][e]-##
+[s]Если вы чувствуете себя больным или устали,[n]сделайте перерыв.[n][w][e]
+##-[s]If you feel sick, or if you're[n]tired, take a break.[n][w][e]-##
+
+[msg MSG0531_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Те две старушки говорили о том деле.[n][w][e]
+##-[s][bup 5 1 65535 0]Those two old ladies were talking[n]about that case.[n][w][e]-##
+[s]Некоторые люди пострадали, так что ты[n]знаешь, что слухи об этом разнесутся по[n]всему городу.[n][w][e]
+##-[s]Some people got hurt, so you know[n]word is gonna get out all over[n]town about this one.[n][w][e]-##
+
+[msg MSG0726_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Кен, да? Хмм...[n][w][e]
+##-[s][bup 5 1 65535 0]Ken, huh? Hmm...[n][w][e]-##
+[s]Я не знаю, что такого в этом парне, но мое[n]"чувство Дзюнпэя" сходит с ума вокруг него.[n][w][e]
+##-[s]I dunno what it is about that guy,[n]but my "Junpei-sense" is going[n]crazy around him.[n][w][e]-##
+[s]Либо он маленький панк, либо он намного[n]более зрелый, чем я...[n][w][e]
+##-[s]Either he's a little punk, or[n]he's WAY more mature than I am...[n][w][e]-##
+[s]Я не знаю, чувак, это только из-за меня?[n][w][e]
+##-[s]I dunno, man, is it just me?[n][w][e]-##
+
+[msg MSG0730_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]Коро-тян такая потрясающая! Он был таким[n]храбрым в тот день![n][w][e]
+##-[s][bup 2 1 65535 0]Koro-chan is so awesome![n]He was so brave that day![n][w][e]-##
+[s]Я не знаю, как он стал таким, но он[n]потрясающий![n][w][e]
+##-[s]I don't know how he got like[n]that, but he's amazing![n][w][e]-##
+
+[msg MSG0805_JUNPEI_01 [Junpei]]
+[s][bup 5 1 65535 0]Черт возьми, чувак, в наши дни Потерянные[n]повсюду.[n][w][e]
+##-[s][bup 5 1 65535 0]Damn, dude, The Lost are everywhere[n]these days.[n][w][e]-##
+[s][bup 5 2 65535 0]Как будто у нас должна быть своя[n]собственная песня, понимаешь? "Кому ты[n]собираешься звонить? Охотники за тенями!"[n][w][e]
+##-[s][bup 5 2 65535 0]It's like we should have our own[n]theme song, y'know? "Who you gonna[n]call? Shadowbusters!"[n][w][e]-##
+
+[msg MSG0817_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]На улице становится так жарко. Вы можете[n]получить тепловой удар, просто сидя на[n]улице - ночью![n][w][e]
+##-[s][bup 2 1 65535 0]It's getting so hot outside.[n]You could get heatstroke just[n]sitting outside--at night![n][w][e]-##
+[s]Мне лучше поторопиться и закончить свои[n]покупки, чтобы я могла вернуться домой.[n][w][e]
+##-[s]I'd better hurry up and finish my[n]shopping, so I can get home.[n][w][e]-##
+
+[msg MSG0817_FUUKA_01 [Fuuka]]
+[s][bup 6 1 65535 0]Удобно, чтобы торговый центр находился[n]рядом с общежитием, не так ли?[n][w][e]
+##-[s][bup 6 1 65535 0]It's convenient for a shopping[n]mall to be near the dorm, isn't it?[n][w][e]-##
+[s]В жаркие дни вам не придется тратить[n]столько времени на прогулки на солнце.[n][w][e]
+##-[s]On hot days, you don't have to[n]spend as much time walking out[n]in the sun.[n][w][e]-##
+
+[msg MSG0820_YUKARI_01 [Yukari]]
+[s][bup 2 1 65535 0]О, ты сделал свою домашнюю работу?[n][w][e]
+##-[s][bup 2 1 65535 0]Oh, did you do your homework?[n][w][e]-##
+
+[sel MSG0820_YUKARI_01_SEL top]
+[s]“да”.[e]
+##-[s]"Yeah."[e]-##
+[s]"Нет..."[e]
+##-[s]"No..."[e]-##
+[s]"Я потерял его".[e]
+##-[s]"I lost it."[e]-##
+
+[sel MSG0820_YUKARI_01_SEL_G top]
+[s]"Конечно!"[e]
+##-[s]"Of course!"[e]-##
+[s]"Нет... еще..."[e]
+##-[s]"Not... yet..."[e]-##
+[s]"Я потерял его!"[e]
+##-[s]"I lost it!"[e]-##
+
+[msg MSG0820_YUKARI_02 [Yukari]]
+[s][bup 2 5 65535 0]Вау, так держать! Ты такой ответственный, [f 4 2]-[n]кун.[n][w][e]
+##-[s][bup 2 5 65535 0]Wow, way to go! You're so[n]responsible, [f 4 2]-kun.[n][w][e]-##
+
+[msg MSG0820_YUKARI_02_G [Yukari]]
+[s][bup 2 5 65535 0]Вау, так держать! Ты такой ответственный, [f 4 2].[n][w][e]
+##-[s][bup 2 5 65535 0]Wow, way to go! You're so[n]responsible, [f 4 2].[n][w][e]-##
+
+[msg MSG0820_YUKARI_03 [Yukari]]
+[s][bup 2 1 65535 0]Мы действительно должны начать с этого... Я[n]тоже его еще не закончил.[n][w][e]
+##-[s][bup 2 1 65535 0]We really should start on it...[n]I haven't finished it either.[n][w][e]-##
+
+[msg MSG0820_YUKARI_03_G [Yukari]]
+[s][bup 2 1 65535 0]Блин, ты тоже...? У меня тоже еще многое[n]осталось.[n][w][e]
+##-[s][bup 2 1 65535 0]Yikes, you too...? I've still got a lot[n]left too.[n][w][e]-##
+[s]Мы действительно должны это сделать... Эй,[n]хочешь поработать над этим вместе позже?[n][w][e]
+##-[s]We really should get it done... Hey,[n]wanna work on it together later?[n][w][e]-##
+
+[msg MSG0820_YUKARI_04 [Yukari]]
+[s][bup 2 1 65535 0]Это оправдание не сработает. Учитель просто[n]даст вам новое задание и заставит вас[n]остаться после школы.[n][w][e]
+##-[s][bup 2 1 65535 0]That excuse won't work. The teacher[n]will just give you a new assignment[n]and make you stay after school.[n][w][e]-##
+[s]Тогда ты не сможешь приехать в Тартар![n][w][e]
+##-[s]Then you can't come to Tartarus![n][w][e]-##
+
+[msg MSG0820_YUKARI_04_G [Yukari]]
+[s][bup 2 1 65535 0]*вздох* Ох-ох...[n][w][e]
+##-[s][bup 2 1 65535 0]*sigh* Uh-oh...[n][w][e]-##
+[s]Даже если ты будешь вести себя так мило по[n]этому поводу, учитель на это не купится.[n]Они просто будут давить на тебя еще[n]сильнее.[n][w][e]
+##-[s]Even if you act all cutesy about it, the[n]teacher's not gonna buy that. They'll[n]just bear down on you even harder.[n][w][e]-##
+[s]Тогда ты не сможешь приехать в Тартар![n][w][e]
+##-[s]Then you can't come to Tartarus![n][w][e]-##
+
+[msg MSG_7A_NPC007_01 [Girl]]
+[s]Если вы вращаете рамен из морепродуктов,[n]шесть раз по часовой стрелке и шесть раз в[n]другую сторону, не проливая...[n][w][e]
+##-[s]If you swirl seafood ramen around,[n]six times clockwise and six times[n]the other way, without spilling...[n][w][e]-##
+[s]Если ты сделаешь это с раменом Хагакуре, я[n]слышал, что ты можешь переспать с[n]человеком, который тебе нравится![n][w][e]
+##-[s]If you do that with Hagakure's[n]ramen, I heard you can hook up[n]with the person you like![n][w][e]-##
+
+[msg MSG_7A_NPC007_01_G [Girl]]
+[s]Если вы вращаете рамен из морепродуктов,[n]шесть раз по часовой стрелке и шесть раз в[n]другую сторону, не проливая...[n][w][e]
+##-[s]If you swirl seafood ramen around,[n]six times clockwise and six times[n]the other way, without spilling...[n][w][e]-##
+[s]Если ты сделаешь это с раменом Хагакуре, я[n]слышал, что ты можешь переспать с[n]человеком, который тебе нравится![n][w][e]
+##-[s]If you do that with Hagakure's[n]ramen, I heard you can hook up[n]with the person you like![n][w][e]-##
+
+[msg MSG_7B_NPC007_01 [Girl]]
+[s]Если вы выпьете целую миску супа Хагакуре,[n]вы увидите слово "ПОБЕДА" внизу...[n][w][e]
+##-[s]If you drink a whole bowl of[n]Hagakure's soup, you can see the[n]word "WIN" at the bottom...[n][w][e]-##
+[s]Если ты проследишь эти буквы своими[n]палочками для еды, я слышал, что это делает[n]тебя сильнее в драках![n][w][e]
+##-[s]If you trace those letters with[n]your chopsticks, I hear it makes[n]you stronger in fights![n][w][e]-##
+
+[msg MSG_8A_NPC007_01 [Girl]]
+[s]В Хагакуре попробуйте заказать холодный[n]рамен, сказав официанту "Люди-кобры"...[n][w][e]
+##-[s]At Hagakure, try ordering cold[n]ramen by saying "Cobra men" to[n]the waiter...[n][w][e]-##
+[s]Если он поймет, что ты сказал, я слышал,[n]что у тебя не будет теплового удара.[n][w][e]
+##-[s]If he understands what you said,[n]I heard you won't get heatstroke.[n][w][e]-##
+
+[msg MSG_8B_NPC007_01 [Girl]]
+[s]Закажите мороженое в кондитерской и ешьте[n]его без остановки, даже если у вас[n]замерзнут мозги.[n][w][e]
+##-[s]Order ice cream at the Sweet Shop,[n]and eat it without stopping, even[n]if you get a brain freeze.[n][w][e]-##
+[s]Если вы сделаете это три раза подряд... У[n]тебя заболит живот. Я имею в виду, да...[n][w][e]
+##-[s]If you do that three times in a[n]row... You'll get a stomachache.[n]I mean, duh...[n][w][e]-##
+
+[msg MSG_9A_NPC007_01 [Girl]]
+[s]Когда вы заказываете набор свиных котлет, а[n]сверху капуста...[n][w][e]
+##-[s]When you order a pork cutlet set,[n]and there's cabbage on top...[n][w][e]-##
+[s]Напишите на нем знак доллара, и я слышал,[n]что ваше пособие увеличится![n][w][e]
+##-[s]Write a dollar sign on top of it,[n]and I hear your allowance will[n]increase![n][w][e]-##
+
+[msg MSG_9B_NPC007_01 [Girl]]
+[s]Когда вы заказываете среднюю миску с[n]говядиной, закажите с ней сырое яйцо и[n]бросьте его в миску с говядиной.[n][w][e]
+##-[s]When you order a medium beef bowl,[n]order a raw egg with it and drop it[n]onto the beef bowl.[n][w][e]-##
+[s]Если ты сможешь положить яйцо в середину[n]миски, я слышал, что ты станешь более[n]популярным в школе.[n][w][e]
+##-[s]If you can get the egg in the[n]middle of the bowl, I heard you'll[n]become more popular in school.[n][w][e]-##
+
+[msg MSG_10A_NPC007_01 [Girl]]
+[s]Закажите большую картошку фри в бургере с[n]дикой уткой и сделайте "W" из четырех или[n]"M", если вы девушка.[n][w][e]
+##-[s]Order the large fries at the Wild-duck[n]Burger, and make a "W" out of four of[n]them, or an "M" if you're a girl.[n][w][e]-##
+[s]Подумай о том, кого ты любишь, и съешь[n]картошку фри. Тогда вы не можете потерпеть[n]неудачу![n][w][e]
+##-[s]Think of the one you love, and eat[n]the fries. Then you can't fail![n][w][e]-##
+
+[msg MSG_0927_NPC007_01 [Girl]]
+[s]Те люди, которые просто пялятся на тебя,[n]пугают меня...[n][w][e]
+##-[s]Those people who just stare at[n]you frighten me...[n][w][e]-##
+[s]Но все в порядке! Я закажу жареную картошку[n]с чесноком и чили и сделаю крестик! Это[n]отгоняет их... По крайней мере, я так[n]слышал.[n][w][e]
+##-[s]But it's okay! I'll order the chili[n]garlic fries and make a cross! It[n]drives them away... or so I hear.[n][w][e]-##
+
+[msg MSG_10B_NPC007_01 [Girl]]
+[s]Я слышал, когда ты покупаешь такояки у[n]Octopia и делишься им со своим любимым[n]человеком...[n][w][e]
+##-[s]I heard when you buy takoyaki from[n]Octopia and share it with your[n]loved one...[n][w][e]-##
+[s]Ты расстанешься. Итак, как продвигаются[n]ваши отношения?[n][w][e]
+##-[s]You'll break up. So, how's your[n]relationship going?[n][w][e]-##
+
+[msg MSG_10B_NPC007_01_G [Girl]]
+[s]Я слышал, когда ты покупаешь такояки у[n]Octopia и делишься им со своим любимым[n]человеком...[n][w][e]
+##-[s]I heard when you buy takoyaki from[n]Octopia and share it with your[n]loved one...[n][w][e]-##
+[s]Ты расстанешься. Итак, как продвигаются[n]ваши отношения?[n][w][e]
+##-[s]You'll break up. So, how's your[n]relationship going?[n][w][e]-##
+
+[msg MSG_11A_NPC007_01 [Girl]]
+[s]Если ты сделаешь что-то плохое с талисманом[n]Кондитерской, Адзуки-тян...[n][w][e]
+##-[s]If you do something bad to the[n]Sweet Shop's mascot, Azuki-chan...[n][w][e]-##
+[s]Ты потеряешь контроль над своим мочевым[n]пузырем! Она может быть милой, но не думай,[n]что сможешь ее испортить![n][w][e]
+##-[s]You'll lose control of your bladder![n]She might be cute, but don't think[n]you can deface her![n][w][e]-##
+
+[msg MSG_11B_NPC007_01 [Girl]]
+[s]Вы получите специальный суп мисо только в[n]том случае, если закажете набор жареных[n]креветок.[n][w][e]
+##-[s]You only get the special miso soup[n]if you order the Fried Shrimp set.[n][w][e]-##
+[s]Я слышал, что иногда в этом супе можно[n]найти настоящую жемчужину![n][w][e]
+##-[s]I hear that sometimes, you'll find[n]a real pearl in that soup![n][w][e]-##
+
+[msg MSG_12A_NPC007_01 [Girl]]
+[s]Я слышал, если ты съешь миску рамена, не[n]поставив ее на стол...[n][w][e]
+##-[s]I heard if you eat a bowl of ramen[n]without setting it on the table...[n][w][e]-##
+[s]Ты станешь чемпионом по хранению вещей. Но[n]это должно быть тяжело, раз оно такое[n]тяжелое и горячее...[n][w][e]
+##-[s]You'll be a champion thing-holder.[n]But it must be tough, since it's[n]so heavy and hot...[n][w][e]-##
+
+[msg MSG_12B_NPC007_01 [Girl]]
+[s]Моя мама говорит все эти странные вещи.[n][w][e]
+##-[s]My mom is saying all this weird[n]stuff.[n][w][e]-##
+[s]Что-то о конце, или Избавлении, или еще о[n]чем-то...[n][w][e]
+##-[s]Something about the end, or the[n]Deliverance, or something...[n][w][e]-##
+[s]Я не понимаю взрослых.[n][w][e]
+##-[s]I don't understand adults.[n][w][e]-##
+
+[msg MSG_1A_NPC007_01 [Girl]]
+[s]Теперь мой папа тоже говорит все эти[n]странные вещи...[n][w][e]
+##-[s]Now my dad says all that weird[n]stuff, too...[n][w][e]-##
+[s]Он прямо там с моей мамой, говорит, что[n]конец близок...[n][w][e]
+##-[s]He's right there with my mom,[n]saying the end is coming...[n][w][e]-##
+[s]*вздох* Я не хочу идти домой.[n][w][e]
+##-[s]*sigh*[n]I don't wanna go home.[n][w][e]-##
+
+[msg MSG_1B_NPC007_01 [Girl]]
+[s]Мои мама и папа продолжают повторять эту[n]странную фразу...[n][w][e]
+##-[s]My mom and dad keep saying this[n]weird phrase...[n][w][e]-##
+[s]"Верьте в владычицу Никс и будьте спасены!"[n][w][e]
+##-[s]"Believe in Nyx-sama and be saved!"[n][w][e]-##
+[s]Но... Кто такая Никс-сама?[n][w][e]
+##-[s]But... Who's Nyx-sama?[n][w][e]-##
+
+[msg MSG_3A_NPC007_01 [Girl]]
+[s]Вы ели специальный рамен Хагакуре? Если вы[n]съедите его с другом...[n][w][e]
+##-[s]Did you eat the special[n]Hagakure ramen? If you eat[n]it with a friend...[n][w][e]-##
+[s]Вы навсегда останетесь друзьями! Возможно,[n]это просто еще один слух, но...[n][w][e]
+##-[s]You'll be friends forever! It might[n]just be another rumor, but...[n][w][e]-##
+[s]Когда мне будет столько же лет, сколько[n]тебе, я пойду и выпью немного со своими[n]друзьями.[n][w][e]
+##-[s]When I'm as old as you, I'm gonna[n]go have some with my friends.[n][w][e]-##
+
+[msg MSG_3A_NPC007_01_G [Girl]]
+[s]Вы ели специальный рамен Хагакуре? Если вы[n]съедите его с другом...[n][w][e]
+##-[s]Did you eat the special[n]Hagakure ramen? If you eat[n]it with a friend...[n][w][e]-##
+[s]Вы навсегда останетесь друзьями! Возможно,[n]это просто еще один слух, но...[n][w][e]
+##-[s]You'll be friends forever! It might[n]just be another rumor, but...[n][w][e]-##
+[s]Когда мне будет столько же лет, сколько[n]тебе, я пойду и выпью немного со своими[n]друзьями.[n][w][e]
+##-[s]When I'm as old as you, I'm gonna[n]go have some with my friends.[n][w][e]-##
+
+[msg JUNPEI_STOP_TAKOYAKI [Junpei]]
+[s][bup 5 1 65535 1]Черт, как вкусно пахнет. Я хочу пойти и[n]купить немного, прямо сейчас![n][w][e]
+##-[s][bup 5 1 65535 1]Damn, that smells good. I wanna go[n]buy some, right now![n][w][e]-##
+[s]...Но я на это не куплюсь! Даже вкусные[n]такояки не могут помешать нам добраться до[n]полицейского участка![n][w][e]
+##-[s]...But I'm not falling for it! Not[n]even delicious takoyaki can stop us[n]from getting to the police station![n][w][e]-##
+
+[msg TAKOYAKI_SHONITI [Takoyaki Cook]]
+[s]Эй, вы там! Иди сюда![n][w][e]
+##-[s]Hey, you there! Come on over![n][w][e]-##
+[s]Мой такояки очень вкусный, и всего 400 иен![n][w][e]
+##-[s]My takoyaki is deee-licious, and[n]only 400 yen![n][w][e]-##
+[s]В нем нет осьминога, но..... Все равно[n]попробуй немного![n][w][e]
+##-[s]There's no octopus in it, but...[n]Try some anyway![n][w][e]-##
+
+[msg TAKOYAKI_SHONITI_G [Takoyaki Cook]]
+[s]Эй, вы там! Иди сюда![n][w][e]
+##-[s]Hey, you there! Come on over![n][w][e]-##
+[s]Мой такояки очень вкусный, и всего 400 иен![n][w][e]
+##-[s]My takoyaki is deee-licious, and[n]only 400 yen![n][w][e]-##
+[s]В нем нет осьминога, но..... Все равно[n]попробуй немного![n][w][e]
+##-[s]There's no octopus in it, but...[n]Try some anyway![n][w][e]-##
+
+[msg TAKOYAKI_SENTAKU]
+[s]> Ты купишь такояки?[n][w][e]
+##-[s]> Will you buy the takoyaki?[n][w][e]-##
+
+[sel TAKOYAKI_SEL top]
+[s]Купить[e]
+##-[s]Buy[e]-##
+[s]Не покупайте[e]
+##-[s]Don't buy[e]-##
+
+[msg TAKOYAKI_OWARI [Takoyaki Cook]]
+[s]Спасибо! Приходи еще![n][w][e]
+##-[s]Thanks! Come again![n][w][e]-##
+[s]> Получено [f 4 4 3 0 1388]![n][f 1 4][e]
+##-[s]> Obtained [f 4 4 3 0 1388]![n][f 1 4][e]-##
+
+[msg TAKOYAKI_KAWANAI [Takoyaki Cook]]
+[s]О... Я понимаю...[n][w][e]
+##-[s]Oh... I see...[n][w][e]-##
+
+[msg MONEY_TARINAI]
+[s]> ......[n][w][e]
+##-[s]> ......[n][w][e]-##
+[s]> У тебя не было достаточно денег...[n][w][e]
+##-[s]> You didn't have enough money...[n][w][e]-##
+
+[msg MSG_WELCOME_NPC008_01 [Takoyaki Cook]]
+[s]Добро пожаловать![n][w][e]
+##-[s]Welcome![n][w][e]-##
+
+[msg MSG_1ST_NPC008_01 [Takoyaki Cook]]
+[s]О, ты такой красивый![n][w][e]
+##-[s]Ohh, you're so handsome![n][w][e]-##
+[s]У тебя острое лицо и красивое тело...[n][w][e]
+##-[s]You've got a sharp face, and[n]a nice body...[n][w][e]-##
+[s]Скажите, не хотели бы вы попробовать мое[n]новое меню!?[n][w][e]
+##-[s]Say, would you like to try my[n]new menu!?[n][w][e]-##
+[s]Не беспокойтесь об оплате! Я просто хочу,[n]чтобы ты попробовал это![n][w][e]
+##-[s]Don't worry about payment![n]I just want you to try it![n][w][e]-##
+
+[msg MSG_1ST_NPC008_01_G [Takoyaki Cook]]
+[s]О, ты красавица![n][w][e]
+##-[s]Ooh, you're a beaut![n][w][e]-##
+[s]У тебя милое личико, но ты хорошо[n]загорелая.[n][w][e]
+##-[s]You've got a cute face, but you're[n]well-toned.[n][w][e]-##
+[s]Скажите, не хотели бы вы попробовать мое[n]новое меню!?[n][w][e]
+##-[s]Say, would you like to try my[n]new menu!?[n][w][e]-##
+[s]Не беспокойтесь об оплате! Я просто хочу,[n]чтобы ты попробовал это![n][w][e]
+##-[s]Don't worry about payment![n]I just want you to try it![n][w][e]-##
+
+[msg MSG_1ST_NPC008_02 [Takoyaki Cook]]
+[s]О, ты пришел! Ты передумал?[n][w][e]
+##-[s]Oh, you came! Did you change[n]your mind?[n][w][e]-##
+
+[msg MSG_1ST_NPC008_02_G [Takoyaki Cook]]
+[s]О, ты пришел! Ты передумал?[n][w][e]
+##-[s]Oh, you came! Did you change[n]your mind?[n][w][e]-##
+
+[msg MSG_1ST_NPC008_03 [Takoyaki Cook]]
+[s]О, ты пришел! Я кое-что добавил в меню![n][w][e]
+##-[s]Oh, you came! I've added things[n]to the menu![n][w][e]-##
+
+[msg MSG_1ST_NPC008_03_G [Takoyaki Cook]]
+[s]О, ты пришел! Я кое-что добавил в меню![n][w][e]
+##-[s]Oh, you came! I've added things[n]to the menu![n][w][e]-##
+
+[msg MSG_1ST_NPC008_04 [Takoyaki Cook]]
+[s]Хочешь попробовать?[n][w][e]
+##-[s]Wanna try it?[n][w][e]-##
+
+[sel MSG_1ST_NPC008_SEL top]
+[s]“конечно”.[e]
+##-[s]"Sure."[e]-##
+[s]"Я пас".[e]
+##-[s]"I'll pass."[e]-##
+
+[sel MSG_1ST_NPC008_SEL_G top]
+[s]"Определенно!"[e]
+##-[s]"Definitely!"[e]-##
+[s]"Я думаю, что я пас..."[e]
+##-[s]"I think I'll pass..."[e]-##
+
+[msg MSG_1ST_NPC008_YES [Takoyaki Cook]]
+[s]Вот именно! Вот что должен делать настоящий[n]мужчина! Ешь![n][w][e]
+##-[s]That's right! That's what a real[n]man should do! Eat up![n][w][e]-##
+
+[msg MSG_1ST_NPC008_YES_G [Takoyaki Cook]]
+[s]Вот именно! Тебе не нужно отказываться[n]только потому, что ты девушка![n][w][e]
+##-[s]That's right! You don't have to bow[n]out just because you're a girl![n][w][e]-##
+
+[msg MSG_1ST_NPC008_YES2 [Takoyaki Cook]]
+[s]А теперь просто распишитесь здесь...[n][w][e]
+##-[s]Now then, just sign here...[n][w][e]-##
+[s]Ниже, где говорится: "Я отказываюсь от[n]любого наказания, что бы со мной ни[n]случилось, если я съем это..."[n][w][e]
+##-[s]Below where it says, "I waive any[n]penalty, no matter what should[n]happen to me, if I eat this..."[n][w][e]-##
+[s]Просто шучу! Мой такояки не НАСТОЛЬКО[n]опасен...[n][w][e]
+##-[s]Just kidding! My takoyaki isn't[n]THAT dangerous...[n][w][e]-##
+
+[msg MSG_1ST_NPC008_YES3 [Takoyaki Cook]]
+[s]Попробуй![n][w][e]
+##-[s]Try it![n][w][e]-##
+[s]> Ты попробуй такояки...[n][f 1 4][e]
+##-[s]> You try the takoyaki...[n][f 1 4][e]-##
+
+[msg MSG_1ST_NPC008_BYE [Takoyaki Cook]]
+[s]Спасибо за вашу поддержку! Приходи еще![n][w][e]
+##-[s]Thanks for your support![n]Come again![n][w][e]-##
+
+[msg MSG_1ST_NPC008_NO [Takoyaki Cook]]
+[s]Ну что ж! Если передумаешь, возвращайся в[n]любое время![n][w][e]
+##-[s]Oh well! If you change your mind,[n]come back anytime![n][w][e]-##
+
+[msg MSG_4A_NPC008_01 [Takoyaki Cook]]
+[s]Я только что открыл этот магазин не так[n]давно.[n][w][e]
+##-[s]I just opened this shop not too[n]long ago.[n][w][e]-##
+[s]Поэтому я пытаюсь подружиться со всеми,[n]кого вижу![n][w][e]
+##-[s]So I'm trying to make friends with[n]everyone I see![n][w][e]-##
+[s]Приятно с вами познакомиться![n][w][e]
+##-[s]It's nice to meet you![n][w][e]-##
+
+[msg MSG_4A_NPC009_01 [Boy]]
+[s]У моего друга есть кот, и он ооочень милый![n][w][e]
+##-[s]My friend has a cat, and it's[n]sooo cute![n][w][e]-##
+[s]Я тоже хочу такую, но моя мама ненавидит[n]животных...[n][w][e]
+##-[s]I want one too, but my mom hates[n]animals...[n][w][e]-##
+
+[msg MSG_4B_NPC009_01 [Boy]]
+[s]Я снова играл с котом моего друга у него[n]дома.[n][w][e]
+##-[s]I played with my friend's cat[n]at his house again.[n][w][e]-##
+[s]*вздох* Я тоже хочу кошку...[n][w][e]
+##-[s]*sigh*[n]I want a cat, too...[n][w][e]-##
+[s]Я знаю, что моя мама ненавидит животных,[n]но, может быть, мне стоит спросить ее...[n][w][e]
+##-[s]I know my mom hates animals, but[n]maybe I should ask her...[n][w][e]-##
+
+[msg MSG_5A_NPC009_01 [Boy]]
+[s]Я попросил у мамы кошку, и она сказала[n]"нет".[n][w][e]
+##-[s]I asked my mom for a cat, and[n]she said no.[n][w][e]-##
+[s]Нет, нет, нет... Это все, что она[n]когда-либо говорит.[n][w][e]
+##-[s]No, no, no... That's all she[n]ever says.[n][w][e]-##
+[s]*вздох* Я хочу кошку...[n][w][e]
+##-[s]*sigh*[n]I want a cat...[n][w][e]-##
+
+[msg MSG_5B_NPC009_01 [Boy]]
+[s]Я пытался убедить своего отца завести[n]кошку.[n][w][e]
+##-[s]I tried to convince my dad to[n]get a cat.[n][w][e]-##
+[s]Он тоже сказал "нет".[n][w][e]
+##-[s]He said no, too.[n][w][e]-##
+[s]Кошки стоят дорого, и их еда и прочее тоже[n]стоят дорого...[n][w][e]
+##-[s]Cats cost a lot, and their food[n]and stuff costs a lot too...[n][w][e]-##
+[s]Так что мы не можем себе этого позволить.[n][w][e]
+##-[s]So we can't afford one.[n][w][e]-##
+
+[msg MSG_6A_NPC009_01 [Boy]]
+[s]Я спросил своего друга, действительно ли[n]его кошка дорогая.[n][w][e]
+##-[s]I asked my friend if his cat was[n]really expensive.[n][w][e]-##
+[s]Знаешь что? Он сказал, что это бесплатно![n][w][e]
+##-[s]You know what? He said it was free![n][w][e]-##
+[s]Он сказал, что его мама забрала кошку из[n]приюта для животных.[n][w][e]
+##-[s]He said his mom got the cat from[n]the animal shelter.[n][w][e]-##
+[s]Я не знал, что ты можешь это сделать. Я[n]думал, что кошек можно купить только в[n]зоомагазинах.[n][w][e]
+##-[s]I didn't know you could do that.[n]I thought you could only get cats[n]from pet stores.[n][w][e]-##
+
+[msg MSG_6B_NPC009_01 [Boy]]
+[s]Я поговорил с отцом о том, чтобы снова[n]завести кошку.[n][w][e]
+##-[s]I talked to my dad about getting[n]a cat again.[n][w][e]-##
+[s]Я сказал ему, что кошки из приюта для[n]животных бесплатны...[n][w][e]
+##-[s]I told him cats from the animal[n]shelter are free...[n][w][e]-##
+[s]Но он все равно сказал "нет".[n][w][e]
+##-[s]But he still said no.[n][w][e]-##
+[s]Даже если он не против, если моя мама[n]скажет "нет", он тоже должен сказать "нет".[n][w][e]
+##-[s]Even though he's okay with it,[n]if my mom says no, he has to[n]say no too.[n][w][e]-##
+[s]Так что решать может только моя мама... Мой[n]отец отстой.[n][w][e]
+##-[s]So only my mom can decide...[n]My dad sucks.[n][w][e]-##
+
+[msg MSG_7A_NPC009_01 [Boy]]
+[s]Мой школьный друг сказал, что где-то здесь[n]бродячая кошка.[n][w][e]
+##-[s]My friend at school said there was[n]a stray cat around here.[n][w][e]-##
+[s]Я жду здесь, пока он не выйдет.[n][w][e]
+##-[s]I'm waiting here until he comes out.[n][w][e]-##
+[s]Я не собираюсь его ловить или что-то в этом[n]роде, я просто хочу его увидеть.[n][w][e]
+##-[s]I'm not gonna catch him or anything,[n]I just want to see him.[n][w][e]-##
+[s]Интересно, что он за кот?..[n][w][e]
+##-[s]I wonder what kind of cat he is...[n][w][e]-##
+
+[msg MSG_7B_NPC009_01 [Boy]]
+[s]Ты знаешь, что в этом торговом центре полно[n]продуктовых киосков?[n][w][e]
+##-[s]You know how this mall has lots of[n]food stalls?[n][w][e]-##
+[s]Эта бездомная кошка получает объедки от[n]хозяев.[n][w][e]
+##-[s]That stray cat gets leftovers from[n]the owners.[n][w][e]-##
+[s]Я спросил их, в какое время обычно приходит[n]кот, и они сказали мне...[n][w][e]
+##-[s]I asked them what time the cat[n]usually comes, and they told me...[n][w][e]-##
+[s]Я увижу этого кота, несмотря ни на что![n][w][e]
+##-[s]I'm gonna see that cat no matter[n]what![n][w][e]-##
+
+[msg MSG_8A_NPC009_01 [Boy]]
+[s]Как ты думаешь, что это за кошка?[n][w][e]
+##-[s]What kind of cat do you think[n]this is?[n][w][e]-##
+
+[sel MSG_8A_NPC009_01_SEL top]
+[s]"Хм... Я не знаю".[e]
+##-[s]"Hmm... I don't know."[e]-##
+[s]"Бродячая кошка".[e]
+##-[s]"A stray cat."[e]-##
+[s]"Мне все равно".[e]
+##-[s]"I don't care."[e]-##
+
+[sel MSG_8A_NPC009_01_SEL_G top]
+[s]"Хм... Я не знаю".[e]
+##-[s]"Hmm... I don't know."[e]-##
+[s]"Это бродячая кошка?"[e]
+##-[s]"Is it a stray cat?"[e]-##
+[s]"Это робот-кот?"[e]
+##-[s]"Is it a robot cat?"[e]-##
+
+[msg MSG_8A_NPC009_02 [Boy]]
+[s]Ладно! Тогда я тебе скажу![n][w][e]
+##-[s]Okay! Then I'll tell you![n][w][e]-##
+
+[msg MSG_8A_NPC009_03 [Boy]]
+[s]Тч... Ты мог бы сказать, да?[n][w][e]
+##-[s]Tch... You could tell, huh?[n][w][e]-##
+
+[msg MSG_8A_NPC009_04 [Boy]]
+[s]Ты такой злой! Но я все равно скажу тебе[n]ответ...[n][w][e]
+##-[s]You're so mean! But I'll tell you[n]the answer anyway...[n][w][e]-##
+
+[msg MSG_8A_NPC009_04_G [Boy]]
+[s]Нет, этого не может быть. У этого кота нет[n]никаких приспособлений.[n][w][e]
+##-[s]Nah, it can't be. This cat doesn't[n]have any gadgets.[n][w][e]-##
+
+[msg MSG_8A_NPC009_05 [Boy]]
+[s]Это бродячая кошка![n][w][e]
+##-[s]It's a stray cat![n][w][e]-##
+[s]Но он мой друг. Когда я встретил его в[n]первый раз, он даже не убежал. Он подошел к[n]моей руке.[n][w][e]
+##-[s]But he's my friend. The first time[n]I met him, he didn't even run away.[n]He came up to my hand.[n][w][e]-##
+[s]Так это значит, что он моя "родственная[n]душа", верно?[n][w][e]
+##-[s]So that means he's my "soulmate,"[n]right?[n][w][e]-##
+
+[msg MSG_8A_NPC010_01 [Cat]]
+[s]Мяу.[n][w][e]
+##-[s]Meow.[n][w][e]-##
+[s]> Кот очень дружелюбный.[n][f 1 4][e]
+##-[s]> The cat is very friendly.[n][f 1 4][e]-##
+
+[msg MSG_8B_NPC009_01 [Boy]]
+[s]Он ест только остатки из магазинов...[n][w][e]
+##-[s]He only eats leftovers from the[n]shops...[n][w][e]-##
+[s]Я думаю, ему это начинает надоедать.[n][w][e]
+##-[s]I think he's getting tired of it.[n][w][e]-##
+[s]Может, мне принести ему блюдечко молока?[n][w][e]
+##-[s]Maybe I should get a saucer of[n]milk for him![n][w][e]-##
+[s]Да, я пойду куплю немного молока. Я думаю,[n]ему это понравится.[n][w][e]
+##-[s]Yeah, I'm gonna go buy some milk.[n]He'll like that, I think.[n][w][e]-##
+
+[sel MSG_8B_NPC009_01_SEL top]
+[s]"Это хорошая идея".[e]
+##-[s]"That's a good idea."[e]-##
+[s]"Это плохая идея".[e]
+##-[s]"That's a bad idea."[e]-##
+
+[msg MSG_8B_NPC009_02 [Boy]]
+[s]Я знаю! Ему, наверное, это понравится![n][w][e]
+##-[s]I know! He'll probably love it![n][w][e]-##
+
+[msg MSG_8B_NPC009_03 [Boy]]
+[s]Р-Правда?! У него заболит живот, если он[n]будет пить обычное молоко?[n][w][e]
+##-[s]R-Really!? He'll get a stomachache[n]if he drinks regular milk?[n][w][e]-##
+[s]Я этого не знал! Большое спасибо, что[n]рассказали мне![n][w][e]
+##-[s]I didn't know that! Thanks so much[n]for telling me![n][w][e]-##
+
+[msg MSG_8B_NPC009_03_G [Boy]]
+[s]Р-Правда?! У него заболит живот, если он[n]будет пить обычное молоко?[n][w][e]
+##-[s]R-Really!? He'll get a stomachache[n]if he drinks regular milk?[n][w][e]-##
+[s]Я этого не знал! Большое спасибо, что[n]рассказали мне![n][w][e]
+##-[s]I didn't know that! Thanks so much[n]for telling me![n][w][e]-##
+
+[msg MSG_8B_NPC009_04 [Boy]]
+[s]Я куплю ему немного молока в следующий раз.[n][w][e]
+##-[s]I'm gonna buy him some milk for[n]next time.[n][w][e]-##
+
+[msg MSG_8B_NPC009_05 [Boy]]
+[s]Так что обычное молоко вредно для кошек...[n]Хорошо, я запомню это.[n][w][e]
+##-[s]So regular milk is bad for cats...[n]Okay, I'll remember that.[n][w][e]-##
+
+[msg MSG_8B_NPC010_01 [Cat]]
+[s]Мяу.[n][w][e]
+##-[s]Meow.[n][w][e]-##
+[s]> Кот очень дружелюбный.[n][f 1 4][e]
+##-[s]> The cat is very friendly.[n][f 1 4][e]-##
+
+[msg MSG_9A_NPC009_01 [Boy]]
+[s]Я спросил своих друзей о том, чем кормить[n]кошек, и я тоже читал об этом.[n][w][e]
+##-[s]I asked my friends about what to[n]feed cats, and I read about it too.[n][w][e]-##
+[s]Я узнал, что есть много вещей, которые[n]кошки не должны есть.[n][w][e]
+##-[s]I found out there's a lot of things[n]that cats shouldn't eat.[n][w][e]-##
+[s]Как то молоко, которое я пыталась дать ему[n]в прошлый раз, это одно из них.[n][w][e]
+##-[s]Like that milk I tried to give him[n]last time, that's one of them.[n][w][e]-##
+[s]Я был удивлен, но кое-что узнал.[n][w][e]
+##-[s]I was surprised, but I learned[n]something.[n][w][e]-##
+
+[msg MSG_9A_NPC010_01 [Cat]]
+[s]Мяууу.[n][w][e]
+##-[s]Mewww.[n][w][e]-##
+[s]> Кот пристально смотрит на мальчика.[n][f 1 4][e]
+##-[s]> The cat is staring at the boy.[n][f 1 4][e]-##
+
+[msg MSG_9B_NPC009_01 [Boy]]
+[s]Я спросил своего отца, могу ли я забрать[n]этого кота домой.[n][w][e]
+##-[s]I asked my dad if I can take this[n]cat home.[n][w][e]-##
+[s]Он сказал, что не будет возражать, но все[n]зависит от моей мамы.[n][w][e]
+##-[s]He said he wouldn't mind, but it's[n]all up to my mom.[n][w][e]-##
+[s]*вздох* Я знаю, что она собирается[n]сказать... Что мне делать?..[n][w][e]
+##-[s]*sigh*[n]I know what she's going to say...[n]What should I do...?[n][w][e]-##
+
+[msg MSG_9B_NPC010_01 [Cat]]
+[s]Мяууу.[n][w][e]
+##-[s]Mewww.[n][w][e]-##
+[s]> Кот пристально смотрит на мальчика.[n][f 1 4][e]
+##-[s]> The cat is staring at the boy.[n][f 1 4][e]-##
+
+[msg MSG_10A_NPC009_01 [Boy]]
+[s]Что мне делать? Этот кот куда-то делся...[n][w][e]
+##-[s]What should I do? That cat went[n]somewhere...[n][w][e]-##
+[s]Никто не знает, куда он пошел.[n][w][e]
+##-[s]No one knows where he went.[n][w][e]-##
+[s]Может быть, это было из-за того тайфуна?[n][w][e]
+##-[s]Maybe it was 'cause of that typhoon?[n][w][e]-##
+[s]Если бы он мог пойти со мной домой раньше,[n]этого бы не случилось...[n][w][e]
+##-[s]If he could've come home with me[n]before, this wouldn't have[n]happened...[n][w][e]-##
+
+[msg MSG_11A_NPC009_01 [Boy]]
+[s]Эй, смотри! Смотри! Кот вернулся![n][w][e]
+##-[s]Hey, look! Look! The cat came back![n][w][e]-##
+[s]Вау... Он пережил тайфун.[n][w][e]
+##-[s]Wow... He survived the typhoon.[n][w][e]-##
+[s]Или он просто где-то спрятался?[n][w][e]
+##-[s]Or did he just hide somewhere?[n][w][e]-##
+[s]Ну, это не имеет значения. В любом случае,[n]я рад, что с ним все в порядке.[n][w][e]
+##-[s]Well, it doesn't matter. Either[n]way, I'm glad he's okay.[n][w][e]-##
+
+[msg MSG_11A_NPC009_02 [Boy]]
+[s]Я решил, что хочу взять этого кота с собой[n]домой.[n][w][e]
+##-[s]I decided I want to take that cat[n]home with me.[n][w][e]-##
+[s]Я собираюсь убедить маму позволить мне[n]держать его в качестве домашнего питомца.[n][w][e]
+##-[s]I'm going to convince my mom to[n]let me keep him as a pet.[n][w][e]-##
+[s]Что бы она ни говорила, я не собираюсь[n]отступать.[n][w][e]
+##-[s]No matter what she says, I'm not[n]gonna back down.[n][w][e]-##
+
+[msg MSG_11A_NPC010_01 [Cat]]
+[s]Мраууу.[n][w][e]
+##-[s]Mrowwl.[n][w][e]-##
+[s]> Кот пристально смотрит на мальчика...[n][f 1 4][e]
+##-[s]> The cat is staring at the boy...[n][f 1 4][e]-##
+
+[msg MSG_1105_NPC009_01 [Boy]]
+[s]Этот мужчина и эта леди... Старик и[n]старушка тоже...[n][w][e]
+##-[s]That man and the lady... The old[n]man and old lady, too...[n][w][e]-##
+[s]Почему они просто стоят там, уставившись в[n]никуда...?[n][w][e]
+##-[s]Why are they just standing there,[n]staring at nothing...?[n][w][e]-##
+[s]Неужели они так устали, что больше ничего[n]не хотят делать?[n][w][e]
+##-[s]Are they so tired that they don't[n]want to do anything anymore?[n][w][e]-##
+
+[msg MSG_1105_NPC010_01 [Cat]]
+[s]Хсссс...![n][w][e]
+##-[s]Hssss...![n][w][e]-##
+[s]> Его мех стоит дыбом. Кажется, его что-то[n]беспокоит...[n][f 1 4][e]
+##-[s]> His fur is standing up. He seems[n]to be bothered by something...[n][f 1 4][e]-##
+
+[msg MSG_11B_NPC009_01 [Boy]]
+[s]Моя мама сказала, что я не могу завести[n]кошку, несмотря ни на что.[n][w][e]
+##-[s]My mom said I can't have a cat,[n]no matter what.[n][w][e]-##
+[s]Но все в порядке. Мой отец на моей стороне![n][w][e]
+##-[s]But it's okay. My dad is on my side![n][w][e]-##
+[s]Я собираюсь узнать все о кошках и показать[n]ей, что могу позаботиться об одной из[n]них...[n][w][e]
+##-[s]I'm gonna learn all about cats, and[n]show her I can take care of one...[n][w][e]-##
+[s]Тогда мой папа убедит мою маму![n][w][e]
+##-[s]Then my dad will convince my mom![n][w][e]-##
+[s]Я сделаю все, что в моих силах![n][w][e]
+##-[s]I'll do my best![n][w][e]-##
+
+[msg MSG_11B_NPC010_01 [Cat]]
+[s]Мяу...?[n][w][e]
+##-[s]Meww...?[n][w][e]-##
+[s]> Голова кошки склонилась набок.[n][f 1 4][e]
+##-[s]> The cat's head is cocked to[n]one side.[n][f 1 4][e]-##
+
+[msg MSG_12A_NPC009_01 [Boy]]
+[s]Становится холодно...[n][w][e]
+##-[s]It's getting cold...[n][w][e]-##
+[s]Я могу просто зайти внутрь, но мне[n]интересно о нем...[n][w][e]
+##-[s]I can just go inside, but I wonder[n]about him...[n][w][e]-##
+[s]Я слышал, что здесь много теплых мест,[n]но...[n][w][e]
+##-[s]I heard there's a lot of warm[n]places around here, but...[n][w][e]-##
+[s]С ним действительно все будет в порядке?[n][w][e]
+##-[s]Is he really going to be okay?[n][w][e]-##
+
+[msg MSG_12A_NPC010_01 [Cat]]
+[s]Мяукать...[n][w][e]
+##-[s]Mew...[n][w][e]-##
+[s]> Кот сидит очень тихо, прищурив глаза.[n][f 1 4][e]
+##-[s]> The cat is sitting very still[n]with squinted eyes.[n][f 1 4][e]-##
+
+[msg MSG_12B_NPC009_01 [Boy]]
+[s]Я изучил все о кошках.[n][w][e]
+##-[s]I studied all about cats.[n][w][e]-##
+[s]Я узнал, что кошки не могут видеть красный[n]цвет. Интересно, на что это похоже?..[n][w][e]
+##-[s]I learned cats can't see the[n]color red. I wonder what that's[n]like...[n][w][e]-##
+
+[msg MSG_12B_NPC010_01 [Cat]]
+[s]Мяу...[n][w][e]
+##-[s]Meow...[n][w][e]-##
+[s]> Кот оглядывается по сторонам...[n][f 1 4][e]
+##-[s]> The cat is looking around...[n][f 1 4][e]-##
+
+[msg MSG_1A_NPC009_01 [Boy]]
+[s]Я изучил все о кошках и рассказал об этом[n]своему отцу.[n][w][e]
+##-[s]I studied all about cats, and I told[n]my dad about it.[n][w][e]-##
+[s]Он сказал, что я проделал отличную работу,[n]и он был впечатлен![n][w][e]
+##-[s]He said I did a great job, and he[n]was impressed![n][w][e]-##
+[s]И он обещал, что убедит мою маму![n][w][e]
+##-[s]And he promised he was gonna[n]convince my mom![n][w][e]-##
+[s]Я надеюсь, что смогу заполучить этого[n]кота...[n][w][e]
+##-[s]I hope I can get this cat...[n][w][e]-##
+
+[msg MSG_1A_NPC010_01 [Cat]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]> Кот смотрит в пространство...[n][f 1 4][e]
+##-[s]> The cat is staring into space...[n][f 1 4][e]-##
+
+[msg MSG_1B_NPC009_01 [Boy]]
+[s]Этот кот ведет себя странно. Он продолжает[n]смотреть в пространство.[n][w][e]
+##-[s]This cat has been acting weird.[n]He keeps staring into space.[n][w][e]-##
+[s]Я не понимаю.[n][w][e]
+##-[s]I don't understand.[n][w][e]-##
+[s]Но моя мама очень скоро согласится со мной[n]и моим отцом![n][w][e]
+##-[s]But my mom is gonna agree with me[n]and my dad pretty soon![n][w][e]-##
+[s]Сегодня, когда мой папа вернется с работы,[n]я буду умолять его.[n][w][e]
+##-[s]Today when my dad comes home from[n]work, I'm going to beg him.[n][w][e]-##
+
+[msg MSG_1B_NPC010_01 [Cat]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]> Кот смотрит в пространство...[n][f 1 4][e]
+##-[s]> The cat is staring into space...[n][f 1 4][e]-##
+
+[msg MSG_3A_NPC009_01 [Boy]]
+[s]О, этот кот? Его здесь нет.[n][w][e]
+##-[s]Oh, that cat? He's not here.[n][w][e]-##
+[s]Моя мама сказала, что можно забрать его[n]домой, и я пришел на следующий день, чтобы[n]забрать его, но он ушел.[n][w][e]
+##-[s]My mom said it was okay to take[n]him home, and I came the next day[n]to pick him up, but he was gone.[n][w][e]-##
+[s]Это значит, что он был свободен, верно?[n][w][e]
+##-[s]That means he was free, right?[n][w][e]-##
+[s]Так что, держу пари, так ему будет лучше.[n][w][e]
+##-[s]So I bet things will be better[n]for him this way.[n][w][e]-##
+[s]Все в порядке... Я не буду его искать.[n][w][e]
+##-[s]That's okay... I won't look for him.[n][w][e]-##
+[s]Я знаю, что где-то там у него все отлично[n]получается.[n][w][e]
+##-[s]I know he's doing great, somewhere[n]out there.[n][w][e]-##
+
+[msg MSG_3A_NPC010_01 [Woman]]
+[s]Я не люблю животных, это правда, но...[n][w][e]
+##-[s]I'm not fond of animals, it's[n]true, but...[n][w][e]-##
+[s]Увидев, что мой сын так серьезно относится[n]к этому, я почувствовал, что в любом случае[n]должен дать ему шанс.[n][w][e]
+##-[s]After seeing my son get that serious[n]about it, I felt like I should give[n]it a chance anyway.[n][w][e]-##
+[s]Жаль, что я не принял этого решения[n]раньше...[n][w][e]
+##-[s]I wish I would've made the decision[n]earlier...[n][w][e]-##
+
+[msg MSG_8B_NPC011_01 [Male Student]]
+[s]Я не знаю почему, чувак, но я начинаю[n]влюбляться в нее...[n][w][e]
+##-[s]I don't know why, man, but I'm[n]starting to fall for her...[n][w][e]-##
+[s]Что мне делать? Я не могу просто продолжать[n]ничего не делать![n][w][e]
+##-[s]What should I do? I can't just[n]keep doing nothing![n][w][e]-##
+[s]Может быть, мне стоит пойти и поговорить с[n]ней, понимаешь?[n][w][e]
+##-[s]Maybe I should go ahead and talk[n]to her, y'know?[n][w][e]-##
+
+[msg MSG_8B_NPC012_01 [Female Student]]
+[s]Это... разочарование? Я и не подозревал,[n]что он такой парень.[n][w][e]
+##-[s]Is this... disillusionment? I didn't[n]realize he was that kind of guy.[n][w][e]-##
+[s]Я перестану преследовать его. Это так[n]разочаровывает![n][w][e]
+##-[s]I'm gonna stop following him.[n]This is so disappointing![n][w][e]-##
+[s]Последнее, что мне нужно, это еще один[n]такой парень, как он.[n][w][e]
+##-[s]The last thing I need is another[n]guy like him.[n][w][e]-##
+
+[msg MSG_11B_NPC011_01 [Male Student]]
+[s]Чувак, ты это видел?[n][w][e]
+##-[s]Dude, did you see that?[n][w][e]-##
+[s]Она помогла этому сопляку, который упал и[n]начал плакать! Она действительно заставила[n]его прекратить этот чертов рев![n][w][e]
+##-[s]She helped that brat who fell and[n]started crying! She actually made[n]him stop that damn bawling![n][w][e]-##
+[s]Черт... Она очень милая девушка...[n][w][e]
+##-[s]Damn... She's one nice girl...[n][w][e]-##
+
+[msg MSG_11B_NPC012_01 [Female Student]]
+[s]Этот парень, который все время ходит за[n]мной по пятам, собирается поговорить со[n]мной или как?[n][w][e]
+##-[s]Is that guy who keeps following me[n]around gonna talk to me or what?[n][w][e]-##
+[s]Ни один нормальный парень не стал бы так[n]долго ждать, чтобы поговорить с девушкой,[n]верно?[n][w][e]
+##-[s]No normal guy would wait this[n]long to talk to a girl, right?[n][w][e]-##
+
+[msg MSG_4A_NPC013_01 [Salaryman]]
+[s]Как вы можете видеть, я всего лишь наемный[n]работник.[n][w][e]
+##-[s]As you can see, I'm just a[n]salaryman.[n][w][e]-##
+[s]Я не просто прогуливаю работу.[n][w][e]
+##-[s]I'm not just skipping work.[n][w][e]-##
+
+[msg MSG_4B_NPC013_01 [Salaryman]]
+[s]Ах, я люблю природу.[n][w][e]
+##-[s]Ahh, I love the outdoors.[n][w][e]-##
+[s]Дышать свежим воздухом, гулять пешком...[n]Это полезно для здоровья.[n][w][e]
+##-[s]Breathing the fresh air, walking[n]around on foot... It's healthy.[n][w][e]-##
+[s]Вы даже можете перекусить в кафе или[n]закусочной с бургерами.[n][w][e]
+##-[s]You can even get a bite to eat at[n]the cafe, or the burger place.[n][w][e]-##
+[s]Мне нравится приходить сюда... Даже если[n]это означает пропуск работы.[n][w][e]
+##-[s]I love coming here... Even if[n]it means skipping work.[n][w][e]-##
+
+[msg MSG_5B_NPC013_01 [Salaryman]]
+[s]На днях я прогуливал работу и увидел этого[n]молодого человека...[n][w][e]
+##-[s]I was skipping work the other day,[n]and I saw this young man...[n][w][e]-##
+[s]У него были длинные волосы и он был без[n]рубашки...[n][w][e]
+##-[s]He had long hair and no shirt on...[n][w][e]-##
+[s]Он был похож на одного из тех хиппи из[n]прошлого... Этот образ возвращается в моду?[n][w][e]
+##-[s]He was like one of those hippies from[n]back in the day... Is that look[n]coming back into style?[n][w][e]-##
+
+[msg MSG_0602_NPC013_01 [Salaryman]]
+[s]Боже... Посмотри на всех этих парней с[n]Синдромом апатии...[n][w][e]
+##-[s]Gosh... Look at all those Apathy[n]Syndrome guys...[n][w][e]-##
+[s]Они прогуливают школу и работу, верно?[n][w][e]
+##-[s]They're skipping school and work,[n]right?[n][w][e]-##
+[s]Хотел бы я, чтобы у меня был Синдром[n]Апатии...[n][w][e]
+##-[s]I wish I had Apathy Syndrome...[n][w][e]-##
+[s]Тогда я мог бы сидеть здесь весь день, как[n]они...[n][w][e]
+##-[s]Then I could sit here all day long,[n]just like them...[n][w][e]-##
+
+[msg MSG_7B_NPC013_01 [Salaryman]]
+[s]На днях я разговаривал с кем-то из группы[n]Кириджо, и мы разговорились об этой[n]девушке.[n][w][e]
+##-[s]I was talking to someone from the[n]Kirijo Group the other day, and we[n]got to talking about that girl.[n][w][e]-##
+[s]Вы знаете, дочь владельца, Мицуру-сан. Я[n]слышал, она ходит в вашу школу.[n][w][e]
+##-[s]You know, the owner's daughter,[n]Mitsuru-san. I heard she goes to[n]your school.[n][w][e]-##
+[s]Ты знал об этом?[n][w][e]
+##-[s]Did you know that?[n][w][e]-##
+
+[sel MSG_7B_NPC013_01_SEL top]
+[s]"Я знал это".[e]
+##-[s]"I knew that."[e]-##
+[s]"Я этого не знал".[e]
+##-[s]"I didn't know that."[e]-##
+[s]"Я знаю ее".[e]
+##-[s]"I know her."[e]-##
+
+[sel MSG_7B_NPC013_01_SEL_G top]
+[s]"Я знал это".[e]
+##-[s]"I knew that."[e]-##
+[s]"Я этого не знал".[e]
+##-[s]"I didn't know that."[e]-##
+[s]"Я знаю ее".[e]
+##-[s]"I know her."[e]-##
+
+[msg MSG_7B_NPC013_02 [Salaryman]]
+[s]Тогда, я думаю, вы, ребята, знаете больше,[n]чем я.[n][w][e]
+##-[s]I guess you guys know more than[n]me, then.[n][w][e]-##
+
+[msg MSG_7B_NPC013_03 [Salaryman]]
+[s]Ну, даже если бы вы знали, это бесполезное[n]знание. Она намного выше нас, низших[n]классов.[n][w][e]
+##-[s]Well, even if you did know, it's[n]useless knowledge. She's way above[n]us lower classes.[n][w][e]-##
+
+[msg MSG_7B_NPC013_04 [Salaryman]]
+[s]Что?![n][w][e]
+##-[s]What!?[n][w][e]-##
+[s]Я никогда не знал никого, кому так повезло,[n]как тебе, малыш.[n][w][e]
+##-[s]I've never known anyone as lucky[n]as you, kid.[n][w][e]-##
+[s]Я так завидую... Я слишком часто пропускаю[n]работу, чтобы встречаться с кем-то столь[n]высокого класса.[n][w][e]
+##-[s]I'm so jealous... I skip work too[n]often to meet anyone as high-class[n]as that.[n][w][e]-##
+
+[msg MSG_0731_NPC013_01 [Salaryman]]
+[s]Все думают, что эти истории о привидениях и[n]синдром апатии - это так плохо, но...[n][w][e]
+##-[s]Everyone thinks those ghost stories[n]and Apathy Syndrome are so bad, but...[n][w][e]-##
+[s]Лично я им завидую.[n][w][e]
+##-[s]Personally, they make me jealous.[n][w][e]-##
+[s]В современном обществе слабых просто[n]увольняют, а потом они умирают от голода.[n][w][e]
+##-[s]In today's society, the weak just[n]get fired, and then they die from[n]hunger.[n][w][e]-##
+[s]Гораздо проще сдаться, как они, и медленно[n]умирать, ничего не делая.[n][w][e]
+##-[s]It's much easier to give up like[n]them, and die slowly while doing[n]nothing.[n][w][e]-##
+[s]Хех, когда-нибудь у тебя будет такая же[n]работа, как у меня, и ты придешь к такому[n]же выводу.[n][w][e]
+##-[s]Heh, someday you'll have jobs like[n]mine and reach the same conclusion.[n][w][e]-##
+
+[msg MSG_9A_NPC013_01 [Salaryman]]
+[s]Наверное, меня уволили... Или, может быть,[n]они просто ведут себя так, как будто меня[n]уволили.[n][w][e]
+##-[s]I guess I've been laid off...[n]Or maybe they're just acting like[n]I was laid off.[n][w][e]-##
+[s]Увольнение - это просто эвфемизм, когда вы[n]хотите уволить кого-то, кто надрывает свою[n]задницу.[n][w][e]
+##-[s]Laid off is just a euphemism, for[n]when you want to fire someone who's[n]working his ass off.[n][w][e]-##
+[s]Я думаю, что сделал все возможное в этой[n]компании...[n][w][e]
+##-[s]I think I did my best at that[n]company...[n][w][e]-##
+[s]Сейчас у меня в голове так пусто, что[n]трудно думать...[n][w][e]
+##-[s]My mind is so blank now, it's hard[n]to think...[n][w][e]-##
+
+[msg MSG_10A_NPC013_01 [Salaryman]]
+[s]Интересно, на сколько хватит моих денег?..[n][w][e]
+##-[s]I wonder how long my money will[n]last...[n][w][e]-##
+[s]В конце концов мне придется найти другую[n]работу для моей жены и дочери, да?[n][w][e]
+##-[s]I'll eventually have to get another[n]job, for my wife and daughter, huh?[n][w][e]-##
+[s]Но я, кажется, не могу приложить усилий...[n]Я так перегорела после того, что[n]случилось...[n][w][e]
+##-[s]But I can't seem to make the[n]effort... I'm so burned out[n]after what happened...[n][w][e]-##
+
+[msg MSG_11B_NPC013_01 [Salaryman]]
+[s]Некоторое время назад я видел одного из[n]своих старых коллег и спросил, как он[n]держится после реструктуризации.[n][w][e]
+##-[s]I saw one of my old coworkers a[n]while ago, and asked how he's[n]holding up after the restructuring.[n][w][e]-##
+[s]Он превратился всего лишь в человека,[n]соглашающегося со своими менеджерами и[n]боссами.[n][w][e]
+##-[s]He's been reduced to nothing but a[n]yes-man for his managers and bosses.[n][w][e]-##
+[s]Я знаю, что иметь работу важно, но не[n]жертвуй ради нее своей самооценкой...[n][w][e]
+##-[s]I know having a job is important,[n]but don't sacrifice your self-worth[n]for it...[n][w][e]-##
+[s]Особенно таким маленьким детям, как ты.[n]Расскажите своим одноклассникам, что вы на[n]самом деле думаете, и заведите прочные[n]дружеские отношения.[n][w][e]
+##-[s]Especially not young kids like you.[n]Tell your classmates what you really[n]think, and form lasting friendships.[n][w][e]-##
+
+[msg MSG_1A_NPC013_01 [Salaryman]]
+[s]Я не знаю, когда это случилось, но в[n]последнее время в этом городе полный[n]бардак.[n][w][e]
+##-[s]I don't know when it happened,[n]but this town is a mess lately.[n][w][e]-##
+[s]Поскольку моя жизнь тоже в беспорядке, мне[n]кажется, что я больше не одинок.[n][w][e]
+##-[s]Since my life is a mess, too, it[n]feels like I'm not alone anymore.[n][w][e]-##
+[s]Хм? Моя семья?[n][w][e]
+##-[s]Hm? My family?[n][w][e]-##
+[s]Фу, я чувствую себя худшим человеком на[n]свете... Я лгу своей жене и дочери...[n][w][e]
+##-[s]Ugh, I feel like the worst person[n]alive... I'm lying to my wife and[n]my daughter...[n][w][e]-##
+[s]Я любил свою семью, но теперь они как будто[n]просто багаж...[n][w][e]
+##-[s]I loved my family, but now it's[n]like they're just baggage...[n][w][e]-##
+
+[msg MSG_1B_NPC013_01 [Salaryman]]
+[s]Я провел кое-какие исследования в[n]Интернете, прочитал несколько книг, и[n]теперь у меня все распланировано.[n][w][e]
+##-[s]I did some research on the Internet,[n]and read some books, and I've got[n]everything planned out now.[n][w][e]-##
+[s]Хотел бы я пожать руку парню, который[n]изобрел страхование жизни.[n][w][e]
+##-[s]I wish I could shake the hand of[n]the guy who invented life insurance.[n][w][e]-##
+[s]Превращая желания людей умереть в деньги...[n][w][e]
+##-[s]Converting people's death wishes[n]into money...[n][w][e]-##
+[s]Я еще не совсем решил пройти через это, и я[n]не знаю, скажу ли я кому-нибудь, когда[n]сделаю это.[n][w][e]
+##-[s]I haven't completely decided to go[n]through with it, and I don't know[n]if I'll tell anyone when I do.[n][w][e]-##
+[s]Но на всякий случай пожелай мне удачи.[n][w][e]
+##-[s]But just in case, wish me luck.[n][w][e]-##
+
+[msg MSG_3A_NPC013_01 [Salaryman]]
+[s]Я решил найти другую работу, но держал это[n]в секрете от жены и дочери.[n][w][e]
+##-[s]I decided to get another job, but[n]I've been keeping it secret from[n]my wife and my daughter.[n][w][e]-##
+[s]Так что даже если у меня ничего не[n]получится, у меня есть план Б.[n][w][e]
+##-[s]So even if I don't succeed, I've[n]got a plan B.[n][w][e]-##
+[s]Я думаю, так устроен мир.[n][w][e]
+##-[s]I guess that's how the world works.[n][w][e]-##
+[s]Люди ничего не думают о том, чтобы[n]разрушить чью-то жизнь...[n][w][e]
+##-[s]People think nothing of ruining[n]someone else's life...[n][w][e]-##
+[s]Я просто должен сделать все, что в моих[n]силах. Я разберусь с тем, что произойдет,[n]когда это произойдет.[n][w][e]
+##-[s]I've just got to do my best. I'll[n]deal with what happens when it[n]comes.[n][w][e]-##
+[s]А как насчет вас, дети? Довольны ли вы[n]своей жизнью?[n][w][e]
+##-[s]What about you kids? Are you[n]satisfied with your lives?[n][w][e]-##
+
+[msg MSG_4B_NPC014_01 [Male Student]]
+[s]В наши дни все заводят друзей... Я не знаю.[n]Похоже, это большая работа.[n][w][e]
+##-[s]Everyone's making friends these[n]days... I dunno. It seems like[n]a lot of work.[n][w][e]-##
+[s]Я знаю, что в том, чтобы иметь друзей, есть[n]свои плюсы, но...[n][w][e]
+##-[s]I know there's an upside to having[n]friends, but...[n][w][e]-##
+[s]Если бы я только мог придумать, как это[n]сделать без всех этих "связующих" вещей,[n]понимаешь?[n][w][e]
+##-[s]If I could just figure out a way[n]to do it without all that "bonding"[n]stuff, y'know?[n][w][e]-##
+
+[msg MSG_4B_NPC014_01_G [Male Student]]
+[s]В наши дни все заводят друзей... Я не знаю.[n]Похоже, это большая работа.[n][w][e]
+##-[s]Everyone's making friends these[n]days... I dunno. It seems like[n]a lot of work.[n][w][e]-##
+[s]Я знаю, что в том, чтобы иметь друзей, есть[n]свои плюсы, но...[n][w][e]
+##-[s]I know there's an upside to having[n]friends, but...[n][w][e]-##
+[s]Если бы я только мог придумать, как это[n]сделать без всех этих "связующих" вещей,[n]понимаешь?[n][w][e]
+##-[s]If I could just figure out a way[n]to do it without all that "bonding"[n]stuff, y'know?[n][w][e]-##
+
+[msg MSG_6B_NPC014_01 [Male Student]]
+[s]Блин, я такой ленивый в эти дни.[n][w][e]
+##-[s]Man, I'm so lazy these days.[n][w][e]-##
+[s]Думаешь, у меня этот Синдром Апатии?[n][w][e]
+##-[s]Think I've got that Apathy[n]Syndrome thing?[n][w][e]-##
+
+[msg MSG_6B_NPC014_01_G [Male Student]]
+[s]Блин, я такой ленивый в эти дни.[n][w][e]
+##-[s]Man, I'm so lazy these days.[n][w][e]-##
+[s]Думаешь, у меня этот Синдром Апатии?[n][w][e]
+##-[s]Think I've got that Apathy[n]Syndrome thing?[n][w][e]-##
+
+[sel MSG_6B_NPC014_01_SEL top]
+[s]"Я так не думаю".[e]
+##-[s]"I don't think so."[e]-##
+[s]"Может быть".[e]
+##-[s]"Maybe."[e]-##
+[s]"Осторожно..."[e]
+##-[s]"Careful..."[e]-##
+
+[sel MSG_6B_NPC014_01_SEL_G top]
+[s]"Я так не думаю".[e]
+##-[s]"I don't think so."[e]-##
+[s]"Может быть".[e]
+##-[s]"Maybe."[e]-##
+[s]"Осторожно..."[e]
+##-[s]"Careful..."[e]-##
+
+[msg MSG_6B_NPC014_02 [Male Student]]
+[s]Да, я думаю, это просто обычная лень.[n][w][e]
+##-[s]Yeah, I guess it's just garden-[n]variety laziness.[n][w][e]-##
+
+[msg MSG_6B_NPC014_03 [Male Student]]
+[s]Я... я просто пошутил. Не принимай это так[n]серьезно, чувак.[n][w][e]
+##-[s]I-I was just kidding. Don't take[n]it so seriously, man.[n][w][e]-##
+
+[msg MSG_6B_NPC014_04 [Male Student]]
+[s]Успокойся! Я... я просто пошутил...[n][w][e]
+##-[s]Calm down! I-I was just kidding...[n][w][e]-##
+
+[msg MSG_8B_NPC014_01 [Male Student]]
+[s]В такие жаркие дни, как этот, ты должен[n]пойти в манга-кафе. Это приятно и круто, и[n]ты можешь читать всю мангу, какую захочешь.[n][w][e]
+##-[s]On hot days like this, you gotta go to[n]the manga cafe. It's nice and cool, and[n]you can read all the manga you want.[n][w][e]-##
+[s]У них там тоже есть компьютеры для доступа[n]в Интернет.[n][w][e]
+##-[s]They have PCs to access the Internet[n]there, too.[n][w][e]-##
+[s]О, это напомнило мне... Иногда я вижу там[n]этого странного парня...[n][w][e]
+##-[s]Oh, that reminds me... Sometimes[n]I see that weird guy there...[n][w][e]-##
+[s]Он всегда стучит по своему маленькому[n]ноутбуку, бормоча что-то себе под нос...[n][w][e]
+##-[s]He's always banging away on that[n]little laptop of his, muttering to[n]himself...[n][w][e]-##
+[s]И у него тоже всегда есть этот портфель...[n]Он что, типа дейтрейдер или что-то в этом[n]роде?[n][w][e]
+##-[s]And he's always got that briefcase,[n]too... Is he, like, a day trader or[n]something?[n][w][e]-##
+
+[msg MSG_12B_NPC014_01 [Male Student]]
+[s]Разве в наши дни в городе не беспорядок?[n][w][e]
+##-[s]Isn't the town messy these days?[n][w][e]-##
+
+[msg MSG_12B_NPC014_01_G [Male Student]]
+[s]Разве в наши дни в городе не беспорядок?[n][w][e]
+##-[s]Isn't the town messy these days?[n][w][e]-##
+
+[sel MSG_12B_NPC014_01_SEL top]
+[s]"Да..."[e]
+##-[s]"Yeah..."[e]-##
+[s]"Ты так думаешь?[e]
+##-[s]"You think so?[e]-##
+[s]"Мне так нравится.[e]
+##-[s]"I like it this way.[e]-##
+
+[sel MSG_12B_NPC014_01_SEL_G top]
+[s]"Да..."[e]
+##-[s]"Yeah..."[e]-##
+[s]"Ты так думаешь?[e]
+##-[s]"You think so?[e]-##
+[s]"Мне так нравится.[e]
+##-[s]"I like it this way.[e]-##
+
+[msg MSG_12B_NPC014_02 [Male Student]]
+[s]Верно? Верно? Люди тоже странные в наши[n]дни...[n][w][e]
+##-[s]Right? Right? The people are weird[n]these days, too...[n][w][e]-##
+[s]Я уже ленив, и я думаю, что стану еще[n]ленивее...[n][w][e]
+##-[s]I'm lazy already, and I think I'm[n]going to get even lazier...[n][w][e]-##
+
+[msg MSG_12B_NPC014_03 [Male Student]]
+[s]Я говорю тебе, чувак.[n][w][e]
+##-[s]I'm telling you, man.[n][w][e]-##
+
+[msg MSG_12B_NPC014_04 [Male Student]]
+[s]Чувак, ты совсем запутался. С тобой[n]случилось что-то плохое?[n][w][e]
+##-[s]Dude, you're messed up.[n]Did something bad happen to you?[n][w][e]-##
+
+[msg MSG_12B_NPC014_04_G [Male Student]]
+[s]Чувак, ты совсем запутался. С тобой[n]случилось что-то плохое?[n][w][e]
+##-[s]Dude, you're messed up.[n]Did something bad happen to you?[n][w][e]-##
+
+[msg MSG_4B_NPC015_01 [Woman]]
+[s]Совершенно здоровый человек в одночасье[n]становится психически больным...[n][w][e]
+##-[s]A perfectly healthy person becoming[n]mentally ill overnight...[n][w][e]-##
+[s]У них нет семейной истории об этом, и они[n]не попадали в какие-либо ужасные несчастные[n]случаи.[n][w][e]
+##-[s]There's no family history of it,[n]and they haven't been in any[n]terrible accidents.[n][w][e]-##
+[s]Не было даже никакого сходства с последними[n]жертвами. Это было в другое время, в другом[n]месте.[n][w][e]
+##-[s]There wasn't even any similarity to[n]the last victims. It was a different[n]time, in a different place.[n][w][e]-##
+[s]Это одна трудная загадка, ты знаешь это?[n][w][e]
+##-[s]This is one tough mystery,[n]you know that?[n][w][e]-##
+[s]Но я собираюсь решить эту проблему. Я решу[n]эту проблему.[n][w][e]
+##-[s]But I'm gonna solve it. I WILL[n]solve it.[n][w][e]-##
+
+[msg MSG_6B_NPC015_01 [Woman]]
+[s]Я слышал, что в наши дни в Интернете растет[n]движение...[n][w][e]
+##-[s]I hear there's a growing movement on[n]the Internet these days...[n][w][e]-##
+[s]Я не знаю, как это называется, но этот[n]парень собирает вокруг себя множество[n]пользователей.[n][w][e]
+##-[s]I don't know what it's called, but[n]this one guy is gathering lots of[n]users around him.[n][w][e]-##
+[s]Я не уверен, что он задумал и почему, но...[n][w][e]
+##-[s]I'm not sure what he's up to or why,[n]but...[n][w][e]-##
+[s]Они говорят, что люди просто естественно[n]привязываются к нему, потому что он их[n]понимает.[n][w][e]
+##-[s]They say people just naturally take[n]to him, 'cause he understands them.[n][w][e]-##
+[s]Может быть, мне стоит как-нибудь проверить[n]его.[n][w][e]
+##-[s]Maybe I should check him out sometime.[n][w][e]-##
+
+[msg MSG_8B_NPC015_01 [Woman]]
+[s]Это такое клише для взрослых - жаловаться[n]на то, как выглядят и ведут себя молодые[n]люди...[n][w][e]
+##-[s]It's such a cliche for adults to[n]complain about how young people[n]look and act...[n][w][e]-##
+[s]Так что, если бы я опубликовал это в[n]Интернете, я уверен, что меня просто[n]проигнорировали бы, но...[n][w][e]
+##-[s]So if I was to post this online,[n]I'm sure I'd just be ignored, but...[n][w][e]-##
+[s]Этот парень был действительно чем-то[n]другим![n][w][e]
+##-[s]That guy was really something else![n][w][e]-##
+[s]У него были длинные седые волосы, без[n]рубашки и татуировки на руках.[n][w][e]
+##-[s]He had long gray hair, no shirt, and[n]tattoos across his arms.[n][w][e]-##
+[s]Держу пари, я был бы не первым, кто[n]пожаловался бы на такого хулигана...[n][w][e]
+##-[s]I bet I wouldn't be the first to[n]complain about a hoodlum like that...[n][w][e]-##
+
+[msg MSG_0829_NPC015_01 [Woman]]
+[s]Число жертв этих загадочных инцидентов[n]растет.[n][w][e]
+##-[s]The number of victims of those[n]mysterious incidents is increasing.[n][w][e]-##
+[s]Вы уже заметили закономерность в поведении[n]жертв?[n][w][e]
+##-[s]Have you noticed the pattern to[n]the victims so far?[n][w][e]-##
+[s]Исходя из того, что произошло до сих пор,[n]они увеличиваются за неделю до каждого[n]полнолуния...[n][w][e]
+##-[s]Based on what's happened so far,[n]they increase one week before[n]every full moon...[n][w][e]-##
+[s]И как только заканчивается полнолуние, все[n]они исчезают. Это все, что мы пока знаем.[n][w][e]
+##-[s]And once the full moon is over,[n]they all disappear. That's all[n]we know so far.[n][w][e]-##
+[s]Эта тайна... Это связано с полнолунием, я[n]это знаю...[n][w][e]
+##-[s]This mystery... It's related to[n]the full moon, I know it...[n][w][e]-##
+
+[msg MSG_1027_NPC015_01 [Woman]]
+[s]Все эти жертвы Синдрома апатии заставляют[n]меня беспокоиться. Если вы посмотрите на[n]то, что происходит на самом деле...[n][w][e]
+##-[s]All those Apathy Syndrome victims[n]make me worried. If you look at[n]what's really going on...[n][w][e]-##
+[s]Она распространяется по всей стране, и с[n]каждым днем жертв становится все больше и[n]больше.[n][w][e]
+##-[s]It's spreading through the entire[n]country, with more and more victims[n]all the time.[n][w][e]-##
+[s]Я не удивлюсь, если скоро состоится важное[n]политическое совещание по этому поводу.[n][w][e]
+##-[s]I wouldn't be surprised if there's[n]a major policy meeting about this[n]soon.[n][w][e]-##
+
+[msg MSG_10B_NPC015_01 [Woman]]
+[s]Мое расследование смерти студента Геккукана[n]было прекращено.[n][w][e]
+##-[s]My investigation into the death[n]of the Gekkoukan student was[n]called off.[n][w][e]-##
+[s]Начальство... Они, должно быть, слышали,[n]что я этим занимаюсь.[n][w][e]
+##-[s]The higher-ups... They must have[n]heard about me looking into it.[n][w][e]-##
+[s]У меня возникло ощущение, что это произошло[n]даже выше, чем у моего босса.[n][w][e]
+##-[s]I got the sense that this came[n]down from even higher than my[n]boss.[n][w][e]-##
+
+[msg MSG_10B_NPC015_01_G [Woman]]
+[s]Мое расследование убийства студента[n]Геккукана было прекращено.[n][w][e]
+##-[s]My investigation into the shooting of[n]the Gekkoukan student was called off.[n][w][e]-##
+[s]Начальство... Они, должно быть, слышали,[n]что я этим занимаюсь.[n][w][e]
+##-[s]The higher-ups... They must have[n]heard about me looking into it.[n][w][e]-##
+[s]У меня возникло ощущение, что это произошло[n]даже выше, чем у моего босса.[n][w][e]
+##-[s]I got the sense that this came[n]down from even higher than my[n]boss.[n][w][e]-##
+
+[msg MSG_12B_NPC015_01 [Woman]]
+[s]Точно так же, как "тайна" не берет[n]отпусков, мы, репортеры, тоже не можем[n]брать отпуск.[n][w][e]
+##-[s]Just like the mystery doesn't take[n]holidays, we reporters can't take[n]holidays either.[n][w][e]-##
+[s]Но я думаю, что я близок к настоящему[n]прорыву в этом вопросе...[n][w][e]
+##-[s]But I think I'm close to a real[n]breakthrough on this one...[n][w][e]-##
+[s]Я не могу сделать перерыв, когда я так[n]близко.[n][w][e]
+##-[s]I can't take a break when I'm[n]this close.[n][w][e]-##
+
+[msg MSG_1A_NPC022_01 [Man]]
+[s]В этом мире много грязи. Это одна из[n]причин, по которой мы нуждаемся в[n]Освобождении.[n][w][e]
+##-[s]In this world, there is much[n]filth. This is one reason we[n]require Deliverance.[n][w][e]-##
+[s]Такими темпами, даже когда Избавление будет[n]близко, мир не будет полностью чистым.[n][w][e]
+##-[s]At this rate, even when the[n]Deliverance is at hand, the world[n]will not be totally clean.[n][w][e]-##
+[s]Мы должны продолжать готовиться к этому[n]дню. Небеса поручили нам подготовиться к[n]Освобождению.[n][w][e]
+##-[s]We must continue to prepare for that[n]day. Heaven has charged us with[n]preparing for the Deliverance.[n][w][e]-##
+[s]Наша задача велика и жизненно важна. Не[n]мешайте нашей работе.[n][w][e]
+##-[s]Our task is great, and of vital[n]importance. Do not disturb our[n]work.[n][w][e]-##
+
+[msg MSG_1B_NPC022_01 [Man]]
+[s]Прислушайтесь к пустоте и опустошите свое[n]собственное сердце... Вы услышите звук.[n][w][e]
+##-[s]Listen to the emptiness, and empty[n]your own heart... You will hear[n]a sound.[n][w][e]-##
+[s]Это звук Никс-сама. Ее сердцебиение... Ее[n]дыхание... Ее шепот...[n][w][e]
+##-[s]That is the sound of Nyx-sama.[n]Her heartbeat... Her breath...[n]Her whisper...[n][w][e]-##
+[s]Когда Избавление будет близко, ваше сердце[n]освободится от боли, и вы обретете покой.[n][w][e]
+##-[s]When the Deliverance is at hand,[n]your heart will be free of pain,[n]and you will be at peace.[n][w][e]-##
+[s]Однако вы, глупцы, не получите Избавления.[n]Вам не хватает доверия к Никс-сама.[n][w][e]
+##-[s]You fools, however, will not receive[n]the Deliverance. You lack trust in[n]Nyx-sama.[n][w][e]-##
+[s]Боль в твоем сердце будет подобна пылающему[n]красному пламени Ада![n][w][e]
+##-[s]The pain in your heart will be as[n]the burning red flames of Hell![n][w][e]-##
+
+[msg MSG_1A_NPC023_01 [Female Student]]
+[s]Этот парень прямо там популярен, просто[n]потому, что он так увлечен этим.[n][w][e]
+##-[s]That guy right there is popular,[n]just because he's so into it.[n][w][e]-##
+[s]Но... Он так увлечен этим, что мы не можем[n]понять, что он имеет в виду...[n][w][e]
+##-[s]But... He's so into it, that we[n]can't understand what he means...[n][w][e]-##
+
+[msg MSG_KAGE_01_01 [Male Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_01_02 [Male Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]А... Ууу...[n][w][e]
+##-[s]Ah...[n]Uu...[n][w][e]-##
+
+[msg MSG_KAGE_01_03 [Male Student]]
+[s]Ух... Ах...[n][w][e]
+##-[s]Uhh...[n]Ah...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ahh...[n][w][e]-##
+
+[msg MSG_KAGE_01_04 [Male Student]]
+[s]Ухааа... Аууу...[n][w][e]
+##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_01_05 [Male Student]]
+[s]Ух... Ухва... Ааа...[n][w][e]
+##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
+[s]Ааа...[n][w][e]
+##-[s]Ahhh...[n][w][e]-##
+
+[msg MSG_KAGE_01_06 [Male Student]]
+[s]Ааа...[n][w][e]
+##-[s]Ahhh...[n][w][e]-##
+[s]Ууу... Ух...[n][w][e]
+##-[s]Uu...[n]Uhh...[n][w][e]-##
+
+[msg MSG_KAGE_01_07 [Male Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Уаааа...[n][w][e]
+##-[s]Uaaaah...[n][w][e]-##
+
+[msg MSG_KAGE_01_08 [Male Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ух... Ух-х-х...[n][w][e]
+##-[s]Uh...[n]Uhhhh...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_01_09 [Male Student]]
+[s]Эм... Эм...[n][w][e]
+##-[s]Uh...[n]Uh...[n][w][e]-##
+[s]Э-э-э... Э-э-э.....[n][w][e]
+##-[s]Uhhhhhh...[n]Uh...[n][w][e]-##
+
+[msg MSG_KAGE_01_10 [Male Student]]
+[s]Уаааа... Ааа...[n][w][e]
+##-[s]Uaaah...[n]Ahh...[n][w][e]-##
+[s]...... Э-э-э...[n][w][e]
+##-[s]......[n]Uhhh...[n][w][e]-##
+
+[msg MSG_KAGE_02_01 [Female Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_02_02 [Female Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]А... Ууу...[n][w][e]
+##-[s]Ah...[n]Uu...[n][w][e]-##
+
+[msg MSG_KAGE_02_03 [Female Student]]
+[s]Ух... Ах...[n][w][e]
+##-[s]Uhh...[n]Ah...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ahh...[n][w][e]-##
+
+[msg MSG_KAGE_02_04 [Female Student]]
+[s]Ухааа... Аууу...[n][w][e]
+##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_02_05 [Female Student]]
+[s]Ух... Ухва... Ааа...[n][w][e]
+##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ah...[n][w][e]-##
+
+[msg MSG_KAGE_02_06 [Female Student]]
+[s]Ааа...[n][w][e]
+##-[s]Ahhh...[n][w][e]-##
+[s]Ууу... Ух...[n][w][e]
+##-[s]Uu...[n]Uhh...[n][w][e]-##
+
+[msg MSG_KAGE_02_07 [Female Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Уаааа...[n][w][e]
+##-[s]Uaaaah...[n][w][e]-##
+
+[msg MSG_KAGE_02_08 [Female Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ух... Ух-х-х...[n][w][e]
+##-[s]Uh...[n]Uhhhh...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_02_09 [Female Student]]
+[s]Ух... Ух-х-х...[n][w][e]
+##-[s]Uh...[n]Uhhhh...[n][w][e]-##
+[s]Э-э-э... Э-э-э.....[n][w][e]
+##-[s]Uhhhhhh...[n]Uh...[n][w][e]-##
+
+[msg MSG_KAGE_02_10 [Female Student]]
+[s]Уаааа... Ааа...[n][w][e]
+##-[s]Uaaah...[n]Ahh...[n][w][e]-##
+[s]...... Э-э-э...[n][w][e]
+##-[s]......[n]Uhhh...[n][w][e]-##
+
+[msg MSG_KAGE_03_01 [Female Student]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_03_02 [Man]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]А... Ууу...[n][w][e]
+##-[s]Ah...[n]Uu...[n][w][e]-##
+
+[msg MSG_KAGE_03_03 [Man]]
+[s]Ух... Ах...[n][w][e]
+##-[s]Uhh...[n]Ah...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ahh...[n][w][e]-##
+
+[msg MSG_KAGE_03_04 [Man]]
+[s]Ухааа... Аууу...[n][w][e]
+##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_03_05 [Man]]
+[s]Ух... Ухва... Ааа...[n][w][e]
+##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ah...[n][w][e]-##
+
+[msg MSG_KAGE_03_06 [Man]]
+[s]Ааа...[n][w][e]
+##-[s]Ahhh...[n][w][e]-##
+[s]Ууу... Ух...[n][w][e]
+##-[s]Uu...[n]Uhh...[n][w][e]-##
+
+[msg MSG_KAGE_03_07 [Man]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Уаааа...[n][w][e]
+##-[s]Uaaaah...[n][w][e]-##
+
+[msg MSG_KAGE_03_08 [Man]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ух... Ух-х-х...[n][w][e]
+##-[s]Uh...[n]Uhhhh...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_03_09 [Man]]
+[s]Ух... Ух...[n][w][e]
+##-[s]Uh...[n]Uhh...[n][w][e]-##
+[s]Э-э-э... Э-э-э.....[n][w][e]
+##-[s]Uhhhhhh...[n]Uh...[n][w][e]-##
+
+[msg MSG_KAGE_03_10 [Man]]
+[s]Уаааа... Ааа...[n][w][e]
+##-[s]Uaaah...[n]Ahh...[n][w][e]-##
+[s]...... Э-э-э...[n][w][e]
+##-[s]......[n]Uhhh...[n][w][e]-##
+
+[msg MSG_KAGE_04_01 [Woman]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_04_02 [Woman]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]А... Ууу...[n][w][e]
+##-[s]Ah...[n]Uu...[n][w][e]-##
+
+[msg MSG_KAGE_04_03 [Woman]]
+[s]Ух... Ах...[n][w][e]
+##-[s]Uhh...[n]Ah...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ahh...[n][w][e]-##
+
+[msg MSG_KAGE_04_04 [Woman]]
+[s]Ухааа... Аууу...[n][w][e]
+##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_04_05 [Woman]]
+[s]Ух... Ухва... Ааа...[n][w][e]
+##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
+[s]Ах...[n][w][e]
+##-[s]Ah...[n][w][e]-##
+
+[msg MSG_KAGE_04_06 [Woman]]
+[s]Ааа...[n][w][e]
+##-[s]Ahhh...[n][w][e]-##
+[s]Ууу... Ух...[n][w][e]
+##-[s]Uu...[n]Uhh...[n][w][e]-##
+
+[msg MSG_KAGE_04_07 [Woman]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Уаааа...[n][w][e]
+##-[s]Uaaaah...[n][w][e]-##
+
+[msg MSG_KAGE_04_08 [Woman]]
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+[s]Ух... Ух-х-х...[n][w][e]
+##-[s]Uh...[n]Uhhhh...[n][w][e]-##
+[s]......[n][w][e]
+##-[s]......[n][w][e]-##
+
+[msg MSG_KAGE_04_09 [Woman]]
+[s]Ух... Ух...[n][w][e]
+##-[s]Uh...[n]Uhh...[n][w][e]-##
+[s]Э-э-э... Э-э-э.....[n][w][e]
+##-[s]Uhhhhhh...[n]Uh...[n][w][e]-##
+
+[msg MSG_KAGE_04_10 [Woman]]
+[s]Уаааа... Ааа...[n][w][e]
+##-[s]Uaaah...[n]Ahh...[n][w][e]-##
+[s]...... Э-э-э...[n][w][e]
+##-[s]......[n]Uhhh...[n][w][e]-##
+
+[msg MSG_KAGE_FIRST]
+[s]> Это один из Потерянных - жертва Синдрома[n]Апатии, который вызывает такой переполох.[n][w][e]
+##-[s]> It's one of The Lost--a victim of[n]the Apathy Syndrome that's causing[n]such a stir.[n][w][e]-##
+[s]> Вы не можете добиться от этого человека[n]осмысленного ответа.[n][w][e]
+##-[s]> You cannot get a meaningful[n]response out of this person.[n][w][e]-##
+

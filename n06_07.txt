@@ -1,0 +1,184 @@
+[msg MSG_4A_NPC000_01 [Teacher]]
+[s]Есть поговорка: "Тот, кто охотится за двумя[n]зайцами сразу, не поймает ни одного".[n][w][e]
+##-[s]There's a saying, "He who hunts[n]two hares at once will catch[n]neither."[n][w][e]-##
+[s]Это означает, что такой студент, как ты,[n]который всегда пытается делать две вещи[n]одновременно, будет...[n][w][e]
+##-[s]That means a student like you[n]who's always trying to do two[n]things at once will...[n][w][e]-##
+[s]> Учитель продолжает ругать ученика...[n][f 1 4][e]
+##-[s]> The teacher continues to scold[n]the student...[n][f 1 4][e]-##
+
+[msg MSG_4A_NPC001_01 [Male Student]]
+[s]Похоже, он знает, что говорит, не так ли?[n]Хорошо, послушай это...[n][w][e]
+##-[s]He sounds like he knows what[n]he's saying, doesn't he?[n]Well, listen to this...[n][w][e]-##
+[s]В прошлом году он встречался с двумя[n]женщинами одновременно.[n][w][e]
+##-[s]Last year, he was dating two women[n]at the same time.[n][w][e]-##
+[s]Но дело в том, что они работали вместе![n][w][e]
+##-[s]But, the thing is,[n]they worked together![n][w][e]-##
+[s]И когда они узнали, они оба бросили его![n][w][e]
+##-[s]And when they found out,[n]they both dumped him![n][w][e]-##
+
+[msg MSG_5A_NPC002_01 [Male Student]]
+[s]Ты видишь вон ту девушку? Я думаю, она[n]повсюду преследует меня.[n][w][e]
+##-[s]Do you see that girl over there?[n]I think she's following me around.[n][w][e]-##
+[s]Хмм... Как мне с этим бороться?[n][w][e]
+##-[s]Hmm... How should I deal with this?[n][w][e]-##
+
+[msg MSG_5A_NPC003_01 [Female Student]]
+[s]Первое, что я делаю, когда прихожу в школу,[n]- это ищу его...[n][w][e]
+##-[s]The first thing I do when I get to[n]school is look for him...[n][w][e]-##
+[s]Просто видя его, я улыбаюсь.[n][w][e]
+##-[s]Just seeing him makes me smile.[n][w][e]-##
+[s]*вздох* Что мне делать...? Как мне выразить[n]свои чувства к нему...?[n][w][e]
+##-[s]*sigh* What should I do...?[n]How should I express my feelings[n]for him...?[n][w][e]-##
+
+[msg MSG_5B_NPC004_01 [Male Student]]
+[s]Пока ты сдаешь экзамены, с тобой все будет[n]в порядке.[n][w][e]
+##-[s]As long as you pass your exams,[n]you'll be fine.[n][w][e]-##
+[s]Я никогда не готовлюсь к экзаменам, потому[n]что я такой ленивый.[n][w][e]
+##-[s]I never study for my exams cuz[n]I'm so lazy.[n][w][e]-##
+
+[msg MSG_10A_NPC004_01 [Male Student]]
+[s]Ч-Что?! Я не сделал ничего плохого![n][w][e]
+##-[s]Wh-What!? I haven't done anything[n]wrong![n][w][e]-##
+
+[msg MSG_10A_NPC004_01_G [Male Student]]
+[s]Ч-Что?! Я не сделал ничего плохого![n][w][e]
+##-[s]Wh-What!? I haven't done anything[n]wrong![n][w][e]-##
+
+[sel MSG_10A_NPC004_01_SEL top]
+[s]"О чем ты говоришь?"[e]
+##-[s]"What are you talking about?"[e]-##
+[s]"Я думаю, что нет".[e]
+##-[s]"I guess not."[e]-##
+[s]"Это все твоя вина".[e]
+##-[s]"It's all your fault."[e]-##
+
+[sel MSG_10A_NPC004_01_SEL_G top]
+[s]"О чем ты говоришь?"[e]
+##-[s]"What are you talking about?"[e]-##
+[s]"Я думаю, что нет".[e]
+##-[s]"I guess not."[e]-##
+[s]"Так это был ТЫ!"[e]
+##-[s]"So it was YOU!"[e]-##
+
+[msg MSG_10A_NPC004_02 [Male Student]]
+[s]А? Так ты здесь не из-за... этого?[n][w][e]
+##-[s]Huh? So you're not here[n]about... that?[n][w][e]-##
+[s]Фу... Не пугай меня так.[n][w][e]
+##-[s]Phew... Don't scare me that way.[n][w][e]-##
+
+[msg MSG_10A_NPC004_02_G [Male Student]]
+[s]А? Так ты здесь не из-за... этого?[n][w][e]
+##-[s]Huh? So you're not here[n]about... that?[n][w][e]-##
+[s]Фу... Не пугай меня так.[n][w][e]
+##-[s]Phew... Don't scare me that way.[n][w][e]-##
+
+[msg MSG_10A_NPC004_03 [Male Student]]
+[s]Да, именно так. Никто не должен знать.[n][w][e]
+##-[s]Yeah, that's right.[n]No one has to know.[n][w][e]-##
+
+[msg MSG_10A_NPC004_04 [Male Student]]
+[s]Д-Да... Я хотел, чтобы тайфун обрушился[n]сюда![n][w][e]
+##-[s]Y-Yeah... I wished for the typhoon[n]to hit here![n][w][e]-##
+[s]Я даже вешал кукол вуду вверх ногами, с[n]множеством иголок, воткнутых в их головы![n][w][e]
+##-[s]I even hung voodoo dolls upside[n]down, with lots of needles stuck[n]in their heads![n][w][e]-##
+[s]Но я не думал, что тайфун действительно[n]придет! Это был несчастный случай![n][w][e]
+##-[s]But I didn't think the typhoon would[n]really come! It was an accident![n][w][e]-##
+[s]Это не моя вина![n][w][e]
+##-[s]It's not my fault![n][w][e]-##
+
+[msg MSG_10A_NPC004_04_G [Male Student]]
+[s]Д-Да... Я хотел, чтобы тайфун обрушился[n]сюда![n][w][e]
+##-[s]Y-Yeah... I wished for the typhoon[n]to hit here![n][w][e]-##
+[s]Я даже вешал кукол вуду вверх ногами, с[n]множеством иголок, воткнутых в их головы![n][w][e]
+##-[s]I even hung voodoo dolls upside[n]down, with lots of needles stuck[n]in their heads![n][w][e]-##
+[s]Но я не думал, что тайфун действительно[n]придет! Это был несчастный случай![n][w][e]
+##-[s]But I didn't think the typhoon would[n]really come! It was an accident![n][w][e]-##
+[s]Это не моя вина![n][w][e]
+##-[s]It's not my fault![n][w][e]-##
+
+[msg MSG_11A_NPC004_01 [Male Student]]
+[s]В последний раз, когда я тусовался в[n]торговом центре, я видел чувака с каким-то[n]диким чувством моды.[n][w][e]
+##-[s]Last time I was hanging out at the[n]strip mall, I saw a dude with some[n]wild fashion sense.[n][w][e]-##
+[s]Длинные волнистые волосы, без рубашки, и[n]татуировки по всей длине рук.[n][w][e]
+##-[s]Long, wavy hair, no shirt, and[n]tattoos all up and down his arms.[n][w][e]-##
+[s]Я знаю, что сейчас может быть не по сезону[n]тепло, но он вроде как переборщил...[n][w][e]
+##-[s]I know it might be unseasonably warm,[n]but he kinda went overboard...[n][w][e]-##
+[s]Но, эй, может быть, это круто - позволить[n]своему уродливому флагу развеваться.[n][w][e]
+##-[s]But hey, maybe it's cool to let your[n]freak flag fly.[n][w][e]-##
+[s]Если бы я был больше похож на него, не[n]придавая значения тому, что думают люди,[n]мне было бы все равно на свете.[n][w][e]
+##-[s]If I was more like him, not givin'[n]a rip what people think, I wouldn't[n]have a care in the world.[n][w][e]-##
+
+[msg MSG_4A_NPC005_01 [Male Student]]
+[s]Я пришел сюда, потому что чувствую себя не[n]слишком хорошо...[n][w][e]
+##-[s]I came here 'cause I'm not feeling[n]too good...[n][w][e]-##
+[s]Я просто хотела немного таблеток от кашля,[n]но он дал мне это странное лекарство.[n][w][e]
+##-[s]I just wanted some cough drops,[n]but he gave me this weird-looking[n]medicine.[n][w][e]-##
+[s]Я был не в настроении набираться храбрости,[n]поэтому отказался...[n][w][e]
+##-[s]I wasn't in the mood to gather my[n]courage, so I declined...[n][w][e]-##
+[s]И он достал ЕЩЕ одно странное лекарство,[n]которого я никогда раньше не видел![n][w][e]
+##-[s]And he busted out ANOTHER weird[n]medicine that I'd never seen before![n][w][e]-##
+
+[msg MSG_9A_NPC005_01 [Male Student]]
+[s]Я не очень хорошо себя чувствую, но ему[n]пришлось убежать на запасной урок...[n][w][e]
+##-[s]I'm not feeling too good, but he[n]had to run off for a substitute[n]lesson...[n][w][e]-##
+[s]Во всяком случае, он никогда не давал мне[n]никаких лекарств, о которых я когда-либо[n]слышал...[n][w][e]
+##-[s]Anyway, he never gives me any[n]medicine I ever heard of...[n][w][e]-##
+[s]Если я приму его, то могу заболеть. И если[n]я его не приму, он даст мне другую смесь.[n][w][e]
+##-[s]If I take it, I might get sick.[n]And if I don't take it, he'll[n]give me this other concoction.[n][w][e]-##
+[s]Зачем я вообще сюда пришел...?[n][w][e]
+##-[s]Why did I bother coming here...?[n][w][e]-##
+
+[msg MSG_11A_NPC005_01 [Male Student]]
+[s]Интересно, Эдогава-сенсей когда-нибудь[n]выдаст какое-нибудь нормальное лекарство?[n][w][e]
+##-[s]I wonder if Edogawa-sensei will ever[n]give out any normal medicine.[n][w][e]-##
+[s]Все, что он прописывает, в некотором роде[n]ненормально...[n][w][e]
+##-[s]Everything he prescribes is abnormal[n]in some way...[n][w][e]-##
+[s]Эй, тебе не кажется, что Эдогава-сенсей и[n]Оуниши-сенсей составляют странную пару?[n][w][e]
+##-[s]Hey, don't you think Edogawa-sensei[n]and Ounishi-sensei make a weird pair?[n][w][e]-##
+[s]Они всегда ссорятся друг с другом... Но для[n]этих двоих это работает.[n][w][e]
+##-[s]They always fight with each other...[n]But for those two, it works.[n][w][e]-##
+[s]Одна странная пара...[n][w][e]
+##-[s]One freaky couple...[n][w][e]-##
+
+[msg FIRST_SCHOOL_02 [ ]]
+[s]> Мужчина в кабуто, похожий на учителя,[n]разговаривает с иностранным студентом[n]мужского пола...[n][w][e]
+##-[s]> A man wearing a kabuto who looks like[n]a teacher is talking to a foreign[n]male student...[n][w][e]-##
+[s][f 1 5]Человек в шлеме[n][bup 45 161 65535 3][bup 34 1 65535 1]Ты видишь? В каждом мужчине должен быть[n]страстный самурайский дух![n][w][e]
+##-[s][f 1 5]Helmeted Man[n][bup 45 161 65535 3][bup 34 1 65535 1]Do you see? Every man must have the[n]passionate samurai spirit within him![n][w][e]-##
+[s]В нашей школе мы поощряем наших учеников[n]мыслить как самураи, чтобы совершать[n]великие дела![n][w][e]
+##-[s]At our school, we encourage our[n]students to think like samurai in[n]order to accomplish great things![n][w][e]-##
+[s][f 1 5]Иностранный студент[n][bup 34 2 65535 1]Это просто фантастика! Учения Дзэ бусидо[n]важны для дзэн, как и сейчас![n][w][e]
+##-[s][f 1 5]Foreign Student[n][bup 34 2 65535 1]Zat's fantastic! Ze teachings of[n]bushido are important zen as[n]zey are now![n][w][e]-##
+[s][f 1 5]Человек в шлеме[n]Да, да, да! Может быть, вы и не уроженец[n]этой земли, но дух самурая все равно[n]струится в вас![n][w][e]
+##-[s][f 1 5]Helmeted Man[n]Yes, yes, yes! You may not be a native[n]of this land, but the spirit of the[n]samurai flows through you just the same![n][w][e]-##
+[s][f 1 5] [n]> Похоже, им весело...[n][w][e]
+##-[s][f 1 5] [n]> They seem to be having fun...[n][w][e]-##
+
+[msg FIRST_SCHOOL_02_02 [ ]]
+[s]> Мужчина в кабуто, похожий на учителя,[n]разговаривает с иностранным студентом[n]мужского пола...[n][w][e]
+##-[s]> A man wearing a kabuto who looks like[n]a teacher is talking to a foreign[n]male student...[n][w][e]-##
+[s][f 1 5]Человек в шлеме[n][bup 45 161 65535 3][bup 34 2 65535 1]И тогда, должно быть, в глазах Масамуне[n]стояли слезы... Да.[n][w][e]
+##-[s][f 1 5]Helmeted Man[n][bup 45 161 65535 3][bup 34 2 65535 1]And there must have been tears in [n]Masamune's eyes then... yes.[n][w][e]-##
+[s][f 1 5]Иностранный студент[n][bup 34 2 65535 1]Увлекательный урок! Вы проверяете своих[n]учеников по истории зезе?[n][w][e]
+##-[s][f 1 5]Foreign Student[n][bup 34 2 65535 1]A fascinating lesson! D'you test your[n]students on zese histories?[n][w][e]-##
+[s][f 1 5]Человек в шлеме[n]Ах, конечно, я знаю![n][w][e]
+##-[s][f 1 5]Helmeted Man[n]Ah, of course I do![n][w][e]-##
+[s][f 1 5] [n]> Похоже, им весело...[n][w][e]
+##-[s][f 1 5] [n]> They seem to be having fun...[n][w][e]-##
+
+[msg FIRST_SCHOOL_05_MALE [Distressed Girl]]
+[s][bup 25 1 65535 2]Х-Ха...? Библиотека...?[n][w][e]
+##-[s][bup 25 1 65535 2]H-Huh...? Library...?[n][w][e]-##
+[s]Это странно... Я видел карту, но.....[n][w][e]
+##-[s]That's strange...[n]I saw the map, but...[n][w][e]-##
+[s][bup 25 4 65535 2]Где я?..[n][w][e]
+##-[s][bup 25 4 65535 2]Where am I...?[n][w][e]-##
+
+[msg FIRST_SCHOOL_05_FEMALE [Wandering Student]]
+[s][bup 41 1 65535 2]Хм...? Странно, здесь написано, что это[n]здешняя библиотека...[n][w][e]
+##-[s][bup 41 1 65535 2]Hm...? Strange, it says this is[n]the library here...[n][w][e]-##
+[s]Но я был только в одном из них дальше по[n]коридору...[n][w][e]
+##-[s]But I was just in one down[n]the hall...[n][w][e]-##
+[s]...Это был просто еще один класс?[n][w][e]
+##-[s]...Was that just another classroom?[n][w][e]-##
+
