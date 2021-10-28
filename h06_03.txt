@@ -97,7 +97,7 @@
 ##-[s]> If you can find the appropriate room,[n]you might be able to join.[n][w][e]-##
 
 [msg YOTEI_BUNKABU_HAIRERU]
-[s]> Похоже, что некоторые клубы все еще[n]набирают рекрутов.[n][w][e]
+[s]> Похоже, что некоторые клубы все еще[n]набирают команду.[n][w][e]
 ##-[s]> It seems that certain clubs are still[n]recruiting.[n][w][e]-##
 [s]> Если вы найдете подходящую комнату,[n]возможно, вы сможете присоединиться.[n][w][e]
 ##-[s]> If you can find the appropriate room,[n]you might be able to join.[n][w][e]-##
@@ -137,7 +137,7 @@
 [sel INTO_SEL top]
 [s]Входить[e]
 ##-[s]Enter[e]-##
-[s]Не входи[e]
+[s]Не входить[e]
 ##-[s]Don't enter[e]-##
 
 [sel BUKATU_NYUUBU_SEL top]
@@ -145,13 +145,13 @@
 ##-[s]Join the club[e]-##
 [s]Наблюдать[e]
 ##-[s]Observe[e]-##
-[s]Покидать[e]
+[s]Покинуть[e]
 ##-[s]Leave[e]-##
 
 [sel SCHOOL_SHOTCUTSEL top]
 [s]1F, Главный Вестибюль[e]
 ##-[s]1F, Main Lobby[e]-##
-[s]1F, Коридор Преподавательского кабинета[e]
+[s]1F, Коридор Учительской[e]
 ##-[s]1F, Faculty Office Hallway[e]-##
 [s]1F, Лабораторный Коридор[e]
 ##-[s]1F, Laboratory Hallway[e]-##
@@ -173,11 +173,11 @@
 ##-[s]Cancel[e]-##
 
 [msg ZOKUSEI_KAKUNIN]
-[s]> [f 2 4 1] Рейтинг социальных ссылок [clr 2][f 2 4 4][clr 0].[n][w][e]
+[s]> [f 2 4 1] Рейтинг социальной связи [clr 2][f 2 4 4][clr 0].[n][w][e]
 ##-[s]> [f 2 4 1] Social Link[n]rank [clr 2][f 2 4 4][clr 0].[n][w][e]-##
 [s]> Аркана - это [f 2 4 2].[n][f 2 4 3][w][e]
 ##-[s]> The Arcana is [f 2 4 2].[n][f 2 4 3][w][e]-##
-[s]> Вы можете видеть силу[n][f 2 4 2] Личность...[n][w][e]
+[s]> Вы можете видеть силу[n][f 2 4 2] Персона...[n][w][e]
 ##-[s]> You can see the powers of the[n][f 2 4 2] Persona...[n][w][e]-##
 
 [msg PER_KOE]
@@ -200,11 +200,11 @@
 [s]Куда ты хочешь пойти?[n][w][e]
 ##-[s]Where do you want to go?[n][w][e]-##
 
-[msg STOP_2F [Yukari]]
+[msg STOP_2F [Юкари]]
 [s][bup 2 201 0 0]Давай, поторопись! Прежде чем наступит[n]Темный Час![n][w][e]
 ##-[s][bup 2 201 0 0]C'mon, hurry! Before the Dark Hour[n]comes![n][w][e]-##
 
-[msg STOP_2F_SANADA [Akihiko]]
+[msg STOP_2F_SANADA [Акихико]]
 [s][bup 7 201 0 0]Темный час наступит, если мы не[n]поторопимся. Нельзя терять времени![n][w][e]
 ##-[s][bup 7 201 0 0]The Dark Hour's going to come if we[n]don't hurry. There's no time to waste![n][w][e]-##
 
@@ -216,20 +216,20 @@
 [s]> Ты облегчился.[n][w][e]
 ##-[s]> You relieved yourself.[n][w][e]-##
 
-[msg TOILET_MENS_STOP [Yukari]]
+[msg TOILET_MENS_STOP [Юкари]]
 [s][bup 2 203 0 0]Ты не можешь это удержать?![n][w][e]
 ##-[s][bup 2 203 0 0]Can't you hold it!?[n][w][e]-##
 [s]...Прекрасно! Но поторопись, ладно?[n][w][e]
 ##-[s]...Fine! But hurry up, okay!?[n][w][e]-##
 
-[msg TOILET_MENS_STOP_PART2 [Yukari]]
+[msg TOILET_MENS_STOP_PART2 [Юкари]]
 [s][bup 2 203 0 0]А? Опять!?[n][w][e]
 ##-[s][bup 2 203 0 0]Huh? Again!?[n][w][e]-##
 [s]...Ты делаешь это нарочно, не так ли?![n][w][e]
 ##-[s]...You're doing this on purpose,[n]aren't you!?[n][w][e]-##
 
-[msg TOILET_MENS_STOP_SANADA [Akihiko]]
-[s][bup 7 203 0 0]Эй, куда ты идешь?! Нам нужно поторопиться[n]и пойти в офис факультета![n][w][e]
+[msg TOILET_MENS_STOP_SANADA [Акихико]]
+[s][bup 7 203 0 0]Эй, куда ты идешь?! Нам нужно поторопиться[n]и пойти в учительскую![n][w][e]
 ##-[s][bup 7 203 0 0]Hey, where are you going!? We need to[n]hurry up and go to the Faculty Office![n][w][e]-##
 
 [msg TOILET_NORMAL_TO_BEST]
@@ -260,7 +260,7 @@
 [s]> Это женская комната.[n][w][e]
 ##-[s]> It's the women's room.[n][w][e]-##
 
-[msg TOILET_WOMENS_STOP [Yukari]]
+[msg TOILET_WOMENS_STOP [Юкари]]
 [s][bup 2 203 0 0]Эй! Куда, по-твоему, ты направляешься?![n][w][e]
 ##-[s][bup 2 203 0 0]Hey! Where do you think you're going!?[n][w][e]-##
 
@@ -301,7 +301,7 @@
 [msg TOIRE_GAKURYOKU]
 [s]> Вы чувствуете, что все еще могли бы быть[n]лучше в учебе...[n][w][e]
 ##-[s]> You feel like you could still be[n]better academically...[n][w][e]-##
-[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши ученые не[n]достаточно высоки...[n][w][e]
+[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши знания не[n]достаточно высоки...[n][w][e]
 ##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Academics are high enough...[n][w][e]-##
 [s]> Вы задаетесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
 ##-[s]> You wonder if you should study more...[n][w][e]-##
@@ -349,7 +349,7 @@
 ##-[s]> What should you do today...?[n][w][e]-##
 
 [msg TOIRE_OPERATION]
-[s]> Вам нужно поторопиться и пойти в офис[n]факультета...[n][w][e]
+[s]> Вам нужно поторопиться и пойти в [n]учительскую...[n][w][e]
 ##-[s]> You need to hurry and go to the[n]faculty office...[n][w][e]-##
 
 [msg SCR_MSG_SIKENMAE_NG]
@@ -375,7 +375,7 @@
 [sel SEITOKAI_COMMU_SEL top]
 [s]Посещать Студенческий совет[e]
 ##-[s]Attend Student Council[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -391,7 +391,7 @@
 [msg SEITOKAI_KYOKA_NASI]
 [s]> Вы еще не являетесь членом Студенческого[n]совета.[n][w][e]
 ##-[s]> You are not yet a member of[n]Student Council.[n][w][e]-##
-[s]> Вы должны поговорить с [clr 2]Г-жа Ториуми[clr 0] [n]присоединиться.[n][w][e]
+[s]> Вы должны поговорить с [clr 2]Мисс. Ториуми[clr 0] [n]присоединиться.[n][w][e]
 ##-[s]> You must speak to [clr 2]Ms. Toriumi[clr 0] [n]to join.[n][w][e]-##
 
 [msg STUDENT_COUNCIL]
@@ -405,7 +405,7 @@
 [msg STUDENT_COUNCIL_03]
 [s]> Дверь заперта.[n][w][e]
 ##-[s]> The door is locked.[n][w][e]-##
-[s]> Там есть записка, в которой говорится:[n]"Встречи:[n][clr 2]Понедельник[clr 0], [clr 2]Жениться[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
+[s]> Там есть записка, в которой говорится:[n]"Встречи:[n][clr 2]Пнт[clr 0], [clr 2]Ср[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
 ##-[s]> There's a note that says, "Meetings:[n][clr 2]Mon[clr 0], [clr 2]Wed[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
 
 [msg SCR_MSG_DOUKOUKAI_01]
@@ -427,7 +427,7 @@
 [sel DOUKOUKAI_COMMU_SEL top]
 [s]Войдите в комнату Home Ec[e]
 ##-[s]Enter the Home Ec Room[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -435,7 +435,7 @@
 [sel KATEIKA_COMMU_SEL top]
 [s]Проведите время в кулинарном клубе[e]
 ##-[s]Spend time at the cooking club[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -477,7 +477,7 @@
 [sel DOUKOU_KAIKIN_SEL top]
 [s]Входить[e]
 ##-[s]Enter[e]-##
-[s]Не входи[e]
+[s]Не входить[e]
 ##-[s]Don't enter[e]-##
 
 [msg SCR_MSG_KATEIKA_NG]
@@ -491,7 +491,7 @@
 ##-[s]> It says: "You never came. Sorry,[n]I am gone now."[n][w][e]-##
 
 [msg SCR_MSG_DOUKOU_KATUDOU_N [ ]]
-[s]> Там есть записка, в которой говорится:[n]"Собрания - это [clr 2]Вт[clr 0], [clr 2]Жениться[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
+[s]> Там есть записка, в которой говорится:[n]"Собрания - это [clr 2]Вт[clr 0], [clr 2]Ср[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
 ##-[s]> There's a note that says, "Meetings[n]are [clr 2]Tues[clr 0], [clr 2]Wed[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
 
 [msg SCR_MSG_DOUKOUKAI_RVS]
@@ -507,23 +507,23 @@
 ##-[s]> Would you like to attend [f 5 3 0][n]practice after school?[n][w][e]-##
 
 [sel TAIIKUKAI_COMMU_SEL top]
-[s]Идти к [f 5 3 0] практика[e]
+[s]Идти на [f 5 3 0] практику[e]
 ##-[s]Go to [f 5 3 0] practice[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
 
 [msg SCR_MSG_TAIIKUKAI_SURU]
-[s][f 5 13 0 10 0]> Вы решили отправиться в [f 5 3 0][n]практика.[n][w][e]
+[s][f 5 13 0 10 0]> Вы решили отправиться на [f 5 3 0][n]практикуn][w][e]
 ##-[s][f 5 13 0 10 0]> You have decided to go to [f 5 3 0][n]practice.[n][w][e]-##
 
 [msg SCR_MSG_TAIIKUKAI_NG [ ]]
-[s]> Там есть заметка, в которой говорится:[n]"Практики - это [clr 2]Понедельник[clr 0], [clr 2]Вт[clr 0], [clr 2]Чт[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
+[s]> Там есть заметка, в которой говорится:[n]"Практики - это [clr 2]Пнтlr 0], [clr 2]Вт[clr 0], [clr 2]Чт[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
 ##-[s]> There's a note that says, "Practices[n]are [clr 2]Mon[clr 0], [clr 2]Tues[clr 0], [clr 2]Thurs[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
 
 [msg SCR_MSG_TAIIKUKAI_NG_F [ ]]
-[s]> Там есть заметка, в которой говорится:[n]"Практики - это [clr 2]Понедельник[clr 0], [clr 2]Жениться[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
+[s]> Там есть заметка, в которой говорится:[n]"Практики - это [clr 2]Пнтlr 0], [clr 2]Срlr 0], [clr 2]Пт[clr 0]."[n][w][e]
 ##-[s]> There's a note that says, "Practices[n]are [clr 2]Mon[clr 0], [clr 2]Wed[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
 
 [msg SCR_MSG_GROUND_HAIRU]
@@ -711,7 +711,7 @@
 [sel BUNKABU_COMMU_SEL top]
 [s]Посещать [f 5 3 1][e]
 ##-[s]Attend [f 5 3 1][e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -721,7 +721,7 @@
 ##-[s][f 5 13 0 10 0]> You have decided to spend some time[n]after school at [f 5 3 1] Club.[n][w][e]-##
 
 [msg SCR_MSG_BUNKABU_NG [ ]]
-[s]> Там есть записка, в которой говорится:[n]"Встречи:[n][clr 2]Вт[clr 0], [clr 2]Жениться[clr 0], [clr 2]Чт[clr 0]."[n][w][e]
+[s]> Там есть записка, в которой говорится:[n]"Встречи:[n][clr 2]Вт[clr 0], [clr 2]Срlr 0], [clr 2]Чт[clr 0]."[n][w][e]
 ##-[s]> There's a note that says, "Meetings:[n][clr 2]Tues[clr 0], [clr 2]Wed[clr 0], [clr 2]Thur[clr 0]."[n][w][e]-##
 
 [msg SCR_MSG_KANGEN_HAIRU]
@@ -773,13 +773,13 @@
 ##-[s]> There's a note that says, "Sorry,[n]but the Art Club is no longer[n]accepting new members."[n][w][e]-##
 
 [msg SCR_MSG_SHOKUIN_NG [ ]]
-[s]> Это офис факультета.[n][w][e]
+[s]> Это учительская
 ##-[s]> It's the Faculty Office.[n][w][e]-##
 [s]> Было бы неразумно входить без веской[n]причины.[n][w][e]
 ##-[s]> It wouldn't be wise to enter without[n]a good reason.[n][w][e]-##
 
 [msg SCR_MSG_MARCH_NETCOMMU [ ]]
-[s]> Это офис факультета.[n][w][e]
+[s]> Это учительская
 ##-[s]> It's the Faculty Office.[n][w][e]-##
 [s]> ...Вы можете услышать голос мисс Ториуми[n]изнутри.[n][w][e]
 ##-[s]> ...You can hear Ms. Toriumi's[n]voice from within.[n][w][e]-##
@@ -789,7 +789,7 @@
 [sel MARCH_NETCOMMU_SEL top]
 [s]Входить[e]
 ##-[s]Enter[e]-##
-[s]Не входи[e]
+[s]Не входить]
 ##-[s]Don't enter[e]-##
 
 [msg SCR_MSG_TOSHOSITU_HAIRU]
@@ -881,7 +881,7 @@
 [sel HOKEN_COMMU_SEL top]
 [s]Выполнять обязанности комитета по[n]здравоохранению[e]
 ##-[s]Perform health committee duties[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи
 ##-[s]Check Social Link rank[e]-##
 [s]Не берите в голову[e]
 ##-[s]Never mind[e]-##
