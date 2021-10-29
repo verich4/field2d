@@ -73,7 +73,7 @@
 ##-[s]Study[e]-##
 [s]Играйте в MMORPG[e]
 ##-[s]Play the MMORPG[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Сделай что-нибудь еще[e]
 ##-[s]Do something else[e]-##
@@ -83,7 +83,7 @@
 ##-[s]Study until dark[e]-##
 [s]Играйте в MMORPG до темноты[e]
 ##-[s]Play the MMORPG until dark[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Сделай что-нибудь еще[e]
 ##-[s]Do something else[e]-##
@@ -131,7 +131,7 @@
 ##-[s]Yes[e]-##
 [s]Нет[e]
 ##-[s]No[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 
 [sel MIDNIGHT_SEL top]
@@ -162,13 +162,13 @@
 [s]> Внутри кто-то есть...[n][w][e]
 ##-[s]> There's someone inside...[n][w][e]-##
 
-[msg SANADAS_ROOM_RE [Male Voice]]
+[msg SANADAS_ROOM_RE [Мужской Голос]]
 [s]Это Мицуру?[n][w][e]
 ##-[s]Is that Mitsuru?[n][w][e]-##
 [s]Сейчас я занят. Извините, но не могли бы вы[n]зайти попозже?[n][w][e]
 ##-[s]I'm busy now. Sorry, but could[n]you come back later?[n][w][e]-##
 
-[msg SANADAS_ROOM_RE2 [Male Voice]]
+[msg SANADAS_ROOM_RE2 [Мужской Голос]]
 [s]Ладно, этого достаточно. Я сказал, приходи[n]позже.[n][w][e]
 ##-[s]All right, that's enough. I said[n]come back later.[n][w][e]-##
 
@@ -190,13 +190,13 @@
 [s]> Джунпея, похоже, нет в его комнате...[n][w][e]
 ##-[s]> Junpei doesn't seem to be in[n]his room...[n][w][e]-##
 
-[msg JUNPEIS_ROOM_0517 [Junpei]]
+[msg JUNPEIS_ROOM_0517 [Джунпей]]
 [s]Что, черт возьми, с этой проблемой?! На[n]каком языке это написано?![n][w][e]
 ##-[s]What the hell is with this[n]problem!? What language is[n]this written in!?[n][w][e]-##
 [s]> Вы можете услышать, как Дзюнпэй громко[n]жалуется на свою домашнюю работу...[n][f 1 4][e]
 ##-[s]> You can hear Junpei complaining[n]loudly about his homework...[n][f 1 4][e]-##
 
-[msg JUNPEIS_ROOM_0526 [Junpei]]
+[msg JUNPEIS_ROOM_0526 [Джунпей]]
 [s]Тьфу! Что я делаю?! Черт возьми![n][w][e]
 ##-[s]Argh! What am I doing!? Dammit![n][w][e]-##
 [s]> Вы слышите, как Дзюнпэй кричит и кричит.[n][f 1 4][e]
@@ -206,7 +206,7 @@
 [s]> Дзюнпэй, кажется, в своей комнате, но он[n]не отвечает.[n][w][e]
 ##-[s]> Junpei seems to be in his room,[n]but he isn't responding.[n][w][e]-##
 
-[msg JUNPEIS_ROOM_0712 [Junpei]]
+[msg JUNPEIS_ROOM_0712 [Джунпей]]
 [s]Чувак, не мешай мне. Я здесь учусь, чувак.[n][w][e]
 ##-[s]Dude, don't bother me.[n]I'm studying here, dude.[n][w][e]-##
 [s]Я не получаю хорошие оценки так легко, как[n]ты, приятель.[n][w][e]
@@ -214,7 +214,7 @@
 [s]Позже.[n][w][e]
 ##-[s]Laters.[n][w][e]-##
 
-[msg JUNPEIS_ROOM_1012 [Junpei]]
+[msg JUNPEIS_ROOM_1012 [Джунпей]]
 [s]Что, черт возьми, это за проблема?! Мы[n]никогда этому не учились![n][w][e]
 ##-[s]What the hell is this problem!?[n]We never learned this![n][w][e]-##
 [s]Подожди минутку... должно быть, они научили[n]нас этому, когда я спал! Что за грязный[n]трюк![n][w][e]
@@ -324,7 +324,7 @@
 [s]> Ты должен отправиться в Тартар...[n][w][e]
 ##-[s]> You must go to Tartarus...[n][w][e]-##
 
-[msg ROOM_STOP_01 [Yukari]]
+[msg ROOM_STOP_01 [Юкари]]
 [s][bup 2 204 0 1]Мы могли бы спрятаться в этой комнате...[n][w][e]
 ##-[s][bup 2 204 0 1]We could hide in this room...[n][w][e]-##
 [s]Н-Нет...[n][w][e]
@@ -332,59 +332,59 @@
 [s]В конце концов, это не сработало бы...[n][w][e]
 ##-[s]That wouldn't work after all...[n][w][e]-##
 
-[msg ROOM_STOP_02 [Yukari]]
+[msg ROOM_STOP_02 [Юкари]]
 [s][bup 2 204 0 1]Мм, это не сработает...[n][w][e]
 ##-[s][bup 2 204 0 1]Mm, this won't work...[n][w][e]-##
 [s]Если мы останемся здесь, мы будем...[n][w][e]
 ##-[s]If we stay here, we'll...[n][w][e]-##
 
-[msg YUKARI_VENDOR_STOP_2F [Yukari]]
+[msg YUKARI_VENDOR_STOP_2F [Юкари]]
 [s][bup 2 204 0 1]Давай выбираться отсюда...[n][w][e]
 ##-[s][bup 2 204 0 1]Let's get out of here...[n][w][e]-##
 [s]Пожалуйста...![n][w][e]
 ##-[s]Please...![n][w][e]-##
 
-[msg YUKARI_VENDOR_STOP_3F [Yukari]]
+[msg YUKARI_VENDOR_STOP_3F [Юкари]]
 [s][bup 2 204 0 1]Ты же знаешь, это не тренировочное[n]упражнение...[n][w][e]
 ##-[s][bup 2 204 0 1]This isn't a training exercise,[n]you know...[n][w][e]-##
 [s]Если мы не выберемся отсюда, мы умрем![n][w][e]
 ##-[s]If we don't get out of here,[n]we're going to die![n][w][e]-##
 
-[msg YUKARI_STOP_2F_DWNSTAIR [Yukari]]
+[msg YUKARI_STOP_2F_DWNSTAIR [Юкари]]
 [s][bup 2 204 1 1]Т-ты не можешь спуститься туда![n][w][e]
 ##-[s][bup 2 204 1 1]Y-You can't go down there![n][w][e]-##
 [s]Я уверен, что у них все под контролем...[n][w][e]
 ##-[s]I'm sure they have it under[n]control...[n][w][e]-##
 
-[msg YUKARI_STOP_UP [Yukari]]
+[msg YUKARI_STOP_UP [Юкари]]
 [s][bup 2 204 0 1]Я не хочу спускаться вниз![n][w][e]
 ##-[s][bup 2 204 0 1]I don't want to go downstairs![n][w][e]-##
 [s]Я... я имею в виду... Мы не можем...[n][w][e]
 ##-[s]I-I mean... We can't...[n][w][e]-##
 
-[msg YUKARI_INDICATION_02 [Yukari]]
+[msg YUKARI_INDICATION_02 [Юкари]]
 [s][bup 2 204 0 1]Что мы будем делать...? Они внизу![n][w][e]
 ##-[s][bup 2 204 0 1]What are we going to do...?[n]They're downstairs![n][w][e]-##
 [s]Есть ли у нас какой-либо выбор, кроме как[n]идти дальше вверх?[n][w][e]
 ##-[s]Do we have any choice but to go[n]further up?[n][w][e]-##
 
-[msg YUKARI_QUAKE_01 [Yukari]]
-[s][bup 2 204 0 1]Ч-Стой, стой![n][w][e]
+[msg YUKARI_QUAKE_01 [Юкари]]
+[s][bup 2 204 0 1]С-Стой, стой![n][w][e]
 ##-[s][bup 2 204 0 1]Wh-Whoa, whoa![n][w][e]-##
 [s]Что мы будем делать?![n][w][e]
 ##-[s]What are we going to do!?[n][w][e]-##
 
-[msg YUKARI_QUAKE_02 [Yukari]]
+[msg YUKARI_QUAKE_02 [Юкари]]
 [s][bup 2 204 0 1]Я... Не похоже, что это скоро закончится...[n][w][e]
 ##-[s][bup 2 204 0 1]I-It doesn't seem like it's going to be[n]over soon...[n][w][e]-##
 [s]Внизу... С ними все в порядке, верно?[n][w][e]
 ##-[s]Downstairs... They're fine, right?[n][w][e]-##
 
-[msg STOP_GO_OUT_YUKARI [Yukari]]
+[msg STOP_GO_OUT_YUKARI [Юкари]]
 [s][bup 2 1 65535 0]Тебе нельзя выходить, так как уже прошел[n]комендантский час.[n][w][e]
 ##-[s][bup 2 1 65535 0]You're not allowed to go out,[n]since it's past curfew.[n][w][e]-##
 
-[msg STOP_GO_OUT_MITSURU [Mitsuru]]
+[msg STOP_GO_OUT_MITSURU [Мицури]]
 [s][bup 4 1 65535 0]Мы не можем позволить вам выходить на улицу[n]после наступления темноты.[n][w][e]
 ##-[s][bup 4 1 65535 0]We cannot allow you to go out[n]after dark.[n][w][e]-##
 [s]Извини, но правила есть правила.[n][w][e]
@@ -394,7 +394,7 @@
 [s]> Вам не разрешается выходить на улицу в[n]ночное время.[n][w][e]
 ##-[s]> You aren't allowed to go outside[n]at nighttime.[n][w][e]-##
 
-[msg STOP_GO_OUT_MITSURU_0419 [Mitsuru]]
+[msg STOP_GO_OUT_MITSURU_0419 [Мицури]]
 [s][bup 4 1 65535 0]Ты закончила свою домашнюю работу?[n][w][e]
 ##-[s][bup 4 1 65535 0]Have you finished your homework?[n][w][e]-##
 
@@ -402,7 +402,7 @@
 [s]> На улице идет дождь...[n][w][e]
 ##-[s]> It's raining outside...[n][w][e]-##
 
-[msg STORM_COMING_JUNPEI [Junpei]]
+[msg STORM_COMING_JUNPEI [Джунпей]]
 [s][bup 5 1 65535 0]Эй! Как ты думаешь, куда ты направляешься?[n][w][e]
 ##-[s][bup 5 1 65535 0]Hey! Where do you think you're[n]going?[n][w][e]-##
 [s]Забудь об этом! Ты простудишься, чувак.[n][w][e]
@@ -517,7 +517,7 @@
 ##-[s]Study[e]-##
 [s]Играйте в MMORPG[e]
 ##-[s]Play the MMORPG[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Сделай что-нибудь еще[e]
 ##-[s]Do something else[e]-##
@@ -527,7 +527,7 @@
 ##-[s]Study until dark[e]-##
 [s]Играйте в MMORPG до темноты[e]
 ##-[s]Play the MMORPG until dark[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Сделай что-нибудь еще[e]
 ##-[s]Do something else[e]-##
@@ -753,7 +753,7 @@
 ##-[s]> You can now play the game that[n]Junpei gave you.[n][w][e]-##
 
 [msg ZOKUSEI_KAKUNIN]
-[s]> [f 2 4 1] Рейтинг социальных ссылок [clr 2][f 2 4 4][clr 0].[n][w][e]
+[s]> [f 2 4 1] рейтинг социальной связи [clr 2][f 2 4 4][clr 0].[n][w][e]
 ##-[s]> [f 2 4 1] Social Link[n]rank [clr 2][f 2 4 4][clr 0].[n][w][e]-##
 [s]> Аркана - это [f 2 4 2].[n][f 2 4 3][w][e]
 ##-[s]> The Arcana is [f 2 4 2].[n][f 2 4 3][w][e]-##
@@ -822,8 +822,8 @@
 [s]> ......?[n][w][e]
 ##-[s]> ......?[n][w][e]-##
 
-[msg TV_TUUHAN_JANUARY [TV Tanaka]]
-[s][bup 37 162 0 2]Сегодняшний пункт iiiiiiss...![n][w][e]
+[msg TV_TUUHAN_JANUARY [Тв Танака]]
+[s][bup 37 162 0 2]Сегодняшний предмет это....![n][w][e]
 ##-[s][bup 37 162 0 2]Today's item iiiiiss...![n][w][e]-##
 [s]Без этого ты не будешь в безопасности![n]Четыре "Значка спасения" - по одному на[n]каждого члена семьи![n][w][e]
 ##-[s]You won't be safe without this![n]Four "Salvation Badges"--one for[n]every member of the household![n][w][e]-##
@@ -848,17 +848,17 @@
 [s]> Ты выключил телевизор.[n][w][e]
 ##-[s]> You turned off the TV.[n][w][e]-##
 
-[msg TV_TUUHAN_KAISI [Presenter]]
+[msg TV_TUUHAN_KAISI [Ведущий]]
 [s][bup 37 162 0 2]Всем привет! Добро пожаловать на выставку[n]домашних покупок "Удивительные товары[n]Танаки"![n][w][e]
 ##-[s][bup 37 162 0 2]Hello, everyone! Welcome to[n]the home shopping show,[n]"Tanaka's Amazing Commodities"![n][w][e]-##
 [s][f 1 5]Певцы[n][f 4 7 37 10 2]Исполнитель ваших желаний![n][w][e]
 ##-[s][f 1 5]Singers[n][f 4 7 37 10 2]Granter of your desires![n][w][e]-##
 [s][bup 37 162 0 2][f 1 5]ТВ Танака[n]Я ваш ведущий, Танака, с живой презентацией[n]моих Удивительных товаров![n][w][e]
-##-[s][bup 37 162 0 2][f 1 5]TV Tanaka[n]I'm your host, Tanaka, with a[n]live presentation of my Amazing[n]Commodities![n][w][e]-##
+##-[s][bup 37 162 0 2][f 1 5]Тв Танака[n]I'm your host, Tanaka, with a[n]live presentation of my Amazing[n]Commodities![n][w][e]-##
 [s]Мы покажем вам отличные товары по[n]непревзойденным ценам! О, ты не сможешь[n]прикоснуться к этому циферблату![n][w][e]
 ##-[s]We'll show you great items at[n]unbeatable prices! Ooh, you won't[n]be able to touch that dial![n][w][e]-##
 
-[msg TV_TUUHAN_SYOUKAI [TV Tanaka]]
+[msg TV_TUUHAN_SYOUKAI [Тв Танака]]
 [s][bup 37 162 0 2]Давайте представим наш предмет дня![n][w][e]
 ##-[s][bup 37 162 0 2]Let's bring out our item of the day![n][w][e]-##
 [s]Это ииииис... [f 2 5 3 65535 14]![n][f 2 4 10][w][e]
@@ -884,51 +884,51 @@
 [s]> У тебя не было достаточно денег...[n][w][e]
 ##-[s]> You didn't have enough money...[n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_NOMAL [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_NOMAL [Тв Танака]]
 [s][bup 37 162 0 2]Вот и все на сегодня! У нас все будет[n]распродано! Извините, ребята![n][w][e]
 ##-[s][bup 37 162 0 2]That's it for today! We're allll sold out![n]Sorry, folks![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0503 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0503 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз мы привезем вам набор из[n]двух редких карточек, которые ваши дети[n]будут умирать от желания заполучить![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll bring you a set of two[n]rare cards that your kids'll be dying[n]to own![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0524 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0524 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз у нас будет предмет ручной[n]работы ремесленников, который обязательно[n]должен быть у любого из вас, косплееров![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll have an item handcrafted[n]by artisans that's a must-have for any[n]of you cosplayers out there![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0607 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0607 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз мы предложим что-нибудь для[n]дам вместе с драгоценными камнями, и все[n]это по низкой цене![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll be offering something[n]for the ladies along with some gems,[n]all for a low price![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0628 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0628 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз мы принесем вам что-нибудь[n]таинственное, найденное в святилище, вместе[n]с чудесным энергетическим напитком![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll bring you something[n]mysterious found at a shrine, along[n]with a miraculous energy drink![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0712 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0712 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз у нас будет стильная и[n]эффектная японская одежда, идеально[n]подходящая для этого сезона![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll have some stylish and[n]dashing Japanese attire perfect for[n]the season![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0823 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0823 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз у нас будет небольшое[n]количество напитков из секретного[n]источника, которые подарят вам незабываемые[n]впечатления раз в жизни![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll have a small number of[n]drinks from a classified source that'll[n]give you a once-in-a-lifetime experience![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_1011 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_1011 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз мы выпустим несколько[n]ценных драгоценных камней по очень[n]специальной цене! Вы не захотите пропустить[n]это![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll be releasing some[n]valuable gems at a very special[n]price! You won't want to miss it![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_1108 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_1108 [Тв Танака]]
 [s][bup 37 162 0 2]В течение следующих двух недель мы будем[n]предлагать несколько редких открыток![n]Убедитесь, что вы готовы к сделкам![n][w][e]
 ##-[s][bup 37 162 0 2]For the next two weeks, we'll be[n]offering some rare cards! Make[n]sure you're ready for bargains![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_1213 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_1213 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз мы будем продавать[n]ограниченное количество супер-редких и[n]специальных карт![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll be selling a limited[n]quantity of a super-rare and special[n]card![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_1220 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_1220 [Тв Танака]]
 [s][bup 37 162 0 2]На нашем следующем шоу у нас будет большое[n]количество красивых драгоценных камней,[n]доступных в нашей распродаже в конце года![n][w][e]
 ##-[s][bup 37 162 0 2]On our next show, we'll have a large[n]quantity of beautiful gems available in[n]our end-of-the-year blowout sale![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO [Тв Танака]]
 [s][bup 37 162 0 2]Увидимся в следующее воскресенье, в то же[n]время, на том же канале![n][w][e]
 ##-[s][bup 37 162 0 2]See you next Sunday, same time,[n]same channel![n][w][e]-##
 [s][f 4 7 37 10 2][f 1 5] [n]> Запоминающаяся песня начинается снова...[n][w][e]
