@@ -7,7 +7,7 @@
 [sel ROOM_SEL top]
 [s]Иди внутрь[e]
 ##-[s]Go inside[e]-##
-[s]Не заходи внутрь[e]
+[s]Не заходить внутрь[e]
 ##-[s]Don't go in[e]-##
 
 [sel INTO_ROOM_SEL top]
@@ -62,28 +62,28 @@
 [s]> Мицуру, похоже, нет в ее комнате...[n][w][e]
 ##-[s]> Mitsuru doesn't seem to be in[n]her room...[n][w][e]-##
 
-[msg MITURUS_ROOM_0711 [Mitsuru]]
-[s]Я причинил тебе неприятности... Мы не[n]должны видеть друг друга в течение[n]некоторого времени.[n][w][e]
+[msg MITURUS_ROOM_0711 [Мицуру]]
+[s]Я причинила тебе неприятности... Мы не[n]должны видеть друг друга в течение[n]некоторого времени.[n][w][e]
 ##-[s]I've caused trouble for you...[n]We shouldn't see each other for[n]some time.[n][w][e]-##
 [s]Возможно, тебе следует учиться. Сейчас я[n]собираюсь просмотреть свои заметки.[n][w][e]
 ##-[s]Perhaps you should study. I'm about[n]to review my notes now.[n][w][e]-##
 [s]Учеба на самом деле помогает отвлечься от[n]мыслей.[n][w][e]
 ##-[s]Studying actually helps to take[n]your mind off things.[n][w][e]-##
 
-[msg MITURUS_ROOM_0712 [Mitsuru]]
-[s]Я не хотел этого скрывать.[n][w][e]
+[msg MITURUS_ROOM_0712 [Мицуру]]
+[s]Я не хотела этого скрывать.[n][w][e]
 ##-[s]I didn't mean to hide it.[n][w][e]-##
-[s]Я сказал вам то, что вам нужно было знать,[n]и опустил ненужные детали...[n][w][e]
+[s]Я сказала вам то, что вам нужно было знать,[n]и опустила ненужные детали...[n][w][e]
 ##-[s]I told you what you needed to[n]know, and omitted the unnecessary[n]details...[n][w][e]-##
-[s]Я должен прекратить это...[n][w][e]
+[s]Я должна прекратить это...[n][w][e]
 ##-[s]I should stop this...[n][w][e]-##
 [s]Прячусь за этой дверью и утверждаю, что я[n]ничего не скрываю...[n][w][e]
 ##-[s]Hiding behind this door, and claiming[n]I'm not hiding anything...[n][w][e]-##
-[s]Я был. Я это скрывал...[n][w][e]
+[s]Я была. Я это скрывала...[n][w][e]
 ##-[s]I was. I was hiding it...[n][w][e]-##
 
-[msg MITURUS_ROOM_0713 [Mitsuru]]
-[s]Я уверен, что у вас много мыслей, но[n]сосредоточьтесь на предстоящих экзаменах.[n][w][e]
+[msg MITURUS_ROOM_0713 [Мицуру]]
+[s]Я уверена, что у вас много мыслей, но[n]сосредоточьтесь на предстоящих экзаменах.[n][w][e]
 ##-[s]I'm sure you have a lot on your[n]mind, but concentrate on the exams[n]in front of you.[n][w][e]-##
 
 [msg MITURUS_ROOM_1110]
@@ -108,7 +108,7 @@
 [s]> Юкари, похоже, нет в ее комнате...[n][w][e]
 ##-[s]> Yukari doesn't seem to be in[n]her room...[n][w][e]-##
 
-[msg YUKARIS_ROOM_0505 [Yukari]]
+[msg YUKARIS_ROOM_0505 [Юкари]]
 [s]О, прости.[n][w][e]
 ##-[s]Oh, sorry.[n][w][e]-##
 [s]Я вообще не занимался в выходные, так что[n]сейчас я это делаю.[n][w][e]
@@ -120,13 +120,13 @@
 [s]> Юкари, кажется, учится. Тебе не следует[n]ее беспокоить.[n][w][e]
 ##-[s]> Yukari seems to be studying.[n]You shouldn't bother her.[n][w][e]-##
 
-[msg YUKARIS_ROOM_0711 [Yukari]]
+[msg YUKARIS_ROOM_0711 [Юкари]]
 [s]Извините... Мне просто сейчас не хочется ни[n]с кем разговаривать...[n][w][e]
 ##-[s]Sorry... I just don't feel like[n]talking to anyone right now...[n][w][e]-##
 [s]В любом случае... У меня есть домашнее[n]задание, так что...[n][w][e]
 ##-[s]Anyway... I have homework, so...[n][w][e]-##
 
-[msg YUKARIS_ROOM_0712 [Yukari]]
+[msg YUKARIS_ROOM_0712 [Юкари]]
 [s]Могу я задать вам вопрос?[n][w][e]
 ##-[s]Can I ask you a question?[n][w][e]-##
 [s]Есть ли что-то, во что ты веришь, [f 4 2]- кун?[n][w][e]
@@ -136,7 +136,7 @@
 [s]Есть ли что-то, во что ты все еще можешь[n]верить?[n][w][e]
 ##-[s]Is there something you can still[n]believe in?[n][w][e]-##
 
-[msg YUKARIS_ROOM_0712_G [Yukari]]
+[msg YUKARIS_ROOM_0712_G [Юкари]]
 [s]Могу я задать вам вопрос?[n][w][e]
 ##-[s]Can I ask you a question?[n][w][e]-##
 [s]Есть ли что-то, во что ты веришь, [f 4 2]?[n][w][e]
@@ -154,21 +154,21 @@
 [s]"Я не знаю".[e]
 ##-[s]"I don't know."[e]-##
 
-[msg YUKARIS_ROOM_0712_RE_1 [Yukari]]
+[msg YUKARIS_ROOM_0712_RE_1 [Юкари]]
 [s]Ты очень сильный... Хотел бы я быть таким,[n]как ты.[n][w][e]
 ##-[s]You're very strong... I wish[n]I was like you.[n][w][e]-##
 
-[msg YUKARIS_ROOM_0712_RE_2 [Yukari]]
+[msg YUKARIS_ROOM_0712_RE_2 [Юкари]]
 [s]Да... это трудно найти.[n][w][e]
 ##-[s]Yeah... it's a hard thing to find.[n][w][e]-##
 
-[msg YUKARIS_ROOM_0712_RE_3 [Yukari]]
+[msg YUKARIS_ROOM_0712_RE_3 [Юкари]]
 [s]Ха-ха, извини...[n][w][e]
 ##-[s]Haha, sorry...[n][w][e]-##
 [s]Ты никак не можешь ответить на такой[n]вопрос, да?[n][w][e]
 ##-[s]There's no way you could answer[n]a question like that, huh?[n][w][e]-##
 
-[msg YUKARIS_ROOM_0713 [Yukari]]
+[msg YUKARIS_ROOM_0713 [Юкари]]
 [s]Я извинился, но..... Я не уверен, что моя[n]точка зрения дошла до вас.[n][w][e]
 ##-[s]I apologized, but... I'm not sure[n]my point got across.[n][w][e]-##
 [s]Похоже на то... Между нами эта стена.[n][w][e]
@@ -176,7 +176,7 @@
 [s]Есть ли во мне хоть какой-то смысл?.. Ну, а[n]теперь я пойду учиться...[n][w][e]
 ##-[s]Am I making any sense...? Well, I'm[n]going to go study now...[n][w][e]-##
 
-[msg YUKARIS_ROOM_1105 [Yukari]]
+[msg YUKARIS_ROOM_1105 [Юкари]]
 [s]Извините... Я хочу сейчас побыть одна...[n][w][e]
 ##-[s]Sorry...[n]I want to be alone right now...[n][w][e]-##
 
@@ -582,7 +582,7 @@
 [s]> ......?[n][w][e]
 ##-[s]> ......?[n][w][e]-##
 
-[msg TV_TUUHAN_JANUARY [TV Tanaka]]
+[msg TV_TUUHAN_JANUARY [Тв Танака]]
 [s][bup 37 162 0 2]Сегодняшний пункт iiiiiiss...![n][w][e]
 ##-[s][bup 37 162 0 2]Today's item iiiiiss...![n][w][e]-##
 [s]Без этого ты не будешь в безопасности![n]Четыре "Значка спасения" - по одному на[n]каждого члена семьи![n][w][e]
@@ -614,11 +614,11 @@
 [s][f 1 5]Певцы[n][f 4 7 37 10 2]Исполнитель ваших желаний![n][w][e]
 ##-[s][f 1 5]Singers[n][f 4 7 37 10 2]Granter of your desires![n][w][e]-##
 [s][bup 37 162 0 2][f 1 5]ТВ Танака[n]Я ваш ведущий, Танака, с живой презентацией[n]моих Удивительных товаров![n][w][e]
-##-[s][bup 37 162 0 2][f 1 5]TV Tanaka[n]I'm your host, Tanaka, with a[n]live presentation of my Amazing[n]Commodities![n][w][e]-##
+##-[s][bup 37 162 0 2][f 1 5]Тв Танака[n]I'm your host, Tanaka, with a[n]live presentation of my Amazing[n]Commodities![n][w][e]-##
 [s]Мы покажем вам отличные товары по[n]непревзойденным ценам! О, ты не сможешь[n]прикоснуться к этому циферблату![n][w][e]
 ##-[s]We'll show you great items at[n]unbeatable prices! Ooh, you won't[n]be able to touch that dial![n][w][e]-##
 
-[msg TV_TUUHAN_SYOUKAI [TV Tanaka]]
+[msg TV_TUUHAN_SYOUKAI [Тв Танака]]
 [s][bup 37 162 0 2]Давайте представим наш предмет дня![n][w][e]
 ##-[s][bup 37 162 0 2]Let's bring out our item of the day![n][w][e]-##
 [s]Это ииииис... [f 2 5 3 65535 14]![n][f 2 4 10][w][e]
@@ -644,51 +644,51 @@
 [s]> У тебя не было достаточно денег...[n][w][e]
 ##-[s]> You didn't have enough money...[n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_NOMAL [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_NOMAL [Тв Танака]]
 [s][bup 37 162 0 2]Вот и все на сегодня! У нас все будет[n]распродано! Извините, ребята![n][w][e]
 ##-[s][bup 37 162 0 2]That's it for today! We're allll sold out![n]Sorry, folks![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0503 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0503 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз мы привезем вам набор из[n]двух редких карточек, которые ваши дети[n]будут умирать от желания заполучить![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll bring you a set of two[n]rare cards that your kids'll be dying[n]to own![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0524 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0524 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз у нас будет предмет ручной[n]работы ремесленников, который обязательно[n]должен быть у любого из вас, косплееров![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll have an item handcrafted[n]by artisans that's a must-have for any[n]of you cosplayers out there![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0607 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0607 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз мы предложим что-нибудь для[n]дам вместе с драгоценными камнями, и все[n]это по низкой цене![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll be offering something[n]for the ladies along with some gems,[n]all for a low price![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0628 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0628 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз мы принесем вам что-нибудь[n]таинственное, найденное в святилище, вместе[n]с чудесным энергетическим напитком![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll bring you something[n]mysterious found at a shrine, along[n]with a miraculous energy drink![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0712 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0712 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз у нас будет стильная и[n]эффектная японская одежда, идеально[n]подходящая для этого сезона![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll have some stylish and[n]dashing Japanese attire perfect for[n]the season![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_0823 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_0823 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз у нас будет небольшое[n]количество напитков из секретного[n]источника, которые подарят вам незабываемые[n]впечатления раз в жизни![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll have a small number of[n]drinks from a classified source that'll[n]give you a once-in-a-lifetime experience![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_1011 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_1011 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз мы выпустим несколько[n]ценных драгоценных камней по очень[n]специальной цене! Вы не захотите пропустить[n]это![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll be releasing some[n]valuable gems at a very special[n]price! You won't want to miss it![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_1108 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_1108 [Тв Танака]]
 [s][bup 37 162 0 2]В течение следующих двух недель мы будем[n]предлагать несколько редких открыток![n]Убедитесь, что вы готовы к сделкам![n][w][e]
 ##-[s][bup 37 162 0 2]For the next two weeks, we'll be[n]offering some rare cards! Make[n]sure you're ready for bargains![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_1213 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_1213 [Тв Танака]]
 [s][bup 37 162 0 2]В следующий раз мы будем продавать[n]ограниченное количество супер-редких и[n]специальных карт![n][w][e]
 ##-[s][bup 37 162 0 2]Next time, we'll be selling a limited[n]quantity of a super-rare and special[n]card![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO_1220 [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO_1220 [Тв Танака]]
 [s][bup 37 162 0 2]На нашем следующем шоу у нас будет большое[n]количество красивых драгоценных камней,[n]доступных в нашей распродаже в конце года![n][w][e]
 ##-[s][bup 37 162 0 2]On our next show, we'll have a large[n]quantity of beautiful gems available in[n]our end-of-the-year blowout sale![n][w][e]-##
 
-[msg TV_TUUHAN_SYURYO [TV Tanaka]]
+[msg TV_TUUHAN_SYURYO [Тв Танака]]
 [s][bup 37 162 0 2]Увидимся в следующее воскресенье, в то же[n]время, на том же канале![n][w][e]
 ##-[s][bup 37 162 0 2]See you next Sunday, same time,[n]same channel![n][w][e]-##
 [s][f 4 7 37 10 2][f 1 5] [n]> Запоминающаяся песня начинается снова...[n][w][e]
