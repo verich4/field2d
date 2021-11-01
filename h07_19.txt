@@ -7,9 +7,9 @@
 [sel MIDNIGHT_SEL top]
 [s]Спать раньше[e]
 ##-[s]Sleep earlier[e]-##
-[s]Учись, а потом ложись спать[e]
+[s]Учится, а потом лечь спать[e]
 ##-[s]Study, then go to sleep[e]-##
-[s]Покиньте свою комнату[e]
+[s]Покинуть8 свою комнату[e]
 ##-[s]Leave your room[e]-##
 
 [msg MYROOM_CONDITION_BAD_091]
@@ -714,7 +714,7 @@
 [s]> На улице идет дождь...[n][w][e]
 ##-[s]> It's raining outside...[n][w][e]-##
 
-[msg STORM_COMING_JUNPEI [Junpei]]
+[msg STORM_COMING_JUNPEI [Джунпей]]
 [s][bup 5 1 65535 0]Эй! Как ты думаешь, куда ты направляешься?[n][w][e]
 ##-[s][bup 5 1 65535 0]Hey! Where do you think you're[n]going?[n][w][e]-##
 [s]Забудь об этом! Ты простудишься, чувак.[n][w][e]
