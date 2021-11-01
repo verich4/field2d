@@ -26,51 +26,51 @@
 [s]> Похоже, что электричество отключено.[n][w][e]
 ##-[s]> It seems like the electricity is out.[n][w][e]-##
 
-[msg SHOP_STOP_YUKARI [Yukari]]
+[msg SHOP_STOP_YUKARI [Юкари]]
 [s][bup 2 201 0 0]Что ты делаешь?[n][w][e]
 ##-[s][bup 2 201 0 0]What are you doing?[n][w][e]-##
 [s]Пойдем.[n][w][e]
 ##-[s]Let's go.[n][w][e]-##
 
-[msg SHOP_STOP_AEGIS [Aigis]]
+[msg SHOP_STOP_AEGIS [Айгис]]
 [s][bup 3 201 0 0]У нас нет лишнего времени.[n][w][e]
 ##-[s][bup 3 201 0 0]We have no time to spare.[n][w][e]-##
 [s]Мы должны быстро подготовиться.[n][w][e]
 ##-[s]We must prepare ourselves quickly.[n][w][e]-##
 
-[msg SHOP_STOP_SANADA [Akihiko]]
+[msg SHOP_STOP_SANADA [Акихико]]
 [s][bup 7 201 0 0]Что ты делаешь?[n][w][e]
 ##-[s][bup 7 201 0 0]What are you doing?[n][w][e]-##
 [s]Поторопись и приготовься.[n][w][e]
 ##-[s]Hurry up and get ready.[n][w][e]-##
 
-[msg SHOP_STOP_ARAGAKI [Shinjiro]]
+[msg SHOP_STOP_ARAGAKI [Шинджиро]]
 [s][bup 9 201 0 0]Чего ты ждешь?[n][w][e]
 ##-[s][bup 9 201 0 0]What are you waiting for?[n][w][e]-##
 [s]Поторопись.[n][w][e]
 ##-[s]Hurry up.[n][w][e]-##
 
-[msg SHOP_STOP_AMADA [Ken]]
+[msg SHOP_STOP_AMADA [Кен]]
 [s][bup 8 201 0 0]У нас нет времени.[n][w][e]
 ##-[s][bup 8 201 0 0]There's no time.[n][w][e]-##
 [s]Пойдем.[n][w][e]
 ##-[s]Let's go.[n][w][e]-##
 
-[msg OUT_STOP [Mitsuru]]
+[msg OUT_STOP [Мицуру]]
 [s][bup 4 201 0 0]Если вы потратите еще немного времени,[n]Темный Час исчезнет.[n][w][e]
 ##-[s][bup 4 201 0 0]If you waste any more time,[n]the Dark Hour will fade away.[n][w][e]-##
 [s]Приготовьтесь проникнуть в Эскападу![n][w][e]
 ##-[s]Prepare to infiltrate Escapade![n][w][e]-##
 
-[msg CLUB_STOP [Fuuka]]
+[msg CLUB_STOP [Фука]]
 [s][bup 6 201 0 0]Это слишком опасно без полной вечеринки...[n][w][e]
 ##-[s][bup 6 201 0 0]It's too dangerous without a full[n]party...[n][w][e]-##
 
-[msg GO_INTO_CLUB [Fuuka]]
+[msg GO_INTO_CLUB [Фука]]
 [s][bup 6 201 0 0]Вы готовы?[n][w][e]
 ##-[s][bup 6 201 0 0]Are you ready?[n][w][e]-##
 
-[msg HUKA_LETS_GO [Fuuka]]
+[msg HUKA_LETS_GO [Фука]]
 [s][bup 6 201 0 0]Удачи.[n][w][e]
 ##-[s][bup 6 201 0 0]Good luck.[n][w][e]-##
 
@@ -86,7 +86,7 @@
 [s]> Здесь никого нет; офицер Куросава, должно[n]быть, в патруле...[n][w][e]
 ##-[s]> No one is here; Officer Kurosawa[n]must be on patrol...[n][w][e]-##
 
-[msg JUNPEI_STOP_BBS [Junpei]]
+[msg JUNPEI_STOP_BBS [Джунпей]]
 [s][bup 5 1 65535 0]Давай сначала заедем в полицейский участок,[n]чувак...[n][w][e]
 ##-[s][bup 5 1 65535 0]Let's go to the police station first,[n]man...[n][w][e]-##
 
@@ -94,11 +94,11 @@
 [s]> Размещена информация о потерянных[n]статьях.[n][w][e]
 ##-[s]> Information about lost articles[n]is posted.[n][w][e]-##
 
-[msg JUNPEI_STOP_DRUGSTORE [Junpei]]
+[msg JUNPEI_STOP_DRUGSTORE [Джунпей]]
 [s][bup 5 1 65535 0]Давай сначала заедем в полицейский участок,[n]чувак...[n][w][e]
 ##-[s][bup 5 1 65535 0]Let's go to the police station first,[n]man...[n][w][e]-##
 
-[msg JUNPEI_COMMENT_ACCESSORY [Junpei]]
+[msg JUNPEI_COMMENT_ACCESSORY [Джунпей]]
 [s][bup 5 1 65535 0]Чувак! Полицейский участок по соседству![n][w][e]
 ##-[s][bup 5 1 65535 0]Dude! The police station's next door![n][w][e]-##
 
@@ -112,11 +112,11 @@
 [s]> Он еще не открыт.[n][w][e]
 ##-[s]> It's not open yet.[n][w][e]-##
 
-[msg JUNPEI_COMMENT_CLUB [Junpei]]
+[msg JUNPEI_COMMENT_CLUB [Джунпей]]
 [s][bup 5 1 65535 0]Чувак, это заведение откроется только[n]позже...[n][w][e]
 ##-[s][bup 5 1 65535 0]Dude, this place doesn't open until[n]later...[n][w][e]-##
 
-[msg GOODBYE_JUNPEI [Junpei]]
+[msg GOODBYE_JUNPEI [Джунпей]]
 [s][bup 5 1 65535 0]Тссс, всего 5000 иен...[n][w][e]
 ##-[s][bup 5 1 65535 0]Pshh, only 5,000 yen...[n][w][e]-##
 [s]Я собираюсь уйти, так как сейчас у меня[n]плохое настроение...[n][w][e]
@@ -128,7 +128,7 @@
 [s]> Дзюнпэй ушел.[n][w][e]
 ##-[s]> Junpei has left.[n][w][e]-##
 
-[msg JUNPEI_STOP_ALLEY [Junpei]]
+[msg JUNPEI_STOP_ALLEY [Джунпей]]
 [s][bup 5 1 65535 0]Чувак, ты прошел мимо полицейского участка![n][w][e]
 ##-[s][bup 5 1 65535 0]Dude, you passed the police station![n][w][e]-##
 [s]Поверни направо![n][w][e]
@@ -138,13 +138,13 @@
 [s]> Там есть таинственная дверь.[n][w][e]
 ##-[s]> There is a mysterious door.[n][w][e]-##
 
-[msg JUNPEI_STOP_COFFEE [Junpei]]
+[msg JUNPEI_STOP_COFFEE [Джунпей]]
 [s][bup 5 1 65535 0]Ты хочешь повеселиться, попивая со мной[n]чай? Ты серьезно думаешь об этом?[n][w][e]
 ##-[s][bup 5 1 65535 0]Do you want to have fun drinking tea[n]with me? Are you seriously thinking[n]about that?[n][w][e]-##
 [s]Извини, но не сейчас! Я должен идти в[n]полицейский участок![n][w][e]
 ##-[s]Sorry, but not now![n]I gotta go to the police station![n][w][e]-##
 
-[msg JUNPEI_STOP_CD [Junpei]]
+[msg JUNPEI_STOP_CD [Джунпей]]
 [s][bup 5 1 65535 0]Мы можем вернуться позже, верно? Давайте[n]сначала поедем в полицейский участок.[n][w][e]
 ##-[s][bup 5 1 65535 0]We can come back later, right?[n]Let's go to the police station first.[n][w][e]-##
 
@@ -154,23 +154,23 @@
 [s]> В магазине продается разнообразная[n]музыка.[n][w][e]
 ##-[s]> The store sells a variety of music.[n][w][e]-##
 
-[msg JUNPEI_STOP_GAME [Junpei]]
+[msg JUNPEI_STOP_GAME [Джунпей]]
 [s][bup 5 1 65535 0]Хорошо, хорошо! Но, после полицейского[n]участка, хорошо!?[n][w][e]
 ##-[s][bup 5 1 65535 0]Alright, alright! But, after the[n]police station, okay!?[n][w][e]-##
 
-[msg JUNPEI_STOP_KARAOKE [Junpei]]
+[msg JUNPEI_STOP_KARAOKE [Джунпей]]
 [s][bup 5 1 65535 0]Чувак, мы можем проверить это ПОСЛЕ того,[n]как пойдем в полицейский участок.[n][w][e]
 ##-[s][bup 5 1 65535 0]Dude, we can check it out AFTER[n]we go to the police station.[n][w][e]-##
 [s]Но я ни за что не стану петь с тобой[n]дуэтом![n][w][e]
 ##-[s]But, there's no way I'm doing a duet[n]with you![n][w][e]-##
 
-[msg JUNPEI_STOP_KARAOKE_G [Junpei]]
+[msg JUNPEI_STOP_KARAOKE_G [Джунпей]]
 [s][bup 5 1 65535 0]Чувак, мы можем проверить это ПОСЛЕ того,[n]как пойдем в полицейский участок.[n][w][e]
 ##-[s][bup 5 1 65535 0]Dude, we can check it out AFTER[n]we go to the police station.[n][w][e]-##
 [s]Давай оставим это на потом![n][w][e]
 ##-[s]Let's leave it for later![n][w][e]-##
 
-[msg JUNPEI_COMMENT_ANTIQUE [Junpei]]
+[msg JUNPEI_COMMENT_ANTIQUE [Джунпей]]
 [s][bup 5 1 65535 0]О, она не открыта, ха...[n][w][e]
 ##-[s][bup 5 1 65535 0]Oh, it's not open, huh...[n][w][e]-##
 [s]...Подождите минутку! Это не полицейский[n]участок![n][w][e]
@@ -329,7 +329,7 @@
 ##-[s]> Your Persona's Strength has[n]increased![n][w][e]-##
 
 [msg PER_TIKARA_MAX_NG]
-[s]> Сила вашей Личности больше не может[n]увеличиваться...[n][w][e]
+[s]> Сила вашей Персоны больше не может[n]увеличиваться...[n][w][e]
 ##-[s]> Your Persona's Strength cannot[n]increase any more...[n][w][e]-##
 [s]> Ты все еще хочешь поиграть в эту игру?[n][w][e]
 ##-[s]> Do you still want to play the game?[n][w][e]-##
@@ -448,7 +448,7 @@
 [s]> Мандрагора...[n][w][e]
 ##-[s]> Mandragora...[n][w][e]-##
 
-[msg KARAOKE_MENU [Menu]]
+[msg KARAOKE_MENU [Меню]]
 [s]"Соло в караоке - 800 иен"[n][w][e]
 ##-[s]"Karaoke Solo - 800 yen"[n][w][e]-##
 [s]"Не стесняйся... Затяни его ремнем!"[n][w][e]
@@ -490,30 +490,30 @@
 [s]Пение караоке здесь в одиночку поможет вам[n]набраться смелости.[n][w][e]
 ##-[s]Singing karaoke here by yourself[n]will help build up your Courage.[n][w][e]-##
 
-[msg WELCOME_VELVET_ROOM [Elizabeth]]
+[msg WELCOME_VELVET_ROOM [Элизабет]]
 [s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
 ##-[s][bup 16 161 0 2]Welcome to the Velvet Room. How may I[n]help you today?[n][w][e]-##
 
-[msg WELCOME_VELVET_ROOM_FULL [Elizabeth]]
+[msg WELCOME_VELVET_ROOM_FULL [Элизабет]]
 [s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
 ##-[s][bup 16 161 0 2]Welcome to the Velvet Room. How may I[n]help you today?[n][w][e]-##
 [s]Знаете ли вы, что сегодня ночью будет[n]светить полная луна?[n][w][e]
 ##-[s]Are you aware that, tonight, the full[n]moon will glow?[n][w][e]-##
 
-[msg WELCOME_VELVET_ROOM_FULL_2 [Elizabeth]]
+[msg WELCOME_VELVET_ROOM_FULL_2 [Элизабет]]
 [s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
 ##-[s][bup 16 161 0 2]Welcome to the Velvet Room. How may I[n]help you today?[n][w][e]-##
 [s]Вы знаете, что луна становится полной...?[n][w][e]
 ##-[s]Are you aware that the moon grows[n]full...?[n][w][e]-##
 
 [sel VELVET_SEL_1 top]
-[s]Сливающиеся Персонажи[e]
+[s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
 [s]Покидать[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_2 top]
-[s]Сливающиеся Персонажи[e]
+[s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
@@ -521,7 +521,7 @@
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_3 top]
-[s]Сливающиеся Персонажи[e]
+[s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
 [s]Запросы на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
@@ -529,7 +529,7 @@
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_4 top]
-[s]Сливающиеся Персонажи[e]
+[s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
 [s]Запросы на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
@@ -539,7 +539,7 @@
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_5 top]
-[s]Сливающиеся Персонажи[e]
+[s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
@@ -548,15 +548,15 @@
 [s]Покидать[e]
 ##-[s]Leave[e]-##
 
-[msg VELVET_ROOM [Elizabeth]]
+[msg VELVET_ROOM [Элизабет]]
 [s][bup 16 161 0 2]Чем я могу вам помочь?[n][w][e]
 ##-[s][bup 16 161 0 2]How may I help you?[n][w][e]-##
 
-[msg GOODBAY_VELVET_ROOM [Elizabeth]]
+[msg GOODBAY_VELVET_ROOM [Элизабет]]
 [s][bup 16 161 0 2]Я с нетерпением жду вашего следующего[n]визита.[n][w][e]
 ##-[s][bup 16 161 0 2]I look forward to your next visit.[n][w][e]-##
 
-[msg ERI_DATE_START [Elizabeth]]
+[msg ERI_DATE_START [Элизабет]]
 [s][bup 16 161 0 2]Ах...[n][w][e]
 ##-[s][bup 16 161 0 2]Ah...[n][w][e]-##
 [s]Я ждал тебя. Не пора ли нам в путь?[n][w][e]
@@ -571,7 +571,7 @@
 ##-[s]Well... I suppose it's time for me to[n]explain what I really do here.[n][w][e]-##
 [s]Это моя работа - создавать новых[n]Персонажей.[n][w][e]
 ##-[s]It is my job to create new Personas.[n][w][e]-##
-[s]Но для того, чтобы сделать это, я должен[n]соединить ваши карты Личности вместе...[n][w][e]
+[s]Но для того, чтобы сделать это, я должен[n]соединить ваши карты Персоны вместе...[n][w][e]
 ##-[s]But in order to do so, I must fuse[n]your Persona cards together...[n][w][e]-##
 [s]Другими словами, я объединю их в единую[n]Личность.[n][w][e]
 ##-[s]In other words, I shall merge them[n]into a single Persona.[n][w][e]-##
@@ -590,7 +590,7 @@
 [s]Затем [clr 2]Поговорить[clr 0] ко мне, чтобы я мог дать[n]вам несколько советов.[n][w][e]
 ##-[s]Then [clr 2]Talk[clr 0] to me so that I may give[n]you some hints.[n][w][e]-##
 
-[msg IRAI_KAIKIN_01 [Elizabeth]]
+[msg IRAI_KAIKIN_01 [Элизабет]]
 [s][bup 16 161 0 2]Я искренне сожалею, что беспокою вас, но...[n][w][e]
 ##-[s][bup 16 161 0 2]I am truly sorry to bother you, but...[n][w][e]-##
 [s]Я хочу попросить тебя о большом одолжении.[n][w][e]
@@ -610,7 +610,7 @@
 [s]> Теперь вы можете принимать просьбы[n]Элизабет![n][w][e]
 ##-[s]> You are now able to accept[n]Elizabeth's requests![n][w][e]-##
 
-[msg ZENSHO_KAIKIN_01 [Elizabeth]]
+[msg ZENSHO_KAIKIN_01 [Элизабет]]
 [s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Мне[n]нужно сказать тебе сегодня кое-что важное.[n][w][e]
 ##-[s][bup 16 161 0 2]Welcome to the Velvet Room. I have[n]something important to tell you today.[n][w][e]-##
 [s]Меня попросили проинформировать вас о[n][clr 2]Компендиум персон[clr 0].[n][w][e]
@@ -622,7 +622,7 @@
 [s][f 1 5] [n][f 4 7 0 0 0]> Теперь вы можете использовать Сборник[n]персон![n][w][e]
 ##-[s][f 1 5] [n][f 4 7 0 0 0]> You are now able to use[n]the Persona Compendium![n][w][e]-##
 
-[msg ZENSHO_KAIKIN_01_HARD [Elizabeth]]
+[msg ZENSHO_KAIKIN_01_HARD [Элизабет]]
 [s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Мне[n]нужно сказать тебе сегодня кое-что важное.[n][w][e]
 ##-[s][bup 16 161 0 2]Welcome to the Velvet Room. I have[n]something important to tell you today.[n][w][e]-##
 [s]Меня попросили проинформировать вас о[n][clr 2]Компендиум персон[clr 0].[n][w][e]
@@ -638,7 +638,7 @@
 [s]Не волнуйся. Вы найдете мои гонорары за[n]снятие Персонажей очень разумными.[n][w][e]
 ##-[s]Don't worry. You'll find my fees[n]for withdrawing Personas very[n]reasonable.[n][w][e]-##
 
-[msg IRAI_TUIKA [Elizabeth]]
+[msg IRAI_TUIKA [Элизабет]]
 [s][bup 16 161 0 2]宇謂к煙УБ弧緯Р鉛餓УвЖщХ。[n][w][e]
 ##-[s][bup 16 161 0 2]宇謂к煙УБ弧緯をР鉛餓УвЖりщХ。[n][w][e]-##
 
@@ -664,13 +664,13 @@
 [s]Мне интересно посмотреть, какой Образ[n]получится из этого... Я буду с нетерпением[n]ждать этого.[n][w][e]
 ##-[s]I'm interested to see what kind of[n]Persona results from this... I'll be[n]looking forward to it.[n][w][e]-##
 
-[msg ERI_MAARA [Elizabeth]]
+[msg ERI_MAARA [Элизабет]]
 [s][bup 16 161 0 2]О боже...[n][w][e]
 ##-[s][bup 16 161 0 2]Oh, my...[n][w][e]-##
 [s]Ти-хи... Это очень по-мужски, это уж точно.[n][w][e]
 ##-[s]Tee-hee... It's very manly, that[n]much is certain.[n][w][e]-##
 
-[msg BUKIGATTAI_INFO [Elizabeth]]
+[msg BUKIGATTAI_INFO [Элизабет]]
 [s][bup 16 161 0 2]Добро пожаловать в Бархатную комнату. Мне[n]нужно сказать тебе сегодня кое-что важное.[n][w][e]
 ##-[s][bup 16 161 0 2]Welcome to the Velvet Room. I have[n]something important to tell you today.[n][w][e]-##
 [s]Знакомы ли вы с [clr 2]Антикварный магазин[clr 0] в[n]торговом центре "Павловния"?[n][w][e]
@@ -686,7 +686,7 @@
 [s]Однако магазин, похоже, все еще закрыт... Я[n]с нетерпением жду его грандиозного[n]открытия.[n][w][e]
 ##-[s]However, the shop seems to still[n]be closed... I look forward to its[n]grand reopening.[n][w][e]-##
 
-[msg ERI_MARGARET [Elizabeth]]
+[msg ERI_MARGARET [Элизабет]]
 [s][bup 16 161 0 2]Моя сестра, кажется, очень довольна...[n]Большое спасибо.[n][w][e]
 ##-[s][bup 16 161 0 2]My sister seems to be very satisfied...[n]Thank you very much.[n][w][e]-##
 [s]Я уверен, что она, должно быть, причинила[n]вам много неприятностей, но, пожалуйста,[n]постарайтесь простить ее.[n][w][e]
@@ -696,7 +696,7 @@
 [s]Я был бы рад, если бы вы могли быть[n]довольны переменами в себе.[n][w][e]
 ##-[s]I'd be glad if you could be happy with[n]the changes in you.[n][w][e]-##
 
-[msg SISSOU_INFO_1ST [Elizabeth]]
+[msg SISSOU_INFO_1ST [Элизабет]]
 [s][bup 16 161 0 2]Прости, что звоню тебе. Сказать по[n]правде...[n][w][e]
 ##-[s][bup 16 161 0 2]I'm sorry to call for you.[n]To tell the truth...[n][w][e]-##
 [s]Похоже, внутри Тартара, между 44 и 47[n]этажами, кто-то есть.[n][w][e]
@@ -708,7 +708,7 @@
 [s]Пожалуйста, найдите их и верните.[n][w][e]
 ##-[s]Please find them and return them.[n][w][e]-##
 
-[msg SISSOU_INFO [Elizabeth]]
+[msg SISSOU_INFO [Элизабет]]
 [s][bup 16 161 0 2]...Я чувствую кого-то.[n][w][e]
 ##-[s][bup 16 161 0 2]...I sense someone.[n][w][e]-##
 [s]Кажется, внутри Тартара, между этажами,[n]кто-то есть [f 2 4 0] и [f 2 4 1].[n][w][e]
@@ -716,7 +716,7 @@
 [s]Для вас было бы лучше обыскать башню в[n]поисках их и найти их как можно скорее.[n][w][e]
 ##-[s]It would be best for you to search the[n]tower for them and find them as soon[n]as you can.[n][w][e]-##
 
-[msg SISSOU_INFO_2 [Elizabeth]]
+[msg SISSOU_INFO_2 [Элизабет]]
 [s][bup 16 161 0 2]...Я чувствую кого-то.[n][w][e]
 ##-[s][bup 16 161 0 2]...I sense someone.[n][w][e]-##
 [s]Кажется, внутри Тартара, между этажами,[n]кто-то есть [f 2 4 0] и [f 2 4 1].[n][w][e]
@@ -726,30 +726,30 @@
 [s]Для вас было бы лучше обыскать башню в[n]поисках их и найти их как можно скорее.[n][w][e]
 ##-[s]It would be best for you to search the[n]tower for them and find them as soon[n]as you can.[n][w][e]-##
 
-[msg WELCOME_VEL_M_ROOM [Theo]]
+[msg WELCOME_VEL_M_ROOM [Тео]]
 [s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
 ##-[s][bup 55 161 0 2]Welcome to the Velvet Room.[n]How may I help you today?[n][w][e]-##
 
-[msg WELCOME_VEL_M_ROOM_FULL [Theo]]
+[msg WELCOME_VEL_M_ROOM_FULL [Тео]]
 [s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
 ##-[s][bup 55 161 0 2]Welcome to the Velvet Room.[n]How may I help you today?[n][w][e]-##
 [s]Луна сегодня действительно круглая. Это[n]действительно полная луна...[n][w][e]
 ##-[s]The moon tonight is truly circular.[n]It is indeed a full moon...[n][w][e]-##
 
-[msg WELCOME_VEL_M_ROOM_FULL2 [Theo]]
+[msg WELCOME_VEL_M_ROOM_FULL2 [Тео]]
 [s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату. Чем я[n]могу вам помочь сегодня?[n][w][e]
 ##-[s][bup 55 161 0 2]Welcome to the Velvet Room.[n]How may I help you today?[n][w][e]-##
 [s]Луна медленно становится полной...[n][w][e]
 ##-[s]The moon is slowly growing full...[n][w][e]-##
 
 [sel VEL_M_SEL_1 top]
-[s]Сливающиеся Персонажи[e]
+[s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
 [s]Покидать[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_2 top]
-[s]Сливающиеся Персонажи[e]
+[s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
@@ -757,7 +757,7 @@
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_3 top]
-[s]Сливающиеся Персонажи[e]
+[s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
 [s]Запросы на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
@@ -765,40 +765,40 @@
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_4 top]
-[s]Сливающиеся Персонажи[e]
+[s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
 [s]Запросы на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
 [s]Сходи на свидание с Тео[e]
-##-[s]Go on a date with Theo[e]-##
+##-[s]Go on a date with Тео[e]-##
 [s]Покидать[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_5 top]
-[s]Сливающиеся Персонажи[e]
+[s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
 [s]Сходи на свидание с Тео[e]
-##-[s]Go on a date with Theo[e]-##
+##-[s]Go on a date with Тео[e]-##
 [s]Покидать[e]
 ##-[s]Leave[e]-##
 
-[msg VEL_M_ROOM [Theo]]
+[msg VEL_M_ROOM [Тео]]
 [s][bup 55 161 0 2]Чем я могу вам помочь?[n][w][e]
 ##-[s][bup 55 161 0 2]How may I help you?[n][w][e]-##
 
-[msg GOODBAY_VEL_M_ROOM [Theo]]
+[msg GOODBAY_VEL_M_ROOM [Тео]]
 [s][bup 55 161 0 2]Ну что ж... Я с нетерпением жду вашего[n]следующего визита.[n][w][e]
 ##-[s][bup 55 161 0 2]Well then...[n]I look forward to your next visit.[n][w][e]-##
 
-[msg ERI_DATE_START_M [Theo]]
+[msg ERI_DATE_START_M [Тео]]
 [s][bup 55 161 0 2]Большое спасибо.[n][w][e]
 ##-[s][bup 55 161 0 2]Thank you very much.[n][w][e]-##
 [s]Что ж, тогда, пожалуйста, показывайте[n]дорогу.[n][w][e]
 ##-[s]Well then, please lead the way.[n][w][e]-##
 
-[msg IRAI_KAIKIN_01_M [Theo]]
+[msg IRAI_KAIKIN_01_M [Тео]]
 [s][bup 55 161 0 2]Мне жаль, что я звоню тебе в таком виде.[n][w][e]
 ##-[s][bup 55 161 0 2]I'm sorry to call for you like this.[n][w][e]-##
 [s]По правде говоря... я хотел бы попросить[n]вас об одолжении.[n][w][e]
@@ -816,9 +816,9 @@
 
 [msg IRAI_KAIKIN_02_M [ ]]
 [s]> Теперь вы можете принимать запросы Тео![n][w][e]
-##-[s]> You are now able to accept[n]Theo's requests![n][w][e]-##
+##-[s]> You are now able to accept[n]Тео's requests![n][w][e]-##
 
-[msg ZENSHO_KAIKIN_01_M [Theo]]
+[msg ZENSHO_KAIKIN_01_M [Тео]]
 [s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату. Мне[n]нужно сказать тебе сегодня кое-что важное.[n][w][e]
 ##-[s][bup 55 161 0 2]Welcome to the Velvet Room.[n]I have something important to[n]tell you today.[n][w][e]-##
 [s]Мой учитель попросил меня сообщить вам о[n][clr 2]Компендиум персон[clr 0].[n][w][e]
@@ -830,7 +830,7 @@
 [s][f 1 5] [n][f 4 7 0 0 0]> Теперь вы можете использовать Сборник[n]персон![n][w][e]
 ##-[s][f 1 5] [n][f 4 7 0 0 0]> You are now able to use[n]the Persona Compendium![n][w][e]-##
 
-[msg ZENSHO_KAIKIN_01_HARD_M [Theo]]
+[msg ZENSHO_KAIKIN_01_HARD_M [Тео]]
 [s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату. Мне[n]нужно сказать тебе сегодня кое-что важное.[n][w][e]
 ##-[s][bup 55 161 0 2]Welcome to the Velvet Room. I have[n]something important to tell you today.[n][w][e]-##
 [s]Мой учитель попросил меня сообщить вам о[n][clr 2]Компендиум персон[clr 0].[n][w][e]
@@ -842,15 +842,15 @@
 [s][f 1 5] [n][f 4 7 0 0 0]>"ペルソナ我樺"И亥ЕГжёЯЫ![n][w][e]
 ##-[s][f 1 5] [n][f 4 7 0 0 0]>"ペルソナ我樺"И亥ЕるよГжёЯЫ![n][w][e]-##
 [s][f 1 5]Тео[n][bup 55 161 0 2]...Кстати, вы, кажется, дама, которая любит[n]бросать вызов.[n][w][e]
-##-[s][f 1 5]Theo[n][bup 55 161 0 2]...By the way, you seem to be a lady[n]who enjoys a challenge.[n][w][e]-##
+##-[s][f 1 5]Тео[n][bup 55 161 0 2]...By the way, you seem to be a lady[n]who enjoys a challenge.[n][w][e]-##
 [s]Соответственно, я сделал свои гонорары за[n]изъятие Персонажей из Сборника столь же[n]сложными.[n][w][e]
 ##-[s]I have accordingly made my fees to[n]withdraw Personas from the Compendium[n]equally challenging.[n][w][e]-##
 
-[msg IRAI_TUIKA_M [Theo]]
+[msg IRAI_TUIKA_M [Тео]]
 [s][bup 55 161 0 2]宇謂к煙УБ弧緯鉛餓УвЖщХ。[n][w][e]
 ##-[s][bup 55 161 0 2]宇謂к煙УБ弧緯を鉛餓УвЖりщХ。[n][w][e]-##
 
-[msg ERI_MAARA_M [Theo]]
+[msg ERI_MAARA_M [Тео]]
 [s][bup 55 161 0 2]......[n][w][e]
 ##-[s][bup 55 161 0 2]......[n][w][e]-##
 [s]Ч-почему у тебя эта... штука...[n]оборудованный?[n][w][e]
@@ -858,7 +858,7 @@
 [s]Это очень... неподобающе для леди.[n][w][e]
 ##-[s]It's very... unladylike.[n][w][e]-##
 
-[msg ERI_MARGARET_M [Theo]]
+[msg ERI_MARGARET_M [Тео]]
 [s][bup 55 161 0 2]Моя сестра, кажется, очень расстроена...[n]Большое спасибо.[n][w][e]
 ##-[s][bup 55 161 0 2]My sister seems to be very stasfied...[n]Thank you very much.[n][w][e]-##
 [s]Я не сомневаюсь, что вы причинили себе[n]много неприятностей, но я прошу вас,[n]пожалуйста, простить ее.[n][w][e]
@@ -868,7 +868,7 @@
 [s]Я был бы признателен, если бы вы проявили[n]мужество в своем росте.[n][w][e]
 ##-[s]I would appreciate it if you would[n]take heart in your growth.[n][w][e]-##
 
-[msg BUKIGATTAI_INFO_M [Theo]]
+[msg BUKIGATTAI_INFO_M [Тео]]
 [s][bup 55 161 0 2]Добро пожаловать в Бархатную комнату.[n]Сегодня я должен рассказать тебе кое-что[n]новое.[n][w][e]
 ##-[s][bup 55 161 0 2]Welcome to the Velvet Room.[n]I have something new to tell you today.[n][w][e]-##
 [s]Знаете ли вы о [clr 2]Антикварный магазин[clr 0][n]в торговом центре "Павловния"?[n][w][e]
@@ -884,7 +884,7 @@
 [s]Однако магазин, похоже, все еще закрыт...[n]Давайте подождем в ожидании его повторного[n]открытия.[n][w][e]
 ##-[s]However, the shop seems to still be[n]closed... Let us wait in anticipation[n]for its reopening.[n][w][e]-##
 
-[msg SISSOU_INFO_1ST_M [Theo]]
+[msg SISSOU_INFO_1ST_M [Тео]]
 [s][bup 55 161 0 2]Пожалуйста, прости меня за то, что я так[n]тебе звоню. Есть кое-что, на что я должен[n]обратить ваше внимание...[n][w][e]
 ##-[s][bup 55 161 0 2]Please forgive me for calling you like[n]this. There's something I must bring[n]to your attention...[n][w][e]-##
 [s]Похоже, внутри Тартара, между 44 и 47[n]этажами, кто-то есть.[n][w][e]
@@ -896,7 +896,7 @@
 [s]Пожалуйста, найдите их и верните.[n][w][e]
 ##-[s]Please find them and return them.[n][w][e]-##
 
-[msg SISSOU_INFO_M [Theo]]
+[msg SISSOU_INFO_M [Тео]]
 [s][bup 55 161 0 2]...Я чувствую кого-то.[n][w][e]
 ##-[s][bup 55 161 0 2]...I sense someone.[n][w][e]-##
 [s]Кажется, внутри Тартара, между этажами,[n]кто-то есть [f 2 4 0] и [f 2 4 1].[n][w][e]
@@ -904,7 +904,7 @@
 [s]Для вас было бы лучше обыскать башню в[n]поисках их и найти их как можно скорее.[n][w][e]
 ##-[s]It would be best for you to search the[n]tower for them and find them as soon[n]as you can.[n][w][e]-##
 
-[msg SISSOU_INFO_M_2 [Theo]]
+[msg SISSOU_INFO_M_2 [Тео]]
 [s][bup 55 161 0 2]...Я чувствую кого-то.[n][w][e]
 ##-[s][bup 55 161 0 2]...I sense someone.[n][w][e]-##
 [s]Кажется, внутри Тартара, между этажами,[n]кто-то есть [f 2 4 0] и [f 2 4 1].[n][w][e]
@@ -926,7 +926,7 @@
 [s]> Кафе Шагала...[n][w][e]
 ##-[s]> Chagall Cafe...[n][w][e]-##
 
-[msg COFFEE_MENU [Menu]]
+[msg COFFEE_MENU [Меню]]
 [s]"Кофе с феромонами - 500 иен"[n][w][e]
 ##-[s]"Pheromone Coffee - 500 yen"[n][w][e]-##
 [s]"Очаровательный аромат, который включит[n]ваше очарование".[n][w][e]
@@ -1034,7 +1034,7 @@
 [s]> Получено [f 2 4 0] иена.[n][w][e]
 ##-[s]> Obtained [f 2 4 0] yen.[n][w][e]-##
 
-[msg SISSOU_MAIKO_MAX [Officer Kurosawa]]
+[msg SISSOU_MAIKO_MAX [Офицер Куросава]]
 [s]Это напомнило мне... Кто-то, кто раньше жил[n]в этом городе, случайно вернулся в этот[n]район, но...[n][w][e]
 ##-[s]That reminds me... Someone who used to[n]live in this town happened to be back[n]in the area, but...[n][w][e]-##
 
@@ -1048,7 +1048,7 @@
 [s]> Магазин Исцеления, Будь Синим V...[n][w][e]
 ##-[s]> Healing Shop, Be Blue V...[n][w][e]-##
 
-[msg ACCE_MENU [Menu]]
+[msg ACCE_MENU [Меню]]
 [s]Наша специальная программа стоимостью 3000[n]иен отправит вас на небеса![n][w][e]
 ##-[s]Our special 3,000-yen program will[n]send you to heaven![n][w][e]-##
 [s]Любой "Уставший" почувствует себя лучше, и[n]любой, с кем все в порядке, будет[n]чувствовать себя "Отлично"![n][w][e]
