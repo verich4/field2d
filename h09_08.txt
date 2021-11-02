@@ -15,7 +15,7 @@
 ##-[s]葛臆学[e]-##
 
 [sel VENDOR_SEL2 top]
-[s]Настя[e]
+[s]Настойка[e]
 ##-[s]Nastea[e]-##
 [s]БауэрБар[e]
 ##-[s]BauerBar[e]-##
@@ -24,13 +24,13 @@
 [s]Ничего не покупайте[e]
 ##-[s]Don't buy anything[e]-##
 
-[msg JUNPEI_STOP_SWEET [Junpei]]
+[msg JUNPEI_STOP_SWEET [Джупей]]
 [s][bup 5 1 65535 0]Чувак, сейчас не время есть конфеты![n][w][e]
 ##-[s][bup 5 1 65535 0]Man, now's not the time to be eating[n]candy![n][w][e]-##
-[s]...Мы должны добраться до торгового центра[n]Paulownia! Не здесь![n][w][e]
+[s]...Мы должны добраться до торгового центра[n]Паловния! Не здесь![n][w][e]
 ##-[s]...We gotta get to Paulownia Mall![n]Not here![n][w][e]-##
 
-[msg JUNPEI_COMMENT_AZUKI [Junpei]]
+[msg JUNPEI_COMMENT_AZUKI [Джупей]]
 [s][bup 5 1 65535 0]Люди думают, что это мило, да?[n][w][e]
 ##-[s][bup 5 1 65535 0]People think this is cute, huh?[n][w][e]-##
 [s]Я не понимаю этого, чувак...[n][w][e]
@@ -40,25 +40,25 @@
 [s]> Похоже, это их талисман.[n][w][e]
 ##-[s]> It appears to be their mascot.[n][w][e]-##
 
-[msg JUNPEI_STOP_RAMEN [Junpei]]
+[msg JUNPEI_STOP_RAMEN [Джупей]]
 [s][bup 5 1 65535 0]Я слышал, что рамен здесь надирает задницу.[n]Хочешь попробовать?[n][w][e]
 ##-[s][bup 5 1 65535 0]I heard the ramen here kicks ass.[n]Wanna try it?[n][w][e]-##
-[s]...Держись. Мы должны добраться до[n]торгового центра Paulownia, так как[n]Акихико-семпай ждет.[n][w][e]
+[s]...Держись. Мы должны добраться до[n]торгового центра Паловния так как[n]Акихико-семпай ждет.[n][w][e]
 ##-[s]...Hang on. We gotta get to Paulownia[n]Mall since Akihiko-senpai is waiting.[n][w][e]-##
 
-[msg JUNPEI_STOP_RESTAURANT [Junpei]]
+[msg JUNPEI_STOP_RESTAURANT [Джупей]]
 [s][bup 5 1 65535 0]О да, нам лучше поесть, прежде чем идти в[n]полицейский участок, ха...[n][w][e]
 ##-[s][bup 5 1 65535 0]Oh yeah, we better eat before we go to[n]the police station, huh...[n][w][e]-##
 [s]...Подождите минутку! Это не так важно![n][w][e]
 ##-[s]...Wait a minute! That's not as[n]important![n][w][e]-##
 
-[msg JUNPEI_STOP_COMICS [Junpei]]
+[msg JUNPEI_STOP_COMICS [Джупей]]
 [s][bup 5 1 65535 0]Чувак, что за манга такая потрясающая, что[n]ты должен прочитать ее прямо сейчас?[n][w][e]
 ##-[s][bup 5 1 65535 0]Dude, what manga is so amazing that[n]you have to read it right now?[n][w][e]-##
 [s]Забудь это. Мы должны добраться до[n]полицейского участка.[n][w][e]
 ##-[s]Forget it. We have to get to the[n]police station.[n][w][e]-##
 
-[msg JUNPEI_STOP_BEEF [Junpei]]
+[msg JUNPEI_STOP_BEEF [Джупей]]
 [s][bup 5 1 65535 0]Ты что, тупой, что ли? Сколько раз я должен[n]тебе повторять...?[n][w][e]
 ##-[s][bup 5 1 65535 0]Are you dumb or what? How many times[n]do I have to tell you...?[n][w][e]-##
 [s]МЫ ДОЛЖНЫ ДОБРАТЬСЯ ДО ПОЛИЦЕЙСКОГО[n]УЧАСТКА![n][w][e]
@@ -115,7 +115,7 @@
 [sel HURUHON_COMMU_SEL top]
 [s]Войдите в книжный магазин[e]
 ##-[s]Enter the bookstore[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -207,7 +207,7 @@
 ##-[s]> Ramen shop "Hagakure"...[n][w][e]-##
 
 [msg RAMEN_HAIRU [Menu]]
-[s]"Свинина - 900 иен"[n][w][e]
+[s]"Свининка Пеппа:D - 900 иен"[n][w][e]
 ##-[s]"Pork - 900 yen"[n][w][e]-##
 [s]"Коллаген сделает вашу кожу красивой!"[n][w][e]
 ##-[s]"The collagen will make your skin[n]beautiful!"[n][w][e]-##
@@ -287,7 +287,7 @@
 ##-[s]> [f 2 4 1] Social Link,[n]rank [clr 2][f 2 4 4][clr 0].[n][w][e]-##
 [s]> Аркана - это [f 2 4 2].[n][f 2 4 3][w][e]
 ##-[s]> The Arcana is [f 2 4 2].[n][f 2 4 3][w][e]-##
-[s]> Вы способны увидеть силу мудрости и[n]опыта, связанных с [f 2 4 2] Тайна...[n][w][e]
+[s]> Вы способны увидеть силу мудрости и[n]опыта, связанных с [f 2 4 2] Аркана...[n][w][e]
 ##-[s]> You are able to see the power[n]of wisdom and expertise, associated[n]with the [f 2 4 2] Arcana...[n][w][e]-##
 
 [msg SCR_MSG_PER_KOE]

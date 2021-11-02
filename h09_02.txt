@@ -5,7 +5,7 @@
 ##-[s]Moonkist[e]-##
 [s]Фонтанная роса[e]
 ##-[s]Fountain Dew[e]-##
-[s]Ничего не покупайте[e]
+[s]Ничего не покупать[e]
 ##-[s]Don't buy anything[e]-##
 
 [msg VENDOR]
@@ -17,7 +17,7 @@
 ##-[s]> Would you like to buy a drink?[n][w][e]-##
 
 [msg VENDOR_CANT_BUY]
-[s]> Вы больше не можете носить с собой этот[n]предмет.[n][w][e]
+[s]> Вы больше не можете взять с собой еще[n]такого предмета.[n][w][e]
 ##-[s]> You can't carry any more of that[n]item.[n][w][e]-##
 
 [msg VENDOR_MONEY_IN]
@@ -37,7 +37,7 @@
 ##-[s]> Countless pamphlets have been[n]posted on the phone booth...[n][w][e]-##
 
 [sel SHOP_SHOTCUTSEL top]
-[s]Торговый центр Iwatodai Strip Mall[e]
+[s]Торговый центр Иватодай[e]
 ##-[s]Iwatodai Strip Mall[e]-##
 [s]Карта города[e]
 ##-[s]Town Map[e]-##
@@ -61,7 +61,7 @@
 [sel HURUHON_COMMU_SEL top]
 [s]Войдите в книжный магазин[e]
 ##-[s]Enter the bookstore[e]-##
-[s]Проверьте рейтинг социальных ссылок[e]
+[s]Проверьте рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -106,7 +106,7 @@
 [s]> Бургер с дикой уткой...[n][w][e]
 ##-[s]> Wild-duck Burger...[n][w][e]-##
 
-[msg BURGER_HAIRU [Menu]]
+[msg BURGER_HAIRU [Меню]]
 [s]"Таинственный бургер - 500 иен"[n][w][e]
 ##-[s]"Mystery Burger - 500 yen"[n][w][e]-##
 [s]"Ингредиенты - это секрет!"[n][w][e]
@@ -130,7 +130,7 @@
 [s]> Ресторан Вакацу...[n][w][e]
 ##-[s]> Wakatsu Restaurant...[n][w][e]-##
 
-[msg WASHOKU_HAIRU [Menu]]
+[msg WASHOKU_HAIRU [Меню]]
 [s]"Блюдо для вундеркиндов - 680 иен"[n][w][e]
 ##-[s]"Prodigy Platter - 680 yen"[n][w][e]-##
 [s]"Становись умнее, пока перевариваешь!"[n][w][e]
@@ -152,7 +152,7 @@
 [s]> Магазин рамэна "Хагакурэ"...[n][w][e]
 ##-[s]> Ramen shop "Hagakure"...[n][w][e]-##
 
-[msg RAMEN_HAIRU [Menu]]
+[msg RAMEN_HAIRU [Меню]]
 [s]"Свинина - 900 иен"[n][w][e]
 ##-[s]"Pork - 900 yen"[n][w][e]-##
 [s]"Коллаген сделает вашу кожу красивой!"[n][w][e]
@@ -233,7 +233,7 @@
 ##-[s]> [f 2 4 1] Social Link,[n]rank [clr 2][f 2 4 4][clr 0].[n][w][e]-##
 [s]> Аркана - это [f 2 4 2].[n][f 2 4 3][w][e]
 ##-[s]> The Arcana is [f 2 4 2].[n][f 2 4 3][w][e]-##
-[s]> Вы способны увидеть силу мудрости и[n]опыта, связанных с [f 2 4 2] Тайна...[n][w][e]
+[s]> Вы способны увидеть силу мудрости и[n]опыта, связанных с [f 2 4 2] Аркана...[n][w][e]
 ##-[s]> You are able to see the power[n]of wisdom and expertise, associated[n]with the [f 2 4 2] Arcana...[n][w][e]-##
 
 [msg SCR_MSG_PER_KOE]
