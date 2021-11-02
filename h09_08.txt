@@ -15,50 +15,50 @@
 ##-[s]葛臆学[e]-##
 
 [sel VENDOR_SEL2 top]
-[s]Настойка[e]
+[s]Нэсти[e]
 ##-[s]Nastea[e]-##
 [s]БауэрБар[e]
 ##-[s]BauerBar[e]-##
 [s]1UP[e]
 ##-[s]1UP[e]-##
-[s]Ничего не покупайте[e]
+[s]Ничего не покупать[e]
 ##-[s]Don't buy anything[e]-##
 
-[msg JUNPEI_STOP_SWEET [Джупей]]
+[msg JUNPEI_STOP_SWEET [Джунпей]]
 [s][bup 5 1 65535 0]Чувак, сейчас не время есть конфеты![n][w][e]
 ##-[s][bup 5 1 65535 0]Man, now's not the time to be eating[n]candy![n][w][e]-##
-[s]...Мы должны добраться до торгового центра[n]Паловния! Не здесь![n][w][e]
+[s]...Мы должны быть в ТЦ[n]Paulownia! Не здесь![n][w][e]
 ##-[s]...We gotta get to Paulownia Mall![n]Not here![n][w][e]-##
 
-[msg JUNPEI_COMMENT_AZUKI [Джупей]]
+[msg JUNPEI_COMMENT_AZUKI [Джунпей]]
 [s][bup 5 1 65535 0]Люди думают, что это мило, да?[n][w][e]
 ##-[s][bup 5 1 65535 0]People think this is cute, huh?[n][w][e]-##
 [s]Я не понимаю этого, чувак...[n][w][e]
 ##-[s]I don't get it, man...[n][w][e]-##
 
 [msg MISS_AZUKI]
-[s]> Похоже, это их талисман.[n][w][e]
+[s]> Похоже, это их маскот.[n][w][e]
 ##-[s]> It appears to be their mascot.[n][w][e]-##
 
-[msg JUNPEI_STOP_RAMEN [Джупей]]
-[s][bup 5 1 65535 0]Я слышал, что рамен здесь надирает задницу.[n]Хочешь попробовать?[n][w][e]
+[msg JUNPEI_STOP_RAMEN [Джунпей]]
+[s][bup 5 1 65535 0]Я слышал, что рамен здесь отпадный.[n]Хочешь попробовать?[n][w][e]
 ##-[s][bup 5 1 65535 0]I heard the ramen here kicks ass.[n]Wanna try it?[n][w][e]-##
-[s]...Держись. Мы должны добраться до[n]торгового центра Паловния так как[n]Акихико-семпай ждет.[n][w][e]
+[s]...Держись. Мы должны добраться до[n]ТЦ Paulownia, так как[n]Акихико-семпай ждет.[n][w][e]
 ##-[s]...Hang on. We gotta get to Paulownia[n]Mall since Akihiko-senpai is waiting.[n][w][e]-##
 
-[msg JUNPEI_STOP_RESTAURANT [Джупей]]
+[msg JUNPEI_STOP_RESTAURANT [Джунпей]]
 [s][bup 5 1 65535 0]О да, нам лучше поесть, прежде чем идти в[n]полицейский участок, ха...[n][w][e]
 ##-[s][bup 5 1 65535 0]Oh yeah, we better eat before we go to[n]the police station, huh...[n][w][e]-##
 [s]...Подождите минутку! Это не так важно![n][w][e]
 ##-[s]...Wait a minute! That's not as[n]important![n][w][e]-##
 
-[msg JUNPEI_STOP_COMICS [Джупей]]
-[s][bup 5 1 65535 0]Чувак, что за манга такая потрясающая, что[n]ты должен прочитать ее прямо сейчас?[n][w][e]
+[msg JUNPEI_STOP_COMICS [Джунпей]]
+[s][bup 5 1 65535 0]Чувак, что за манга такая потрясающая манга, что[n]ты должен прочитать ее прямо сейчас?[n][w][e]
 ##-[s][bup 5 1 65535 0]Dude, what manga is so amazing that[n]you have to read it right now?[n][w][e]-##
 [s]Забудь это. Мы должны добраться до[n]полицейского участка.[n][w][e]
 ##-[s]Forget it. We have to get to the[n]police station.[n][w][e]-##
 
-[msg JUNPEI_STOP_BEEF [Джупей]]
+[msg JUNPEI_STOP_BEEF [Джунпей]]
 [s][bup 5 1 65535 0]Ты что, тупой, что ли? Сколько раз я должен[n]тебе повторять...?[n][w][e]
 ##-[s][bup 5 1 65535 0]Are you dumb or what? How many times[n]do I have to tell you...?[n][w][e]-##
 [s]МЫ ДОЛЖНЫ ДОБРАТЬСЯ ДО ПОЛИЦЕЙСКОГО[n]УЧАСТКА![n][w][e]
@@ -77,7 +77,7 @@
 ##-[s]> You can't carry any more of that[n]item.[n][w][e]-##
 
 [msg VENDOR_MONEY_IN]
-[s]> Вы внесли 120 иен.[n][w][e]
+[s]> Вы вставили 120 иен.[n][w][e]
 ##-[s]> You deposited 120 yen.[n][w][e]-##
 
 [msg VENDOR_BUY_END]
@@ -91,7 +91,7 @@
 [sel SHOP_SHOTCUTSEL top]
 [s]Станция Иватодай[e]
 ##-[s]Iwatodai Station[e]-##
-[s]Торговый центр Стрип, 1F[e]
+[s]Торговый центр, 1Э[e]
 ##-[s]Strip Mall, 1F[e]-##
 [s]Карта города[e]
 ##-[s]Town Map[e]-##
@@ -115,7 +115,7 @@
 [sel HURUHON_COMMU_SEL top]
 [s]Войдите в книжный магазин[e]
 ##-[s]Enter the bookstore[e]-##
-[s]Проверьте рейтинг социальной связи[e]
+[s]Проверьте рейтинг Социальных Ссылок[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -139,15 +139,15 @@
 ##-[s]> You decide to go back to the dorm.[n][w][e]-##
 
 [msg YUUKI_MAX_NG]
-[s]> Вам не нужно увеличивать свою смелость.[n][w][e]
+[s]> Вам не нужно увеличивать свою Смелость.[n][w][e]
 ##-[s]> You don't need to increase your[n]Courage.[n][w][e]-##
 
 [msg GAKURYOKU_MAX_NG]
-[s]> Вам не нужно повышать свой академический[n]уровень.[n][w][e]
+[s]> Вам не нужно повышать свою[n]Академичность.[n][w][e]
 ##-[s]> You don't need to increase your[n]Academics.[n][w][e]-##
 
 [msg MIRYOKU_MAX_NG]
-[s]> Тебе не нужно увеличивать свое обаяние.[n][w][e]
+[s]> Тебе не нужно увеличивать свое Обаяние.[n][w][e]
 ##-[s]> You don't need to increase your[n]Charm.[n][w][e]-##
 
 [msg KANMI_SETUMEI]
@@ -160,12 +160,12 @@
 [s]> Бургер с дикой уткой...[n][w][e]
 ##-[s]> Wild-duck Burger...[n][w][e]-##
 
-[msg BURGER_HAIRU [Menu]]
+[msg BURGER_HAIRU [Меню]]
 [s]"Таинственный бургер - 500 иен"[n][w][e]
 ##-[s]"Mystery Burger - 500 yen"[n][w][e]-##
 [s]"Ингредиенты - это секрет!"[n][w][e]
 ##-[s]"The ingredients are a secret!"[n][w][e]-##
-[s][f 1 5] [n]> Тебе нужно немного мужества, чтобы поесть[n]здесь.[n][w][e]
+[s][f 1 5] [n]> Тебе нужно немного Смелости, чтобы поесть[n]здесь.[n][w][e]
 ##-[s][f 1 5] [n]> You need a little bit of Courage to[n]eat here.[n][w][e]-##
 
 [msg BURGER_HAIRU02]
@@ -177,15 +177,15 @@
 ##-[s]> It's too crowded right now.[n][w][e]-##
 
 [msg BURGER_TUTO]
-[s]Вы можете повысить свою смелость здесь,[n]попробовав новый таинственный бургер.[n][w][e]
+[s]Вы можете повысить свою Смелость здесь,[n]попробовав новый таинственный бургер.[n][w][e]
 ##-[s]You can increase your Courage here by[n]trying the new mystery burger.[n][w][e]-##
 
 [msg WASHOKU_ANNOUNCE]
 [s]> Ресторан Вакацу...[n][w][e]
 ##-[s]> Wakatsu Restaurant...[n][w][e]-##
 
-[msg WASHOKU_HAIRU [Menu]]
-[s]"Блюдо для вундеркиндов - 680 иен"[n][w][e]
+[msg WASHOKU_HAIRU [Меню]]
+[s]"Блюдо для Вундеркиндов - 680 иен"[n][w][e]
 ##-[s]"Prodigy Platter - 680 yen"[n][w][e]-##
 [s]"Становись умнее, пока перевариваешь!"[n][w][e]
 ##-[s]"Get smarter while you digest!"[n][w][e]-##
@@ -199,15 +199,15 @@
 ##-[s]> It's too crowded right now.[n][w][e]-##
 
 [msg WASHOKU_TUTO]
-[s]Вы можете повысить свою успеваемость здесь,[n]съев блюдо с Вундеркиндами.[n][w][e]
+[s]Вы можете повысить свою Академичность здесь,[n]съев Блюдо для Вундеркиндов.[n][w][e]
 ##-[s]You can increase your Academics here[n]by eating the Prodigy Platter.[n][w][e]-##
 
 [msg RAMEN_ANNOUNCE]
-[s]> Магазин рамэна "Хагакурэ"...[n][w][e]
+[s]> Раменная "Хагакурэ"...[n][w][e]
 ##-[s]> Ramen shop "Hagakure"...[n][w][e]-##
 
-[msg RAMEN_HAIRU [Menu]]
-[s]"Свининка Пеппа:D - 900 иен"[n][w][e]
+[msg RAMEN_HAIRU [Меню]]
+[s]"Свинина - 900 иен"[n][w][e]
 ##-[s]"Pork - 900 yen"[n][w][e]-##
 [s]"Коллаген сделает вашу кожу красивой!"[n][w][e]
 ##-[s]"The collagen will make your skin[n]beautiful!"[n][w][e]-##
@@ -221,23 +221,23 @@
 ##-[s]> It's too crowded right now.[n][w][e]-##
 
 [msg RAMEN_TUTO]
-[s]Вы можете усилить свое очарование, съев[n]здесь рамен из свинины и соевого соуса.[n][w][e]
+[s]Вы можете усилить свое Обаяние, съев[n]здесь рамен из свинины и соевого соуса.[n][w][e]
 ##-[s]You can increase your Charm by eating[n]the pork and soy-sauce ramen here.[n][w][e]-##
 
 [msg MANGA_SETUMEI]
-[s]> Заказывайте Дальше...[n][w][e]
+[s]> Бук Он...[n][w][e]
 ##-[s]> Book On...[n][w][e]-##
 [s]> Манга сложена до потолка.[n][w][e]
 ##-[s]> Manga are stacked up to the ceiling.[n][w][e]-##
 
 [msg GYUDON_SETUMEI]
-[s]> Магазин мясных миск...[n][w][e]
+[s]> Магазин Мясных Мисок...[n][w][e]
 ##-[s]> Beef Bowl Shop...[n][w][e]-##
 [s]> Сейчас здесь слишком многолюдно.[n][w][e]
 ##-[s]> It's too crowded right now.[n][w][e]-##
 
 [msg SCR_MSG_HURUHON_HAIRU]
-[s]> Книжные Черви Использовали Книги...[n][w][e]
+[s]> Использованные Книги Bookworms...[n][w][e]
 ##-[s]> Bookworms Used Books...[n][w][e]-##
 
 [msg MSG_DOUZOKUSEI [ ]]
@@ -261,19 +261,19 @@
 ##-[s][f 5 13 0 10 0]> You decide to spend lunch at the[n]bookstore.[n][w][e]-##
 
 [msg SCR_MSG_HURUHON_NG]
-[s]> Книжные Черви Использовали Книги...[n][w][e]
+[s]> Использованные Книги Bookworms...[n][w][e]
 ##-[s]> Bookworms Used Books...[n][w][e]-##
 [s]> Магазин сегодня закрыт.[n][w][e]
 ##-[s]> The store is closed today.[n][w][e]-##
 
 [msg SCR_MSG_ENDING_NG]
-[s]> Книжные Черви Использовали Книги...[n][w][e]
+[s]> Использованные Книги Bookworms...[n][w][e]
 ##-[s]> Bookworms Used Books...[n][w][e]-##
 [s]> Магазин сегодня закрыт.[n][w][e]
 ##-[s]> The store is closed today.[n][w][e]-##
 
 [msg SCR_MSG_HURUHON_1ST_AFTE]
-[s]> Они упомянули дерево хурмы в средней[n]школе Геккукана.[n][w][e]
+[s]> Они упомянули дерево хурмы в средней[n]школе Геккоукан.[n][w][e]
 ##-[s]> They mentioned a persimmon tree at[n]Gekkoukan High School.[n][w][e]-##
 [s]> Вы решаете следить за этим.[n][w][e]
 ##-[s]> You decide to keep an eye out for[n]it.[n][w][e]-##
@@ -283,11 +283,11 @@
 ##-[s]> Would you like to go inside?[n][w][e]-##
 
 [msg ZOKUSEI_KAKUNIN]
-[s]> [f 2 4 1] Социальная связь, ранг [clr 2][f 2 4 4][clr 0].[n][w][e]
+[s]> [f 2 4 1] Социальная Ссылка, ранг [clr 2][f 2 4 4][clr 0].[n][w][e]
 ##-[s]> [f 2 4 1] Social Link,[n]rank [clr 2][f 2 4 4][clr 0].[n][w][e]-##
 [s]> Аркана - это [f 2 4 2].[n][f 2 4 3][w][e]
 ##-[s]> The Arcana is [f 2 4 2].[n][f 2 4 3][w][e]-##
-[s]> Вы способны увидеть силу мудрости и[n]опыта, связанных с [f 2 4 2] Аркана...[n][w][e]
+[s]> Вы способны увидеть силу мудрости и[n]опыта, связанных с [f 2 4 2] Арканой...[n][w][e]
 ##-[s]> You are able to see the power[n]of wisdom and expertise, associated[n]with the [f 2 4 2] Arcana...[n][w][e]-##
 
 [msg SCR_MSG_PER_KOE]
@@ -295,11 +295,11 @@
 ##-[s] [f 2 4 1], Level [f 2 4 0][n] [n] Available skills:[n]  [f 2 4 2][n]  [f 2 4 3][n]  [f 2 4 4][n][w][e]-##
 
 [msg ZOKUSEI_NOTYET]
-[s]> Похоже, что дальнейшая сила скрыта...[n][w][e]
+[s]> Похоже, что дальше сила скрыта...[n][w][e]
 ##-[s]> It seems further power lies hidden...[n][w][e]-##
 
 [msg ZOKUSEI_NOMORE]
-[s]> Дополнительное питание недоступно.[n][w][e]
+[s]> Дальше сила недоступна.[n][w][e]
 ##-[s]> No further power is available.[n][w][e]-##
 
 [msg HURUHON_SISSOU_SAFE]
@@ -311,13 +311,13 @@
 [msg HURUHON_SISSOU_SAFE_NOCO]
 [s]> Старик энергично болтает со старухой[n]внутри магазина...[n][w][e]
 ##-[s]> The old man is chatting energetically[n]with an old woman inside the store...[n][w][e]-##
-[s]> ...Похоже, этот старик был тем, кого ты[n]спас из Тартара...[n][w][e]
+[s]> ...Похоже, этот старик был тем, кого ты[n]спас из Тартаруса...[n][w][e]
 ##-[s]> ...It seems this old man was the[n]one you rescued from Tartarus...[n][w][e]-##
 [s]> Ты рад, что смог спасти его...[n][w][e]
 ##-[s]> You're glad that you were able to[n]rescue him...[n][w][e]-##
 
 [msg HURUHON_SISSOU_NG]
-[s]> Книжные Черви Использовали Книги...[n][w][e]
+[s]> Использованные Книги Bookworms...[n][w][e]
 ##-[s]> Bookworms Used Books...[n][w][e]-##
 [s]> Внутри магазина тихо...[n][w][e]
 ##-[s]> The inside of the store is quiet...[n][w][e]-##

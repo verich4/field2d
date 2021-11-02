@@ -15,13 +15,13 @@
 ##-[s]葛臆学[e]-##
 
 [sel INTO_SEL top]
-[s]Входить[e]
+[s]Войти[e]
 ##-[s]Enter[e]-##
-[s]Не входи[e]
+[s]Не входить[e]
 ##-[s]Don't enter[e]-##
 
 [sel GAMBLER_SEL top]
-[s]Рок[e]
+[s]Камень[e]
 ##-[s]Rock[e]-##
 [s]Бумага[e]
 ##-[s]Paper[e]-##
@@ -52,7 +52,7 @@
 [s]> Двое мужчин уходят.[n][w][e]
 ##-[s]> Two men are leaving.[n][w][e]-##
 
-[msg GAMBLER_SAY [Gambler]]
+[msg GAMBLER_SAY [Гамблер]]
 [s]...Я потерял все это, чувак.[n][w][e]
 ##-[s]...I lost it all, man.[n][w][e]-##
 [s]Давай, малыш, дай мне немного удачи...[n][w][e]
@@ -62,7 +62,7 @@
 [s]Камень-ножницы-бумага![n][w][e]
 ##-[s]Rock-paper-scissors![n][w][e]-##
 
-[msg GAMBLER_LOSE [Gambler]]
+[msg GAMBLER_LOSE [Гамблер]]
 [s]Что...? Я проиграл?[n][w][e]
 ##-[s]Wha...? I lost?[n][w][e]-##
 [s]...Я думаю, что моя удача иссякла.[n][w][e]
@@ -78,7 +78,7 @@
 [s]А теперь проваливай![n][w][e]
 ##-[s]Now, beat it![n][w][e]-##
 
-[msg GAMBLER_WIN [Gambler]]
+[msg GAMBLER_WIN [Гамблер]]
 [s]Хм?[n][w][e]
 ##-[s]Hm?[n][w][e]-##
 [s]Я выиграл... Я выиграл...![n][w][e]
@@ -100,7 +100,7 @@
 [s]> Вы думаете о том, чтобы войти... Ваш[n]разум говорит "да", но ваше тело говорит[n]"нет".[n][w][e]
 ##-[s]> You are thinking of entering...[n]Your mind says yes, but your body[n]says no.[n][w][e]-##
 
-[msg JUNPEI_STOP_ALLEY [Junpei]]
+[msg JUNPEI_STOP_ALLEY [Джунпей]]
 [s][bup 5 1 65535 0]Чувак, если ты войдешь туда, то можешь[n]оказаться в полицейском участке в[n]наручниках![n][w][e]
 ##-[s][bup 5 1 65535 0]Dude, if you go in there, you might[n]wind up at the police station in[n]handcuffs![n][w][e]-##
 [s]...Чувак, я бы никогда не спустился туда,[n]если бы мог этого избежать.[n][w][e]
@@ -114,8 +114,8 @@
 [s]> Вы слышите голоса снизу.[n][w][e]
 ##-[s]> You hear voices from below.[n][w][e]-##
 
-[msg BARMANS_VOICE [Young Man's Voice]]
-[s]Тпру... Неплохо![n][w][e]
+[msg BARMANS_VOICE [Голос Молодого Парня]]
+[s]Вау... Неплохо![n][w][e]
 ##-[s]Whoa... Not bad![n][w][e]-##
 [s]Держу пари, это будет популярно![n][w][e]
 ##-[s]I bet this'll be popular![n][w][e]-##
@@ -124,7 +124,7 @@
 [s]> Не зайдете ли вы в бар внизу?[n][w][e]
 ##-[s]> Will you enter the bar downstairs?[n][w][e]-##
 
-[msg BARMAN_HELLO [Bartender]]
+[msg BARMAN_HELLO [Бармен]]
 [s]Извините, мы еще не открылись...[n][w][e]
 ##-[s]Sorry, we're not open yet...[n][w][e]-##
 [s]...Эй, разве ты еще не учишься в средней[n]школе?[n][w][e]
@@ -132,7 +132,7 @@
 [s]Ты не должен быть здесь.[n][w][e]
 ##-[s]You're not s'posed to be here.[n][w][e]-##
 
-[msg CHARM_ENOUGH [Bartender]]
+[msg CHARM_ENOUGH [Бармен]]
 [s]...Хм? Ты выглядишь так, словно пару раз[n]побывал в этом квартале...[n][w][e]
 ##-[s]...Hm? You look like you've been[n]around the block a time or two...[n][w][e]-##
 [s]Должно быть, это судьба. Можешь попробовать[n]этот новый коктейль, который я приготовил[n]на скорую руку?[n][w][e]
@@ -152,27 +152,27 @@
 [s]> Это идеальный баланс между сладким и[n]кислым. У него освежающий аромат.[n][w][e]
 ##-[s]> It's the perfect balance between[n]sweet and sour. It has a refreshing[n]flavor.[n][w][e]-##
 
-[msg BARMAN_DRINK_AFTER [Bartender]]
+[msg BARMAN_DRINK_AFTER [Бармен]]
 [s]Итак, что ты думаешь? Хорошо, да?[n][w][e]
 ##-[s]So, whaddya think? Good, huh?[n][w][e]-##
 
-[msg BARMAN_DRINK_AFTER_RE1 [Bartender]]
+[msg BARMAN_DRINK_AFTER_RE1 [Бармен]]
 [s]Верно? Я знал, что тебе это понравится.[n][w][e]
 ##-[s]Right? I knew you'd like it.[n][w][e]-##
 
-[msg BARMAN_DRINK_AFTER_RE2 [Bartender]]
+[msg BARMAN_DRINK_AFTER_RE2 [Бармен]]
 [s]Хаха... Может быть, это не для детей.[n][w][e]
 ##-[s]Haha... Maybe it's not for kids.[n][w][e]-##
 [s]Ну что ж.[n][w][e]
 ##-[s]Oh, well.[n][w][e]-##
 
-[msg BARMAN_IMPRESSION_AFTER [Bartender]]
+[msg BARMAN_IMPRESSION_AFTER [Бармен]]
 [s]Вот что я тебе скажу... Я дам тебе бутылку[n]этого, за счет заведения.[n][w][e]
 ##-[s]Tell ya what... I'll give ya a bottle[n]of it, on the house.[n][w][e]-##
-[s]Я собираюсь пойти домой и поймать несколько[n]Z. Возвращайся, когда станешь законным, и я[n]позволю тебе попробовать хорошие вещи![n][w][e]
+[s]Я собираюсь пойти домой и поймать несколько[n]Z. Возвращайся, когда станешь совершеннолетним, и я[n]позволю тебе попробовать неплохие вещи![n][w][e]
 ##-[s]I'm gonna go home and catch some Z's.[n]Come back when you're legal, and I'll[n]let you try the good stuff![n][w][e]-##
 
-[msg CHARM_NOT_ENOUGH [Bartender]]
+[msg CHARM_NOT_ENOUGH [Бармен]]
 [s]Это место для взрослых. Детям вход[n]воспрещен! Потребовалось бы чертовски много[n]Обаяния, чтобы убедить меня в обратном![n][w][e]
 ##-[s]This place is for adults. No kids[n]allowed! It'd take a helluva lot of[n]Charm to convince me otherwise![n][w][e]-##
 
@@ -197,11 +197,11 @@
 [sel MOVIE_SEL top]
 [s]Смотреть фильм[e]
 ##-[s]Watch movie[e]-##
-[s]Не смотрите фильм[e]
+[s]Не смотреть фильм[e]
 ##-[s]Don't watch movie[e]-##
 
 [sel MOVIE_ARBEIT_SEL top]
-[s]Проверьте, что показывает [e]
+[s]Посмотреть, что крутят [e]
 ##-[s]Check what's showing [e]-##
 [s]Работать до вечера[e]
 ##-[s]Work until evening[e]-##
@@ -209,7 +209,7 @@
 ##-[s]Cancel[e]-##
 
 [sel MOVIE_PRE_SEL top]
-[s]Проверьте, что показывает [e]
+[s]Посмотреть, что крутят [e]
 ##-[s]Check what's showing [e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
@@ -219,7 +219,7 @@
 ##-[s]> Tickets are sold out.[n][w][e]-##
 
 [msg MOVIE_THEATER]
-[s]> Кинотеатр с Изображением Экрана...[n][w][e]
+[s]> Кинотеатр Screen Shot...[n][w][e]
 ##-[s]> Screen Shot Movie Theater...[n][w][e]-##
 
 [msg JIKANTUBUSI_TUTO]
@@ -233,13 +233,13 @@
 ##-[s]"Screen Shot Movie Theater" presents: [n]An original program.[n]High school students: 1500 yen[n][w][e]-##
 
 [msg MOVIE_PROGRAM_CONTINUE]
-[s]> Билеты для старшеклассников стоят 1500[n]иен.[n][w][e]
+[s]> Билеты для старшеклассников стоят 1500[n]йен.[n][w][e]
 ##-[s]> Tickets cost 1500 yen for high[n]school students.[n][w][e]-##
 
 [msg MOVIE_PROGRAM_01]
 [s]> Идет киномарафон.[n][w][e]
 ##-[s]> A movie marathon is playing.[n][w][e]-##
-[s]> "Для тех из вас, кто хочет быть более[n]очаровательным, показываются два[n]французских фильма".[n][w][e]
+[s]> "Для тех из вас, кто хочет быть более[n]обаятельными, показываются два[n]французских фильма".[n][w][e]
 ##-[s]> "For those of you who want to be[n]more charming, two French films are[n]being shown."[n][w][e]-##
 
 [msg MOVIE_PROGRAM_02]
@@ -251,7 +251,7 @@
 [msg MOVIE_PROGRAM_03]
 [s]> Идет киномарафон.[n][w][e]
 ##-[s]> A movie marathon is playing.[n][w][e]-##
-[s]> "Для тех из вас, кто хочет быть более[n]очаровательным, ознакомьтесь с этими[n]эпическими историями о любви".[n][w][e]
+[s]> "Для тех из вас, кто хочет быть более[n]обаятельными, ознакомьтесь с этими[n]эпическими историями о любви".[n][w][e]
 ##-[s]> "For those of you who want to be[n]more charming, check out these epic[n]tales of love."[n][w][e]-##
 
 [msg MOVIE_PROGRAM_04]
@@ -269,7 +269,7 @@
 [msg MOVIE_PROGRAM_06]
 [s]> Идет киномарафон.[n][w][e]
 ##-[s]> A movie marathon is playing.[n][w][e]-##
-[s]> "Изучайте историю, которую никто не знал,[n]- Настоящие документальные фильмы, старые и[n]новые".[n][w][e]
+[s]> "Учите историю, которую никто не знал,[n]- Настоящие документальные фильмы, старые и[n]новые".[n][w][e]
 ##-[s]> "Study the history no one knew - [n]True documentaries, old and new."[n][w][e]-##
 
 [msg MOVIE_PROGRAM_07]
@@ -285,7 +285,7 @@
 ##-[s]> You are already quite intelligent.[n][w][e]-##
 
 [msg MIRYOKU_MAX_NG]
-[s]> Ты уже очень обаятельна.[n][w][e]
+[s]> Вы уже очень обаятельны.[n][w][e]
 ##-[s]> You are already very charming.[n][w][e]-##
 
 [msg MONEY_TARINAI]
@@ -303,7 +303,7 @@
 ##-[s]> .........[n][w][e]-##
 
 [msg MOVIE_END_01]
-[s]> Вы выучили несколько романтических[n]однострочных фраз.[n][w][e]
+[s]> Вы выучили несколько пикап[n] фраз.[n][w][e]
 ##-[s]> You have learned some romantic[n]one-liners.[n][w][e]-##
 
 [msg MOVIE_END_02]
@@ -315,7 +315,7 @@
 ##-[s]> You learned how to be a coquettish[n]charmer...[n][w][e]-##
 
 [msg MOVIE_END_04]
-[s]> Ты чуть не закричала, но сдержалась.[n][w][e]
+[s]> Ты чуть не закричал, но сдержался.[n][w][e]
 ##-[s]> You almost screamed, but you held[n]it in.[n][w][e]-##
 
 [msg MOVIE_END_05]
@@ -335,7 +335,7 @@
 [sel STATION_SHOTCUTSEL top]
 [s]Окраина станции[e]
 ##-[s]Station Outskirts[e]-##
-[s]Станция острова Порт Тацуми[e]
+[s]Станция Острова-Порта Тацуми[e]
 ##-[s]Tatsumi Port Island Station[e]-##
 [s]Карта города[e]
 ##-[s]Town Map[e]-##
@@ -347,7 +347,7 @@
 ##-[s]Where do you want to go?[n][w][e]-##
 
 [msg MOVIE_ARBEIT_TUTO]
-[s]Вы сможете повысить свои академические[n]показатели, Обаяние и храбрость здесь,[n]посмотрев фильмы.[n][w][e]
+[s]Вы сможете повысить свою Академичность[n], Обаяние и храбрость здесь,[n]посмотрев фильмы.[n][w][e]
 ##-[s]You will be able to raise your[n]Academics, Charm, and Courage stats[n]here by watching movies.[n][w][e]-##
 [s]Показываемые фильмы будут меняться каждый[n]день. Вы также можете работать здесь днем в[n]выходные дни после школы.[n][w][e]
 ##-[s]The movies shown will change every day.[n]You can also work here during the day[n]on your days off from school.[n][w][e]-##

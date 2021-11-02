@@ -21,37 +21,37 @@
 ##-[s]No[e]-##
 
 [sel VENDOR_SEL top]
-[s]Голодающие[e]
+[s]Старвикс[e]
 ##-[s]Starvicks[e]-##
 [s]Чай из Сайлонов[e]
 ##-[s]Cylon Tea[e]-##
-[s]Агуафина[e]
+[s]Аквафина[e]
 ##-[s]Aguafeena[e]-##
-[s]Ничего не покупайте[e]
+[s]Ничего не покупать[e]
 ##-[s]Don't buy anything[e]-##
 
-[msg JUNPEI_STOP_THEATER [Junpei]]
+[msg JUNPEI_STOP_THEATER [Джунпей]]
 [s][bup 5 1 65535 0]Чувак, это НЕ полицейский участок...[n][w][e]
 ##-[s][bup 5 1 65535 0]Dude, that's NOT the police station...[n][w][e]-##
 
 [msg PUBLIC_TOILET]
-[s]> Кажется, кто-то убирает ванную...[n][w][e]
+[s]> Кажется, кто-то чистит уборную...[n][w][e]
 ##-[s]> Someone seems to be cleaning[n]the bathroom...[n][w][e]-##
 
 [msg WASH_TOILET_OK]
 [s]> Не хотели бы вы войти?[n][w][e]
 ##-[s]> Would you like to go in?[n][w][e]-##
 
-[msg WASH_TOILET_CHECK [Cleaning Lady]]
-[s]Эй, ты не можешь сюда входить! Я все еще[n]мою полы.[n][w][e]
+[msg WASH_TOILET_CHECK [Уборщица]]
+[s]Эй,сюда нельзя входить! Я все еще[n]мою полы.[n][w][e]
 ##-[s]Hey, you can't come in here![n]I'm still scrubbing the floors.[n][w][e]-##
-[s]О? Вы здесь не для того, чтобы заниматься[n]своими делами?[n][w][e]
+[s]О? Вы здесь не за[n]своими делами?[n][w][e]
 ##-[s]Oh? You're not here to do your[n]business?[n][w][e]-##
 [s]Оооо, хорошо! Так ты здесь, чтобы помочь,[n]да?[n][w][e]
 ##-[s]Ohhh, okay! So you're here to help[n]out, huh?[n][w][e]-##
 
-[msg WASH_TOILET_CHECK_OK [Cleaning Lady]]
-[s]...Ух ты! Ты даже принес щетку? Ты[n]действительно пришел подготовленным, не так[n]ли?[n][w][e]
+[msg WASH_TOILET_CHECK_OK [Уборщица]]
+[s]...Ух ты! Ты даже принес щетку? Ты[n]действительно подготовился, не так[n]ли?[n][w][e]
 ##-[s]...Wow! You even brought a brush?[n]You really came prepared, didn'tcha?[n][w][e]-##
 [s]Ну, тогда все в порядке! Почему бы тебе не[n]начать с другого угла?[n][w][e]
 ##-[s]Well, all right then! Why don'tcha[n]start from the other corner?[n][w][e]-##
@@ -71,9 +71,9 @@
 ##-[s]> What will you do?[n][w][e]-##
 
 [sel WASH1_SEL top]
-[s]Скраб сильнее[e]
+[s]Тереть сильнее[e]
 ##-[s]Scrub harder[e]-##
-[s]Используйте мыло[e]
+[s]Использовать мыло[e]
 ##-[s]Use the soap[e]-##
 
 [msg WASH_TOILET_1]
@@ -83,7 +83,7 @@
 ##-[s]> ......[n][w][e]-##
 [s]> .........[n][w][e]
 ##-[s]> .........[n][w][e]-##
-[s]> Как бы сильно вы ни скребли, грязь,[n]похоже, не отходит...[n][w][e]
+[s]> Как бы сильно вы ни терли, грязь,[n]похоже, не отходит...[n][w][e]
 ##-[s]> No matter how hard you scrub, the[n]grime doesn't seem to come off...[n][w][e]-##
 [s]> Что ты будешь делать?[n][w][e]
 ##-[s]> What will you do?[n][w][e]-##
@@ -101,9 +101,9 @@
 ##-[s]> What will you do?[n][w][e]-##
 
 [sel WASH2_SEL top]
-[s]Скраб сильнее[e]
+[s]Тереть сильнее[e]
 ##-[s]Scrub harder[e]-##
-[s]Сдаваться[e]
+[s]Сдаться[e]
 ##-[s]Give up[e]-##
 
 [msg WASH_TOILET_3]
@@ -113,7 +113,7 @@
 ##-[s]> ......[n][w][e]-##
 [s]> .........[n][w][e]
 ##-[s]> .........[n][w][e]-##
-[s]> Ты отдал этому все свои силы, и грязь[n]начинает подниматься![n][w][e]
+[s]> Ты приложил все свои силы, и грязь[n]начинает подниматься![n][w][e]
 ##-[s]> You gave it all your strength, and[n]the grime is beginning to lift![n][w][e]-##
 [s]> ...[n][w][e]
 ##-[s]> ...[n][w][e]-##
@@ -142,20 +142,20 @@
 [s]> Плитка полностью чистая![n][w][e]
 ##-[s]> The tile is completely clean![n][w][e]-##
 
-[msg WASH_TOILET_END [Cleaning Lady]]
+[msg WASH_TOILET_END [Уборщица]]
 [s]Ух ты! Ты мог бы есть с этого пола![n][w][e]
 ##-[s]Wow! You could eat off that floor![n][w][e]-##
 [s]Ты помогаешь убирать школьные туалеты после[n]обеда или что-то в этом роде? Ты[n]действительно знаешь свое дело![n][w][e]
 ##-[s]Do you help clean the school bathrooms[n]after lunch or something? You really[n]know your stuff![n][w][e]-##
-[s]Спасибо, малыш! Просто предоставь все[n]остальное мне![n][w][e]
+[s]Спасибо, дитё! Просто предоставь все[n]остальное мне![n][w][e]
 ##-[s]Thanks, kid! Just leave the rest[n]of it to me![n][w][e]-##
 
 [msg WASH_TOILET_QUEST_FINISH]
 [s]> Вы помогли убрать ванную комнату.[n][w][e]
 ##-[s]> You have helped to clean the[n]bathroom.[n][w][e]-##
 
-[msg WASH_TOILET_CHECK_NG [Cleaning Lady]]
-[s]Прости, малыш. У меня здесь только одна[n]щетка...[n][w][e]
+[msg WASH_TOILET_CHECK_NG [Уборщица]]
+[s]Прости, дитя. У меня здесь только одна[n]щетка...[n][w][e]
 ##-[s]Sorry, kid. I've only got the one[n]brush here...[n][w][e]-##
 [s]Если ты действительно хочешь помочь, тебе[n]придется вернуться со своими собственными[n]чистящими средствами.[n][w][e]
 ##-[s]If you really wanna help, you'll[n]hafta come back with your own[n]cleaning supplies.[n][w][e]-##
@@ -177,7 +177,7 @@
 ##-[s]> You can't carry any more of that[n]item.[n][w][e]-##
 
 [msg VENDOR_MONEY_IN]
-[s]> Вы внесли 120 иен.[n][w][e]
+[s]> Вы внесли 120 йен.[n][w][e]
 ##-[s]> You deposited 120 yen.[n][w][e]-##
 
 [msg VENDOR_BUY_END]
@@ -201,11 +201,11 @@
 [sel MOVIE_SEL top]
 [s]Смотреть фильм[e]
 ##-[s]Watch movie[e]-##
-[s]Не смотрите фильм[e]
+[s]Не смотреть фильм[e]
 ##-[s]Don't watch movie[e]-##
 
 [sel MOVIE_ARBEIT_SEL top]
-[s]Проверьте, что показывает [e]
+[s]Посмотреть, что крутят [e]
 ##-[s]Check what's showing [e]-##
 [s]Работать до вечера[e]
 ##-[s]Work until evening[e]-##
@@ -213,7 +213,7 @@
 ##-[s]Cancel[e]-##
 
 [sel MOVIE_PRE_SEL top]
-[s]Проверьте, что показывает [e]
+[s]Посмотреть, что крутят [e]
 ##-[s]Check what's showing [e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
@@ -223,7 +223,7 @@
 ##-[s]> Tickets are sold out.[n][w][e]-##
 
 [msg MOVIE_THEATER]
-[s]> Кинотеатр с Изображением Экрана...[n][w][e]
+[s]> Кинотеатр Screen Shot...[n][w][e]
 ##-[s]> Screen Shot Movie Theater...[n][w][e]-##
 
 [msg JIKANTUBUSI_TUTO]
@@ -233,17 +233,17 @@
 ##-[s]Many shops will raise your Charm,[n]Courage, or Academics. If they are[n]high enough, you may meet new people.[n][w][e]-##
 
 [msg MOVIE_MENU [Menu]]
-[s]"Кинотеатр Screen Shot" представляет: [n]Оригинальная программа. Старшеклассники:[n]1500 иен[n][w][e]
+[s]"Кинотеатр Screen Shot" представляет: [n]Оригинальная программа. Старшеклассники:[n]1500 йен[n][w][e]
 ##-[s]"Screen Shot Movie Theater" presents: [n]An original program.[n]High school students: 1500 yen[n][w][e]-##
 
 [msg MOVIE_PROGRAM_CONTINUE]
-[s]> Билеты для старшеклассников стоят 1500[n]иен.[n][w][e]
+[s]> Билеты для старшеклассников стоят 1500[n]йен.[n][w][e]
 ##-[s]> Tickets cost 1500 yen for high[n]school students.[n][w][e]-##
 
 [msg MOVIE_PROGRAM_01]
 [s]> Идет киномарафон.[n][w][e]
 ##-[s]> A movie marathon is playing.[n][w][e]-##
-[s]> "Для тех из вас, кто хочет быть более[n]очаровательным, показываются два[n]французских фильма".[n][w][e]
+[s]> "Для тех из вас, кто хочет быть более[n]очаровательным, показывают два[n]Французских фильма".[n][w][e]
 ##-[s]> "For those of you who want to be[n]more charming, two French films are[n]being shown."[n][w][e]-##
 
 [msg MOVIE_PROGRAM_02]
@@ -273,7 +273,7 @@
 [msg MOVIE_PROGRAM_06]
 [s]> Идет киномарафон.[n][w][e]
 ##-[s]> A movie marathon is playing.[n][w][e]-##
-[s]> "Изучайте историю, которую никто не знал,[n]- Настоящие документальные фильмы, старые и[n]новые".[n][w][e]
+[s]> "Учите историю, которую никто не знал,[n]- Настоящие документальные фильмы, старые и[n]новые".[n][w][e]
 ##-[s]> "Study the history no one knew - [n]True documentaries, old and new."[n][w][e]-##
 
 [msg MOVIE_PROGRAM_07]
@@ -289,7 +289,7 @@
 ##-[s]> You are already quite intelligent.[n][w][e]-##
 
 [msg MIRYOKU_MAX_NG]
-[s]> Ты уже очень обаятельна.[n][w][e]
+[s]> Вы уже очень обаятельны.[n][w][e]
 ##-[s]> You are already very charming.[n][w][e]-##
 
 [msg MONEY_TARINAI]
@@ -307,7 +307,7 @@
 ##-[s]> .........[n][w][e]-##
 
 [msg MOVIE_END_01]
-[s]> Вы выучили несколько романтических[n]однострочных фраз.[n][w][e]
+[s]> Вы выучили несколько пикап[n]фраз.[n][w][e]
 ##-[s]> You have learned some romantic[n]one-liners.[n][w][e]-##
 
 [msg MOVIE_END_02]
@@ -339,7 +339,7 @@
 [sel STATION_SHOTCUTSEL top]
 [s]Окраина станции[e]
 ##-[s]Station Outskirts[e]-##
-[s]Станция острова Порт Тацуми[e]
+[s]Станция Острова-Порта Тацуми[e]
 ##-[s]Tatsumi Port Island Station[e]-##
 [s]Карта города[e]
 ##-[s]Town Map[e]-##
@@ -351,7 +351,7 @@
 ##-[s]Where do you want to go?[n][w][e]-##
 
 [msg MOVIE_ARBEIT_TUTO]
-[s]Вы сможете повысить свои академические[n]показатели, Обаяние и храбрость здесь,[n]посмотрев фильмы.[n][w][e]
+[s]Вы сможете повысить свою Академичность[n], Обаяние и Смелость здесь,[n]посмотрев фильмы.[n][w][e]
 ##-[s]You will be able to raise your[n]Academics, Charm, and Courage stats[n]here by watching movies.[n][w][e]-##
 [s]Показываемые фильмы будут меняться каждый[n]день. Вы также можете работать здесь днем в[n]выходные дни после школы.[n][w][e]
 ##-[s]The movies shown will change every day.[n]You can also work here during the day[n]on your days off from school.[n][w][e]-##
