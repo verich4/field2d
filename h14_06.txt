@@ -15,7 +15,7 @@
 ##-[s]> Would you like to get ready for[n]the hot spring?[n][w][e]-##
 
 [sel INTO_ROOM_SEL top]
-[s]Возвращайся в свою комнату[e]
+[s]Пойти в свою комнату[e]
 ##-[s]Return to your room[e]-##
 [s]Ещё нет[e]
 ##-[s]Not yet[e]-##
