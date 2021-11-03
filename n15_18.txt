@@ -1,15 +1,15 @@
 [sel TALK_SEL top]
-[s]Добавьте в свою вечеринку[e]
+[s]Добавьте в свою группу[e]
 ##-[s]Add to your party[e]-##
-[s]Удалить с вашей вечеринки[e]
+[s]Удалить с вашей группы[e]
 ##-[s]Remove from your party[e]-##
-[s]Сделано[e]
+[s]Выполнено[e]
 ##-[s]Done[e]-##
 
 [sel BACK_UP_SEL top]
 [s]Проверьте ход выполнения[e]
 ##-[s]Check progress[e]-##
-[s]Сделано[e]
+[s]Выполнено[e]
 ##-[s]Done[e]-##
 
 [sel PARTY_SEL top]
@@ -19,278 +19,278 @@
 ##-[s]Aigis[e]-##
 [s]Мицуру[e]
 ##-[s]Mitsuru[e]-##
-[s]Дзюнпэй[e]
+[s]Джунпей[e]
 ##-[s]Junpei[e]-##
 [s]Акихико[e]
 ##-[s]Akihiko[e]-##
-[s]Кругозор[e]
+[s]Кен[e]
 ##-[s]Ken[e]-##
 [s]Синдзиро[e]
 ##-[s]Shinjiro[e]-##
 [s]Коромару[e]
 ##-[s]Koromaru[e]-##
-[s]Сделано[e]
+[s]Выполнено[e]
 ##-[s]Done[e]-##
 
 [sel DOOR_SEL top]
 [s]Иди внутрь[e]
 ##-[s]Go inside[e]-##
-[s]Не открывай дверь[e]
+[s]Не открывать дверь[e]
 ##-[s]Don't open the door[e]-##
 
-[msg YUKARI_PARTY_IN_NORMAL [Yukari]]
+[msg YUKARI_PARTY_IN_NORMAL [Юкари]]
 [s][bup 2 201 0 0]Хочешь, я пойду с тобой?[n][w][e]
 ##-[s][bup 2 201 0 0]Want me to go with you?[n][w][e]-##
 
-[msg YUKARI_PARTY_IN_BEST [Yukari]]
+[msg YUKARI_PARTY_IN_BEST [Юкари]]
 [s][bup 2 202 0 0]Ух ты, я чувствую себя великолепно![n][w][e]
 ##-[s][bup 2 202 0 0]Wow, I feel great![n][w][e]-##
 
-[msg YUKARI_PARTY_IN_TIRED [Yukari]]
-[s][bup 2 204 0 0]Я чувствую себя немного уставшим...[n][w][e]
+[msg YUKARI_PARTY_IN_TIRED [Юкари]]
+[s][bup 2 204 0 0]Я чувствую себя немного уставшей...[n][w][e]
 ##-[s][bup 2 204 0 0]I'm feeling a little tired...[n][w][e]-##
 
-[msg YUKARI_PARTY_IN_COLD [Yukari]]
-[s][bup 2 204 0 0]Ммм, я бы предпочел не идти... Я не очень[n]хорошо себя чувствую.[n][w][e]
+[msg YUKARI_PARTY_IN_COLD [Юкари]]
+[s][bup 2 204 0 0]Ммм, я бы предпочла не идти... Я не очень[n]хорошо себя чувствую.[n][w][e]
 ##-[s][bup 2 204 0 0]Umm, I'd rather not go...[n]I'm not feeling so good.[n][w][e]-##
 
-[msg YUKARI_PARTY_IN_AFTER_NO [Yukari]]
+[msg YUKARI_PARTY_IN_AFTER_NO [Юкари]]
 [s][bup 2 202 0 0][f 3 1 3 0 6 302]Ладно, поехали![n][w][e]
 ##-[s][bup 2 202 0 0][f 3 1 3 0 6 302]Alright, let's go![n][w][e]-##
 
-[msg YUKARI_PARTY_IN_AFTER_BE [Yukari]]
+[msg YUKARI_PARTY_IN_AFTER_BE [Юкари]]
 [s][bup 2 202 0 0][f 3 1 3 0 6 302]Ладно, поехали![n][w][e]
 ##-[s][bup 2 202 0 0][f 3 1 3 0 6 302]Alright, let's go![n][w][e]-##
 
-[msg YUKARI_PARTY_IN_AFTER_TI [Yukari]]
+[msg YUKARI_PARTY_IN_AFTER_TI [Юкари]]
 [s][bup 2 204 0 0]..Хорошо, но не жди слишком многого.[n][w][e]
 ##-[s][bup 2 204 0 0]...Okay, but don't expect too much.[n][w][e]-##
 
-[msg YUKARI_PARTY_IN_AFTER_CO [Yukari]]
+[msg YUKARI_PARTY_IN_AFTER_CO [Юкари]]
 [s][bup 2 204 0 0]Я не думаю, что это такая уж хорошая[n]идея...[n][w][e]
 ##-[s][bup 2 204 0 0]I don't think that's such a good idea...[n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_NORMAL [Yukari]]
+[msg YUKARI_PARTY_OUT_NORMAL [Юкари]]
 [s][bup 2 201 0 0]Поехали![n][w][e]
 ##-[s][bup 2 201 0 0]Let's go![n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_BEST [Yukari]]
+[msg YUKARI_PARTY_OUT_BEST [Юкари]]
 [s][bup 2 202 0 0]Давайте сделаем это![n][w][e]
 ##-[s][bup 2 202 0 0]Let's do it![n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_TIRED [Yukari]]
+[msg YUKARI_PARTY_OUT_TIRED [Юкари]]
 [s][bup 2 204 0 0]Не возражаешь, если я отсижу это?[n][w][e]
 ##-[s][bup 2 204 0 0]Mind if I sit this one out?[n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_COLD [Yukari]]
+[msg YUKARI_PARTY_OUT_COLD [Юкари]]
 [s][bup 2 204 0 0]Мне обязательно идти?[n][w][e]
 ##-[s][bup 2 204 0 0]Do I have to go?[n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_AFTER_N [Yukari]]
+[msg YUKARI_PARTY_OUT_AFTER_N [Юкари]]
 [s][bup 2 204 0 0]...Хорошо.[n][w][e]
 ##-[s][bup 2 204 0 0]...Okay.[n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_AFTER_B [Yukari]]
+[msg YUKARI_PARTY_OUT_AFTER_B [Юкари]]
 [s][bup 2 205 0 0]Давай, я хочу уйти![n][w][e]
 ##-[s][bup 2 205 0 0]Come on, I wanna go![n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_AFTER_T [Yukari]]
+[msg YUKARI_PARTY_OUT_AFTER_T [Юкари]]
 [s][bup 2 204 0 0]...Хорошо.[n][w][e]
 ##-[s][bup 2 204 0 0]...Alright.[n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_AFTER_C [Yukari]]
+[msg YUKARI_PARTY_OUT_AFTER_C [Юкари]]
 [s][bup 2 204 0 0]...Хорошо.[n][w][e]
 ##-[s][bup 2 204 0 0]...Alright.[n][w][e]-##
 
-[msg YUKARI_PARTY_OVER [Yukari]]
-[s][bup 2 205 0 0]...Вечеринка уже переполнена.[n][w][e]
+[msg YUKARI_PARTY_OVER [Юкари]]
+[s][bup 2 205 0 0]...группа уже переполнена.[n][w][e]
 ##-[s][bup 2 205 0 0]...The party's already full.[n][w][e]-##
 
-[msg YUKARI_PARTY_CHANGE [Yukari]]
+[msg YUKARI_PARTY_CHANGE [Юкари]]
 [s][bup 2 201 0 0]С кем мне следует поменяться?[n][w][e]
 ##-[s][bup 2 201 0 0]Who should I switch with?[n][w][e]-##
 
-[msg YUKARI_TUTORIAL_BEFORE [Yukari]]
+[msg YUKARI_TUTORIAL_BEFORE [Юкари]]
 [s][bup 2 204 0 0]Итак, это Тартар...[n][w][e]
 ##-[s][bup 2 204 0 0]So, this is Tartarus...[n][w][e]-##
 
-[msg YUKARI_TUTORIAL_AFTER [Yukari]]
+[msg YUKARI_TUTORIAL_AFTER [Юкари]]
 [s][bup 2 204 0 0]Я чувствую усталость...[n][w][e]
 ##-[s][bup 2 204 0 0]I'm feeling tired...[n][w][e]-##
 [s]Давай вернемся...[n][w][e]
 ##-[s]Let's go back...[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_NORMAL [Aigis]]
+[msg AEGIS_PARTY_IN_NORMAL [Айгис]]
 [s][bup 3 201 0 0]Пожалуйста, возьми меня с собой.[n][w][e]
 ##-[s][bup 3 201 0 0]Please take me with you.[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_BEST [Aigis]]
-[s][bup 3 202 0 0]Я прекрасно функционирую и готов к бою.[n][w][e]
+[msg AEGIS_PARTY_IN_BEST [Айгис]]
+[s][bup 3 202 0 0]Я прекрасно функционирую и готова к бою.[n][w][e]
 ##-[s][bup 3 202 0 0]I'm functioning perfectly and ready[n]for battle.[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_TIRED [Aigis]]
+[msg AEGIS_PARTY_IN_TIRED [Айгис]]
 [s][bup 3 204 0 0]Я чувствую себя вялым...[n][w][e]
 ##-[s][bup 3 204 0 0]I'm feeling sluggish...[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_COLD [Aigis]]
-[s][bup 3 204 0 0]Кажется, я заразился вирусом...[n][w][e]
+[msg AEGIS_PARTY_IN_COLD [Айгис]]
+[s][bup 3 204 0 0]Кажется, я заразилась вирусом...[n][w][e]
 ##-[s][bup 3 204 0 0]I seem to have acquired a virus...[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_AFTER_NOR [Aigis]]
-[s][bup 3 202 0 0][f 3 1 3 0 6 306]Я покажу тебе, из чего я сделан.[n][w][e]
+[msg AEGIS_PARTY_IN_AFTER_NOR [Айгис]]
+[s][bup 3 202 0 0][f 3 1 3 0 6 306]Я покажу тебе, из чего я сделана.[n][w][e]
 ##-[s][bup 3 202 0 0][f 3 1 3 0 6 306]I'll show you what I'm[n]made of.[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_AFTER_BES [Aigis]]
-[s][bup 3 202 0 0][f 3 1 3 0 6 306]Я покажу тебе, из чего я сделан.[n][w][e]
+[msg AEGIS_PARTY_IN_AFTER_BES [Айгис]]
+[s][bup 3 202 0 0][f 3 1 3 0 6 306]Я покажу тебе, из чего я сделана.[n][w][e]
 ##-[s][bup 3 202 0 0][f 3 1 3 0 6 306]I'll show you what I'm[n]made of.[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_AFTER_TIR [Aigis]]
+[msg AEGIS_PARTY_IN_AFTER_TIR [Айгис]]
 [s][bup 3 204 0 0]Я сделаю все, что в моих силах, несмотря на[n]мое состояние.[n][w][e]
 ##-[s][bup 3 204 0 0]I'll do my best, despite my condition.[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_AFTER_COL [Aigis]]
+[msg AEGIS_PARTY_IN_AFTER_COL [Айгис]]
 [s][bup 3 204 0 0]Я сделаю все, что в моих силах, хотя и могу[n]быть вам помехой.[n][w][e]
 ##-[s][bup 3 204 0 0]I'll do my best, though I may be[n]a hindrance to you.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_NORMAL [Aigis]]
+[msg AEGIS_PARTY_OUT_NORMAL [Айгис]]
 [s][bup 3 201 0 0]Давайте отправимся немедленно.[n][w][e]
 ##-[s][bup 3 201 0 0]Let's go immediately.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_BEST [Aigis]]
+[msg AEGIS_PARTY_OUT_BEST [Айгис]]
 [s][bup 3 202 0 0]Пойдем.[n][w][e]
 ##-[s][bup 3 202 0 0]Let's go.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_TIRED [Aigis]]
+[msg AEGIS_PARTY_OUT_TIRED [Айгис]]
 [s][bup 3 204 0 0]Я рекомендую на этот раз оставить меня[n]позади.[n][w][e]
 ##-[s][bup 3 204 0 0]I recommend leaving me behind this[n]time.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_COLD [Aigis]]
+[msg AEGIS_PARTY_OUT_COLD [Айгис]]
 [s][bup 3 204 0 0]...Да?[n][w][e]
 ##-[s][bup 3 204 0 0]...Yes?[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_AFTER_NO [Aigis]]
-[s][bup 3 201 0 0]...Вас понял.[n][w][e]
+[msg AEGIS_PARTY_OUT_AFTER_NO [Айгис]]
+[s][bup 3 201 0 0]...тебя понял.[n][w][e]
 ##-[s][bup 3 201 0 0]...Roger that.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_AFTER_BE [Aigis]]
+[msg AEGIS_PARTY_OUT_AFTER_BE [Айгис]]
 [s][bup 3 204 0 0]Я понимаю. Я не могу противоречить приказу.[n][w][e]
 ##-[s][bup 3 204 0 0]I understand. I cannot contradict[n]an order.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_AFTER_TI [Aigis]]
+[msg AEGIS_PARTY_OUT_AFTER_TI [Айгис]]
 [s][bup 3 204 0 0]...Мне жаль, что я не смогу помочь.[n][w][e]
 ##-[s][bup 3 204 0 0]...I'm sorry I won't be able to help.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_AFTER_CO [Aigis]]
+[msg AEGIS_PARTY_OUT_AFTER_CO [Айгис]]
 [s][bup 3 204 0 0]...Мне жаль, что я не смогу помочь.[n][w][e]
 ##-[s][bup 3 204 0 0]...I'm sorry I won't be able to help.[n][w][e]-##
 
-[msg AEGIS_PARTY_OVER [Aigis]]
-[s][bup 3 201 0 0]В партии уже достаточно членов...[n][w][e]
+[msg AEGIS_PARTY_OVER [Айгис]]
+[s][bup 3 201 0 0]В группы уже достаточно членов...[n][w][e]
 ##-[s][bup 3 201 0 0]The party already has sufficient[n]members...[n][w][e]-##
 
-[msg AEGIS_PARTY_CHANGE [Aigis]]
-[s][bup 3 201 0 0]...Кого я должен заменить?[n][w][e]
+[msg AEGIS_PARTY_CHANGE [Айгис]]
+[s][bup 3 201 0 0]...Кого я должна заменить?[n][w][e]
 ##-[s][bup 3 201 0 0]...Who shall I replace?[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_NORMAL [Mitsuru]]
-[s][bup 4 201 0 0]Вы хотите, чтобы я сопровождал вас?[n][w][e]
+[msg MITSURU_PARTY_IN_NORMAL [Мицуру]]
+[s][bup 4 201 0 0]Вы хотите, чтобы я сопровождал тебя?[n][w][e]
 ##-[s][bup 4 201 0 0]You want me to accompany you?[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_BEST [Mitsuru]]
+[msg MITSURU_PARTY_IN_BEST [Мицуру]]
 [s][bup 4 201 0 0]Давайте сделаем это.[n][w][e]
 ##-[s][bup 4 201 0 0]Let's do it.[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_TIRED [Mitsuru]]
+[msg MITSURU_PARTY_IN_TIRED [Мицуру]]
 [s][bup 4 204 0 0]Я плохо себя чувствую...[n][w][e]
 ##-[s][bup 4 204 0 0]I'm not feeling well...[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_COLD [Mitsuru]]
+[msg MITSURU_PARTY_IN_COLD [Мицуру]]
 [s][bup 4 204 0 0]Я чувствую себя не в своей тарелке...[n][w][e]
 ##-[s][bup 4 204 0 0]I'm feeling under the weather...[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_AFTER_N [Mitsuru]]
-[s][bup 4 202 0 0][f 3 1 3 0 6 304]Ха. Я постараюсь оправдать ваши ожидания.[n][w][e]
+[msg MITSURU_PARTY_IN_AFTER_N [Мицуру]]
+[s][bup 4 202 0 0][f 3 1 3 0 6 304]Ха. Я постараюсь оправдать твои ожидания.[n][w][e]
 ##-[s][bup 4 202 0 0][f 3 1 3 0 6 304]Hah. I'll try to meet[n]your expectations.[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_AFTER_B [Mitsuru]]
-[s][bup 4 202 0 0][f 3 1 3 0 6 304]Ха. Я постараюсь оправдать ваши ожидания.[n][w][e]
+[msg MITSURU_PARTY_IN_AFTER_B [Мицуру]]
+[s][bup 4 202 0 0][f 3 1 3 0 6 304]Ха. Я постараюсь оправдать твои ожидания.[n][w][e]
 ##-[s][bup 4 202 0 0][f 3 1 3 0 6 304]Hah. I'll try to meet[n]your expectations.[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_AFTER_T [Mitsuru]]
-[s][bup 4 204 0 0]...Очень хорошо. Но я должен предупредить[n]вас, что от меня будет мало помощи.[n][w][e]
+[msg MITSURU_PARTY_IN_AFTER_T [Мицуру]]
+[s][bup 4 204 0 0]...Очень хорошо. Но я должна предупредить[n]тебя, что от меня будет мало помощи.[n][w][e]
 ##-[s][bup 4 204 0 0]...Very well. But, I should warn you,[n]I won't be much help.[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_AFTER_C [Mitsuru]]
-[s][bup 4 204 0 0]Я бы предпочел не быть занозой в твоем[n]боку...[n][w][e]
+[msg MITSURU_PARTY_IN_AFTER_C [Мицуру]]
+[s][bup 4 204 0 0]Я бы предпочла не быть занозой в твоем[n]боку...[n][w][e]
 ##-[s][bup 4 204 0 0]I would prefer not to be a thorn in[n]your side...[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_NORMAL [Mitsuru]]
+[msg MITSURU_PARTY_OUT_NORMAL [Мицуру]]
 [s][bup 4 201 0 0]Давайте съезжать...[n][w][e]
 ##-[s][bup 4 201 0 0]Let's move out...[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_BEST [Mitsuru]]
+[msg MITSURU_PARTY_OUT_BEST [Мицуру]]
 [s][bup 4 202 0 0]Чего ты ждешь? Пойдем.[n][w][e]
 ##-[s][bup 4 202 0 0]What are you waiting for? Let's go.[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_TIRED [Mitsuru]]
-[s][bup 4 204 0 0]Сегодня я не такой, как обычно...[n][w][e]
+[msg MITSURU_PARTY_OUT_TIRED [Мицуру]]
+[s][bup 4 204 0 0]Сегодня я не такая, как обычно...[n][w][e]
 ##-[s][bup 4 204 0 0]I'm not my usual self today...[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_COLD [Mitsuru]]
-[s][bup 4 204 0 0]Сегодня я не такой, как обычно...[n][w][e]
+[msg MITSURU_PARTY_OUT_COLD [Мицуру]]
+[s][bup 4 204 0 0]Сегодня я не такая, как обычно...[n][w][e]
 ##-[s][bup 4 204 0 0]I'm not my usual self today...[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_AFTER_ [Mitsuru]]
+[msg MITSURU_PARTY_OUT_AFTER_ [Мицуру]]
 [s][bup 4 201 0 0]...Очень хорошо.[n][w][e]
 ##-[s][bup 4 201 0 0]...Very well.[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_AFTER__2 [Mitsuru]]
+[msg MITSURU_PARTY_OUT_AFTER__2 [Мицуру]]
 [s][bup 4 201 0 0]Я не думаю, что это мудрое решение...[n][w][e]
 ##-[s][bup 4 201 0 0]I don't think that's a wise decision...[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_AFTER__3 [Mitsuru]]
+[msg MITSURU_PARTY_OUT_AFTER__3 [Мицуру]]
 [s][bup 4 204 0 0]Хороший выбор.[n][w][e]
 ##-[s][bup 4 204 0 0]Good choice.[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_AFTER__4 [Mitsuru]]
+[msg MITSURU_PARTY_OUT_AFTER__4 [Мицуру]]
 [s][bup 4 204 0 0]...Мудрое решение.[n][w][e]
 ##-[s][bup 4 204 0 0]...A wise decision.[n][w][e]-##
 
-[msg MITSURU_PARTY_OVER [Mitsuru]]
-[s][bup 4 201 0 0]...У вас уже достаточно людей.[n][w][e]
+[msg MITSURU_PARTY_OVER [Мицуру]]
+[s][bup 4 201 0 0]...У тебя уже достаточно людей.[n][w][e]
 ##-[s][bup 4 201 0 0]...You already have enough people.[n][w][e]-##
 
-[msg MITSURU_PARTY_CHANGE [Mitsuru]]
-[s][bup 4 201 0 0]Кого бы вы хотели, чтобы я заменил?[n][w][e]
+[msg MITSURU_PARTY_CHANGE [Мицуру]]
+[s][bup 4 201 0 0]Кого бы вы хотели, чтобы я заменила?[n][w][e]
 ##-[s][bup 4 201 0 0]Who would you like me to replace?[n][w][e]-##
 
-[msg MITSURU_TUTORIAL_BEFORE [Mitsuru]]
+[msg MITSURU_TUTORIAL_BEFORE [Мицуру]]
 [s][bup 4 201 0 0]Не волнуйся. Я не буду давить на тебя[n]слишком сильно.[n][w][e]
 ##-[s][bup 4 201 0 0]Don't worry. I won't push you too hard.[n][w][e]-##
 [s]С тобой все будет в порядке.[n][w][e]
 ##-[s]You'll be just fine.[n][w][e]-##
 
-[msg MITSURU_TUTORIAL_AFTER [Mitsuru]]
-[s][bup 4 201 0 0]С этого момента вы будете выбирать свою[n]партию здесь, прежде чем войти в Тартар.[n][w][e]
+[msg MITSURU_TUTORIAL_AFTER [Мицуру]]
+[s][bup 4 201 0 0]С этого момента вы будете выбирать свою[n]группу здесь, прежде чем войти в Тартар.[n][w][e]
 ##-[s][bup 4 201 0 0]From now on, you'll select your party[n]here, before you enter Tartarus.[n][w][e]-##
 [s]Я объясню детали в другой раз.[n][w][e]
 ##-[s]I'll explain the details some other time.[n][w][e]-##
-[s]Трес бьен! Ты хорошо поработал сегодня. А[n]теперь давайте вернемся в общежитие.[n][w][e]
+[s]Очень хорошо! Ты хорошо поработал сегодня. А[n]теперь давайте вернемся в общежитие.[n][w][e]
 ##-[s]Tres bien! You did well today. Now,[n]let's head back to the dorm.[n][w][e]-##
 
-[msg MITSURU_BACK_UP [Mitsuru]]
-[s][bup 4 201 0 0]Я останусь здесь и окажу поддержку. А[n]теперь, могу ли я что-нибудь для вас[n]сделать?[n][w][e]
+[msg MITSURU_BACK_UP [Мицуру]]
+[s][bup 4 201 0 0]Я останусь здесь и окажу поддержку. А[n]теперь, могу ли я что-нибудь для тебя[n]сделать?[n][w][e]
 ##-[s][bup 4 201 0 0]I'll stay here and provide support.[n]Now, is there anything I can do for[n]you?[n][w][e]-##
 
-[msg MITSURU_BACK_UP_RE [Mitsuru]]
+[msg MITSURU_BACK_UP_RE [Мицуру]]
 [s][bup 4 201 0 0]Что-нибудь еще?[n][w][e]
 ##-[s][bup 4 201 0 0]Anything else?[n][w][e]-##
 
-[msg MITSURU_BAD_CONDITION_NU [Mitsuru]]
-[s][bup 4 201 0 0][f 2 4 0] члены партии плохо себя чувствуют.[n][w][e]
+[msg MITSURU_BAD_CONDITION_NU [Мицуру]]
+[s][bup 4 201 0 0][f 2 4 0] члены группы плохо себя чувствуют.[n][w][e]
 ##-[s][bup 4 201 0 0][f 2 4 0] party members are not feeling[n]well.[n][w][e]-##
 
-[msg MITSURU_NO_MEMBER [Mitsuru]]
+[msg MITSURU_NO_MEMBER [Мицуру]]
 [s][bup 4 201 0 0]Все уже ушли. Здесь никого нет, кроме нас.[n][w][e]
 ##-[s][bup 4 201 0 0]Everyone has left already. No one is[n]here besides us.[n][w][e]-##
 [s]Может, нам стоит остановиться на сегодня?[n][w][e]
@@ -298,7 +298,7 @@
 [s]...Это твое решение.[n][w][e]
 ##-[s]...It's your decision.[n][w][e]-##
 
-[msg MITSURU_ANALYSIS_TIRED [Mitsuru]]
+[msg MITSURU_ANALYSIS_TIRED [Мицуру]]
 [s][bup 4 201 0 0]Ты неважно выглядишь...[n][w][e]
 ##-[s][bup 4 201 0 0]You don't look well...[n][w][e]-##
 [s]Я рекомендую вам немного отдохнуть.[n][w][e]
@@ -308,117 +308,117 @@
 [s]А теперь, могу ли я что-нибудь для тебя[n]сделать...?[n][w][e]
 ##-[s]Now, is there anything I can do for[n]you...?[n][w][e]-##
 
-[msg MITSURU_ANALYSIS [Mitsuru]]
+[msg MITSURU_ANALYSIS [Мицуру]]
 [s][bup 4 201 0 0]Вы исследовали [f 2 4 0] уровни в этой башне...[n][w][e]
 ##-[s][bup 4 201 0 0]You've explored [f 2 4 0] levels in this[n]tower...[n][w][e]-##
 
-[msg MITSURU_ANALYSIS_GO [Mitsuru]]
+[msg MITSURU_ANALYSIS_GO [Мицуру]]
 [s][bup 4 201 0 0]Пожалуйста, пройдите как можно дальше в[n]пределах Тартара.[n][w][e]
 ##-[s][bup 4 201 0 0]Please proceed as far as you can[n]within Tartarus.[n][w][e]-##
 
-[msg MITSURU_ANALYSIS_STOP [Mitsuru]]
+[msg MITSURU_ANALYSIS_STOP [Мицуру]]
 [s][bup 4 201 0 0]Мы поднялись как можно выше, и на данный[n]момент наша цель достигнута.[n][w][e]
 ##-[s][bup 4 201 0 0]We've climbed up as high as possible;[n]our goal has been achieved for now.[n][w][e]-##
 [s]Хорошая работа.[n][w][e]
 ##-[s]Good job.[n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_NORMAL [Junpei]]
+[msg JUNPEI_PARTY_IN_NORMAL [Джунпей]]
 [s][bup 5 201 0 0]Ты знаешь, что тебе нужна моя помощь.[n][w][e]
 ##-[s][bup 5 201 0 0]You know you need my help.[n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_BEST [Junpei]]
+[msg JUNPEI_PARTY_IN_BEST [Джунпей]]
 [s][bup 5 202 0 0]Чувак, выбери меня... Ты не пожалеешь.[n][w][e]
 ##-[s][bup 5 202 0 0]Dude, pick me... You won't be sorry.[n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_TIRED [Junpei]]
-[s][bup 5 204 0 0]Я чувствую себя немного усталой...[n][w][e]
+[msg JUNPEI_PARTY_IN_TIRED [Джунпей]]
+[s][bup 5 204 0 0]Я чувствую себя немного усталым...[n][w][e]
 ##-[s][bup 5 204 0 0]I feel a little tired...[n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_COLD [Junpei]]
+[msg JUNPEI_PARTY_IN_COLD [Джунпей]]
 [s][bup 5 204 0 0]Я болен, братан! Дай мне отдохнуть![n][w][e]
 ##-[s][bup 5 204 0 0]I'm sick, bro! Lemme rest![n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_AFTER_NO [Junpei]]
+[msg JUNPEI_PARTY_IN_AFTER_NO [Джунпей]]
 [s][bup 5 202 0 0][f 3 1 3 0 6 303]Хорошо, давайте сделаем это![n][w][e]
 ##-[s][bup 5 202 0 0][f 3 1 3 0 6 303]Alright, let's do this![n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_AFTER_BE [Junpei]]
+[msg JUNPEI_PARTY_IN_AFTER_BE [Джунпей]]
 [s][bup 5 202 0 0][f 3 1 3 0 6 303]Хорошо, давайте сделаем это![n][w][e]
 ##-[s][bup 5 202 0 0][f 3 1 3 0 6 303]Alright, let's do this![n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_AFTER_TI [Junpei]]
+[msg JUNPEI_PARTY_IN_AFTER_TI [Джунпей]]
 [s][bup 5 204 0 0]...Не ожидайте слишком многого.[n][w][e]
 ##-[s][bup 5 204 0 0]...Don't expect too much.[n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_AFTER_CO [Junpei]]
+[msg JUNPEI_PARTY_IN_AFTER_CO [Джунпей]]
 [s][bup 5 204 0 0]...Это не моя вина, если я потащу тебя[n]вниз.[n][w][e]
 ##-[s][bup 5 204 0 0]...It's not my fault if I drag you[n]down.[n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_NORMAL [Junpei]]
+[msg JUNPEI_PARTY_OUT_NORMAL [Джунпей]]
 [s][bup 5 201 0 0]Давайте начнем![n][w][e]
 ##-[s][bup 5 201 0 0]Let's get going![n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_BEST [Junpei]]
+[msg JUNPEI_PARTY_OUT_BEST [Джунпей]]
 [s][bup 5 202 0 0]Давайте сделаем это![n][w][e]
 ##-[s][bup 5 202 0 0]Let's do this![n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_TIRED [Junpei]]
+[msg JUNPEI_PARTY_OUT_TIRED [Джунпей]]
 [s][bup 5 204 0 0]Вообще-то, могу я остаться на сегодня?[n][w][e]
 ##-[s][bup 5 204 0 0]Actually, can I stay behind for today?[n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_COLD [Junpei]]
+[msg JUNPEI_PARTY_OUT_COLD [Джунпей]]
 [s][bup 5 204 0 0]Вообще-то, могу я остаться на сегодня?[n][w][e]
 ##-[s][bup 5 204 0 0]Actually, can I stay behind for today?[n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_AFTER_N [Junpei]]
+[msg JUNPEI_PARTY_OUT_AFTER_N [Джунпей]]
 [s][bup 5 201 0 0]...Хорошо.[n][w][e]
 ##-[s][bup 5 201 0 0]...Alright.[n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_AFTER_B [Junpei]]
+[msg JUNPEI_PARTY_OUT_AFTER_B [Джунпей]]
 [s][bup 5 205 0 0]Что?! Давай, чувак, возьми меня![n][w][e]
 ##-[s][bup 5 205 0 0]What!? Come on, dude, take me![n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_AFTER_T [Junpei]]
+[msg JUNPEI_PARTY_OUT_AFTER_T [Джунпей]]
 [s][bup 5 204 0 0]Спасибо...[n][w][e]
 ##-[s][bup 5 204 0 0]Thanks...[n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_AFTER_C [Junpei]]
+[msg JUNPEI_PARTY_OUT_AFTER_C [Джунпей]]
 [s][bup 5 204 0 0]...Хороший выбор.[n][w][e]
 ##-[s][bup 5 204 0 0]...Good choice.[n][w][e]-##
 
-[msg JUNPEI_PARTY_OVER [Junpei]]
-[s][bup 5 205 0 0]...Эй, у тебя уже целая вечеринка![n][w][e]
+[msg JUNPEI_PARTY_OVER [Джунпей]]
+[s][bup 5 205 0 0]...Эй, у тебя уже целая группа![n][w][e]
 ##-[s][bup 5 205 0 0]...Hey, you got a full party already![n][w][e]-##
 
-[msg JUNPEI_PARTY_CHANGE [Junpei]]
+[msg JUNPEI_PARTY_CHANGE [Джунпей]]
 [s][bup 5 201 0 0]С кем мне следует поменяться?[n][w][e]
 ##-[s][bup 5 201 0 0]Who should I switch with?[n][w][e]-##
 
-[msg JUNPEI_TUTORIAL_BEFORE [Junpei]]
+[msg JUNPEI_TUTORIAL_BEFORE [Джунпей]]
 [s][bup 5 203 0 0]Хорошо, давайте сделаем это![n][w][e]
 ##-[s][bup 5 203 0 0]Alright, let's do this![n][w][e]-##
 [s][bup 5 202 0 0]Я докажу, что я должен быть главным...[n][w][e]
 ##-[s][bup 5 202 0 0]I'll prove that I should be in charge...[n][w][e]-##
 
-[msg JUNPEI_TUTORIAL_AFTER [Junpei]]
+[msg JUNPEI_TUTORIAL_AFTER [Джунпей]]
 [s][bup 5 204 0 0]Чувак, я больше не могу этого выносить...[n][w][e]
 ##-[s][bup 5 204 0 0]Dude, I can't take it anymore...[n][w][e]-##
 [s]Я умираю с голоду...[n][w][e]
 ##-[s]I'm starving...[n][w][e]-##
 
-[msg HUKA_BACK_UP [Fuuka]]
-[s][bup 6 201 0 0]Я буду поддерживать вас всех отсюда. А[n]теперь, могу ли я что-нибудь для вас[n]сделать?[n][w][e]
+[msg HUKA_BACK_UP [Фука]]
+[s][bup 6 201 0 0]ЯЯ буду поддерживать вас всех отсюда. А[n]теперь, могу ли я что-нибудь для тебя[n]сделать?[n][w][e]
 ##-[s][bup 6 201 0 0]I'll support you all from here. Now,[n]is there anything I can do for you?[n][w][e]-##
 
-[msg HUKA_BACK_UP_RE [Fuuka]]
+[msg HUKA_BACK_UP_RE [Фука]]
 [s][bup 6 201 0 0]...Что-нибудь еще?[n][w][e]
 ##-[s][bup 6 201 0 0]...Anything else?[n][w][e]-##
 
-[msg HUKA_BAD_CONDITION_NUM [Fuuka]]
-[s][bup 6 201 0 0][f 2 4 0] члены партии плохо себя чувствуют...[n][w][e]
+[msg HUKA_BAD_CONDITION_NUM [Фука]]
+[s][bup 6 201 0 0][f 2 4 0] члены группы плохо себя чувствуют...[n][w][e]
 ##-[s][bup 6 201 0 0][f 2 4 0] party members are not feeling[n]well...[n][w][e]-##
 
-[msg HUKA_NO_MEMBER [Fuuka]]
+[msg HUKA_NO_MEMBER [Фука]]
 [s][bup 6 201 0 0]Все остальные уже ушли...[n][w][e]
 ##-[s][bup 6 201 0 0]Everyone else left already...[n][w][e]-##
 [s]Может, нам вернуться в общежитие?[n][w][e]
@@ -426,7 +426,7 @@
 [s]Я в любом случае в порядке, так что все[n]зависит от тебя.[n][w][e]
 ##-[s]I'm fine either way, so it's up to[n]you.[n][w][e]-##
 
-[msg HUKA_ANALYSIS_TIRED [Fuuka]]
+[msg HUKA_ANALYSIS_TIRED [Фука]]
 [s][bup 6 201 0 0]Эм... ты в порядке? Ты не очень хорошо[n]выглядишь.[n][w][e]
 ##-[s][bup 6 201 0 0]Um... Are you okay? You don't look so[n]good.[n][w][e]-##
 [s]Тебе следует отдыхать, когда ты плохо себя[n]чувствуешь.[n][w][e]
@@ -434,21 +434,21 @@
 [s]А теперь, могу ли я что-нибудь для тебя[n]сделать...?[n][w][e]
 ##-[s]Now, is there anything I can do for[n]you...?[n][w][e]-##
 
-[msg HUKA_ANALYSIS [Fuuka]]
+[msg HUKA_ANALYSIS [Фука]]
 [s][bup 6 201 0 0]Вы исследовали [f 2 4 0] уровни в этой башне...[n][w][e]
 ##-[s][bup 6 201 0 0]You've explored [f 2 4 0] levels in this[n]tower...[n][w][e]-##
 
-[msg HUKA_ANALYSIS_GO [Fuuka]]
+[msg HUKA_ANALYSIS_GO [Фука]]
 [s][bup 6 201 0 0]Постарайтесь исследовать как можно больше[n]Тартара.[n][w][e]
 ##-[s][bup 6 201 0 0]Try to explore as much of Tartarus as[n]you can.[n][w][e]-##
 
-[msg HUKA_ANALYSIS_STOP [Fuuka]]
+[msg HUKA_ANALYSIS_STOP [Фука]]
 [s][bup 6 201 0 0]Ты не можешь идти дальше прямо сейчас, так[n]что сейчас самое подходящее время[n]остановиться.[n][w][e]
 ##-[s][bup 6 201 0 0]You can't go any further right now,[n]so this is a good time to stop.[n][w][e]-##
 [s]Спасибо за вашу тяжелую работу.[n][w][e]
 ##-[s]Thanks for your hard work.[n][w][e]-##
 
-[msg HUKA_ANALYSIS_STOP_4TH_E [Fuuka]]
+[msg HUKA_ANALYSIS_STOP_4TH_E [Фука]]
 [s][bup 6 201 0 0]Мы достигли вершины этой зоны, но...[n][w][e]
 ##-[s][bup 6 201 0 0]We've reached the top of this zone,[n]but...[n][w][e]-##
 [s]...мы до сих пор не нашли никаких улик.[n][w][e]
@@ -456,386 +456,386 @@
 [s]Действительно ли ответ здесь...?[n][w][e]
 ##-[s]Is the answer really here...?[n][w][e]-##
 
-[msg HUKA_ANALYSIS_STOP_5TH_E [Fuuka]]
+[msg HUKA_ANALYSIS_STOP_5TH_E [Фука]]
 [s][bup 6 201 0 0]Мы достигли вершины этой зоны, но я думаю,[n]что вы можете продолжать подниматься...[n][w][e]
 ##-[s][bup 6 201 0 0]We've reached the top of this zone,[n]but I think you can keep going up...[n][w][e]-##
 [s]Интересно, что там наверху?..[n][w][e]
 ##-[s]What is up there, I wonder...?[n][w][e]-##
 
-[msg HUKA_ANALYSIS_STOP_LAST [Fuuka]]
+[msg HUKA_ANALYSIS_STOP_LAST [Фука]]
 [s][bup 6 201 0 0]Я боюсь, что это все, что вы можете сделать[n]прямо сейчас...[n][w][e]
 ##-[s][bup 6 201 0 0]I'm afraid this is as far as you can[n]go right now...[n][w][e]-##
 [s]Нам просто придется подождать до 31 января.[n][w][e]
 ##-[s]We'll just have to wait until[n]January 31.[n][w][e]-##
 
-[msg SANADA_PARTY_IN_NORMAL [Akihiko]]
+[msg SANADA_PARTY_IN_NORMAL [Акихико]]
 [s][bup 7 201 0 0]Пойдем.[n][w][e]
 ##-[s][bup 7 201 0 0]Let's go.[n][w][e]-##
 
-[msg SANADA_PARTY_IN_BEST [Akihiko]]
+[msg SANADA_PARTY_IN_BEST [Акихико]]
 [s][bup 7 202 0 0]Сегодня я чувствую себя хорошо.[n][w][e]
 ##-[s][bup 7 202 0 0]I feel good today.[n][w][e]-##
 
-[msg SANADA_PARTY_IN_TIRED [Akihiko]]
+[msg SANADA_PARTY_IN_TIRED [Акихико]]
 [s][bup 7 204 0 0]По какой-то причине я чувствую усталость...[n][w][e]
 ##-[s][bup 7 204 0 0]For some reason, I feel tired...[n][w][e]-##
 
-[msg SANADA_PARTY_IN_COLD [Akihiko]]
+[msg SANADA_PARTY_IN_COLD [Акихико]]
 [s][bup 7 204 0 0]К сожалению, я болен...[n][w][e]
 ##-[s][bup 7 204 0 0]Unfortunately, I'm sick...[n][w][e]-##
 
-[msg SANADA_PARTY_IN_AFTER_NO [Akihiko]]
+[msg SANADA_PARTY_IN_AFTER_NO [Акихико]]
 [s][bup 7 209 0 0][f 3 1 3 0 6 305]Хех. Давайте начнем![n][w][e]
 ##-[s][bup 7 209 0 0][f 3 1 3 0 6 305]Heh. Let's get going![n][w][e]-##
 
-[msg SANADA_PARTY_IN_AFTER_BE [Akihiko]]
+[msg SANADA_PARTY_IN_AFTER_BE [Акихико]]
 [s][bup 7 209 0 0][f 3 1 3 0 6 305]Хех. Давайте начнем![n][w][e]
 ##-[s][bup 7 209 0 0][f 3 1 3 0 6 305]Heh. Let's get going![n][w][e]-##
 
-[msg SANADA_PARTY_IN_AFTER_TI [Akihiko]]
+[msg SANADA_PARTY_IN_AFTER_TI [Акихико]]
 [s][bup 7 204 0 0]Я постараюсь постоять за себя.[n][w][e]
 ##-[s][bup 7 204 0 0]I'll try to hold my own.[n][w][e]-##
 
-[msg SANADA_PARTY_IN_AFTER_CO [Akihiko]]
+[msg SANADA_PARTY_IN_AFTER_CO [Акихико]]
 [s][bup 7 204 0 0]Я думаю, мне лучше отдохнуть, но если ты[n]настаиваешь...[n][w][e]
 ##-[s][bup 7 204 0 0]I think it's better for me to rest,[n]but if you insist...[n][w][e]-##
 
-[msg SANADA_PARTY_OUT_NORMAL [Akihiko]]
+[msg SANADA_PARTY_OUT_NORMAL [Акихико]]
 [s][bup 7 201 0 0]Давайте начнем.[n][w][e]
 ##-[s][bup 7 201 0 0]Let's get going.[n][w][e]-##
 
-[msg SANADA_PARTY_OUT_BEST [Akihiko]]
+[msg SANADA_PARTY_OUT_BEST [Акихико]]
 [s][bup 7 201 0 0]Давайте начнем![n][w][e]
 ##-[s][bup 7 201 0 0]Let's get going![n][w][e]-##
 
-[msg SANADA_PARTY_OUT_TIRED [Akihiko]]
+[msg SANADA_PARTY_OUT_TIRED [Акихико]]
 [s][bup 7 204 0 0]Вообще-то, я не думаю, что мне стоит идти[n]сегодня...[n][w][e]
 ##-[s][bup 7 204 0 0]Actually, I don't think I should go[n]today...[n][w][e]-##
 
-[msg SANADA_PARTY_OUT_COLD [Akihiko]]
+[msg SANADA_PARTY_OUT_COLD [Акихико]]
 [s][bup 7 204 0 0]Вообще-то, я не думаю, что мне стоит идти[n]сегодня...[n][w][e]
 ##-[s][bup 7 204 0 0]Actually, I don't think I should go[n]today...[n][w][e]-##
 
-[msg SANADA_PARTY_OUT_AFTER_N [Akihiko]]
+[msg SANADA_PARTY_OUT_AFTER_N [Акихико]]
 [s][bup 7 201 0 0]...Хорошо.[n][w][e]
 ##-[s][bup 7 201 0 0]...Alright.[n][w][e]-##
 
-[msg SANADA_PARTY_OUT_AFTER_B [Akihiko]]
+[msg SANADA_PARTY_OUT_AFTER_B [Акихико]]
 [s][bup 7 203 0 0]А как же я?[n][w][e]
 ##-[s][bup 7 203 0 0]What about me?[n][w][e]-##
 
-[msg SANADA_PARTY_OUT_AFTER_T [Akihiko]]
+[msg SANADA_PARTY_OUT_AFTER_T [Акихико]]
 [s][bup 7 204 0 0]Хорошо, я останусь здесь...[n][w][e]
 ##-[s][bup 7 204 0 0]Okay, I'll stay here...[n][w][e]-##
 
-[msg SANADA_PARTY_OUT_AFTER_C [Akihiko]]
+[msg SANADA_PARTY_OUT_AFTER_C [Акихико]]
 [s][bup 7 204 0 0]Это хорошая идея...[n][w][e]
 ##-[s][bup 7 204 0 0]That's a good idea...[n][w][e]-##
 
-[msg SANADA_PARTY_OVER [Akihiko]]
-[s][bup 7 201 0 0]Вечеринка переполнена, так что...[n][w][e]
+[msg SANADA_PARTY_OVER [Акихико]]
+[s][bup 7 201 0 0]группа переполнена, так что...[n][w][e]
 ##-[s][bup 7 201 0 0]The party is full, so...[n][w][e]-##
 
-[msg SANADA_PARTY_CHANGE [Akihiko]]
+[msg SANADA_PARTY_CHANGE [Акихико]]
 [s][bup 7 201 0 0]Кого ты хочешь, чтобы я заменил?[n][w][e]
 ##-[s][bup 7 201 0 0]Who do you want me to replace?[n][w][e]-##
 
-[msg SANADA_TUTORIAL_BEFORE [Akihiko]]
-[s][bup 7 201 0 0]Поскольку у Юкари и Дзюнпея нет реального[n]опыта в бою, убедитесь, что вы[n]поддерживаете их.[n][w][e]
+[msg SANADA_TUTORIAL_BEFORE [Акихико]]
+[s][bup 7 201 0 0]Поскольку у Юкари и Джунпея нет реального[n]опыта в бою, убедитесь, что вы[n]поддерживаете их.[n][w][e]
 ##-[s][bup 7 201 0 0]Since Yukari and Junpei have no real[n]experience in battle, make sure you[n]back them up.[n][w][e]-##
 
-[msg SANADA_TUTORIAL_AFTER [Akihiko]]
+[msg SANADA_TUTORIAL_AFTER [Акихико]]
 [s][bup 7 201 0 0]Вы, ребята, проделали отличную работу, но[n]вам не придется вечно нести это бремя...[n][w][e]
 ##-[s][bup 7 201 0 0]You guys did a great job, but you[n]won't have to shoulder the burden[n]forever...[n][w][e]-##
 [s][bup 7 204 0 0]Тч! Если бы только я не получил травму...[n][w][e]
 ##-[s][bup 7 204 0 0]Tch! If only I hadn't gotten injured...[n][w][e]-##
 
-[msg AMADA_PARTY_IN_NORMAL [Ken]]
+[msg AMADA_PARTY_IN_NORMAL [Кен]]
 [s][bup 8 201 0 0]Пожалуйста, возьми меня с собой![n][w][e]
 ##-[s][bup 8 201 0 0]Please take me with you![n][w][e]-##
 
-[msg AMADA_PARTY_IN_BEST [Ken]]
+[msg AMADA_PARTY_IN_BEST [Кен]]
 [s][bup 8 202 0 0]Я сейчас прекрасно себя чувствую![n][w][e]
 ##-[s][bup 8 202 0 0]I'm feeling great right now![n][w][e]-##
 
-[msg AMADA_PARTY_IN_TIRED [Ken]]
+[msg AMADA_PARTY_IN_TIRED [Кен]]
 [s][bup 8 204 0 0]Извини, я немного устал...[n][w][e]
 ##-[s][bup 8 204 0 0]Sorry, I'm kind of tired...[n][w][e]-##
 
-[msg AMADA_PARTY_IN_COLD [Ken]]
+[msg AMADA_PARTY_IN_COLD [Кен]]
 [s][bup 8 204 0 0]Я болен...[n][w][e]
 ##-[s][bup 8 204 0 0]I'm sick...[n][w][e]-##
 
-[msg AMADA_PARTY_IN_AFTER_NOR [Ken]]
+[msg AMADA_PARTY_IN_AFTER_NOR [Кен]]
 [s][bup 8 202 0 0][f 3 1 3 0 6 307]Ладно! Я сделаю все, что в моих силах![n][w][e]
 ##-[s][bup 8 202 0 0][f 3 1 3 0 6 307]Okay! I'll do my best![n][w][e]-##
 
-[msg AMADA_PARTY_IN_AFTER_BES [Ken]]
+[msg AMADA_PARTY_IN_AFTER_BES [Кен]]
 [s][bup 8 202 0 0][f 3 1 3 0 6 307]Ладно! Я сделаю все, что в моих силах![n][w][e]
 ##-[s][bup 8 202 0 0][f 3 1 3 0 6 307]Okay! I'll do my best![n][w][e]-##
 
-[msg AMADA_PARTY_IN_AFTER_TIR [Ken]]
+[msg AMADA_PARTY_IN_AFTER_TIR [Кен]]
 [s][bup 8 204 0 0]...Думаю, у меня нет выбора.[n][w][e]
 ##-[s][bup 8 204 0 0]...I guess I have no choice.[n][w][e]-##
 
-[msg AMADA_PARTY_IN_AFTER_COL [Ken]]
+[msg AMADA_PARTY_IN_AFTER_COL [Кен]]
 [s][bup 8 204 0 0]Если ты так говоришь... Но я могу быть[n]обузой...[n][w][e]
 ##-[s][bup 8 204 0 0]If you say so... But, I might be[n]a burden...[n][w][e]-##
 
-[msg AMADA_PARTY_OUT_NORMAL [Ken]]
+[msg AMADA_PARTY_OUT_NORMAL [Кен]]
 [s][bup 8 201 0 0]Поехали![n][w][e]
 ##-[s][bup 8 201 0 0]Let's go![n][w][e]-##
 
-[msg AMADA_PARTY_OUT_BEST [Ken]]
+[msg AMADA_PARTY_OUT_BEST [Кен]]
 [s][bup 8 202 0 0]Чего ты ждешь?[n][w][e]
 ##-[s][bup 8 202 0 0]What are you waiting for?[n][w][e]-##
 
-[msg AMADA_PARTY_OUT_TIRED [Ken]]
-[s][bup 8 204 0 0]Сегодня я чувствую себя измученной.[n][w][e]
+[msg AMADA_PARTY_OUT_TIRED [Кен]]
+[s][bup 8 204 0 0]Сегодня я чувствую себя измученным.[n][w][e]
 ##-[s][bup 8 204 0 0]I feel exhausted today.[n][w][e]-##
 
-[msg AMADA_PARTY_OUT_COLD [Ken]]
-[s][bup 8 204 0 0]Сегодня я чувствую себя измученной.[n][w][e]
+[msg AMADA_PARTY_OUT_COLD [Кен]]
+[s][bup 8 204 0 0]Сегодня я чувствую себя измученным.[n][w][e]
 ##-[s][bup 8 204 0 0]I feel exhausted today.[n][w][e]-##
 
-[msg AMADA_PARTY_OUT_AFTER_NO [Ken]]
+[msg AMADA_PARTY_OUT_AFTER_NO [Кен]]
 [s][bup 8 201 0 0]...Хорошо.[n][w][e]
 ##-[s][bup 8 201 0 0]...Okay.[n][w][e]-##
 
-[msg AMADA_PARTY_OUT_AFTER_BE [Ken]]
+[msg AMADA_PARTY_OUT_AFTER_BE [Кен]]
 [s][bup 8 204 0 0]Эй! А как же я?![n][w][e]
 ##-[s][bup 8 204 0 0]Hey! What about me!?[n][w][e]-##
 
-[msg AMADA_PARTY_OUT_AFTER_TI [Ken]]
+[msg AMADA_PARTY_OUT_AFTER_TI [Кен]]
 [s][bup 8 204 0 0]Извини, если я тебя подвел...[n][w][e]
 ##-[s][bup 8 204 0 0]Sorry if I let you down...[n][w][e]-##
 
-[msg AMADA_PARTY_OUT_AFTER_CO [Ken]]
+[msg AMADA_PARTY_OUT_AFTER_CO [Кен]]
 [s][bup 8 204 0 0]...Я останусь здесь и отдохну.[n][w][e]
 ##-[s][bup 8 204 0 0]...I'll stay here and rest.[n][w][e]-##
 
-[msg AMADA_PARTY_OVER [Ken]]
-[s][bup 8 202 0 0]...Ваша вечеринка уже переполнена.[n][w][e]
+[msg AMADA_PARTY_OVER [Кен]]
+[s][bup 8 202 0 0]...Ваша группа уже переполнена.[n][w][e]
 ##-[s][bup 8 202 0 0]...Your party is already full.[n][w][e]-##
 
-[msg AMADA_PARTY_CHANGE [Ken]]
+[msg AMADA_PARTY_CHANGE [Кен]]
 [s][bup 8 201 0 0]С кем мне следует поменяться?[n][w][e]
 ##-[s][bup 8 201 0 0]Who should I change with?[n][w][e]-##
 
-[msg ARAGAKI_PARTY_IN_NORMAL [Shinjiro]]
+[msg ARAGAKI_PARTY_IN_NORMAL [Шинджиро]]
 [s][bup 9 201 0 0]...Ты готов?[n][w][e]
 ##-[s][bup 9 201 0 0]...You ready?[n][w][e]-##
 
-[msg ARAGAKI_PARTY_IN_BEST [Shinjiro]]
+[msg ARAGAKI_PARTY_IN_BEST [Шинджиро]]
 [s][bup 9 201 0 0]Я готов.[n][w][e]
 ##-[s][bup 9 201 0 0]I'm ready.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_IN_TIRED [Shinjiro]]
+[msg ARAGAKI_PARTY_IN_TIRED [Шинджиро]]
 [s][bup 9 201 0 0]...Я устал, но все еще могу идти.[n][w][e]
 ##-[s][bup 9 201 0 0]...I'm tired, but I can still go.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_IN_COLD [Shinjiro]]
+[msg ARAGAKI_PARTY_IN_COLD [Шинджиро]]
 [s][bup 9 201 0 0]...Я думаю, что сегодня мне следует[n]остаться.[n][w][e]
 ##-[s][bup 9 201 0 0]...I think I should stay behind today.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_IN_AFTER_N [Shinjiro]]
+[msg ARAGAKI_PARTY_IN_AFTER_N [Шинджиро]]
 [s][bup 9 201 0 0][f 3 1 3 0 6 301]Все в порядке... Считай меня.[n][w][e]
 ##-[s][bup 9 201 0 0][f 3 1 3 0 6 301]All right... Count me in.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_IN_AFTER_B [Shinjiro]]
+[msg ARAGAKI_PARTY_IN_AFTER_B [Шинджиро]]
 [s][bup 9 201 0 0][f 3 1 3 0 6 301]Все в порядке... Считай меня.[n][w][e]
 ##-[s][bup 9 201 0 0][f 3 1 3 0 6 301]All right... Count me in.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_IN_AFTER_T [Shinjiro]]
+[msg ARAGAKI_PARTY_IN_AFTER_T [Шинджиро]]
 [s][bup 9 201 0 0]...Я сделаю все, что смогу.[n][w][e]
 ##-[s][bup 9 201 0 0]...I'll do what I can.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_IN_AFTER_C [Shinjiro]]
+[msg ARAGAKI_PARTY_IN_AFTER_C [Шинджиро]]
 [s][bup 9 201 0 0]...Я просто собираюсь утащить тебя вниз.[n][w][e]
 ##-[s][bup 9 201 0 0]...I'm just gonna drag you down.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_OUT_NORMAL [Shinjiro]]
+[msg ARAGAKI_PARTY_OUT_NORMAL [Шинджиро]]
 [s][bup 9 201 0 0]...В чем задержка?[n][w][e]
 ##-[s][bup 9 201 0 0]...What's the hold up?[n][w][e]-##
 
-[msg ARAGAKI_PARTY_OUT_BEST [Shinjiro]]
+[msg ARAGAKI_PARTY_OUT_BEST [Шинджиро]]
 [s][bup 9 201 0 0]Пойдем.[n][w][e]
 ##-[s][bup 9 201 0 0]Let's go.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_OUT_TIRED [Shinjiro]]
+[msg ARAGAKI_PARTY_OUT_TIRED [Шинджиро]]
 [s][bup 9 201 0 0]...Я плохо себя чувствую.[n][w][e]
 ##-[s][bup 9 201 0 0]...I don't feel well.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_OUT_COLD [Shinjiro]]
+[msg ARAGAKI_PARTY_OUT_COLD [Шинджиро]]
 [s][bup 9 201 0 0]...Я плохо себя чувствую.[n][w][e]
 ##-[s][bup 9 201 0 0]...I don't feel well.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_OUT_AFTER_ [Shinjiro]]
+[msg ARAGAKI_PARTY_OUT_AFTER_ [Шинджиро]]
 [s][bup 9 201 0 0]...Хорошо.[n][w][e]
 ##-[s][bup 9 201 0 0]...Alright.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_OUT_AFTER__2 [Shinjiro]]
+[msg ARAGAKI_PARTY_OUT_AFTER__2 [Шинджиро]]
 [s][bup 9 201 0 0]Ты что, издеваешься надо мной? Ты[n]оставляешь меня позади?[n][w][e]
 ##-[s][bup 9 201 0 0]Are you kidding me? You're leaving me[n]behind?[n][w][e]-##
 
-[msg ARAGAKI_PARTY_OUT_AFTER__3 [Shinjiro]]
+[msg ARAGAKI_PARTY_OUT_AFTER__3 [Шинджиро]]
 [s][bup 9 201 0 0]Я останусь и отдохну.[n][w][e]
 ##-[s][bup 9 201 0 0]I'll stay and rest.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_OUT_AFTER__4 [Shinjiro]]
+[msg ARAGAKI_PARTY_OUT_AFTER__4 [Шинджиро]]
 [s][bup 9 201 0 0]Я останусь и отдохну.[n][w][e]
 ##-[s][bup 9 201 0 0]I'll stay and rest.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_OVER [Shinjiro]]
-[s][bup 9 201 0 0]...Эй, вечеринка переполнена.[n][w][e]
+[msg ARAGAKI_PARTY_OVER [Шинджиро]]
+[s][bup 9 201 0 0]...Эй, группа переполнена.[n][w][e]
 ##-[s][bup 9 201 0 0]...Hey, the party's full.[n][w][e]-##
 
-[msg ARAGAKI_PARTY_CHANGE [Shinjiro]]
+[msg ARAGAKI_PARTY_CHANGE [Шинджиро]]
 [s][bup 9 201 0 0]...Чье место я занимаю?[n][w][e]
 ##-[s][bup 9 201 0 0]...Whose place am I taking?[n][w][e]-##
 
-[msg KOROMARU_PARTY_IN_NORMAL [Koromaru]]
+[msg KOROMARU_PARTY_IN_NORMAL [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_IN_BEST [Koromaru]]
+[msg KOROMARU_PARTY_IN_BEST [Коромару]]
 [s][bup 10 201 0 0]Гав, гав, гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof, woof, woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_IN_TIRED [Koromaru]]
+[msg KOROMARU_PARTY_IN_TIRED [Коромару]]
 [s][bup 10 204 0 0]*тяжело дышать * *тяжело дышать*[n][w][e]
 ##-[s][bup 10 204 0 0]*pant* *pant*[n][w][e]-##
 [s][f 4 7 0 0 0]> У Коромару пересохло в носу.[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> Koromaru's nose is dry.[n][f 1 4][e]-##
 
-[msg KOROMARU_PARTY_IN_COLD [Koromaru]]
+[msg KOROMARU_PARTY_IN_COLD [Коромару]]
 [s][bup 10 204 0 0]*тяжело дышать * *тяжело дышать * *шмыгать[n]носом*[n][w][e]
 ##-[s][bup 10 204 0 0]*pant* *pant* *sniff*[n][w][e]-##
 [s][f 4 7 0 0 0]> У Коромару насморк.[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> Koromaru has a runny nose.[n][f 1 4][e]-##
 
-[msg KOROMARU_PARTY_IN_AFTER_ [Koromaru]]
+[msg KOROMARU_PARTY_IN_AFTER_ [Коромару]]
 [s][bup 10 201 0 0][f 3 1 3 0 6 199]Гав, гав![n][w][e]
 ##-[s][bup 10 201 0 0][f 3 1 3 0 6 199]Woof, woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_IN_AFTER__2 [Koromaru]]
+[msg KOROMARU_PARTY_IN_AFTER__2 [Коромару]]
 [s][bup 10 201 0 0][f 3 1 3 0 6 199]Гав, гав, гав![n][w][e]
 ##-[s][bup 10 201 0 0][f 3 1 3 0 6 199]Woof, woof, woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_IN_AFTER__3 [Koromaru]]
+[msg KOROMARU_PARTY_IN_AFTER__3 [Коромару]]
 [s][bup 10 204 0 0]* хныкать*[n][w][e]
 ##-[s][bup 10 204 0 0]*whimper*[n][w][e]-##
 
-[msg KOROMARU_PARTY_IN_AFTER__4 [Koromaru]]
-[s][bup 10 204 0 0]* хныкать*[n][w][e]
+[msg KOROMARU_PARTY_IN_AFTER__4 [Коромару]]
+[s][bup 10 204 0 0]* я заебался сука*[n][w][e]
 ##-[s][bup 10 204 0 0]*whimper*[n][w][e]-##
 
-[msg KOROMARU_PARTY_OUT_NORMA [Koromaru]]
+[msg KOROMARU_PARTY_OUT_NORMA [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_OUT_BEST [Koromaru]]
+[msg KOROMARU_PARTY_OUT_BEST [Коромару]]
 [s][bup 10 201 0 0]Гав, гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof, woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_OUT_TIRED [Koromaru]]
+[msg KOROMARU_PARTY_OUT_TIRED [Коромару]]
 [s][bup 10 204 0 0]* хныкать*[n][w][e]
 ##-[s][bup 10 204 0 0]*whimper*[n][w][e]-##
 
-[msg KOROMARU_PARTY_OUT_COLD [Koromaru]]
+[msg KOROMARU_PARTY_OUT_COLD [Коромару]]
 [s][bup 10 204 0 0]...Гав.[n][w][e]
 ##-[s][bup 10 204 0 0]...Woof.[n][w][e]-##
 
-[msg KOROMARU_PARTY_OUT_AFTER [Koromaru]]
+[msg KOROMARU_PARTY_OUT_AFTER [Коромару]]
 [s][bup 10 204 0 0]* хныкать*[n][w][e]
 ##-[s][bup 10 204 0 0]*whimper*[n][w][e]-##
 
-[msg KOROMARU_PARTY_OUT_AFTER_2 [Koromaru]]
+[msg KOROMARU_PARTY_OUT_AFTER_2 [Коромару]]
 [s][bup 10 204 0 0]* хныкать*[n][w][e]
 ##-[s][bup 10 204 0 0]*whimper*[n][w][e]-##
 
-[msg KOROMARU_PARTY_OUT_AFTER_3 [Koromaru]]
+[msg KOROMARU_PARTY_OUT_AFTER_3 [Коромару]]
 [s][bup 10 204 0 0]...Гав.[n][w][e]
 ##-[s][bup 10 204 0 0]...Woof.[n][w][e]-##
 
-[msg KOROMARU_PARTY_OUT_AFTER_4 [Koromaru]]
+[msg KOROMARU_PARTY_OUT_AFTER_4 [Коромару]]
 [s][bup 10 204 0 0]...Гав.[n][w][e]
 ##-[s][bup 10 204 0 0]...Woof.[n][w][e]-##
 
-[msg KOROMARU_PARTY_OVER [Koromaru]]
+[msg KOROMARU_PARTY_OVER [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_CHANGE [Koromaru]]
+[msg KOROMARU_PARTY_CHANGE [Коромару]]
 [s][bup 10 201 0 0]Гав, гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof, woof![n][w][e]-##
 
-[msg YUKARI_EQUIP_TRANSFER [Yukari]]
+[msg YUKARI_EQUIP_TRANSFER [Юкари]]
 [s][bup 2 202 0 0]Для меня? Спасибо![n][w][e]
 ##-[s][bup 2 202 0 0]For me? Thanks![n][w][e]-##
 
-[msg AEGIS_EQUIP_TRANSFER [Aigis]]
+[msg AEGIS_EQUIP_TRANSFER [Айгис]]
 [s][bup 3 202 0 0]Для меня? Спасибо.[n][w][e]
 ##-[s][bup 3 202 0 0]For me? Thank you.[n][w][e]-##
 
-[msg MITSURU_EQUIP_TRANSFER [Mitsuru]]
+[msg MITSURU_EQUIP_TRANSFER [Мицуру]]
 [s][bup 4 202 0 0]Спасибо.[n][w][e]
 ##-[s][bup 4 202 0 0]Thank you.[n][w][e]-##
 
-[msg JUNPEI_EQUIP_TRANSFER [Junpei]]
-[s][bup 5 202 0 0]Сладкий. Я твой должник.[n][w][e]
+[msg JUNPEI_EQUIP_TRANSFER [Джунпей]]
+[s][bup 5 202 0 0]Приятно. Я твой должник.[n][w][e]
 ##-[s][bup 5 202 0 0]Sweet. I owe ya one.[n][w][e]-##
 
-[msg SANADA_EQUIP_TRANSFER [Akihiko]]
+[msg SANADA_EQUIP_TRANSFER [Акихико]]
 [s][bup 7 202 0 0]Спасибо. Я найду этому хорошее применение.[n][w][e]
 ##-[s][bup 7 202 0 0]Thanks. I'll make good use of it.[n][w][e]-##
 
-[msg AMADA_EQUIP_TRANSFER [Ken]]
+[msg AMADA_EQUIP_TRANSFER [Кен]]
 [s][bup 8 202 0 0]Вау, это потрясающе![n][w][e]
 ##-[s][bup 8 202 0 0]Wow, this is awesome![n][w][e]-##
 
-[msg ARAGAKI_EQUIP_TRANSFER [Shinjiro]]
+[msg ARAGAKI_EQUIP_TRANSFER [Шинджиро]]
 [s][bup 9 201 0 0]...Спасибо.[n][w][e]
 ##-[s][bup 9 201 0 0]...Thanks.[n][w][e]-##
 
-[msg KOROMARU_EQUIP_TRANSFER [Koromaru]]
+[msg KOROMARU_EQUIP_TRANSFER [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
 [s][f 4 7 0 0 0]> Коромару кажется счастливым.[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> Koromaru seems happy.[n][f 1 4][e]-##
 
-[msg YUKARI_GRADE_UP [Yukari]]
-[s][bup 2 201 0 0]Просто чтобы ты знал, я сменил свое[n]оборудование.[n][w][e]
+[msg YUKARI_GRADE_UP [Юкари]]
+[s][bup 2 201 0 0]Просто чтобы ты знал, я сменила свое[n]снаряжение.[n][w][e]
 ##-[s][bup 2 201 0 0]Just so you know, I changed my[n]equipment.[n][w][e]-##
 
-[msg AEGIS_GRADE_UP [Aigis]]
-[s][bup 3 201 0 0]Я сменил свое снаряжение. Я подумал, что ты[n]захочешь знать.[n][w][e]
+[msg AEGIS_GRADE_UP [Айгис]]
+[s][bup 3 201 0 0]Я сменила свое снаряжение. Я подумал, что ты[n]захочешь знать.[n][w][e]
 ##-[s][bup 3 201 0 0]I have changed my equipment.[n]I thought you'd like to know.[n][w][e]-##
 
-[msg MITSURU_GRADE_UP [Mitsuru]]
-[s][bup 4 201 0 0]Просто, чтобы вы знали, я сменил свое[n]оборудование.[n][w][e]
+[msg MITSURU_GRADE_UP [Мицуру]]
+[s][bup 4 201 0 0]Просто, чтобы вы знали, я сменила свое[n]снаряжение.[n][w][e]
 ##-[s][bup 4 201 0 0]Just so you are aware, I have changed[n]my equipment.[n][w][e]-##
 
-[msg JUNPEI_GRADE_UP [Junpei]]
-[s][bup 5 201 0 0]К твоему СВЕДЕНИЮ - я сменил свое[n]оборудование.[n][w][e]
+[msg JUNPEI_GRADE_UP [Джунпей]]
+[s][bup 5 201 0 0]К твоему СВЕДЕНИЮ - я сменил свое[n]снаряжение.[n][w][e]
 ##-[s][bup 5 201 0 0]FYI--I changed my equipment.[n][w][e]-##
 
-[msg SANADA_GRADE_UP [Akihiko]]
-[s][bup 7 201 0 0]Эй, я сменил свое оборудование, если тебе[n]интересно.[n][w][e]
+[msg SANADA_GRADE_UP [Акихико]]
+[s][bup 7 201 0 0]Эй, я сменил свое снаряжение, если тебе[n]интересно.[n][w][e]
 ##-[s][bup 7 201 0 0]Hey, I changed my equipment,[n]if you were wondering.[n][w][e]-##
 
-[msg AMADA_GRADE_UP [Ken]]
-[s][bup 8 201 0 0]Я сменил свое оборудование, хорошо?[n][w][e]
+[msg AMADA_GRADE_UP [Кен]]
+[s][bup 8 201 0 0]Я сменил свое снаряжение, хорошо?[n][w][e]
 ##-[s][bup 8 201 0 0]I changed my equipment, okay?[n][w][e]-##
 
-[msg ARAGAKI_GRADE_UP [Shinjiro]]
+[msg ARAGAKI_GRADE_UP [Шинджиро]]
 [s][bup 9 201 0 0]...Я сменил свое снаряжение.[n][w][e]
 ##-[s][bup 9 201 0 0]...I changed my equipment.[n][w][e]-##
 
-[msg KOROMARU_GRADE_UP [Koromaru]]
+[msg KOROMARU_GRADE_UP [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
-[s][f 4 7 0 0 0]> Оборудование Коромару было изменено.[n][f 1 4][e]
+[s][f 4 7 0 0 0]> снаряжение Коромару было изменено.[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> Koromaru's equipment has been[n]changed.[n][f 1 4][e]-##
 
 [msg YUKARI_EQUIP_REACTION [係黍 ゆЗり]]
@@ -876,7 +876,7 @@
 [s]、БЕ、ЫУк我伍国БщЧ。 ИЫЛ裁ЙщХ。[n][w][e]
 ##-[s]あ、БЕ、わЫУк我伍国БщЧんよ。[n]ありИЫЛ裁ЙщХ。[n][w][e]-##
 
-[msg MITSURU_EQUIP_REACTION [Mitsuru]]
+[msg MITSURU_EQUIP_REACTION [Мицуру]]
 [s][bup 4 207 0 0]…!![n][w][e]
 ##-[s][bup 4 207 0 0]…!![n][w][e]-##
 [s]……。[n][w][e]
@@ -884,7 +884,7 @@
 [s]Б、ББС、稲НГФюёБЗ。 ПэщЫ箇БЪ。[n][w][e]
 ##-[s]Б、ББС、稲НよГФюёБЗ。[n]ПれэщЫ箇БЪ。[n][w][e]-##
 
-[msg MITSURU_EQUIP_SP_REACTIO [Mitsuru]]
+[msg MITSURU_EQUIP_SP_REACTIO [Мицуру]]
 [s][bup 4 201 0 0]…ПИеГУЫ?[n][w][e]
 ##-[s][bup 4 201 0 0]ん…ПれИеГУЫ?[n][w][e]-##
 [s][bup 4 207 0 0]…!? щ、щСЗ、梧И稲йЗ!?[n][w][e]
@@ -910,7 +910,7 @@
 [s]яфЕ、яУЗиЕ…[n][w][e]
 ##-[s]яфЕ、яるУЗиЕ…[n][w][e]-##
 
-[msg SANADA_EQUIP_REACTION [Akihiko]]
+[msg SANADA_EQUIP_REACTION [Акихико]]
 [s][bup 7 205 0 0]ПЯ、Пк…[n][w][e]
 ##-[s][bup 7 205 0 0]ПЯ、Пれк…[n][w][e]-##
 [s][bup 7 208 0 0]フッ…ЩГЗ。 丑茅УвБワケЗ。[n][w][e]
@@ -918,7 +918,7 @@
 [s][bup 7 201 0 0]鵜窺ЪЯЫё。 凶季йЫъж、丑к在Ц稲鉛Х…![n][w][e]
 ##-[s][bup 7 201 0 0]鵜窺ЪЯЫё。[n]凶季йЫъж、丑к在わЦ稲鉛Хる…![n][w][e]-##
 
-[msg SANADA_EQUIP_SP_REACTION [Akihiko]]
+[msg SANADA_EQUIP_SP_REACTION [Акихико]]
 [s][bup 7 205 0 0]…? ёШ蛙稲ёЪ?[n][w][e]
 ##-[s][bup 7 205 0 0]ん…?[n]ёШ蛙稲ёんЪ?[n][w][e]-##
 [s][bup 7 209 0 0]щ、稲дБГё芋ж国。 ボクシングйスタイルд医材栄БУё。[n][w][e]
@@ -960,38 +960,38 @@
 [s]П稲Ыщщ、ШЯвД臥ииЕЪ…[n][w][e]
 ##-[s]Пれ稲Ыщщ、ШЯвД臥ииЕЪろ…[n][w][e]-##
 
-[msg YUKARI_GRADE_UP_TRANSFER [Yukari]]
+[msg YUKARI_GRADE_UP_TRANSFER [Юкари]]
 [s][bup 2 201 0 0]Вот, я возвращаю это.[n][w][e]
 ##-[s][bup 2 201 0 0]Here, I'm returning this.[n][w][e]-##
 
-[msg AEGIS_GRADE_UP_TRANSFER [Aigis]]
+[msg AEGIS_GRADE_UP_TRANSFER [Айгис]]
 [s][bup 3 201 0 0]Вот, это принадлежит тебе.[n][w][e]
 ##-[s][bup 3 201 0 0]Here, this belongs to you.[n][w][e]-##
 
-[msg MITSURU_GRADE_UP_TRANSFE [Mitsuru]]
+[msg MITSURU_GRADE_UP_TRANSFE [Мицуру]]
 [s][bup 4 201 0 0]Спасибо, что одолжили мне это...[n][w][e]
 ##-[s][bup 4 201 0 0]Thank you for lending me this...[n][w][e]-##
 
-[msg JUNPEI_GRADE_UP_TRANSFER [Junpei]]
+[msg JUNPEI_GRADE_UP_TRANSFER [Джунпей]]
 [s][bup 5 201 0 0]Вот, можешь забрать это обратно.[n][w][e]
 ##-[s][bup 5 201 0 0]Here, you can have this back.[n][w][e]-##
 
-[msg SANADA_GRADE_UP_TRANSFER [Akihiko]]
+[msg SANADA_GRADE_UP_TRANSFER [Акихико]]
 [s][bup 7 201 0 0]Спасибо, что одолжил мне это...[n][w][e]
 ##-[s][bup 7 201 0 0]Thanks for letting me borrow this...[n][w][e]-##
 
-[msg AMADA_GRADE_UP_TRANSFER [Ken]]
+[msg AMADA_GRADE_UP_TRANSFER [Кен]]
 [s][bup 8 201 0 0]Мне это больше не нужно, так что можешь[n]забрать его обратно.[n][w][e]
 ##-[s][bup 8 201 0 0]I don't need this anymore, so you can[n]have it back.[n][w][e]-##
 
-[msg ARAGAKI_GRADE_UP_TRANSFE [Shinjiro]]
+[msg ARAGAKI_GRADE_UP_TRANSFE [Шинджиро]]
 [s][bup 9 201 0 0]...Вот, я с этим покончил.[n][w][e]
 ##-[s][bup 9 201 0 0]...Here, I'm done with this.[n][w][e]-##
 
-[msg KOROMARU_GRADE_UP_TRANSF [Koromaru]]
+[msg KOROMARU_GRADE_UP_TRANSF [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
-[s][f 4 7 0 0 0]> Коромару вернул оборудование, которое вы[n]ему дали.[n][f 1 4][e]
+[s][f 4 7 0 0 0]> Коромару вернул снаряжение, которое вы[n]ему дали.[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> Koromaru has returned the equipment[n]you gave him.[n][f 1 4][e]-##
 
 [msg ITEM_TRANSFER_TO_PLAYER_]
@@ -1022,8 +1022,8 @@
 [s]Он упомянул "сестру"... Вы решаете открыть[n]дверь...[n][w][e]
 ##-[s]He mentioned a "sister"...[n]You decide to open the door...[n][w][e]-##
 
-[msg MITSURU_BIKE [Mitsuru]]
-[s][bup 4 201 0 0]Я храню там оборудование, которое помогает[n]мне искать информацию.[n][w][e]
+[msg MITSURU_BIKE [Мицуру]]
+[s][bup 4 201 0 0]Я храню там снаряжение, которое помогает[n]мне искать информацию.[n][w][e]
 ##-[s][bup 4 201 0 0]I keep equipment that helps me search[n]for information in there.[n][w][e]-##
 [s]Пожалуйста, не прикасайся к нему.[n][w][e]
 ##-[s]Please don't touch it.[n][w][e]-##
