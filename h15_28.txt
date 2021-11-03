@@ -1,7 +1,7 @@
 [sel BATTLE_OK top]
 [s]Открой дверь[e]
 ##-[s]Open the door[e]-##
-[s]Не открывай дверь[e]
+[s]Не открывать дверь[e]
 ##-[s]Don't open the door[e]-##
 
 [sel YESNO_SEL top]
@@ -10,7 +10,7 @@
 [s]Нет[e]
 ##-[s]No[e]-##
 
-[msg MARGARET_FIRST [Margaret]]
+[msg MARGARET_FIRST [Маргарет]]
 [s]> Здесь много дверей...[n][f 1 4][e]
 ##-[s]> There are many doors...[n][f 1 4][e]-##
 [s]> ......?[n][f 1 4][e]
@@ -19,11 +19,11 @@
 ##-[s]> Someone is standing there...[n][f 1 4][e]-##
 [s][f 1 5]Таинственная Женщина[n][bup 75 161 0 0]Хорошо, что ты пришел. Я Маргарет. [n][w][e]
 ##-[s][f 1 5]Mysterious Woman[n][bup 75 161 0 0]It was good of you to come.[n]I am Margaret. [n][w][e]-##
-[s][f 1 5]Маргарет[n]Я тот, кто правит властью...  Это описание[n]поможет вам понять?[n][w][e]
+[s][f 1 5]Маргарет[n]Я та, кто правит властью...  Это описание[n]поможет вам понять?[n][w][e]
 ##-[s][f 1 5]Margaret[n]I am one who rules over power... [n]Will that description help you[n]understand?[n][w][e]-##
-[s]Я много слышал о тебе. Я подумал, что[n]пришло время увидеть тебя своими глазами.[n][w][e]
+[s]Я много слышала о тебе. Я подумал, что[n]пришло время увидеть тебя своими глазами.[n][w][e]
 ##-[s]I've heard a lot about you. I thought[n]it was time I saw you with my own eyes.[n][w][e]-##
-[s]Это Зал Поиска Видения. Это[n][clr 2]мир внутри тебя[clr 0] это я приготовил.[n][w][e]
+[s]Это Зал Поиска Видения. Это[n][clr 2]мир внутри тебя[clr 0] это я приготовила.[n][w][e]
 ##-[s]This is the Vision Quest Hall. It's a[n][clr 2]world inside of you[clr 0] that I have prepared.[n][w][e]-##
 
 [sel MARGARET_FIRST_SEL top]
@@ -32,8 +32,8 @@
 [s]"Что ты имеешь в виду?"[e]
 ##-[s]"What do you mean?"[e]-##
 
-[msg MARGARET_FIRST_02 [Margaret]]
-[s][bup 75 161 0 0]Я подготовил для вас здесь различные[n]конкурсы, [clr 2]каждый в соответствии с вашими[n]воспоминаниями[clr 0].[n][w][e]
+[msg MARGARET_FIRST_02 [Маргарет]]
+[s][bup 75 161 0 0]Я подготовила для вас здесь различные[n]конкурсы, [clr 2]каждый в соответствии с вашими[n]воспоминаниями[clr 0].[n][w][e]
 ##-[s][bup 75 161 0 0]I have prepared various contests for[n]you here, [clr 2]each one in accordance with[n]your memories[clr 0].[n][w][e]-##
 [s]Ты помнишь гигантские Тени, с которыми ты[n]сражался до сих пор?[n][w][e]
 ##-[s]Do you remember the giant Shadows you've[n]fought so far?[n][w][e]-##
@@ -46,8 +46,8 @@
 [s]"Что ты имеешь в виду?"[e]
 ##-[s]"What do you mean?"[e]-##
 
-[msg MARGARET_FIRST_04 [Margaret]]
-[s][bup 75 161 0 0]...Я только что сказал тебе. Они были[n]сделаны из твоих воспоминаний.[n][w][e]
+[msg MARGARET_FIRST_04 [Маргарет]]
+[s][bup 75 161 0 0]...Я только что сказала тебе. Они были[n]сделаны из твоих воспоминаний.[n][w][e]
 ##-[s][bup 75 161 0 0]...I just told you. These were made[n]from your memories.[n][w][e]-##
 [s]Я думаю, вы поймете быстрее, если откроете[n]первую дверь, а не будете стоять здесь и[n]задавать вопросы.[n][w][e]
 ##-[s]I think you'll understand faster if you[n]open the first door rather than stand[n]here asking questions.[n][w][e]-##
@@ -55,10 +55,10 @@
 [sel MARGARET_FIRST_05_SEL top]
 [s]"...Хорошо".[e]
 ##-[s]"...Okay."[e]-##
-[s]"Зачем ты это сделал?"[e]
+[s]"Зачем ты это сделала?"[e]
 ##-[s]"Why did you do this?"[e]-##
 
-[msg MARGARET_FIRST_06 [Margaret]]
+[msg MARGARET_FIRST_06 [Маргарет]]
 [s][bup 75 161 0 0]Думай об этом как о моем вызове тебе.[n][w][e]
 ##-[s][bup 75 161 0 0]Think of it as my challenge to you.[n][w][e]-##
 [s]У вас есть свобода выбора, отвечать или нет[n]на "вопросы", поставленные здесь.[n][w][e]
@@ -76,8 +76,8 @@
 [s]Как только вы ответите на вопрос, вы можете[n]потребовать вознаграждение. Что ждет,[n]победив их всех...? Приготовьтесь![n][w][e]
 ##-[s]Once you answer a question, you may[n]claim a reward. What awaits by defeating[n]all of them...? Prepare yourself![n][w][e]-##
 
-[msg MARGARET_LAST_DOOR [Margaret]]
-[s][bup 75 161 0 0]Я так долго этого ждал...[n][w][e]
+[msg MARGARET_LAST_DOOR [Маргарет]]
+[s][bup 75 161 0 0]Я так долго этого ждала...[n][w][e]
 ##-[s][bup 75 161 0 0]I've been waiting for this...[n][w][e]-##
 [s]Ты человек, достойный меня.[n][w][e]
 ##-[s]You are a human worthy of me.[n][w][e]-##
@@ -86,7 +86,7 @@
 [s][f 4 7 0 0 0]> Появилась последняя дверь...[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> The last door appeared...[n][f 1 4][e]-##
 
-[msg MARGARET_WIN [Margaret]]
+[msg MARGARET_WIN [Маргарет]]
 [s][bup 75 161 0 0]......[n][w][e]
 ##-[s][bup 75 161 0 0]......[n][w][e]-##
 [s]Спасибо...[n][w][e]
@@ -125,7 +125,7 @@
 [msg DOOR_PRIESTESS_HELP]
 [s]Зал гигантской Тени, "II: Жрица"[n][w][e]
 ##-[s]Hall of the giant Shadow,[n]"II: Priestess"[n][w][e]-##
-[s]Условия вечеринки:  [f 4 3][n] Дзюнпэй Иори Юкари Такэба [n][w][e]
+[s]Условия группы:  [f 4 3][n] Дзюнпэй Иори Юкари Такэба [n][w][e]
 ##-[s]Party conditions:[n] [f 4 3][n] Junpei Iori[n] Yukari Takeba [n][w][e]-##
 
 [msg DOOR_PRIESTESS]
@@ -135,7 +135,7 @@
 [msg DOOR_EMPEROREMPRESS_HELP]
 [s]Зал гигантских теней, "III: Императрица" и[n]"IV: Император"[n][w][e]
 ##-[s]Hall of the giant Shadows,[n]"III: Empress" and "IV: Emperor"[n][w][e]-##
-[s]Условия вечеринки:  [f 4 3][n] Дзюнпэй Иори Акихико Санада[n][w][e]
+[s]Условия группы:  [f 4 3][n] Дзюнпэй Иори Акихико Санада[n][w][e]
 ##-[s]Party conditions:[n] [f 4 3][n] Junpei Iori[n] Akihiko Sanada[n][w][e]-##
 
 [msg DOOR_EMPEROREMPRESS]
@@ -145,7 +145,7 @@
 [msg DOOR_HIEROPHANT_HELP]
 [s]Зал гигантской Тени, "V: Иерофант"[n][w][e]
 ##-[s]Hall of the giant Shadow,[n]"V: Hierophant"[n][w][e]-##
-[s]Условия вечеринки:   [f 4 3], Юкари Такеба и двое[n]других из Дзюнпей Иори, Акихико Санада и[n]Мицуру Киридзе.[n][w][e]
+[s]Условия группы:   [f 4 3], Юкари Такеба и двое[n]других из Дзюнпей Иори, Акихико Санада и[n]Мицуру Киридзе.[n][w][e]
 ##-[s]Party conditions: [n] [f 4 3], Yukari Takeba,[n] and two others from Junpei Iori,[n] Akihiko Sanada, and Mitsuru Kirijo.[n][w][e]-##
 
 [msg DOOR_HIEROPHANT]
@@ -155,7 +155,7 @@
 [msg DOOR_LOVERS_HELP]
 [s]Зал гигантской Тени, "VI: Влюбленные"[n][w][e]
 ##-[s]Hall of the giant Shadow,[n]"VI: Lovers"[n][w][e]-##
-[s]Условия вечеринки:   [f 4 3], Юкари Такеба и двое[n]других из Дзюнпей Иори, Акихико Санада и[n]Мицуру Киридзе.[n][w][e]
+[s]Условия группы:   [f 4 3], Юкари Такеба и двое[n]других из Дзюнпей Иори, Акихико Санада и[n]Мицуру Киридзе.[n][w][e]
 ##-[s]Party conditions: [n] [f 4 3], Yukari Takeba,[n] and two others from Junpei Iori,[n] Akihiko Sanada, and Mitsuru Kirijo.[n][w][e]-##
 
 [msg DOOR_LOVERS]
@@ -165,7 +165,7 @@
 [msg DOOR_CHARIOTJUSTICE_HELP]
 [s]Зал гигантских теней, "VII: Колесница" и[n]"VIII: Правосудие"[n][w][e]
 ##-[s]Hall of the giant Shadows,[n]"VII: Chariot" and "VIII: Justice"[n][w][e]-##
-[s]Условия вечеринки:   [f 4 3] и трое из следующих:[n]Юкари Такеба, Дзюнпэй Иори, Мицуру Киридзе,[n]Акихико Санада и Айгис.[n][w][e]
+[s]Условия группы:   [f 4 3] и трое из следующих:[n]Юкари Такеба, Дзюнпэй Иори, Мицуру Киридзе,[n]Акихико Санада и Айгис.[n][w][e]
 ##-[s]Party conditions: [n] [f 4 3] and three of the[n] following: Yukari Takeba, Junpei Iori,[n] Mitsuru Kirijo, Akihiko Sanada,[n] and Aigis.[n][w][e]-##
 
 [msg DOOR_CHARIOTJUSTICE]
@@ -175,10 +175,10 @@
 [msg DOOR_HERMIT_HELP]
 [s]Зал гигантской Тени, "IX: Отшельник"[n][w][e]
 ##-[s]Hall of the giant Shadow,[n]"IX: Hermit"[n][w][e]-##
-[s]Условия для членов партии:  Любые четверо,[n]кроме Дзюнпэя Иори.[n][w][e]
+[s]Условия для членов группы:  Любые четверо,[n]кроме Дзюнпэя Иори.[n][w][e]
 ##-[s]Party member conditions:[n] Any four other than Junpei Iori.[n][w][e]-##
 
-[msg DOOR_HERMIT_ATTENTION [Margaret]]
+[msg DOOR_HERMIT_ATTENTION [Маргарет]]
 [s][bup 75 161 0 0]Ах, эта дверь...[n][w][e]
 ##-[s][bup 75 161 0 0]Ah, that door...[n][w][e]-##
 [s]......[n][w][e]
@@ -195,7 +195,7 @@
 [msg DOOR_FORTUNESTRENGTH_HEL]
 [s]Зал гигантских теней, "X: Удача" и "XI:[n]Сила"[n][w][e]
 ##-[s]Hall of the giant Shadows,[n]"X: Fortune" and "XI: Strength"[n][w][e]-##
-[s]Условия для членов партии:  Любые четверо,[n]кроме Синдзиро Арагаки и Кена Амады.[n][w][e]
+[s]Условия для членов группы:  Любые четверо,[n]кроме Синдзиро Арагаки и Кена Амады.[n][w][e]
 ##-[s]Party member conditions:[n] Any four other than Shinjiro Aragaki[n] and Ken Amada.[n][w][e]-##
 
 [msg DOOR_FORTUNESTRENGTH]
@@ -205,7 +205,7 @@
 [msg DOOR_HANGEDMAN_HELP]
 [s]Зал гигантской тени, "XII: Повешенный"[n][w][e]
 ##-[s]Hall of the giant Shadow,[n]"XII: Hanged Man"[n][w][e]-##
-[s]Условия вечеринки:   Любые четыре, кроме[n]Синдзиро Арагаки.[n][w][e]
+[s]Условия группы:   Любые четыре, кроме[n]Синдзиро Арагаки.[n][w][e]
 ##-[s]Party conditions: [n] Any four excluding Shinjiro Aragaki.[n][w][e]-##
 
 [msg DOOR_HANGEDMAN]
@@ -275,10 +275,10 @@
 ##-[s]> What will you do?[n][w][e]-##
 
 [sel PARTY_FORM_SEL top]
-[s]Разбирать партию[e]
+[s]Распустить группу[e]
 ##-[s]Disassemble party[e]-##
-[s]Участники биржи[e]
-##-[s]Exchange members[e]-##
+[s]Заменяемые участники[e]
+##-[s]Заменяемые участники[e]-##
 [s]Открытая дверь[e]
 ##-[s]Open door[e]-##
 [s]Отменить[e]
@@ -293,31 +293,31 @@
 [sel PARTY_FORM_MEMBERSEL top]
 [s]Добавить Дзюнпей Иори[e]
 ##-[s]Add Junpei Iori[e]-##
-[s]Вычтите Дзюнпей Иори[e]
+[s]Исключить Дзюнпей Иори[e]
 ##-[s]Subtract Junpei Iori[e]-##
 [s]Добавить Юкари Такебу[e]
 ##-[s]Add Yukari Takeba[e]-##
-[s]Вычтите Юкари Такебу[e]
+[s]Исключить Юкари Такебу[e]
 ##-[s]Subtract Yukari Takeba[e]-##
 [s]Добавить Акихико Санаду[e]
 ##-[s]Add Akihiko Sanada[e]-##
-[s]Вычтите Акихико Санаду[e]
+[s]Исключить Акихико Санаду[e]
 ##-[s]Subtract Akihiko Sanada[e]-##
 [s]Добавить Мицуру Киридзе[e]
 ##-[s]Add Mitsuru Kirijo[e]-##
-[s]Вычтите Мицуру Киридзе[e]
+[s]Исключить Мицуру Киридзе[e]
 ##-[s]Subtract Mitsuru Kirijo[e]-##
 [s]Добавить Aigis [e]
 ##-[s]Add Aigis [e]-##
-[s]Вычтите Aigis[e]
+[s]Исключить Aigis[e]
 ##-[s]Subtract Aigis[e]-##
 [s]Добавить Кена Амаду[e]
 ##-[s]Add Ken Amada[e]-##
-[s]Вычтите Кена Амаду[e]
+[s]Исключить Кена Амаду[e]
 ##-[s]Subtract Ken Amada[e]-##
 [s]Добавить Синдзиро Арагаки [e]
 ##-[s]Add Shinjiro Aragaki [e]-##
-[s]Вычтите Синдзиро Арагаки[e]
+[s]Исключить Синдзиро Арагаки[e]
 ##-[s]Subtract Shinjiro Aragaki[e]-##
 [s]Добавить Коромару [e]
 ##-[s]Add Koromaru [e]-##
@@ -335,8 +335,8 @@
 [sel DEBUG_MODE_SEL_01 top]
 [s]Установить флаги[e]
 ##-[s]Set flags[e]-##
-[s]Участники биржи[e]
-##-[s]Exchange members[e]-##
+[s]Заменяемые участники[e]
+##-[s]Заменяемые участники[e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
 
@@ -349,7 +349,7 @@
 ##-[s]Cancel[e]-##
 
 [sel DEBUG_MODE_SEL_03 top]
-[s]Вычтите все[e]
+[s]Исключить все[e]
 ##-[s]Subtract all[e]-##
 [s]Добавить Джунпей[e]
 ##-[s]Add Junpei[e]-##

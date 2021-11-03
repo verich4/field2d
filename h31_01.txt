@@ -1,4 +1,4 @@
-[msg SOTIJYANAI [Mitsuru]]
+[msg SOTIJYANAI [Мицури]]
 [s]Нет времени колебаться.[n][w][e]
 ##-[s]There's no time to hesitate.[n][w][e]-##
 [s]Если Темный Час закончится, это будет[n]катастрофа.[n][w][e]
@@ -6,7 +6,7 @@
 [s]Пассажиры могут оказаться в опасности...[n]Немедленно закрепите монорельс.[n][w][e]
 ##-[s]The passengers could be at risk...[n]Secure the monorail immediately.[n][w][e]-##
 
-[msg OPERATION_START [Mitsuru]]
+[msg OPERATION_START [Мицури]]
 [s]Примерно в 200 метрах впереди есть[n]монорельс.[n][w][e]
 ##-[s]There's a monorail about 200 meters[n]ahead.[n][w][e]-##
 [s]Вы должны остановить Тени, прежде чем они[n]причинят вред пассажирам. Быстрее![n][w][e]

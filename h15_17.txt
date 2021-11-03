@@ -5,26 +5,26 @@
 ##-[s]"Not yet."[e]-##
 
 [sel BATTLE_SEL_G top]
-[s]"Я готов!"[e]
+[s]"Я готова!"[e]
 ##-[s]"I'm ready!"[e]-##
 [s]"Одну минуту".[e]
 ##-[s]"Just a minute."[e]-##
 
 [sel RETURN_SEL top]
-[s]Возвращать[e]
+[s]Вернутся[e]
 ##-[s]Return[e]-##
-[s]Остаться[e]
+[s]Стоять[e]
 ##-[s]Stay[e]-##
 
-[msg VS_LEADER_BATTLE_OK [Fuuka]]
+[msg VS_LEADER_BATTLE_OK [Фука]]
 [s][bup 6 203 0 0]Вы готовы?[n][w][e]
 ##-[s][bup 6 203 0 0]Are you ready?[n][w][e]-##
 
-[msg NOT_ENOUGH [Fuuka]]
+[msg NOT_ENOUGH [Фука]]
 [s][bup 6 203 0 0]Опасно пробовать это с таким небольшим[n]количеством людей![n][w][e]
 ##-[s][bup 6 203 0 0]It's dangerous to try it with so[n]few people![n][w][e]-##
 
-[msg ESCAPE_HUKA_LAST_FLORR [Fuuka]]
+[msg ESCAPE_HUKA_LAST_FLORR [Фука]]
 [s][bup 6 204 0 0]Ты не хочешь пока вернуться ко входу?[n][w][e]
 ##-[s][bup 6 204 0 0]Do you want to go back to the entrance[n]for now?[n][w][e]-##
 

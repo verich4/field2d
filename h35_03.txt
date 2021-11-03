@@ -1,5 +1,5 @@
-[msg DUNGE_HUUKA_B1FNOTFULL [Fuuka]]
-[s][bup 6 201 0 0]Слишком опасно идти без большой вечеринки![n][w][e]
+[msg DUNGE_HUUKA_B1FNOTFULL [Фука]]
+[s][bup 6 201 0 0]Слишком опасно идти без большой группы![n][w][e]
 ##-[s][bup 6 201 0 0]It's too dangerous to go without a[n]bigger party![n][w][e]-##
 
 [msg DUNGE_TOBIRA_HAZIKI]

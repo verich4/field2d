@@ -7,7 +7,7 @@
 [sel DEBUG_SEL top]
 [s]Восстановление усталости [e]
 ##-[s]Fatigue recover & flag set[e]-##
-[s]Идите в магазин[e]
+[s]Идити в магазин[e]
 ##-[s]Go to shop[e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
@@ -23,9 +23,9 @@
 ##-[s]Cancel[e]-##
 
 [sel OUTDOOR_SEL top]
-[s]Возвращайтесь в общежитие[e]
+[s]Возращаться в общежитие[e]
 ##-[s]Return to the dorm[e]-##
-[s]Продолжайте исследовать[e]
+[s]Продолжать исследовать[e]
 ##-[s]Continue exploring[e]-##
 
 [sel EXPLORATION_SEL top]
@@ -35,7 +35,7 @@
 ##-[s]"Not yet."[e]-##
 
 [sel EXPLORATION_SEL_G top]
-[s]"Готов!"[e]
+[s]"Готова!"[e]
 ##-[s]"Ready!"[e]-##
 [s]"Одну минуту".[e]
 ##-[s]"Just a minute."[e]-##
@@ -66,7 +66,7 @@
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
 
-[msg STOP_MITSURU_0430 [Mitsuru]]
+[msg STOP_MITSURU_0430 [Мицури]]
 [s][bup 4 201 0 0]Остановка.[n][w][e]
 ##-[s][bup 4 201 0 0]Stop.[n][w][e]-##
 [s]Я не отпущу тебя сегодня.[n][w][e]
@@ -88,40 +88,40 @@
 [s]> Вы решили прекратить исследования и[n]вернуться в общежитие.[n][w][e]
 ##-[s]> You decided to stop exploring and[n]return to the dorm.[n][w][e]-##
 
-[msg EXIT_JUNPEI_STOP [Junpei]]
+[msg EXIT_JUNPEI_STOP [Джупей]]
 [s][bup 5 205 0 0]Чувак, это неправильный путь...[n][w][e]
 ##-[s][bup 5 205 0 0]Dude, that's the wrong way...[n][w][e]-##
 
-[msg START_MITSURU_OK [Mitsuru]]
+[msg START_MITSURU_OK [Мицури]]
 [s][bup 4 201 0 0]Вы готовы?[n][w][e]
 ##-[s][bup 4 201 0 0]Are you ready?[n][w][e]-##
 
-[msg START_MITSURU_OK_AFTER [Mitsuru]]
+[msg START_MITSURU_OK_AFTER [Мицури]]
 [s][bup 4 201 0 0]Удачи.[n][w][e]
 ##-[s][bup 4 201 0 0]Good luck.[n][w][e]-##
 
-[msg START_HUKA_OK [Fuuka]]
+[msg START_HUKA_OK [Фука]]
 [s][bup 6 201 0 0]Вы готовы?[n][w][e]
 ##-[s][bup 6 201 0 0]Are you ready?[n][w][e]-##
 
-[msg START_HUKA_OK_AFTER [Fuuka]]
+[msg START_HUKA_OK_AFTER [Фука]]
 [s][bup 6 201 0 0]Будь осторожен.[n][w][e]
 ##-[s][bup 6 201 0 0]Be careful.[n][w][e]-##
 
-[msg MITSURU_STOP [Mitsuru]]
+[msg MITSURU_STOP [Мицури]]
 [s][bup 4 201 0 0]На сегодня этого достаточно. У тебя впереди[n]еще много сражений.[n][w][e]
 ##-[s][bup 4 201 0 0]That's enough for today. You have[n]plenty of fighting ahead of you.[n][w][e]-##
 [s]Давайте вернемся в общежитие.[n][w][e]
 ##-[s]Let's return to the dorm.[n][w][e]-##
 
-[msg ADVICE_MITSURU_APRIL [Mitsuru]]
-[s][bup 4 201 0 0]Кстати, я узнал еще кое-что о Тартаре...[n][w][e]
+[msg ADVICE_MITSURU_APRIL [Мицури]]
+[s][bup 4 201 0 0]Кстати, я узнала еще кое-что о Тартаре...[n][w][e]
 ##-[s][bup 4 201 0 0]By the way, I found out something else[n]about Tartarus...[n][w][e]-##
 [s]Несколькими этажами выше есть баррикада,[n]мешающая вам подняться еще выше.[n][w][e]
 ##-[s]A few floors up, there's a barricade[n]preventing you from going any higher.[n][w][e]-##
 [s]В башне, похоже, есть несколько таких,[n]разбросанных по этажам.[n][w][e]
 ##-[s]The tower seems to have a number of[n]these interspersed amongst its floors.[n][w][e]-##
-[s]Я знаю, что говорил вам, что планировка[n]меняется каждый день, но эти барьеры,[n]похоже, находятся в фиксированных местах.[n][w][e]
+[s]Я знаю, что говорила вам, что планировка[n]меняется каждый день, но эти барьеры,[n]похоже, находятся в фиксированных местах.[n][w][e]
 ##-[s]I know I told you that the layout changes[n]each day, but these barriers seem to be[n]in fixed locations.[n][w][e]-##
 [s]Поэтому я бы хотел, чтобы вы попытались[n]добраться до первой баррикады.[n][w][e]
 ##-[s]Therefore, I'd like you to try and reach[n]the first barricade.[n][w][e]-##
@@ -142,16 +142,16 @@
 [s]Я рассчитываю на тебя.[n][w][e]
 ##-[s]I'm counting on you.[n][w][e]-##
 
-[msg ADVICE_MITSURU_MAY [Mitsuru]]
+[msg ADVICE_MITSURU_MAY [Мицури]]
 [s][bup 4 201 0 0]Мне нужно тебе кое-что сказать.[n][w][e]
 ##-[s][bup 4 201 0 0]I have something to tell you.[n][w][e]-##
-[s]Вы помните, как я сказал, что Тартар был[n]разделен на разные области?[n][w][e]
+[s]Вы помните, как я сказала, что Тартар был[n]разделен на разные области?[n][w][e]
 ##-[s]Do you remember how I said Tartarus[n]was divided into different areas?[n][w][e]-##
-[s]Благодаря силе Пентесилеи я обнаружил, что[n]первый барьер теперь исчез.[n][w][e]
+[s]Благодаря силе Пентесилеи я обнаружила, что[n]первый барьер теперь исчез.[n][w][e]
 ##-[s]I discovered through Penthesilea's power[n]that the first barrier is gone now.[n][w][e]-##
 [s]Я подозреваю, что остальные тоже в конце[n]концов исчезнут...[n][w][e]
 ##-[s]I suspect that the others will disappear[n]too, eventually...[n][w][e]-##
-[s]Поэтому я хотел бы сделать достижение[n]вершины нашей целью.[n][w][e]
+[s]Поэтому я хотела бы сделать достижение[n]вершины нашей целью.[n][w][e]
 ##-[s]Therefore, I'd like to make reaching[n]the top our goal.[n][w][e]-##
 [s]Никогда не знаешь, что может ждать тебя в[n]будущем...[n][w][e]
 ##-[s]You never know what the future may[n]hold...[n][w][e]-##
@@ -164,7 +164,7 @@
 [s]Я рассчитываю на тебя.[n][w][e]
 ##-[s]I'm counting on you.[n][w][e]-##
 
-[msg VELVETROOM_YUKARI_STOP [Yukari]]
+[msg VELVETROOM_YUKARI_STOP [Юкари]]
 [s][bup 2 201 0 0]Что ты делаешь? Там ничего нет.[n][w][e]
 ##-[s][bup 2 201 0 0]What are you doing? There's nothing[n]over there.[n][w][e]-##
 [s]Давай, пойдем.[n][w][e]
@@ -189,7 +189,7 @@
 ##-[s]> The party's HP and SP has[n]been recovered![n][w][e]-##
 
 [msg HEAL_REQUIRE]
-[s]> Исцеление будет стоить [clr 1][f 2 4 0] иена[clr 0]. Исцелить?[n](Несущий: [clr 1][f 2 4 1] иена[clr 0])[n][w][e]
+[s]> Исцеление будет стоить [clr 1][f 2 4 0] иен[clr 0]. Исцелить?[n](Несущий: [clr 1][f 2 4 1] иен[clr 0])[n][w][e]
 ##-[s]> Healing will cost [clr 1][f 2 4 0] yen[clr 0].[n]Heal? (Carrying: [clr 1][f 2 4 1] yen[clr 0])[n][w][e]-##
 
 [msg HEAL_NOMONEY]
@@ -200,61 +200,61 @@
 [s]> Тебе не нужно исцеляться прямо сейчас.[n][w][e]
 ##-[s]> You don't need to heal right now.[n][w][e]-##
 
-[msg YUKARI_RETURN [Yukari]]
+[msg YUKARI_RETURN [Юкари]]
 [s][bup 2 204 0 0]Извините... Я больше не могу этого[n]выносить. Я возвращаюсь в общежитие.[n][w][e]
 ##-[s][bup 2 204 0 0]Sorry... I can't take any more.[n]I'm going back to the dorm.[n][w][e]-##
 
-[msg AEGIS_RETURN [Aigis]]
-[s][bup 3 204 0 0]Я прошу прощения. Я должен вернуться в[n]общежитие.[n][w][e]
+[msg AEGIS_RETURN [Айгис]]
+[s][bup 3 204 0 0]Я прошу прощения. Я должена вернуться в[n]общежитие.[n][w][e]
 ##-[s][bup 3 204 0 0]I am sorry. I must return to the dorm.[n][w][e]-##
 
-[msg MITSURU_RETURN [Mitsuru]]
+[msg MITSURU_RETURN [Мицури]]
 [s][bup 4 204 0 0]Боюсь, я не могу продолжать в моем нынешнем[n]состоянии. Я возвращаюсь в общежитие, чтобы[n]немного отдохнуть.[n][w][e]
 ##-[s][bup 4 204 0 0]I'm afraid I can't continue in my[n]current condition. I'm returning to[n]the dorm to get some rest.[n][w][e]-##
 
-[msg JUNPEI_RETURN [Junpei]]
+[msg JUNPEI_RETURN [Джупей]]
 [s][bup 5 204 0 0]Извини, чувак, я устал... Я возвращаюсь в[n]общежитие.[n][w][e]
 ##-[s][bup 5 204 0 0]Sorry, dude, I'm beat... I'm going back[n]to the dorm.[n][w][e]-##
 
-[msg SANADA_RETURN [Akihiko]]
+[msg SANADA_RETURN [Акихико]]
 [s][bup 7 204 0 0]Извините... Я возвращаюсь в общежитие.[n][w][e]
 ##-[s][bup 7 204 0 0]Sorry... I'm heading back to the dorm.[n][w][e]-##
 
-[msg AMADA_RETURN [Ken]]
+[msg AMADA_RETURN [Кен]]
 [s][bup 8 201 0 0]Извини, я слишком устала. Я собираюсь[n]вернуться в общежитие.[n][w][e]
 ##-[s][bup 8 201 0 0]Sorry, I'm way too tired. I'm gonna go[n]back to the dorm.[n][w][e]-##
 
-[msg ARAGAKI_RETURN [Shinjiro]]
+[msg ARAGAKI_RETURN [Шинджиро]]
 [s][bup 9 201 0 0]...Вот и все для меня.[n][w][e]
 ##-[s][bup 9 201 0 0]...That's it for me.[n][w][e]-##
 
-[msg KOROMARU_RETURN [Koromaru]]
+[msg KOROMARU_RETURN [Коромару]]
 [s][bup 10 204 0 0]* хныкать*[n][w][e]
 ##-[s][bup 10 204 0 0]*whimper*[n][w][e]-##
 [s][f 4 7 0 0 0]> Коромару выглядит измученным. Он[n]возвращается в общежитие.[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> Koromaru seems exhausted.[n]He is going back to the dorm.[n][f 1 4][e]-##
 
-[msg MITSURU_RETURN_ADVICE [Mitsuru]]
-[s][bup 4 201 0 0]Возможно, нам следует на этом закончить,[n]поскольку у вас больше нет полноценной[n]вечеринки.[n][w][e]
+[msg MITSURU_RETURN_ADVICE [Мицури]]
+[s][bup 4 201 0 0]Возможно, нам следует на этом закончить,[n]поскольку у вас больше нет полноценной[n]группы.[n][w][e]
 ##-[s][bup 4 201 0 0]Perhaps we should call it a day, since[n]you no longer have a full party.[n][w][e]-##
 
-[msg MITSURU_RETURN_ADVICE_TE [Mitsuru]]
+[msg MITSURU_RETURN_ADVICE_TE [Мицури]]
 [s][bup 4 201 0 0]Скоро экзамены, так почему бы нам не[n]закончить на сегодня?[n][w][e]
 ##-[s][bup 4 201 0 0]Exams are coming up, so why don't we[n]call it a day?[n][w][e]-##
-[s]Кроме того, у тебя больше нет полноценной[n]вечеринки.[n][w][e]
+[s]Кроме того, у тебя больше нет полноценной[n]группы.[n][w][e]
 ##-[s]Besides, you no longer have a full party.[n][w][e]-##
 
-[msg HUKA_RETURN_ADVICE [Fuuka]]
+[msg HUKA_RETURN_ADVICE [Фука]]
 [s][bup 6 201 0 0]Я думаю, нам лучше уйти, так как у тебя[n]больше нет полной команды.[n][w][e]
 ##-[s][bup 6 201 0 0]I think it's best we go, since you[n]don't have a full team anymore.[n][w][e]-##
 
-[msg HUKA_RETURN_ADVICE_TEST [Fuuka]]
+[msg HUKA_RETURN_ADVICE_TEST [Фука]]
 [s][bup 6 201 0 0]Уже почти время экзаменов, так что, может[n]быть, нам стоит пойти...[n][w][e]
 ##-[s][bup 6 201 0 0]It's almost time for exams, so maybe[n]we should go...[n][w][e]-##
 [s]Кроме того, у тебя больше нет полной[n]команды.[n][w][e]
 ##-[s]Besides, you don't have a full team[n]anymore.[n][w][e]-##
 
-[msg MITSURU_HELP_WARNING [Mitsuru]]
+[msg MITSURU_HELP_WARNING [Мицури]]
 [s][bup 4 201 0 0]В последнее время ты расслабляешься...[n][w][e]
 ##-[s][bup 4 201 0 0]You've been slacking off lately...[n][w][e]-##
 [s]Если вы не будете регулярно тренироваться,[n]то поставите под угрозу свою собственную[n]жизнь и жизни своих союзников.[n][w][e]
@@ -262,11 +262,11 @@
 [s]...Просто помни об этом.[n][w][e]
 ##-[s]...Just remember that.[n][w][e]-##
 
-[msg MITSURU_WARNING_JOINT [Mitsuru]]
+[msg MITSURU_WARNING_JOINT [Мицури]]
 [s][bup 4 201 0 0]...Я еще раз вкратце расскажу о Тартаре.[n][w][e]
 ##-[s][bup 4 201 0 0]...I'll briefly explain about Tartarus[n]once more.[n][w][e]-##
 
-[msg MITSURU_ENTRANCE_HELP [Mitsuru]]
+[msg MITSURU_ENTRANCE_HELP [Мицури]]
 [s][bup 4 201 0 0]Пока мы исследуем Тартар, это будет наша[n]временная база операций.[n][w][e]
 ##-[s][bup 4 201 0 0]As we explore Tartarus, this will be[n]our temporary base of operations.[n][w][e]-##
 [s]Я рассчитываю на тебя.[n][w][e]
@@ -284,8 +284,8 @@
 [s]Вы также можете заплатить деньги за[n]исцеление, получив доступ к этим часам.[n][w][e]
 ##-[s]You can also pay money to heal by[n]accessing this clock.[n][w][e]-##
 
-[msg MITURU_WARP_IMPRESSION [Mitsuru]]
-[s][bup 4 201 0 0]Я так и знал![n][w][e]
+[msg MITURU_WARP_IMPRESSION [Мицури]]
+[s][bup 4 201 0 0]Я так и знала![n][w][e]
 ##-[s][bup 4 201 0 0]I knew it![n][w][e]-##
 [s]Это устройство является своего рода[n]порталом, который соединяет все подобные[n]устройства вместе.[n][w][e]
 ##-[s]That device is a sort of portal that[n]connects all like devices together.[n][w][e]-##
@@ -296,7 +296,7 @@
 [s]Вы должны воспользоваться этим, когда[n]найдете их. Они пригодятся во время[n]экспедиций.[n][w][e]
 ##-[s]You should take good advantage of these[n]when you find them. They'll be useful[n]during the expeditions.[n][w][e]-##
 
-[msg MITSURU_GREET [Mitsuru]]
+[msg MITSURU_GREET [Мицури]]
 [s][bup 4 201 0 0]С этого момента Ямагиси будет поддерживать[n]нас, а я приму участие в исследовании.[n][w][e]
 ##-[s][bup 4 201 0 0]From now on, Yamagishi will support us,[n]and I'll take part in the exploration.[n][w][e]-##
 [s]Я также решил, что позволю вам выбрать[n]членов вашей боевой группы.[n][w][e]
@@ -305,21 +305,21 @@
 ##-[s]I realize that this is a big responsibility,[n]but I believe you can handle it.[n][w][e]-##
 
 [msg ENTRANCE_HELP2]
-[s]С этого момента вы должны создать свою[n]собственную партию, поговорив со своими[n]друзьями, прежде чем продолжить.[n][w][e]
+[s]С этого момента вы должны создать свою[n]собственную группу, поговорив со своими[n]друзьями, прежде чем продолжить.[n][w][e]
 ##-[s]From now on, you must form your own[n]party by talking to your friends before[n]proceeding.[n][w][e]-##
 
-[msg HUKA_GREET [Fuuka]]
+[msg HUKA_GREET [Фука]]
 [s][bup 6 201 0 0]Эм... С этого момента я займу место[n]Мицуру-семпая.[n][w][e]
 ##-[s][bup 6 201 0 0]Um... I'll be taking Mitsuru-senpai's[n]place from now on.[n][w][e]-##
 
-[msg SANADA_GREET [Akihiko]]
+[msg SANADA_GREET [Акихико]]
 [s][bup 7 201 0 0]Я наконец-то смогу пойти с вами, ребята.[n][w][e]
 ##-[s][bup 7 201 0 0]I finally get to go with you guys.[n][w][e]-##
 [s]Но это не значит, что ты можешь[n]расслабиться, хорошо?[n][w][e]
 ##-[s]But, that doesn't mean you can slack[n]off, alright?[n][w][e]-##
 
 [msg SYS_TUTORIAL_FIRST]
-[s]> Освежители в бою перечислены здесь.[n]Доступные темы таковы...[n][w][e]
+[s]> Памятки в бою перечислены здесь.[n]Доступные темы таковы...[n][w][e]
 ##-[s]> Refreshers on battle are listed here.[n]The available topics are...[n][w][e]-##
 
 [sel SYS_TUTORIAL_SEL top]
@@ -343,15 +343,15 @@
 ##-[s]In this way, you may attack as long as[n]you continue knocking enemies down.[n] [n]If you attack a Downed enemy's weak[n]point, they will become dizzy and lose[n]a turn.[n][w][e]-##
 [s]Поэтому важно проанализировать слабые[n]стороны вашего врага, чтобы получить[n]преимущество.   Вы можете проанализировать,[n]спросив своего оператора в меню тактики или[n]нажав кнопку L.[n][w][e]
 ##-[s]It is thus important to Analyze your[n]enemy's weaknesses to gain an advantage.[n] [n]You can Analyze by asking your operator[n]with the Tactics menu or by pressing the[n]L button.[n][w][e]-##
-[s]Если вы собьете всех врагов, вы можете[n]заставить всю партию провести тотальную[n]атаку.  Они являются мощными, неизбежными и[n]чрезвычайно эффективными.[n][w][e]
+[s]Если вы собьете всех врагов, вы можете[n]заставить всю группу провести тотальную[n]атаку.  Они являются мощными, неизбежными и[n]чрезвычайно эффективными.[n][w][e]
 ##-[s]If you knock down all the enemies,[n]you may have the whole party perform[n]an All-Out Attack. [n]These are powerful, unavoidable, and[n]extremely effective.[n][w][e]-##
 
 [msg SYS_TUTORIAL_02]
-[s]Если вы нажмете кнопку □, находясь в[n]Тартаре, вы можете приказать своим членам[n]партии разделиться. Пока они разделяются,[n]они будут находить лестницы и точки[n]эвакуации, а также извлекать предметы из[n]сундуков с сокровищами.[n][w][e]
+[s]Если вы нажмете кнопку □, находясь в[n]Тартаре, вы можете приказать своим членам[n]группы разделиться. Пока они разделяются,[n]они будут находить лестницы и точки[n]эвакуации, а также извлекать предметы из[n]сундуков с сокровищами.[n][w][e]
 ##-[s]If you press the □ button while in[n]Tartarus, you may order your party[n]members to split up. While they are[n]split up, they will find stairs and[n]escape points, and retrieve items from[n]treasure chests.[n][w][e]-##
-[s]Если член партии столкнется с Тенью во[n]время разделения, он вступит в бой.[n]Участники группы, связанные в бою, не могут[n]использовать полевые навыки или менять свое[n]снаряжение из меню.[n][w][e]
+[s]Если член группы столкнется с Тенью во[n]время разделения, он вступит в бой.[n]Участники группы, связанные в бою, не могут[n]использовать полевые навыки или менять свое[n]снаряжение из меню.[n][w][e]
 ##-[s]If a party member encounters a Shadow[n]while split up, they will enter battle.[n]Party members tied up in battle cannot[n]use field skills or change their[n]equipment from the menu.[n][w][e]-##
-[s]Вы не можете использовать навыки или[n]предметы на членах партии, которые[n]находятся слишком далеко. У удаленных[n]участников вечеринки будут затемненные[n]портреты в правом нижнем углу экрана,[n]поэтому обратите внимание.[n][w][e]
+[s]Вы не можете использовать навыки или[n]предметы на членах группы, которые[n]находятся слишком далеко. У удаленных[n]участников группы будут затемненные[n]портреты в правом нижнем углу экрана,[n]поэтому обратите внимание.[n][w][e]
 ##-[s]You cannot use skills or items on party[n]members who are too far away.[n]Distant party members will have darkened[n]portraits in the bottom right of the[n]screen, so pay attention.[n][w][e]-##
 
 [msg SYS_TUTORIAL_03]
@@ -359,17 +359,17 @@
 ##-[s]It is important to level up yourself[n]to raise your HP and SP, and to level[n]up your Personas to make them stronger.[n] [n] [n] [n][w][e]-##
 [s]Персонаж, экипированный в конце[n]победоносной битвы, получит опыт и[n]потенциально повысит свой уровень.      [n][w][e]
 ##-[s]The Persona equipped at the end of a[n]victorious battle will gain experience[n]and potentially level up.[n] [n] [n] [n][w][e]-##
-[s]Когда Персонаж повышается, его[n]характеристики не только увеличиваются, но[n]и иногда он осваивает новые навыки.   Чтобы[n]быть эффективным в бою, он должен обладать[n]сильным набором навыков.[n][w][e]
+[s]Когда Персона повышается, её[n]характеристики не только увеличиваются, но[n]и иногда он осваивает новые навыки.   Чтобы[n]быть эффективным в бою, он должен обладать[n]сильным набором навыков.[n][w][e]
 ##-[s]When a Persona levels up, not only do its[n]stats increase, it will sometimes learn[n]new skills.[n] [n]To be effective in battle, it will need[n]to have a strong skill set.[n][w][e]-##
-[s]Персонажи, которые уже приобрели все свои[n]навыки, или Персонажи, которые не так[n]сильны, как вам хотелось бы, могут быть[n]объединены в Бархатной комнате. Благодаря[n]слиянию вы можете создавать новых[n]персонажей.  [n][w][e]
+[s]Персоны, которые уже приобрели все свои[n]навыки, или Персоны, которые не так[n]сильны, как вам хотелось бы, могут быть[n]объединены в Бархатной комнате. Благодаря[n]слиянию вы можете создавать новых[n]персонажей.  [n][w][e]
 ##-[s]Personas which have already acquired all[n]of their skills, or Personas that are[n]not as strong as you'd like, can be[n]fused at the Velvet Room. Through fusion,[n]you can create new Personas.[n] [n][w][e]-##
-[s]Если у вас есть социальная ссылка,[n]соответствующая аркане нового Персонажа,[n]новый Персонаж получит бонусный опыт и[n]поднимется на более высокий уровень, чем[n]прогнозировалось.    [n][w][e]
+[s]Если у вас есть социальная связь,[n]соответствующая аркане нового Персонажа,[n]новая Персона получит бонусный опыт и[n]поднимется на более высокий уровень, чем[n]прогнозировалось.    [n][w][e]
 ##-[s]If you have a Social Link matching the[n]new Persona's arcana, the new Persona[n]will gain bonus experience and rise to[n]a higher level than predicted.[n] [n] [n][w][e]-##
 [s]Подняв свои социальные связи как можно[n]выше, прежде чем слияние позволит вам[n]объединить персонажей в их самом сильном[n]виде.      [n][w][e]
 ##-[s]Raising your Social Links as high as[n]you can before fusion will allow you[n]to fuse Personas at their strongest.[n] [n] [n] [n][w][e]-##
 
 [msg SYS_TUTORIAL_04]
-[s]Будьте осторожны в случаях, когда[n]расположение Тартара меняется, и следите за[n]здоровьем ваших друзей.      [n][w][e]
+[s]Будьте осторожны в случаях, когда[n]расположение Тартара меняется, и следите за[n]здоровьем ваших друзей.[n] [n] [n]  [n][w][e]
 ##-[s]Be careful of occasions when the[n]layout of Tartarus changes, and of[n]your friends' health.[n] [n] [n] [n][w][e]-##
 [s]Когда макет меняется, существует высокая[n]вероятность найти больше сундуков с[n]сокровищами, редких Теней и других[n]необычных эффектов. Эти эффекты исчезнут,[n]как только вы подниметесь на новый этаж.[n][w][e]
 ##-[s]When the layout changes, there is a[n]high likelihood of finding more[n]treasure chests, rare Shadows, and[n]other unusual effects. These effects[n]will disappear once you ascend to[n]a new floor.[n][w][e]-##
@@ -398,7 +398,7 @@
 [s][f 0 4 255]>ゲーム衡捲嬰йフラグ  セットХ?[n][w][e]
 ##-[s][f 0 4 255]>ゲーム衡捲嬰йフラグを[n] セットХる?[n][w][e]-##
 
-[msg TEST_LAST_DAY [Fuuka]]
+[msg TEST_LAST_DAY [Фука]]
 [s][bup 6 201 0 0]Не убегай![n][w][e]
 ##-[s][bup 6 201 0 0]Don't run away![n][w][e]-##
 
@@ -438,13 +438,13 @@
 [s]ЭёьжコミュレベルкフォローУвёБйг、 デバッグモードг閲ОвЛЪСБ。[n][w][e]
 ##-[s]ЭёьжコミュレベルкフォローУвёБйг、[n]デバッグモードг閲ОвЛЪСБ。[n][w][e]-##
 
-[msg MITSURU_RETURN_DISAPPEAR [Mitsuru]]
+[msg MITSURU_RETURN_DISAPPEAR [Мицури]]
 [s][bup 4 201 0 0]Хорошая работа по обеспечению безопасности[n]пропавшего человека.[n][w][e]
 ##-[s][bup 4 201 0 0]Well done in securing the missing[n]person's safety.[n][w][e]-##
 [s]Теперь они в безопасности, так что вы[n]можете возобновить свою экспедицию.[n][w][e]
 ##-[s]They're safe now, so you may resume[n]your expedition.[n][w][e]-##
 
-[msg HUKA_RETURN_DISAPPEAR [Fuuka]]
+[msg HUKA_RETURN_DISAPPEAR [Фука]]
 [s][bup 6 201 0 0]Хорошо, что вы смогли найти пропавшего[n]человека.[n][w][e]
 ##-[s][bup 6 201 0 0]It's a good thing you were able to find[n]the missing person.[n][w][e]-##
 [s]Сейчас они отдыхают в безопасном месте.[n][w][e]
@@ -459,7 +459,7 @@
 ##-[s]Velvet Room[e]-##
 [s]Телепорт[e]
 ##-[s]Teleporter[e]-##
-[s]Внешний[e]
+[s]Улица[e]
 ##-[s]Outside[e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##

@@ -1,10 +1,10 @@
-[msg DUNGE_JYUNPEI_HAJIKI [Junpei]]
+[msg DUNGE_JYUNPEI_HAJIKI [Джупей]]
 [s][bup 5 83 0 0]Чувак, не будь палкой в грязи...[n][w][e]
 ##-[s][bup 5 83 0 0]Dude, don't be a stick in the mud...[n][w][e]-##
 [s]Давай, вечеринка только начинается![n][w][e]
 ##-[s]Come on, the party's just gettin'[n]started![n][w][e]-##
 
-[msg DUNGE_JYUNPEI_HAJIKI2 [Junpei]]
+[msg DUNGE_JYUNPEI_HAJIKI2 [Джупей]]
 [s][bup 5 82 0 0]Хорошо, давайте вернемся...[n][w][e]
 ##-[s][bup 5 82 0 0]Alright, let's go back...[n][w][e]-##
 [s][bup 5 83 0 0]Подождите минутку![n][w][e]
@@ -12,7 +12,7 @@
 [s]Иди за ней![n][w][e]
 ##-[s]Go after her![n][w][e]-##
 
-[msg DUNGE_YAKUSHIMA_KAERU [Junpei]]
+[msg DUNGE_YAKUSHIMA_KAERU [Джупей]]
 [s][bup 5 81 0 0]Ты уже уходишь?[n][w][e]
 ##-[s][bup 5 81 0 0]You're leaving already?[n][w][e]-##
 
@@ -22,7 +22,7 @@
 [s]"Конечно, нет".[e]
 ##-[s]"Of course not."[e]-##
 
-[msg DUNGE_YAKUSHIMA_KAERU_RE [Junpei]]
+[msg DUNGE_YAKUSHIMA_KAERU_RE [Джупей]]
 [s][bup 5 81 0 0]О, ты отстой...[n][w][e]
 ##-[s][bup 5 81 0 0]Aww, you suck...[n][w][e]-##
 [s][bup 5 82 0 0]Что ж, я останусь еще немного...[n][w][e]
@@ -30,19 +30,19 @@
 [s]Позже, чувак.[n][w][e]
 ##-[s]Later, man.[n][w][e]-##
 
-[msg DUNGE_YAKUSHIMA_KAERU_RE_2 [Junpei]]
+[msg DUNGE_YAKUSHIMA_KAERU_RE_2 [Джупей]]
 [s][bup 5 82 0 0]Чувак, ты заставил меня поволноваться...[n][w][e]
 ##-[s][bup 5 82 0 0]Dude, you had me worried...[n][w][e]-##
 [s]Это пляж, о котором мы говорим, здесь...[n]Цыпочки в бикини! Чего еще можно желать!?[n][w][e]
 ##-[s]This is the beach we're talkin' about,[n]here... Chicks in bikinis! What more[n]can you ask for!?[n][w][e]-##
 
-[msg DUNGE_JYUNPE_SEISI [Junpei]]
+[msg DUNGE_JYUNPE_SEISI [Джупей]]
 [s][bup 5 82 0 0]Чувак, куда ты собрался?[n][w][e]
 ##-[s][bup 5 82 0 0]Dude, where ya goin'?[n][w][e]-##
-[s]Никогда не играйте в одиночку на пляже![n][w][e]
+[s]Никогда не играй в одиночку на пляже![n][w][e]
 ##-[s]Never play alone at the beach![n][w][e]-##
 
-[msg DUNGE_SANADA_HAJIKI [Junpei]]
+[msg DUNGE_SANADA_HAJIKI [Джупей]]
 [s][bup 5 83 0 0]Чувак, не будь палкой в грязи...[n][w][e]
 ##-[s][bup 5 83 0 0]Dude, don't be a stick in the mud...[n][w][e]-##
 [s]Давай, вечеринка только начинается![n][w][e]
@@ -63,6 +63,6 @@
 [sel SAVE_SEL top]
 [s]Сохранить[e]
 ##-[s]Save[e]-##
-[s]Не экономьте[e]
+[s]Не сохранять[e]
 ##-[s]Don't save[e]-##
 
