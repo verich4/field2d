@@ -4,33 +4,33 @@
 [s]Нет[e]
 ##-[s]No[e]-##
 
-[msg MARGARET_FIRST [Margaret]]
+[msg MARGARET_FIRST [Маргарет]]
 [s][bup 75 161 0 0]Во-первых, покажи мне, что ты достоин того,[n]чтобы тебя обучали.[n][w][e]
 ##-[s][bup 75 161 0 0]First, show me that you're worthy[n]of being trained.[n][w][e]-##
 [s]Видишь ту дверь "Жрицы"? Продолжать...[n][w][e]
 ##-[s]See that "Priestess" door?[n]Go on...[n][w][e]-##
 
-[msg MARGARET_2nd [Margaret]]
+[msg MARGARET_2nd [Маргарет]]
 [s][bup 75 161 0 0]Я все еще хочу увидеть твою силу.[n][w][e]
 ##-[s][bup 75 161 0 0]I still want to see your power.[n][w][e]-##
-[s]Я открыл все двери. Введите тот, который вы[n]хотите.[n][w][e]
+[s]Я открыла все двери. Введите тот, который вы[n]хотите.[n][w][e]
 ##-[s]I've opened all the doors.[n]Enter whichever one you want.[n][w][e]-##
 [s]Конечно, я не даю никаких обещаний, что ты[n]выберешься оттуда живым...[n][w][e]
 ##-[s]Of course, I make no promises that[n]you'll make it out alive...[n][w][e]-##
 
-[msg MARGARET_3rd [Margaret]]
+[msg MARGARET_3rd [Маргарет]]
 [s][bup 75 161 0 0]Твоя сила - это нечто. Но осталось еще[n]кое-что.[n][w][e]
 ##-[s][bup 75 161 0 0]Your power is quite something.[n]But there is still more left.[n][w][e]-##
 
-[msg MARGARET_4th [Margaret]]
+[msg MARGARET_4th [Маргарет]]
 [s][bup 75 161 0 0]Вас ждет еще много сражений.[n][w][e]
 ##-[s][bup 75 161 0 0]Many more battles await you.[n][w][e]-##
 
-[msg MARGARET_5th [Margaret]]
+[msg MARGARET_5th [Маргарет]]
 [s][bup 75 161 0 0]У меня начинает заканчиваться терпение...[n]Ты еще не закончил?[n][w][e]
 ##-[s][bup 75 161 0 0]I'm beginning to run out of patience...[n]Aren't you finished yet?[n][w][e]-##
 
-[msg MARGARET_6th [Margaret]]
+[msg MARGARET_6th [Маргарет]]
 [s][bup 75 161 0 0]Еще одно испытание... О, я не могу[n]дождаться.[n][w][e]
 ##-[s][bup 75 161 0 0]One more test...[n]Oh, I can't wait.[n][w][e]-##
 [s]Ахаха, это весело...[n][w][e]
@@ -41,7 +41,7 @@
 ##-[s]This seems to be the door where[n]Margaret awaits...[n][w][e]-##
 
 [msg MARGARET_DOOR_HELP]
-[s]Маргарет ждет внутри. Вы можете создать[n]любую вечеринку, какую пожелаете.[n][w][e]
+[s]Маргарет ждет внутри. Вы можете создать[n]любую группу, какую пожелаете.[n][w][e]
 ##-[s]Margaret is waiting within.[n]You can create any party you[n]wish.[n][w][e]-##
 
 [msg MARGARET_DOOR_QUESTION]
@@ -50,15 +50,15 @@
 [s]> Вы уверены, что хотите войти?[n][w][e]
 ##-[s]> Are you sure you wish to enter?[n][w][e]-##
 
-[msg ELIZABETH_TALK [Elizabeth]]
+[msg ELIZABETH_TALK [Элизабет]]
 [s][bup 16 161 0 0]Моя сестра вернулась домой, но выглядела[n]очень довольной.[n][w][e]
 ##-[s][bup 16 161 0 0]My sister went back home, but she[n]looked very satisfied.[n][w][e]-##
 [s]С этого момента я буду управлять этим[n]местом.[n][w][e]
 ##-[s]I will be managing this place[n]from now on.[n][w][e]-##
-[s]Я рад быть вам полезным...[n][w][e]
+[s]Я рада быть вам полезным...[n][w][e]
 ##-[s]I am pleased to be of service...[n][w][e]-##
 
-[msg THEO_TALK [Theo]]
+[msg THEO_TALK [Тео]]
 [s][bup 55 161 0 0]Моя сестра ушла домой.[n][w][e]
 ##-[s][bup 55 161 0 0]My sister went home.[n][w][e]-##
 [s]Кажется, она была очень рада возможности[n]увидеть тебя...[n][w][e]
