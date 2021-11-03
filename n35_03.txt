@@ -1,7 +1,7 @@
 [sel TALK_SEL top]
-[s]Добавьте в свою вечеринку[e]
+[s]Добавьте в свою группу[e]
 ##-[s]Add to your party[e]-##
-[s]Удалить с вашей вечеринки[e]
+[s]Удалить с вашей группы[e]
 ##-[s]Remove from your party[e]-##
 [s]Сделано[e]
 ##-[s]Done[e]-##
@@ -32,113 +32,113 @@
 [s]Сделано[e]
 ##-[s]Done[e]-##
 
-[msg YUKARI_PARTY_IN [Yukari]]
+[msg YUKARI_PARTY_IN [Юкари]]
 [s][bup 2 204 0 0]Здесь жутко...[n][w][e]
 ##-[s][bup 2 204 0 0]It's creepy here...[n][w][e]-##
 
-[msg YUKARI_PARTY_IN_AFTER [Yukari]]
+[msg YUKARI_PARTY_IN_AFTER [Юкари]]
 [s][bup 2 204 0 0]Ладно, поехали.[n][w][e]
 ##-[s][bup 2 204 0 0]Okay, let's go.[n][w][e]-##
 
-[msg YUKARI_PARTY_OUT [Yukari]]
+[msg YUKARI_PARTY_OUT [Юкари]]
 [s][bup 2 201 0 0]Мы должны поторопиться![n][w][e]
 ##-[s][bup 2 201 0 0]We have to hurry![n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_AFTER [Yukari]]
+[msg YUKARI_PARTY_OUT_AFTER [Юкари]]
 [s][bup 2 204 0 0]Хорошо. Будь осторожен...[n][w][e]
 ##-[s][bup 2 204 0 0]Okay. Be careful...[n][w][e]-##
 
-[msg YUKARI_PARTY_OVER [Yukari]]
-[s][bup 2 201 0 0]...Вечеринка уже переполнена.[n][w][e]
+[msg YUKARI_PARTY_OVER [Юкари]]
+[s][bup 2 201 0 0]...Группа уже переполнена.[n][w][e]
 ##-[s][bup 2 201 0 0]...The party's already full.[n][w][e]-##
 
-[msg YUKARI_PARTY_CHANGE [Yukari]]
+[msg YUKARI_PARTY_CHANGE [Юкари]]
 [s][bup 2 201 0 0]Чье место я должен занять?[n][w][e]
 ##-[s][bup 2 201 0 0]Whose place should I take?[n][w][e]-##
 
-[msg AEGIS_PARTY_IN [Aigis]]
+[msg AEGIS_PARTY_IN [Айгис]]
 [s][bup 3 201 0 0]Этот объект заброшен. Я не чувствую никаких[n]живых существ.[n][w][e]
 ##-[s][bup 3 201 0 0]This facility is abandoned. I do not[n]sense any living creatures.[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_AFTER [Aigis]]
+[msg AEGIS_PARTY_IN_AFTER [Айгис]]
 [s][bup 3 201 0 0]Вас понял.[n][w][e]
 ##-[s][bup 3 201 0 0]Roger that.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT [Aigis]]
+[msg AEGIS_PARTY_OUT [Айгис]]
 [s][bup 3 201 0 0]Эту дверь можно разрушить. Однако есть[n]вероятность, что весь объект рухнет.[n][w][e]
 ##-[s][bup 3 201 0 0]It is possible to destroy that door.[n]However, there is a chance that the[n]whole facility will collapse.[n][w][e]-##
 [s]Я отказываюсь подвергать всех опасности.[n][w][e]
 ##-[s]I refuse to put everyone in danger.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_AFTER [Aigis]]
+[msg AEGIS_PARTY_OUT_AFTER [Айгис]]
 [s][bup 3 201 0 0]...Понял.[n][w][e]
 ##-[s][bup 3 201 0 0]...Understood.[n][w][e]-##
 
-[msg AEGIS_PARTY_OVER [Aigis]]
-[s][bup 3 201 0 0]Вечеринка переполнена.[n][w][e]
+[msg AEGIS_PARTY_OVER [Айгис]]
+[s][bup 3 201 0 0]Группа переполнена.[n][w][e]
 ##-[s][bup 3 201 0 0]The party is full.[n][w][e]-##
 
-[msg AEGIS_PARTY_CHANGE [Aigis]]
-[s][bup 3 201 0 0]...Кого я должен заменить?[n][w][e]
+[msg AEGIS_PARTY_CHANGE [Айгис]]
+[s][bup 3 201 0 0]...Кого я должна заменить?[n][w][e]
 ##-[s][bup 3 201 0 0]...Who shall I replace?[n][w][e]-##
 
-[msg MITSURU_PARTY_IN [Mitsuru]]
+[msg MITSURU_PARTY_IN [Мицуру]]
 [s][bup 4 201 0 0]В данный момент мы ничего не можем поделать[n]с тем, чтобы оказаться в ловушке. Давайте[n]сначала победим Тень.[n][w][e]
 ##-[s][bup 4 201 0 0]At the moment, we can't do anything[n]about being trapped. Let's defeat the[n]Shadow first.[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_AFTER [Mitsuru]]
+[msg MITSURU_PARTY_IN_AFTER [Мицуру]]
 [s][bup 4 201 0 0]Ладно, поехали.[n][w][e]
 ##-[s][bup 4 201 0 0]Alright, let's go.[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT [Mitsuru]]
+[msg MITSURU_PARTY_OUT [Мицуру]]
 [s][bup 4 201 0 0]Вместо того, чтобы беспокоиться о том, как[n]выбраться отсюда...[n][w][e]
 ##-[s][bup 4 201 0 0]Rather than worrying about how to get[n]out of here...[n][w][e]-##
 [s]...давайте сосредоточимся на победе над[n]Тенью.[n][w][e]
 ##-[s]...let's concentrate on defeating[n]the Shadow.[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_AFTER [Mitsuru]]
+[msg MITSURU_PARTY_OUT_AFTER [Мицуру]]
 [s][bup 4 204 0 0]Хорошо... Будь осторожен.[n][w][e]
 ##-[s][bup 4 204 0 0]Okay... Be careful.[n][w][e]-##
 
-[msg MITSURU_PARTY_OVER [Mitsuru]]
-[s][bup 4 201 0 0]...Вечеринка переполнена, не так ли?[n][w][e]
+[msg MITSURU_PARTY_OVER [Мицуру]]
+[s][bup 4 201 0 0]...Группа переполнена, не так ли?[n][w][e]
 ##-[s][bup 4 201 0 0]...The party is full, n'est pas?[n][w][e]-##
 
-[msg MITSURU_PARTY_CHANGE [Mitsuru]]
+[msg MITSURU_PARTY_CHANGE [Мицуру]]
 [s][bup 4 201 0 0]Кого я должен заменить?[n][w][e]
 ##-[s][bup 4 201 0 0]Who should I replace?[n][w][e]-##
 
-[msg JUNPEI_PARTY_IN [Junpei]]
+[msg JUNPEI_PARTY_IN [Джупей]]
 [s][bup 5 201 0 0]Даже если мы победим Тень, сможем ли мы[n]выбраться отсюда?[n][w][e]
 ##-[s][bup 5 201 0 0]Even if we defeat the Shadow, are we[n]gonna be able to get out of here?[n][w][e]-##
 [s]На самом деле меня больше беспокоит это...[n][w][e]
 ##-[s]I'm more worried about that, actually...[n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_AFTER [Junpei]]
+[msg JUNPEI_PARTY_IN_AFTER [Джупей]]
 [s][bup 5 201 0 0]Хорошо.[n][w][e]
 ##-[s][bup 5 201 0 0]Alright.[n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT [Junpei]]
+[msg JUNPEI_PARTY_OUT [Джупей]]
 [s][bup 5 201 0 0]Ч-Что? Я в полном восторге![n][w][e]
 ##-[s][bup 5 201 0 0]Wh-What? I'm totally psyched![n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_AFTER [Junpei]]
+[msg JUNPEI_PARTY_OUT_AFTER [Джупей]]
 [s][bup 5 204 0 0]...Хорошо.[n][w][e]
 ##-[s][bup 5 204 0 0]...Alright.[n][w][e]-##
 
-[msg JUNPEI_PARTY_OVER [Junpei]]
+[msg JUNPEI_PARTY_OVER [Джупей]]
 [s][bup 5 201 0 0]Эй, здесь нет места для меня, чтобы[n]присоединиться![n][w][e]
 ##-[s][bup 5 201 0 0]Hey, there's no room for me to join![n][w][e]-##
 
-[msg JUNPEI_PARTY_CHANGE [Junpei]]
+[msg JUNPEI_PARTY_CHANGE [Джупей]]
 [s][bup 5 201 0 0]С кем мне следует поменяться?[n][w][e]
 ##-[s][bup 5 201 0 0]Who should I switch with?[n][w][e]-##
 
-[msg HUKA_BACK_UP [Fuuka]]
+[msg HUKA_BACK_UP [Фука]]
 [s][bup 6 201 0 0]Я останусь здесь наготове вместе с[n]остальными участниками.[n][w][e]
 ##-[s][bup 6 201 0 0]I'll stay on standby here with the rest[n]of the members.[n][w][e]-##
 
-[msg HUKA_ANALYSIS [Fuuka]]
+[msg HUKA_ANALYSIS [Фука]]
 [s][bup 6 201 0 0]Я чувствую мощную Тень под тобой...[n][w][e]
 ##-[s][bup 6 201 0 0]I sense a powerful Shadow below you...[n][w][e]-##
 [s]Это недалеко отсюда, но...[n][w][e]
@@ -146,70 +146,70 @@
 [s]В этой Тени есть что-то особенное по[n]сравнению с другими, с которыми мы[n]сражались. Пожалуйста, будь осторожен.[n][w][e]
 ##-[s]There's something different about[n]this Shadow compared to the others[n]we've fought. Please be careful.[n][w][e]-##
 
-[msg SANADA_PARTY_IN [Akihiko]]
+[msg SANADA_PARTY_IN [Акихико]]
 [s][bup 7 201 0 0]Итак, мы заперты в клетке с Тенью...[n][w][e]
 ##-[s][bup 7 201 0 0]So, we're trapped in a cage with[n]the Shadow...[n][w][e]-##
 [s]...Это должно быть интересно![n][w][e]
 ##-[s]...This should be interesting![n][w][e]-##
 
-[msg SANADA_PARTY_IN_AFTER [Akihiko]]
+[msg SANADA_PARTY_IN_AFTER [Акихико]]
 [s][bup 7 201 0 0]Ладно, поехали.[n][w][e]
 ##-[s][bup 7 201 0 0]Alright, let's go.[n][w][e]-##
 
-[msg SANADA_PARTY_OUT [Akihiko]]
+[msg SANADA_PARTY_OUT [Акихико]]
 [s][bup 7 201 0 0]Чего ты ждешь? Пойдем.[n][w][e]
 ##-[s][bup 7 201 0 0]What are you waiting for? Let's go.[n][w][e]-##
 
-[msg SANADA_PARTY_OUT_AFTER [Akihiko]]
+[msg SANADA_PARTY_OUT_AFTER [Акихико]]
 [s][bup 7 201 0 0]...Тч, хорошо.[n][w][e]
 ##-[s][bup 7 201 0 0]...Tch, fine.[n][w][e]-##
 
-[msg SANADA_PARTY_OVER [Akihiko]]
-[s][bup 7 201 0 0]Вечеринка уже переполнена...[n][w][e]
+[msg SANADA_PARTY_OVER [Акихико]]
+[s][bup 7 201 0 0]Группа уже переполнена...[n][w][e]
 ##-[s][bup 7 201 0 0]The party is already full...[n][w][e]-##
 
-[msg SANADA_PARTY_CHANGE [Akihiko]]
+[msg SANADA_PARTY_CHANGE [Акихико]]
 [s][bup 7 201 0 0]С кем мне следует поменяться?[n][w][e]
 ##-[s][bup 7 201 0 0]Who should I switch with?[n][w][e]-##
 
-[msg YUKARI_EQUIP_TRANSFER [Yukari]]
+[msg YUKARI_EQUIP_TRANSFER [Юкари]]
 [s][bup 2 201 0 0]Спасибо.[n][w][e]
 ##-[s][bup 2 201 0 0]Thanks.[n][w][e]-##
 
-[msg AEGIS_EQUIP_TRANSFER [Aigis]]
+[msg AEGIS_EQUIP_TRANSFER [Айгис]]
 [s][bup 3 201 0 0]Спасибо.[n][w][e]
 ##-[s][bup 3 201 0 0]Thank you.[n][w][e]-##
 
-[msg MITSURU_EQUIP_TRANSFER [Mitsuru]]
+[msg MITSURU_EQUIP_TRANSFER [Мицуру]]
 [s][bup 4 201 0 0]Спасибо. Я ценю это.[n][w][e]
 ##-[s][bup 4 201 0 0]Thank you. I appreciate it.[n][w][e]-##
 
-[msg JUNPEI_EQUIP_TRANSFER [Junpei]]
+[msg JUNPEI_EQUIP_TRANSFER [Джупей]]
 [s][bup 5 201 0 0]Милая! Спасибо.[n][w][e]
 ##-[s][bup 5 201 0 0]Sweet! Thanks.[n][w][e]-##
 
-[msg SANADA_EQUIP_TRANSFER [Akihiko]]
+[msg SANADA_EQUIP_TRANSFER [Акихико]]
 [s][bup 7 201 0 0]Хм? Спасибо.[n][w][e]
 ##-[s][bup 7 201 0 0]Hm? Thanks.[n][w][e]-##
 
-[msg YUKARI_GRADE_UP [Yukari]]
-[s][bup 2 201 0 0]К твоему СВЕДЕНИЮ, я сменил свое[n]оборудование.[n][w][e]
+[msg YUKARI_GRADE_UP [Юкари]]
+[s][bup 2 201 0 0]К твоему СВЕДЕНИЮ, я сменила свое[n]снаряжение.[n][w][e]
 ##-[s][bup 2 201 0 0]FYI--I've changed my equipment.[n][w][e]-##
 
-[msg AEGIS_GRADE_UP [Aigis]]
-[s][bup 3 201 0 0]Я сменил свое снаряжение. Я подумал, что вы[n]хотели бы знать.[n][w][e]
+[msg AEGIS_GRADE_UP [Айгис]]
+[s][bup 3 201 0 0]Я сменила свое снаряжение. Я подумал, что вы[n]хотели бы знать.[n][w][e]
 ##-[s][bup 3 201 0 0]I have changed my equipment.[n]I thought you would like to know.[n][w][e]-##
 
-[msg MITSURU_GRADE_UP [Mitsuru]]
-[s][bup 4 201 0 0]К вашему сведению, я сменил свое[n]оборудование.[n][w][e]
+[msg MITSURU_GRADE_UP [Мицуру]]
+[s][bup 4 201 0 0]К твоему сведению, я сменила свое[n]снаряжение.[n][w][e]
 ##-[s][bup 4 201 0 0]For your information, I have changed[n]my equipment.[n][w][e]-##
 
-[msg JUNPEI_GRADE_UP [Junpei]]
+[msg JUNPEI_GRADE_UP [Джупей]]
 [s][bup 5 201 0 0]Я только что сменил снаряжение, чувак.[n][w][e]
 ##-[s][bup 5 201 0 0]I just changed my equipment, dude.[n][w][e]-##
 
-[msg SANADA_GRADE_UP [Akihiko]]
-[s][bup 7 201 0 0]Просто чтобы ты знал, я сменил свое[n]оборудование.[n][w][e]
+[msg SANADA_GRADE_UP [Акихико]]
+[s][bup 7 201 0 0]Просто чтобы ты знал, я сменил свое[n]снаряжение.[n][w][e]
 ##-[s][bup 7 201 0 0]Just so you know, I changed my[n]equipment.[n][w][e]-##
 
 [msg YUKARI_EQUIP_REACTION [右宇 ゆЗり]]
@@ -302,24 +302,24 @@
 [s][bup 7 202 0 0]…ёЪ? 芥И営ЗЖЗУё厩遠ЯЫЗ?[n][w][e]
 ##-[s][bup 7 202 0 0]…ёんЪ?[n]芥И営ЗЖЗУё厩を遠ЯЫЗ?[n][w][e]-##
 
-[msg YUKARI_GRADE_UP_TRANSFER [Yukari]]
+[msg YUKARI_GRADE_UP_TRANSFER [Юкари]]
 [s][bup 2 201 0 0]Я верну то, что ты дал мне раньше.[n][w][e]
 ##-[s][bup 2 201 0 0]I'll return the stuff you gave[n]me before.[n][w][e]-##
 
-[msg AEGIS_GRADE_UP_TRANSFER [Aigis]]
+[msg AEGIS_GRADE_UP_TRANSFER [Айгис]]
 [s][bup 3 201 0 0]Я верну то, что взял взаймы.[n][w][e]
 ##-[s][bup 3 201 0 0]I will return what I had[n]borrowed.[n][w][e]-##
 
-[msg MITSURU_GRADE_UP_TRANSFE [Mitsuru]]
-[s][bup 4 201 0 0]Я верну оборудование, которое вы мне дали.[n][w][e]
+[msg MITSURU_GRADE_UP_TRANSFE [Мицуру]]
+[s][bup 4 201 0 0]Я верну снаряжение, которое вы мне дали.[n][w][e]
 ##-[s][bup 4 201 0 0]I'll return the equipment you[n]gave me.[n][w][e]-##
 
-[msg JUNPEI_GRADE_UP_TRANSFER [Junpei]]
+[msg JUNPEI_GRADE_UP_TRANSFER [Джупей]]
 [s][bup 5 201 0 0]О да, у меня есть то, что ты мне одолжил.[n][w][e]
 ##-[s][bup 5 201 0 0]Oh yeah, I've got that stuff[n]you loaned me.[n][w][e]-##
 
-[msg SANADA_GRADE_UP_TRANSFER [Akihiko]]
-[s][bup 7 201 0 0]Я верну оборудование, которое вы мне дали.[n][w][e]
+[msg SANADA_GRADE_UP_TRANSFER [Акихико]]
+[s][bup 7 201 0 0]Я верну снаряжение, которое вы мне дали.[n][w][e]
 ##-[s][bup 7 201 0 0]I'll return the equipment[n]you gave me.[n][w][e]-##
 
 [msg ITEM_TRANSFER_TO_PLAYER_]

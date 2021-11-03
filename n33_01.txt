@@ -1,10 +1,10 @@
-[msg MITURU_M_01 [Mitsuru]]
+[msg MITURU_M_01 [Мицуру]]
 [s][bup 4 81 0 0]Разве это не милое место?..[n][w][e]
 ##-[s][bup 4 81 0 0]Isn't this place nice...?[n][w][e]-##
-[s][bup 4 82 0 0]Я часто приходил сюда, когда был молодым,[n]но не помню, чтобы это выглядело так.[n][w][e]
+[s][bup 4 82 0 0]Я часто приходила сюда, когда была маленькой,[n]но не помню, чтобы это выглядело так.[n][w][e]
 ##-[s][bup 4 82 0 0]I came here often when I was young,[n]but I don't remember it looking[n]quite like this.[n][w][e]-##
 
-[msg SANADA_M_01 [Akihiko]]
+[msg SANADA_M_01 [Акихико]]
 [s][bup 7 82 0 0]Кажется, всем весело... Я полагаю, это[n]хорошо.[n][w][e]
 ##-[s][bup 7 82 0 0]Everyone seems to be having fun...[n]That's a good thing, I suppose.[n][w][e]-##
 [s][bup 7 81 0 0]Наши операции в Темное Время суток создают[n]для нас большой стресс. Тебе следует[n]немного расслабиться и отдохнуть.[n][w][e]
@@ -15,7 +15,7 @@
 [sel SAVE_SEL top]
 [s]Сохранить[e]
 ##-[s]Save[e]-##
-[s]Возвращаться[e]
+[s]Вернутся[e]
 ##-[s]Go back[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -26,57 +26,57 @@
 [s]Нет[e]
 ##-[s]No[e]-##
 
-[msg SANADA_M_02 [Akihiko]]
+[msg SANADA_M_02 [Акихико]]
 [s][bup 7 81 0 0]Что? Уезжаешь так скоро?[n][w][e]
 ##-[s][bup 7 81 0 0]What? Leaving so soon?[n][w][e]-##
 
-[msg SANADA_M_02_01 [Akihiko]]
+[msg SANADA_M_02_01 [Акихико]]
 [s][bup 7 81 0 0]Мы собираемся остаться здесь еще на[n]некоторое время.[n][w][e]
 ##-[s][bup 7 81 0 0]We're going to stay here for[n]a little while longer.[n][w][e]-##
 [s]Увидимся позже.[n][w][e]
 ##-[s]I'll see you later.[n][w][e]-##
 
-[msg HUUKA_M_01 [Fuuka]]
+[msg HUUKA_M_01 [Фука]]
 [s][bup 6 84 0 0][f 4 2]- сааан! Хи-хи-хи! Дзюнпей-кун - это...[n]Ииик![n][w][e]
 ##-[s][bup 6 84 0 0][f 4 2]-saaan! Heeelp![n]Junpei-kun is--Eeeek![n][w][e]-##
 
-[msg HUUKA_M_01_G [Fuuka]]
+[msg HUUKA_M_01_G [Фука]]
 [s][bup 6 84 0 0][f 4 2]- чааан! Хи-хи-хи! Дзюнпей-кун - это...[n]Ииик![n][w][e]
 ##-[s][bup 6 84 0 0][f 4 2]-chaaan! Heeelp![n]Junpei-kun is--Eeeek![n][w][e]-##
 
-[msg JUNPEI_M_01 [Junpei]]
+[msg JUNPEI_M_01 [Джунпей]]
 [s][bup 5 82 0 0]Хехехех! Вам это нравится? Тебе это[n]нравится, да?[n][w][e]
 ##-[s][bup 5 82 0 0]Heheheh! You like it?[n]You like that, huh?[n][w][e]-##
 [s]Никто не может устоять перед брызгающимися[n]девушками на пляже! Хе-хе, я плесну на тебя[n]еще воды, уууу![n][w][e]
 ##-[s]No one can resist splashing girls[n]at the beach! Heheh, I'm gonna[n]splash more water on youuuu![n][w][e]-##
 
-[msg YUKARI_M_01 [Yukari]]
+[msg YUKARI_M_01 [Юкари]]
 [s][bup 2 83 0 0]Ты...! Эй, ты заплатишь за это! Возьми это![n][w][e]
 ##-[s][bup 2 83 0 0]You--! H-Hey, you're gonna pay[n]for that! Take this![n][w][e]-##
 
-[msg YUKARI_M_02 [Yukari]]
+[msg YUKARI_M_02 [Юкари]]
 [s][bup 2 83 0 0]Тьфу... Это такое милое место... Почему[n]Ступей должен быть здесь и все портить?[n][w][e]
 ##-[s][bup 2 83 0 0]Argh... This is such a nice place...[n]Why does Stupei have to be here and[n]spoil it all?[n][w][e]-##
 
-[msg JYUNPEI_M_02 [Junpei]]
+[msg JYUNPEI_M_02 [Джунпей]]
 [s][bup 5 82 0 0]С-спасибо, Мицуру-семпай! БОЛЬШОЕ вам[n]СПАСИБО! Я мог бы умереть прямо сейчас без[n]сожалений![n][w][e]
 ##-[s][bup 5 82 0 0]Th-Thank you, Mitsuru-senpai![n]Thank you SO MUCH! I could die[n]right now with no regrets![n][w][e]-##
 
-[msg JYUNPEI_M_03 [Junpei]]
+[msg JYUNPEI_M_03 [Джунпей]]
 [s][bup 5 83 0 0]Чувак! Тебе лучше поймать ее и извиниться![n]Убедитесь, что вы тоже привезете ее сюда...[n][w][e]
 ##-[s][bup 5 83 0 0]Dude! You better catch her and[n]apologize! Make sure you bring her[n]back here, too...[n][w][e]-##
 
-[msg SANADA_M_03 [Akihiko]]
+[msg SANADA_M_03 [Акихико]]
 [s][bup 7 81 0 0]Этот стиль бега казался странным... Я не[n]знаю, что ты сделал, но тебе лучше[n]поговорить с ней.[n][w][e]
 ##-[s][bup 7 81 0 0]That style of running seemed strange...[n]I don't know what you did, but you'd[n]better talk to her.[n][w][e]-##
 
-[msg MSG_NANPA_01_000 [Junpei]]
+[msg MSG_NANPA_01_000 [Джунпей]]
 [s][bup 5 82 0 1]Гудок... Гудок... БИП! Цель подтверждена![n][w][e]
 ##-[s][bup 5 82 0 1]Beep... Beep... BEEP![n]Target confirmed![n][w][e]-##
 [s]Давайте приступим к убийству![n][w][e]
 ##-[s]Let's move in for the kill![n][w][e]-##
 
-[msg MSG_NANPA_01_001 [Junpei]]
+[msg MSG_NANPA_01_001 [Джунпей]]
 [s][bup 5 81 0 1]Это моя область знаний, так что слушайте[n]внимательно...[n][w][e]
 ##-[s][bup 5 81 0 1]This is my area of expertise,[n]so listen up...[n][w][e]-##
 [s]Во-первых, подумайте о чем-нибудь, о чем[n]можно было бы поговорить - о чем-то, что[n]могло бы их заинтересовать.[n][w][e]
@@ -84,7 +84,7 @@
 [s]Задайте им простой вопрос, чтобы заставить[n]мяч катиться. Это золотое правило.[n][w][e]
 ##-[s]Give them an easy question to get[n]the ball rollin'. That's the golden rule.[n][w][e]-##
 
-[msg MSG_NANPA_01_002 [Junpei]]
+[msg MSG_NANPA_01_002 [Джунпей]]
 [s][bup 5 81 0 1]Что-то вроде "Откуда ты?" или "Веселишься?"[n][w][e]
 ##-[s][bup 5 81 0 1]Somethin' like, "Where're you from?"[n]or "Havin' fun?"[n][w][e]-##
 [s]Довольно скоро ты будешь перебрасываться[n]вопросами и ответами туда-сюда, как будто[n]играешь в мяч.[n][w][e]
@@ -94,7 +94,7 @@
 [s]...Поехали.[n][w][e]
 ##-[s]...Here we go.[n][w][e]-##
 
-[msg MSG_NANPA_01_003 [Junpei]]
+[msg MSG_NANPA_01_003 [Джунпей]]
 [s][bup 5 82 0 1]Эй, дамы![n][w][e]
 ##-[s][bup 5 82 0 1]Hey, ladies![n][w][e]-##
 
@@ -104,43 +104,43 @@
 [s]"Веселишься?"[e]
 ##-[s]"Havin' fun?"[e]-##
 
-[msg MSG_NANPA_01_005 [Girl in Green]]
+[msg MSG_NANPA_01_005 [Девушка в зеленом]]
 [s][bup 72 161 0 3]...Не твое дело.[n][w][e]
 ##-[s][bup 72 161 0 3]...None of your business.[n][w][e]-##
 
-[msg MSG_NANPA_01_006 [Girl in Green]]
+[msg MSG_NANPA_01_006 [Девушка в зеленом]]
 [s][bup 72 161 0 3]...Не твое дело.[n][w][e]
 ##-[s][bup 72 161 0 3]...None of your business.[n][w][e]-##
 
-[msg MSG_NANPA_01_007 [Junpei]]
+[msg MSG_NANPA_01_007 [Джунпей]]
 [s][bup 5 81 0 1]Эй, не нужно стесняться...[n][w][e]
 ##-[s][bup 5 81 0 1]Hey, no need to be shy...[n][w][e]-##
 [s]Мы не кусаемся.[n][w][e]
 ##-[s]We don't bite.[n][w][e]-##
 
-[msg MSG_NANPA_01_008 [Girl in Orange]]
+[msg MSG_NANPA_01_008 [Девушка в оранжевом]]
 [s][bup 73 161 0 3]Почему мы должны вам говорить?[n][w][e]
 ##-[s][bup 73 161 0 3]Why should we tell you?[n][w][e]-##
 
-[msg MSG_NANPA_01_009 [Junpei]]
+[msg MSG_NANPA_01_009 [Джунпей]]
 [s][bup 5 81 0 1]Давай, сделай нам поблажку...[n][w][e]
 ##-[s][bup 5 81 0 1]Come on, cut us some slack...[n][w][e]-##
 [s]Мы просто хотим поговорить.[n][w][e]
 ##-[s]We just wanna talk.[n][w][e]-##
 
-[msg MSG_NANPA_01_010 [Akihiko]]
+[msg MSG_NANPA_01_010 [Акихико]]
 [s][bup 7 81 0 3]Я думал, ты сказал, что ты эксперт...[n][w][e]
 ##-[s][bup 7 81 0 3]I thought you said you were an expert...[n][w][e]-##
 
-[msg MSG_NANPA_01_011 [Junpei]]
+[msg MSG_NANPA_01_011 [Джунпей]]
 [s][bup 5 81 0 1]Придержи лошадей... Я просто разогреваюсь.[n]Смотри и учись...[n][w][e]
 ##-[s][bup 5 81 0 1]Hold your horses... I'm just getting[n]warmed up. Watch and learn...[n][w][e]-##
 
-[msg MSG_NANPA_01_012 [Junpei]]
+[msg MSG_NANPA_01_012 [Джунпей]]
 [s][bup 5 82 0 1]Итак, дамы, вы учитесь в колледже?[n][w][e]
 ##-[s][bup 5 82 0 1]So, ladies, are you in college?[n][w][e]-##
 
-[msg MSG_NANPA_01_013 [Girl in Orange]]
+[msg MSG_NANPA_01_013 [Девушка в оранжевом]]
 [s][bup 73 161 0 0]Ммм...[n][w][e]
 ##-[s][bup 73 161 0 0]Umm...[n][w][e]-##
 [s]Только не говорите мне, что вы, ребята, все[n]еще учитесь в средней школе...[n][w][e]
@@ -152,41 +152,41 @@
 [s]"Нет. Не мы."[e]
 ##-[s]"Nope. Not us."[e]-##
 
-[msg MSG_NANPA_01_015 [Girl in Green]]
+[msg MSG_NANPA_01_015 [Девушка в зеленом]]
 [s][bup 72 161 0 3]Старшеклассники отдыхают в Якусиме? Это[n]меня немного бесит.[n][w][e]
 ##-[s][bup 72 161 0 3]High school kids vacationing in[n]Yakushima? That kind of pisses[n]me off.[n][w][e]-##
 
-[msg MSG_NANPA_01_016 [Girl in Green]]
+[msg MSG_NANPA_01_016 [Девушка в зеленом]]
 [s][bup 72 161 0 3]...Серьезно? Отсюда вы точно выглядите как[n]старшеклассники.[n][w][e]
 ##-[s][bup 72 161 0 3]...Seriously? You sure look like[n]high schoolers from here.[n][w][e]-##
 
-[msg MSG_NANPA_01_017 [Junpei]]
+[msg MSG_NANPA_01_017 [Джунпей]]
 [s][bup 5 84 0 1]*кашель* С-Извините, это ложь.[n][w][e]
 ##-[s][bup 5 84 0 1]*cough* S-Sorry, that's a lie.[n][w][e]-##
 
-[msg MSG_NANPA_01_018 [Girl in Green]]
+[msg MSG_NANPA_01_018 [Девушка в зеленом]]
 [s][bup 72 161 0 3]О, неужели?[n][w][e]
 ##-[s][bup 72 161 0 3]Oh, really?[n][w][e]-##
 [s]Старшеклассники отдыхают в Якусиме? Это[n]меня немного бесит.[n][w][e]
 ##-[s]High school kids vacationing in[n]Yakushima? That kind of pisses[n]me off.[n][w][e]-##
 
-[msg MSG_NANPA_01_019 [Akihiko]]
+[msg MSG_NANPA_01_019 [Акихико]]
 [s][bup 7 81 0 1]Ну, нас пригласили в загородный дом нашего[n]друга...[n][w][e]
 ##-[s][bup 7 81 0 1]Well, we were invited to our friend's[n]vacation home...[n][w][e]-##
 [s]Довольно круто, да?[n][w][e]
 ##-[s]Pretty cool, huh?[n][w][e]-##
 
-[msg MSG_NANPA_01_020 [Girl in Orange]]
+[msg MSG_NANPA_01_020 [Девушка в оранжевом]]
 [s][bup 73 161 0 3]Хорошо для твоего друга.[n][w][e]
 ##-[s][bup 73 161 0 3]Good for your friend.[n][w][e]-##
 [s]Мы, с другой стороны, должны платить за наш[n]отпуск своими с трудом заработанными[n]деньгами.[n][w][e]
 ##-[s]We, on the other hand, have to pay[n]for our vacation with our hard-earned[n]money.[n][w][e]-##
 
-[msg MSG_NANPA_01_021 [Junpei]]
+[msg MSG_NANPA_01_021 [Джунпей]]
 [s][bup 5 81 0 1]Я думаю, нам просто повезло...[n][w][e]
 ##-[s][bup 5 81 0 1]I guess we're just lucky...[n][w][e]-##
 
-[msg MSG_NANPA_01_022 [Girl in Orange]]
+[msg MSG_NANPA_01_022 [Девушка в оранжевом]]
 [s][bup 73 161 0 3]Да, тебе повезло.[n][w][e]
 ##-[s][bup 73 161 0 3]Yeah, lucky you.[n][w][e]-##
 [s]...Чего ты вообще хочешь?[n][w][e]
@@ -198,29 +198,29 @@
 [s]"Мы пришли, чтобы приударить за тобой".[e]
 ##-[s]"We came to hit on you."[e]-##
 
-[msg MSG_NANPA_01_024 [Girl in Green]]
+[msg MSG_NANPA_01_024 [Девушка в зеленом]]
 [s][bup 72 161 0 3]Затем отправляйтесь в поход.[n][w][e]
 ##-[s][bup 72 161 0 3]Then, take a hike.[n][w][e]-##
 
-[msg MSG_NANPA_01_025 [Girl in Green]]
+[msg MSG_NANPA_01_025 [Девушка в зеленом]]
 [s][bup 72 161 0 3]А? Ха-ха-ха, ты довольно смелый...[n][w][e]
 ##-[s][bup 72 161 0 3]Huh? Hahaha, you're pretty bold...[n][w][e]-##
 
-[msg MSG_NANPA_01_026 [Girl in Orange]]
+[msg MSG_NANPA_01_026 [Девушка в оранжевом]]
 [s][bup 73 161 0 3]Эй, перестань делать им комплименты и[n]просто игнорируй их...[n][w][e]
 ##-[s][bup 73 161 0 3]Hey, stop giving them compliments[n]and just ignore 'em...[n][w][e]-##
 
-[msg MSG_NANPA_01_027 [Junpei]]
+[msg MSG_NANPA_01_027 [Джунпей]]
 [s][bup 5 82 0 1]П-Подожди, не делай этого![n][w][e]
 ##-[s][bup 5 82 0 1]W-Wait, don't do that![n][w][e]-##
 [s]Как вы можете винить нас за то, что мы[n]хотим поговорить с такими красивыми[n]женщинами?[n][w][e]
 ##-[s]How can you blame us for wanting[n]to talk to such beautiful women?[n][w][e]-##
 
-[msg MSG_NANPA_01_028 [Girl in Orange]]
+[msg MSG_NANPA_01_028 [Девушка в оранжевом]]
 [s][bup 73 161 0 3]*вздох* Эти парни полны дерьма.[n][w][e]
 ##-[s][bup 73 161 0 3]*sigh* These guys are full of shit.[n][w][e]-##
 
-[msg MSG_NANPA_01_029 [Girl in Green]]
+[msg MSG_NANPA_01_029 [Девушка в зеленом]]
 [s][bup 72 161 0 3]Да, давай убираться отсюда.[n][w][e]
 ##-[s][bup 72 161 0 3]Yeah, let's get outta here.[n][w][e]-##
 
@@ -230,39 +230,39 @@
 [s]"Пока".[e]
 ##-[s]"Bye."[e]-##
 
-[msg MSG_NANPA_01_031 [Junpei]]
+[msg MSG_NANPA_01_031 [Джунпей]]
 [s][bup 5 82 0 1]Давай, дай нам шанс... Как насчет прогулки[n]по пляжу?[n][w][e]
 ##-[s][bup 5 82 0 1]Come on, give us a chance...[n]How 'bout a walk on the beach?[n][w][e]-##
 
-[msg MSG_NANPA_01_032 [Girl in Orange]]
+[msg MSG_NANPA_01_032 [Девушка в оранжевом]]
 [s][bup 73 161 0 3]Ты раздражаешь.[n][w][e]
 ##-[s][bup 73 161 0 3]You're annoying.[n][w][e]-##
 
-[msg MSG_NANPA_01_033 [Girl in Orange]]
+[msg MSG_NANPA_01_033 [Девушка в оранжевом]]
 [s][bup 73 161 0 3]Увидимся, мальчики.[n][w][e]
 ##-[s][bup 73 161 0 3]See ya, boys.[n][w][e]-##
 
-[msg MSG_NANPA_01_034 [Akihiko]]
+[msg MSG_NANPA_01_034 [Акихико]]
 [s][bup 7 82 0 3]...Вот тебе и весь твой "опыт".[n][w][e]
 ##-[s][bup 7 82 0 3]...So much for your "expertise."[n][w][e]-##
 
-[msg MSG_NANPA_01_035 [Junpei]]
+[msg MSG_NANPA_01_035 [Джунпей]]
 [s][bup 5 83 0 1]Эй, я сделал все, что мог![n][w][e]
 ##-[s][bup 5 83 0 1]Hey, I did my best![n][w][e]-##
 [s]А как насчет тебя, Семпай!? Ты думаешь, что[n]можешь сделать лучше? Давай, покажи нам,[n]что у тебя есть.[n][w][e]
 ##-[s]What about you, Senpai!?[n]You think you can do better?[n]Come on, show us what you got.[n][w][e]-##
 
-[msg MSG_NANPA_01_036 [Akihiko]]
+[msg MSG_NANPA_01_036 [Акихико]]
 [s][bup 7 81 0 3]Ч-почему я должен это делать?[n][w][e]
 ##-[s][bup 7 81 0 3]Wh-Why should I?[n][w][e]-##
 
-[msg MSG_NANPA_01_037 [Junpei]]
+[msg MSG_NANPA_01_037 [Джунпей]]
 [s][bup 5 81 0 1]Ну, ты же должен быть мастером тактики,[n]верно?[n][w][e]
 ##-[s][bup 5 81 0 1]Well, you're supposed to be[n]a tactical master, right?[n][w][e]-##
 [s]И разве это не наш долг - помогать друг[n]другу добиваться успеха?[n][w][e]
 ##-[s]And, isn't it our duty to help each other[n]succeed?[n][w][e]-##
 
-[msg MSG_NANPA_01_038 [Akihiko]]
+[msg MSG_NANPA_01_038 [Акихико]]
 [s][bup 7 81 0 3]......[n][w][e]
 ##-[s][bup 7 81 0 3]......[n][w][e]-##
 [s]Я думаю, в этом ты прав.[n][w][e]
@@ -272,23 +272,23 @@
 [s]Не могли бы вы мне помочь,[n][f 4 2]?Я, конечно, буду задавать темп.[n][w][e]
 ##-[s]Can you give me a hand,[n][f 4 2]? I'll set the pace,[n]of course.[n][w][e]-##
 
-[msg MSG_NANPA_02_000 [Junpei]]
+[msg MSG_NANPA_02_000 [Джунпей]]
 [s][bup 5 82 0 1]Эй, командир, смотри! Там леди совсем одна![n][w][e]
 ##-[s][bup 5 82 0 1]Hey, Commander, look![n]There's a lady all alone![n][w][e]-##
 [s]Это значит, что она ждет, когда к ней[n]кто-нибудь приударит! Нам гарантирован[n]некоторый успех в этом деле![n][w][e]
 ##-[s]That means she's waiting for someone to[n]hit on her! We're guaranteed some[n]success with this one![n][w][e]-##
 
-[msg MSG_NANPA_02_001 [Woman in Revealing Bikini]]
-[s][bup 71 161 0 3]Привет, пирожки-милашки... Хехехе, я могу[n]вам помочь?[n][w][e]
+[msg MSG_NANPA_02_001 [Женщина в откровенном бикини]]
+[s][bup 71 161 0 3]Привет, милашки... Хехехе, я могу[n]вам помочь?[n][w][e]
 ##-[s][bup 71 161 0 3]Hey, cutie pies...[n]Hehehe, can I help you?[n][w][e]-##
 
-[msg MSG_NANPA_02_002 [Junpei]]
+[msg MSG_NANPA_02_002 [Джунпей]]
 [s][bup 5 85 0 1]Э-э-э, он... привет...[n][w][e]
 ##-[s][bup 5 85 0 1]Uhhh, he-hello...[n][w][e]-##
 [s]...Извините нас... Мы ищем туалет![n][w][e]
 ##-[s]...Excuse us... We're looking for the[n]restroom![n][w][e]-##
 
-[msg MSG_NANPA_02_003 [Junpei]]
+[msg MSG_NANPA_02_003 [Джунпей]]
 [s][bup 5 85 0 0]Он - Эй, [f 4 1]...[n][w][e]
 ##-[s][bup 5 85 0 0]He- Hey, [f 4 1]...[n][w][e]-##
 [s]Она довольно... старая... вблизи! [n][w][e]
@@ -300,63 +300,63 @@
 [s]Давай прекратим это[e]
 ##-[s]Let's stop this[e]-##
 
-[msg MSG_NANPA_02_005 [Woman of Questionable Age]]
+[msg MSG_NANPA_02_005 [Женщина сомнительного возраста]]
 [s][bup 71 161 0 3]Эй, о чем ты там шепчешь?[n][w][e]
 ##-[s][bup 71 161 0 3]Hey, what are you whispering about?[n][w][e]-##
 
-[msg MSG_NANPA_02_006 [Junpei]]
+[msg MSG_NANPA_02_006 [Джунпей]]
 [s][bup 5 85 0 1]Что?! О, эм...[n][w][e]
 ##-[s][bup 5 85 0 1]What!?[n]Oh, uh...[n][w][e]-##
 
-[msg MSG_NANPA_02_007 [Woman of Questionable Age]]
+[msg MSG_NANPA_02_007 [Женщина сомнительного возраста]]
 [s][bup 71 161 0 3]Вы, ребята, учитесь в средней школе, не так[n]ли?[n][w][e]
 ##-[s][bup 71 161 0 3]You guys are in high school, aren't you?[n][w][e]-##
 
-[msg MSG_NANPA_02_008 [Junpei]]
+[msg MSG_NANPA_02_008 [Джунпей]]
 [s][bup 5 85 0 1]Да-Да!!...У тебя хороший глаз![n][w][e]
 ##-[s][bup 5 85 0 1]Ye- Yes!![n]...You have a good eye![n][w][e]-##
 
-[msg MSG_NANPA_02_009 [Woman of Questionable Age]]
+[msg MSG_NANPA_02_009 [Женщина сомнительного возраста]]
 [s][bup 71 161 0 3]...Я ничего не могу с этим поделать. Моя[n]работа-[n][w][e]
 ##-[s][bup 71 161 0 3]...I can't help it. My job-[n][w][e]-##
 [s]Ну, это не важно.  Вы, ребята, хотите[n]немного повеселиться?[n][w][e]
 ##-[s]Well, that's not important. [n]You guys wanna have some fun?[n][w][e]-##
 
-[msg MSG_NANPA_02_010 [Junpei]]
+[msg MSG_NANPA_02_010 [Джунпей]]
 [s][bup 5 85 0 1]Ох, оххххх... Это неправильно, не так ли? Я[n]имею в виду наш возраст...[n][w][e]
 ##-[s][bup 5 85 0 1]Ohh, uhhhhh... That's not right, is it?[n]I mean, our ages...[n][w][e]-##
 
-[msg MSG_NANPA_02_011 [Woman of Questionable Age]]
+[msg MSG_NANPA_02_011 [Женщина сомнительного возраста]]
 [s][bup 71 161 0 3]............Что?[n][w][e]
 ##-[s][bup 71 161 0 3]............What?[n][w][e]-##
 
-[msg MSG_NANPA_02_012 [Junpei]]
+[msg MSG_NANPA_02_012 [Джунпей]]
 [s][bup 5 85 0 1]А... Акихико-сан! Теперь твоя очередь!![n][w][e]
 ##-[s][bup 5 85 0 1]A... Akihiko-san![n]It's your turn!![n][w][e]-##
 [s]В любом случае, была твоя очередь, и ты[n]ближе к ней по возрасту!![n][w][e]
 ##-[s]It was your turn anyway, and, [n]you're closer in age to her!![n][w][e]-##
 
-[msg MSG_NANPA_02_013 [Akihiko]]
+[msg MSG_NANPA_02_013 [Акихико]]
 [s][bup 7 81 0 1]Э-э... О.[n][w][e]
 ##-[s][bup 7 81 0 1]Uh... Oh.[n][w][e]-##
 [s]Хорошо...[n][w][e]
 ##-[s]Well...[n][w][e]-##
 
-[msg MSG_NANPA_02_014 [Woman of Questionable Age]]
+[msg MSG_NANPA_02_014 [Женщина сомнительного возраста]]
 [s][bup 71 161 0 3]...Хе-хе, у тебя красивое тело.  Ты худой,[n]но мускулистый... Мммм.[n][w][e]
 ##-[s][bup 71 161 0 3]...Hehe, you have a nice body. [n]You're thin, yet muscular... Mmmm.[n][w][e]-##
 [s]Я выбираю тебя! Ты хочешь отправиться со[n]мной в отпуск в мир романтики?[n][w][e]
 ##-[s]I choose you! You want to go on a[n]vacation to the world of romance with me?[n][w][e]-##
 
-[msg MSG_NANPA_02_015 [Akihiko]]
+[msg MSG_NANPA_02_015 [Акихико]]
 [s][bup 7 81 0 1]Э-э, не совсем-[n][w][e]
 ##-[s][bup 7 81 0 1]Uh, not reall-[n][w][e]-##
 
-[msg MSG_NANPA_02_016 [Woman of Questionable Age]]
+[msg MSG_NANPA_02_016 [Женщина сомнительного возраста]]
 [s][bup 71 161 0 3]Хе-хе, тебе придется держать это в секрете[n]от всех остальных![n][w][e]
 ##-[s][bup 71 161 0 3]Hehe, you're gonna have to keep this a[n]secret from everybody else![n][w][e]-##
 
-[msg MSG_NANPA_02_017 [Akihiko]]
+[msg MSG_NANPA_02_017 [Акихико]]
 [s][bup 7 84 0 1]Эй, не надо... Не прикасайся ко мне![n][w][e]
 ##-[s][bup 7 84 0 1]Hey, don't...[n]Don't touch me![n][w][e]-##
 [s][f 1 5] [n]> Опасность подкрадывается к Акихико...![n][w][e]
@@ -368,21 +368,21 @@
 [s]Прикажите отступать[e]
 ##-[s]Order a retreat[e]-##
 
-[msg MSG_NANPA_02_019 [Junpei]]
+[msg MSG_NANPA_02_019 [Джунпей]]
 [s][bup 5 85 0 1]Я!?[n][w][e]
 ##-[s][bup 5 85 0 1]Me!?[n][w][e]-##
 [s][bup 5 83 0 1]О, э-э-э... Джи... Г-г-г-г-г-г-г-г-г-г...[n][w][e]
 ##-[s][bup 5 83 0 1]Oh, uhhh...[n]G... G-g-g-g-g-g-g-g-g...[n][w][e]-##
 
-[msg MSG_NANPA_02_020 [Woman of Questionable Age]]
+[msg MSG_NANPA_02_020 [Женщина сомнительного возраста]]
 [s][bup 71 161 0 3]"Гу"? [n][w][e]
 ##-[s][bup 71 161 0 3]"Guh"? [n][w][e]-##
 
-[msg MSG_NANPA_02_021 [Junpei]]
+[msg MSG_NANPA_02_021 [Джунпей]]
 [s][bup 5 84 0 1]Г... Бабушка![n][w][e]
 ##-[s][bup 5 84 0 1]G... Grandma![n][w][e]-##
 
-[msg MSG_NANPA_02_022 [Woman of Questionable Age]]
+[msg MSG_NANPA_02_022 [Женщина сомнительного возраста]]
 [s][bup 71 161 0 3]......[n][w][e]
 ##-[s][bup 71 161 0 3]......[n][w][e]-##
 [s].........[n][w][e]
@@ -392,37 +392,37 @@
 [s][f 1 5] [n]> Ее лицо дрожит...[n][w][e]
 ##-[s][f 1 5] [n]> Her face is trembling...[n][w][e]-##
 
-[msg MSG_NANPA_02_023 [Junpei]]
-[s][bup 5 85 0 1]Р... Руууууун!![n][w][e]
+[msg MSG_NANPA_02_023 [Джунпей]]
+[s][bup 5 85 0 1]Б... Бееежииим!![n][w][e]
 ##-[s][bup 5 85 0 1]R... Ruuuuuun!![n][w][e]-##
 
-[msg MSG_NANPA_02_024 [Junpei]]
+[msg MSG_NANPA_02_024 [Джунпей]]
 [s][bup 5 85 0 1]Мы только что вспомнили, что нам нужно[n]кое-что сделать! Пошли, Акихико-сан![n][w][e]
 ##-[s][bup 5 85 0 1]W-We just remembered something we have[n]to do! Let's go, Akihiko-san![n][w][e]-##
 
-[msg MSG_NANPA_02_025 [Akihiko]]
-[s][bup 7 82 0 1]С-конечно![n][w][e]
+[msg MSG_NANPA_02_025 [Акихико]]
+[s][bup 7 82 0 1]К-конечно![n][w][e]
 ##-[s][bup 7 82 0 1]S-Sure thing![n][w][e]-##
 
-[msg MSG_NANPA_02_026 [Woman of Questionable Age]]
+[msg MSG_NANPA_02_026 [Женщина сомнительного возраста]]
 [s][bup 71 161 0 3]Оууууу, почему...?[n][w][e]
 ##-[s][bup 71 161 0 3]Awwwww, why...?[n][w][e]-##
 
-[msg MSG_NANPA_02_027 [Junpei]]
+[msg MSG_NANPA_02_027 [Джунпей]]
 [s][bup 5 85 0 0]Это было близко...[n][w][e]
 ##-[s][bup 5 85 0 0]That was close...[n][w][e]-##
 
-[msg MSG_NANPA_02_028 [Akihiko]]
+[msg MSG_NANPA_02_028 [Акихико]]
 [s][bup 7 84 0 3]......[n][w][e]
 ##-[s][bup 7 84 0 3]......[n][w][e]-##
 
-[msg MSG_NANPA_03_000 [Akihiko]]
+[msg MSG_NANPA_03_000 [Акихико]]
 [s][bup 7 81 0 3]Там женщина совсем одна...[n][w][e]
 ##-[s][bup 7 81 0 3]There's a woman all alone...[n][w][e]-##
 [s][bup 7 84 0 3]Я надеюсь, что у нас не будет такого опыта,[n]как в прошлый раз...[n][w][e]
 ##-[s][bup 7 84 0 3]I hope we don't have an experience[n]like last time...[n][w][e]-##
 
-[msg MSG_NANPA_03_001 [Junpei]]
+[msg MSG_NANPA_03_001 [Джунпей]]
 [s][bup 5 82 0 1]Ха-ха, все в порядке.[n][w][e]
 ##-[s][bup 5 82 0 1]Haha, it's okay.[n][w][e]-##
 [s]Каковы шансы, что это повторится снова?[n][w][e]
@@ -432,20 +432,20 @@
 [s][bup 5 82 0 1]Извините меня, мисс![n][w][e]
 ##-[s][bup 5 82 0 1]Excuse me, miss![n][w][e]-##
 
-[msg MSG_NANPA_03_002 [Pretty Lady]]
+[msg MSG_NANPA_03_002 [Красивая Леди]]
 [s][bup 70 161 0 3]Привет! Могу я вам помочь?[n][w][e]
 ##-[s][bup 70 161 0 3]Hello! Can I help you?[n][w][e]-##
 
-[msg MSG_NANPA_03_003 [Junpei]]
+[msg MSG_NANPA_03_003 [Джунпей]]
 [s][bup 5 87 0 1]Ого, она горячая штучка...[n][w][e]
 ##-[s][bup 5 87 0 1]Whoa, she's hot...[n][w][e]-##
-[s]Ух... Ты один?[n][w][e]
+[s]Ух... Ты одина?[n][w][e]
 ##-[s]Uhh...[n]Are you alone?[n][w][e]-##
 
-[msg MSG_NANPA_03_004 [Pretty Lady]]
+[msg MSG_NANPA_03_004 [Красивая Леди]]
 [s][bup 70 161 0 3]Да. Мне так скучно.[n][w][e]
 ##-[s][bup 70 161 0 3]Yeah. I'm so bored.[n][w][e]-##
-[s]И я шпионил за тобой. Ты уже некоторое[n]время пытаешься подцепить девчонок.[n][w][e]
+[s]И я шпионила за тобой. Ты уже некоторое[n]время пытаешься подцепить девчонок.[n][w][e]
 ##-[s]And, I'd been spying on you.[n]You've been trying to pick up[n]girls for a while.[n][w][e]-##
 [s]Ну, как у тебя дела?[n][w][e]
 ##-[s]Well, how'd you do?[n][w][e]-##
@@ -456,48 +456,48 @@
 [s]"Миссия Провалена".[e]
 ##-[s]"Mission Failed."[e]-##
 
-[msg MSG_NANPA_03_006 [Pretty Lady]]
+[msg MSG_NANPA_03_006 [Красивая Леди]]
 [s][bup 70 161 0 3]Я понимаю... Вы, мальчики, такие милые.[n][w][e]
 ##-[s][bup 70 161 0 3]I see...[n]You boys are cute.[n][w][e]-##
 [s]...Но, как вы думаете, почему у вас ничего[n]не получилось? Это потому, что ты не[n]понимаешь, что чувствует женщина.[n][w][e]
 ##-[s]...But, why do you think you didn't[n]succeed? It's 'cause you don't[n]understand how a woman feels.[n][w][e]-##
 
-[msg MSG_NANPA_03_007 [Pretty Lady]]
-[s][bup 70 161 0 3]Ха-ха, вот что я подумал. Вы, ребята,[n]совсем не понимаете женщин.[n][w][e]
+[msg MSG_NANPA_03_007 [Красивая Леди]]
+[s][bup 70 161 0 3]Ха-ха, вот что я подумала. Вы, ребята,[n]совсем не понимаете женщин.[n][w][e]
 ##-[s][bup 70 161 0 3]Haha, that's what I thought.[n]You guys don't understand[n]women at all.[n][w][e]-##
 
-[msg MSG_NANPA_03_008 [Junpei]]
+[msg MSG_NANPA_03_008 [Джунпей]]
 [s][bup 5 85 0 1]Эм... упс...?[n][w][e]
 ##-[s][bup 5 85 0 1]Uh... oops...?[n][w][e]-##
 
-[msg MSG_NANPA_03_009 [Pretty Lady]]
+[msg MSG_NANPA_03_009 [Красивая Леди]]
 [s][bup 70 161 0 3]Ты в шляпе, ты слишком погружен в себя.[n][w][e]
 ##-[s][bup 70 161 0 3]You in the hat, you're way too wrapped[n]up in yourself.[n][w][e]-##
 [s]Ты не думаешь о том, чтобы сделать[n]что-нибудь для ДЕВУШКИ, чтобы ОНА[n]почувствовала себя особенной.[n][w][e]
 ##-[s]You don't think about doing anything[n]for the GIRL to make HER feel special.[n][w][e]-##
 
-[msg MSG_NANPA_03_010 [Junpei]]
+[msg MSG_NANPA_03_010 [Джунпей]]
 [s][bup 5 84 0 1]Да, мэм...[n][w][e]
 ##-[s][bup 5 84 0 1]Yes, ma'am...[n][w][e]-##
 
-[msg MSG_NANPA_03_011 [Pretty Lady]]
+[msg MSG_NANPA_03_011 [Красивая Леди]]
 [s][bup 70 161 0 3]Ты в футболке, ты стоический тип, но не[n]очень опытный в общении с девушками.[n][w][e]
 ##-[s][bup 70 161 0 3]You in the T-shirt, you're the stoic type,[n]but not very experienced around girls.[n][w][e]-##
 
-[msg MSG_NANPA_03_012 [Akihiko]]
-[s][bup 7 81 0 1]Т-может быть, ты и прав.[n][w][e]
+[msg MSG_NANPA_03_012 [Акихико]]
+[s][bup 7 81 0 1]Т-может быть, ты и права.[n][w][e]
 ##-[s][bup 7 81 0 1]Y-You may be right.[n][w][e]-##
 
-[msg MSG_NANPA_03_013 [Pretty Lady]]
+[msg MSG_NANPA_03_013 [Красивая Леди]]
 [s][bup 70 161 0 3]Или, скорее, ты кажешься кем-то, с кем[n]слишком много хлопот. Типа, ты[n]супер-логичен во всем.[n][w][e]
 ##-[s][bup 70 161 0 3]Or, rather, you seem like someone who's[n]too much of a hassle to be with. Like,[n]you're super-logical about everything.[n][w][e]-##
 
-[msg MSG_NANPA_03_014 [Akihiko]]
+[msg MSG_NANPA_03_014 [Акихико]]
 [s][bup 7 81 0 1]Хорошо...[n][w][e]
 ##-[s][bup 7 81 0 1]Well...[n][w][e]-##
 
-[msg MSG_NANPA_03_015 [Pretty Lady]]
-[s][bup 70 161 0 0]И ты, с длинными волосами... Я не уверен[n]насчет тебя.[n][w][e]
+[msg MSG_NANPA_03_015 [Красивая Леди]]
+[s][bup 70 161 0 0]И ты, с длинными волосами... Я не уверена[n]насчет тебя.[n][w][e]
 ##-[s][bup 70 161 0 0]And you, with the long hair...[n]I'm not sure about you.[n][w][e]-##
 
 [sel SEL_NANPA_03_016 top]
@@ -506,7 +506,7 @@
 [s]"Эй, не сдерживайся".[e]
 ##-[s]"Hey, don't hold back."[e]-##
 
-[msg MSG_NANPA_03_017 [Pretty Lady]]
+[msg MSG_NANPA_03_017 [Красивая Леди]]
 [s][bup 70 161 0 0]Ха-ха, я имею в виду, ты загадочный. У тебя[n]происходит вся эта "андрогенная" штука.[n][w][e]
 ##-[s][bup 70 161 0 0]Haha, I mean, you're mysterious.[n]You've got that whole "androgeny"[n]thing going on.[n][w][e]-##
 [s]Вы понимаете, что я имею в виду?[n][w][e]
@@ -518,41 +518,41 @@
 [s]"Нет...!"[e]
 ##-[s]"No...!"[e]-##
 
-[msg MSG_NANPA_03_019 [Pretty Lady]]
+[msg MSG_NANPA_03_019 [Красивая Леди]]
 [s][bup 70 161 0 0]О, ты такой умный.[n][w][e]
 ##-[s][bup 70 161 0 0]Aw, you're so smart.[n][w][e]-##
 [s]Мм-хмм, я думаю, ты в моем вкусе.[n][w][e]
 ##-[s]Mm-hmm, I think you're my type.[n][w][e]-##
 
-[msg MSG_NANPA_03_020 [Pretty Lady]]
+[msg MSG_NANPA_03_020 [Красивая Леди]]
 [s][bup 70 161 0 0]Вау, ты довольно невинна.[n][w][e]
 ##-[s][bup 70 161 0 0]Wow, you're pretty innocent.[n][w][e]-##
 [s]Мм-хмм, я думаю, ты в моем вкусе.[n][w][e]
 ##-[s]Mm-hmm, I think you're my type.[n][w][e]-##
 
-[msg MSG_NANPA_03_021 [Junpei]]
+[msg MSG_NANPA_03_021 [Джунпей]]
 [s][bup 5 85 0 1]Эй, подожди секунду!![n][w][e]
 ##-[s][bup 5 85 0 1]H-Hey, wait a second!![n][w][e]-##
 
-[msg MSG_NANPA_03_022 [Pretty Lady]]
+[msg MSG_NANPA_03_022 [Красивая Леди]]
 [s][bup 70 161 0 3]Просто шучу...[n][w][e]
 ##-[s][bup 70 161 0 3]Juuuust joking...[n][w][e]-##
 [s]Ты мне тоже очень нравишься...[n][w][e]
 ##-[s]I like you a lot, too...[n][w][e]-##
 
-[msg MSG_NANPA_03_023 [Junpei]]
-[s][bup 5 87 0 1]Р-Правда?![n][w][e]
+[msg MSG_NANPA_03_023 [Джунпей]]
+[s][bup 5 87 0 1]П-Правда?![n][w][e]
 ##-[s][bup 5 87 0 1]R-Really!?[n][w][e]-##
 
-[msg MSG_NANPA_03_024 [Pretty Lady]]
-[s][bup 70 161 0 3]Ты хочешь, чтобы я научил тебя... как[n]заставить МЕНЯ чувствовать себя[n]особенной...?[n][w][e]
+[msg MSG_NANPA_03_024 [Красивая Леди]]
+[s][bup 70 161 0 3]Ты хочешь, чтобы я научила тебя... как[n]заставить МЕНЯ чувствовать себя[n]особенной...?[n][w][e]
 ##-[s][bup 70 161 0 3]Do you want me to teach you... [n]how to make ME feel special...?[n][w][e]-##
 
-[msg MSG_NANPA_03_025 [Junpei]]
+[msg MSG_NANPA_03_025 [Джунпей]]
 [s][bup 5 87 0 1]Д-Да, мэм![n][w][e]
 ##-[s][bup 5 87 0 1]Y-Yes, Ma'am![n][w][e]-##
 
-[msg MSG_NANPA_03_026 [Pretty Lady]]
+[msg MSG_NANPA_03_026 [Красивая Леди]]
 [s][bup 70 161 0 3]Но трое против одного - это слишком[n]много...[n][w][e]
 ##-[s][bup 70 161 0 3]But three versus one is too much...[n][w][e]-##
 [s]Могу я выбрать один из них? Я хочу, чтобы[n]кто-нибудь повеселился... и с большим[n]сердцем.[n][w][e]
@@ -566,19 +566,19 @@
 [s]"Как насчет Акихико?"[e]
 ##-[s]"How about Akihiko?"[e]-##
 
-[msg MSG_NANPA_03_028 [Junpei]]
+[msg MSG_NANPA_03_028 [Джунпей]]
 [s][bup 5 85 0 1]Эй! Она имеет в виду меня![n][w][e]
 ##-[s][bup 5 85 0 1]Hey![n]She means me![n][w][e]-##
 
-[msg MSG_NANPA_03_029 [Junpei]]
+[msg MSG_NANPA_03_029 [Джунпей]]
 [s][bup 5 82 0 1]Дааааааа! Хороший выбор![n][w][e]
 ##-[s][bup 5 82 0 1]Yeaaaaaah! Nice choice![n][w][e]-##
 
-[msg MSG_NANPA_03_030 [Akihiko]]
+[msg MSG_NANPA_03_030 [Акихико]]
 [s][bup 7 81 0 1]Я...?[n][w][e]
 ##-[s][bup 7 81 0 1]Me...?[n][w][e]-##
 
-[msg MSG_NANPA_03_031 [Akihiko]]
+[msg MSG_NANPA_03_031 [Акихико]]
 [s][bup 7 81 0 1]Но...[n][w][e]
 ##-[s][bup 7 81 0 1]But...[n][w][e]-##
 [s]......[n][w][e]
@@ -586,11 +586,11 @@
 [s]Есть кое-что, что беспокоит меня уже[n]некоторое время...[n][w][e]
 ##-[s]There's something that's been bothering[n]me for a while...[n][w][e]-##
 
-[msg MSG_NANPA_03_032 [Pretty Lady]]
+[msg MSG_NANPA_03_032 [Красивая Леди]]
 [s][bup 70 161 0 3]Да, в чем дело?[n][w][e]
 ##-[s][bup 70 161 0 3]Yes, what is it?[n][w][e]-##
 
-[msg MSG_NANPA_03_033 [Akihiko]]
+[msg MSG_NANPA_03_033 [Акихико]]
 [s][bup 7 81 0 1]......[n][w][e]
 ##-[s][bup 7 81 0 1]......[n][w][e]-##
 [s]Это просто...[n][w][e]
@@ -598,27 +598,27 @@
 [s][bup 7 84 0 1]Там у тебя что-то на подбородке...[n][w][e]
 ##-[s][bup 7 84 0 1]Th-There's something on your[n]chin there...[n][w][e]-##
 
-[msg MSG_NANPA_03_034 [Pretty Lady]]
+[msg MSG_NANPA_03_034 [Красивая Леди]]
 [s][bup 70 161 0 3]Что? Что?[n][w][e]
 ##-[s][bup 70 161 0 3]What? What?[n][w][e]-##
 [s]Я что-то пропустил?[n][w][e]
 ##-[s]Did I miss a spot?[n][w][e]-##
 
-[msg MSG_NANPA_03_035 [Akihiko]]
+[msg MSG_NANPA_03_035 [Акихико]]
 [s][bup 7 84 0 1]А-Это... ты... [n][w][e]
 ##-[s][bup 7 84 0 1]A-Are... you... [n][w][e]-##
 
-[msg MSG_NANPA_03_036 [Pretty Lady(?)]]
+[msg MSG_NANPA_03_036 [Красивая Леди(?)]]
 [s][bup 70 161 0 3]*вздох* Вот и мой шанс...[n][w][e]
 ##-[s][bup 70 161 0 3]*sigh* There goes my chance...[n][w][e]-##
 [s]Я была так близка к тому, чтобы завести[n]себе маленького мальчика-игрушку.[n][w][e]
 ##-[s]I was so close to snagging myself a[n]little boy-toy.[n][w][e]-##
 
-[msg MSG_NANPA_03_037 [Junpei]]
+[msg MSG_NANPA_03_037 [Джунпей]]
 [s][bup 5 85 0 1]Этого... не может быть...[n][w][e]
 ##-[s][bup 5 85 0 1]This... can't be happening...[n][w][e]-##
 
-[msg MSG_NANPA_03_038 [Pretty Lady(?)]]
+[msg MSG_NANPA_03_038 [Красивая Леди(?)]]
 [s][bup 70 161 0 3]Может быть, для вас, мальчики, все равно[n]было еще слишком рано.[n][w][e]
 ##-[s][bup 70 161 0 3]Maybe it was too early for you boys,[n]anyway.[n][w][e]-##
 [s]Хехехе... Приходи ко мне, когда будешь[n]готов расширить свой кругозор.[n][w][e]
