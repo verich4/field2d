@@ -15,7 +15,7 @@
 ##-[s]> Would you like to get ready for[n]the hot spring?[n][w][e]-##
 
 [sel INTO_ROOM_SEL top]
-[s]Возвращайся в свою комнату[e]
+[s]Возвращатся в свою комнату[e]
 ##-[s]Return to your room[e]-##
 [s]Ещё нет[e]
 ##-[s]Not yet[e]-##
@@ -31,7 +31,7 @@
 ##-[s]Jumbo Juice[e]-##
 [s]V6[e]
 ##-[s]V6[e]-##
-[s]Ничего не покупайте[e]
+[s]Ничего не покупать[e]
 ##-[s]Don't buy anything[e]-##
 
 [msg VENDOR_BUY_OK]
@@ -67,7 +67,7 @@
 [sel SAVE_SEL top]
 [s]Сохранить[e]
 ##-[s]Save[e]-##
-[s]Не экономьте[e]
+[s]Не сохранять[e]
 ##-[s]Don't save[e]-##
 
 [sel KYOTO_SHOTCUTSEL top]
