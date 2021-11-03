@@ -25,7 +25,7 @@
 ##-[s]> Would you like to get ready for[n]the hot spring?[n][w][e]-##
 
 [sel INTO_ROOM_SEL top]
-[s]Возвращайся в свою комнату[e]
+[s]Возвращатся в свою комнату[e]
 ##-[s]Return to your room[e]-##
 [s]Ещё нет[e]
 ##-[s]Not yet[e]-##
@@ -77,7 +77,7 @@
 [sel SAVE_SEL top]
 [s]Сохранить[e]
 ##-[s]Save[e]-##
-[s]Не экономьте[e]
+[s]Не сохранять[e]
 ##-[s]Don't save[e]-##
 
 [sel KYOTO_SHOTCUTSEL top]
