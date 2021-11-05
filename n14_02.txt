@@ -1,12 +1,12 @@
-[msg MSG_1N_NPC000_01 [Junpei]]
+[msg MSG_1N_NPC000_01 [Джунпей]]
 [s][bup 5 2 3 0]Вахаха, ты это видел?! Я был так близко...[n]но меня поймали.[n][w][e]
 ##-[s][bup 5 2 3 0]Wahaha, did ya see that!?[n]I was so close... but I got caught.[n][w][e]-##
 [s][bup 5 1 3 0]Нам лучше пойти в нашу комнату, чувак...[n][w][e]
 ##-[s][bup 5 1 3 0]We better go to our room, man...[n][w][e]-##
 [s]...иначе мисс Ториуми может разозлиться.[n][w][e]
-##-[s]...or else Ms. Toriumi might get[n]pissed off.[n][w][e]-##
+##-[s]...or else Мисс. Ториюми might get[n]pissed off.[n][w][e]-##
 
-[msg MSG_1N_NPC000_01_G [Junpei]]
+[msg MSG_1N_NPC000_01_G [Джунпей]]
 [s][bup 5 2 3 0]Вахаха, ты это видел?! Я был так близко...[n]но меня поймали.[n][w][e]
 ##-[s][bup 5 2 3 0]Wahaha, did ya see that!?[n]I was so close... but I got caught.[n][w][e]-##
 [s][bup 5 1 3 0]Что ж, нам, ребятам, лучше разойтись по[n]своим комнатам...[n][w][e]
@@ -14,33 +14,33 @@
 [s]Тебе тоже следует поторопиться и пойти в[n]свою комнату, [f 4 2]...[n][w][e]
 ##-[s]You should hurry up and get to your[n]own room too, [f 4 2]...[n][w][e]-##
 [s]...иначе мисс Ториуми может разозлиться.[n][w][e]
-##-[s]...or else Ms. Toriumi might get[n]pissed off.[n][w][e]-##
+##-[s]...or else Мисс. Ториюми might get[n]pissed off.[n][w][e]-##
 
-[msg MSG_1N_NPC001_01 [Ryoji]]
+[msg MSG_1N_NPC001_01 [Рюджи]]
 [s][bup 13 161 0 0]Знаете ли вы, что здешний горячий источник[n]действительно знаменит?[n][w][e]
 ##-[s][bup 13 161 0 0]Did you know the hot spring here is[n]really famous?[n][w][e]-##
 [s]Каждые несколько часов происходит что-то[n]неожиданное. * смешок*[n][w][e]
 ##-[s]Every few hours, there's a surprise.[n]*chuckle*[n][w][e]-##
 
-[msg MSG_1N_NPC002_01 [Male Senior]]
+[msg MSG_1N_NPC002_01 [Старший мужчина]]
 [s]Президент Студенческого совета, похоже,[n]сошла с ума.[n][w][e]
 ##-[s]The Student Council President seems[n]like she's mad.[n][w][e]-##
 [s]Неужели она думает, что мы ведем себя[n]незрело?[n][w][e]
 ##-[s]Does she think we're being immature?[n][w][e]-##
 
-[msg MSG_1N_NPC002_01_G [Male Senior]]
+[msg MSG_1N_NPC002_01_G [Старший мужчина]]
 [s]Президент Студенческого совета, похоже,[n]сошла с ума.[n][w][e]
 ##-[s]The Student Council President seems[n]like she's mad.[n][w][e]-##
 [s]Неужели она думает, что мальчики ведут себя[n]незрело?[n][w][e]
 ##-[s]Does she think that the boys are[n]being immature?[n][w][e]-##
 
-[msg MSG_1N_NPC003_01 [Male Junior]]
+[msg MSG_1N_NPC003_01 [Мадший парень]]
 [s]Ты не читаешь газет, не так ли, Семпай? Ее[n]отец недавно умер...[n][w][e]
 ##-[s]You don't read the newspaper, do you[n]Senpai? Her father recently died...[n][w][e]-##
 [s]Подожди, ты серьезно не знал?[n][w][e]
 ##-[s]Wait, you seriously didn't know?[n][w][e]-##
 
-[msg MSG_1N_NPC004_01 [Ms. Toriumi]]
+[msg MSG_1N_NPC004_01 [Мисс. Ториюми]]
 [s][bup 44 161 0 0]Скорее, скорее, скорее, скорее! Вы можете[n]поговорить позже![n][w][e]
 ##-[s][bup 44 161 0 0]Hurry hurry hurry hurry![n]You can talk later![n][w][e]-##
 [s]Поторопитесь и отправляйтесь в свои[n]комнаты. Я не хочу, чтобы на меня кричали[n]за твое поведение![n][w][e]
@@ -60,7 +60,7 @@
 [s]"Я в порядке".[e]
 ##-[s]"I'm fine."[e]-##
 
-[msg MSG_1N_NPC004_02 [Ms. Toriumi]]
+[msg MSG_1N_NPC004_02 [Мисс. Ториюми]]
 [s][bup 44 161 0 0]Ммм, [f 4 1]- кун... Чтобы добраться до твоей[n]комнаты...[n][w][e]
 ##-[s][bup 44 161 0 0]Umm, [f 4 1]-kun...[n]To get to your room...[n][w][e]-##
 [s]Поднимитесь по лестнице и поверните[n]направо. Ваша комната будет справа в конце[n]коридора.[n][w][e]
@@ -68,7 +68,7 @@
 [s]Понял? А теперь иди.[n][w][e]
 ##-[s]Got it? Now, go.[n][w][e]-##
 
-[msg MSG_1N_NPC004_02_G [Ms. Toriumi]]
+[msg MSG_1N_NPC004_02_G [Мисс. Ториюми]]
 [s][bup 44 161 0 0]Ммм, [f 4 1]- сан... Чтобы добраться до твоей[n]комнаты...[n][w][e]
 ##-[s][bup 44 161 0 0]Umm, [f 4 1]-san...[n]To get to your room...[n][w][e]-##
 [s]Поднимитесь на 3-й этаж и поверните[n]направо. Ваша комната будет справа в конце[n]коридора.[n][w][e]
@@ -76,24 +76,24 @@
 [s]Понял? А теперь иди.[n][w][e]
 ##-[s]Got it? Now, go.[n][w][e]-##
 
-[msg MSG_1N_NPC004_03 [Ms. Toriumi]]
+[msg MSG_1N_NPC004_03 [Мисс. Ториюми]]
 [s][bup 44 161 0 0]Поторопись и уходи.[n][w][e]
 ##-[s][bup 44 161 0 0]Hurry up and go.[n][w][e]-##
 
-[msg MSG_1N_NPC005_01 [6HARA Clerk]]
+[msg MSG_1N_NPC005_01 [6HARA Служащий]]
 [s]Добро пожаловать.[n][w][e]
 ##-[s]Welcome.[n][w][e]-##
 [s]Чего бы вы хотели?[n][w][e]
 ##-[s]What would you like?[n][w][e]-##
 
-[msg MSG_1N_NPC005_02 [6HARA Clerk]]
+[msg MSG_1N_NPC005_02 [6HARA Служащий]]
 [s]Что-нибудь еще?[n][w][e]
 ##-[s]Anything else?[n][w][e]-##
 
 [sel MSG_1N_NPC005_01_SEL top]
 [s]Конпейто[e]
 ##-[s]Konpeito[e]-##
-[s]Крекер Mibu[e]
+[s]Крекер Мибу[e]
 ##-[s]Mibu Cracker[e]-##
 [s]Маринованная репа[e]
 ##-[s]Pickled Turnip[e]-##
@@ -111,7 +111,7 @@
 [sel MSG_1N_NPC005_01_SEL1 top]
 [s]Конпейто[e]
 ##-[s]Konpeito[e]-##
-[s]Крекер Mibu[e]
+[s]Крекер Мибу[e]
 ##-[s]Mibu Cracker[e]-##
 [s]Просмотрите другие закуски[e]
 ##-[s]Browse other snacks[e]-##
@@ -134,33 +134,33 @@
 [s]"нет."[e]
 ##-[s]"No."[e]-##
 
-[msg MSG_1N_NPC005_MIYAGE [6HARA Clerk]]
+[msg MSG_1N_NPC005_MIYAGE [6HARA Служащий]]
 [s]То [f 2 5 3 65535 0] будет[n][f 2 4 1] йен, хорошо?[n][w][e]
 ##-[s]The [f 2 5 3 65535 0] will be[n][f 2 4 1] yen, okay?[n][w][e]-##
 
-[msg MSG_1N_NPC005_BYE [6HARA Clerk]]
+[msg MSG_1N_NPC005_BYE [6HARA Служащий]]
 [s]Огромное спасибо. Пожалуйста, приходите[n]еще.[n][w][e]
 ##-[s]Thank you so much. Please come again.[n][w][e]-##
 
-[msg MSG_1N_NPC005_DONTHAVE [6HARA Clerk]]
+[msg MSG_1N_NPC005_DONTHAVE [6HARA Служащий]]
 [s]О? Похоже, вам некуда девать [f 2 5 3 65535 0].[n][w][e]
 ##-[s]Oh? It seems you have nowhere to put[n]the [f 2 5 3 65535 0].[n][w][e]-##
 [s]Пожалуйста, возвращайтесь, когда у вас[n]будет больше места.[n][w][e]
 ##-[s]Please come back when you have more[n]space.[n][w][e]-##
 
-[msg MSG_1N_NPC005_NOMONEY [6HARA Clerk]]
+[msg MSG_1N_NPC005_NOMONEY [6HARA Служащий]]
 [s]Извините, у вас недостаточно денег.[n][w][e]
 ##-[s]Sorry, you don't have enough money.[n][w][e]-##
 
-[msg MSG_1N_NPC005_THANKS [6HARA Clerk]]
+[msg MSG_1N_NPC005_THANKS [6HARA Служащий]]
 [s]Спасибо за ваш бизнес.[n][w][e]
 ##-[s]Thanks for your business.[n][w][e]-##
 [s]> Получено [f 2 5 3 65535 0].[n][f 1 4][e]
 ##-[s]> Obtained [f 2 5 3 65535 0].[n][f 1 4][e]-##
 
-[msg MSG_2D_NPC000_01 [Yukari]]
+[msg MSG_2D_NPC000_01 [Юкари]]
 [s][bup 2 1 3 0]Эй, ты не видел Мицуру-семпая? Может быть,[n]она все еще в своей комнате...[n][w][e]
-##-[s][bup 2 1 3 0]Hey, have you seen Mitsuru-senpai?[n]Maybe she's still in her room...[n][w][e]-##
+##-[s][bup 2 1 3 0]Hey, have you seen Мицуру-senpai?[n]Maybe she's still in her room...[n][w][e]-##
 [s]*вздох* Теперь она совсем другой человек.[n][w][e]
 ##-[s]*sigh* She's like a totally different[n]person now.[n][w][e]-##
 [s]На самом деле это немного раздражает.[n][w][e]
@@ -178,25 +178,25 @@
 [s]"Я тоже волнуюсь".[e]
 ##-[s]"I'm worried too."[e]-##
 
-[msg MSG_2D_NPC000_02 [Yukari]]
-[s][bup 2 1 3 0]*вздох* Я не должен просто жаловаться на[n]это.[n][w][e]
+[msg MSG_2D_NPC000_02 [Юкари]]
+[s][bup 2 1 3 0]*вздох* Я не должна просто жаловаться на[n]это.[n][w][e]
 ##-[s][bup 2 1 3 0]*sigh* I shouldn't just complain[n]about it.[n][w][e]-##
 [s]Я должен поговорить с ней...[n][w][e]
 ##-[s]I should talk to her...[n][w][e]-##
 
-[msg MSG_2D_NPC000_03 [Yukari]]
+[msg MSG_2D_NPC000_03 [Юкари]]
 [s][bup 2 1 3 0]Я тоже...[n][w][e]
 ##-[s][bup 2 1 3 0]Me too...[n][w][e]-##
 [s]Может быть, мне стоит пойти и поговорить с[n]ней...[n][w][e]
 ##-[s]Maybe I should go talk to her...[n][w][e]-##
 
-[msg MSG_2D_NPC001_01 [Aigis]]
+[msg MSG_2D_NPC001_01 [Айгис]]
 [s][bup 3 1 3 0]Сегодня тот день, когда мы посетим местные[n]святыни. Это должно быть весело.[n][w][e]
 ##-[s][bup 3 1 3 0]Today is the day we will visit the[n]local shrines. It should be fun.[n][w][e]-##
 [s]Класс Фууки-сан уже ушел.[n][w][e]
 ##-[s]Fuuka-san's class has already left.[n][w][e]-##
 
-[msg MSG_2D_NPC006_01 [Male Student]]
+[msg MSG_2D_NPC006_01 [Парень студент]]
 [s]Я собираюсь купить намаяцухаси в качестве[n]сувенира...[n][w][e]
 ##-[s]I'm gonna get namayatsuhashi as[n]a souvenir...[n][w][e]-##
 [s]Эй, ты знал...?[n][w][e]
@@ -204,25 +204,25 @@
 [s]Выпекается обычный яцухаши.[n][w][e]
 ##-[s]Regular yatsuhashi is baked.[n][w][e]-##
 
-[msg MSG_2D_NPC009_01 [Junpei]]
+[msg MSG_2D_NPC009_01 [Джунпей]]
 [s][bup 5 4 3 0]Чувак, я устал. Я почти не спал. *зевок*[n]Нам обязательно уезжать так рано?[n][w][e]
 ##-[s][bup 5 4 3 0]Man, I'm tired. I didn't sleep much.[n]*yawn* Do we hafta leave so early?[n][w][e]-##
 [s]Думаю, я посплю в автобусе.[n][w][e]
 ##-[s]I guess I'll sleep on the bus.[n][w][e]-##
 
-[msg MSG_2D_NPC010_01 [Akihiko]]
+[msg MSG_2D_NPC010_01 [Акихико]]
 [s][bup 7 1 3 0]Мицуру все еще кажется подавленным...[n][w][e]
-##-[s][bup 7 1 3 0]Mitsuru still seems down...[n][w][e]-##
+##-[s][bup 7 1 3 0]Мицуру still seems down...[n][w][e]-##
 [s]Но я не знаю, что ей сказать. Она всегда[n]была такой сильной.[n][w][e]
 ##-[s]But, I don't know what to say to her.[n]She's always been so strong.[n][w][e]-##
 
-[msg MSG_2D_NPC011_01 [Ryoji]]
+[msg MSG_2D_NPC011_01 [Рюджи]]
 [s][bup 13 161 0 0]Я слышал, есть место, где ты можешь[n]нарядиться гейшей...[n][w][e]
 ##-[s][bup 13 161 0 0]I hear there's a place where you can[n]dress up like a geisha...[n][w][e]-##
 [s]Может быть, мне стоит отвести туда[n]Юкари-сан и Айгиса...[n][w][e]
-##-[s]Maybe I should take Yukari-san and[n]Aigis there...[n][w][e]-##
+##-[s]Maybe I should take Юкари-san and[n]Айгис there...[n][w][e]-##
 
-[msg MSG_2D_NPC011_01_G [Ryoji]]
+[msg MSG_2D_NPC011_01_G [Рюджи]]
 [s][bup 13 161 0 0]Я слышал, есть место, где ты можешь[n]нарядиться гейшей...[n][w][e]
 ##-[s][bup 13 161 0 0]I hear there's a place where you can[n]dress up like a geisha...[n][w][e]-##
 [s][bup 13 162 0 0]Гейши обладают этим таинственным[n]очарованием.[n][w][e]
@@ -238,7 +238,7 @@
 [s][bup 13 168 0 0]ゴメンи、Пёコト因ЯЭюЯв。[n][w][e]
 ##-[s][bup 13 168 0 0]ゴメンи、Пんёコト因ЯЭюЯв。[n][w][e]-##
 
-[msg MSG_2D_NPC011_01_G3 [Ryoji]]
+[msg MSG_2D_NPC011_01_G3 [Рюджи]]
 [s][bup 13 161 0 0]Я слышал, есть место, где ты можешь[n]нарядиться гейшей...[n][w][e]
 ##-[s][bup 13 161 0 0]I hear there's a place where you can[n]dress up like a geisha...[n][w][e]-##
 [s][bup 13 162 0 0]Я думаю, ты была бы очень красива в костюме[n]гейши.[n][w][e]
@@ -246,13 +246,13 @@
 [s]Было бы здорово, если бы ты могла так[n]одеться, только для меня...[n][w][e]
 ##-[s]It'd be nice if you could dress like[n]that, just for me...[n][w][e]-##
 
-[msg MSG_2D_NPC012_01 [Ms. Toriumi]]
+[msg MSG_2D_NPC012_01 [Мисс. Ториюми]]
 [s][bup 44 161 0 0]Поторопись. Если вы готовы, тогда идите в[n]очередь.[n][w][e]
 ##-[s][bup 44 161 0 0]Hurry up. If you're ready, then go[n]line up.[n][w][e]-##
 [s]Класс Е уже ушел.[n][w][e]
 ##-[s]Class E already left.[n][w][e]-##
 
-[msg MSG_2N_NPC007_01 [Female Student]]
+[msg MSG_2N_NPC007_01 [Девушка студент]]
 [s]Как у вас дела?[n][w][e]
 ##-[s]How y'all been doin'?[n][w][e]-##
 [s]Ахахахаха.[n][w][e]
@@ -260,23 +260,23 @@
 [s]Как тебе нравится мой киотский акцент?[n]Довольно неплохо, да?[n][w][e]
 ##-[s]How do you like my Kyoto accent?[n]Pretty good, huh?[n][w][e]-##
 
-[msg MSG_2N_NPC008_01 [Female Student]]
+[msg MSG_2N_NPC008_01 [Девушка студент]]
 [s]Я недооценил Киото... Есть так много мест,[n]куда можно пойти![n][w][e]
 ##-[s]I underestimated Kyoto...[n]There are so many places to go![n][w][e]-##
 [s]Итак, что мне делать завтра?..[n][w][e]
 ##-[s]Now, what should I do tomorrow...?[n][w][e]-##
 
-[msg MSG_2N_NPC009_01 [Junpei]]
+[msg MSG_2N_NPC009_01 [Джунпей]]
 [s][bup 5 21 0 0]Держу пари, Мицуру-семпаю сейчас нелегко.[n][w][e]
-##-[s][bup 5 21 0 0]I bet Mitsuru-senpai is having[n]a hard time.[n][w][e]-##
+##-[s][bup 5 21 0 0]I bet Мицуру-senpai is having[n]a hard time.[n][w][e]-##
 [s]Если бы я был на ее месте, мне бы тоже было[n]не очень весело.[n][w][e]
 ##-[s]If I was her, I wouldn't be having[n]much fun, either.[n][w][e]-##
 
-[msg MSG_2N_NPC010_01 [Ryoji]]
+[msg MSG_2N_NPC010_01 [Рюджи]]
 [s][bup 13 21 0 0]Красивые пейзажи, красивые женщины... Киото[n]- это то место, где нужно быть.[n][w][e]
 ##-[s][bup 13 21 0 0]Beautiful scenery, beautiful women...[n]Kyoto is the place to be.[n][w][e]-##
 
-[msg MSG_2N_NPC010_01_G [Ryoji]]
+[msg MSG_2N_NPC010_01_G [Рюджи]]
 [s][bup 13 21 0 0]Красивые пейзажи, красивые женщины... Киото[n]- это то место, где нужно быть.[n][w][e]
 ##-[s][bup 13 21 0 0]Beautiful scenery, beautiful women...[n]Kyoto is the place to be.[n][w][e]-##
 [s][bup 13 22 0 0]Конечно, то, что ты здесь со мной, делает[n]это намного приятнее.[n][w][e]
@@ -284,45 +284,45 @@
 
 [msg MSG_3D_NPC000_01 [Fuuka]]
 [s][bup 6 1 3 0]Я так рада, что Мицуру-семпай, которого мы[n]знаем, вернулся.[n][w][e]
-##-[s][bup 6 1 3 0]I'm so relieved that the Mitsuru-senpai[n]we know is back.[n][w][e]-##
+##-[s][bup 6 1 3 0]I'm so relieved that the Мицуру-senpai[n]we know is back.[n][w][e]-##
 
-[msg MSG_3D_NPC001_01 [Aigis]]
+[msg MSG_3D_NPC001_01 [Айгис]]
 [s][bup 3 1 3 0]Это мой первый раз, когда я принимаю ванну[n]в таком большом месте.[n][w][e]
 ##-[s][bup 3 1 3 0]This is my first time taking a bath[n]in such a big place.[n][w][e]-##
 [s]Хотя это не очень эффективно.[n][w][e]
 ##-[s]It's not very efficient, though.[n][w][e]-##
 
-[msg MSG_3D_NPC002_01 [Mitsuru]]
+[msg MSG_3D_NPC002_01 [Мицуру]]
 [s][bup 4 1 3 0]Мне жаль.[n][w][e]
 ##-[s][bup 4 1 3 0]I'm sorry.[n][w][e]-##
 [s]Но, думаю, теперь у меня есть ответ.[n][w][e]
 ##-[s]But, I think I have my answer now.[n][w][e]-##
 
-[msg MSG_3D_NPC003_01 [Yukari]]
-[s][bup 2 1 3 0]Я дал обещание Мицуру-семпаю...[n][w][e]
-##-[s][bup 2 1 3 0]I made a promise with Mitsuru-senpai...[n][w][e]-##
+[msg MSG_3D_NPC003_01 [Юкари]]
+[s][bup 2 1 3 0]Я дала обещание Мицуру-семпаю...[n][w][e]
+##-[s][bup 2 1 3 0]I made a promise with Мицуру-senpai...[n][w][e]-##
 [s]...что мы вместе избавимся от Темного Часа.[n][w][e]
 ##-[s]...that we would get rid of the Dark[n]Hour together.[n][w][e]-##
 
-[msg MSG_3D_NPC009_01 [Junpei]]
+[msg MSG_3D_NPC009_01 [Джунпей]]
 [s][bup 5 1 3 0]А? Когда они успели так подружиться?[n][w][e]
 ##-[s][bup 5 1 3 0]Huh? When did they become so[n]buddy-buddy?[n][w][e]-##
 
-[msg MSG_3D_NPC010_01 [Akihiko]]
+[msg MSG_3D_NPC010_01 [Акихико]]
 [s][bup 7 1 3 0]Что ж, по крайней мере, теперь нам больше[n]не о чем беспокоиться.[n][w][e]
 ##-[s][bup 7 1 3 0]Well, at least now we don't have to[n]worry anymore.[n][w][e]-##
 
-[msg MSG_3D_NPC011_01 [Ryoji]]
+[msg MSG_3D_NPC011_01 [Рюджи]]
 [s][bup 13 161 0 0]Как говорится...[n][w][e]
 ##-[s][bup 13 161 0 0]As they say...[n][w][e]-##
 [s]"Друг в беде - это действительно друг".[n][w][e]
 ##-[s]"A friend in need is a friend indeed."[n][w][e]-##
 
-[msg MSG_3N_NPC007_01 [Male Student]]
+[msg MSG_3N_NPC007_01 [Парень студент]]
 [s]Чувак, как ты думаешь, мы можем украдкой[n]взглянуть, пока женщины у горячего[n]источника?[n][w][e]
 ##-[s]Dude, do you think we can sneak a peek[n]while the women are at the hot spring?[n][w][e]-##
 
-[msg MSG_3N_NPC007_01_G [Male Student]]
+[msg MSG_3N_NPC007_01_G [Парень студент]]
 [s]Гостиница - это отличные бани! Отличные[n]ванны означают... горячие источники![n][w][e]
 ##-[s]An inn means great baths![n]Great baths mean... hot springs![n][w][e]-##
 [s]И когда дело доходит до горячих[n]источников... Хехехехе...[n][w][e]
@@ -340,39 +340,39 @@
 [s]"Что-то не так?"[e]
 ##-[s]"Is something wrong?"[e]-##
 
-[msg MSG_3N_NPC007_02 [Male Student]]
+[msg MSG_3N_NPC007_02 [Парень студент]]
 [s]Да, я уверен, что это невозможно.[n][w][e]
 ##-[s]Yeah, I'm sure there's no way.[n][w][e]-##
 
-[msg MSG_3N_NPC007_02_G [Male Student]]
+[msg MSG_3N_NPC007_02_G [Парень студент]]
 [s]Ха!? Ничего! Серьезно![n][w][e]
 ##-[s]Huh!? Nothin'![n]Seriously![n][w][e]-##
 [s]Если бы кто-нибудь поймал меня за попыткой[n]подглядывать за девочками, президент[n]студенческого совета убил бы меня...[n][w][e]
 ##-[s]If anybody caught me trying to peek[n]on the girls, the student council[n]president would kill me...[n][w][e]-##
 
-[msg MSG_3N_NPC007_03 [Male Student]]
+[msg MSG_3N_NPC007_03 [Парень студент]]
 [s]Ты серьезно?![n][w][e]
 ##-[s]Are you serious!?[n][w][e]-##
 [s]...Но я бы не хотел, чтобы меня поймали или[n]что-то в этом роде.[n][w][e]
 ##-[s]...But, I wouldn't want to get caught[n]or anything.[n][w][e]-##
 
-[msg MSG_3N_NPC007_03_G [Male Student]]
+[msg MSG_3N_NPC007_03_G [Парень студент]]
 [s]Нет, нет, ничего особенного. Просто[n]игнорируй меня.[n][w][e]
 ##-[s]No no, it's nothing.[n]Just ignore me.[n][w][e]-##
 
-[msg MSG_3N_NPC008_01 [Male Student]]
+[msg MSG_3N_NPC008_01 [Парень студент]]
 [s]Не делай ничего глупого, хорошо?[n][w][e]
 ##-[s]Don't do anything stupid, okay?[n][w][e]-##
 
-[msg MSG_3N_NPC008_01_G [Male Student]]
+[msg MSG_3N_NPC008_01_G [Парень студент]]
 [s]В любом случае, у нас не часто бывает такая[n]возможность. Тебе будет весело в горячем[n]источнике, хорошо?[n][w][e]
 ##-[s]Anyway, we don't get the chance to[n]do this often. You have fun in the[n]hot spring, okay?[n][w][e]-##
 
-[msg MSG_3N_NPC009_01 [Junpei]]
+[msg MSG_3N_NPC009_01 [Джунпей]]
 [s][bup 5 22 0 0]Все в порядке, [f 4 2].Хочешь посмотреть горячий[n]источник на открытом воздухе?[n][w][e]
 ##-[s][bup 5 22 0 0]S'up, [f 4 2]. Wanna check out[n]the outdoor hot spring?[n][w][e]-##
 
-[msg MSG_3N_NPC009_01_G [Junpei]]
+[msg MSG_3N_NPC009_01_G [Джунпей]]
 [s][bup 5 22 0 0]Все в порядке, [f 4 2].Вы уже ходили на открытый[n]горячий источник?[n][w][e]
 ##-[s][bup 5 22 0 0]S'up, [f 4 2].[n]Have you gone to the outdoor[n]hot spring yet?[n][w][e]-##
 
@@ -388,39 +388,39 @@
 [s]"А как насчет тебя?"[e]
 ##-[s]"How about you?"[e]-##
 
-[msg MSG_3N_NPC009_02 [Junpei]]
+[msg MSG_3N_NPC009_02 [Джунпей]]
 [s][bup 5 22 0 0]Да, чувак![n][w][e]
 ##-[s][bup 5 22 0 0]Yeah, dawg![n][w][e]-##
 [s]Я схожу за Акихико-семпаем и Редзи, а ты[n]возвращайся в свою комнату и собирайся.[n][w][e]
-##-[s]I'll go get Akihiko-senpai and Ryoji,[n]while you go back to your room and[n]get ready.[n][w][e]-##
+##-[s]I'll go get Акихико-senpai and Рюджи,[n]while you go back to your room and[n]get ready.[n][w][e]-##
 
-[msg MSG_3N_NPC009_02_G [Junpei]]
+[msg MSG_3N_NPC009_02_G [Джунпей]]
 [s][bup 5 22 0 0]О, ты собираешься сейчас?[n][w][e]
 ##-[s][bup 5 22 0 0]Ooh, you're gonna now?[n][w][e]-##
 [s]Это наша последняя ночь здесь, так что иди[n]и выпусти пар![n][w][e]
 ##-[s]This is our last night here,[n]so go blow off some steam![n][w][e]-##
 
-[msg MSG_3N_NPC009_03 [Junpei]]
+[msg MSG_3N_NPC009_03 [Джунпей]]
 [s][bup 5 21 0 0]Чувак, что с тобой такое?[n][w][e]
 ##-[s][bup 5 21 0 0]Dude, what's up with that?[n][w][e]-##
 [s][bup 5 22 0 0]Что ж, мы идем, несмотря ни на что, так что[n]я не хочу слышать никаких дурацких[n]оправданий.[n][w][e]
 ##-[s][bup 5 22 0 0]Well, we're goin' no matter what, so[n]I don't wanna hear any lame excuses.[n][w][e]-##
 
-[msg MSG_3N_NPC009_03_G [Junpei]]
+[msg MSG_3N_NPC009_03_G [Джунпей]]
 [s][bup 5 21 0 0]А, я? Я еще не ушел.[n][w][e]
 ##-[s][bup 5 21 0 0]Huh, me?[n]I haven't gone yet.[n][w][e]-##
 [s][bup 5 22 0 0]Это наша последняя ночь здесь, так что мы[n]должны наслаждаться этими горячими[n]источниками как можно больше сегодня[n]вечером![n][w][e]
 ##-[s][bup 5 22 0 0]This is our last night here, so we[n]gotta enjoy those hot springs as much[n]as we can tonight![n][w][e]-##
 
-[msg MSG_3N_NPC009_04 [Junpei]]
+[msg MSG_3N_NPC009_04 [Джунпей]]
 [s][bup 5 21 0 0]Я схожу за Акихико-семпаем и Редзи, так[n]почему бы тебе не вернуться в свою комнату[n]и не подготовиться?[n][w][e]
-##-[s][bup 5 21 0 0]I'll go get Akihiko-senpai and Ryoji,[n]so why don't you go back to your room[n]and get ready?[n][w][e]-##
+##-[s][bup 5 21 0 0]I'll go get Акихико-senpai and Рюджи,[n]so why don't you go back to your room[n]and get ready?[n][w][e]-##
 
-[msg MSG1117_JUNPEI_01 [Junpei]]
+[msg MSG1117_JUNPEI_01 [Джунпей]]
 [s][bup 5 21 0 0]эГ牙蔚ж嘩Яв覚?[n][w][e]
 ##-[s][bup 5 21 0 0]эГ牙蔚ж嘩Яв覚る?[n][w][e]-##
 
-[msg MSG1117_JUNPEI_01_G [Junpei]]
+[msg MSG1117_JUNPEI_01_G [Джунпей]]
 [s][bup 5 21 0 0]ЖЯ、щЪ汗ЙвйЗ? Свкオマエ、開漢ЗУ澗Ъё?[n][w][e]
 ##-[s][bup 5 21 0 0]ЖЯ、щЪ汗ЙвるйЗ?[n]Свкオマエ、開漢ЗУ澗Ъё?[n][w][e]-##
 
@@ -430,15 +430,15 @@
 [s]茅萱茅萱茅萱茅萱茅萱茅萱茅萱茅萱茅萱茅[e]
 ##-[s]茅萱茅萱茅萱茅萱茅萱茅萱茅萱茅萱茅萱茅[e]-##
 
-[msg MSG1117_JUNPEI_02 [Junpei]]
+[msg MSG1117_JUNPEI_02 [Джунпей]]
 [s][bup 5 1 3 0]ЩЩ牙蔚ж遠Й閲Ов 覚дХЯЗー。[n][w][e]
 ##-[s][bup 5 1 3 0]ЩろЩろ牙蔚ж遠Й閲Ов[n]覚るдХЯЗー。[n][w][e]-##
 
-[msg MSG1117_JUNPEI_03 [Junpei]]
+[msg MSG1117_JUNPEI_03 [Джунпей]]
 [s][bup 5 1 3 0]ЩЯЗ。 Фю、覚ЫЛёЯЫ潅ЗНвЛ。[n][w][e]
 ##-[s][bup 5 1 3 0]ЩЯЗ。[n]Фю、覚ЫЛёЯЫら潅ЗНвЛれ。[n][w][e]-##
 
-[msg MSG1119_JUNPEI_01 [Junpei]]
+[msg MSG1119_JUNPEI_01 [Джунпей]]
 [s][bup 5 22 0 0]Все в порядке, [f 4 2].Хочешь посмотреть горячий[n]источник на открытом воздухе?[n][w][e]
 ##-[s][bup 5 22 0 0]S'up, [f 4 2]. Wanna check out[n]the outdoor hot spring?[n][w][e]-##
 
@@ -454,13 +454,13 @@
 [s]"Я зайду ненадолго".[e]
 ##-[s]"I'll go in a bit."[e]-##
 
-[msg MSG1119_JUNPEI_02 [Junpei]]
+[msg MSG1119_JUNPEI_02 [Джунпей]]
 [s][bup 5 22 0 0]Да, чувак![n][w][e]
 ##-[s][bup 5 22 0 0]Yeah, dawg![n][w][e]-##
 [s]Я схожу за Акихико-семпаем и Редзи.[n][w][e]
-##-[s]I'll go get Akihiko-senpai and Ryoji.[n][w][e]-##
+##-[s]I'll go get Акихико-senpai and Рюджи.[n][w][e]-##
 
-[msg MSG1119_JUNPEI_03 [Junpei]]
+[msg MSG1119_JUNPEI_03 [Джунпей]]
 [s][bup 5 21 0 0]Пш, что это за ответ такой?[n][w][e]
 ##-[s][bup 5 21 0 0]Psh, what kinda answer is that?[n][w][e]-##
 [s][bup 5 22 0 0]Что ж, мы едем, несмотря ни на что, так что[n]позвони мне, когда будешь готова.[n][w][e]

@@ -1,4 +1,4 @@
-[msg MSG_9B_NPC000_01 [Male Student]]
+[msg MSG_9B_NPC000_01 [Парень студент]]
 [s]Черт! Я упустил свой шанс поговорить с ней.[n][w][e]
 ##-[s]Damn! I missed my chance to talk[n]to her.[n][w][e]-##
 [s]Все, что я, кажется, делаю в эти дни, - это[n]следую за ней повсюду...[n][w][e]
@@ -6,25 +6,25 @@
 [s]Что мне делать?[n][w][e]
 ##-[s]What should I do?[n][w][e]-##
 
-[msg MSG_9B_NPC001_01 [Female Student]]
+[msg MSG_9B_NPC001_01 [Девушка студент]]
 [s]Хм... У меня все еще такое чувство, что[n]кто-то следит за мной...[n][w][e]
 ##-[s]Huh... I still get the sense that[n]someone's following me...[n][w][e]-##
 [s]Там кто-то есть... Эй, этот парень кажется[n]мне знакомым.[n][w][e]
 ##-[s]There's someone over there... Hey,[n]that guy looks familiar.[n][w][e]-##
 
-[msg MSG_10B_NPC000_01 [Male Student]]
+[msg MSG_10B_NPC000_01 [Парень студент]]
 [s]Разве она не потрясающая?[n][w][e]
 ##-[s]Isn't she awesome?[n][w][e]-##
 [s]М-может быть, я просто продолжу[n]присматриваться к ней еще немного...[n][w][e]
 ##-[s]M-Maybe I'll just keep checking[n]her out a little while longer...[n][w][e]-##
 
-[msg MSG_10B_NPC001_01 [Female Student]]
+[msg MSG_10B_NPC001_01 [Девушка студент]]
 [s]Ты видишь вон того парня, верно?[n][w][e]
 ##-[s]You see that guy over there, right?[n][w][e]-##
 [s]Я не знаю, как от него избавиться... Так[n]что я просто позволю ему делать то, что он[n]делает.[n][w][e]
 ##-[s]I don't know how to get rid of[n]him... So I'll just let him do[n]whatever it is he's doing.[n][w][e]-##
 
-[msg MSG_6B_NPC002_01 [Man]]
+[msg MSG_6B_NPC002_01 [Мужчина]]
 [s]Я услышал кое-что интересное от одного из[n]моих коллег.[n][w][e]
 ##-[s]I heard something interesting from[n]one of my coworkers.[n][w][e]-##
 [s]Кажется, в Интернете есть этот странный[n]сайт...[n][w][e]
@@ -34,7 +34,7 @@
 [s]Все, что я знаю, это то, что это как-то[n]связано с местью...[n][w][e]
 ##-[s]All I know is that it has something[n]to do with revenge...[n][w][e]-##
 
-[msg MSG_8A_NPC002_01 [Man]]
+[msg MSG_8A_NPC002_01 [Мужчина]]
 [s]Я нашел этот сайт. Тот, что о мести,[n]помнишь?[n][w][e]
 ##-[s]I found that website. The one[n]about revenge, remember?[n][w][e]-##
 [s]Я хотел отомстить этому парню, но... Я[n]струсил...[n][w][e]
@@ -42,7 +42,7 @@
 [s]Я сразу же закрыл вкладку. Теперь я даже не[n]уверен, что у меня был правильный URL...[n][w][e]
 ##-[s]I closed the tab right away.[n]Now I'm not even sure if I had[n]the right URL...[n][w][e]-##
 
-[msg MSG_10B_NPC002_01 [Man]]
+[msg MSG_10B_NPC002_01 [Мужчина]]
 [s]Разве не трудно просыпаться рано каждое[n]утро? Давай возьмем выходные ради всего[n]святого.[n][w][e]
 ##-[s]Isn't it tough to wake up early[n]every single morning? Let's take[n]days off for the hell of it.[n][w][e]-##
 [s]Со мной все будет в порядке![n][w][e]
@@ -52,7 +52,7 @@
 [s]С тех пор как я здесь, мне не нужно есть ее[n]упакованный ланч.[n][w][e]
 ##-[s]Since I'm here, I don't have to[n]eat her box lunch.[n][w][e]-##
 
-[msg MSG_8A_NPC003_01 [Woman]]
+[msg MSG_8A_NPC003_01 [Женщина]]
 [s]У меня есть сенсация! Все эти инциденты[n]начались с проклятия того бога в святилище![n][w][e]
 ##-[s]I've got a scoop! These incidents[n]all started with that god in the[n]shrine's curse![n][w][e]-##
 [s]...Звучит нелепо, не правда ли?[n][w][e]
@@ -74,7 +74,7 @@
 [s]"Расскажи мне больше!"[e]
 ##-[s]"Tell me more!"[e]-##
 
-[msg MSG_8A_NPC003_02 [Woman]]
+[msg MSG_8A_NPC003_02 [Женщина]]
 [s]Наша газета в основном освещает эти[n]инциденты. Мы всего лишь третьесортное[n]"желтое" издание, но...[n][w][e]
 ##-[s]Our rag mainly covers these[n]incidents. We're just a third-[n]rate "yellow" publication, but...[n][w][e]-##
 [s]Однажды я получу сенсацию, которая выведет[n]нас на первое место![n][w][e]
@@ -82,27 +82,27 @@
 [s]Однако мой босс говорит мне, чтобы я не[n]тратил свое время впустую... Он думает, что[n]это невозможно.[n][w][e]
 ##-[s]My boss tells me not to waste my[n]time, though... He thinks it's[n]impossible.[n][w][e]-##
 
-[msg MSG_8A_NPC003_03 [Woman]]
+[msg MSG_8A_NPC003_03 [Женщина]]
 [s]Тебе не нужно быть таким скромным.[n][w][e]
 ##-[s]You don't have to be so humble.[n][w][e]-##
 
-[msg MSG_8A_NPC003_03_G [Woman]]
+[msg MSG_8A_NPC003_03_G [Женщина]]
 [s]Ха-ха, это мило с твоей стороны сказать, но[n]все в порядке. Тебе не нужно быть таким[n]скромным.[n][w][e]
 ##-[s]Haha, that's nice of you to say,[n]but it's okay. You don't have to be[n]so humble.[n][w][e]-##
 
-[msg MSG_8A_NPC003_04 [Woman]]
+[msg MSG_8A_NPC003_04 [Женщина]]
 [s]Ты забавный.[n][w][e]
 ##-[s]You're funny.[n][w][e]-##
-[s]Но это очень непредубежденно с твоей[n]стороны... Я впечатлен.[n][w][e]
+[s]Но это очень непредубежденно с твоей[n]стороны... Я впечатлена.[n][w][e]
 ##-[s]But that's very open-minded[n]of you... I'm impressed.[n][w][e]-##
 
-[msg MSG_8A_NPC003_04_G [Woman]]
-[s]Ты забавный.[n][w][e]
+[msg MSG_8A_NPC003_04_G [Женщина]]
+[s]Ты забавныйа.[n][w][e]
 ##-[s]You're funny.[n][w][e]-##
-[s]Но это очень непредубежденно с твоей[n]стороны... Я впечатлен.[n][w][e]
+[s]Но это очень непредубежденно с твоей[n]стороны... Я впечатлена.[n][w][e]
 ##-[s]But that's very open-minded[n]of you... I'm impressed.[n][w][e]-##
 
-[msg MSG_ARA_NPC003_01 [Woman]]
+[msg MSG_ARA_NPC003_01 [Женщина]]
 [s]Был убит студент из Геккукана... Хммм.[n][w][e]
 ##-[s]A Gekkoukan student was killed...[n]Hmmm.[n][w][e]-##
 [s]Это тот случай, который попадает в[n]заголовки газет.[n][w][e]
@@ -110,7 +110,7 @@
 [s]Начальство велело мне собирать информацию,[n]и вот я здесь... Но эти дела - не мое дело.[n][w][e]
 ##-[s]The higher-ups told me to gather[n]information, so here I am... But[n]these cases aren't my thing.[n][w][e]-##
 
-[msg MSG_ARA_NPC003_01_G [Woman]]
+[msg MSG_ARA_NPC003_01_G [Женщина]]
 [s]Студент Геккукана находится на грани[n]смерти... Хммм.[n][w][e]
 ##-[s]A Gekkoukan student is on the brink of[n]death... Hmmm.[n][w][e]-##
 [s]Это тот случай, который попадает в[n]заголовки газет.[n][w][e]
@@ -118,61 +118,61 @@
 [s]Начальство велело мне собирать информацию,[n]и вот я здесь... Но эти дела - не мое дело.[n][w][e]
 ##-[s]The higher-ups told me to gather[n]information, so here I am... But[n]these cases aren't my thing.[n][w][e]-##
 
-[msg MSG_AMADA1ST_01 [Yukari]]
+[msg MSG_AMADA1ST_01 [Юкари]]
 [s][bup 2 1 65535 0]О, [f 4 2]- кун. Позвольте мне представить вам[n]Кен-куна.[n][w][e]
-##-[s][bup 2 1 65535 0]Oh, [f 4 2]-kun. Let me introduce[n]you to Ken-kun.[n][w][e]-##
+##-[s][bup 2 1 65535 0]Oh, [f 4 2]-kun. Let me introduce[n]you to Кен-kun.[n][w][e]-##
 
-[msg MSG_AMADA1ST_01_G [Yukari]]
+[msg MSG_AMADA1ST_01_G [Юкари]]
 [s][bup 2 1 65535 0]О, [f 4 2].Позвольте мне представить вам Кен-куна.[n][w][e]
-##-[s][bup 2 1 65535 0]Oh, [f 4 2]. Let me introduce[n]you to Ken-kun.[n][w][e]-##
+##-[s][bup 2 1 65535 0]Oh, [f 4 2]. Let me introduce[n]you to Кен-kun.[n][w][e]-##
 
-[msg MSG_AMADA1ST_02 [Ken]]
+[msg MSG_AMADA1ST_02 [Кен]]
 [s][bup 8 1 65535 0]Приятно познакомиться. Меня зовут Кен[n]Амада.[n][w][e]
-##-[s][bup 8 1 65535 0]Nice to meet you. My name is[n]Ken Amada.[n][w][e]-##
+##-[s][bup 8 1 65535 0]Nice to meet you. My name is[n]Кен Amada.[n][w][e]-##
 [s]Вы дружите с Юкари-сан и Дзюнпей-сан?[n][w][e]
-##-[s]Are you friends with Yukari-san[n]and Junpei-san?[n][w][e]-##
+##-[s]Are you friends with Юкари-san[n]and Джунпей-san?[n][w][e]-##
 
-[msg MSG_AMADA1ST_03 [Junpei]]
+[msg MSG_AMADA1ST_03 [Джунпей]]
 [s][bup 5 1 65535 1]Да, ты понял.[n][w][e]
 ##-[s][bup 5 1 65535 1]Yep, you got it.[n][w][e]-##
 [s]Он живет в том же общежитии, что и мы с[n]Юкой-таном.[n][w][e]
 ##-[s]He lives in the same dorm as me[n]and Yuka-tan.[n][w][e]-##
 
-[msg MSG_AMADA1ST_03_G [Junpei]]
-[s][bup 5 1 65535 1]Да, ты понял.[n][w][e]
+[msg MSG_AMADA1ST_03_G [Джунпей]]
+[s][bup 5 1 65535 1]Да, ты поняла.[n][w][e]
 ##-[s][bup 5 1 65535 1]Yep, you got it.[n][w][e]-##
 [s]Она живет в том же общежитии, что и мы с[n]Юкой-таном.[n][w][e]
 ##-[s]She lives in the same dorm as me[n]and Yuka-tan.[n][w][e]-##
 
-[msg MSG_AMADA1ST_04 [Ken]]
+[msg MSG_AMADA1ST_04 [Кен]]
 [s][bup 8 1 65535 3]Действительно? Я не знал, что мальчики и[n]девочки могут жить в одном общежитии.[n][w][e]
 ##-[s][bup 8 1 65535 3]Really? I didn't know boys and[n]girls could live in the same dorm.[n][w][e]-##
 
-[msg MSG_AMADA1ST_05 [Yukari]]
+[msg MSG_AMADA1ST_05 [Юкари]]
 [s][bup 2 1 65535 1]Ммм, э-э, хорошо... Это как...[n][w][e]
 ##-[s][bup 2 1 65535 1]Umm, uhh, well... It's like...[n][w][e]-##
 
-[msg MSG_AMADA1ST_06 [Junpei]]
+[msg MSG_AMADA1ST_06 [Джунпей]]
 [s][bup 5 1 65535 1]Мы - исключения! У нас есть веские причины[n]держаться поближе...[n][w][e]
 ##-[s][bup 5 1 65535 1]We're exceptions! We've got good[n]reasons for sticking close...[n][w][e]-##
 
-[msg MSG_AMADA1ST_YUKARI_01 [Yukari]]
+[msg MSG_AMADA1ST_YUKARI_01 [Юкари]]
 [s][bup 2 1 65535 0]Я здесь часто разговариваю с Кен-куном.[n][w][e]
-##-[s][bup 2 1 65535 0]I talk to Ken-kun here a lot.[n][w][e]-##
+##-[s][bup 2 1 65535 0]I talk to Кен-kun here a lot.[n][w][e]-##
 [s]Он намного надежнее Ступея.[n][w][e]
 ##-[s]He's a lot more reliable than Stupei.[n][w][e]-##
 
-[msg MSG_AMADA1ST_JUNPEI_01 [Junpei]]
+[msg MSG_AMADA1ST_JUNPEI_01 [Джунпей]]
 [s][bup 5 1 65535 0]Боже, Юка-тан, ты такая злая...[n][w][e]
 ##-[s][bup 5 1 65535 0]Geez, Yuka-tan, you're so mean...[n][w][e]-##
 [s]Кроме того, я гораздо более зрелая, чем[n]Кен. Тебе так не кажется?[n][w][e]
-##-[s]Besides, I'm way more mature than[n]Ken. Don't you think?[n][w][e]-##
+##-[s]Besides, I'm way more mature than[n]Кен. Don't you think?[n][w][e]-##
 
 [sel MSG_AMADA1ST_JUNPEI_01_S top]
 [s]"Ты более зрелая".[e]
 ##-[s]"You're more mature."[e]-##
 [s]"Кен более зрелый".[e]
-##-[s]"Ken's more mature."[e]-##
+##-[s]"Кен's more mature."[e]-##
 
 [sel MSG_AMADA1ST_JUNPEI_01_S_2 top]
 [s]"Ты более зрелая".[e]
@@ -180,41 +180,41 @@
 [s]"Определенно не твой мозг".[e]
 ##-[s]"Definitely not your brain."[e]-##
 
-[msg MSG_AMADA1ST_JUNPEI_02 [Junpei]]
+[msg MSG_AMADA1ST_JUNPEI_02 [Джунпей]]
 [s][bup 5 1 65535 0]Видишь!? Ты слышишь это, Юка-тан?[n][w][e]
 ##-[s][bup 5 1 65535 0]See!? You hear that, Yuka-tan?[n][w][e]-##
 [s]Даже [f 4 2] думает, что я более зрелая, чем этот[n]ребенок![n][w][e]
 ##-[s]Even [f 4 2] thinks I'm more[n]mature than that kid![n][w][e]-##
 
-[msg MSG_AMADA1ST_JUNPEI_03 [Junpei]]
+[msg MSG_AMADA1ST_JUNPEI_03 [Джунпей]]
 [s][bup 5 1 65535 0]С-Серьезно!?[n][w][e]
 ##-[s][bup 5 1 65535 0]S-Serious!?[n][w][e]-##
 [s]Почему вы, ребята, всегда должны быть[n]суровыми к отстающим...?[n][w][e]
 ##-[s]Why you guys always gotta be[n]harshin' the tards...?[n][w][e]-##
 
-[msg MSG_AMADA1ST_JUNPEI_03_G [Junpei]]
+[msg MSG_AMADA1ST_JUNPEI_03_G [Джунпей]]
 [s][bup 5 1 65535 0]Ты говоришь, что я более незрелый, чем этот[n]ребенок!?[n][w][e]
 ##-[s][bup 5 1 65535 0]You sayin' that I'm more immature than[n]this kid!?[n][w][e]-##
 [s]Чувак, вы оба милые, но почему вы, ребята,[n]всегда должны быть суровыми к отстающим...?[n][w][e]
-##-[s]Man, you're both cute, but why you guys[n]always gotta be harshin' the tards...?[n][w][e]-##
+##-[s]Мужчина, you're both cute, but why you guys[n]always gotta be harshin' the tards...?[n][w][e]-##
 
-[msg MSG_AMADA1ST_AMADA_01 [Ken]]
+[msg MSG_AMADA1ST_AMADA_01 [Кен]]
 [s][bup 8 1 65535 0]Юкари-сан и Дзюнпэй-сан часто помогают мне.[n][w][e]
-##-[s][bup 8 1 65535 0]Yukari-san and Junpei-san often[n]give me help.[n][w][e]-##
+##-[s][bup 8 1 65535 0]Юкари-san and Джунпей-san often[n]give me help.[n][w][e]-##
 [s]Особенно Юкари-сан! Ее советы очень[n]полезны.[n][w][e]
-##-[s]Especially Yukari-san! Her advice[n]is very useful.[n][w][e]-##
+##-[s]Especially Юкари-san! Her advice[n]is very useful.[n][w][e]-##
 
-[msg MSG_AMADA2ND_YUKARI_01 [Yukari]]
+[msg MSG_AMADA2ND_YUKARI_01 [Юкари]]
 [s][bup 2 1 65535 0]Эй, [f 4 2]- кун.[n][w][e]
 ##-[s][bup 2 1 65535 0]Hey, [f 4 2]-kun.[n][w][e]-##
 [s]Ты тоже здесь, чтобы увидеть Кен-куна?[n][w][e]
-##-[s]Are you here to see Ken-kun too?[n][w][e]-##
+##-[s]Are you here to see Кен-kun too?[n][w][e]-##
 
-[msg MSG_AMADA2ND_YUKARI_01_G [Yukari]]
+[msg MSG_AMADA2ND_YUKARI_01_G [Юкари]]
 [s][bup 2 1 65535 0]Эй, [f 4 2].[n][w][e]
 ##-[s][bup 2 1 65535 0]Hey, [f 4 2].[n][w][e]-##
 [s]Ты тоже здесь, чтобы увидеть Кен-куна?[n][w][e]
-##-[s]Are you here to see Ken-kun too?[n][w][e]-##
+##-[s]Are you here to see Кен-kun too?[n][w][e]-##
 
 [sel MSG_AMADA2ND_YUKARI_01_S top]
 [s]"Это верно".[e]
@@ -222,31 +222,31 @@
 [s]"Я здесь, чтобы увидеть тебя".[e]
 ##-[s]"I'm here to see you."[e]-##
 
-[msg MSG_AMADA2ND_YUKARI_02 [Yukari]]
-[s][bup 2 2 65535 0]Рад это слышать. Приятно видеть, что у[n]Кен-куна появляется больше друзей.[n][w][e]
-##-[s][bup 2 2 65535 0]Glad to hear it. It's good to see[n]Ken-kun making more friends.[n][w][e]-##
+[msg MSG_AMADA2ND_YUKARI_02 [Юкари]]
+[s][bup 2 2 65535 0]Рада это слышать. Приятно видеть, что у[n]Кен-куна появляется больше друзей.[n][w][e]
+##-[s][bup 2 2 65535 0]Glad to hear it. It's good to see[n]Кен-kun making more friends.[n][w][e]-##
 
-[msg MSG_AMADA2ND_YUKARI_02_G [Yukari]]
-[s][bup 2 2 65535 0]Рад это слышать. Приятно видеть, что у[n]Кен-куна появляется больше друзей.[n][w][e]
-##-[s][bup 2 2 65535 0]Glad to hear it. It's good to see[n]Ken-kun making more friends.[n][w][e]-##
+[msg MSG_AMADA2ND_YUKARI_02_G [Юкари]]
+[s][bup 2 2 65535 0]Рада это слышать. Приятно видеть, что у[n]Кен-куна появляется больше друзей.[n][w][e]
+##-[s][bup 2 2 65535 0]Glad to hear it. It's good to see[n]Кен-kun making more friends.[n][w][e]-##
 
-[msg MSG_AMADA2ND_YUKARI_03 [Yukari]]
+[msg MSG_AMADA2ND_YUKARI_03 [Юкари]]
 [s][bup 2 1 65535 0]Правда?.. Почему? Мы видимся каждый день в[n]общежитии.[n][w][e]
 ##-[s][bup 2 1 65535 0]Really...? Why? We see each other[n]every day at the dorm.[n][w][e]-##
 
-[msg MSG_AMADA2ND_YUKARI_03_G [Yukari]]
+[msg MSG_AMADA2ND_YUKARI_03_G [Юкари]]
 [s][bup 2 1 65535 0]Правда?.. Почему? Мы видимся каждый день в[n]общежитии.[n][w][e]
 ##-[s][bup 2 1 65535 0]Really...? Why? We see each other[n]every day at the dorm.[n][w][e]-##
 [s]О, тебе нужно что-то обсудить только между[n]девушками? Мы можем поговорить об этом в[n]общежитии.[n][w][e]
 ##-[s]Oh, is there something you need to[n]discuss just between girls? We can[n]talk about it back at the dorm.[n][w][e]-##
 
-[msg MSG_AMADA2ND_JUNPEI_01 [Junpei]]
+[msg MSG_AMADA2ND_JUNPEI_01 [Джунпей]]
 [s][bup 5 1 65535 0]О-о-о, малыш выглядел грустным, находясь[n]здесь совсем один.[n][w][e]
 ##-[s][bup 5 1 65535 0]Awww, the little guy looked sad,[n]being here all alone.[n][w][e]-##
 [s]Поэтому я поговорил с ним... Я имею в виду,[n]не нарочно.[n][w][e]
 ##-[s]So I talked to him... Not on[n]purpose, I mean.[n][w][e]-##
 
-[msg MSG_AMADA2ND_AMADA_01 [Ken]]
+[msg MSG_AMADA2ND_AMADA_01 [Кен]]
 [s][bup 8 1 65535 0]Привет.[n][w][e]
 ##-[s][bup 8 1 65535 0]Hello.[n][w][e]-##
 
@@ -262,25 +262,25 @@
 [s]"Как вы трое познакомились?"[e]
 ##-[s]"How'd you three meet?"[e]-##
 
-[msg MSG_AMADA2ND_AMADA_02 [Ken]]
+[msg MSG_AMADA2ND_AMADA_02 [Кен]]
 [s][bup 8 1 65535 0]Без особой причины... Я могу просто[n]расслабиться, когда прихожу сюда.[n][w][e]
 ##-[s][bup 8 1 65535 0]No specific reason... I can just[n]relax when I come here.[n][w][e]-##
 
-[msg MSG_AMADA2ND_AMADA_03 [Ken]]
+[msg MSG_AMADA2ND_AMADA_03 [Кен]]
 [s][bup 8 1 65535 0]Вообще-то, Дзюнпэй-сан подошел ко мне[n]первым.[n][w][e]
-##-[s][bup 8 1 65535 0]Junpei-san came up to me first,[n]actually.[n][w][e]-##
+##-[s][bup 8 1 65535 0]Джунпей-san came up to me first,[n]actually.[n][w][e]-##
 [s]После этого пришла Юкари-сан, и я иногда[n]тоже разговаривал с ней.[n][w][e]
-##-[s]After that, Yukari-san came, and[n]I'd sometimes talk to her too.[n][w][e]-##
+##-[s]After that, Юкари-san came, and[n]I'd sometimes talk to her too.[n][w][e]-##
 
-[msg MSG_SHOGATU_JUNPEI_01 [Junpei]]
+[msg MSG_SHOGATU_JUNPEI_01 [Джунпей]]
 [s][bup 5 1 65535 0]Чувак! Я этого не говорил! Н-не выдумывай[n]ничего![n][w][e]
 ##-[s][bup 5 1 65535 0]Dude! I didn't say that![n]D-Don't make things up![n][w][e]-##
 
-[msg MSG_SHOGATU_AMADA_01 [Ken]]
+[msg MSG_SHOGATU_AMADA_01 [Кен]]
 [s][bup 8 1 65535 0]Что?.. Но ты...[n][w][e]
 ##-[s][bup 8 1 65535 0]What...? But you...[n][w][e]-##
 
-[msg MSG_SHOGATU_YUKARI_01 [Yukari]]
+[msg MSG_SHOGATU_YUKARI_01 [Юкари]]
 [s][bup 2 61 0 0]Как мог Ступей сказать такое ребенку!?[n][w][e]
 ##-[s][bup 2 61 0 0]How could Stupei say such a thing[n]to a kid!?[n][w][e]-##
 [s]Но знаешь, приятно время от времени[n]заниматься подобными вещами.[n][w][e]
@@ -288,7 +288,7 @@
 [s]Давайте думать позитивно и надеяться на[n]лучшие результаты.[n][w][e]
 ##-[s]Let's think positive thoughts, and[n]hope for the best results.[n][w][e]-##
 
-[msg MSG_SHOGATU_YUKARI_01_G [Yukari]]
+[msg MSG_SHOGATU_YUKARI_01_G [Юкари]]
 [s][bup 2 61 0 0]Как мог Ступей сказать такое ребенку!? Я не[n]могу ему поверить.[n][w][e]
 ##-[s][bup 2 61 0 0]How could Stupei say such a thing[n]to a kid!? I can't believe him.[n][w][e]-##
 [s]Но знаешь, приятно время от времени[n]заниматься подобными вещами.[n][w][e]
@@ -296,35 +296,35 @@
 [s]Мы должны начать все сначала и мыслить[n]позитивно. Давайте сделаем все, что в наших[n]силах.[n][w][e]
 ##-[s]We gotta make a fresh start and think[n]positively. Let's do our best.[n][w][e]-##
 
-[msg MSG_SHOGATU_FUUKA_01 [Fuuka]]
+[msg MSG_SHOGATU_FUUKA_01 [Фука]]
 [s][bup 6 61 0 0]Надев это, я чувствую себя обновленной.[n][w][e]
 ##-[s][bup 6 61 0 0]Wearing this makes me feel renewed.[n][w][e]-##
 [s]Хотя из-за пояса... трудно дышать...[n][w][e]
 ##-[s]Although the sash makes it...[n]hard to breathe...[n][w][e]-##
 
-[msg MSG_SHOGATU_FUUKA_01_G [Fuuka]]
+[msg MSG_SHOGATU_FUUKA_01_G [Фука]]
 [s][bup 6 61 0 0]Надев это, я чувствую себя обновленной.[n][w][e]
 ##-[s][bup 6 61 0 0]Wearing this makes me feel renewed.[n][w][e]-##
 [s]Хотя из-за пояса... трудно дышать... Ты в[n]порядке, [f 4 2]- чан?[n][w][e]
 ##-[s]Although the sash makes it... hard to breathe...[n]Are you okay, [f 4 2]-chan?[n][w][e]-##
 
-[msg MSG_SHOGATU_SANADA_01 [Akihiko]]
+[msg MSG_SHOGATU_SANADA_01 [Акихико]]
 [s][bup 7 1 65535 0]Я не привык видеть девушек в таком[n]состоянии... Мне как-то неловко смотреть на[n]них.[n][w][e]
 ##-[s][bup 7 1 65535 0]I'm not used to seeing the girls[n]like that... I'm kind of embarrassed[n]to look at them.[n][w][e]-##
 
-[msg MSG_SHOGATU_SANADA_01_G [Akihiko]]
+[msg MSG_SHOGATU_SANADA_01_G [Акихико]]
 [s][bup 7 1 65535 0]Э-э, ну, эм...[n][w][e]
 ##-[s][bup 7 1 65535 0]Uhh, well, um...[n][w][e]-##
 [s]Я не привык видеть тебя в чем-то[n]подобном... Я немного смущен. Извините...[n][w][e]
 ##-[s]I'm not used to seeing you wearing[n]something like that... I'm kind of[n]embarrassed. Sorry...[n][w][e]-##
 
-[msg MSG_SHOGATU_AEGIS_01 [Aigis]]
+[msg MSG_SHOGATU_AEGIS_01 [Айгис]]
 [s][bup 3 61 0 0]Я нарисовал бумажную удачу, и на ней было[n]написано "Большая удача".[n][w][e]
 ##-[s][bup 3 61 0 0]I drew a paper fortune, and it read[n]"Great Luck".[n][w][e]-##
 [s]Я ожидаю отличных результатов.[n][w][e]
 ##-[s]I'm anticipating excellent results.[n][w][e]-##
 
-[msg MSG_SHOGATU_MITURU_01 [Mitsuru]]
+[msg MSG_SHOGATU_MITURU_01 [Мицуру]]
 [s][bup 4 61 0 0]Ты хочешь уйти?[n][w][e]
 ##-[s][bup 4 61 0 0]Do you want to leave?[n][w][e]-##
 
@@ -334,25 +334,25 @@
 [s]"Я останусь еще немного".[e]
 ##-[s]"I'll stay a little longer."[e]-##
 
-[msg MSG_SHOGATU_MITURU_02 [Mitsuru]]
+[msg MSG_SHOGATU_MITURU_02 [Мицуру]]
 [s][bup 4 61 0 0]Все в порядке. Дай мне знать, если захочешь[n]уйти.[n][w][e]
 ##-[s][bup 4 61 0 0]All right. Let me know if you[n]want to leave.[n][w][e]-##
 
-[msg MSG_NPC010_01 [Man]]
+[msg MSG_NPC010_01 [Мужчина]]
 [s]Я вытащил удачу, и это было "Наихудшее[n]везение"...[n][w][e]
 ##-[s]I pulled the fortune out, and it was[n]"Worst Luck"...[n][w][e]-##
 [s]Это чертовски хороший способ начать Новый[n]год.[n][w][e]
 ##-[s]That's a hell of a way to start[n]the New Year.[n][w][e]-##
 
-[msg TAKOYAKI_SHONITI [Octopia Cook]]
+[msg TAKOYAKI_SHONITI [Повар-Осьминог]]
 [s]Эй, иди сюда, молодой человек![n][w][e]
-##-[s]Hey, come over here, young man![n][w][e]-##
+##-[s]Hey, come over here, young Мужчина![n][w][e]-##
 [s]Мои такояки одновременно вкусные и дешевые![n]Всего 400 иен![n][w][e]
 ##-[s]My takoyaki is both delicious and[n]cheap! Only 400 yen![n][w][e]-##
 [s]Что, ты думаешь, что получишь скидку,[n]потому что сегодня Новый год? Просто купи[n]немного! Пожалуйста![n][w][e]
 ##-[s]What, you think you'd get[n]a discount because it's New[n]Year's? Just buy some! Please![n][w][e]-##
 
-[msg TAKOYAKI_SHONITI_G [Octopia Cook]]
+[msg TAKOYAKI_SHONITI_G [Повар-Осьминог]]
 [s]Эй, подойдите сюда, мисс![n][w][e]
 ##-[s]Hey, come over here, miss![n][w][e]-##
 [s]Мои такояки одновременно вкусные и дешевые![n]Всего 400 иен![n][w][e]
@@ -370,13 +370,13 @@
 [s]Нет[e]
 ##-[s]No[e]-##
 
-[msg TAKOYAKI_OWARI [Octopia Cook]]
+[msg TAKOYAKI_OWARI [Повар-Осьминог]]
 [s]Спасибо! Пожалуйста, приходите еще![n][w][e]
 ##-[s]Thank you! Please come again![n][w][e]-##
 [s]> Получено [f 2 5 3 13 0]![n][f 1 4][e]
 ##-[s]> Obtained [f 2 5 3 13 0]![n][f 1 4][e]-##
 
-[msg TAKOYAKI_KAWANAI [Octopia Cook]]
+[msg TAKOYAKI_KAWANAI [Повар-Осьминог]]
 [s]Что?.. Вы не покупаете никаких...?[n][w][e]
 ##-[s]What...? You aren't buying any...?[n][w][e]-##
 
@@ -394,19 +394,19 @@
 [s][bup 10 201 0 0]Арф! Арф![n][w][e]
 ##-[s][bup 10 201 0 0]Arf! Arf![n][w][e]-##
 
-[msg MSG_NPC009_01 [Woman]]
+[msg MSG_NPC009_01 [Женщина]]
 [s]Разве ты не ненавидишь получать "Наихудшую[n]удачу"?[n][w][e]
 ##-[s]Don't you hate getting the[n]"Worst Luck" fortune?[n][w][e]-##
 [s]Я чувствую, что он - причина того, что мне[n]так не везет... Может быть, мне стоит[n]порвать с ним.[n][w][e]
 ##-[s]I feel like he's the reason my[n]luck is so bad... Maybe I should[n]break up with him.[n][w][e]-##
 
-[msg MSG_NPC010_01_2 [Man]]
+[msg MSG_NPC010_01_2 [Мужчина]]
 [s]Я вытащил удачу, и это было "Наихудшее[n]везение"...[n][w][e]
 ##-[s]I pulled the fortune out, and it was[n]"Worst Luck"...[n][w][e]-##
 [s]Это чертовски хороший способ начать Новый[n]год.[n][w][e]
 ##-[s]That's a hell of a way to start[n]the New Year.[n][w][e]-##
 
-[msg MSG_1A_NPC019_01 [Lady]]
+[msg MSG_1A_NPC019_01 [Леди]]
 [s]В наши дни вы слышите много плохих вещей,[n]но никогда не бойтесь.[n][w][e]
 ##-[s]You hear many bad things these days,[n]but never fear.[n][w][e]-##
 [s]Спасение этого мира уже близко.[n][w][e]
@@ -416,7 +416,7 @@
 [s]В конце концов, я тоже не верил в это с[n]самого начала.[n][w][e]
 ##-[s]After all, I didn't believe it in[n]the beginning, either.[n][w][e]-##
 
-[msg MSG_1B_NPC019_01 [Lady]]
+[msg MSG_1B_NPC019_01 [Леди]]
 [s]Я слышал, что сама Никс спасет наш мир.[n][w][e]
 ##-[s]I heard Nyx-sama will save[n]our world.[n][w][e]-##
 [s]Моя жизнь катится под откос, и я начинаю от[n]этого уставать...[n][w][e]
@@ -430,13 +430,13 @@
 [s]В конце концов, я тоже не верил в это с[n]самого начала.[n][w][e]
 ##-[s]After all, I didn't believe it in[n]the beginning, either.[n][w][e]-##
 
-[msg MSG_1A_NPC020_01 [Woman]]
+[msg MSG_1A_NPC020_01 [Женщина]]
 [s]Выбраться из колеи, в которой застряла моя[n]жизнь, звучит неплохо...[n][w][e]
 ##-[s]Getting out of the rut my life's[n]stuck in sounds good...[n][w][e]-##
 [s]Но эта чушь насчет "Избавления" и "Конца"[n]выводит меня из себя.[n][w][e]
 ##-[s]But that stuff about "Deliverance"[n]and "the End" rubs me the wrong way.[n][w][e]-##
 
-[msg MSG_NPC_JINJA_01 [Old Man]]
+[msg MSG_NPC_JINJA_01 [Старный Мужчина]]
 [s]Привет. Боже мой, ты выглядишь как приятный[n]молодой человек.[n][w][e]
 ##-[s]Hello there. My, my, you look like[n]a pleasant young'un.[n][w][e]-##
 [s]Но что ты делаешь в святилище? Ты не похож[n]на человека, склонного к молитве...[n][w][e]
