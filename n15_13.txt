@@ -1,15 +1,15 @@
 [sel TALK_SEL top]
-[s]Добавьте в свою вечеринку[e]
+[s]Добавьте в свою группу[e]
 ##-[s]Add to your party[e]-##
-[s]Удалить с вашей вечеринки[e]
+[s]Удалить с вашей группы[e]
 ##-[s]Remove from your party[e]-##
-[s]Сделано[e]
+[s]Выполнено[e]
 ##-[s]Done[e]-##
 
 [sel BACK_UP_SEL top]
 [s]Проверьте статус каждого[e]
 ##-[s]Check everyone's status[e]-##
-[s]Сделано[e]
+[s]Выполнено[e]
 ##-[s]Done[e]-##
 
 [sel PARTY_SEL top]
@@ -19,257 +19,257 @@
 ##-[s]Aigis[e]-##
 [s]Мицуру[e]
 ##-[s]Mitsuru[e]-##
-[s]Дзюнпэй[e]
+[s]Джунпей[e]
 ##-[s]Junpei[e]-##
 [s]Акихико[e]
 ##-[s]Akihiko[e]-##
-[s]Кругозор[e]
+[s]Кен[e]
 ##-[s]Ken[e]-##
 [s]Синдзиро[e]
 ##-[s]Shinjiro[e]-##
 [s]Коромару[e]
 ##-[s]Koromaru[e]-##
-[s]Сделано[e]
+[s]Выполнено[e]
 ##-[s]Done[e]-##
 
-[msg YUKARI_PARTY_IN_NORMAL [Yukari]]
+[msg YUKARI_PARTY_IN_NORMAL [Юкари]]
 [s][bup 2 201 0 0]...Готовы идти?[n][w][e]
 ##-[s][bup 2 201 0 0]...Ready to go?[n][w][e]-##
 
-[msg YUKARI_PARTY_IN_AFTER_NO [Yukari]]
+[msg YUKARI_PARTY_IN_AFTER_NO [Юкари]]
 [s][bup 2 201 0 0]...Хорошо.[n][w][e]
 ##-[s][bup 2 201 0 0]...Okay.[n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_NORMAL [Yukari]]
+[msg YUKARI_PARTY_OUT_NORMAL [Юкари]]
 [s][bup 2 204 0 0]Это будет наше последнее испытание, ха...[n][w][e]
 ##-[s][bup 2 204 0 0]This will be our last test, huh...[n][w][e]-##
 
-[msg YUKARI_PARTY_OUT_AFTER_N [Yukari]]
+[msg YUKARI_PARTY_OUT_AFTER_N [Юкари]]
 [s][bup 2 204 0 0]...Хорошо, я понимаю.[n][w][e]
 ##-[s][bup 2 204 0 0]...Alright, I understand.[n][w][e]-##
 
-[msg YUKARI_PARTY_OVER [Yukari]]
+[msg YUKARI_PARTY_OVER [Юкари]]
 [s][bup 2 201 0 0]...Там нет места.[n][w][e]
 ##-[s][bup 2 201 0 0]...There's no room.[n][w][e]-##
 
-[msg YUKARI_PARTY_CHANGE [Yukari]]
-[s][bup 2 201 0 0]Чье место я должен занять?[n][w][e]
+[msg YUKARI_PARTY_CHANGE [Юкари]]
+[s][bup 2 201 0 0]Чье место я должна занять?[n][w][e]
 ##-[s][bup 2 201 0 0]Whose place should I take?[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_NORMAL [Aigis]]
+[msg AEGIS_PARTY_IN_NORMAL [Айгис]]
 [s][bup 3 201 0 0]Пойдем.[n][w][e]
 ##-[s][bup 3 201 0 0]Let's go.[n][w][e]-##
 
-[msg AEGIS_PARTY_IN_AFTER_NOR [Aigis]]
+[msg AEGIS_PARTY_IN_AFTER_NOR [Айгис]]
 [s][bup 3 201 0 0]Роджер.[n][w][e]
 ##-[s][bup 3 201 0 0]Roger.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_NORMAL [Aigis]]
+[msg AEGIS_PARTY_OUT_NORMAL [Айгис]]
 [s][bup 3 203 0 0]Давай покончим с этим.[n][w][e]
 ##-[s][bup 3 203 0 0]Let's end this.[n][w][e]-##
 
-[msg AEGIS_PARTY_OUT_AFTER_NO [Aigis]]
-[s][bup 3 201 0 0]Понял.[n][w][e]
+[msg AEGIS_PARTY_OUT_AFTER_NO [Айгис]]
+[s][bup 3 201 0 0]Поняла.[n][w][e]
 ##-[s][bup 3 201 0 0]Understood.[n][w][e]-##
 
-[msg AEGIS_PARTY_OVER [Aigis]]
+[msg AEGIS_PARTY_OVER [Айгис]]
 [s][bup 3 201 0 0]Для меня здесь нет места.[n][w][e]
 ##-[s][bup 3 201 0 0]There is no space for me.[n][w][e]-##
 
-[msg AEGIS_PARTY_CHANGE [Aigis]]
-[s][bup 3 201 0 0]...Кого я должен заменить?[n][w][e]
+[msg AEGIS_PARTY_CHANGE [Айгис]]
+[s][bup 3 201 0 0]...Кого я должна заменить?[n][w][e]
 ##-[s][bup 3 201 0 0]...Who should I replace?[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_NORMAL [Mitsuru]]
-[s][bup 4 204 0 0]Прости, что заставил тебя пройти через все[n]это...[n][w][e]
+[msg MITSURU_PARTY_IN_NORMAL [Мицуру]]
+[s][bup 4 204 0 0]Прости, что заставила тебя пройти через все[n]это...[n][w][e]
 ##-[s][bup 4 204 0 0]Sorry to put you through all this...[n][w][e]-##
 
-[msg MITSURU_PARTY_IN_AFTER_N [Mitsuru]]
+[msg MITSURU_PARTY_IN_AFTER_N [Мицуру]]
 [s][bup 4 204 0 0]...Очень хорошо.[n][w][e]
 ##-[s][bup 4 204 0 0]...Very well.[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_NORMAL [Mitsuru]]
+[msg MITSURU_PARTY_OUT_NORMAL [Мицуру]]
 [s][bup 4 201 0 0]После этого все будет кончено.[n][w][e]
 ##-[s][bup 4 201 0 0]It'll be over after this.[n][w][e]-##
 
-[msg MITSURU_PARTY_OUT_AFTER_ [Mitsuru]]
+[msg MITSURU_PARTY_OUT_AFTER_ [Мицуру]]
 [s][bup 4 204 0 0]...Я понимаю.[n][w][e]
 ##-[s][bup 4 204 0 0]...I see.[n][w][e]-##
 
-[msg MITSURU_PARTY_OVER [Mitsuru]]
-[s][bup 4 201 0 0]...В партии слишком много людей.[n][w][e]
+[msg MITSURU_PARTY_OVER [Мицуру]]
+[s][bup 4 201 0 0]...В группе слишком много людей.[n][w][e]
 ##-[s][bup 4 201 0 0]...There are too many people in[n]the party.[n][w][e]-##
 
-[msg MITSURU_PARTY_CHANGE [Mitsuru]]
-[s][bup 4 201 0 0]Кого бы вы хотели, чтобы я заменил?[n][w][e]
+[msg MITSURU_PARTY_CHANGE [Мицуру]]
+[s][bup 4 201 0 0]Кого бы вы хотели, чтобы я заменила?[n][w][e]
 ##-[s][bup 4 201 0 0]Who would you like me to replace?[n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_NORMAL [Junpei]]
+[msg JUNPEI_PARTY_IN_NORMAL [Джунпей]]
 [s][bup 5 203 0 0]Хорошо, давайте начнем.[n][w][e]
 ##-[s][bup 5 203 0 0]Alright, let's get going.[n][w][e]-##
 
-[msg JUNPEI_PARTY_IN_AFTER_NO [Junpei]]
+[msg JUNPEI_PARTY_IN_AFTER_NO [Джунпей]]
 [s][bup 5 203 0 0]Предоставь это мне![n][w][e]
 ##-[s][bup 5 203 0 0]Leave it to me![n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_NORMAL [Junpei]]
+[msg JUNPEI_PARTY_OUT_NORMAL [Джунпей]]
 [s][bup 5 203 0 0]Что случилось? Пойдем.[n][w][e]
 ##-[s][bup 5 203 0 0]What's wrong? Let's go.[n][w][e]-##
 
-[msg JUNPEI_PARTY_OUT_AFTER_N [Junpei]]
+[msg JUNPEI_PARTY_OUT_AFTER_N [Джунпей]]
 [s][bup 5 203 0 0]...Не умирай.[n][w][e]
 ##-[s][bup 5 203 0 0]...Don't die.[n][w][e]-##
 
-[msg JUNPEI_PARTY_OVER [Junpei]]
-[s][bup 5 203 0 0]...Вечеринка переполнена.[n][w][e]
+[msg JUNPEI_PARTY_OVER [Джунпей]]
+[s][bup 5 203 0 0]...Группа переполнена.[n][w][e]
 ##-[s][bup 5 203 0 0]...Party's full.[n][w][e]-##
 
-[msg JUNPEI_PARTY_CHANGE [Junpei]]
+[msg JUNPEI_PARTY_CHANGE [Джунпей]]
 [s][bup 5 203 0 0]С кем мне следует поменяться?[n][w][e]
 ##-[s][bup 5 203 0 0]Who should I switch with?[n][w][e]-##
 
-[msg HUKA_BACK_UP [Fuuka]]
+[msg HUKA_BACK_UP [Фука]]
 [s][bup 6 204 0 0]За пределами этого места...[n][w][e]
 ##-[s][bup 6 204 0 0]Beyond here...[n][w][e]-##
 [s]Вот где находится Никс.[n][w][e]
 ##-[s]That's where Nyx is.[n][w][e]-##
 
-[msg SANADA_PARTY_IN_NORMAL [Akihiko]]
+[msg SANADA_PARTY_IN_NORMAL [Акихико]]
 [s][bup 7 203 0 0]Давай, поторопись![n][w][e]
 ##-[s][bup 7 203 0 0]Come on, hurry up![n][w][e]-##
 
-[msg SANADA_PARTY_IN_AFTER_NO [Akihiko]]
+[msg SANADA_PARTY_IN_AFTER_NO [Акихико]]
 [s][bup 7 203 0 0]Предоставь это мне.[n][w][e]
 ##-[s][bup 7 203 0 0]Leave it to me.[n][w][e]-##
 
-[msg SANADA_PARTY_OUT_NORMAL [Akihiko]]
+[msg SANADA_PARTY_OUT_NORMAL [Акихико]]
 [s][bup 7 203 0 0]Что ты делаешь?[n][w][e]
 ##-[s][bup 7 203 0 0]What are you doing?[n][w][e]-##
 
-[msg SANADA_PARTY_OUT_AFTER_N [Akihiko]]
+[msg SANADA_PARTY_OUT_AFTER_N [Акихико]]
 [s][bup 7 203 0 0]...Отдай ему все, что у тебя есть.[n][w][e]
 ##-[s][bup 7 203 0 0]...Give it everything you've got.[n][w][e]-##
 
-[msg SANADA_PARTY_OVER [Akihiko]]
-[s][bup 7 203 0 0]Вечеринка уже переполнена.[n][w][e]
+[msg SANADA_PARTY_OVER [Акихико]]
+[s][bup 7 203 0 0]Группа уже переполнена.[n][w][e]
 ##-[s][bup 7 203 0 0]The party is already full.[n][w][e]-##
 
-[msg SANADA_PARTY_CHANGE [Akihiko]]
+[msg SANADA_PARTY_CHANGE [Акихико]]
 [s][bup 7 203 0 0]Кого я заменяю?[n][w][e]
 ##-[s][bup 7 203 0 0]Who am I subbing for?[n][w][e]-##
 
-[msg AMADA_PARTY_IN_NORMAL [Ken]]
+[msg AMADA_PARTY_IN_NORMAL [Кен]]
 [s][bup 8 204 0 0]...Честно говоря, мне страшно.[n][w][e]
 ##-[s][bup 8 204 0 0]...To be honest, I'm scared.[n][w][e]-##
 
-[msg AMADA_PARTY_IN_AFTER_NOR [Ken]]
+[msg AMADA_PARTY_IN_AFTER_NOR [Кен]]
 [s][bup 8 204 0 0]Я сделаю все, что в моих силах.[n][w][e]
 ##-[s][bup 8 204 0 0]I'll do my very best.[n][w][e]-##
 
-[msg AMADA_PARTY_OUT_NORMAL [Ken]]
+[msg AMADA_PARTY_OUT_NORMAL [Кен]]
 [s][bup 8 204 0 0]Давай покончим с этим раз и навсегда.[n][w][e]
 ##-[s][bup 8 204 0 0]Let's end this once and for all.[n][w][e]-##
 
-[msg AMADA_PARTY_OUT_AFTER_NO [Ken]]
+[msg AMADA_PARTY_OUT_AFTER_NO [Кен]]
 [s][bup 8 204 0 0]...Понял.[n][w][e]
 ##-[s][bup 8 204 0 0]...Understood.[n][w][e]-##
 
-[msg AMADA_PARTY_OVER [Ken]]
+[msg AMADA_PARTY_OVER [Кен]]
 [s][bup 8 204 0 0]...Но там нет места.[n][w][e]
 ##-[s][bup 8 204 0 0]...But, there's no room.[n][w][e]-##
 
-[msg AMADA_PARTY_CHANGE [Ken]]
+[msg AMADA_PARTY_CHANGE [Кен]]
 [s][bup 8 204 0 0]Чье место я должен занять?[n][w][e]
 ##-[s][bup 8 204 0 0]Whose place should I take?[n][w][e]-##
 
-[msg KOROMARU_PARTY_IN_NORMAL [Koromaru]]
+[msg KOROMARU_PARTY_IN_NORMAL [Коромару]]
 [s][bup 10 203 0 0]Грррррр...[n][w][e]
 ##-[s][bup 10 203 0 0]Grrrrrr...[n][w][e]-##
 
-[msg KOROMARU_PARTY_IN_AFTER_ [Koromaru]]
+[msg KOROMARU_PARTY_IN_AFTER_ [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_OUT_NORMA [Koromaru]]
+[msg KOROMARU_PARTY_OUT_NORMA [Коромару]]
 [s][bup 10 201 0 0]Гав-гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_OUT_AFTER [Koromaru]]
+[msg KOROMARU_PARTY_OUT_AFTER [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_OVER [Koromaru]]
+[msg KOROMARU_PARTY_OVER [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
 
-[msg KOROMARU_PARTY_CHANGE [Koromaru]]
+[msg KOROMARU_PARTY_CHANGE [Коромару]]
 [s][bup 10 201 0 0]Гав-гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof woof![n][w][e]-##
 
-[msg YUKARI_EQUIP_TRANSFER [Yukari]]
+[msg YUKARI_EQUIP_TRANSFER [Юкари]]
 [s][bup 2 202 0 0]Для меня? Спасибо![n][w][e]
 ##-[s][bup 2 202 0 0]For me? Thanks![n][w][e]-##
 
-[msg AEGIS_EQUIP_TRANSFER [Aigis]]
+[msg AEGIS_EQUIP_TRANSFER [Айгис]]
 [s][bup 3 202 0 0]Для меня? Спасибо.[n][w][e]
 ##-[s][bup 3 202 0 0]For me? Thank you.[n][w][e]-##
 
-[msg MITSURU_EQUIP_TRANSFER [Mitsuru]]
+[msg MITSURU_EQUIP_TRANSFER [Мицуру]]
 [s][bup 4 202 0 0]Спасибо.[n][w][e]
 ##-[s][bup 4 202 0 0]Thank you.[n][w][e]-##
 
-[msg JUNPEI_EQUIP_TRANSFER [Mitsuru]]
-[s][bup 5 202 0 0]Сладкий. Я твой должник.[n][w][e]
+[msg JUNPEI_EQUIP_TRANSFER [Мицуру]]
+[s][bup 5 202 0 0]Приятно. Я твой должник.[n][w][e]
 ##-[s][bup 5 202 0 0]Sweet. I owe ya one.[n][w][e]-##
 
-[msg SANADA_EQUIP_TRANSFER [Akihiko]]
+[msg SANADA_EQUIP_TRANSFER [Акихико]]
 [s][bup 7 202 0 0]Спасибо. Я найду этому хорошее применение.[n][w][e]
 ##-[s][bup 7 202 0 0]Thanks. I'll make good use of it.[n][w][e]-##
 
-[msg AMADA_EQUIP_TRANSFER [Ken]]
+[msg AMADA_EQUIP_TRANSFER [Кен]]
 [s][bup 8 202 0 0]Вау, это потрясающе![n][w][e]
 ##-[s][bup 8 202 0 0]Wow, this is awesome![n][w][e]-##
 
-[msg KOROMARU_EQUIP_TRANSFER [Koromaru]]
+[msg KOROMARU_EQUIP_TRANSFER [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
 [s][f 4 7 0 0 0]> Коромару кажется счастливым.[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> Koromaru seems happy.[n][f 1 4][e]-##
 
-[msg YUKARI_GRADE_UP [Yukari]]
+[msg YUKARI_GRADE_UP [Юкари]]
 [s][bup 2 202 0 0]Не возражаешь, если я немного покрасуюсь?[n][w][e]
 ##-[s][bup 2 202 0 0]Mind if I show off a little?[n][w][e]-##
-[s]Мне просто нравится мое новое оборудование![n][w][e]
+[s]Мне просто нравится мое новое снаряжение![n][w][e]
 ##-[s]I just love my new equipment![n][w][e]-##
 
-[msg AEGIS_GRADE_UP [Aigis]]
-[s][bup 3 201 0 0]Я сменил свое снаряжение.[n][w][e]
+[msg AEGIS_GRADE_UP [Айгис]]
+[s][bup 3 201 0 0]Я сменила свое снаряжение.[n][w][e]
 ##-[s][bup 3 201 0 0]I have changed my equipment.[n][w][e]-##
 [s]Пожалуйста, имейте это в виду.[n][w][e]
 ##-[s]Please keep that in mind.[n][w][e]-##
 
-[msg MITSURU_GRADE_UP [Mitsuru]]
-[s][bup 4 201 0 0]Я все еще привыкаю к своему новому[n]оборудованию.[n][w][e]
+[msg MITSURU_GRADE_UP [Мицуру]]
+[s][bup 4 201 0 0]Я все еще привыкаю к своему новому[n]снаряжению.[n][w][e]
 ##-[s][bup 4 201 0 0]I'm still getting used to my new[n]equipment.[n][w][e]-##
 
-[msg JUNPEI_GRADE_UP [Mitsuru]]
-[s][bup 5 202 0 0]Чувак, это новое оборудование потрясающее.[n][w][e]
+[msg JUNPEI_GRADE_UP [Мицуру]]
+[s][bup 5 202 0 0]Чувак, это новое снаряжение потрясающее.[n][w][e]
 ##-[s][bup 5 202 0 0]Dude, this new equipment rocks.[n][w][e]-##
-[s]Это как раз то, что я искал.[n][w][e]
+[s]Это как раз то, что я искала.[n][w][e]
 ##-[s]It's just what I've been looking for.[n][w][e]-##
 
-[msg SANADA_GRADE_UP [Akihiko]]
-[s][bup 7 201 0 0]Мое новое оборудование нужно взломать...[n][w][e]
+[msg SANADA_GRADE_UP [Акихико]]
+[s][bup 7 201 0 0]Мое новое снаряжение нужно взломать...[n][w][e]
 ##-[s][bup 7 201 0 0]My new equipment needs to be broken[n]in...[n][w][e]-##
 
-[msg AMADA_GRADE_UP [Ken]]
-[s][bup 8 202 0 0]Вам нравится мое новое оборудование?[n][w][e]
+[msg AMADA_GRADE_UP [Кен]]
+[s][bup 8 202 0 0]Вам нравится мое новое снаряжение?[n][w][e]
 ##-[s][bup 8 202 0 0]Do you like my new equipment?[n][w][e]-##
 
-[msg KOROMARU_GRADE_UP [Koromaru]]
+[msg KOROMARU_GRADE_UP [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
-[s][f 4 7 0 0 0]> Оборудование Коромару было изменено.[n][f 1 4][e]
+[s][f 4 7 0 0 0]> снаряжение Коромару было изменено.[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> Koromaru's equipment has been[n]changed.[n][f 1 4][e]-##
 
 [msg YUKARI_EQUIP_REACTION [係黍 ゆЗり]]
@@ -378,34 +378,34 @@
 [s][bup 8 204 0 0]ГВ…、鋭ЗщУЫ。 稲щХ? 韻、医援гХЗ…[n][w][e]
 ##-[s][bup 8 204 0 0]ГВ…わ、鋭ЗりщУЫ。[n]稲щХよ? 韻、医援гХЗら…[n][w][e]-##
 
-[msg YUKARI_GRADE_UP_TRANSFER [Yukari]]
+[msg YUKARI_GRADE_UP_TRANSFER [Юкари]]
 [s][bup 2 201 0 0]Вот, я возвращаю это.[n][w][e]
 ##-[s][bup 2 201 0 0]Here, I'm returning this.[n][w][e]-##
 
-[msg AEGIS_GRADE_UP_TRANSFER [Aigis]]
+[msg AEGIS_GRADE_UP_TRANSFER [Айгис]]
 [s][bup 3 201 0 0]Вот, это принадлежит тебе.[n][w][e]
 ##-[s][bup 3 201 0 0]Here, this belongs to you.[n][w][e]-##
 
-[msg MITSURU_GRADE_UP_TRANSFE [Mitsuru]]
+[msg MITSURU_GRADE_UP_TRANSFE [Мицуру]]
 [s][bup 4 201 0 0]Спасибо, что одолжили мне это...[n][w][e]
 ##-[s][bup 4 201 0 0]Thank you for lending me this...[n][w][e]-##
 
-[msg JUNPEI_GRADE_UP_TRANSFER [Junpei]]
+[msg JUNPEI_GRADE_UP_TRANSFER [Джунпей]]
 [s][bup 5 201 0 0]Вот, можешь забрать это обратно.[n][w][e]
 ##-[s][bup 5 201 0 0]Here, you can have this back.[n][w][e]-##
 
-[msg SANADA_GRADE_UP_TRANSFER [Akihiko]]
+[msg SANADA_GRADE_UP_TRANSFER [Акихико]]
 [s][bup 7 201 0 0]Спасибо, что одолжил мне это...[n][w][e]
 ##-[s][bup 7 201 0 0]Thanks for letting me borrow this...[n][w][e]-##
 
-[msg AMADA_GRADE_UP_TRANSFER [Ken]]
+[msg AMADA_GRADE_UP_TRANSFER [Кен]]
 [s][bup 8 201 0 0]Ты можешь забрать это обратно... Мне это[n]больше не нужно.[n][w][e]
 ##-[s][bup 8 201 0 0]You can have this back... I don't[n]need it anymore.[n][w][e]-##
 
-[msg KOROMARU_GRADE_UP_TRANSF [Koromaru]]
+[msg KOROMARU_GRADE_UP_TRANSF [Коромару]]
 [s][bup 10 201 0 0]Гав![n][w][e]
 ##-[s][bup 10 201 0 0]Woof![n][w][e]-##
-[s][f 4 7 0 0 0]> Коромару вернул оборудование, которое вы[n]ему дали.[n][f 1 4][e]
+[s][f 4 7 0 0 0]> Коромару вернул снаряжение, которое вы[n]ему дали.[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> Koromaru has returned the equipment[n]you gave him.[n][f 1 4][e]-##
 
 [msg ITEM_TRANSFER_TO_PLAYER_]
