@@ -1,4 +1,4 @@
-[msg MSG_1N_NPC000_01 [Mitsuru]]
+[msg MSG_1N_NPC000_01 [Мицуру]]
 [s][bup 4 1 3 0]......[n][w][e]
 ##-[s][bup 4 1 3 0]......[n][w][e]-##
 [s][f 4 7 0 0 0]> Она выглядит как человек без души.[n][f 1 4][e]
@@ -8,13 +8,13 @@
 [s]Если вам что-то нужно знать о поездке,[n]подробности должны быть в разделе "Маршрут[n]поездки" прямо здесь.[n][w][e]
 ##-[s]If there's anything you need to know[n]about the trip, the details should be[n]in the "trip itinerary" right there.[n][w][e]-##
 
-[msg MSG_1N_NPC005_01 [Female Student]]
+[msg MSG_1N_NPC005_01 [Девушка студент]]
 [s]Эй, у тебя есть с кем завтра прогуляться?[n][w][e]
 ##-[s]Hey, do you have anyone to go[n]around with tomorrow?[n][w][e]-##
 [s]Подожди секунду... Ты с кем-то[n]встречаешься?[n][w][e]
 ##-[s]Wait a second... Are you going[n]out with someone?[n][w][e]-##
 
-[msg MSG_1N_NPC005_01_G [Female Student]]
+[msg MSG_1N_NPC005_01_G [Девушка студент]]
 [s]Эй, у тебя есть с кем завтра прогуляться?[n][w][e]
 ##-[s]Hey, do you have anyone to go[n]around with tomorrow?[n][w][e]-##
 [s]Подожди секунду... Ты с кем-то[n]встречаешься?[n][w][e]
@@ -36,7 +36,7 @@
 [s]"Это секрет".[e]
 ##-[s]"It's a secret."[e]-##
 
-[msg MSG_1N_NPC005_02 [Female Student]]
+[msg MSG_1N_NPC005_02 [Девушка студент]]
 [s]Оу... Лентяй.[n][w][e]
 ##-[s]Aww... Bummer.[n][w][e]-##
 [s]Но если у тебя есть девушка, ты не должен[n]оставлять ее в такие моменты.[n][w][e]
@@ -44,35 +44,35 @@
 [s]Знаешь, девушки очень злятся, когда ты так[n]делаешь...[n][w][e]
 ##-[s]Girls get really mad when you do[n]that, you know...[n][w][e]-##
 
-[msg MSG_1N_NPC005_02_G [Female Student]]
+[msg MSG_1N_NPC005_02_G [Девушка студент]]
 [s]А? Серьезно?! Кто это? Это кто-то из нашей[n]школы?[n][w][e]
 ##-[s]Huh? Seriously!? Who is it?[n]Is it someone at our school?[n][w][e]-##
-[s]О, тебе повезло. Похоже, ты опередил нас...[n][w][e]
+[s]О, тебе повезло. Похоже, ты опередила нас...[n][w][e]
 ##-[s]Aww, lucky you.[n]Guess you got ahead of us...[n][w][e]-##
 [s]Убедитесь, что у вас с ним останется масса[n]хороших воспоминаний в этой поездке![n][w][e]
 ##-[s]Make sure you make tons of good[n]memories with him on this trip![n][w][e]-##
 
-[msg MSG_1N_NPC005_03 [Female Student]]
+[msg MSG_1N_NPC005_03 [Девушка студент]]
 [s]Действительно? Ты просто пытаешься решить,[n]какой из них тебе нужен?[n][w][e]
 ##-[s]Really? Are you just trying to make[n]up your mind which one you want?[n][w][e]-##
 [s]Я бы хотел, чтобы у меня был кто-нибудь[n]классный, чтобы мне не было так скучно...[n][w][e]
 ##-[s]I wish I had someone cool-looking,[n]so I wouldn't be as bored...[n][w][e]-##
 
-[msg MSG_1N_NPC005_03_G [Female Student]]
+[msg MSG_1N_NPC005_03_G [Девушка студент]]
 [s]Действительно? Звучит так, будто ты[n]лжешь...[n][w][e]
 ##-[s]Really?[n]Sounds like you're lying...[n][w][e]-##
 [s]С другой стороны, найти парня не так-то[n]просто... * вздох*[n][w][e]
 ##-[s]Then again, finding a boyfriend's[n]not that easy... *sigh*[n][w][e]-##
 
-[msg MSG_1N_NPC005_04 [Female Student]]
+[msg MSG_1N_NPC005_04 [Девушка студент]]
 [s]Фу, это совсем не весело... Способ прервать[n]разговор там.[n][w][e]
 ##-[s]Ugh, that's no fun... Way to kill[n]the conversation there.[n][w][e]-##
 
-[msg MSG_1N_NPC005_04_G [Female Student]]
+[msg MSG_1N_NPC005_04_G [Девушка студент]]
 [s]О, это звучит подозрительно. Почему бы тебе[n]просто не признаться?[n][w][e]
 ##-[s]Ooh, that sounds suspicious.[n]Why don't you just fess up?[n][w][e]-##
 
-[msg MSG_1N_NPC006_01 [Female Student]]
+[msg MSG_1N_NPC006_01 [Девушка студент]]
 [s]Кинкакудзи? Киемидзудера? Ты что,[n]издеваешься надо мной?..[n][w][e]
 ##-[s]Kinkakuji? Kiyomizudera? Are you[n]kidding me...?[n][w][e]-##
 [s]Если мы в Киото, то должны ехать в[n]Синсэнгуми! Вот о чем я говорю![n][w][e]
@@ -80,17 +80,17 @@
 [s]Останки Икетайи... И Нисихонгандзи, верно?![n]Нееет... У меня не будет достаточно[n]времени![n][w][e]
 ##-[s]Iketaya's remains... And the[n]Nishihonganji, right!? Nooo...[n]I won't have enough time![n][w][e]-##
 
-[msg MSG_2N_NPC000_01 [Fuuka]]
-[s][bup 6 21 0 0]Я видел, как Юкари-тян и Мицуру-семпай[n]разговаривали друг с другом.[n][w][e]
+[msg MSG_2N_NPC000_01 [Фука]]
+[s][bup 6 21 0 0]Я видела, как Юкари-тян и Мицуру-семпай[n]разговаривали друг с другом.[n][w][e]
 ##-[s][bup 6 21 0 0]I saw Yukari-chan and Mitsuru-senpai[n]talking to each other.[n][w][e]-##
 [s]Казалось странным, что им так весело[n]вместе...[n][w][e]
 ##-[s]It seemed strange for them to be[n]so cheerful together that way...[n][w][e]-##
 
-[msg MSG_2N_NPC001_01 [Aigis]]
-[s][bup 3 21 0 0]Я только что видел, как Юкари-сан и[n]Мицуру-сан вместе вышли из комнаты.[n][w][e]
+[msg MSG_2N_NPC001_01 [Айгис]]
+[s][bup 3 21 0 0]Я только что видела, как Юкари-сан и[n]Мицуру-сан вместе вышли из комнаты.[n][w][e]
 ##-[s][bup 3 21 0 0]I just saw Yukari-san and Mitsuru-san[n]leave the room together.[n][w][e]-##
 
-[msg MSG_3D_NPC007_01 [Female Student]]
+[msg MSG_3D_NPC007_01 [Девушка студент]]
 [s]Как дела,[n][f 4 2]- хан?[n][w][e]
 ##-[s]How are you doing,[n][f 4 2]-han?[n][w][e]-##
 [s]Ахахахаха![n][w][e]
@@ -98,19 +98,19 @@
 [s]Как ты думаешь? Как тебе мой киотский[n]акцент? Довольно неплохо, да?[n][w][e]
 ##-[s]What do you think? How's my Kyoto[n]accent? Pretty good, huh?[n][w][e]-##
 
-[msg MSG_3D_NPC008_01 [Female Student]]
-[s]Я недооценил Киото...[n][w][e]
+[msg MSG_3D_NPC008_01 [Девушка студент]]
+[s]Я недооценила Киото...[n][w][e]
 ##-[s]I underestimated Kyoto...[n][w][e]-##
 [s]Здесь слишком многое нужно увидеть![n]Интересно, куда мне пойти завтра?..[n][w][e]
 ##-[s]There's too much to see here![n]I wonder where I should go[n]tomorrow...[n][w][e]-##
 
-[msg MSG_3N_NPC000_01 [Female Student]]
+[msg MSG_3N_NPC000_01 [Девушка студент]]
 [s]У Юкари и Мицуру-семпай такие хорошие[n]фигуры...[n][w][e]
 ##-[s]Yukari and Mitsuru-senpai have[n]such good figures...[n][w][e]-##
 [s]Упражнения, которые они выполняют в своем[n]клубе, должны естественным образом[n]формировать их тела.[n][w][e]
 ##-[s]The exercise they get in their club[n]must naturally shape their bodies.[n][w][e]-##
 
-[msg MSG_3N_NPC000_01_G [Female Student]]
+[msg MSG_3N_NPC000_01_G [Девушка студент]]
 [s]У Юкари и Мицуру-семпай такие хорошие[n]фигуры...[n][w][e]
 ##-[s]Yukari and Mitsuru-senpai have[n]such good figures...[n][w][e]-##
 [s]У тебя тоже отличная фигура... Фу, я так[n]завидую![n][w][e]
@@ -118,23 +118,23 @@
 [s]Мне следовало записаться в спортивный клуб[n]и больше заниматься спортом...[n][w][e]
 ##-[s]I should've joined a sports club[n]and exercised more...[n][w][e]-##
 
-[msg MSG_3N_NPC001_01 [Female Student]]
+[msg MSG_3N_NPC001_01 [Девушка студент]]
 [s]У этой девушки Ямагиси тоже хорошая фигура![n][w][e]
 ##-[s]That Yamagishi girl has a good[n]figure too![n][w][e]-##
-[s]Я был удивлен, когда увидел ее вчера в[n]бане.[n][w][e]
+[s]Я была удивлена, когда увидела ее вчера в[n]бане.[n][w][e]
 ##-[s]I was surprised when I saw her at[n]the baths yesterday.[n][w][e]-##
 [s]Но она в Культурном клубе... Означает ли[n]это, что клуб не имеет никакого отношения к[n]фигуре?[n][w][e]
 ##-[s]But she's in a Culture club...[n]Does that mean one's club has[n]nothing to do with one's figure?[n][w][e]-##
 
-[msg MSG_3N_NPC001_01_G [Female Student]]
+[msg MSG_3N_NPC001_01_G [Девушка студент]]
 [s]У этой девушки Ямагиси тоже хорошая фигура![n][w][e]
 ##-[s]That Yamagishi girl has a good[n]figure too![n][w][e]-##
-[s]Я был удивлен, когда увидел ее вчера в[n]бане.[n][w][e]
+[s]Я была удивлена, когда увидела ее вчера в[n]бане.[n][w][e]
 ##-[s]I was surprised when I saw her at[n]the baths yesterday.[n][w][e]-##
 [s]Но она в Культурном клубе... Означает ли[n]это, что клуб не имеет никакого отношения к[n]фигуре?[n][w][e]
 ##-[s]But she's in a Culture club...[n]Does that mean one's club has[n]nothing to do with one's figure?[n][w][e]-##
 
-[msg MSG_3N_NPC009_01_G [Fuuka]]
+[msg MSG_3N_NPC009_01_G [Фука]]
 [s][bup 6 21 0 0]О, [f 4 2]- чан. Вы хотите отправиться на горячие[n]источники под открытым небом?[n][w][e]
 ##-[s][bup 6 21 0 0]Oh, [f 4 2]-chan. Do you want to[n]go to the outdoor hot springs?[n][w][e]-##
 
@@ -144,45 +144,45 @@
 [s]"Я зайду ненадолго".[e]
 ##-[s]"I'll go in a bit."[e]-##
 
-[msg MSG_3N_NPC009_02_G [Fuuka]]
+[msg MSG_3N_NPC009_02_G [Фука]]
 [s][bup 6 22 0 0]*хихиканье* Я с нетерпением жду этого.[n][w][e]
 ##-[s][bup 6 22 0 0]*giggle* I'm looking forward to it.[n][w][e]-##
 [s][bup 6 21 0 0][f 4 2]- чан, ты должна сначала вернуться в свою[n]комнату и собраться, верно?[n][w][e]
 ##-[s][bup 6 21 0 0][f 4 2]-chan, you have to go back[n]to your room and get ready first, right?[n][w][e]-##
 [s]Я поговорю об этом с Мицуру-семпаем и[n]Юкари-тян, пока ты будешь этим заниматься.[n][w][e]
 ##-[s]I'll talk to Mitsuru-senpai and[n]Yukari-chan about it while you're[n]doing that.[n][w][e]-##
-[s]Я тоже спрошу Айгиса, но... Можно ли ей[n]принять ванну?[n][w][e]
+[s]Я тоже спрошу Айгис, но... Можно ли ей[n]принять ванну?[n][w][e]
 ##-[s]I'll ask Aigis too, but...[n]Is it all right for her to[n]take a bath?[n][w][e]-##
 
-[msg MSG_3N_NPC009_03_G [Fuuka]]
+[msg MSG_3N_NPC009_03_G [Фука]]
 [s][bup 6 21 0 0]Ты еще не собираешься уходить?[n][w][e]
 ##-[s][bup 6 21 0 0]You're not going to go yet?[n][w][e]-##
 [s]Хорошо. Дай мне знать, когда будешь готова[n]идти.[n][w][e]
 ##-[s]Okay. Let me know when[n]you're ready to go.[n][w][e]-##
 
-[msg MSG_3N_NPC009_04_G [Fuuka]]
+[msg MSG_3N_NPC009_04_G [Фука]]
 [s][bup 6 21 0 0]Я спрошу Мицуру-семпая и остальных.[n][w][e]
 ##-[s][bup 6 21 0 0]I'll ask Mitsuru-senpai[n]and the others.[n][w][e]-##
 [s]Ты возвращайся в свою комнату и готовься,[n]пока я этим занимаюсь.[n][w][e]
 ##-[s]You go back to your room and get[n]ready while I'm doing that.[n][w][e]-##
 
-[msg MSG1119_FUUKA_01_G [Fuuka]]
+[msg MSG1119_FUUKA_01_G [Фука]]
 [s][bup 6 21 0 0]О, [f 4 2]- чан. Вы хотите пойти на открытый[n]горячий источник?[n][w][e]
 ##-[s][bup 6 21 0 0]Oh, [f 4 2]-chan. Do you want to go[n]to the outdoor hot spring?[n][w][e]-##
 
-[msg MSG1119_FUUKA_02_G [Fuuka]]
+[msg MSG1119_FUUKA_02_G [Фука]]
 [s][bup 6 22 0 0]Тогда, давайте отправляться![n][w][e]
 ##-[s][bup 6 22 0 0]Then, let's get going![n][w][e]-##
-[s]Я попрошу за тебя Мицуру-семпая, Юкари-тян[n]и Айгиса.[n][w][e]
+[s]Я попрошу за тебя Мицуру-семпая, Юкари-тян[n]и Айгис.[n][w][e]
 ##-[s]I'll ask Mitsuru-senpai, Yukari-chan,[n]and Aigis for you.[n][w][e]-##
 
-[msg MSG1119_FUUKA_03_G [Fuuka]]
+[msg MSG1119_FUUKA_03_G [Фука]]
 [s][bup 6 21 0 0]Ты еще не собираешься уходить?[n][w][e]
 ##-[s][bup 6 21 0 0]You're not going to go yet?[n][w][e]-##
 [s]Хорошо. Дай мне знать, когда будешь готова.[n][w][e]
 ##-[s]Okay.[n]Let me know when you're ready.[n][w][e]-##
 
-[msg MSG1117_AEGIS_01_G [Aigis]]
+[msg MSG1117_AEGIS_01_G [Айгис]]
 [s][bup 5 1 65535 0]Не хотите ли вернуться в комнату и поспать?[n][w][e]
 ##-[s][bup 5 1 65535 0]Would you like to head back to the[n]room and sleep?[n][w][e]-##
 
@@ -192,11 +192,11 @@
 [s]тест тест[e]
 ##-[s]TEST TEST[e]-##
 
-[msg MSG1117_AEGIS_02_G [Aigis]]
-[s][bup 5 1 65535 0]Понял. Тогда давайте вернемся в наши[n]комнаты.[n][w][e]
+[msg MSG1117_AEGIS_02_G [Айгис]]
+[s][bup 5 1 65535 0]Поняла. Тогда давайте вернемся в наши[n]комнаты.[n][w][e]
 ##-[s][bup 5 1 65535 0]Understood.[n]Then, let us retreat to our rooms.[n][w][e]-##
 
-[msg MSG1117_AEGIS_03_G [Aigis]]
+[msg MSG1117_AEGIS_03_G [Айгис]]
 [s][bup 5 1 65535 0]Тогда, пожалуйста, дай мне знать, когда ты[n]захочешь лечь спать.[n][w][e]
 ##-[s][bup 5 1 65535 0]Then, please let me know when you'd[n]like to go to bed.[n][w][e]-##
 
