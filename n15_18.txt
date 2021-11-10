@@ -727,7 +727,7 @@
 ##-[s][bup 10 204 0 0]*whimper*[n][w][e]-##
 
 [msg KOROMARU_PARTY_IN_AFTER__4 [Коромару]]
-[s][bup 10 204 0 0]* я заебался сука*[n][w][e]
+[s][bup 10 204 0 0]* хныкать*[n][w][e]
 ##-[s][bup 10 204 0 0]*whimper*[n][w][e]-##
 
 [msg KOROMARU_PARTY_OUT_NORMA [Коромару]]
