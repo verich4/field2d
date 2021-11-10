@@ -1,4 +1,4 @@
-[msg MSG_4A_NPC000_01 [Taxi Driver]]
+[msg MSG_4A_NPC000_01 [Водитель такси]]
 [s]Я завидую вам, студенты. Это новый термин[n]для вас, ребята.[n][w][e]
 ##-[s]I envy you students. It's a new[n]term, for you guys.[n][w][e]-##
 [s]Но для таких таксистов, как я... это одно и[n]то же, год за годом.[n][w][e]
@@ -16,25 +16,25 @@
 [s]“ты в порядке?”[e]
 ##-[s]"Are you okay?"[e]-##
 
-[msg MSG_4A_NPC000_02 [Taxi Driver]]
+[msg MSG_4A_NPC000_02 [Водитель такси]]
 [s]Да... Каждый сезон я забираю парней,[n]которые опаздывают на последний поезд.[n][w][e]
 ##-[s]Yeah... Every season, I pick up the[n]guys who miss the last train.[n][w][e]-##
 [s]Мои пассажиры - дети вдвое младше меня, а[n]потом... весна закончилась.[n][w][e]
 ##-[s]My fares are kids twice as young[n]as me, and then... spring is over.[n][w][e]-##
 
-[msg MSG_4A_NPC000_03 [Taxi Driver]]
+[msg MSG_4A_NPC000_03 [Водитель такси]]
 [s]Я не чувствую себя плохо или что-то в этом[n]роде, просто...[n][w][e]
 ##-[s]I'm not feeling bad or nothin',[n]just...[n][w][e]-##
 [s]У меня такое чувство, будто я уже делал все[n]это раньше, понимаешь? Каждый год...[n][w][e]
 ##-[s]I feel like I've done it all before,[n]you know? Every year...[n][w][e]-##
 
-[msg MSG_4B_NPC000_01 [Taxi Driver]]
+[msg MSG_4B_NPC000_01 [Водитель такси]]
 [s]Я не мог взломать его на своей последней[n]работе, так как я немного антисоциальный,[n]поэтому я стал таксистом. Но...[n][w][e]
-##-[s]I couldn't hack it at my last job,[n]since I'm kinda anti-social, so[n]I became a taxi driver. But...[n][w][e]-##
+##-[s]I couldn't hack it at my last job,[n]since I'm kinda anti-social, so[n]I became a Водитель такси. But...[n][w][e]-##
 [s]Когда мои пассажиры пытаются завести со[n]мной разговор, я никогда не знаю, что им[n]сказать.[n][w][e]
 ##-[s]When my fares try to start a[n]conversation with me, I never[n]know what to say to 'em.[n][w][e]-##
 
-[msg MSG_5A_NPC000_01 [Taxi Driver]]
+[msg MSG_5A_NPC000_01 [Водитель такси]]
 [s]Работники станции всегда напоминают мне,[n]чтобы я говорил своим клиентам, чтобы они[n]содержали станцию в чистоте.[n][w][e]
 ##-[s]The station workers always remind[n]me to tell my customers to keep[n]the station clean.[n][w][e]-##
 [s]Похоже, в наши дни происходит много[n]мусора... Эх, мне не следовало ничего[n]говорить.[n][w][e]
@@ -52,23 +52,23 @@
 [s]"Ну ладно".[e]
 ##-[s]"Oh well."[e]-##
 
-[msg MSG_5A_NPC000_02 [Taxi Driver]]
+[msg MSG_5A_NPC000_02 [Водитель такси]]
 [s]Нет, я не собираюсь читать лекции своим[n]пассажирам. Если бы я это сделал, никто бы[n]не захотел ехать в моем такси.[n][w][e]
 ##-[s]Nah, I ain't about to lecture my[n]fares. If I did, no one would[n]wanna ride in my cab.[n][w][e]-##
 [s]А клиент всегда прав, понимаешь? Людям на[n]станции тоже на нас наплевать...[n][w][e]
 ##-[s]And the customer is always right,[n]y'know? The station people don't[n]care about us, either...[n][w][e]-##
 
-[msg MSG_5A_NPC000_03 [Taxi Driver]]
+[msg MSG_5A_NPC000_03 [Водитель такси]]
 [s]Да. Что ты можешь сделать, знаешь? Это[n]правило сверху... Обычному таксисту просто[n]приходится это терпеть.[n][w][e]
 ##-[s]Yeah. What can you do, y'know? It's[n]the rule from the top... A regular[n]cabbie's just gotta lump it.[n][w][e]-##
 
-[msg MSG_5B_NPC000_01 [Taxi Driver]]
+[msg MSG_5B_NPC000_01 [Водитель такси]]
 [s]Я видел новости... Эта монорельсовая[n]дорога, да? Могло быть плохо...[n][w][e]
 ##-[s]I saw the news... That monorail, huh?[n]Coulda been bad...[n][w][e]-##
 [s]Я занимаюсь той же работой или достаточно[n]близок к ней, так что у меня мурашки[n]побежали по коже, когда я смотрел[n]телевизор...[n][w][e]
 ##-[s]I'm in the same line of work,[n]or near enough, so I got goosebumps[n]as I watched the TV...[n][w][e]-##
 
-[msg MSG_6A_NPC000_01 [Taxi Driver]]
+[msg MSG_6A_NPC000_01 [Водитель такси]]
 [s]Ты знаешь, что там стоит такояки? Это[n]отличный ужин.[n][w][e]
 ##-[s]Do you know the takoyaki stand over[n]there? It's some fine dinin'.[n][w][e]-##
 [s]Иногда этот парень из Кансая ест в этом[n]заведении, и даже он говорит, что это[n]хорошая еда.[n][w][e]
@@ -78,13 +78,13 @@
 [s]Всякий раз, когда клиент спрашивает меня,[n]где можно перекусить, я всегда отправляю[n]его туда.[n][w][e]
 ##-[s]Whenever a customer asks me where to[n]get a bite to eat, I always send[n]'em over there.[n][w][e]-##
 
-[msg MSG_6B_NPC000_01 [Taxi Driver]]
+[msg MSG_6B_NPC000_01 [Водитель такси]]
 [s]Обычно таксисты работают в ночную смену.[n]Если я не сплю днем, когда я должен спать?[n][w][e]
 ##-[s]Usually cabbies work night shifts.[n]If I don't sleep during the day,[n]when am I supposed to sleep?[n][w][e]-##
 [s]Моя жена выходит из себя, говоря, что мы[n]больше никогда не разговариваем. Она[n]понятия не имеет, через что я прохожу![n][w][e]
 ##-[s]My wife gets steamed, saying we[n]never talk anymore. She's got no[n]idea what I'm going through![n][w][e]-##
 
-[msg MSG_7A_NPC000_01 [Taxi Driver]]
+[msg MSG_7A_NPC000_01 [Водитель такси]]
 [s]На днях один пассажир продолжал болтать об[n]этих странных вещах...[n][w][e]
 ##-[s]The other day a fare kept babbling[n]about this weird stuff...[n][w][e]-##
 [s]Например, какой-нибудь сайт мести... Я не[n]знаю.[n][w][e]
@@ -92,13 +92,13 @@
 [s]Он говорил, что наконец-то отомстит...[n]Интересно, существует ли этот сайт на самом[n]деле?[n][w][e]
 ##-[s]He was saying he's finally gonna get[n]his revenge... I wonder if that site[n]really exists.[n][w][e]-##
 
-[msg MSG_7B_NPC000_01 [Taxi Driver]]
+[msg MSG_7B_NPC000_01 [Водитель такси]]
 [s]Я получил жалобу от пассажира. Парень[n]назвал меня "сдержанным, нелюдимым и[n]угрюмым".[n][w][e]
 ##-[s]I got a complaint from a fare. The[n]guy called me "reticent, unsociable,[n]and moody."[n][w][e]-##
 [s]Но когда я пытаюсь заговорить, они говорят[n]мне заткнуться! Эта работа, говорю я[n]тебе...[n][w][e]
 ##-[s]But when I try to talk, they tell[n]me to shut up! This job, I tell[n]you...[n][w][e]-##
 
-[msg MSG_8A_NPC000_01 [Taxi Driver]]
+[msg MSG_8A_NPC000_01 [Водитель такси]]
 [s]Теперь, когда наступили летние каникулы, я[n]получаю много молодых пассажиров около[n]полуночи.[n][w][e]
 ##-[s]Now that it's summer vacation,[n]I get a lot of younger fares around[n]midnight.[n][w][e]-##
 [s]Люди все еще говорят об этой штуке с сайтом[n]мести, но...[n][w][e]
@@ -106,7 +106,7 @@
 [s]Это так хорошо известно здесь?[n][w][e]
 ##-[s]Is it that well-known around here?[n][w][e]-##
 
-[msg MSG_8B_NPC000_01 [Taxi Driver]]
+[msg MSG_8B_NPC000_01 [Водитель такси]]
 [s]Я знаю, что лето - лучшее время для снятия[n]стресса, но ты должен использовать свой[n]здравый смысл.[n][w][e]
 ##-[s]I know summer is the best time to[n]release stress, but you've gotta[n]use your common sense.[n][w][e]-##
 [s]Эти дети думают, что внутри моего такси[n]находится караоке-студия или что-то в этом[n]роде.[n][w][e]
@@ -124,25 +124,25 @@
 [s]"Ну ладно".[e]
 ##-[s]"Oh well."[e]-##
 
-[msg MSG_8B_NPC000_02 [Taxi Driver]]
+[msg MSG_8B_NPC000_02 [Водитель такси]]
 [s]Нет... Не мое дело читать нотации чужому[n]ребенку.[n][w][e]
 ##-[s]Nah... It ain't my place to lecture[n]somebody else's kid.[n][w][e]-##
 [s]И неважно, насколько плохи их манеры, пока[n]они сидят на этом месте, они мои клиенты.[n][w][e]
 ##-[s]And no matter how bad their manners[n]stink, as long as they're on that[n]seat, they're my customers.[n][w][e]-##
 
-[msg MSG_8B_NPC000_03 [Taxi Driver]]
+[msg MSG_8B_NPC000_03 [Водитель такси]]
 [s]На самом деле мне все равно, как другие[n]люди воспитывают своих детей, но...[n][w][e]
 ##-[s]I don't really care how other people[n]bring up their kids, but...[n][w][e]-##
 [s]У меня есть дочь примерно такого же[n]возраста, и я должен задаться вопросом, не[n]натягивает ли она такие штуки на моих[n]коллег...[n][w][e]
 ##-[s]I've got a daughter about that age,[n]and I gotta wonder if she pulls that[n]stuff on my co-workers...[n][w][e]-##
 
-[msg MSG_9A_NPC000_01 [Taxi Driver]]
+[msg MSG_9A_NPC000_01 [Водитель такси]]
 [s]Моя дочь учится в средней школе, но она[n]попала в плохую компанию. Я вижу ее по[n]ночам на работе.[n][w][e]
 ##-[s]My daughter's a high school student,[n]but she fell in with a bad crowd.[n]I see her midnights on the job.[n][w][e]-##
 [s]Моя жена кричит на меня, чтобы я сказал ей[n]прекратить это, но дети ее возраста... Они[n]никогда не будут слушать.[n][w][e]
 ##-[s]My wife yells at me to tell her[n]to cut that out, but kids her[n]age... They'll never listen.[n][w][e]-##
 
-[msg MSG_9A_NPC000_01_G [Taxi Driver]]
+[msg MSG_9A_NPC000_01_G [Водитель такси]]
 [s]Моя дочь учится в средней школе, но она[n]попала в плохую компанию. Я вижу ее по[n]ночам на работе.[n][w][e]
 ##-[s]My daughter's a high school student,[n]but she fell in with a bad crowd.[n]I see her midnights on the job.[n][w][e]-##
 [s]Моя жена кричит на меня, чтобы я сказал ей[n]прекратить это, но дети ее возраста... Они[n]никогда не будут слушать.[n][w][e]
@@ -150,7 +150,7 @@
 [s]Держу пари, ты все равно дурачишься до[n]середины ночи, как моя дочь.[n][w][e]
 ##-[s]I bet you're fooling around until the[n]middle of the night like my daughter[n]anyways.[n][w][e]-##
 
-[msg MSG_9B_NPC000_01 [Taxi Driver]]
+[msg MSG_9B_NPC000_01 [Водитель такси]]
 [s]Ааа... Ух... Эххх...[n][w][e]
 ##-[s]Ahh... Uhh...[n]Ehhh...[n][w][e]-##
 [s]......[n][w][e]
@@ -158,7 +158,7 @@
 [s]Ах... Ах... Ааа...[n][w][e]
 ##-[s]Ah... Ah...[n]Ahhh...[n][w][e]-##
 
-[msg MSG_10B_NPC000_01 [Taxi Driver]]
+[msg MSG_10B_NPC000_01 [Водитель такси]]
 [s]Я думаю, что у меня был этот "Синдром[n]апатии"... Я взял несколько выходных с[n]работы.[n][w][e]
 ##-[s]I think I had that "Apathy Syndrome"[n]thing... I took a few days off from[n]work.[n][w][e]-##
 [s]Ночная смена становится трудной, и попытки[n]поговорить с клиентами изматывают меня.[n][w][e]
@@ -166,19 +166,19 @@
 [s]Я хочу бросить курить, но не могу... Мне[n]нужно содержать семью...[n][w][e]
 ##-[s]I want to quit, but I can't...[n]I've got a family to support...[n][w][e]-##
 
-[msg MSG_11A_NPC000_01 [Taxi Driver]]
+[msg MSG_11A_NPC000_01 [Водитель такси]]
 [s]Мой коллега попал в аварию. Теперь ему[n]придется носить стропила.[n][w][e]
 ##-[s]My co-worker got into an accident.[n]He's gotta wear a truss now.[n][w][e]-##
 [s]Мне его жаль. Он не может работать, пока у[n]него не заживет спина, а для нас,[n]таксистов, нет рабочего места.[n][w][e]
 ##-[s]I feel sorry for him. He can't work[n]until his back heals, and there's[n]no workman's comp for us cabbies.[n][w][e]-##
 
-[msg MSG_11B_NPC000_01 [Taxi Driver]]
+[msg MSG_11B_NPC000_01 [Водитель такси]]
 [s]С тех пор как мой коллега попал в аварию, я[n]стал осторожнее. Хотя у меня плохая[n]репутация...[n][w][e]
 ##-[s]Ever since my coworker's accident,[n]I've been more careful. I'm getting[n]a bad reputation, though...[n][w][e]-##
 [s]Все говорят: "Жми на газ, чувак!" Говорю[n]тебе, эта работа...[n][w][e]
-##-[s]Everyone says "Step on the gas,[n]man!" I tell you, this job...[n][w][e]-##
+##-[s]Everyone says "Step on the gas,[n]Мужчина!" I tell you, this job...[n][w][e]-##
 
-[msg MSG_12A_NPC000_01 [Taxi Driver]]
+[msg MSG_12A_NPC000_01 [Водитель такси]]
 [s]Мою дочь арестовали. Они сказали, что она[n]бросила школу, чтобы пройтись по магазинам.[n][w][e]
 ##-[s]My daughter was arrested. They said[n]she was ditching school to go[n]shopping.[n][w][e]-##
 [s]Я так устал после своих поздних смен, что[n]мне пришлось умолять жену пойти за ней[n]вместо этого...[n][w][e]
@@ -186,13 +186,13 @@
 [s]Я бы хотел, чтобы они поняли, через что я[n]прохожу, и позволили мне спать дома...[n][w][e]
 ##-[s]I wish they could understand what[n]I'm going through, and let me sleep[n]at home...[n][w][e]-##
 
-[msg MSG_12B_NPC000_01 [Taxi Driver]]
+[msg MSG_12B_NPC000_01 [Водитель такси]]
 [s]Была какая-то попытка навести порядок на[n]станциях, но я не думаю, что здесь это[n]работает.[n][w][e]
 ##-[s]There was some drive to clean the[n]stations up, but I don't think[n]it's working here.[n][w][e]-##
 [s]Повсюду мусор, велосипеды разбросаны по[n]полу... Но я не жалуюсь. Мне так нравится![n][w][e]
 ##-[s]There's trash all over, bicycles[n]scattered on the floor... But I'm[n]not complaining. I like it this way![n][w][e]-##
 
-[msg MSG_1A_NPC000_01 [Taxi Driver]]
+[msg MSG_1A_NPC000_01 [Водитель такси]]
 [s]Ты видел эти листовки? Я слышал, что многие[n]люди покупаются на эти вещи.[n][w][e]
 ##-[s]Did you see those flyers? I heard[n]a lot of people are buying into that[n]stuff.[n][w][e]-##
 [s]Никогда не стоит недооценивать силу листа[n]бумаги. Я потерял свою семью из-за клочка[n]бумаги...[n][w][e]
@@ -200,7 +200,7 @@
 [s]Моя жена бросила меня... Эта чертова работа[n]таксиста не давала мне достаточно денег,[n]чтобы заботиться о семье...[n][w][e]
 ##-[s]My wife left me... This damn cabbie[n]job wasn't paying enough for me to[n]take care of the family...[n][w][e]-##
 
-[msg MSG_1B_NPC000_01 [Taxi Driver]]
+[msg MSG_1B_NPC000_01 [Водитель такси]]
 [s]Какой-то культ спасет все человечество?[n]Интересно, смогут ли они спасти такого[n]скромного таксиста, как я?..[n][w][e]
 ##-[s]Some cult is gonna save all of[n]humanity? I wonder if they can save[n]a lowly cabbie like me...[n][w][e]-##
 [s]Я не понимал, как много значила для меня[n]моя семья, пока не потерял их. Все, чего я[n]хочу, это вернуть их обратно...[n][w][e]
@@ -208,7 +208,7 @@
 [s]Ты думаешь, если я попрошу Никс-саму или[n]что-то в этом роде, я верну свою семью...?[n][w][e]
 ##-[s]You think if I ask Nyx-sama or[n]whatever, I'll get my family[n]back...?[n][w][e]-##
 
-[msg MSG_3A_NPC000_01 [Taxi Driver]]
+[msg MSG_3A_NPC000_01 [Водитель такси]]
 [s]Я подумал о том, чтобы последовать за[n]Никс-сама, чтобы посмотреть, смогу ли я[n]вернуть свою семью.[n][w][e]
 ##-[s]I thought about following Nyx-sama,[n]to see if I could get my family[n]back.[n][w][e]-##
 [s]Но это бы не помогло. Это была моя вина,[n]что я остался на этой работе и игнорировал[n]свою семью.[n][w][e]
@@ -216,7 +216,7 @@
 [s]Я подумываю о том, чтобы навестить свою[n]жену и попытаться наладить с ней[n]отношения...[n][w][e]
 ##-[s]I'm thinking about going to see[n]my wife, and trying to patch things[n]up with her...[n][w][e]-##
 
-[msg MSG_4A_NPC001_01 [Girl]]
+[msg MSG_4A_NPC001_01 [Девушка]]
 [s]У меня новый учитель, но... Он, эм...[n][w][e]
 ##-[s]I have a new teacher, but...[n]He's, um...[n][w][e]-##
 [s]Мы уже немного в первом семестре, и все еще[n]странно находиться с ним в одной комнате.[n][w][e]
@@ -234,19 +234,19 @@
 [s]"Какой он из себя?"[e]
 ##-[s]"What's he like?"[e]-##
 
-[msg MSG_4A_NPC001_02 [Girl]]
+[msg MSG_4A_NPC001_02 [Девушка]]
 [s]Похоже, он вообще не разговаривает, даже во[n]время обеда.[n][w][e]
 ##-[s]It's like, he doesn't talk at all,[n]even during lunchtime.[n][w][e]-##
-[s]Я 6-классник! Я буду двигаться дальше в[n]следующем году, и я застрял с таким[n]учителем, как этот... * вздох*[n][w][e]
+[s]Я 6-классница! Я буду двигаться дальше в[n]следующем году, и я застрял с таким[n]учителем, как этот... * вздох*[n][w][e]
 ##-[s]I'm a 6th-grader! I'll be moving[n]on next year, and I'm stuck with[n]a teacher like this... *sigh*[n][w][e]-##
 
-[msg MSG_4A_NPC001_03 [Girl]]
+[msg MSG_4A_NPC001_03 [Девушка]]
 [s]Откуда мне знать? Мы никогда не[n]разговариваем. Когда я здороваюсь, он[n]просто улыбается.[n][w][e]
 ##-[s]How should I know? We never talk.[n]When I say hello, he just smiles.[n][w][e]-##
-[s]Я 6-классник! Я буду двигаться дальше в[n]следующем году, и я застрял с таким[n]учителем, как этот... * вздох*[n][w][e]
+[s]Я 6-классница! Я буду двигаться дальше в[n]следующем году, и я застрял с таким[n]учителем, как этот... * вздох*[n][w][e]
 ##-[s]I'm a 6th-grader! I'll be moving[n]on next year, and I'm stuck with[n]a teacher like this... *sigh*[n][w][e]-##
 
-[msg MSG_4B_NPC001_01 [Girl]]
+[msg MSG_4B_NPC001_01 [Девушка]]
 [s]Мой учитель не дает нам домашних заданий.[n][w][e]
 ##-[s]My teacher doesn't assign us[n]homework.[n][w][e]-##
 [s]В следующем году мы переходим в среднюю[n]школу... Я волнуюсь...[n][w][e]
@@ -268,49 +268,49 @@
 [s]"Плыви по течению".[e]
 ##-[s]"Go with the flow."[e]-##
 
-[msg MSG_4B_NPC001_02 [Girl]]
+[msg MSG_4B_NPC001_02 [Девушка]]
 [s]Действительно? Ты не получал много домашних[n]заданий, когда учился в средней школе?[n][w][e]
 ##-[s]Really? You didn't get much homework[n]when you were in middle school?[n][w][e]-##
 [s]Может быть, они пытаются расслабить[n]студентов...? Я надеюсь, что смогу, по[n]крайней мере, окончить колледж...[n][w][e]
 ##-[s]Maybe they're trying to relax the[n]students...? I hope I can at least[n]graduate from college...[n][w][e]-##
 
-[msg MSG_4B_NPC001_02_G [Girl]]
-[s]Действительно? Ты не получал много домашних[n]заданий, когда учился в средней школе?[n][w][e]
+[msg MSG_4B_NPC001_02_G [Девушка]]
+[s]Действительно? Ты не получала много домашних[n]заданий, когда училась в средней школе?[n][w][e]
 ##-[s]Really? You didn't get much homework[n]when you were in middle school?[n][w][e]-##
 [s]Может быть, они пытаются расслабить[n]студентов...? Я надеюсь, что смогу, по[n]крайней мере, окончить колледж...[n][w][e]
 ##-[s]Maybe they're trying to relax the[n]students...? I hope I can at least[n]graduate from college...[n][w][e]-##
 
-[msg MSG_4B_NPC001_03 [Girl]]
+[msg MSG_4B_NPC001_03 [Девушка]]
 [s]Да, есть разница между тем, чтобы[n]расслабиться, и тем, чтобы валять дурака.[n][w][e]
 ##-[s]Yeah, there's a difference between[n]taking it easy, and goofing off.[n][w][e]-##
 [s]Если он хочет быть популярным среди[n]студентов, он должен просто чаще[n]разговаривать с ними.[n][w][e]
 ##-[s]If he wants to be popular with the[n]students, he should just talk to[n]them more often.[n][w][e]-##
 
-[msg MSG_4B_NPC001_04 [Girl]]
+[msg MSG_4B_NPC001_04 [Девушка]]
 [s]Так вот как это происходит?[n][w][e]
 ##-[s]Is that how it goes?[n][w][e]-##
-[s]Значит, я должен подождать, пока учитель не[n]изменит свое отношение...? Это может занять[n]целую вечность.[n][w][e]
+[s]Значит, я должна подождать, пока учитель не[n]изменит свое отношение...? Это может занять[n]целую вечность.[n][w][e]
 ##-[s]So I should wait until the teacher[n]changes his attitude...? That could[n]take forever.[n][w][e]-##
 
-[msg MSG_5A_NPC001_01 [Girl]]
+[msg MSG_5A_NPC001_01 [Девушка]]
 [s]Мои занятия такие скучные... Мой учитель в[n]порядке, но...[n][w][e]
 ##-[s]My classes are so boring...[n]My teacher is okay, but...[n][w][e]-##
 [s]У моей кузины всегда есть гораздо лучшие[n]истории о ее классе.[n][w][e]
 ##-[s]My cousin always has way better[n]stories of her classroom.[n][w][e]-##
 
-[msg MSG_5B_NPC001_01 [Girl]]
+[msg MSG_5B_NPC001_01 [Девушка]]
 [s]Мои занятия такие скучные... Мой учитель в[n]порядке, но...[n][w][e]
 ##-[s]My classes are so boring...[n]My teacher is okay, but...[n][w][e]-##
 [s]Я так завидую соседнему классу. Я всегда[n]слышу, как из него доносится смех.[n][w][e]
 ##-[s]I'm so jealous of the classroom[n]next door. I always hear laughter[n]coming from it.[n][w][e]-##
 
-[msg MSG_6A_NPC001_01 [Girl]]
+[msg MSG_6A_NPC001_01 [Девушка]]
 [s]Мой учитель сказал мне, что в наши дни было[n]много похищений.[n][w][e]
 ##-[s]My teacher told me there's been[n]a lot of kidnappings these days.[n][w][e]-##
-[s]...Но я уже слышал то же самое от него[n]вчера... и позавчера тоже.[n][w][e]
+[s]...Но я уже слышала то же самое от него[n]вчера... и позавчера тоже.[n][w][e]
 ##-[s]...But I already heard the same[n]thing from him yesterday... and[n]the day before that, too.[n][w][e]-##
 
-[msg MSG_6B_NPC001_01 [Girl]]
+[msg MSG_6B_NPC001_01 [Девушка]]
 [s]Мой учитель делает свои собственные[n]раздаточные материалы для использования в[n]классе, но...[n][w][e]
 ##-[s]My teacher makes his own handouts to[n]use in class, but...[n][w][e]-##
 [s]Это так по-детски. Мы шестиклассники, и он[n]обращается с нами как с маленькими детьми.[n][w][e]
@@ -322,61 +322,61 @@
 [s]"По-детски?"[e]
 ##-[s]"Childish?"[e]-##
 
-[msg MSG_6B_NPC001_02 [Girl]]
+[msg MSG_6B_NPC001_02 [Девушка]]
 [s]О, там есть фотографии мистера Фокса и[n]мистера Енота и глупые шутки...[n][w][e]
 ##-[s]Oh, there's pictures of Mr. Fox and[n]Mr. Raccoon, and stupid jokes...[n][w][e]-##
 [s]Почему он не может выразить себя так, как[n]он это делает в своих раздаточных[n]материалах?[n][w][e]
 ##-[s]Why can't he express himself more like[n]he does on his handouts?[n][w][e]-##
 
-[msg MSG_6B_NPC001_03 [Girl]]
+[msg MSG_6B_NPC001_03 [Девушка]]
 [s]Например, мистер Медведь и мистер Лягушка[n]на нем, и они читают рэп...[n][w][e]
 ##-[s]Like, Mr. Bear and Mr. Frog are on[n]it, and they're rapping...[n][w][e]-##
 [s]Это странно. Он такой тихий, я и[n]представить себе не могла, что он об этом[n]думает.[n][w][e]
 ##-[s]It's weird. He's so quiet, I didn't[n]imagine he was thinking of that.[n][w][e]-##
 
-[msg MSG_7A_NPC001_01 [Girl]]
+[msg MSG_7A_NPC001_01 [Девушка]]
 [s]Первый семестр наконец-то закончился.[n][w][e]
 ##-[s]The first term is finally over.[n][w][e]-##
-[s]Это никогда не казалось таким долгим, когда[n]я был в 5-м классе, но этот, казалось,[n]длился вечно...[n][w][e]
+[s]Это никогда не казалось таким долгим, когда[n]я была в 5-м классе, но этот, казалось,[n]длился вечно...[n][w][e]
 ##-[s]It never felt this long when I was[n]in 5th grade, but this one seemed[n]to go on forever...[n][w][e]-##
 
 [sel MSG_7A_NPC001_01_SEL top]
-[s]"почему?”[e]
+[s]"Почему?”[e]
 ##-[s]"Why?"[e]-##
 [s]"Это все у тебя в голове".[e]
 ##-[s]"It's all in your mind."[e]-##
 
 [sel MSG_7A_NPC001_01_SEL_G top]
-[s]"почему?”[e]
+[s]"Почему?”[e]
 ##-[s]"Why?"[e]-##
 [s]"Это все у тебя в голове".[e]
 ##-[s]"It's all in your mind."[e]-##
 
-[msg MSG_7A_NPC001_02 [Girl]]
+[msg MSG_7A_NPC001_02 [Девушка]]
 [s]Потому что мой учитель такой скучный![n][w][e]
 ##-[s]Because my teacher is so boring![n][w][e]-##
 [s]Все в моем классе хотели бы, чтобы у нас[n]был другой учитель.[n][w][e]
 ##-[s]Everyone in my class wishes we[n]had a different teacher.[n][w][e]-##
 
-[msg MSG_7A_NPC001_03 [Girl]]
+[msg MSG_7A_NPC001_03 [Девушка]]
 [s]Дело не только во мне! Другие дети в моем[n]классе тоже так думают![n][w][e]
 ##-[s]It's not just me! The other kids[n]in my class think so too![n][w][e]-##
 [s]Соседний класс может выйти и поиграть со[n]своим учителем, но наш просто смотрит в[n]окно...[n][w][e]
 ##-[s]The class next door gets to go out[n]and play with their teacher, but[n]ours just stares out the window...[n][w][e]-##
 
-[msg MSG_7B_NPC001_01 [Girl]]
+[msg MSG_7B_NPC001_01 [Девушка]]
 [s]Наш учитель не давал нам никаких домашних[n]заданий во время летних каникул.[n][w][e]
 ##-[s]Our teacher didn't give us any[n]homework over the summer break.[n][w][e]-##
 [s]Другие классы завидовали, но... Со[n]следующего года я буду ходить в среднюю[n]школу...[n][w][e]
 ##-[s]The other classes were jealous,[n]but... I'm gonna be in middle[n]school starting next year...[n][w][e]-##
 
-[msg MSG_8A_NPC001_01 [Girl]]
+[msg MSG_8A_NPC001_01 [Девушка]]
 [s]Я видел своего учителя в торговом центре.[n]Он казался очень усталым.[n][w][e]
 ##-[s]I saw my teacher at the mall.[n]He seemed really tired.[n][w][e]-##
 [s]Я пытался заговорить с ним, но он только[n]улыбнулся. Он такой скучный! Он точно такой[n]же вне класса, как и в нем![n][w][e]
 ##-[s]I tried to talk to him, but he just[n]smiled. He's so boring! He's exactly[n]the same out of class as in it![n][w][e]-##
 
-[msg MSG_8B_NPC001_01 [Girl]]
+[msg MSG_8B_NPC001_01 [Девушка]]
 [s]Я лучше займусь своими летними заданиями.[n]Хорошо, что у меня не так много домашней[n]работы.[n][w][e]
 ##-[s]I better do my summer assignments.[n]It's a good thing I don't have that[n]much homework.[n][w][e]-##
 [s]Мой учитель никогда много не выдает. Хотя[n]он мне все еще не очень нравится...[n][w][e]
@@ -385,7 +385,7 @@
 [sel MSG_8B_NPC001_01_SEL top]
 [s]"Тебе повезло".[e]
 ##-[s]"You're lucky."[e]-##
-[s]"Ты жалок".[e]
+[s]"Ты жалкая".[e]
 ##-[s]"You're pathetic."[e]-##
 [s]"Неважно".[e]
 ##-[s]"Whatever."[e]-##
@@ -393,91 +393,91 @@
 [sel MSG_8B_NPC001_01_SEL_G top]
 [s]"Тебе повезло".[e]
 ##-[s]"You're lucky."[e]-##
-[s]"Ты жалок..."[e]
+[s]"Ты жалкая..."[e]
 ##-[s]"You're pathetic..."[e]-##
 [s]"Неважно".[e]
 ##-[s]"Whatever."[e]-##
 
-[msg MSG_8B_NPC001_02 [Girl]]
+[msg MSG_8B_NPC001_02 [Девушка]]
 [s]Ну, что касается работы на летних[n]каникулах, может быть, и так...[n][w][e]
 ##-[s]Well, as far as summer vacation[n]work goes, maybe so...[n][w][e]-##
 [s]Но занятия скучные, так что, в конце[n]концов, это не очень хорошо.[n][w][e]
 ##-[s]But the classes are boring, so[n]in the end, it's not a good thing.[n][w][e]-##
 
-[msg MSG_8B_NPC001_03 [Girl]]
+[msg MSG_8B_NPC001_03 [Девушка]]
 [s]Для чего это было?! Ты такой злой![n][w][e]
 ##-[s]What was that for!? You're so mean![n][w][e]-##
 [s]Мне приходится сидеть на его скучных уроках[n]пять раз в неделю! Я должен получить[n]медаль![n][w][e]
 ##-[s]I have to sit through his boring[n]lessons five times a week! I should[n]get a medal![n][w][e]-##
 
-[msg MSG_8B_NPC001_03_G [Girl]]
+[msg MSG_8B_NPC001_03_G [Девушка]]
 [s]Для чего это было?! Ты такой злой![n][w][e]
 ##-[s]What was that for!? You're so mean![n][w][e]-##
 [s]Мне приходится сидеть на его скучных уроках[n]пять раз в неделю! Я должен получить[n]медаль![n][w][e]
 ##-[s]I have to sit through his boring[n]lessons five times a week! I should[n]get a medal![n][w][e]-##
 
-[msg MSG_8B_NPC001_04 [Girl]]
+[msg MSG_8B_NPC001_04 [Девушка]]
 [s]Да... Это просто еще один учитель, да? Не[n]имеет значения, нравится он мне или нет.[n][w][e]
 ##-[s]Yeah... It's just another teacher,[n]huh? It doesn't matter if I like[n]him or not.[n][w][e]-##
 
-[msg MSG_9A_NPC001_01 [Girl]]
+[msg MSG_9A_NPC001_01 [Девушка]]
 [s]Начался второй семестр... У меня снова этот[n]скучный учитель.[n][w][e]
 ##-[s]The second term has started...[n]I have that boring teacher again.[n][w][e]-##
 [s]Я не против учиться, но я не выношу того,[n]как он преподает...[n][w][e]
 ##-[s]I don't mind studying, but I can't[n]stand the way he teaches...[n][w][e]-##
 
-[msg MSG_9B_NPC001_01 [Girl]]
+[msg MSG_9B_NPC001_01 [Девушка]]
 [s]Я думал, что мой учитель может быть лучше в[n]этом семестре, но, думаю, нет.[n][w][e]
 ##-[s]I thought my teacher might be better[n]this term, but I guess not.[n][w][e]-##
 [s]Он много бормочет, и у него совсем нет[n]энергии, так что занятия действительно[n]скучные.[n][w][e]
 ##-[s]He mumbles a lot, and doesn't have[n]any energy, so class is really[n]boring.[n][w][e]-##
 
-[msg MSG_10A_NPC001_01 [Girl]]
+[msg MSG_10A_NPC001_01 [Девушка]]
 [s]Мой учитель в восторге от Дня спорта.[n][w][e]
 ##-[s]My teacher is all excited[n]about Sports Day.[n][w][e]-##
 [s]Я бы хотел, чтобы он мог так радоваться[n]преподаванию в классе... Мы почти ученики[n]средней школы.[n][w][e]
 ##-[s]I wish he could get that excited[n]about teaching class... We're[n]almost middle school students.[n][w][e]-##
 
-[msg MSG_10B_NPC001_01 [Girl]]
-[s]Мой учитель впервые расстроился на днях,[n]потому что я бросил спортивную тренировку,[n]чтобы учиться.[n][w][e]
+[msg MSG_10B_NPC001_01 [Девушка]]
+[s]Мой учитель впервые расстроился на днях,[n]потому что я бросила спортивную тренировку,[n]чтобы учиться.[n][w][e]
 ##-[s]My teacher got upset for the first[n]time the other day, cause I ditched[n]Sports Day practice to study.[n][w][e]-##
 [s]Я этого не понимаю... Мне пришлось учиться,[n]потому что его преподавание такое плохое![n][w][e]
 ##-[s]I don't get it... I had to study[n]because his teaching is so bad![n][w][e]-##
 
-[msg MSG_11A_NPC001_01 [Girl]]
+[msg MSG_11A_NPC001_01 [Девушка]]
 [s]Мой класс выиграл на Дне спорта. Мы[n]установили новый рекорд по прыжкам со[n]скакалкой![n][w][e]
 ##-[s]My class won at Sports Day. We set[n]a new record for jumping rope![n][w][e]-##
 [s]Ты думаешь, это потому, что наш учитель[n]каждый день посвящал все свое время[n]практике...?[n][w][e]
 ##-[s]You think it's because our teacher[n]put all his time into practice every[n]day...?[n][w][e]-##
 
-[msg MSG_11B_NPC001_01 [Girl]]
+[msg MSG_11B_NPC001_01 [Девушка]]
 [s]Наш учитель ожил на День спорта, но теперь[n]он вернулся к нормальной жизни...[n][w][e]
 ##-[s]Our teacher came to life for Sports[n]Day, but now he's back to normal...[n][w][e]-##
 [s]Обычно он такой спокойный, но когда дело[n]доходит до фестивалей, он становится совсем[n]другим человеком.[n][w][e]
 ##-[s]He's usually so calm, but when it[n]comes to festivals, he's like a[n]different person.[n][w][e]-##
 
-[msg MSG_12A_NPC001_01 [Girl]]
+[msg MSG_12A_NPC001_01 [Девушка]]
 [s]Я случайно заснул на уроке, но учитель[n]совсем не разозлился...[n][w][e]
 ##-[s]I accidentally fell asleep in class,[n]but the teacher didn't get mad at[n]all...[n][w][e]-##
-[s]Так почему же он так расстроился, когда я в[n]тот раз прогулял спортивную тренировку? Я[n]этого не понимаю...[n][w][e]
+[s]Так почему же он так расстроился, когда я в[n]тот раз прогуляла спортивную тренировку? Я[n]этого не понимаю...[n][w][e]
 ##-[s]So why'd he get so upset when I[n]ditched Sports Day practice that[n]time? I don't get it...[n][w][e]-##
 
-[msg MSG_12B_NPC001_01 [Girl]]
+[msg MSG_12B_NPC001_01 [Девушка]]
 [s]Мой учитель такой скучный. На самом деле он[n]мне не то чтобы не нравится, он просто[n]раздражает...[n][w][e]
 ##-[s]My teacher is so boring. I don't[n]really dislike him, he's just[n]annoying...[n][w][e]-##
-[s]Мы шестиклассники... Мы почти закончили[n]начальную школу! Я бы хотел, чтобы у меня[n]был другой учитель...[n][w][e]
+[s]Мы шестиклассники... Мы почти закончили[n]начальную школу! Я бы хотела, чтобы у меня[n]был другой учитель...[n][w][e]
 ##-[s]We're 6th-graders... We're almost[n]out of elementary school! I wish[n]I had another teacher...[n][w][e]-##
 
-[msg MSG_1A_NPC001_01 [Girl]]
-[s]На днях мой учитель вызвал меня в класс. Я[n]просто проигнорировал его, потому что он[n]мне не очень нравится...[n][w][e]
+[msg MSG_1A_NPC001_01 [Девушка]]
+[s]На днях мой учитель вызвал меня в класс. Я[n]просто проигнорировала его, потому что он[n]мне не очень нравится...[n][w][e]
 ##-[s]The other day, my teacher called on[n]me in class. I just ignored him,[n]'cause I don't like him much...[n][w][e]-##
 [s]Я думал, он разозлится на меня, как на той[n]тренировке, но он просто сделал грустное[n]лицо...[n][w][e]
 ##-[s]I thought he would get mad at me,[n]like he did at that practice, but[n]he just made a sad face...[n][w][e]-##
-[s]Я... Это не моя вина! Это он виноват в том,[n]что такой скучный![n][w][e]
+[s]Я... Это не моя вина! Это он виноват в том,[n]что такая скучная![n][w][e]
 ##-[s]I-It's not my fault! It's his[n]fault for being so boring![n][w][e]-##
 
-[msg MSG_1B_NPC001_01 [Girl]]
-[s]...Я игнорировал своего учителя, потому что[n]он никогда не разговаривает со мной,[n]поэтому я решил, что буду молчать в ответ.[n][w][e]
+[msg MSG_1B_NPC001_01 [Девушка]]
+[s]...Я игнорировала своего учителя, потому что[n]он никогда не разговаривает со мной,[n]поэтому я решил, что буду молчать в ответ.[n][w][e]
 ##-[s]...I was ignoring my teacher, 'cause[n]he never talks to me, so I figured[n]I'd be silent right back.[n][w][e]-##
 [s]Потом он позвонил мне, и я сказал ему об[n]этом...[n][w][e]
 ##-[s]Then he called on me, and I told[n]him so...[n][w][e]-##
@@ -488,43 +488,43 @@
 [s]"Он разозлился?"[e]
 ##-[s]"Did he get mad?"[e]-##
 
-[msg MSG_1B_NPC001_02 [Girl]]
+[msg MSG_1B_NPC001_02 [Девушка]]
 [s]Это было странно. Он сказал: "Я мешаю вам,[n]ребята, тусоваться вместе, верно?"[n][w][e]
 ##-[s]It was weird. He said, "I'm in[n]the way of you guys hanging out[n]together, right?"[n][w][e]-##
 [s]Он сказал, почему он не дает много домашних[n]заданий, и почему он разозлился на меня за[n]то, что я прогуливал тренировку...[n][w][e]
 ##-[s]He said the reason he doesn't give[n]much homework, and why he got mad at[n]me for ditching practice...[n][w][e]-##
 [s]Это потому, что он предпочел бы, чтобы у[n]нас были "Хорошие воспоминания о средней[n]школе", а не домашнее задание.[n][w][e]
 ##-[s]Is because he'd rather we have "Good[n]memories of middle school," rather[n]than homework.[n][w][e]-##
-[s]Я... я понятия не имел... Я никогда не[n]думал об этом с такой точки зрения...[n][w][e]
+[s]Я... я понятия не имела... Я никогда не[n]думала об этом с такой точки зрения...[n][w][e]
 ##-[s]I... I had no idea...[n]I never thought of it that way...[n][w][e]-##
 
-[msg MSG_1B_NPC001_03 [Girl]]
+[msg MSG_1B_NPC001_03 [Девушка]]
 [s]Нет... Он действительно извинился передо[n]мной. "Извините, что был таким тихим", -[n]сказал он.[n][w][e]
 ##-[s]No... He actually apologized to me.[n]"Sorry for being so quiet," he said.[n][w][e]-##
 [s]Я не знала, что он так себя чувствует... И[n]я...[n][w][e]
 ##-[s]I didn't know he felt that way...[n]And I...[n][w][e]-##
 
-[msg MSG_3A_NPC001_01 [Girl]]
+[msg MSG_3A_NPC001_01 [Девушка]]
 [s]Мой учитель тихий, но он такой милый! Он[n]величайший![n][w][e]
 ##-[s]My teacher is quiet, but he's so[n]nice! He's the greatest![n][w][e]-##
 [s]Когда наступит наш выпускной, я собираюсь[n]сказать ему, как я ему благодарна.[n][w][e]
 ##-[s]When our graduation comes, I'm[n]going to tell him how grateful[n]I am.[n][w][e]-##
 
-[msg MSG_10A_NPC002_01 [Male Student]]
+[msg MSG_10A_NPC002_01 [Ученик]]
 [s]Чувак, ты только что это видел?[n][w][e]
 ##-[s]Dude, did you just see that?[n][w][e]-##
 [s]Она уступила свое место какому-то старому[n]пердуну, чувак![n][w][e]
-##-[s]She gave her seat to some old[n]fart, man![n][w][e]-##
+##-[s]She gave her seat to some old[n]fart, Мужчина![n][w][e]-##
 [s]Она такая милая...[n][w][e]
 ##-[s]She's so sweet...[n][w][e]-##
 
-[msg MSG_10A_NPC003_01 [Female Student]]
+[msg MSG_10A_NPC003_01 [Ученица]]
 [s]Видишь вон того парня? Я думаю, он следил[n]за мной повсюду.[n][w][e]
 ##-[s]See that guy over there? I think[n]he's been following me around.[n][w][e]-##
 [s]Что мне делать в подобной ситуации?[n][w][e]
 ##-[s]What should I do in a situation[n]like this?[n][w][e]-##
 
-[msg MSG_5B_NPC004_01 [Woman]]
+[msg MSG_5B_NPC004_01 [Женщина]]
 [s]Расспросы - основной метод сбора[n]информации, но на этот раз все идет не так[n]хорошо.[n][w][e]
 ##-[s]Asking around is the basic method[n]of gathering information, but it's[n]not going so well this time.[n][w][e]-##
 [s]Так что насчет тебя? Вам что-нибудь[n]известно об этих инцидентах?[n][w][e]
@@ -538,31 +538,31 @@
 [s]"Кто ты?.."[e]
 ##-[s]"Who are you...?"[e]-##
 [s]"Кто эта старуха?"[e]
-##-[s]"Who is this old woman?"[e]-##
+##-[s]"Who is this old Женщина?"[e]-##
 
-[msg MSG_5B_NPC004_02 [Woman]]
+[msg MSG_5B_NPC004_02 [Женщина]]
 [s]Ах... Лентяй.[n][w][e]
 ##-[s]Ah... Bummer.[n][w][e]-##
 [s]У тебя какая-то таинственная аура, поэтому[n]я подумал, что ты можешь знать что-то[n]особенное.[n][w][e]
 ##-[s]You've got kind of a mysterious[n]aura, so I thought you might know[n]something special.[n][w][e]-##
 
-[msg MSG_5B_NPC004_03 [Woman]]
+[msg MSG_5B_NPC004_03 [Женщина]]
 [s]Разве ты не можешь сказать? Я репортер.[n][w][e]
 ##-[s]Can't you tell? I'm a reporter.[n][w][e]-##
 [s]Я делаю отчет о расследовании таинственных[n]инцидентов здесь.[n][w][e]
 ##-[s]I'm doing an investigative report[n]on the mysterious incidents here.[n][w][e]-##
 
-[msg MSG_5B_NPC004_04 [Woman]]
+[msg MSG_5B_NPC004_04 [Женщина]]
 [s]Хммм? Старуха?[n][w][e]
-##-[s]Hmmm? Old woman?[n][w][e]-##
+##-[s]Hmmm? Old Женщина?[n][w][e]-##
 [s]Это странно... Я не вижу здесь никаких[n]старух...[n][w][e]
 ##-[s]That's strange... I don't see any[n]old women around here...[n][w][e]-##
 [s]Всего один прекрасный репортер, храбро[n]расследующий таинственные происшествия[n]здесь, в городе.[n][w][e]
 ##-[s]Just one beautiful reporter, bravely[n]investigating the mysterious[n]incidents here in town.[n][w][e]-##
 
-[msg MSG_7B_NPC004_01 [Woman]]
-[s]Я увидел девушку в белом платье с оборками[n]перед вокзалом...[n][w][e]
-##-[s]I saw a girl in a white frilly dress[n]in front of the station...[n][w][e]-##
+[msg MSG_7B_NPC004_01 [Женщина]]
+[s]Я увидела девушку в белом платье с оборками[n]перед вокзалом...[n][w][e]
+##-[s]I saw a Девушка in a white frilly dress[n]in front of the station...[n][w][e]-##
 [s]Это было красивое платье, и оно так хорошо[n]оттеняло ее потрясающие рыжие волосы...[n][w][e]
 ##-[s]It was a beautiful dress, and it[n]offset her stunning red hair so[n]well...[n][w][e]-##
 [s]Этот готический стиль лолиты трудно[n]воплотить в жизнь, но у нее это получилось[n]идеально.[n][w][e]
@@ -570,27 +570,27 @@
 [s]Может быть, мне стоит поздороваться с ней,[n]когда я увижу ее в следующий раз.[n][w][e]
 ##-[s]Maybe I should say hi to her when[n]I see her next time.[n][w][e]-##
 
-[msg MSG_9B_NPC004_01 [Woman]]
-[s]Таинственные происшествия происходят в[n]полночь... Я в этом уверен.[n][w][e]
+[msg MSG_9B_NPC004_01 [Женщина]]
+[s]Таинственные происшествия происходят в[n]полночь... Я в этом уверена.[n][w][e]
 ##-[s]The mysterious incidents happen at[n]midnight... I'm positive of it.[n][w][e]-##
-[s]Я тут все проверил, и это очень[n]подозрительное время.[n][w][e]
+[s]Я тут все проверила, и это очень[n]подозрительное время.[n][w][e]
 ##-[s]I've been checking around, and it's[n]a very suspicious time.[n][w][e]-##
 [s]Здоровые люди заболевают синдромом апатии в[n]полночь, и первая жертва была похищена в[n]полночь...[n][w][e]
 ##-[s]Healthy people get Apathy Syndrome[n]at midnight, and the first victim[n]was taken at midnight...[n][w][e]-##
 [s]Примерно в это время происходит что-то[n]очень подозрительное.[n][w][e]
 ##-[s]There's something very suspicious[n]going on around that time.[n][w][e]-##
 
-[msg MSG_11B_NPC004_01 [Woman]]
-[s]Когда я расследовал смерть мистера Кириджо,[n]меня беспокоила одна вещь.[n][w][e]
+[msg MSG_11B_NPC004_01 [Женщина]]
+[s]Когда я расследовала смерть мистера Кириджо,[n]меня беспокоила одна вещь.[n][w][e]
 ##-[s]When I was looking into Mr. Kirijo's[n]death, there's one thing that[n]bothered me.[n][w][e]-##
 [s]Председатель правления, Шуджи Икуцуки. Он[n]был найден мертвым вместе с мистером[n]Кириджо в обсерватории...[n][w][e]
 ##-[s]The chairman of the board, Shuji[n]Ikutsuki. He was found dead with[n]Mr. Kirijo at the observatory...[n][w][e]-##
 [s]И он знает мистера Кириджо с тех пор, как[n]они вместе были в группе Кириджо.[n][w][e]
 ##-[s]And he's known Mr. Kirijo since[n]they were in the Kirijo Group[n]together.[n][w][e]-##
-[s]Хотел бы я указать на это пальцем...[n][w][e]
+[s]Хотела бы я указать на это пальцем...[n][w][e]
 ##-[s]I wish I could put my finger[n]on it...[n][w][e]-##
 
-[msg MSG_1B_NPC004_01 [Woman]]
+[msg MSG_1B_NPC004_01 [Женщина]]
 [s]Я присмотрелся к тем людям, которые ждут[n]Конца...[n][w][e]
 ##-[s]I looked into those people who are[n]waiting for the End...[n][w][e]-##
 [s]Я думаю, что они имеют какое-то отношение к[n]жертвам тех таинственных инцидентов.[n][w][e]
@@ -604,7 +604,7 @@
 [s]Или, может быть, они просто используют[n]ситуацию, чтобы привлечь последователей...[n][w][e]
 ##-[s]Or maybe they're just using the[n]situation to gain followers...[n][w][e]-##
 
-[msg MSG_KAGE_01_01 [Male Student]]
+[msg MSG_KAGE_01_01 [Ученик]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]......[n][w][e]
@@ -612,13 +612,13 @@
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_01_02 [Male Student]]
+[msg MSG_KAGE_01_02 [Ученик]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]А... Ууу...[n][w][e]
 ##-[s]Ah...[n]Uu...[n][w][e]-##
 
-[msg MSG_KAGE_01_03 [Male Student]]
+[msg MSG_KAGE_01_03 [Ученик]]
 [s]Ух... Ах...[n][w][e]
 ##-[s]Uhh...[n]Ah...[n][w][e]-##
 [s]......[n][w][e]
@@ -626,25 +626,25 @@
 [s]Ах...[n][w][e]
 ##-[s]Ahh...[n][w][e]-##
 
-[msg MSG_KAGE_01_04 [Male Student]]
+[msg MSG_KAGE_01_04 [Ученик]]
 [s]Ухааа... Аууу...[n][w][e]
 ##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_01_05 [Male Student]]
+[msg MSG_KAGE_01_05 [Ученик]]
 [s]Ух... Ухва... Ааа...[n][w][e]
 ##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
 [s]Ааа...[n][w][e]
 ##-[s]Ahhh...[n][w][e]-##
 
-[msg MSG_KAGE_01_06 [Male Student]]
+[msg MSG_KAGE_01_06 [Ученик]]
 [s]Ааа...[n][w][e]
 ##-[s]Ahhh...[n][w][e]-##
 [s]Ууу... Ух...[n][w][e]
 ##-[s]Uu...[n]Uhh...[n][w][e]-##
 
-[msg MSG_KAGE_01_07 [Male Student]]
+[msg MSG_KAGE_01_07 [Ученик]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]......[n][w][e]
@@ -652,7 +652,7 @@
 [s]Уаааа...[n][w][e]
 ##-[s]Uaaaah...[n][w][e]-##
 
-[msg MSG_KAGE_01_08 [Male Student]]
+[msg MSG_KAGE_01_08 [Ученик]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]Ух... Ух-х-х...[n][w][e]
@@ -660,19 +660,19 @@
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_01_09 [Male Student]]
+[msg MSG_KAGE_01_09 [Ученик]]
 [s]Эм... Эм...[n][w][e]
 ##-[s]Uh...[n]Uh...[n][w][e]-##
 [s]Э-э-э... Э-э-э.....[n][w][e]
 ##-[s]Uhhhhhh...[n]Uh...[n][w][e]-##
 
-[msg MSG_KAGE_01_10 [Male Student]]
+[msg MSG_KAGE_01_10 [Ученик]]
 [s]Уаааа... Ааа...[n][w][e]
 ##-[s]Uaaah...[n]Ahh...[n][w][e]-##
 [s]...... Э-э-э...[n][w][e]
 ##-[s]......[n]Uhhh...[n][w][e]-##
 
-[msg MSG_KAGE_02_01 [Female Student]]
+[msg MSG_KAGE_02_01 [Ученица]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]......[n][w][e]
@@ -680,13 +680,13 @@
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_02_02 [Female Student]]
+[msg MSG_KAGE_02_02 [Ученица]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]А... Ууу...[n][w][e]
 ##-[s]Ah...[n]Uu...[n][w][e]-##
 
-[msg MSG_KAGE_02_03 [Female Student]]
+[msg MSG_KAGE_02_03 [Ученица]]
 [s]Ух... Ах...[n][w][e]
 ##-[s]Uhh...[n]Ah...[n][w][e]-##
 [s]......[n][w][e]
@@ -694,25 +694,25 @@
 [s]Ах...[n][w][e]
 ##-[s]Ahh...[n][w][e]-##
 
-[msg MSG_KAGE_02_04 [Female Student]]
+[msg MSG_KAGE_02_04 [Ученица]]
 [s]Ухааа... Аууу...[n][w][e]
 ##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_02_05 [Female Student]]
+[msg MSG_KAGE_02_05 [Ученица]]
 [s]Ух... Ухва... Ааа...[n][w][e]
 ##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
 [s]Ах...[n][w][e]
 ##-[s]Ah...[n][w][e]-##
 
-[msg MSG_KAGE_02_06 [Female Student]]
+[msg MSG_KAGE_02_06 [Ученица]]
 [s]Ааа...[n][w][e]
 ##-[s]Ahhh...[n][w][e]-##
 [s]Ууу... Ух...[n][w][e]
 ##-[s]Uu...[n]Uhh...[n][w][e]-##
 
-[msg MSG_KAGE_02_07 [Female Student]]
+[msg MSG_KAGE_02_07 [Ученица]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]......[n][w][e]
@@ -720,7 +720,7 @@
 [s]Уаааа...[n][w][e]
 ##-[s]Uaaaah...[n][w][e]-##
 
-[msg MSG_KAGE_02_08 [Female Student]]
+[msg MSG_KAGE_02_08 [Ученица]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]Ух... Ух-х-х...[n][w][e]
@@ -728,19 +728,19 @@
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_02_09 [Female Student]]
+[msg MSG_KAGE_02_09 [Ученица]]
 [s]Ух... Ух-х-х...[n][w][e]
 ##-[s]Uh...[n]Uhhhh...[n][w][e]-##
 [s]Э-э-э... Э-э-э.....[n][w][e]
 ##-[s]Uhhhhhh...[n]Uh...[n][w][e]-##
 
-[msg MSG_KAGE_02_10 [Female Student]]
+[msg MSG_KAGE_02_10 [Ученица]]
 [s]Уаааа... Ааа...[n][w][e]
 ##-[s]Uaaah...[n]Ahh...[n][w][e]-##
 [s]...... Э-э-э...[n][w][e]
 ##-[s]......[n]Uhhh...[n][w][e]-##
 
-[msg MSG_KAGE_03_01 [Man]]
+[msg MSG_KAGE_03_01 [Мужчина]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]......[n][w][e]
@@ -748,13 +748,13 @@
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_03_02 [Man]]
+[msg MSG_KAGE_03_02 [Мужчина]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]А... Ууу...[n][w][e]
 ##-[s]Ah...[n]Uu...[n][w][e]-##
 
-[msg MSG_KAGE_03_03 [Man]]
+[msg MSG_KAGE_03_03 [Мужчина]]
 [s]Ух... Ах...[n][w][e]
 ##-[s]Uhh...[n]Ah...[n][w][e]-##
 [s]......[n][w][e]
@@ -762,25 +762,25 @@
 [s]Ах...[n][w][e]
 ##-[s]Ahh...[n][w][e]-##
 
-[msg MSG_KAGE_03_04 [Man]]
+[msg MSG_KAGE_03_04 [Мужчина]]
 [s]Ухааа... Аууу...[n][w][e]
 ##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_03_05 [Man]]
+[msg MSG_KAGE_03_05 [Мужчина]]
 [s]Ух... Ухва... Ааа...[n][w][e]
 ##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
 [s]Ах...[n][w][e]
 ##-[s]Ah...[n][w][e]-##
 
-[msg MSG_KAGE_03_06 [Man]]
+[msg MSG_KAGE_03_06 [Мужчина]]
 [s]Ааа...[n][w][e]
 ##-[s]Ahhh...[n][w][e]-##
 [s]Ууу... Ух...[n][w][e]
 ##-[s]Uu...[n]Uhh...[n][w][e]-##
 
-[msg MSG_KAGE_03_07 [Man]]
+[msg MSG_KAGE_03_07 [Мужчина]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]......[n][w][e]
@@ -788,7 +788,7 @@
 [s]Уаааа...[n][w][e]
 ##-[s]Uaaaah...[n][w][e]-##
 
-[msg MSG_KAGE_03_08 [Man]]
+[msg MSG_KAGE_03_08 [Мужчина]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]Ух... Ух-х-х...[n][w][e]
@@ -796,19 +796,19 @@
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_03_09 [Man]]
+[msg MSG_KAGE_03_09 [Мужчина]]
 [s]Ух... Ух...[n][w][e]
 ##-[s]Uh...[n]Uhh...[n][w][e]-##
 [s]Э-э-э... Э-э-э.....[n][w][e]
 ##-[s]Uhhhhhh...[n]Uh...[n][w][e]-##
 
-[msg MSG_KAGE_03_10 [Man]]
+[msg MSG_KAGE_03_10 [Мужчина]]
 [s]Уаааа... Ааа...[n][w][e]
 ##-[s]Uaaah...[n]Ahh...[n][w][e]-##
 [s]...... Э-э-э...[n][w][e]
 ##-[s]......[n]Uhhh...[n][w][e]-##
 
-[msg MSG_KAGE_04_01 [Woman]]
+[msg MSG_KAGE_04_01 [Женщина]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]......[n][w][e]
@@ -816,13 +816,13 @@
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_04_02 [Woman]]
+[msg MSG_KAGE_04_02 [Женщина]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]А... Ууу...[n][w][e]
 ##-[s]Ah...[n]Uu...[n][w][e]-##
 
-[msg MSG_KAGE_04_03 [Woman]]
+[msg MSG_KAGE_04_03 [Женщина]]
 [s]Ух... Ах...[n][w][e]
 ##-[s]Uhh...[n]Ah...[n][w][e]-##
 [s]......[n][w][e]
@@ -830,25 +830,25 @@
 [s]Ах...[n][w][e]
 ##-[s]Ahh...[n][w][e]-##
 
-[msg MSG_KAGE_04_04 [Woman]]
+[msg MSG_KAGE_04_04 [Женщина]]
 [s]Ухааа... Аууу...[n][w][e]
 ##-[s]Uhaaa...[n]Auuu...[n][w][e]-##
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_04_05 [Woman]]
+[msg MSG_KAGE_04_05 [Женщина]]
 [s]Ух... Ухва... Ааа...[n][w][e]
 ##-[s]Uhh...[n]Uhwa...[n]Aah...[n][w][e]-##
 [s]Ах...[n][w][e]
 ##-[s]Ah...[n][w][e]-##
 
-[msg MSG_KAGE_04_06 [Woman]]
+[msg MSG_KAGE_04_06 [Женщина]]
 [s]Ааа...[n][w][e]
 ##-[s]Ahhh...[n][w][e]-##
 [s]Ууу... Ух...[n][w][e]
 ##-[s]Uu...[n]Uhh...[n][w][e]-##
 
-[msg MSG_KAGE_04_07 [Woman]]
+[msg MSG_KAGE_04_07 [Женщина]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]......[n][w][e]
@@ -856,7 +856,7 @@
 [s]Уаааа...[n][w][e]
 ##-[s]Uaaaah...[n][w][e]-##
 
-[msg MSG_KAGE_04_08 [Woman]]
+[msg MSG_KAGE_04_08 [Женщина]]
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 [s]Ух... Ух-х-х...[n][w][e]
@@ -864,13 +864,13 @@
 [s]......[n][w][e]
 ##-[s]......[n][w][e]-##
 
-[msg MSG_KAGE_04_09 [Woman]]
+[msg MSG_KAGE_04_09 [Женщина]]
 [s]Ух... Ух...[n][w][e]
 ##-[s]Uh...[n]Uhh...[n][w][e]-##
 [s]Э-э-э... Э-э-э.....[n][w][e]
 ##-[s]Uhhhhhh...[n]Uh...[n][w][e]-##
 
-[msg MSG_KAGE_04_10 [Woman]]
+[msg MSG_KAGE_04_10 [Женщина]]
 [s]Уаааа... Ааа...[n][w][e]
 ##-[s]Uaaah...[n]Ahh...[n][w][e]-##
 [s]...... Э-э-э...[n][w][e]
@@ -882,7 +882,7 @@
 [s]> Вы не можете добиться от этого человека[n]осмысленного ответа.[n][w][e]
 ##-[s]> You cannot get a meaningful[n]response out of this person.[n][w][e]-##
 
-[msg MSG_1A_NPC006_01 [Male Student]]
+[msg MSG_1A_NPC006_01 [Ученик]]
 [s]Мне не нравится иметь звание и выполнять[n]приказы, поэтому я тоже не думал, что мне[n]понравится культ.[n][w][e]
 ##-[s]I don't like having a rank and[n]following orders, so I didn't[n]think I'd like the cult, either.[n][w][e]-##
 [s]Но есть один парень, который действительно[n]говорит с людьми...[n][w][e]
@@ -892,7 +892,7 @@
 [s]Так что этот культ не так строг, как я[n]думал. Я не так уж сильно возражаю против[n]этого.[n][w][e]
 ##-[s]So this cult isn't as strict as[n]I thought it would be. I don't[n]mind it so much.[n][w][e]-##
 
-[msg MSG_1A_NPC007_01 [Man]]
+[msg MSG_1A_NPC007_01 [Мужчина]]
 [s]Разве тех, кто проповедует другим, не[n]волнует, что люди думают о них?[n][w][e]
 ##-[s]Don't those who preach to others[n]care about what people think of[n]them?[n][w][e]-##
 [s]Я бы не смог этого сделать... Я не такой[n]человек.[n][w][e]
