@@ -7,7 +7,7 @@
 ##-[s]Paulownia Mall[e]-##
 [s]Карта города[e]
 ##-[s]Town Map[e]-##
-[s]Отменить[e]
+[s]Уйти[e]
 ##-[s]Cancel[e]-##
 
 [msg FLD_ORDER]
@@ -321,7 +321,7 @@
 [sel VELVET_SEL_1 top]
 [s]Слияние Персон[e]
 ##-[s]Fuse Personas[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_2 top]
@@ -329,7 +329,7 @@
 ##-[s]Fuse Personas[e]-##
 [s]Принять запросы[e]
 ##-[s]Accept request[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_3 top]
@@ -337,7 +337,7 @@
 ##-[s]Fuse Personas[e]-##
 [s]Проверить запросы/компенидиум[e]
 ##-[s]Check requests/compendium[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_4 top]
@@ -347,7 +347,7 @@
 ##-[s]Check requests/compendium[e]-##
 [s]Сходить на свидание с Элизабет[e]
 ##-[s]Go on a date with Elizabeth[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_5 top]
@@ -357,7 +357,7 @@
 ##-[s]Accept request[e]-##
 [s]Сходить на свидание с Элизабет[e]
 ##-[s]Go on a date with Elizabeth[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [msg VELVET_ROOM [Элизабет]]
@@ -557,7 +557,7 @@
 [sel VEL_M_SEL_1 top]
 [s]Слияние Персон[e]
 ##-[s]Слияние Персон[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_2 top]
@@ -565,7 +565,7 @@
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_3 top]
@@ -573,17 +573,17 @@
 ##-[s]Fuse Personas[e]-##
 [s]Проверить запросы/компенидиум[e]
 ##-[s]Check requests/compendium[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_4 top]
 [s]Слияние Персон[e]
 ##-[s]Fuse Personas[e]-##
-[s]Запросы на проверку/сборник[e]
+[s]Проверить на проверку/сборник[e]
 ##-[s]Проверить запросы/компенидиум[e]-##
 [s]Сходить на свидание с Тео[e]
 ##-[s]Go on a date with Theo[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_5 top]
@@ -593,7 +593,7 @@
 ##-[s]Accept request[e]-##
 [s]Сходить на свидание с Тео[e]
 ##-[s]Go on a date with Theo[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [msg VEL_M_ROOM [Тео]]
@@ -819,9 +819,9 @@
 ##-[s]> It seems there is no one missing...[n][w][e]-##
 
 [sel POLICEBOARD_SEL top]
-[s]Посмотрите на активных пропавших[n]людей[e]
+[s]Посмотреть на активных пропавших[n]людей[e]
 ##-[s]Look at currently missing people[e]-##
-[s]Посмотрите на прошлых пропавших людей[e]
+[s]Посмотреть на прошлых пропавших людей[e]
 ##-[s]Look at past missing people[e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##

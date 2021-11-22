@@ -7,9 +7,9 @@
 [sel MIDNIGHT_SEL top]
 [s]Спать раньше[e]
 ##-[s]Sleep earlier[e]-##
-[s]Учись, а потом ложись спать[e]
+[s]Учиться, а потом ложись спать[e]
 ##-[s]Study, then go to sleep[e]-##
-[s]Покиньте свою комнату[e]
+[s]Покинуть свою комнату[e]
 ##-[s]Leave your room[e]-##
 
 [msg MYROOM_CONDITION_BAD_091]
@@ -185,81 +185,81 @@
 ##-[s]Don't buy anything[e]-##
 
 [sel TOILET_SEL top]
-[s]Иди в[e]
+[s]Идти в[e]
 ##-[s]Go in[e]-##
-[s]Не заходи внутрь[e]
+[s]Не заходить внутрь[e]
 ##-[s]Don't go in[e]-##
 
 [sel BEDIN_SEL top]
 [s]Спать[e]
 ##-[s]Sleep[e]-##
-[s]Не спи еще[e]
+[s]Не спать еще[e]
 ##-[s]Don't sleep yet[e]-##
 
 [sel BEDIN2_SEL top]
-[s]Поспи немного[e]
+[s]Поспать немного[e]
 ##-[s]Sleep for a while[e]-##
-[s]Не спи[e]
+[s]Не спать[e]
 ##-[s]Don't sleep[e]-##
 
 [sel BEDIN3_SEL top]
-[s]Спи до темноты[e]
+[s]Спать до темноты[e]
 ##-[s]Sleep until dark[e]-##
-[s]Не спи[e]
+[s]Не спать[e]
 ##-[s]Don't sleep[e]-##
 
 [sel DESK_SEL top]
-[s]Изучать[e]
+[s]Учиться[e]
 ##-[s]Study[e]-##
-[s]Играйте в MMORPG[e]
+[s]Играть в MMORPG[e]
 ##-[s]Play the MMORPG[e]-##
-[s]Сделай что-нибудь еще[e]
+[s]Сделать что-нибудь еще[e]
 ##-[s]Do something else[e]-##
 
 [sel DESK_SEL2 top]
 [s]Учиться до темноты[e]
 ##-[s]Study until dark[e]-##
-[s]Играйте в MMORPG до темноты[e]
+[s]Играть в MMORPG до темноты[e]
 ##-[s]Play the MMORPG until dark[e]-##
-[s]Сделай что-нибудь еще[e]
+[s]Сделать что-нибудь еще[e]
 ##-[s]Do something else[e]-##
 
 [sel DESK_STUDY_SEL top]
-[s]Проводите время за изучением[e]
+[s]Провести время за изучением[e]
 ##-[s]Spend time studying[e]-##
-[s]Сделай что-нибудь еще[e]
+[s]Сделать что-нибудь еще[e]
 ##-[s]Do something else[e]-##
 
 [sel DESK_STUDY_SEL2 top]
 [s]Учиться до темноты[e]
 ##-[s]Study until dark[e]-##
-[s]Не учись[e]
+[s]Не учиться[e]
 ##-[s]Don't study[e]-##
 
 [sel DESK_COMMU_SEL top]
-[s]Изучать[e]
+[s]Учиться[e]
 ##-[s]Study[e]-##
-[s]Играйте в MMORPG[e]
+[s]Играть в MMORPG[e]
 ##-[s]Play the MMORPG[e]-##
-[s]Проверьте рейтинг социальных связей[e]
+[s]Проверить рейтинг социальных связей[e]
 ##-[s]Check Social Link rank[e]-##
-[s]Сделай что-нибудь еще[e]
+[s]Сделать что-нибудь еще[e]
 ##-[s]Do something else[e]-##
 
 [sel DESK_COMMU_SEL2 top]
 [s]Учиться до темноты[e]
 ##-[s]Study until dark[e]-##
-[s]Играйте в MMORPG до темноты[e]
+[s]Играть в MMORPG до темноты[e]
 ##-[s]Play the MMORPG until dark[e]-##
-[s]Проверьте рейтинг социальных связей[e]
+[s]Провить рейтинг социальных связей[e]
 ##-[s]Check Social Link rank[e]-##
-[s]Сделай что-нибудь еще[e]
+[s]Сделать что-нибудь еще[e]
 ##-[s]Do something else[e]-##
 
 [sel GOOUT_SEL top]
 [s]Выйти[e]
 ##-[s]Go out[e]-##
-[s]Не выходи на улицу[e]
+[s]Не выходить на улицу[e]
 ##-[s]Don't go out[e]-##
 
 [msg TOILET_MENS]
@@ -335,7 +335,7 @@
 [msg TOIRE_GAKURYOKU]
 [s]> Вы чувствуете, что все еще могли бы быть[n]лучше в учебе...[n][w][e]
 ##-[s]> You feel like you could still be[n]better academically...[n][w][e]-##
-[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши ученые не[n]достаточно высоки...[n][w][e]
+[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши знание не[n]достаточно высоки...[n][w][e]
 ##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Academics are high enough...[n][w][e]-##
 [s]> Вы задаетесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
 ##-[s]> You wonder if you should study more...[n][w][e]-##
@@ -763,7 +763,7 @@
 ##-[s]> You should go to bed early...[n][w][e]-##
 
 [msg NIGHT_BED]
-[s]> Рано ложиться спать?[n][w][e]
+[s]> Рано лечь спать?[n][w][e]
 ##-[s]> Go to bed early?[n][w][e]-##
 
 [sel DORMITORY_SHOTCUTSEL top]

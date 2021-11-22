@@ -5,9 +5,9 @@
 ##-[s]No[e]-##
 
 [sel INTO_SEL top]
-[s]Входить[e]
+[s]Войти[e]
 ##-[s]Enter[e]-##
-[s]Не входи[e]
+[s]Не входить[e]
 ##-[s]Don't enter[e]-##
 
 [sel BOSS_SEL top]
@@ -213,17 +213,17 @@
 ##-[s]No[e]-##
 
 [sel ARBEIT_SEL top]
-[s]Работа неполный рабочий день[e]
+[s]Работать неполный рабочий день[e]
 ##-[s]Work part-time[e]-##
-[s]Не берите в голову[e]
+[s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
 
 [sel ARBEIT_02_SEL top]
-[s]Работа неполный рабочий день[e]
+[s]Работать неполный рабочий день[e]
 ##-[s]Work part-time[e]-##
-[s]Войдите в качестве клиента[e]
+[s]Войти в качестве клиента[e]
 ##-[s]Go in as a customer[e]-##
-[s]Не берите в голову[e]
+[s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
 
 [msg JIKANTUBUSI_TUTO]
@@ -509,7 +509,7 @@
 [sel VELVET_SEL_1 top]
 [s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_2 top]
@@ -517,25 +517,25 @@
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_3 top]
 [s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
-[s]Запросы на проверку/сборник[e]
+[s]Запросить на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_4 top]
 [s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
-[s]Запросы на проверку/сборник[e]
+[s]Запросить на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
-[s]Сходи на свидание с Элизабет[e]
+[s]Сходить на свидание с Элизабет[e]
 ##-[s]Go on a date with Elizabeth[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_5 top]
@@ -543,9 +543,9 @@
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
-[s]Сходи на свидание с Элизабет[e]
+[s]Сходить на свидание с Элизабет[e]
 ##-[s]Go on a date with Elizabeth[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [msg VELVET_ROOM [Элизабет]]
@@ -745,7 +745,7 @@
 [sel VEL_M_SEL_1 top]
 [s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_2 top]
@@ -753,25 +753,25 @@
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_3 top]
 [s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
-[s]Запросы на проверку/сборник[e]
+[s]Запросить на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_4 top]
 [s]Сливающиеся Персоны[e]
 ##-[s]Fuse Personas[e]-##
-[s]Запросы на проверку/сборник[e]
+[s]Запросить на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
-[s]Сходи на свидание с Тео[e]
+[s]Сходить на свидание с Тео[e]
 ##-[s]Go on a date with Тео[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_5 top]
@@ -779,9 +779,9 @@
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
-[s]Сходи на свидание с Тео[e]
+[s]Сходить на свидание с Тео[e]
 ##-[s]Go on a date with Тео[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [msg VEL_M_ROOM [Тео]]
@@ -1007,9 +1007,9 @@
 ##-[s]> It seems there is no one missing...[n][w][e]-##
 
 [sel POLICEBOARD_SEL top]
-[s]Посмотрите на пропавших в настоящее время[n]людей[e]
+[s]Посмотреть на пропавших в настоящее время[n]людей[e]
 ##-[s]Look at currently missing people[e]-##
-[s]Посмотрите на прошлых пропавших людей[e]
+[s]Посмотрть на прошлых пропавших людей[e]
 ##-[s]Look at past missing people[e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##

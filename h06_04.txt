@@ -1,7 +1,7 @@
 [sel LABORATORY_SEL top]
-[s]Входить[e]
+[s]Войти[e]
 ##-[s]Enter[e]-##
-[s]Не берите в голову[e]
+[s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
 
 [msg FIRE_EXIT]
@@ -103,17 +103,17 @@
 ##-[s]No[e]-##
 
 [sel INTO_SEL top]
-[s]Входить[e]
+[s]Войти[e]
 ##-[s]Enter[e]-##
 [s]Не входить[e]
 ##-[s]Don't enter[e]-##
 
 [sel BUKATU_NYUUBU_SEL top]
-[s]Присоединяйтесь к клубу[e]
+[s]Присоединиться к клубу[e]
 ##-[s]Join the club[e]-##
 [s]Наблюдать[e]
 ##-[s]Observe[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel SCHOOL_SHOTCUTSEL top]
@@ -269,7 +269,7 @@
 [msg TOIRE_GAKURYOKU]
 [s]> Вы чувствуете, что все еще могли бы быть[n]лучше в учебе...[n][w][e]
 ##-[s]> You feel like you could still be[n]better academically...[n][w][e]-##
-[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши ученые не[n]достаточно высоки...[n][w][e]
+[s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши знания не[n]достаточно высоки...[n][w][e]
 ##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Academics are high enough...[n][w][e]-##
 [s]> Вы задаетесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
 ##-[s]> You wonder if you should study more...[n][w][e]-##
@@ -393,17 +393,17 @@
 ##-[s]> Should you spend time after school[n]at the cooking club...?[n][w][e]-##
 
 [sel DOUKOUKAI_COMMU_SEL top]
-[s]Войдите в комнату Домоводства[e]
+[s]Войти в комнату Домоводства[e]
 ##-[s]Enter the Домоводства Room[e]-##
-[s]Проверьте Рейтинг социальной связи[e]
+[s]Проверить Рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
 
 [sel KATEIKA_COMMU_SEL top]
-[s]Проведите время в кулинарном клубе[e]
+[s]Провести время в кулинарном клубе[e]
 ##-[s]Spend time at the cooking club[e]-##
-[s]Проверьте Рейтинг социальной связи[e]
+[s]Проверить Рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -443,7 +443,7 @@
 ##-[s]> Would you like to enter?[n][w][e]-##
 
 [sel DOUKOU_KAIKIN_SEL top]
-[s]Входить[e]
+[s]Войти[e]
 ##-[s]Enter[e]-##
 [s]Не входи[e]
 ##-[s]Don't enter[e]-##
@@ -677,9 +677,9 @@
 ##-[s]> Would you like to attend[n][f 5 3 1]?[n][w][e]-##
 
 [sel BUNKABU_COMMU_SEL top]
-[s]Посещать [f 5 3 1][e]
+[s]Посетить [f 5 3 1][e]
 ##-[s]Attend [f 5 3 1][e]-##
-[s]Проверьте Рейтинг социальной связи[e]
+[s]Проверить Рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -743,7 +743,7 @@
 [msg SCR_MSG_SHOKUIN_NG [ ]]
 [s]> Это Учительская.[n][w][e]
 ##-[s]> It's the Faculty Office.[n][w][e]-##
-[s]> Было бы неразумно входить без веской[n]причины.[n][w][e]
+[s]> Было бы неразумно входить без всякой[n]причины.[n][w][e]
 ##-[s]> It wouldn't be wise to enter without[n]a good reason.[n][w][e]-##
 
 [msg SCR_MSG_MARCH_NETCOMMU [ ]]
@@ -755,7 +755,7 @@
 ##-[s]> Go inside?[n][w][e]-##
 
 [sel MARCH_NETCOMMU_SEL top]
-[s]Входить[e]
+[s]Войти[e]
 ##-[s]Enter[e]-##
 [s]Не входить[e]
 ##-[s]Don't enter[e]-##
@@ -769,13 +769,13 @@
 ##-[s]> Would you like to study here?[n][w][e]-##
 
 [sel TOSHO_JISHUU_SEL top]
-[s]Учись, прежде чем идти домой[e]
+[s]Учиться, прежде чем идти домой[e]
 ##-[s]Study before going home[e]-##
-[s]Не берите в голову[e]
+[s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
 
 [msg PARAM_MAX_NG]
-[s]> Ваши ученые уже высоко оценены.[n][w][e]
+[s]> Ваши знания уже высоко оценены.[n][w][e]
 ##-[s]> Your Academics are already ranked[n]highly.[n][w][e]-##
 
 [msg MARCH_TOSHO_MAX]
@@ -795,11 +795,11 @@
 ##-[s]> Should you perform your duties as a[n]member of the library committee...?[n][w][e]-##
 
 [sel TOSHO_COMMU_SEL top]
-[s]Выполнять обязанности библиотечного[n]комитета[e]
+[s]Выполнить обязанности библиотечного[n]комитета[e]
 ##-[s]Perform library committee duties[e]-##
-[s]Проверьте Рейтинг социальной связи[e]
+[s]Проверить Рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
-[s]Не берите в голову[e]
+[s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
 
 [msg TOSHO_COMMU_SURU]
@@ -823,9 +823,9 @@
 ##-[s]> Though you're feeling fine,[n]you might be able to take some[n]health lessons.[n][w][e]-##
 
 [sel HOKEN_HOSHU_SEL top]
-[s]Иди на урок[e]
+[s]Итди на урок[e]
 ##-[s]Go in for a lesson[e]-##
-[s]Заходите без всякой причины[e]
+[s]Зайти без всякой причины[e]
 ##-[s]Go in for no reason[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -847,11 +847,11 @@
 ##-[s]> Should you perform your duties as a[n]member of the health committee...?[n][w][e]-##
 
 [sel HOKEN_COMMU_SEL top]
-[s]Выполнять обязанности комитета по[n]здравоохранению[e]
+[s]Выполнить обязанности комитета по[n]здравоохранению[e]
 ##-[s]Perform health committee duties[e]-##
-[s]Проверьте Рейтинг социальной связи[e]
+[s]Проверить Рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
-[s]Не берите в голову[e]
+[s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
 
 [msg HOKEN_COMMU_SURU]

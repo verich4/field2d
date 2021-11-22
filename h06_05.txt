@@ -31,17 +31,17 @@
 ##-[s]No[e]-##
 
 [sel INTO_SEL top]
-[s]Входить[e]
+[s]Войти[e]
 ##-[s]Enter[e]-##
 [s]Не входить[e]
 ##-[s]Don't enter[e]-##
 
 [sel BUKATU_NYUUBU_SEL top]
-[s]Присоединяйтесь к клубу[e]
+[s]Присоединиться к клубу[e]
 ##-[s]Join the club[e]-##
 [s]Наблюдать[e]
 ##-[s]Observe[e]-##
-[s]Покинуть[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel SCHOOL_SHOTCUTSEL top]
@@ -171,7 +171,7 @@
 ##-[s]> It seems that Mitsuru will reward you[n]if you do well on them...[n][w][e]-##
 
 [msg TOIRE_TUUHAN]
-[s]> Вы помните, что есть телевизионная[n]программа покупок, которая показывается по[n]воскресеньям днем...[n][w][e]
+[s]> Вы помните, что есть телевизионная[n]программа покупок, которую показывают по[n]воскресеньям днем...[n][w][e]
 ##-[s]> You recall that there's a TV shopping[n]program that shows on Sunday afternoons...[n][w][e]-##
 [s]> Какой продукт они могли бы предложить в[n]следующий раз...?[n][w][e]
 ##-[s]> What product could they be offering[n]next...?[n][w][e]-##
@@ -269,9 +269,9 @@
 ##-[s]> Would you like to spend some time[n]after school in the Student Council[n]Room?[n][w][e]-##
 
 [sel SEITOKAI_COMMU_SEL top]
-[s]Посещать Студенческий совет[e]
+[s]Посетить Студенческий совет[e]
 ##-[s]Attend Student Council[e]-##
-[s]Проверьте рейтинг социальных связей[e]
+[s]Проверить рейтинг социальных связей[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -321,17 +321,17 @@
 ##-[s]> Should you spend time after school[n]at the cooking club...?[n][w][e]-##
 
 [sel DOUKOUKAI_COMMU_SEL top]
-[s]Войдите в комнату домоводства[e]
+[s]Войдете в комнату домоводства[e]
 ##-[s]Enter the Home Ec Room[e]-##
-[s]Проверьте рейтинг социальных связей[e]
+[s]Проверить рейтинг социальных связей[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
 
 [sel KATEIKA_COMMU_SEL top]
-[s]Проведите время в кулинарном клубе[e]
+[s]Провести время в кулинарном клубе[e]
 ##-[s]Spend time at the cooking club[e]-##
-[s]Проверьте рейтинг социальных связей[e]
+[s]Проверить рейтинг социальных связей[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -371,7 +371,7 @@
 ##-[s]> Would you like to enter?[n][w][e]-##
 
 [sel DOUKOU_KAIKIN_SEL top]
-[s]Входить[e]
+[s]Войти[e]
 ##-[s]Enter[e]-##
 [s]Не входить[e]
 ##-[s]Don't enter[e]-##
@@ -405,7 +405,7 @@
 [sel TAIIKUKAI_COMMU_SEL top]
 [s]Идти на [f 5 3 0] практику[e]
 ##-[s]Go to [f 5 3 0] practice[e]-##
-[s]Проверьте рейтинг социальных связей[e]
+[s]Проверить рейтинг социальных связей[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -429,7 +429,7 @@
 [msg SCR_MSG_GROUND_1ST]
 [s]> Эта дверь ведет наружу, туда, где[n]тренируется Легкоатлетическая команда.[n][w][e]
 ##-[s]> This door leads outside to where[n]the Track Team is practicing.[n][w][e]-##
-[s]> Там есть записка, в которой говорится:[n]"Команда трека - набор новых участников![n]Никаких тормозов, пожалуйста!"[n][w][e]
+[s]> Там есть записка, в которой говорится:[n]"Команда легкой атлетики - набор новых участников![n]Никаких тормозов, пожалуйста!"[n][w][e]
 ##-[s]> There's a note that says,[n]"Track Team - recruiting new members![n]No slowpokes, please!"[n][w][e]-##
 [s]> Хотели бы вы присоединиться?[n][w][e]
 ##-[s]> Would you like to join?[n][w][e]-##
@@ -605,9 +605,9 @@
 ##-[s]> Would you like to attend[n][f 5 3 1]?[n][w][e]-##
 
 [sel BUNKABU_COMMU_SEL top]
-[s]Посещать [f 5 3 1][e]
+[s]Посетить [f 5 3 1][e]
 ##-[s]Attend [f 5 3 1][e]-##
-[s]Проверьте рейтинг социальных связей[e]
+[s]Проверить рейтинг социальных связей[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -671,7 +671,7 @@
 [msg SCR_MSG_SHOKUIN_NG [ ]]
 [s]> Это учительская.[n][w][e]
 ##-[s]> It's the Faculty Office.[n][w][e]-##
-[s]> Было бы неразумно входить без веской[n]причины.[n][w][e]
+[s]> Было бы неразумно входить без всякой[n]причины.[n][w][e]
 ##-[s]> It wouldn't be wise to enter without[n]a good reason.[n][w][e]-##
 
 [msg SCR_MSG_MARCH_NETCOMMU [ ]]
@@ -683,7 +683,7 @@
 ##-[s]> Go inside?[n][w][e]-##
 
 [sel MARCH_NETCOMMU_SEL top]
-[s]Входить[e]
+[s]Войти[e]
 ##-[s]Enter[e]-##
 [s]Не входить[e]
 ##-[s]Don't enter[e]-##
@@ -697,7 +697,7 @@
 ##-[s]> Would you like to study here?[n][w][e]-##
 
 [sel TOSHO_JISHUU_SEL top]
-[s]Учись, прежде чем идти домой[e]
+[s]Учиться, прежде чем идти домой[e]
 ##-[s]Study before going home[e]-##
 [s]Не берите в голову[e]
 ##-[s]Never mind[e]-##
@@ -723,11 +723,11 @@
 ##-[s]> Should you perform your duties as a[n]member of the library committee...?[n][w][e]-##
 
 [sel TOSHO_COMMU_SEL top]
-[s]Выполнять обязанности библиотечного[n]комитета[e]
+[s]Выполнить обязанности библиотечного[n]комитета[e]
 ##-[s]Perform library committee duties[e]-##
-[s]Проверьте рейтинг социальных связей[e]
+[s]Проверить рейтинг социальных связей[e]
 ##-[s]Check Social Link rank[e]-##
-[s]Не берите в голову[e]
+[s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
 
 [msg TOSHO_COMMU_SURU]
@@ -751,7 +751,7 @@
 ##-[s]> Though you're feeling fine,[n]you might be able to take some[n]health lessons.[n][w][e]-##
 
 [sel HOKEN_HOSHU_SEL top]
-[s]Иди на урок[e]
+[s]Идти на урок[e]
 ##-[s]Go in for a lesson[e]-##
 [s]Заходите без всякой причины[e]
 ##-[s]Go in for no reason[e]-##
@@ -775,11 +775,11 @@
 ##-[s]> Should you perform your duties as a[n]member of the health committee...?[n][w][e]-##
 
 [sel HOKEN_COMMU_SEL top]
-[s]Выполнять обязанности комитета по[n]здравоохранению[e]
+[s]Выполнить обязанности комитета по[n]здравоохранению[e]
 ##-[s]Perform health committee duties[e]-##
-[s]Проверьте рейтинг социальных связей[e]
+[s]Проверить рейтинг социальных связей[e]
 ##-[s]Check Social Link rank[e]-##
-[s]Не берите в голову[e]
+[s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
 
 [msg HOKEN_COMMU_SURU]

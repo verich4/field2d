@@ -15,17 +15,17 @@
 ##-[s]No[e]-##
 
 [sel ARBEIT_SEL top]
-[s]Работа неполный рабочий день[e]
+[s]Работать неполный рабочий день[e]
 ##-[s]Work part-time[e]-##
-[s]Не берите в голову[e]
+[s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
 
 [sel ARBEIT_02_SEL top]
-[s]Работа неполный рабочий день[e]
+[s]Работать неполный рабочий день[e]
 ##-[s]Work part-time[e]-##
-[s]Войдите в качестве клиента[e]
+[s]Войти в качестве клиента[e]
 ##-[s]Go in as a customer[e]-##
-[s]Не берите в голову[e]
+[s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
 
 [msg JIKANTUBUSI_TUTO]
@@ -75,7 +75,7 @@
 ##-[s]Print Club - 1,500 yen[e]-##
 [s]Боксерская груша - 2000 иен[e]
 ##-[s]Punching Bag - 2,000 yen[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel GAMEC_CHOICE_SEL02 top]
@@ -83,7 +83,7 @@
 ##-[s]Horror House - 3,000 yen[e]-##
 [s]Ловцы кротов - 2000 иен[e]
 ##-[s]Mole Whackers - 2,000 yen[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel GAMEC_CHOICE_SEL03 top]
@@ -91,7 +91,7 @@
 ##-[s]Quiz Game - 3,000 yen[e]-##
 [s]Счастливая удача - 2000 иен[e]
 ##-[s]Lucky Fortune - 2,000 yen[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel GAMEC_CHOICE_SEL04 top]
@@ -101,7 +101,7 @@
 ##-[s]Mole Whackers - 2,000 yen[e]-##
 [s]Счастливая удача - 2000 иен[e]
 ##-[s]Lucky Fortune - 2,000 yen[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [msg GAMEC_END_01]
@@ -311,7 +311,7 @@
 [sel VELVET_SEL_1 top]
 [s]Сливающиеся Персонажи[e]
 ##-[s]Fuse Personas[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_2 top]
@@ -319,25 +319,25 @@
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_3 top]
 [s]Сливающиеся Персонажи[e]
 ##-[s]Fuse Personas[e]-##
-[s]Запросы на проверку/сборник[e]
+[s]Запросить на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_4 top]
 [s]Сливающиеся Персонажи[e]
 ##-[s]Fuse Personas[e]-##
-[s]Запросы на проверку/сборник[e]
+[s]Запросить на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
-[s]Сходи на свидание с Элизабет[e]
+[s]Сходить на свидание с Элизабет[e]
 ##-[s]Go on a date with Elizabeth[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VELVET_SEL_5 top]
@@ -345,9 +345,9 @@
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
-[s]Сходи на свидание с Элизабет[e]
+[s]Сходить на свидание с Элизабет[e]
 ##-[s]Go on a date with Elizabeth[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [msg VELVET_ROOM [Элизабет]]
@@ -547,7 +547,7 @@
 [sel VEL_M_SEL_1 top]
 [s]Сливающиеся Персонажи[e]
 ##-[s]Fuse Personas[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_2 top]
@@ -555,25 +555,25 @@
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_3 top]
 [s]Сливающиеся Персонажи[e]
 ##-[s]Fuse Personas[e]-##
-[s]Запросы на проверку/сборник[e]
+[s]Запросить на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_4 top]
 [s]Сливающиеся Персонажи[e]
 ##-[s]Fuse Personas[e]-##
-[s]Запросы на проверку/сборник[e]
+[s]Запросить на проверку/сборник[e]
 ##-[s]Check requests/compendium[e]-##
-[s]Сходи на свидание с Тео[e]
+[s]Сходить на свидание с Тео[e]
 ##-[s]Go on a date with Theo[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel VEL_M_SEL_5 top]
@@ -581,9 +581,9 @@
 ##-[s]Fuse Personas[e]-##
 [s]Принять запрос[e]
 ##-[s]Accept request[e]-##
-[s]Сходи на свидание с Тео[e]
+[s]Сходить на свидание с Тео[e]
 ##-[s]Go on a date with Theo[e]-##
-[s]Покидать[e]
+[s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [msg VEL_M_ROOM [Тео]]
@@ -809,11 +809,11 @@
 ##-[s]> It seems there is no one missing...[n][w][e]-##
 
 [sel POLICEBOARD_SEL top]
-[s]Посмотрите на пропавших в настоящее время[n]людей[e]
+[s]Посмотреть на пропавших в настоящее время[n]людей[e]
 ##-[s]Look at currently missing people[e]-##
-[s]Посмотрите на прошлых пропавших людей[e]
+[s]Посмотреть на прошлых пропавших людей[e]
 ##-[s]Look at past missing people[e]-##
-[s]Отменить[e]
+[s]Уйти[e]
 ##-[s]Cancel[e]-##
 
 [msg SISSOUTYU_NONE]
