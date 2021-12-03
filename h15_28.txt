@@ -277,15 +277,15 @@
 [sel PARTY_FORM_SEL top]
 [s]Распустить группу[e]
 ##-[s]Disassemble party[e]-##
-[s]Заменяемые участники[e]
+[s]Замененить участников[e]
 ##-[s]Заменяемые участники[e]-##
-[s]Открытая дверь[e]
+[s]Открыть дверь[e]
 ##-[s]Open door[e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
 
 [sel PARA_DOOR_SEL top]
-[s]Открытая дверь[e]
+[s]Открыть дверь[e]
 ##-[s]Open door[e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
@@ -307,23 +307,23 @@
 ##-[s]Add Mitsuru Kirijo[e]-##
 [s]Исключить Мицуру Киридзе[e]
 ##-[s]Subtract Mitsuru Kirijo[e]-##
-[s]Добавить Aigis [e]
+[s]Добавить Айгис [e]
 ##-[s]Add Aigis [e]-##
-[s]Исключить Aigis[e]
+[s]Исключить Айгис[e]
 ##-[s]Subtract Aigis[e]-##
 [s]Добавить Кена Амаду[e]
 ##-[s]Add Ken Amada[e]-##
 [s]Исключить Кена Амаду[e]
 ##-[s]Subtract Ken Amada[e]-##
-[s]Добавить Синдзиро Арагаки [e]
+[s]Добавить Синдзиро Арагаки[e]
 ##-[s]Add Shinjiro Aragaki [e]-##
 [s]Исключить Синдзиро Арагаки[e]
 ##-[s]Subtract Shinjiro Aragaki[e]-##
-[s]Добавить Коромару [e]
+[s]Добавить Коромару[e]
 ##-[s]Add Koromaru [e]-##
-[s]Вычесть Коромару[e]
+[s]Исключить Коромару[e]
 ##-[s]Subtract Koromaru[e]-##
-[s]Следующий[e]
+[s]Далее[e]
 ##-[s]Next[e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
@@ -335,7 +335,7 @@
 [sel DEBUG_MODE_SEL_01 top]
 [s]Установить флаги[e]
 ##-[s]Set flags[e]-##
-[s]Заменяемые участники[e]
+[s]Замененить участников[e]
 ##-[s]Заменяемые участники[e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
@@ -367,7 +367,7 @@
 ##-[s]Add Aragaki[e]-##
 [s]Добавить Коромару[e]
 ##-[s]Add Koromaru[e]-##
-[s]Следующий[e]
+[s]Далее[e]
 ##-[s]Next[e]-##
 [s]Отменить[e]
 ##-[s]Cancel[e]-##

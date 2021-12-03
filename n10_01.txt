@@ -119,11 +119,11 @@
 [msg MSG_NPC000_FST [Леди из Цветочного магазина]]
 [s]Добро пожаловать в Раффлезию.[n][w][e]
 ##-[s]Welcome to Rafflesia.[n][w][e]-##
-[s]Какие цветы вы ищете сегодня?        [n](Деньги: [clr 1][f 2 4 2] иена[clr 0])[n][w][e]
+[s]Какие цветы вы ищете сегодня?        [n](Деньги: [clr 1][f 2 4 2] йен[clr 0])[n][w][e]
 ##-[s]What kind of flowers are you[n]looking for today?[n]        (Money: [clr 1][f 2 4 2] yen[clr 0])[n][w][e]-##
 
 [msg MSG_NPC000_FST2 [Леди из Цветочного магазина]]
-[s]Хотите другой вид цветов?         (Деньги: [clr 1][f 2 4 2][n]иена[clr 0])[n][w][e]
+[s]Хотите другой вид цветов?         (Деньги: [clr 1][f 2 4 2][n]йен[clr 0])[n][w][e]
 ##-[s]Would you like another type[n]of flower?[n]        (Money: [clr 1][f 2 4 2] yen[clr 0])[n][w][e]-##
 
 [msg MSG_NPC000_2ND [柿蔚йЖ患Сん]]
@@ -149,7 +149,7 @@
 ##-[s]Never mind[e]-##
 
 [msg MSG_NPC000_FLOWER [Леди из Цветочного магазина]]
-[s]Это будет [f 2 4 1] иена для [f 2 5 3 13 0].[n][w][e]
+[s]Это будет [f 2 4 1] йен для [f 2 5 3 13 0].[n][w][e]
 ##-[s]It'll be [f 2 4 1] yen for [f 2 5 3 13 0].[n][w][e]-##
 
 [sel MSG_NPC000_YESNO top]

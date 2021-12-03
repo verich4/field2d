@@ -123,23 +123,23 @@
 ##-[s]The tower seems to have a number of[n]these interspersed amongst its floors.[n][w][e]-##
 [s]Я знаю, что говорила вам, что планировка[n]меняется каждый день, но эти барьеры,[n]похоже, находятся в фиксированных местах.[n][w][e]
 ##-[s]I know I told you that the layout changes[n]each day, but these barriers seem to be[n]in fixed locations.[n][w][e]-##
-[s]Поэтому я бы хотел, чтобы вы попытались[n]добраться до первой баррикады.[n][w][e]
+[s]Поэтому я бы хотела, чтобы вы попытались[n]добраться до первой баррикады.[n][w][e]
 ##-[s]Therefore, I'd like you to try and reach[n]the first barricade.[n][w][e]-##
-[s]Но не дави на себя слишком сильно.[n][w][e]
+[s]Но не перенапрягайтесь.[n][w][e]
 ##-[s]But don't push yourself too hard.[n][w][e]-##
-[s]Если вы вернетесь от входа,[n][clr 2]вы сможете возобновить работу с самого[n]верхнего этажа, на который вы ранее[n]поднялись[clr 0].[n][w][e]
+[s]Если вы вернетесь ко входу,[n][clr 2]вы сможете начать с самого[n]верхнего этажа, на который вы[n]поднялись[clr 0].[n][w][e]
 ##-[s]If you go back in from the entrance,[n][clr 2]you'll be able to resume from the[n]highest floor you previously reached[clr 0].[n][w][e]-##
-[s]Я дам тебе это тоже, на всякий случай.[n][w][e]
+[s]Я дам вам это на всякий случай.[n][w][e]
 ##-[s]I'll give you these too, just in case.[n][w][e]-##
-[s][f 4 7 0 0 0]> Вы получили [f 2 5 3 65535 0] x[f 2 4 1]. > Вы получили [f 2 5 3 65535 2] x[f 2 4 3].[n][f 1 4][e]
+[s][f 4 7 0 0 0]> Вы получили [f 2 5 3 65535 0] x[f 2 4 1].[n]> Вы получили [f 2 5 3 65535 2] x[f 2 4 3].[n][f 1 4][e]
 ##-[s][f 4 7 0 0 0]> You received [f 2 5 3 65535 0] x[f 2 4 1].[n]> You received [f 2 5 3 65535 2] x[f 2 4 3].[n][f 1 4][e]-##
-[s]> Вы получили [f 2 5 3 65535 4] x[f 2 4 5]. > Вы получили [f 2 5 3 65535 6] x[f 2 4 7].[n][f 1 4][e]
+[s]> Вы получили [f 2 5 3 65535 4] x[f 2 4 5].[n]> Вы получили [f 2 5 3 65535 6] x[f 2 4 7].[n][f 1 4][e]
 ##-[s]> You received [f 2 5 3 65535 4] x[f 2 4 5].[n]> You received [f 2 5 3 65535 6] x[f 2 4 7].[n][f 1 4][e]-##
 [s]> Вы получили [f 2 5 3 65535 8] x[f 2 4 9].[n][f 1 4][e]
 ##-[s]> You received [f 2 5 3 65535 8] x[f 2 4 9].[n][f 1 4][e]-##
-[s][bup 4 201 0 0]Если вы столкнетесь с опасностью, не[n]стесняйтесь использовать их.[n][w][e]
+[s][bup 4 201 0 0]Если вы будете в опасности, не[n]стесняйтесь использовать их.[n][w][e]
 ##-[s][bup 4 201 0 0]If you run into danger, don't hesitate[n]to use them.[n][w][e]-##
-[s]Я рассчитываю на тебя.[n][w][e]
+[s]Я рассчитываю на вас.[n][w][e]
 ##-[s]I'm counting on you.[n][w][e]-##
 
 [msg ADVICE_MITSURU_MAY [Мицури]]
@@ -189,7 +189,7 @@
 ##-[s]> The party's HP and SP has[n]been recovered![n][w][e]-##
 
 [msg HEAL_REQUIRE]
-[s]> Исцеление будет стоить [clr 1][f 2 4 0] иен[clr 0]. Исцелить?[n](Несущий: [clr 1][f 2 4 1] иен[clr 0])[n][w][e]
+[s]> Исцеление будет стоить [clr 1][f 2 4 0] йен[clr 0]. Исцелить?[n](Несущий: [clr 1][f 2 4 1] йен[clr 0])[n][w][e]
 ##-[s]> Healing will cost [clr 1][f 2 4 0] yen[clr 0].[n]Heal? (Carrying: [clr 1][f 2 4 1] yen[clr 0])[n][w][e]-##
 
 [msg HEAL_NOMONEY]

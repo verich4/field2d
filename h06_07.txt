@@ -202,13 +202,13 @@
 [s]Пйメッセージк謁гХ。 亥ёБГж。[n][w][e]
 ##-[s]Пйメッセージк謁гХ。[n]亥わёБよГж。[n][w][e]-##
 
-[sel YESNO_SEL_2 top]
+[sel YESNO_SEL top]
 [s]Да[e]
 ##-[s]Yes[e]-##
 [s]Нет[e]
 ##-[s]No[e]-##
 
-[sel INTO_SEL_2 top]
+[sel INTO_SEL top]
 [s]Войти[e]
 ##-[s]Enter[e]-##
 [s]Не входить[e]
@@ -377,7 +377,7 @@
 ##-[s]> You feel like you could still be[n]better academically...[n][w][e]-##
 [s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши знание не[n]достаточно высоки...[n][w][e]
 ##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Academics are high enough...[n][w][e]-##
-[s]> Вы задаетесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
+[s]> Вы задаётесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
 ##-[s]> You wonder if you should study more...[n][w][e]-##
 
 [msg TOIRE_MIRYOKU]
@@ -409,7 +409,7 @@
 ##-[s]> You feel that you'll be able to[n]fight wonderfully...[n][w][e]-##
 
 [msg TOIRE_IRAI]
-[s]> Вы задаетесь вопросом, есть ли какие-либо[n]просьбы, которые вы могли бы принять в[n]Бархатной комнате...[n][w][e]
+[s]> Вы задаётесь вопросом, есть ли какие-либо[n]просьбы, которые вы могли бы принять в[n]Бархатной комнате...[n][w][e]
 ##-[s]> You wonder if there are any requests[n]you could accept in the Velvet Room...[n][w][e]-##
 
 [msg TOIRE_SISSOU]
@@ -427,7 +427,7 @@
 ##-[s]> You need to hurry and go to the[n]faculty office...[n][w][e]-##
 
 [msg SCR_MSG_SIKENMAE_NG]
-[s]> Она заперта. Вы задаетесь вопросом, не[n]из-за экзаменов ли это...[n][w][e]
+[s]> Она заперта. Вы задаётесь вопросом, не[n]из-за экзаменов ли это...[n][w][e]
 ##-[s]> It's locked. You wonder if it's[n]because of exams...[n][w][e]-##
 
 [msg SCR_MSG_ENDING_NG]
@@ -468,7 +468,7 @@
 [s]> Вы должны поговорить с [clr 2]Г-жа Ториуми[clr 0] [n]присоединиться.[n][w][e]
 ##-[s]> You must speak to [clr 2]Ms. Toriumi[clr 0] [n]to join.[n][w][e]-##
 
-[msg STUDENT_COUNCIL_2]
+[msg STUDENT_COUNCIL]
 [s]> Комната заперта.[n][w][e]
 ##-[s]> The room is locked.[n][w][e]-##
 
@@ -846,7 +846,7 @@
 [s]> Там есть записка, в которой говорится:[n]"Извините, но Художественный клуб больше не[n]принимает новых членов".[n][w][e]
 ##-[s]> There's a note that says, "Sorry,[n]but the Art Club is no longer[n]accepting new members."[n][w][e]-##
 
-[msg SCR_MSG_SHOKUIN_NG_2 [ ]]
+[msg SCR_MSG_SHOKUIN_NG [ ]]
 [s]> Это учительская.[n][w][e]
 ##-[s]> It's the faculty office.[n][w][e]-##
 [s]> Было бы неразумно входить без всякой[n]причины.[n][w][e]
@@ -866,7 +866,7 @@
 [s]Не входить[e]
 ##-[s]Don't enter[e]-##
 
-[msg SCR_MSG_TOSHOSITU_HAIRU_2]
+[msg SCR_MSG_TOSHOSITU_HAIRU]
 [s]> Это библиотека.[n][w][e]
 ##-[s]> It's the library.[n][w][e]-##
 

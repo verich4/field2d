@@ -117,7 +117,7 @@
 ##-[s][bup 5 1 65535 0]Dude, this place doesn't open until[n]later...[n][w][e]-##
 
 [msg GOODBYE_JUNPEI [Джунпей]]
-[s][bup 5 1 65535 0]Тссс, всего 5000 иен...[n][w][e]
+[s][bup 5 1 65535 0]Тссс, всего 5000 йен...[n][w][e]
 ##-[s][bup 5 1 65535 0]Pshh, only 5,000 yen...[n][w][e]-##
 [s]Я собираюсь уйти, так как сейчас у меня[n]плохое настроение...[n][w][e]
 ##-[s]I'm gonna take off, since I'm in[n]a bad mood now...[n][w][e]-##
@@ -206,7 +206,7 @@
 [s]Пйメッセージк謁гХ。 亥ёБГж。[n][w][e]
 ##-[s]Пйメッセージк謁гХ。[n]亥わёБよГж。[n][w][e]-##
 
-[sel YESNO_SEL_2 top]
+[sel YESNO_SEL top]
 [s]Да[e]
 ##-[s]Yes[e]-##
 [s]Нет[e]
@@ -250,7 +250,7 @@
 [s]> Вы решаете вернуться в общежитие.[n][w][e]
 ##-[s]> You decide to go back to the dorm.[n][w][e]-##
 
-[msg CDSHOP_SETUMEI_2]
+[msg CDSHOP_SETUMEI]
 [s]> Записи мощности...[n][w][e]
 ##-[s]> Power Records...[n][w][e]-##
 [s]> В магазине продается разнообразная[n]музыка.[n][w][e]
@@ -269,35 +269,35 @@
 ##-[s]> Right now, the games available[n]to play are...[n][w][e]-##
 
 [sel GAMEC_CHOICE_SEL01 top]
-[s]Печатный клуб - 1500 иен[e]
+[s]Печатный клуб - 1500 йен[e]
 ##-[s]Print Club - 1,500 yen[e]-##
-[s]Боксерская груша - 2000 иен[e]
+[s]Боксерская груша - 2000 йен[e]
 ##-[s]Punching Bag - 2,000 yen[e]-##
 [s]Покидать[e]
 ##-[s]Leave[e]-##
 
 [sel GAMEC_CHOICE_SEL02 top]
-[s]Дом ужасов - 3000 иен[e]
+[s]Дом ужасов - 3000 йен[e]
 ##-[s]Horror House - 3,000 yen[e]-##
-[s]Ловцы кротов - 2000 иен[e]
+[s]Ловцы кротов - 2000 йен[e]
 ##-[s]Mole Whackers - 2,000 yen[e]-##
 [s]Покидать[e]
 ##-[s]Leave[e]-##
 
 [sel GAMEC_CHOICE_SEL03 top]
-[s]Игра-викторина - 3000 иен[e]
+[s]Игра-викторина - 3000 йен[e]
 ##-[s]Quiz Game - 3,000 yen[e]-##
-[s]Счастливая удача - 2000 иен[e]
+[s]Счастливая удача - 2000 йен[e]
 ##-[s]Lucky Fortune - 2,000 yen[e]-##
 [s]Покидать[e]
 ##-[s]Leave[e]-##
 
 [sel GAMEC_CHOICE_SEL04 top]
-[s]Боксерская груша - 2000 иен[e]
+[s]Боксерская груша - 2000 йен[e]
 ##-[s]Punching Bag - 2,000 yen[e]-##
-[s]Ловцы кротов - 2000 иен[e]
+[s]Ловцы кротов - 2000 йен[e]
 ##-[s]Mole Whackers - 2,000 yen[e]-##
-[s]Счастливая удача - 2000 иен[e]
+[s]Счастливая удача - 2000 йен[e]
 ##-[s]Lucky Fortune - 2,000 yen[e]-##
 [s]Покидать[e]
 ##-[s]Leave[e]-##
@@ -403,7 +403,7 @@
 ##-[s]> It's a crane game.[n][w][e]-##
 [s]> Одним из призов является [f 4 4 3 0 1372].[n][w][e]
 ##-[s]> One of the prizes is a [f 4 4 3 0 1372].[n][w][e]-##
-[s]> Игра стоит 200 иен. Не могли бы вы[n]попробовать?            (Деньги: [clr 1][f 2 4 1] иена[clr 0])[n][w][e]
+[s]> Игра стоит 200 йен. Не могли бы вы[n]попробовать?            (Деньги: [clr 1][f 2 4 1] йен[clr 0])[n][w][e]
 ##-[s]> It costs 200 yen to play. Will you[n]give it a try?[n]           (Money: [clr 1][f 2 4 1] yen[clr 0])[n][w][e]-##
 
 [msg UFO_CATHER_02]
@@ -411,7 +411,7 @@
 ##-[s]> It's a crane game.[n][w][e]-##
 [s]> Одним из призов является [f 4 4 3 0 1375].[n][w][e]
 ##-[s]> One of the prizes is a [f 4 4 3 0 1375].[n][w][e]-##
-[s]> Игра стоит 200 иен. Не могли бы вы[n]попробовать?            (Деньги: [clr 1][f 2 4 1] иена[clr 0])[n][w][e]
+[s]> Игра стоит 200 йен. Не могли бы вы[n]попробовать?            (Деньги: [clr 1][f 2 4 1] йен[clr 0])[n][w][e]
 ##-[s]> It costs 200 yen to play. Will you[n]give it a try?[n]           (Money: [clr 1][f 2 4 1] yen[clr 0])[n][w][e]-##
 
 [msg UFO_CATHER_CONTINUE]
@@ -449,7 +449,7 @@
 ##-[s]> Mandragora...[n][w][e]-##
 
 [msg KARAOKE_MENU [Меню]]
-[s]"Соло в караоке - 800 иен"[n][w][e]
+[s]"Соло в караоке - 800 йен[n][w][e]
 ##-[s]"Karaoke Solo - 800 yen"[n][w][e]-##
 [s]"Не стесняйся... Затяни его ремнем!"[n][w][e]
 ##-[s]"Don't be shy... Belt it out!"[n][w][e]-##
@@ -927,7 +927,7 @@
 ##-[s]> Chagall Cafe...[n][w][e]-##
 
 [msg COFFEE_MENU [Меню]]
-[s]"Кофе с феромонами - 500 иен"[n][w][e]
+[s]"Кофе с феромонами - 500 йен[n][w][e]
 ##-[s]"Pheromone Coffee - 500 yen"[n][w][e]-##
 [s]"Очаровательный аромат, который включит[n]ваше очарование".[n][w][e]
 ##-[s]"A charming flavor that will turn on[n]your charm."[n][w][e]-##
@@ -1031,7 +1031,7 @@
 ##-[s]> Obtained [f 2 4 1] [f 2 5 3 13 0].[n][w][e]-##
 
 [msg SISSOU_MONEY [ ]]
-[s]> Получено [f 2 4 0] иена.[n][w][e]
+[s]> Получено [f 2 4 0] йен.[n][w][e]
 ##-[s]> Obtained [f 2 4 0] yen.[n][w][e]-##
 
 [msg SISSOU_MAIKO_MAX [Офицер Куросава]]
@@ -1049,7 +1049,7 @@
 ##-[s]> Healing Shop, Be Blue V...[n][w][e]-##
 
 [msg ACCE_MENU [Меню]]
-[s]Наша специальная программа стоимостью 3000[n]иен отправит вас на небеса![n][w][e]
+[s]Наша специальная программа стоимостью 3000[n]йен отправит вас на небеса![n][w][e]
 ##-[s]Our special 3,000-yen program will[n]send you to heaven![n][w][e]-##
 [s]Любой "Уставший" почувствует себя лучше, и[n]любой, с кем все в порядке, будет[n]чувствовать себя "Отлично"![n][w][e]
 ##-[s]Anyone "Tired" will feel better, and[n]anyone all right will feel "Great"![n][w][e]-##

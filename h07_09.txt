@@ -54,7 +54,7 @@
 [s]Куда ты пойдешь?[n][w][e]
 ##-[s]Where will you go?[n][w][e]-##
 
-[sel YESNO_SEL_2 top]
+[sel YESNO_SEL top]
 [s]Да[e]
 ##-[s]Yes[e]-##
 [s]Нет[e]
@@ -223,7 +223,7 @@
 ##-[s]> You feel like you could still be[n]better academically...[n][w][e]-##
 [s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши знания не[n]достаточно высоки...[n][w][e]
 ##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Academics are high enough...[n][w][e]-##
-[s]> Вы задаетесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
+[s]> Вы задаётесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
 ##-[s]> You wonder if you should study more...[n][w][e]-##
 
 [msg TOIRE_MIRYOKU]
@@ -255,7 +255,7 @@
 ##-[s]> You feel that you'll be able to[n]fight wonderfully...[n][w][e]-##
 
 [msg TOIRE_IRAI]
-[s]> Вы задаетесь вопросом, есть ли какие-либо[n]просьбы, которые вы могли бы принять в[n]Бархатной комнате...[n][w][e]
+[s]> Вы задаётесь вопросом, есть ли какие-либо[n]просьбы, которые вы могли бы принять в[n]Бархатной комнате...[n][w][e]
 ##-[s]> You wonder if there are any requests[n]you could accept in the Velvet Room...[n][w][e]-##
 
 [msg TOIRE_SISSOU]
@@ -277,7 +277,7 @@
 ##-[s]> Buy something to drink?[n][w][e]-##
 
 [msg VENDOR_MONEY_IN]
-[s]> Вы вставили 120 иен.[n][w][e]
+[s]> Вы вставили 120 йен.[n][w][e]
 ##-[s]> You inserted 120 yen.[n][w][e]-##
 
 [msg VENDOR_BUY_END]
@@ -441,7 +441,7 @@
 ##-[s]But wait![n][w][e]-##
 [s]Мы также предоставим набор из четырех[n]"Рюкзаков, защищенных от стихийных[n]бедствий"! Итак, сколько бы вы заплатили?[n][w][e]
 ##-[s]We'll also provide a set of four[n]"Disaster-Proof Backpacks"! Now,[n]how much would you pay?[n][w][e]-##
-[s]Вы можете быть удивлены, узнав, что это[n]всего 29 800 иен! Ждите апокалипсиса без[n]забот![n][w][e]
+[s]Вы можете быть удивлены, узнав, что это[n]всего 29 800 йен! Ждите апокалипсиса без[n]забот![n][w][e]
 ##-[s]You may be surprised to learn that[n]it's only 29,800 yen! Await the[n]apocalypse with no worries![n][w][e]-##
 [s]Ох... Что это такое? Я слышу печальные[n]голоса! Я слышу, как телефоны разрываются[n]от звонков![n][w][e]
 ##-[s]Ohh... What's this? I'm hearing[n]sad voices! I'm hearing the phones[n]ringing off the hook![n][w][e]-##
@@ -477,17 +477,17 @@
 ##-[s]Oh my goodness! I can't believe[n]its wonderfulness![n][w][e]-##
 [s]Но подождите, это еще не все![n][w][e]
 ##-[s]But wait, there's more![n][w][e]-##
-[s]Мы бросим в [f 2 4 3] [f 2 5 3 65535 15][n]только для [f 2 4 8] иена![n][w][e]
+[s]Мы бросим в [f 2 4 3] [f 2 5 3 65535 15][n]только для [f 2 4 8] йен![n][w][e]
 ##-[s]We'll throw in [f 2 4 3] [f 2 5 3 65535 15][n]for only [f 2 4 8] yen![n][w][e]-##
 
 [msg TV_TUUHAN_TOIKAKE]
-[s]> Похоже, они продают[n][f 2 5 3 65535 14] набор для[n][f 2 4 8] иена.[n][w][e]
+[s]> Похоже, они продают[n][f 2 5 3 65535 14] набор для[n][f 2 4 8] йен.[n][w][e]
 ##-[s]> It seems they're selling a[n][f 2 5 3 65535 14] set for[n][f 2 4 8] yen.[n][w][e]-##
-[s]> У вас есть [f 2 4 20] иена. Будете ли вы покупать[n]его для [f 2 4 8] иена?[n][w][e]
+[s]> У вас есть [f 2 4 20] йен. Будете ли вы покупать[n]его для [f 2 4 8] иена?[n][w][e]
 ##-[s]> You have [f 2 4 20] yen.[n]Will you purchase it for [f 2 4 8] yen?[n][w][e]-##
 
 [msg TV_TUUHAN_KOUNYU]
-[s]> Вы купили [f 2 5 3 65535 14][n]для [f 2 4 8] иена.[n][w][e]
+[s]> Вы купили [f 2 5 3 65535 14][n]для [f 2 4 8] йен.[n][w][e]
 ##-[s]> You bought [f 2 5 3 65535 14][n]for [f 2 4 8] yen.[n][w][e]-##
 
 [msg TV_TUUHAN_TARINAI]
@@ -654,7 +654,7 @@
 [s]> Рано ложиться спать?[n][w][e]
 ##-[s]> Go to bed early?[n][w][e]-##
 
-[sel DORMITORY_SHOTCUTSEL_2 top]
+[sel DORMITORY_SHOTCUTSEL top]
 [s]Общежитие Иватодай[e]
 ##-[s]Iwatodai Dorm[e]-##
 [s]Карта города[e]
@@ -662,7 +662,7 @@
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
 
-[msg FLD_ORDER_2]
+[msg FLD_ORDER]
 [s]Куда ты пойдешь?[n][w][e]
 ##-[s]Where will you go?[n][w][e]-##
 

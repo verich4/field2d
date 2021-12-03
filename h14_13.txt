@@ -39,7 +39,7 @@
 ##-[s]> Would you like to buy a drink?[n][w][e]-##
 
 [msg VENDOR_MONEY_IN]
-[s]> Вы внесли 120 иен.[n][w][e]
+[s]> Вы внесли 120 йен.[n][w][e]
 ##-[s]> You deposited 120 yen.[n][w][e]-##
 
 [msg VENDOR_BUY_END]
@@ -54,7 +54,7 @@
 [s]> Вы больше не можете носить с собой этот[n]предмет.[n][w][e]
 ##-[s]> You can't carry any more of that[n]item.[n][w][e]-##
 
-[msg DONOTUSE_MESSAGE_2]
+[msg DONOTUSE_MESSAGE]
 [s]Пйメッセージк構гХ。 焔ёБГж。[n][w][e]
 ##-[s]Пйメッセージк構гХ。[n]焔わёБよГж。[n][w][e]-##
 

@@ -162,27 +162,27 @@
 [s][bup 7 203 0 0]С кем мне следует поменяться?[n][w][e]
 ##-[s][bup 7 203 0 0]Who should I switch with?[n][w][e]-##
 
-[msg AMADA_PARTY_IN [Кен]]]
+[msg AMADA_PARTY_IN [Кен]]
 [s][bup 8 204 0 0]Мы через многое прошли...[n][w][e]
 ##-[s][bup 8 204 0 0]We've been through a lot...[n][w][e]-##
 
-[msg AMADA_PARTY_IN_AFTER [Кен]]]
+[msg AMADA_PARTY_IN_AFTER [Кен]]
 [s][bup 8 204 0 0]Я одолею его, несмотря ни на что![n][w][e]
 ##-[s][bup 8 204 0 0]I'll defeat it no matter what![n][w][e]-##
 
-[msg AMADA_PARTY_OUT [Кен]]]
+[msg AMADA_PARTY_OUT [Кен]]
 [s][bup 8 204 0 0]Мы должны остановить это... иначе...[n][w][e]
 ##-[s][bup 8 204 0 0]We have to stop it... or else...[n][w][e]-##
 
-[msg AMADA_PARTY_OUT_AFTER [Кен]]]
+[msg AMADA_PARTY_OUT_AFTER [Кен]]
 [s][bup 8 204 0 0]...Я понимаю.[n][w][e]
 ##-[s][bup 8 204 0 0]...I understand.[n][w][e]-##
 
-[msg AMADA_PARTY_OVER [Кен]]]
+[msg AMADA_PARTY_OVER [Кен]]
 [s][bup 8 204 0 0]...Группа уже переполнена.[n][w][e]
 ##-[s][bup 8 204 0 0]...The party's already full.[n][w][e]-##
 
-[msg AMADA_PARTY_CHANGE [Кен]]]
+[msg AMADA_PARTY_CHANGE [Кен]]
 [s][bup 8 204 0 0]С кем мне следует поменяться?[n][w][e]
 ##-[s][bup 8 204 0 0]Who should I switch with?[n][w][e]-##
 
@@ -230,7 +230,7 @@
 [s][bup 7 201 0 0]Спасибо.[n][w][e]
 ##-[s][bup 7 201 0 0]Thanks.[n][w][e]-##
 
-[msg AMADA_EQUIP_TRANSFER [Кен]]]
+[msg AMADA_EQUIP_TRANSFER [Кен]]
 [s][bup 8 201 0 0]Ух ты, спасибо![n][w][e]
 ##-[s][bup 8 201 0 0]Wow, thanks![n][w][e]-##
 
@@ -260,7 +260,7 @@
 [s][bup 7 201 0 0]Просто чтобы ты знал, я сменил свое[n]снаряжение.[n][w][e]
 ##-[s][bup 7 201 0 0]Just so you know, I changed my[n]equipment.[n][w][e]-##
 
-[msg AMADA_GRADE_UP [Кен]]]
+[msg AMADA_GRADE_UP [Кен]]
 [s][bup 8 201 0 0]Я сменил свое снаряжение, хорошо?[n][w][e]
 ##-[s][bup 8 201 0 0]I changed my equipment, okay?[n][w][e]-##
 
@@ -396,7 +396,7 @@
 [s][bup 7 201 0 0]Я верну снаряжение, которое вы мне дали.[n][w][e]
 ##-[s][bup 7 201 0 0]I'll return the equipment[n]you gave me.[n][w][e]-##
 
-[msg AMADA_GRADE_UP_TRANSFER [Кен]]]
+[msg AMADA_GRADE_UP_TRANSFER [Кен]]
 [s][bup 8 201 0 0]Ты можешь забрать это обратно... Мне это[n]больше не нужно.[n][w][e]
 ##-[s][bup 8 201 0 0]You can have this back... I don't[n]need it anymore.[n][w][e]-##
 

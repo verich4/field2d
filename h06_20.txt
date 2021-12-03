@@ -189,7 +189,7 @@
 ##-[s]> You feel like you could still be[n]better academically...[n][w][e]-##
 [s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши знания не[n]достаточно высоки...[n][w][e]
 ##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Academics are high enough...[n][w][e]-##
-[s]> Вы задаетесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
+[s]> Вы задаётесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
 ##-[s]> You wonder if you should study more...[n][w][e]-##
 
 [msg TOIRE_MIRYOKU]
@@ -221,7 +221,7 @@
 ##-[s]> You feel that you'll be able to[n]fight wonderfully...[n][w][e]-##
 
 [msg TOIRE_IRAI]
-[s]> Вы задаетесь вопросом, есть ли какие-либо[n]просьбы, которые вы могли бы принять в[n]Бархатной комнате...[n][w][e]
+[s]> Вы задаётесь вопросом, есть ли какие-либо[n]просьбы, которые вы могли бы принять в[n]Бархатной комнате...[n][w][e]
 ##-[s]> You wonder if there are any requests[n]you could accept in the Velvet Room...[n][w][e]-##
 
 [msg TOIRE_SISSOU]
@@ -239,7 +239,7 @@
 ##-[s]> You need to hurry and go to the[n]faculty office...[n][w][e]-##
 
 [msg SCR_MSG_SIKENMAE_NG]
-[s]> Она заперта. Вы задаетесь вопросом, не[n]из-за экзаменов ли это...[n][w][e]
+[s]> Она заперта. Вы задаётесь вопросом, не[n]из-за экзаменов ли это...[n][w][e]
 ##-[s]> It's locked. You wonder if it's[n]because of exams...[n][w][e]-##
 
 [msg SCR_MSG_ENDING_NG]

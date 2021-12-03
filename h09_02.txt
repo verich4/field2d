@@ -21,7 +21,7 @@
 ##-[s]> You can't carry any more of that[n]item.[n][w][e]-##
 
 [msg VENDOR_MONEY_IN]
-[s]> Вы вставили 120 иен.[n][w][e]
+[s]> Вы вставили 120 йен.[n][w][e]
 ##-[s]> You deposited 120 yen.[n][w][e]-##
 
 [msg VENDOR_BUY_END]
@@ -107,7 +107,7 @@
 ##-[s]> Wild-duck Burger...[n][w][e]-##
 
 [msg BURGER_HAIRU [Menu]]
-[s]"Таинственный бургер - 500 иен"[n][w][e]
+[s]"Таинственный бургер - 500 йен[n][w][e]
 ##-[s]"Mystery Burger - 500 yen"[n][w][e]-##
 [s]"Ингредиенты - это секрет!"[n][w][e]
 ##-[s]"The ingredients are a secret!"[n][w][e]-##
@@ -131,7 +131,7 @@
 ##-[s]> Wakatsu Restaurant...[n][w][e]-##
 
 [msg WASHOKU_HAIRU [Menu]]
-[s]"Блюдо для вундеркиндов - 680 иен"[n][w][e]
+[s]"Блюдо для вундеркиндов - 680 йен[n][w][e]
 ##-[s]"Prodigy Platter - 680 yen"[n][w][e]-##
 [s]"Становись умнее, пока перевариваешь!"[n][w][e]
 ##-[s]"Get smarter while you digest!"[n][w][e]-##
@@ -153,7 +153,7 @@
 ##-[s]> Ramen shop "Hagakure"...[n][w][e]-##
 
 [msg RAMEN_HAIRU [Menu]]
-[s]"Свинина - 900 иен"[n][w][e]
+[s]"Свинина - 900 йен[n][w][e]
 ##-[s]"Pork - 900 yen"[n][w][e]-##
 [s]"Коллаген сделает вашу кожу красивой!"[n][w][e]
 ##-[s]"The collagen will make your skin[n]beautiful!"[n][w][e]-##
@@ -257,7 +257,7 @@
 [msg HURUHON_SISSOU_SAFE_NOCO]
 [s]> Старик энергично болтает со старухой[n]внутри магазина...[n][w][e]
 ##-[s]> The old man is chatting energetically[n]with an old woman inside the store...[n][w][e]-##
-[s]> ...Похоже, этот старик был тем, кого вы[n]спасли из Тартаруса...[n][w][e]
+[s]> ...Похоже, этот старик был тем, кого вы[n]спасли из Тартара...[n][w][e]
 ##-[s]> ...It seems this old man was the[n]one you rescued from Tartarus...[n][w][e]-##
 [s]> Вы рады, что смогли спасти его...[n][w][e]
 ##-[s]> You're glad that you were able to[n]rescue him...[n][w][e]-##

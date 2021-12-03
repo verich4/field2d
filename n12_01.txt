@@ -347,7 +347,7 @@
 [msg TAKOYAKI_SHONITI [Повар-Осьминог]]
 [s]Эй, иди сюда, молодой человек![n][w][e]
 ##-[s]Hey, come over here, young Мужчина![n][w][e]-##
-[s]Мои такояки одновременно вкусные и дешевые![n]Всего 400 иен![n][w][e]
+[s]Мои такояки одновременно вкусные и дешевые![n]Всего 400 йен![n][w][e]
 ##-[s]My takoyaki is both delicious and[n]cheap! Only 400 yen![n][w][e]-##
 [s]Что, ты думаешь, что получишь скидку,[n]потому что сегодня Новый год? Просто купи[n]немного! Пожалуйста![n][w][e]
 ##-[s]What, you think you'd get[n]a discount because it's New[n]Year's? Just buy some! Please![n][w][e]-##
@@ -355,7 +355,7 @@
 [msg TAKOYAKI_SHONITI_G [Повар-Осьминог]]
 [s]Эй, подойдите сюда, мисс![n][w][e]
 ##-[s]Hey, come over here, miss![n][w][e]-##
-[s]Мои такояки одновременно вкусные и дешевые![n]Всего 400 иен![n][w][e]
+[s]Мои такояки одновременно вкусные и дешевые![n]Всего 400 йен![n][w][e]
 ##-[s]My takoyaki is both delicious and[n]cheap! Only 400 yen![n][w][e]-##
 [s]Что, ты думаешь, что получишь скидку,[n]потому что сегодня Новый год? Просто купи[n]немного! Пожалуйста![n][w][e]
 ##-[s]What, you think you'd get[n]a discount because it's New[n]Year's? Just buy some! Please![n][w][e]-##
@@ -400,7 +400,7 @@
 [s]Я чувствую, что он - причина того, что мне[n]так не везет... Может быть, мне стоит[n]порвать с ним.[n][w][e]
 ##-[s]I feel like he's the reason my[n]luck is so bad... Maybe I should[n]break up with him.[n][w][e]-##
 
-[msg MSG_NPC010_01_2 [Мужчина]]
+[msg MSG_NPC010_01 [Мужчина]]
 [s]Я вытащил удачу, и это было "Наихудшее[n]везение"...[n][w][e]
 ##-[s]I pulled the fortune out, and it was[n]"Worst Luck"...[n][w][e]-##
 [s]Это чертовски хороший способ начать Новый[n]год.[n][w][e]

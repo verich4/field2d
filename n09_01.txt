@@ -773,7 +773,7 @@
 [msg TAKOYAKI_SHONITI [Takoyaki Cook]]
 [s]Эй, вы там! Иди сюда![n][w][e]
 ##-[s]Hey, you there! Come on over![n][w][e]-##
-[s]Мой такояки очень вкусный, и всего 400 иен![n][w][e]
+[s]Мой такояки очень вкусный, и всего 400 йен![n][w][e]
 ##-[s]My takoyaki is deee-licious, and[n]only 400 yen![n][w][e]-##
 [s]В нем нет осьминога, но..... Все равно[n]попробуй немного![n][w][e]
 ##-[s]There's no octopus in it, but...[n]Try some anyway![n][w][e]-##
@@ -781,7 +781,7 @@
 [msg TAKOYAKI_SHONITI_G [Takoyaki Cook]]
 [s]Эй, вы там! Иди сюда![n][w][e]
 ##-[s]Hey, you there! Come on over![n][w][e]-##
-[s]Мой такояки очень вкусный, и всего 400 иен![n][w][e]
+[s]Мой такояки очень вкусный, и всего 400 йен![n][w][e]
 ##-[s]My takoyaki is deee-licious, and[n]only 400 yen![n][w][e]-##
 [s]В нем нет осьминога, но..... Все равно[n]попробуй немного![n][w][e]
 ##-[s]There's no octopus in it, but...[n]Try some anyway![n][w][e]-##

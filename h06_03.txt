@@ -7,7 +7,7 @@
 [msg GOTO_HOME_0509]
 [s]> Сегодня ночью будет полнолуние. Это тот[n]день, о котором вас предупреждали.[n][w][e]
 ##-[s]> There will be a full moon tonight.[n]It is the day you were forewarned[n]about.[n][w][e]-##
-[s]> Вы задаетесь вопросом, произойдет ли[n]что-нибудь.[n][w][e]
+[s]> Вы задаётесь вопросом, произойдет ли[n]что-нибудь.[n][w][e]
 ##-[s]> You wonder if something will happen.[n][w][e]-##
 [s]> Тебе, наверное, стоит вернуться в[n]общежитие, просто на всякий случай.[n][w][e]
 ##-[s]> You should probably head back to[n]the dorm just to be on the safe side.[n][w][e]-##
@@ -303,7 +303,7 @@
 ##-[s]> You feel like you could still be[n]better academically...[n][w][e]-##
 [s]> Похоже, что есть люди, с которыми вы не[n]можете познакомиться, если ваши знания не[n]достаточно высоки...[n][w][e]
 ##-[s]> It seems that there are people who[n]you can't become acquainted with unless[n]your Academics are high enough...[n][w][e]-##
-[s]> Вы задаетесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
+[s]> Вы задаётесь вопросом, не следует ли вам[n]больше учиться...[n][w][e]
 ##-[s]> You wonder if you should study more...[n][w][e]-##
 
 [msg TOIRE_MIRYOKU]
@@ -335,7 +335,7 @@
 ##-[s]> You feel that you'll be able to[n]fight wonderfully...[n][w][e]-##
 
 [msg TOIRE_IRAI]
-[s]> Вы задаетесь вопросом, есть ли какие-либо[n]просьбы, которые вы могли бы принять в[n]Бархатной комнате...[n][w][e]
+[s]> Вы задаётесь вопросом, есть ли какие-либо[n]просьбы, которые вы могли бы принять в[n]Бархатной комнате...[n][w][e]
 ##-[s]> You wonder if there are any requests[n]you could accept in the Velvet Room...[n][w][e]-##
 
 [msg TOIRE_SISSOU]
@@ -353,7 +353,7 @@
 ##-[s]> You need to hurry and go to the[n]faculty office...[n][w][e]-##
 
 [msg SCR_MSG_SIKENMAE_NG]
-[s]> Она заперта. Вы задаетесь вопросом, не[n]из-за экзаменов ли это...[n][w][e]
+[s]> Она заперта. Вы задаётесь вопросом, не[n]из-за экзаменов ли это...[n][w][e]
 ##-[s]> It's locked. You wonder if it's[n]because of exams...[n][w][e]-##
 
 [msg SCR_MSG_ENDING_NG]
@@ -519,11 +519,11 @@
 ##-[s][f 5 13 0 10 0]> You have decided to go to [f 5 3 0][n]practice.[n][w][e]-##
 
 [msg SCR_MSG_TAIIKUKAI_NG [ ]]
-[s]> Там есть заметка, в которой говорится:[n]"Практики - это [clr 2]Пнтlr 0], [clr 2]Вт[clr 0], [clr 2]Чт[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
+[s]> Там есть заметка, в которой говорится:[n]"Практики - это [clr 2]Пнт[clr 0], [clr 2]Вт[clr 0], [clr 2]Чт[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
 ##-[s]> There's a note that says, "Practices[n]are [clr 2]Mon[clr 0], [clr 2]Tues[clr 0], [clr 2]Thurs[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
 
 [msg SCR_MSG_TAIIKUKAI_NG_F [ ]]
-[s]> Там есть заметка, в которой говорится:[n]"Практики - это [clr 2]Пнтlr 0], [clr 2]Срlr 0], [clr 2]Пт[clr 0]."[n][w][e]
+[s]> Там есть заметка, в которой говорится:[n]"Практики - это [clr 2]Пнт[clr 0], [clr 2]Ср[clr 0], [clr 2]Пт[clr 0]."[n][w][e]
 ##-[s]> There's a note that says, "Practices[n]are [clr 2]Mon[clr 0], [clr 2]Wed[clr 0], [clr 2]Fri[clr 0]."[n][w][e]-##
 
 [msg SCR_MSG_GROUND_HAIRU]
@@ -711,7 +711,7 @@
 [sel BUNKABU_COMMU_SEL top]
 [s]Посетить [f 5 3 1][e]
 ##-[s]Attend [f 5 3 1][e]-##
-[s]Проверить рейтинг социальной связи
+[s]Проверить рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Ничего не делать[e]
 ##-[s]Do nothing[e]-##
@@ -721,7 +721,7 @@
 ##-[s][f 5 13 0 10 0]> You have decided to spend some time[n]after school at [f 5 3 1] Club.[n][w][e]-##
 
 [msg SCR_MSG_BUNKABU_NG [ ]]
-[s]> Там есть записка, в которой говорится:[n]"Встречи:[n][clr 2]Вт[clr 0], [clr 2]Срlr 0], [clr 2]Чт[clr 0]."[n][w][e]
+[s]> Там есть записка, в которой говорится:[n]"Встречи:[n][clr 2]Вт[clr 0], [clr 2]Ср[clr 0], [clr 2]Чт[clr 0]."[n][w][e]
 ##-[s]> There's a note that says, "Meetings:[n][clr 2]Tues[clr 0], [clr 2]Wed[clr 0], [clr 2]Thur[clr 0]."[n][w][e]-##
 
 [msg SCR_MSG_KANGEN_HAIRU]
@@ -773,13 +773,13 @@
 ##-[s]> There's a note that says, "Sorry,[n]but the Art Club is no longer[n]accepting new members."[n][w][e]-##
 
 [msg SCR_MSG_SHOKUIN_NG [ ]]
-[s]> Это учительская
+[s]> Это учительская[n][w][e]
 ##-[s]> It's the Faculty Office.[n][w][e]-##
 [s]> Было бы неразумно входить без всякой[n]причины.[n][w][e]
 ##-[s]> It wouldn't be wise to enter without[n]a good reason.[n][w][e]-##
 
 [msg SCR_MSG_MARCH_NETCOMMU [ ]]
-[s]> Это учительская
+[s]> Это учительская[n][w][e]
 ##-[s]> It's the Faculty Office.[n][w][e]-##
 [s]> ...Вы можете услышать голос мисс Ториуми[n]изнутри.[n][w][e]
 ##-[s]> ...You can hear Ms. Toriumi's[n]voice from within.[n][w][e]-##
@@ -789,7 +789,7 @@
 [sel MARCH_NETCOMMU_SEL top]
 [s]Войти[e]
 ##-[s]Enter[e]-##
-[s]Не входить]
+[s]Не входить[e]
 ##-[s]Don't enter[e]-##
 
 [msg SCR_MSG_TOSHOSITU_HAIRU]
@@ -881,7 +881,7 @@
 [sel HOKEN_COMMU_SEL top]
 [s]Выполнить обязанности комитета по[n]здравоохранению[e]
 ##-[s]Perform health committee duties[e]-##
-[s]Проверить рейтинг социальной связи
+[s]Проверить рейтинг социальной связи[e]
 ##-[s]Check Social Link rank[e]-##
 [s]Не брать в голову[e]
 ##-[s]Never mind[e]-##
@@ -897,4 +897,3 @@
 [msg shortcut_test]
 [s]В настоящее время вы находитесь в районе[n][f 2 4 0].[n][w][e]
 ##-[s]You are currently in area[n][f 2 4 0].[n][w][e]-##
-

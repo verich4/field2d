@@ -87,7 +87,7 @@
 [msg TAKOYAKI_SHONITI [Продавец]]
 [s]Привет, там.[n][w][e]
 ##-[s]Hi, there.[n][w][e]-##
-[s]Наши такояки восхитительны! И это всего 400[n]иен![n][w][e]
+[s]Наши такояки восхитительны! И это всего 400[n]йен![n][w][e]
 ##-[s]Our takoyaki is delicious! And it's[n]only 400 yen![n][w][e]-##
 [s]Это наш собственный особый рецепт, без[n]осьминога... Хочешь немного?[n][w][e]
 ##-[s]It's our own special recipe, with no[n]octopus... Want some?[n][w][e]-##
@@ -97,7 +97,7 @@
 [msg TAKOYAKI_SHONITI_G [Продавец]]
 [s]Привет, там.[n][w][e]
 ##-[s]Hi, there.[n][w][e]-##
-[s]Наши такояки восхитительны! И это всего 400[n]иен![n][w][e]
+[s]Наши такояки восхитительны! И это всего 400[n]йен![n][w][e]
 ##-[s]Our takoyaki is delicious! And it's[n]only 400 yen![n][w][e]-##
 [s]Это наш собственный особый рецепт, без[n]осьминога... Хочешь немного?[n][w][e]
 ##-[s]It's our own special recipe, with no[n]octopus... Want some?[n][w][e]-##
@@ -160,7 +160,7 @@
 [s]Многие магазины повысят ваше Обаяние,[n]Смелость или Академичность. Если они[n]достаточно высоки, вы можете познакомиться[n]с новыми людьми.[n][w][e]
 ##-[s]Many shops will raise your Charm,[n]Courage, or Academics. If they are[n]high enough, you may meet new people.[n][w][e]-##
 
-[msg MONEY_TARINAI_2]
+[msg MONEY_TARINAI]
 [s]> ......[n][w][e]
 ##-[s]> ......[n][w][e]-##
 [s]> У тебя недостаточно денег.[n][w][e]
@@ -195,7 +195,7 @@
 ##-[s]> Wild-duck Burger...[n][w][e]-##
 
 [msg BURGER_HAIRU [Меню]]
-[s]"Таинственный бургер - 500 иен"[n][w][e]
+[s]"Таинственный бургер - 500 йен[n][w][e]
 ##-[s]"Mystery Burger - 500 yen"[n][w][e]-##
 [s]"Ингредиенты - это секрет!"[n][w][e]
 ##-[s]"The ingredients are a secret!"[n][w][e]-##
@@ -219,7 +219,7 @@
 ##-[s]> Wakatsu Restaurant...[n][w][e]-##
 
 [msg WASHOKU_HAIRU [Меню]]
-[s]"Блюдо для вундеркиндов - 680 иен"[n][w][e]
+[s]"Блюдо для вундеркиндов - 680 йен[n][w][e]
 ##-[s]"Prodigy Platter - 680 yen"[n][w][e]-##
 [s]"Становись умнее, пока перевариваешь!"[n][w][e]
 ##-[s]"Get smarter while you digest!"[n][w][e]-##
@@ -241,7 +241,7 @@
 ##-[s]> Ramen shop "Hagakure"...[n][w][e]-##
 
 [msg RAMEN_HAIRU [Меню]]
-[s]"Свинина - 900 иен"[n][w][e]
+[s]"Свинина - 900 йен[n][w][e]
 ##-[s]"Pork - 900 yen"[n][w][e]-##
 [s]"Коллаген сделает вашу кожу красивой!"[n][w][e]
 ##-[s]"The collagen will make your skin[n]beautiful!"[n][w][e]-##

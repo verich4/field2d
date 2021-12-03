@@ -229,7 +229,7 @@
 ##-[s]Many shops will raise your Charm,[n]Courage, or Academics. If they are[n]high enough, you may meet new people.[n][w][e]-##
 
 [msg MOVIE_MENU [Menu]]
-[s]"Кинотеатр Screen Shot" представляет: [n]Оригинальная программа. Старшеклассники:[n]1500 иен[n][w][e]
+[s]"Кинотеатр Screen Shot" представляет: [n]Оригинальная программа. Старшеклассники:[n]1500 йен[n][w][e]
 ##-[s]"Screen Shot Movie Theater" presents: [n]An original program.[n]High school students: 1500 yen[n][w][e]-##
 
 [msg MOVIE_PROGRAM_CONTINUE]

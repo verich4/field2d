@@ -901,7 +901,7 @@
 ##-[s]Let's face it, we're all just plain[n]ordinary compared to her, man.[n][w][e]-##
 
 [msg MSG_APR02_JUNPEI_01 [Джунпей]]
-[s][bup 5 1 65535 0]Это может показаться странным вопросом, но[n]как вы думаете, можно ли хорошо учиться в[n]Тартарусе И в школе?[n][w][e]
+[s][bup 5 1 65535 0]Это может показаться странным вопросом, но[n]как вы думаете, можно ли хорошо учиться в[n]Тартаре И в школе?[n][w][e]
 ##-[s][bup 5 1 65535 0]This may sound like a weird question,[n]but do you think it's possible to do[n]well in Tartarus AND in school?[n][w][e]-##
 
 [sel MSG_APR02_JUNPEI_01S top]
@@ -1017,7 +1017,7 @@
 ##-[s]But man, I bet I'll be depressed once[n]I see my scores...[n][w][e]-##
 
 [msg MSG_MAY05_JUNPEI_01 [Джунпей]]
-[s][bup 5 1 65535 0]Значит, все это время в соседнем классе был[n]владелец Персоны, да?[n][w][e]
+[s][bup 5 1 65535 0]Значит, все это время в соседнем классе был[n]пользователь Персоны, да?[n][w][e]
 ##-[s][bup 5 1 65535 0]So, all this time, there was a Persona-[n]user in the class next door, huh?[n][w][e]-##
 [s]Чувак, мы многое упустили...[n][w][e]
 ##-[s]Dude, we've been missing out...[n][w][e]-##
@@ -1082,7 +1082,7 @@
 [s]Почему я вообще открыл свой большой рот?[n][w][e]
 ##-[s]Why did I open my big mouth?[n][w][e]-##
 
-[msg MSG_JUN03_JUNPEI_01 [Джунпейi]]
+[msg MSG_JUN03_JUNPEI_01 [Джунпей]]
 [s][bup 5 1 65535 0]Чувак, я не могу тебе сказать... Это[n]сюрприз.[n][w][e]
 ##-[s][bup 5 1 65535 0]Dude, I can't tell you...[n]It's a surprise.[n][w][e]-##
 [s]Просто подожди до вечера![n][w][e]

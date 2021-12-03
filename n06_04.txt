@@ -767,7 +767,7 @@
 ##-[s]"No."[e]-##
 
 [sel MSG_9A_NPC005_01S_G top]
-[s]"Я продам тебе один за 1000 иен".[e]
+[s]"Я продам тебе один за 1000 йен.[e]
 ##-[s]"I'll sell you one for 1000 yen."[e]-##
 [s]"нет."[e]
 ##-[s]"No."[e]-##
@@ -779,7 +779,7 @@
 ##-[s]Don't toy with me, or I'll sign up[n]for the revenge request website![n][w][e]-##
 
 [msg MSG_9A_NPC005_01A_G [Female Student]]
-[s]...1000 иен, каждая!? П-Прекрасно! Это[n]выгодная сделка за то, что они[n]действительно стоят![n][w][e]
+[s]...1000 йен, каждая!? П-Прекрасно! Это[n]выгодная сделка за то, что они[n]действительно стоят![n][w][e]
 ##-[s]...1000 yen, each!?[n]F-Fine! That's a bargain for[n]what they're truly worth![n][w][e]-##
 [s]Мне нужно по три экземпляра каждого! Один[n]для меня, один для моих записей и один,[n]чтобы показать другим людям... Отдай их[n]мне![n][w][e]
 ##-[s]I need three copies of each! One for[n]me, one for my records, and one to show[n]other people... Hand 'em over![n][w][e]-##
@@ -927,7 +927,7 @@
 ##-[s]"No."[e]-##
 
 [sel MSG_1A_NPC005_01S_G top]
-[s]"Я сделал, если у вас есть 1000 иен..."[e]
+[s]"Я сделал, если у вас есть 1000 йен..."[e]
 ##-[s]"I did, if you have 1000 yen..."[e]-##
 [s]"нет."[e]
 ##-[s]"No."[e]-##

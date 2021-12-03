@@ -9,7 +9,7 @@
 ##-[s]> Your Charm seems to have[n]increased![n][w][e]-##
 
 [msg SCR_MSG_PARAM_MIRYOKU2]
-[s]> Твое очарование ушло от"[f 2 4 0]"для"[f 2 4 1]"![n][w][e]
+[s]> Твое очарование ушло от "[f 2 4 0]" для "[f 2 4 1]"![n][w][e]
 ##-[s]> Your Charm went from "[f 2 4 0]"[n]to "[f 2 4 1]"![n][w][e]-##
 
 [msg MSG_FST_NPC000_01 [Woman]]
@@ -19,7 +19,7 @@
 ##-[s]In my mind, I see visions...[n]People's past, present, and[n]future...[n][w][e]-##
 [s]Для большинства людей я вижу ясно и далеко[n]вперед...[n][w][e]
 ##-[s]For most people, I see clearly,[n]and far ahead...[n][w][e]-##
-[s]Но ты другой... Ваше будущее наполнено как[n]ослепительным светом, так и застойной[n]тенью...[n][w][e]
+[s]Но ты другой... Твое будущее наполнено как[n]ослепительным светом, так и застойной[n]тенью...[n][w][e]
 ##-[s]But you are different... Your future[n]is filled with both blinding light[n]and stagnant shadow...[n][w][e]-##
 [s]Я вижу лишь небольшую часть... То, что[n]лежит за этим, окутано тайной...[n][w][e]
 ##-[s]I can see but a small portion...[n]What lies beyond that is shrouded[n]in mystery...[n][w][e]-##
@@ -27,11 +27,11 @@
 ##-[s]What a peculiar fate you carry...[n][w][e]-##
 [s]Итак, молодой человек... Носитель света и[n]тени...[n][w][e]
 ##-[s]Now, young man... Bearer of[n]light and shadow...[n][w][e]-##
-[s]Если вы хотите узнать больше о ближайшем[n]будущем... приходите и поговорите со[n]мной...[n][w][e]
+[s]Если ты хочешь узнать больше о ближайшем[n]будущем... приходи и поговори со[n]мной...[n][w][e]
 ##-[s]If you wish to know more about[n]the near future... come and talk[n]to me...[n][w][e]-##
-[s]Я поделюсь с вами своими ограниченными[n]видениями...[n][w][e]
+[s]Я поделюсь с тобой своими ограниченными[n]видениями...[n][w][e]
 ##-[s]I will share my limited visions[n]with you...[n][w][e]-##
-[s]А теперь расскажи мне... Хотели бы вы[n]узнать свою судьбу?[n][w][e]
+[s]А теперь расскажи мне... Хотел бы ты[n]узнать свою судьбу?[n][w][e]
 ##-[s]Now, tell me... Would you like to[n]know your fortune?[n][w][e]-##
 
 [msg MSG_FST_NPC000_01_G [Woman]]
@@ -41,7 +41,7 @@
 ##-[s]In my mind, I see visions...[n]People's past, present, and[n]future...[n][w][e]-##
 [s]Для большинства людей я вижу ясно и далеко[n]вперед...[n][w][e]
 ##-[s]For most people, I see clearly,[n]and far ahead...[n][w][e]-##
-[s]Но ты другой... Ваше будущее наполнено как[n]ослепительным светом, так и застойной[n]тенью...[n][w][e]
+[s]Но ты другая... Твое будущее наполнено как[n]ослепительным светом, так и застойной[n]тенью...[n][w][e]
 ##-[s]But you are different... Your future[n]is filled with both blinding light[n]and stagnant shadow...[n][w][e]-##
 [s]Я вижу лишь небольшую часть... То, что[n]лежит за этим, окутано тайной...[n][w][e]
 ##-[s]I can see but a small portion...[n]What lies beyond that is shrouded[n]in mystery...[n][w][e]-##
@@ -49,15 +49,15 @@
 ##-[s]What a peculiar fate you carry...[n][w][e]-##
 [s]Итак, юная леди... Носитель света и тени...[n][w][e]
 ##-[s]Now, young lady... Bearer of[n]light and shadow...[n][w][e]-##
-[s]Если вы хотите узнать больше о ближайшем[n]будущем... приходите и поговорите со[n]мной...[n][w][e]
+[s]Если ты хотешь узнать больше о ближайшем[n]будущем... приходи и поговори со[n]мной...[n][w][e]
 ##-[s]If you wish to know more about[n]the near future... come and talk[n]to me...[n][w][e]-##
-[s]Я поделюсь с вами своими ограниченными[n]видениями...[n][w][e]
+[s]Я поделюсь с тобой своими ограниченными[n]видениями...[n][w][e]
 ##-[s]I will share my limited visions[n]with you...[n][w][e]-##
-[s]А теперь расскажи мне... Хотели бы вы[n]узнать свою судьбу?[n][w][e]
+[s]А теперь расскажи мне... Хотела бы ты[n]узнать свою судьбу?[n][w][e]
 ##-[s]Now, tell me... Would you like to[n]know your fortune?[n][w][e]-##
 
 [msg MSG_2ND_NPC000_01 [Woman]]
-[s]Хотели бы вы узнать свою судьбу?[n][w][e]
+[s]Хочешь ли ты узнать свою судьбу?[n][w][e]
 ##-[s]Would you like to know your fortune?[n][w][e]-##
 
 [sel MSG_SEL_NPC000_01 top]
@@ -77,7 +77,7 @@
 ##-[s]Very well...[n][w][e]-##
 
 [msg MSG_YES_NPC000_02 [Woman]]
-[s]Тогда прощай... Пусть ваше будущее будет[n]светлым...[n][w][e]
+[s]Тогда прощай... Пусть твое будущее будет[n]светлым...[n][w][e]
 ##-[s]Farewell, then... May your future[n]be bright...[n][w][e]-##
 
 [msg MSG_NO_NPC000_01 [Woman]]
@@ -91,15 +91,15 @@
 ##-[s]The bullet passes through many,[n]heading directly to its target...[n][w][e]-##
 [s]Однако какая это может быть цель, мне[n]неизвестно...[n][w][e]
 ##-[s]What target that may be, however,[n]is unknown to me...[n][w][e]-##
-[s]Вы должны выяснить это сами...[n][w][e]
+[s]Выясни это самостоятельно...[n][w][e]
 ##-[s]You must find that out for[n]yourself...[n][w][e]-##
 
 [msg MSG_5B_NPC000_01 [Woman]]
-[s]Длинный рельс под пустым небом... На нем[n]стоит молодежь в смятении...[n][w][e]
+[s]Длинный путь под пустым небом... На нем[n]стоит молодежь в смятении...[n][w][e]
 ##-[s]A long rail under the empty sky...[n]On it stands youth in disarray...[n][w][e]-##
 [s]Вы, кажется, живете бурной жизнью...[n][w][e]
 ##-[s]You seem to live a tumultuous life...[n][w][e]-##
-[s]Что вы видите в конце рельса...?[n][w][e]
+[s]Что ты видишь в конце пути...?[n][w][e]
 ##-[s]What do you see at the end of[n]the rail...?[n][w][e]-##
 
 [msg MSG_6A_NPC000_01 [Woman]]
@@ -109,7 +109,7 @@
 ##-[s]A strong wind blows across the[n]world, sending a blue flower's[n]petals into the air...[n][w][e]-##
 [s]Как вы истолкуете этот ветер...?[n][w][e]
 ##-[s]How will you interpret this[n]wind...?[n][w][e]-##
-[s]Как слабый и слабый ветерок, или храбрый и[n]могучий порыв...?[n][w][e]
+[s]Как слабый и легкий ветерок, или храбрый и[n]могучий порыв...?[n][w][e]
 ##-[s]As a weak and frail breeze, or[n]a brave and mighty gust...?[n][w][e]-##
 
 [msg MSG_6B_NPC000_01 [Woman]]
@@ -563,7 +563,7 @@
 ##-[s]In this case, I guess you might[n]rely on fortune-telling, but...[n][w][e]-##
 [s]Это не в моем стиле.[n][w][e]
 ##-[s]It's not my style.[n][w][e]-##
-[s]Я бы предпочел искать друзей[n]самостоятельно.[n][w][e]
+[s]Я бы предпочла искать друзей[n]самостоятельно.[n][w][e]
 ##-[s]I'd rather look for friends on[n]my own.[n][w][e]-##
 
 [msg MSG_7B_NPC002_01 [Woman]]
@@ -1045,13 +1045,13 @@
 ##-[s]Do you worry about your exam scores?[n][w][e]-##
 
 [sel MSG_10B_NPC004_01_SEL top]
-[s]"А кто не знает?"[e]
+[s]"А кто нет?"[e]
 ##-[s]"Who doesn't?"[e]-##
 [s]"Нет, я не..."[e]
 ##-[s]"No, I don't..."[e]-##
 
 [sel MSG_10B_NPC004_01_SEL_G top]
-[s]"Конечно, я знаю".[e]
+[s]"Конечно, беспокоюсь".[e]
 ##-[s]"Of course I do."[e]-##
 [s]"Вовсе нет".[e]
 ##-[s]"Not at all."[e]-##
@@ -1085,7 +1085,7 @@
 ##-[s]I'm not one of those people who[n]likes spending Christmas by[n]myself...[n][w][e]-##
 [s]Но еще хуже спешить и пытаться переспать,[n]только на праздники.[n][w][e]
 ##-[s]But it's worse to rush and try to[n]hook up, just for the holidays.[n][w][e]-##
-[s]Я бы предпочел танцевать, чем тратить свое[n]время подобным образом.[n][w][e]
+[s]Я бы предпочла танцевать, чем тратить свое[n]время подобным образом.[n][w][e]
 ##-[s]I'd rather dance than waste my[n]time like that.[n][w][e]-##
 
 [msg MSG_12C_NPC004_01 [Woman]]
@@ -1617,7 +1617,7 @@
 ##-[s]Especially at times like this...[n]A little charm goes a long way.[n][w][e]-##
 [s]Я уверен, вы понимаете, что я имею в виду.[n][w][e]
 ##-[s]I'm sure you know what I mean.[n][w][e]-##
-[s]Я бы предпочел послушать тебя, чем этих[n]уродов-культистов...[n][w][e]
+[s]Я бы предпочла послушать тебя, чем этих[n]уродов-культистов...[n][w][e]
 ##-[s]I'd much rather listen to you[n]than those cultist freaks...[n][w][e]-##
 
 [msg MSG_1A_NPC006_01_G [Man]]

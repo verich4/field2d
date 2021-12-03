@@ -49,7 +49,7 @@
 ##-[s]> Would you like to buy a drink?[n][w][e]-##
 
 [msg VENDOR_MONEY_IN]
-[s]> Вы внесли 120 иен.[n][w][e]
+[s]> Вы внесли 120 йен.[n][w][e]
 ##-[s]> You deposited 120 yen.[n][w][e]-##
 
 [msg VENDOR_BUY_END]

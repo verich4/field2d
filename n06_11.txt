@@ -309,7 +309,7 @@
 [msg MSG_5B_NPC003_01 [Студент]]
 [s]Это прозвучит странным, но...[n][w][e]
 ##-[s]This might sound weird, but...[n][w][e]-##
-[s]Разве это не мука – вечно отвечать на сообщения[n]людей, которые тебе безразличны?[n][w][e]
+[s]Разве это не мука - вечно отвечать на сообщения[n]людей, которые тебе безразличны?[n][w][e]
 ##-[s]Isn't it a pain to reply to messages[n]from people you don't care about?[n][w][e]-##
 
 [sel MSG_5B_NPC003_01_SEL top]
@@ -399,7 +399,7 @@
 ##-[s]I'm getting bored of text messaging.[n][w][e]-##
 [s]Хорошо, наверно, когда можно общаться со[n]столькими людьми, но очень скоро мне все это[n]совершенно надоест.[n][w][e]
 ##-[s]I guess it's good to be in touch[n]with so many people, but pretty soon[n]I'm gonna get totally bored of it.[n][w][e]-##
-[s]Как только ты теряешь интерес к такого[n]рода вещам – это билет в один конец.[n][w][e]
+[s]Как только ты теряешь интерес к такого[n]рода вещам - это билет в один конец.[n][w][e]
 ##-[s]Once you lose interest in this kind[n]of thing, you can't get it back.[n][w][e]-##
 
 [msg MSG_6B_NPC003_01 [Студент]]
@@ -453,7 +453,7 @@
 ##-[s]I'm trying to figure it out, so I'm[n]looking all over the web on my cell.[n][w][e]-##
 [s]Есть ту местная ЭДО, которая, похоже, содержит[n]много информации на сайте.[n][w][e]
 ##-[s]There's a local BBS that seems like[n]it has a lot of info on the site.[n][w][e]-##
-[s]Но это все что там есть – мусор, а не информация...[n][w][e]
+[s]Но это все что там есть - мусор, а не информация...[n][w][e]
 ##-[s]But it's all garbage info...[n][w][e]-##
 
 [msg MSG_9A_NPC003_01 [Студент]]

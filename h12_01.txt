@@ -15,7 +15,7 @@
 ##-[s]Anyway, save it for later. We've[n]gotta get to the police station![n][w][e]-##
 
 [msg SHOGATU_STOP_OMIKUJI]
-[s]> Состояние отношений - 100 иен[n][w][e]
+[s]> Состояние отношений - 100 йен[n][w][e]
 ##-[s]> Relationship fortune - 100 yen[n][w][e]-##
 [s]> ...Однако на сегодня у них закончились[n]билеты...[n][w][e]
 ##-[s]> ...However, they're out of tickets[n]for today...[n][w][e]-##
@@ -328,14 +328,14 @@
 [s]> Шкатулка фортуны находится в ремонте.[n][w][e]
 ##-[s]> The fortune box is under[n]repairs.[n][w][e]-##
 
-[msg SHOGATU_STOP_OMIKUJI_2]
-[s]> Состояние отношений - 100 иен[n][w][e]
+[msg SHOGATU_STOP_OMIKUJI]
+[s]> Состояние отношений - 100 йен[n][w][e]
 ##-[s]> Relationship fortune - 100 yen[n][w][e]-##
 [s]> ...Однако на сегодня у них закончились[n]билеты...[n][w][e]
 ##-[s]> ...However, they're out of tickets[n]for today...[n][w][e]-##
 
 [msg OMIKUJI_START]
-[s]> Состояние отношений - 100 иен[n][w][e]
+[s]> Состояние отношений - 100 йен[n][w][e]
 ##-[s]> Relationship Fortune - 100 yen[n][w][e]-##
 
 [msg OMIKUJI_TUTO]
@@ -355,7 +355,7 @@
 ##-[s]No[e]-##
 
 [msg OMIKUJI_MONEY_NG]
-[s]> У тебя нет 100 иен.[n][w][e]
+[s]> У тебя нет 100 йен.[n][w][e]
 ##-[s]> You don't have 100 yen.[n][w][e]-##
 
 [msg OMIKUJI_COMMU_CHOOSE]
@@ -506,7 +506,7 @@
 [s]Отменить[e]
 ##-[s]Cancel[e]-##
 
-[sel OMIKUJI_COMMUSEL_8_2 top]
+[sel OMIKUJI_COMMUSEL_8 top]
 [s]Книжный магазин Пожилая Пара[e]
 ##-[s]Bookstore Old Couple[e]-##
 [s]Молодая Девушка Майко[e]
@@ -595,7 +595,7 @@
 [msg OMIKUJI_CHUKITI_2]
 [s]> ......?[n][w][e]
 ##-[s]> ......?[n][w][e]-##
-[s]> Вы только что нашли 1000 иен![n][w][e]
+[s]> Вы только что нашли 1000 йен![n][w][e]
 ##-[s]> You just found 1,000 yen![n][w][e]-##
 
 [msg OMIKUJI_SHOKITI]
@@ -607,7 +607,7 @@
 [msg OMIKUJI_SHOKITI_2]
 [s]> ......?[n][w][e]
 ##-[s]> ......?[n][w][e]-##
-[s]> Вы только что нашли 500 иен![n][w][e]
+[s]> Вы только что нашли 500 йен![n][w][e]
 ##-[s]> You just found 500 yen![n][w][e]-##
 
 [msg OMIKUJI_KYO]
@@ -619,7 +619,7 @@
 [msg OMIKUJI_KYO_2]
 [s]> ......?[n][w][e]
 ##-[s]> ......?[n][w][e]-##
-[s]> 1000 иен просто выпали из вашего кармана[n]и улетучились![n][w][e]
+[s]> 1000 йен просто выпали из вашего кармана[n]и улетучились![n][w][e]
 ##-[s]> 1,000 yen just fell out of your[n]pocket and blew away![n][w][e]-##
 
 [msg OMIKUJI_DAIKYO]
@@ -633,7 +633,7 @@
 [msg OMIKUJI_DAIKYO_2]
 [s]> ......?[n][w][e]
 ##-[s]> ......?[n][w][e]-##
-[s]> 5000 иен просто выпали из вашего кармана[n]и улетучились![n][w][e]
+[s]> 5000 йен просто выпали из вашего кармана[n]и улетучились![n][w][e]
 ##-[s]> 5,000 yen just fell out of your[n]pocket and blew away![n][w][e]-##
 
 [msg OMIKUJI_DAIKYO_3]
@@ -665,7 +665,7 @@
 [msg OMIKUJI_DAIKITI_2]
 [s]> ......?[n][w][e]
 ##-[s]> ......?[n][w][e]-##
-[s]> Вы только что нашли 10 000 иен![n][w][e]
+[s]> Вы только что нашли 10 000 йен![n][w][e]
 ##-[s]> You just found 10,000 yen![n][w][e]-##
 
 [msg OMIKUJI_DAIKITI_3]
@@ -703,7 +703,7 @@
 ##-[s]> Would you like to leave a donation?[n][w][e]-##
 
 [sel OFFERING_SEL top]
-[s]Вставьте 100 иен[e]
+[s]Вставьте 100 йен[e]
 ##-[s]Insert 100 yen[e]-##
 [s]Вспомните, как это работает[e]
 ##-[s]Recall how it works[e]-##

@@ -81,35 +81,35 @@
 ##-[s]> Right now, the games available[n]to play are...[n][w][e]-##
 
 [sel GAMEC_CHOICE_SEL01 top]
-[s]Клуб печати - 1500 иен[e]
+[s]Клуб печати - 1500 йен[e]
 ##-[s]Print Club - 1,500 yen[e]-##
-[s]Боксерская груша - 2000 иен[e]
+[s]Боксерская груша - 2000 йен[e]
 ##-[s]Punching Bag - 2,000 yen[e]-##
 [s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel GAMEC_CHOICE_SEL02 top]
-[s]Дом ужасов - 3000 иен[e]
+[s]Дом ужасов - 3000 йен[e]
 ##-[s]Horror House - 3,000 yen[e]-##
-[s]Ловцы кротов - 2000 иен[e]
+[s]Ловцы кротов - 2000 йен[e]
 ##-[s]Mole Whackers - 2,000 yen[e]-##
 [s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel GAMEC_CHOICE_SEL03 top]
-[s]Викторина - 3000 иен[e]
+[s]Викторина - 3000 йен[e]
 ##-[s]Quiz Game - 3,000 yen[e]-##
-[s]Счастливая удача - 2000 иен[e]
+[s]Счастливая удача - 2000 йен[e]
 ##-[s]Lucky Fortune - 2,000 yen[e]-##
 [s]Уйти[e]
 ##-[s]Leave[e]-##
 
 [sel GAMEC_CHOICE_SEL04 top]
-[s]Боксерская груша - 2000 иен[e]
+[s]Боксерская груша - 2000 йен[e]
 ##-[s]Punching Bag - 2,000 yen[e]-##
-[s]Ловцы кротов - 2000 иен[e]
+[s]Ловцы кротов - 2000 йен[e]
 ##-[s]Mole Whackers - 2,000 yen[e]-##
-[s]Счастливая удача - 2000 иен[e]
+[s]Счастливая удача - 2000 йен[e]
 ##-[s]Lucky Fortune - 2,000 yen[e]-##
 [s]Уйти[e]
 ##-[s]Leave[e]-##
@@ -215,7 +215,7 @@
 ##-[s]> It's a crane game.[n][w][e]-##
 [s]> Одним из призов является [f 4 4 3 0 1372].[n][w][e]
 ##-[s]> One of the prizes is a [f 4 4 3 0 1372].[n][w][e]-##
-[s]> Одна игра стоит 200 иен. Хотите[n]попробовать?            (Деньги: [clr 1][f 2 4 1] иена[clr 0])[n][w][e]
+[s]> Одна игра стоит 200 йен. Хотите[n]попробовать?            (Деньги: [clr 1][f 2 4 1] йен[clr 0])[n][w][e]
 ##-[s]> It costs 200 yen to play. Will you[n]give it a try?[n]           (Money: [clr 1][f 2 4 1] yen[clr 0])[n][w][e]-##
 
 [msg UFO_CATHER_02]
@@ -223,7 +223,7 @@
 ##-[s]> It's a crane game.[n][w][e]-##
 [s]> Одним из призов является [f 4 4 3 0 1375].[n][w][e]
 ##-[s]> One of the prizes is a [f 4 4 3 0 1375].[n][w][e]-##
-[s]> Игра стоит 200 иен. Хотите[n]попробовать?            (Деньги: [clr 1][f 2 4 1] иена[clr 0])[n][w][e]
+[s]> Игра стоит 200 йен. Хотите[n]попробовать?            (Деньги: [clr 1][f 2 4 1] йен[clr 0])[n][w][e]
 ##-[s]> It costs 200 yen to play. Will you[n]give it a try?[n]           (Money: [clr 1][f 2 4 1] yen[clr 0])[n][w][e]-##
 
 [msg UFO_CATHER_CONTINUE]
@@ -261,7 +261,7 @@
 ##-[s]> Mandragora...[n][w][e]-##
 
 [msg KARAOKE_MENU [Меню]]
-[s]"Соло в караоке - 800 иен"[n][w][e]
+[s]"Соло в караоке - 800 йен[n][w][e]
 ##-[s]"Karaoke Solo - 800 yen"[n][w][e]-##
 [s]"Не стесняйся... Пой во всё горло!"[n][w][e]
 ##-[s]"Don't be shy... Belt it out!"[n][w][e]-##
@@ -427,7 +427,7 @@
 ##-[s][bup 16 161 0 2]Welcome to the Velvet Room. I have[n]something important to tell you today.[n][w][e]-##
 [s]Меня попросили проинформировать вас о[n][clr 2]компендиуме Персон[clr 0].[n][w][e]
 ##-[s]I've been asked to inform you about[n]the [clr 2]Persona Compendium[clr 0].[n][w][e]-##
-[s]Вы можете зарегистрировать любую из своих[n]Персон в этой книге, ]и за определенную[n]плату вы можете отозвать их в любое время.[n][w][e]
+[s]Вы можете зарегистрировать любую из своих[n]Персон в этой книге,[n]и за определенную[n]плату вы можете отозвать их в любое время.[n][w][e]
 ##-[s]You may register any of your Personas[n]in this book, and for a fee, you can[n]withdraw them at any time.[n][w][e]-##
 [s]Пожалуйста, поговорите со мной, чтобы[n]просмотреть компендиум.[n][w][e]
 ##-[s]Please speak with me to view the[n]compendium.[n][w][e]-##
@@ -439,7 +439,7 @@
 ##-[s][bup 16 161 0 2]Welcome to the Velvet Room. I have[n]something important to tell you today.[n][w][e]-##
 [s]Меня попросили проинформировать вас о[n][clr 2]компендиум Персон[clr 0].[n][w][e]
 ##-[s]I've been asked to inform you about[n]the [clr 2]Persona Compendium[clr 0].[n][w][e]-##
-[s]Вы можете зарегистрировать любую из своих[n]Персон в этой книге, ]и за определенную[n]плату вы можете отозвать их в любое время.[n][w][e]
+[s]Вы можете зарегистрировать любую из своих[n]Персон в этой книге,[n]и за определенную[n]плату вы можете отозвать их в любое время.[n][w][e]
 ##-[s]You may register any of your Personas[n]in this book, and for a fee, you can[n]withdraw them at any time.[n][w][e]-##
 [s]Пожалуйста, поговорите со мной, чтобы[n]просмотреть компендиум.[n][w][e]
 ##-[s]Please speak with me to view the[n]compendium.[n][w][e]-##
@@ -739,7 +739,7 @@
 ##-[s]> Chagall Cafe...[n][w][e]-##
 
 [msg COFFEE_MENU [Меню]]
-[s]"Кофе с феромонами - 500 иен"[n][w][e]
+[s]"Кофе с феромонами - 500 йен[n][w][e]
 ##-[s]"Pheromone Coffee - 500 yen"[n][w][e]-##
 [s]"Очаровательный аромат, который пробуждает[n]ваше очарование".[n][w][e]
 ##-[s]"A charming flavor that will turn on[n]your charm."[n][w][e]-##
@@ -843,7 +843,7 @@
 ##-[s]> Obtained [f 2 4 1] [f 2 5 3 13 0].[n][w][e]-##
 
 [msg SISSOU_MONEY [ ]]
-[s]> Получено [f 2 4 0] иена.[n][w][e]
+[s]> Получено [f 2 4 0] йен.[n][w][e]
 ##-[s]> Obtained [f 2 4 0] yen.[n][w][e]-##
 
 [msg SISSOU_MAIKO_MAX [Officer Kurosawa]]
@@ -861,7 +861,7 @@
 ##-[s]> Healing Shop, Be Blue V...[n][w][e]-##
 
 [msg ACCE_MENU [Меню]]
-[s]Наша специальная программа стоимостью 3000[n]иен отправит вас на небеса![n][w][e]
+[s]Наша специальная программа стоимостью 3000[n]йен отправит вас на небеса![n][w][e]
 ##-[s]Our special 3,000-yen program will[n]send you to heaven![n][w][e]-##
 [s]Любой "Уставший" почувствует себя лучше, и[n]любой, с кем все в порядке, будет[n]чувствовать себя "Отлично"![n][w][e]
 ##-[s]Anyone "Tired" will feel better, and[n]anyone all right will feel "Great"![n][w][e]-##
@@ -906,4 +906,4 @@
 [s]Вы можете улучшить своё здоровье здесь.[n][w][e]
 ##-[s]Your health can be improved here.[n][w][e]-##
 [s]Кроме того, вы можете работать здесь[n]неполный рабочий день после школы и после[n]полудня с понедельника по[n]пятницу.[n][w][e]
-##-[s]Also, you can work part-time here after[n]school or during the afternoon on[n]Monday through Friday.[n][w][e]-## 
+##-[s]Also, you can work part-time here after[n]school or during the afternoon on[n]Monday through Friday.[n][w][e]-##
