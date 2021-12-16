@@ -16,11 +16,11 @@
 [s]Было бы нехорошо, если бы мы тоже слишком[n]выделялись. Это очень сложно...[n][w][e]
 ##-[s]It wouldn't be good if we stood out too[n]much, either. This is difficult...[n][w][e]-##
 
-[msg MSG_1N_NPC002_01 [Парень студент]]
+[msg MSG_1N_NPC002_01 [Парень школьник]]
 [s]Если бы я знал, что мы будем заперты в[n]наших комнатах, я бы захватил с собой[n]несколько настольных игр...[n][w][e]
 ##-[s]If I knew we'd be trapped in our rooms,[n]I'd have brought some board games...[n][w][e]-##
 
-[msg MSG_1N_NPC003_01 [Парень студент]]
+[msg MSG_1N_NPC003_01 [Парень школьник]]
 [s]Все говорят, что завтра - обычный осмотр[n]достопримечательностей.[n][w][e]
 ##-[s]Everyone says tomorrow is the[n]ordinary sightseeing.[n][w][e]-##
 [s]Что в этом такого обычного...? Что ж, я[n]просто пойду следом и посмотрю сам.[n][w][e]
@@ -32,13 +32,13 @@
 [s]Я не знаю, что случилось, но пока она[n]чувствует себя лучше, я чувствую[n]облегчение.[n][w][e]
 ##-[s]I don't know what happened, but as long[n]as she's feeling better, I'm relieved.[n][w][e]-##
 
-[msg MSG_2N_NPC002_01 [Парень студент]]
+[msg MSG_2N_NPC002_01 [Парень школьник]]
 [s]Я так устал от поездок по святыням и всего[n]такого. Меня тошнит от всей этой[n]туристической чепухи...[n][w][e]
 ##-[s]I'm so tired of touring shrines and stuff.[n]I'm sick of this touristy stuff...[n][w][e]-##
 [s]*вздох* Я должен улизнуть позже, чтобы[n]сходить в аркаду...[n][w][e]
 ##-[s]*sigh* I should sneak out later to hit[n]the arcade...[n][w][e]-##
 
-[msg MSG_2N_NPC003_01 [Парень студент]]
+[msg MSG_2N_NPC003_01 [Парень школьник]]
 [s]Завтра последний день поездки... Я должен[n]найти другое место для осмотра[n]достопримечательностей.[n][w][e]
 ##-[s]Tomorrow's the last day of the trip...[n]I should find somewhere else to[n]sightsee.[n][w][e]-##
 
@@ -76,13 +76,13 @@
 [s][bup 13 22 0 0]Горячий источник так расслабляет...[n][w][e]
 ##-[s][bup 13 22 0 0]The hot spring is so relaxing...[n][w][e]-##
 
-[msg MSG_3N_NPC002_01 [Парень студент]]
+[msg MSG_3N_NPC002_01 [Парень школьник]]
 [s]Мне нужно как следует подготовиться к[n]экзаменам, когда я вернусь...[n][w][e]
 ##-[s]I've gotta study my ass off for[n]the exams when I get back...[n][w][e]-##
 [s]Вступительные экзамены в университет[n]состоятся менее чем через два месяца.[n]Соревнование вот-вот начнется.[n][w][e]
 ##-[s]The university entrance exams are in[n]less than two months. The competition's[n]about to begin.[n][w][e]-##
 
-[msg MSG_3N_NPC003_01 [Девушка студент]]
+[msg MSG_3N_NPC003_01 [Девушка школьник]]
 [s]* вздох*[n][w][e]
 ##-[s]*sigh*[n][w][e]-##
 [s]Зачем тебе понадобилось напоминать мне об[n]экзаменах...?[n][w][e]
@@ -90,7 +90,7 @@
 [s]Способ испортить настроение во время[n]поездки.[n][w][e]
 ##-[s]Way to kill the trip's mood.[n][w][e]-##
 
-[msg MSG_3N_NPC004_01 [Парень студент]]
+[msg MSG_3N_NPC004_01 [Парень школьник]]
 [s]Меня выгнали из моей комнаты, потому что я[n]раздражал своих соседей по комнате...[n][w][e]
 ##-[s]I was kicked out of my room because[n]I was annoying my roommates...[n][w][e]-##
 [s]Меня раздражает просто говорить об этом.[n]Когда я вернусь, я буду беспокоить их еще[n]больше, чем раньше.[n][w][e]

@@ -1,32 +1,32 @@
-[msg MSG_1N_NPC000_01 [Студент у раздвижной двери]]
+[msg MSG_1N_NPC000_01 [Школьник у раздвижной двери]]
 [s]Как получилось, что наша школьная поездка[n]проходит в Японии? Чувак, мы должны уехать[n]за границу, иначе в этом нет смысла![n][w][e]
 ##-[s]How come our school trip is inside[n]Japan? Dude, we've gotta go abroad[n]or there's no point![n][w][e]-##
 
-[msg MSG_1N_NPC001_01 [Студент у входа]]
+[msg MSG_1N_NPC001_01 [Школьник у входа]]
 [s]Я слышал, что это вина Экоды.[n][w][e]
 ##-[s]I hear it's Ekoda's fault.[n][w][e]-##
 [s]Все остальные учителя хотели уехать из[n]страны, но Экода настоял на Киото.[n][w][e]
 ##-[s]Every other teacher wanted to go[n]out of the country, but Ekoda[n]insisted on Kyoto.[n][w][e]-##
 
-[msg MSG_1N_NPC000_02 [Студент у раздвижной двери]]
+[msg MSG_1N_NPC000_02 [Школьник у раздвижной двери]]
 [s]Серьезно? Этот парень отстой...[n][w][e]
 ##-[s]Serious? That guy sucks...[n][w][e]-##
 
-[msg MSG_2N_NPC000_01 [Студент у раздвижной двери]]
+[msg MSG_2N_NPC000_01 [Школьник у раздвижной двери]]
 [s]Чувак, только потому, что он большой, не[n]значит, что ты должен в нем плавать.[n][w][e]
 ##-[s]Dude, just because it's big doesn't[n]mean you should swim in it.[n][w][e]-##
 
-[msg MSG_2N_NPC001_01 [Студент у входа]]
+[msg MSG_2N_NPC001_01 [Школьник у входа]]
 [s]Чувак, горячий источник здесь просто[n]огромен! Плавать вокруг так приятно.[n][w][e]
 ##-[s]Man, the hot spring out here is huge![n]Swimming around feels soooo good.[n][w][e]-##
 [s]Да! Один круг вниз![n][w][e]
 ##-[s]Yes! One lap down![n][w][e]-##
 
-[msg MSG_3N_NPC000_01 [Пареь студент]]
+[msg MSG_3N_NPC000_01 [Пареь школьник]]
 [s]Эй, не входи в мою комнату без моего[n]разрешения![n][w][e]
 ##-[s]H-Hey, don't come in my room[n]without my permission![n][w][e]-##
 
-[msg MSG_3N_NPC001_01 [Девущка студент]]
+[msg MSG_3N_NPC001_01 [Девушка школьник]]
 [s]Ммм... Могу я побыть наедине,[n]пожалуйста...?[n][w][e]
 ##-[s]Umm... Can I have some privacy,[n]please...?[n][w][e]-##
 

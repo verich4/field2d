@@ -1,10 +1,10 @@
-[msg MSG_1N_NPC000_01 [Девушка студент]]
+[msg MSG_1N_NPC000_01 [Девушка школьник]]
 [s]Некоторые люди думают, что посещение[n]святынь скучно, но я действительно с[n]нетерпением жду этого.[n][w][e]
 ##-[s]Some people think that visiting shrines[n]is boring, but I'm really looking[n]forward to it.[n][w][e]-##
 [s]Я собираюсь посетить святыни романтики и[n]много молиться.[n][w][e]
 ##-[s]I'm gonna go to romance shrines and[n]pray a lot.[n][w][e]-##
 
-[msg MSG_2N_NPC000_01 [Девушка студент]]
+[msg MSG_2N_NPC000_01 [Девушка школьник]]
 [s]Когда я пришела в храм романтики, там было[n]множество девушек, которые просто отчаянно[n]молились![n][w][e]
 ##-[s]When I went to the romance shrine,[n]there were loads and loads of girls[n]just praying desperately![n][w][e]-##
 [s]Я спросила, из-за чего весь сыр-бор, и[n]оказалось, что все они были фанатами[n]Акихико-семпая![n][w][e]
@@ -12,7 +12,7 @@
 [s]Обычно они злятся, если кто-то из них[n]делает подобное движение, но если бы они[n]все были там...[n][w][e]
 ##-[s]Normally, they get angry if one of them[n]makes a move like that, but if they[n]were all there...[n][w][e]-##
 
-[msg MSG_3N_NPC000_01 [Девушка студент]]
+[msg MSG_3N_NPC000_01 [Девушка школьник]]
 [s]Сегодня со мной разговаривал местный[n]парень.[n][w][e]
 ##-[s]A local guy talked to me today.[n][w][e]-##
 [s]Интересно, начинают ли мои молитвы в[n]святилище романтики оказывать действие![n][w][e]

@@ -25,7 +25,7 @@
 ##-[s][bup 6 203 0 0]It's dangerous to try it with so[n]few people![n][w][e]-##
 
 [msg ESCAPE_HUKA_LAST_FLORR [Фука]]
-[s][bup 6 204 0 0]Ты не хочешь пока вернуться ко входу?[n][w][e]
+[s][bup 6 204 0 0]Ты не хочешь вернуться ко входу?[n][w][e]
 ##-[s][bup 6 204 0 0]Do you want to go back to the entrance[n]for now?[n][w][e]-##
 
 [msg DONOTUSE_MESSAGE]

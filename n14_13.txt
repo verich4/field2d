@@ -1,16 +1,16 @@
-[msg MSG_1N_NPC000_01 [Девушка студент]]
+[msg MSG_1N_NPC000_01 [Девушка школьник]]
 [s]Я не могу позволить людям видеть меня без[n]макияжа...[n][w][e]
 ##-[s]I can't let people see me without[n]my makeup on...[n][w][e]-##
 [s]Мне придется подождать, пока все уснут,[n]прежде чем я сниму его.[n][w][e]
 ##-[s]I'll have to wait for everyone to go[n]to sleep before I take it off.[n][w][e]-##
 
-[msg MSG_2N_NPC000_01 [Девушка студент]]
+[msg MSG_2N_NPC000_01 [Девушка школьник]]
 [s]Сегодня утром я постаралась проснуться[n]раньше всех, чтобы сначала накраситься.[n][w][e]
 ##-[s]I made sure to wake up earlier than[n]anyone else this morning so I could[n]put my makeup on first.[n][w][e]-##
 [s]Я действительно не хочу, чтобы кто-нибудь[n]видел меня без него...[n][w][e]
 ##-[s]I really don't want anybody seeing[n]me without it...[n][w][e]-##
 
-[msg MSG_3N_NPC000_01 [Девушка студент]]
+[msg MSG_3N_NPC000_01 [Девушка школьник]]
 [s]Это были действительно тяжелые три дня, но[n]они почти закончились...[n][w][e]
 ##-[s]It's been a really rough three days,[n]but it's almost over...[n][w][e]-##
 [s]...А? О чем я говорю?[n][w][e]
@@ -18,7 +18,7 @@
 [s]Я говорю о том, чтобы никто не видел меня[n]без макияжа![n][w][e]
 ##-[s]I'm talking about trying to keep anyone[n]from seeing me without my makeup![n][w][e]-##
 
-[msg MSG_NPC000_FORMAN [Девушка студент]]
+[msg MSG_NPC000_FORMAN [Девушка школьник]]
 [s]Эй... Кстати, что ты делаешь в комнате[n]девушки?[n][w][e]
 ##-[s]Hey... What're you doing in a girl's[n]room, anyway?[n][w][e]-##
 

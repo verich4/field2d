@@ -1,13 +1,13 @@
 [msg MSG_4A_NPC000_01 [Teacher]]
-[s]Есть поговорка: "Тот, кто охотится за двумя[n]зайцами сразу, не поймает ни одного".[n][w][e]
+[s]Есть поговорка: "За двумя зайцами погонишся ни одного не поймаешь".[n][w][e]
 ##-[s]There's a saying, "He who hunts[n]two hares at once will catch[n]neither."[n][w][e]-##
-[s]Это означает, что такой студент, как ты,[n]который всегда пытается делать две вещи[n]одновременно, будет...[n][w][e]
+[s]Это означает, что такой школьник, как ты,[n]который всегда пытается делать две вещи[n]одновременно, будет...[n][w][e]
 ##-[s]That means a student like you[n]who's always trying to do two[n]things at once will...[n][w][e]-##
-[s]> Учитель продолжает ругать ученика...[n][f 1 4][e]
+[s]> Но учитель продолжает ругать ученика...[n][f 1 4][e]
 ##-[s]> The teacher continues to scold[n]the student...[n][f 1 4][e]-##
 
 [msg MSG_4A_NPC001_01 [Male Student]]
-[s]Похоже, он знает, что говорит, не так ли?[n]Хорошо, послушай это...[n][w][e]
+[s]Наверное, он знает, что говорит, не так ли?[n]Хорошо, послушай это...[n][w][e]
 ##-[s]He sounds like he knows what[n]he's saying, doesn't he?[n]Well, listen to this...[n][w][e]-##
 [s]В прошлом году он встречался с двумя[n]женщинами одновременно.[n][w][e]
 ##-[s]Last year, he was dating two women[n]at the same time.[n][w][e]-##
@@ -17,7 +17,7 @@
 ##-[s]And when they found out,[n]they both dumped him![n][w][e]-##
 
 [msg MSG_5A_NPC002_01 [Male Student]]
-[s]Ты видишь вон ту девушку? Я думаю, она[n]повсюду преследует меня.[n][w][e]
+[s]Ты видишь вон ту девушку? Мне кажется, она[n]повсюду преследует меня.[n][w][e]
 ##-[s]Do you see that girl over there?[n]I think she's following me around.[n][w][e]-##
 [s]Хмм... Как мне с этим бороться?[n][w][e]
 ##-[s]Hmm... How should I deal with this?[n][w][e]-##
@@ -33,7 +33,7 @@
 [msg MSG_5B_NPC004_01 [Male Student]]
 [s]Пока ты сдаешь экзамены, с тобой все будет[n]в порядке.[n][w][e]
 ##-[s]As long as you pass your exams,[n]you'll be fine.[n][w][e]-##
-[s]Я никогда не готовлюсь к экзаменам, потому[n]что я такой ленивый.[n][w][e]
+[s]Я никогда не готовлюсь к экзаменам, потому[n]что я ленивый.[n][w][e]
 ##-[s]I never study for my exams cuz[n]I'm so lazy.[n][w][e]-##
 
 [msg MSG_10A_NPC004_01 [Male Student]]
@@ -119,9 +119,9 @@
 ##-[s]And he busted out ANOTHER weird[n]medicine that I'd never seen before![n][w][e]-##
 
 [msg MSG_9A_NPC005_01 [Male Student]]
-[s]Я не очень хорошо себя чувствую, но ему[n]пришлось убежать на запасной урок...[n][w][e]
+[s]Я не очень хорошо себя чувствую, но ему[n]пришлось убежать на дополнительный урок...[n][w][e]
 ##-[s]I'm not feeling too good, but he[n]had to run off for a substitute[n]lesson...[n][w][e]-##
-[s]Во всяком случае, он никогда не давал мне[n]никаких лекарств, о которых я когда-либо[n]слышал...[n][w][e]
+[s]В любом случае, он никогда не давал мне[n]никаких лекарств, о которых я когда-либо[n]слышал...[n][w][e]
 ##-[s]Anyway, he never gives me any[n]medicine I ever heard of...[n][w][e]-##
 [s]Если я приму его, то могу заболеть. И если[n]я его не приму, он даст мне другую смесь.[n][w][e]
 ##-[s]If I take it, I might get sick.[n]And if I don't take it, he'll[n]give me this other concoction.[n][w][e]-##
@@ -129,11 +129,11 @@
 ##-[s]Why did I bother coming here...?[n][w][e]-##
 
 [msg MSG_11A_NPC005_01 [Male Student]]
-[s]Интересно, Эдогава-сенсей когда-нибудь[n]выдаст какое-нибудь нормальное лекарство?[n][w][e]
+[s]Интересно, учитель Эдогава когда-нибудь[n]выдаст какое-нибудь нормальное лекарство?[n][w][e]
 ##-[s]I wonder if Edogawa-sensei will ever[n]give out any normal medicine.[n][w][e]-##
 [s]Все, что он прописывает, в некотором роде[n]ненормально...[n][w][e]
 ##-[s]Everything he prescribes is abnormal[n]in some way...[n][w][e]-##
-[s]Эй, тебе не кажется, что Эдогава-сенсей и[n]Оуниши-сенсей составляют странную пару?[n][w][e]
+[s]Эй, тебе не кажется, что Это учетиля Эдогава и[n]Оуниши составляют странную пару?[n][w][e]
 ##-[s]Hey, don't you think Edogawa-sensei[n]and Ounishi-sensei make a weird pair?[n][w][e]-##
 [s]Они всегда ссорятся друг с другом... Но для[n]этих двоих это работает.[n][w][e]
 ##-[s]They always fight with each other...[n]But for those two, it works.[n][w][e]-##

@@ -1,24 +1,24 @@
-[msg MSG_1N_NPC000_01 [Девушка студент]]
+[msg MSG_1N_NPC000_01 [Девушка школьник]]
 [s]Интересно, с Мицуру-сан все будет в[n]порядке?.. В последнее время она была такой[n]подавленной.[n][w][e]
 ##-[s]I wonder if Mitsuru-san will be all[n]right... She's been so depressed lately.[n][w][e]-##
 
-[msg MSG_1N_NPC001_01 [Девушка студент]]
+[msg MSG_1N_NPC001_01 [Девушка школьник]]
 [s]Я тоже волнуюсь, но пока мы должны оставить[n]ее в покое. Наши попытки подбодрить ее не[n]помогут...[n][w][e]
 ##-[s]I'm worried too, but we should leave[n]her be for now. Us trying to cheer her[n]up won't help...[n][w][e]-##
 
-[msg MSG_1N_NPC000_02 [Девушка студент]]
+[msg MSG_1N_NPC000_02 [Девушка школьник]]
 [s]...Да, ты прав.[n][w][e]
 ##-[s]...Yeah, you're right.[n][w][e]-##
 [s]Тем не менее, там становится так тяжело,[n]что я не могу заставить себя говорить о[n]чем-либо...[n][w][e]
 ##-[s]Still, it's getting so heavy in there[n]that I can't bring myself to talk[n]about anything...[n][w][e]-##
 
-[msg MSG_2N_NPC000_01 [Девушка студент]]
+[msg MSG_2N_NPC000_01 [Девушка школьник]]
 [s]Мицуру-сан куда-то ушела. Минуту назад мимо[n]проходил младший.[n][w][e]
 ##-[s]Mitsuru-san went somewhere.[n]A junior came by a moment ago.[n][w][e]-##
 [s]Я думаю, ее звали Юкари-сан. Хотя я понятия[n]не имею, куда они вдвоем отправились.[n][w][e]
 ##-[s]I think her name was Yukari-san.[n]I have no idea where the two of[n]them went, though.[n][w][e]-##
 
-[msg MSG_2N_NPC001_01 [Девушка студент]]
+[msg MSG_2N_NPC001_01 [Девушка школьник]]
 [s]Завтра последняя ночь... Почему бы нам не[n]пробраться в комнаты парней?[n][w][e]
 ##-[s]Tomorrow's the last night... Why don't[n]we go sneak into the guys' rooms?[n][w][e]-##
 [s]Но мы не можем позволить Экоде поймать[n]нас...[n][w][e]
